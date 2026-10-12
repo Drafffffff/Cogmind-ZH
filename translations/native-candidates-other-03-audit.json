@@ -1,0 +1,1300 @@
+{
+  "description": "对 other-01/02 未决项的独立审计。high仅用于同一xref调用链证明完整拼接并确认消息路径的候选。",
+  "evidence_policy": "不从其他位置的相似文本推断当前分支缺失的句界；无法证明则继续标未决。",
+  "entries": [
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x7532e2"
+      ],
+      "raw_template": "ALERT: Derelict incursion at {*}, dispatching Demolisher response squad.",
+      "source": "ALERT: Derelict incursion at {*}, dispatching Demolisher response squad.",
+      "translation": "遗民入侵：{*}，派遣拆毁者应对小队。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ALERT: Derelict incursion at ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "location string selected from this alert branch"
+        },
+        {
+          "type": "literal",
+          "text": ", dispatching Demolisher response squad.",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/7532e2.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "7532e2: 68 70 41 bf 00               \tpush\t0xbf4170 ; TEXT 0xbf4170=\"ALERT: Derelict incursion at \""
+        },
+        {
+          "line": 117,
+          "instruction": "75332f: e8 fc b5 27 00               \tcall\t0x9ce930 <PHYSFSRWOPS_openAppend+0x5caea0>"
+        },
+        {
+          "line": 131,
+          "instruction": "753372: e8 79 b5 27 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 147,
+          "instruction": "7533c9: 81 c1 34 02 00 00            \tadd\tecx, 0x234"
+        },
+        {
+          "line": 266,
+          "instruction": "7535d8: e8 f3 ec db ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x5122d0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。捕获前后标点严格依据当前分支字面量；译文词汇按术语表修正。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x758808"
+      ],
+      "raw_template": "Established visual feed link with {*}",
+      "source": "Established visual feed link with {*}",
+      "translation": "已建立与{*}的视觉信号连接",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Established visual feed link with ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "selected target/device name"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/758808.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "758808: 68 80 43 bf 00               \tpush\t0xbf4380 ; TEXT 0xbf4380=\"Established visual feed link with \""
+        },
+        {
+          "line": 104,
+          "instruction": "758814: e8 17 60 27 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 130,
+          "instruction": "75887e: e8 4d 9a db ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x5122d0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。前缀在VA 0xbf4380末尾有空格，目标捕获后无标点literal或追加调用，故source与译文不加句号。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x76b379"
+      ],
+      "raw_template": "ANNOUNCEMENT: Warlord currently on {*} approach. All units hit designated targets.",
+      "source": "ANNOUNCEMENT: Warlord currently on {*} approach. All units hit designated targets.",
+      "translation": "公告：军阀正沿{*}逼近。全体单位攻击指定目标。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ANNOUNCEMENT: Warlord currently on ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "Warlord approach location string"
+        },
+        {
+          "type": "literal",
+          "text": " approach. All units hit designated targets.",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/76b379.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "76b379: 68 40 61 bf 00               \tpush\t0xbf6140 ; TEXT 0xbf6140=\"ANNOUNCEMENT: Warlord currently on \""
+        },
+        {
+          "line": 104,
+          "instruction": "76b385: e8 26 34 26 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "76b3a3: 68 10 61 bf 00               \tpush\t0xbf6110 ; TEXT 0xbf6110=\" approach. All units hit designated targets.\""
+        },
+        {
+          "line": 115,
+          "instruction": "76b3b6: e8 35 35 26 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x5122d0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x76c7bf"
+      ],
+      "raw_template": "ANNOUNCEMENT: Unaware assault squad dispatched in {*} quadrant.",
+      "source": "ANNOUNCEMENT: Unaware assault squad dispatched in {*} quadrant.",
+      "translation": "公告：无觉者突击小队已派往{*}象限。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ANNOUNCEMENT: Unaware assault squad dispatched in ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "selected compass quadrant"
+        },
+        {
+          "type": "literal",
+          "text": " quadrant.",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/76c7bf.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "76c7bf: 68 60 63 bf 00               \tpush\t0xbf6360 ; TEXT 0xbf6360=\"ANNOUNCEMENT: Unaware assault squad dispatched in \""
+        },
+        {
+          "line": 104,
+          "instruction": "76c7cb: e8 60 20 26 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 110,
+          "instruction": "76c7e9: 68 54 63 bf 00               \tpush\t0xbf6354 ; TEXT 0xbf6354=\" quadrant.\""
+        },
+        {
+          "line": 145,
+          "instruction": "76c861: e8 6a 5a da ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x5122d0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。句末句号来自VA 0xbf6354 literal \" quadrant.\"，由0x76c7e9 push后0x9ce8f0追加。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x76f4cd"
+      ],
+      "raw_template": "SPECIAL: For the next {n} turns your loot boxes might contain... {*}!",
+      "source": "SPECIAL: For the next {n} turns your loot boxes might contain... {*}!",
+      "translation": "特别效果：接下来{n}回合，战利品箱可能开出……{*}！",
+      "components": [
+        {
+          "type": "literal",
+          "text": "SPECIAL: For the next ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "n",
+          "origin": "turn count"
+        },
+        {
+          "type": "literal",
+          "text": " turns your loot boxes might contain... ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "reward payload assembled through 0x9ceb60"
+        },
+        {
+          "type": "literal",
+          "text": "!",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/76f4cd.asm",
+      "assembly_lines": [
+        {
+          "line": 92,
+          "instruction": "76f4a3: 68 18 69 bf 00               \tpush\t0xbf6918 ; TEXT 0xbf6918=\"SPECIAL: For the next \""
+        },
+        {
+          "line": 95,
+          "instruction": "76f4af: e8 fc f2 25 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 101,
+          "instruction": "76f4cd: 68 ec 68 bf 00               \tpush\t0xbf68ec ; TEXT 0xbf68ec=\" turns your loot boxes might contain... \""
+        },
+        {
+          "line": 125,
+          "instruction": "76f529: e8 32 f6 25 00               \tcall\t0x9ceb60 <PHYSFSRWOPS_openAppend+0x5cb0d0>"
+        },
+        {
+          "line": 131,
+          "instruction": "76f547: 68 e8 68 bf 00               \tpush\t0xbf68e8 ; TEXT 0xbf68e8=\"!\""
+        },
+        {
+          "line": 165,
+          "instruction": "76f5ce: e8 fd 2c da ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ceb60",
+        "0x5122d0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x779df0"
+      ],
+      "raw_template": "Unlike other parts in RPGLIKE mode that transfer {n}% of incoming damage to your core, all Armor type parts instead transfer only {n}%.",
+      "source": "Unlike other parts in RPGLIKE mode that transfer {n}% of incoming damage to your core, all Armor type parts instead transfer only {n}%.",
+      "translation": "与角色扮演模式下其他会将{n}%伤害转移至核心的部件不同，所有装甲类部件只转移{n}%。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Unlike other parts in RPGLIKE mode that transfer ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "n",
+          "origin": "core damage percentage"
+        },
+        {
+          "type": "literal",
+          "text": "% of incoming damage to your core, all Armor type parts instead transfer only ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "n",
+          "origin": "Armor transfer percentage"
+        },
+        {
+          "type": "literal",
+          "text": "%.",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/779df0.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "779df0: 68 88 6d bf 00               \tpush\t0xbf6d88 ; TEXT 0xbf6d88=\"Unlike other parts in RPGLIKE mode that transfer \""
+        },
+        {
+          "line": 104,
+          "instruction": "779df9: e8 b2 49 25 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "779e17: 68 38 6d bf 00               \tpush\t0xbf6d38 ; TEXT 0xbf6d38=\"% of incoming damage to your core, all Armor type parts instead transfer only \""
+        },
+        {
+          "line": 127,
+          "instruction": "779e5a: e8 d1 4a 25 00               \tcall\t0x9ce930 <PHYSFSRWOPS_openAppend+0x5caea0>"
+        },
+        {
+          "line": 133,
+          "instruction": "779e78: 68 34 6d bf 00               \tpush\t0xbf6d34 ; TEXT 0xbf6d34=\"%.\""
+        },
+        {
+          "line": 138,
+          "instruction": "779e8b: e8 60 4a 25 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x779fcf"
+      ],
+      "raw_template": "Unlike other parts in BattleRoyale mode that transfer {n}% of incoming damage to your core, all Armor type parts instead transfer only {n}%.",
+      "source": "Unlike other parts in BattleRoyale mode that transfer {n}% of incoming damage to your core, all Armor type parts instead transfer only {n}%.",
+      "translation": "与大逃杀模式下其他会将{n}%伤害转移至核心的部件不同，所有装甲类部件只转移{n}%。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Unlike other parts in BattleRoyale mode that transfer ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "n",
+          "origin": "core damage percentage"
+        },
+        {
+          "type": "literal",
+          "text": "% of incoming damage to your core, all Armor type parts instead transfer only ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "n",
+          "origin": "Armor transfer percentage"
+        },
+        {
+          "type": "literal",
+          "text": "%.",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/779fcf.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "779fcf: 68 10 6e bf 00               \tpush\t0xbf6e10 ; TEXT 0xbf6e10=\"Unlike other parts in BattleRoyale mode that transfer \""
+        },
+        {
+          "line": 104,
+          "instruction": "779fdb: e8 d0 47 25 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "779ff9: 68 c0 6d bf 00               \tpush\t0xbf6dc0 ; TEXT 0xbf6dc0=\"% of incoming damage to your core, all Armor type parts instead transfer only \""
+        },
+        {
+          "line": 127,
+          "instruction": "77a03f: e8 ec 48 25 00               \tcall\t0x9ce930 <PHYSFSRWOPS_openAppend+0x5caea0>"
+        },
+        {
+          "line": 133,
+          "instruction": "77a05d: 68 bc 6d bf 00               \tpush\t0xbf6dbc ; TEXT 0xbf6dbc=\"%.\""
+        },
+        {
+          "line": 138,
+          "instruction": "77a070: e8 7b 48 25 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x9394d9"
+      ],
+      "raw_template": "ALERT: Suspicious activity reported at {*}. Dispatching Cutter search squad to Garrison.",
+      "source": "ALERT: Suspicious activity reported at {*}. Dispatching Cutter search squad to Garrison.",
+      "translation": "警报：{*}报告可疑活动。派遣切割者搜索小队前往驻防站。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ALERT: Suspicious activity reported at ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "reported location string"
+        },
+        {
+          "type": "literal",
+          "text": ". Dispatching Cutter search squad to Garrison.",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9394d9.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9394d9: 68 a0 de c0 00               \tpush\t0xc0dea0 ; TEXT 0xc0dea0=\"ALERT: Suspicious activity reported at \""
+        },
+        {
+          "line": 104,
+          "instruction": "9394e5: e8 c6 52 09 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "939503: 68 70 de c0 00               \tpush\t0xc0de70 ; TEXT 0xc0de70=\". Dispatching Cutter search squad to Garrison.\""
+        },
+        {
+          "line": 115,
+          "instruction": "939516: e8 d5 53 09 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 148,
+          "instruction": "93958a: e8 41 8d bd ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x5122d0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。捕获前后标点严格依据当前分支字面量；译文词汇按术语表修正。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x951943"
+      ],
+      "raw_template": "Re-established visual feed link, T-{n} until cutoff.",
+      "source": "Re-established visual feed link, T-{n} until cutoff.",
+      "translation": "已重新建立视觉信号连接，距中断还有T-{n}。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Re-established visual feed link, T-",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "n",
+          "origin": "remaining turns"
+        },
+        {
+          "type": "literal",
+          "text": " until cutoff.",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/951943.asm",
+      "assembly_lines": [
+        {
+          "line": 92,
+          "instruction": "951919: 68 34 fe c0 00               \tpush\t0xc0fe34 ; TEXT 0xc0fe34=\"Re-established visual feed link, T-\""
+        },
+        {
+          "line": 95,
+          "instruction": "951925: e8 86 ce 07 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 101,
+          "instruction": "951943: 68 24 fe c0 00               \tpush\t0xc0fe24 ; TEXT 0xc0fe24=\" until cutoff.\""
+        },
+        {
+          "line": 106,
+          "instruction": "951956: e8 95 cf 07 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 129,
+          "instruction": "9519ac: e8 1f 09 bc ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x5122d0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x951a75"
+      ],
+      "raw_template": "Established visual feed link, T-{n} until cutoff.",
+      "source": "Established visual feed link, T-{n} until cutoff.",
+      "translation": "已建立视觉信号连接，距中断还有T-{n}。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Established visual feed link, T-",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "n",
+          "origin": "remaining turns"
+        },
+        {
+          "type": "literal",
+          "text": " until cutoff.",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/951a75.asm",
+      "assembly_lines": [
+        {
+          "line": 92,
+          "instruction": "951a4b: 68 68 fe c0 00               \tpush\t0xc0fe68 ; TEXT 0xc0fe68=\"Established visual feed link, T-\""
+        },
+        {
+          "line": 95,
+          "instruction": "951a57: e8 54 cd 07 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 101,
+          "instruction": "951a75: 68 58 fe c0 00               \tpush\t0xc0fe58 ; TEXT 0xc0fe58=\" until cutoff.\""
+        },
+        {
+          "line": 106,
+          "instruction": "951a88: e8 63 ce 07 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 129,
+          "instruction": "951ade: e8 ed 07 bc ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x5122d0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x956b16"
+      ],
+      "raw_template": "If only there was a way to {*}.",
+      "source": "If only there was a way to {*}.",
+      "translation": "要是有办法能{*}就好了。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "If only there was a way to ",
+          "origin": "exact literal string in this xref call chain"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "selected dialogue objective"
+        },
+        {
+          "type": "literal",
+          "text": ".",
+          "origin": "exact literal string in this xref call chain"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/956b16.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "956b16: 68 f0 09 c1 00               \tpush\t0xc109f0 ; TEXT 0xc109f0=\"If only there was a way to \""
+        },
+        {
+          "line": 104,
+          "instruction": "956b22: e8 89 7c 07 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "956b40: 68 ec 09 c1 00               \tpush\t0xc109ec ; TEXT 0xc109ec=\".\""
+        },
+        {
+          "line": 115,
+          "instruction": "956b53: e8 98 7d 07 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "捕获变量含义记于components.origin，source仅使用引擎支持的{*}/{n}。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x5583c0"
+      ],
+      "raw_fragment": "{*} twisted beyond recognition.",
+      "source": "{*} twisted beyond recognition.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x5583d2"
+      ],
+      "raw_fragment": "{*} containment failure.",
+      "source": "{*} containment failure.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x57e983"
+      ],
+      "raw_fragment": "{*} releases a shadow of itself that zips off towards {*}.",
+      "source": "{*} releases a shadow of itself that zips off towards {*}.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x57eb23"
+      ],
+      "raw_fragment": "Shadow retroactively draws in {*}.",
+      "source": "Shadow retroactively draws in {*}.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x5a98f8",
+        "0x63626d"
+      ],
+      "raw_fragment": "ANNOUNCEMENT: Tunneling progress halted along {*} route. {*} no longer operational.",
+      "source": "ANNOUNCEMENT: Tunneling progress halted along {*} route. {*} no longer operational.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x5bfa1b"
+      ],
+      "raw_fragment": "{*} unable to find more targets on {*}.",
+      "source": "{*} unable to find more targets on {*}.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x5c32cb",
+        "0x5c3437"
+      ],
+      "raw_fragment": "{*} reports that hacking {*} is no longer safe.",
+      "source": "{*} reports that hacking {*} is no longer safe.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x6799d2"
+      ],
+      "raw_fragment": "ALERT: Unidentified disturbance in Zone {*} , {*} , {*}",
+      "source": "ALERT: Unidentified disturbance in Zone {*} , {*} , {*}",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x679a48"
+      ],
+      "raw_fragment": "ALERT: Significant disruption in Zone {*} , {*} , {*}",
+      "source": "ALERT: Significant disruption in Zone {*} , {*} , {*}",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x67a8c7"
+      ],
+      "raw_fragment": "ALERT: Active scanning activity reported from Zone {*} , dispatching {*} squad.",
+      "source": "ALERT: Active scanning activity reported from Zone {*} , dispatching {*} squad.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-01",
+      "covers_xrefs": [
+        "0x6955eb"
+      ],
+      "raw_fragment": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of {*} .",
+      "source": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of {*} .",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6b0509"
+      ],
+      "raw_fragment": "X0-1V1 smiles upon you. (Received ",
+      "source": "X0-1V1 smiles upon you. (Received",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6b21f4"
+      ],
+      "raw_fragment": " to go sit in the corner.\"",
+      "source": "to go sit in the corner.\"",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6b55f1"
+      ],
+      "raw_fragment": " caught in stasis.",
+      "source": "caught in stasis.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6b6f32"
+      ],
+      "raw_fragment": " system corruption)\"",
+      "source": "system corruption)\"",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6b701f"
+      ],
+      "raw_fragment": " system corruption).",
+      "source": "system corruption).",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6b77b1"
+      ],
+      "raw_fragment": " of your inventory parts (corrupted).",
+      "source": "of your inventory parts (corrupted).",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6b7a96"
+      ],
+      "raw_fragment": " sight range).",
+      "source": "sight range).",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6b8a52"
+      ],
+      "raw_fragment": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+      "source": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x6baafa"
+      ],
+      "raw_fragment": "X0-1V1: \"I may have passed a hint to a nearby ",
+      "source": "X0-1V1: \"I may have passed a hint to a nearby",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x743b0c"
+      ],
+      "raw_fragment": " hacked open.",
+      "source": "hacked open.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x744695"
+      ],
+      "raw_fragment": " inbound, all units not involved in other operations escort to target.",
+      "source": "inbound, all units not involved in other operations escort to target.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x7460e8"
+      ],
+      "raw_fragment": " buries itself in the floor.",
+      "source": "buries itself in the floor.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x746366"
+      ],
+      "raw_fragment": " targets ready for detonation.",
+      "source": "targets ready for detonation.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x76b6fe"
+      ],
+      "raw_fragment": " to Cogmind's location.",
+      "source": "to Cogmind's location.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x783073"
+      ],
+      "raw_fragment": " effective code value to all Relay Couplers.",
+      "source": "effective code value to all Relay Couplers.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x783953"
+      ],
+      "raw_fragment": " more turns before they can pinpoint your position for dispatching.",
+      "source": "more turns before they can pinpoint your position for dispatching.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x783b7e"
+      ],
+      "raw_fragment": " while at least one Relay Coupler [NC] attached.",
+      "source": "while at least one Relay Coupler [NC] attached.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x784438"
+      ],
+      "raw_fragment": "ANNOUNCEMENT: Welcome to our newest member, ",
+      "source": "ANNOUNCEMENT: Welcome to our newest member,",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x79acb1"
+      ],
+      "raw_fragment": " stockpile data.",
+      "source": "stockpile data.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x7ac1a9"
+      ],
+      "raw_fragment": " materializes via a weapon slot.",
+      "source": "materializes via a weapon slot.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x82f384"
+      ],
+      "raw_fragment": " ripped apart by twisting subspace fabric.",
+      "source": "ripped apart by twisting subspace fabric.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x8f753c"
+      ],
+      "raw_fragment": " sort of build. As for the details...",
+      "source": "sort of build. As for the details...",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x8f76cd"
+      ],
+      "raw_fragment": "Impressive surplus mass support. Even if you were to lose some ",
+      "source": "Impressive surplus mass support. Even if you were to lose some",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x8f76f7"
+      ],
+      "raw_fragment": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "source": "support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x8f798a"
+      ],
+      "raw_fragment": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "source": "speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x8f7e02"
+      ],
+      "raw_fragment": " looks a bit greedy.",
+      "source": "looks a bit greedy.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x9216e8"
+      ],
+      "raw_fragment": " rendered useless by plates shifting to reveal entrance.",
+      "source": "rendered useless by plates shifting to reveal entrance.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x928521"
+      ],
+      "raw_fragment": "\n  Acceleration Regulator",
+      "source": "Acceleration Regulator",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x9341ca"
+      ],
+      "raw_fragment": " Support from the recent Fedlink buildup ",
+      "source": "Support from the recent Fedlink buildup",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x934207"
+      ],
+      "raw_fragment": "is limited, but with our capabilities exposed it's now or never.",
+      "source": "is limited, but with our capabilities exposed it's now or never.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x934220"
+      ],
+      "raw_fragment": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "source": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x934239"
+      ],
+      "raw_fragment": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "source": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x93426b"
+      ],
+      "raw_fragment": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "source": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x934284"
+      ],
+      "raw_fragment": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "source": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x93738b"
+      ],
+      "raw_fragment": " rendered useless by plates shifting to reveal entrance.",
+      "source": "rendered useless by plates shifting to reveal entrance.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x937397"
+      ],
+      "raw_fragment": " rendered useless by seal.",
+      "source": "rendered useless by seal.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x9373a7"
+      ],
+      "raw_fragment": " rendered useless by plates shifting to reveal entrance.",
+      "source": "rendered useless by plates shifting to reveal entrance.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x951e9d"
+      ],
+      "raw_fragment": " to completion.",
+      "source": "to completion.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x957089"
+      ],
+      "raw_fragment": "while I steal that schematic before they can even call for help.",
+      "source": "while I steal that schematic before they can even call for help.",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x9571a1"
+      ],
+      "raw_fragment": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "source": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x957239"
+      ],
+      "raw_fragment": "intercept whatever it can find, and the data will also feed back",
+      "source": "intercept whatever it can find, and the data will also feed back",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x957285"
+      ],
+      "raw_fragment": "to me here for my wiki so we can all benefit!",
+      "source": "to me here for my wiki so we can all benefit!",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    },
+    {
+      "scope": "other-02",
+      "covers_xrefs": [
+        "0x9574cc"
+      ],
+      "raw_fragment": "If the Merchants find out I took this prototype before it was finished,",
+      "source": "If the Merchants find out I took this prototype before it was finished,",
+      "translation": null,
+      "confidence": "unresolved",
+      "status": "unresolved_boundary_or_sink",
+      "notes": "本次未能从同一xref调用链证明完整句界及面向玩家的消息sink，保留未决，不据相似字符串猜补。"
+    }
+  ]
+}

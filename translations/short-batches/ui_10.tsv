@@ -1,0 +1,300 @@
+[Achievement: I Have A Map?]	[成就：我有地图？]
+[Achievement: It's Just You]	[成就：只有你]
+[Achievement: Item+]	[成就：物品+]
+[Achievement: Let's See Who's Tougher]	[成就：看看谁更硬]
+[Achievement: Loot Pinata]	[成就：战利品彩罐]
+[Achievement: Oops]	[成就：哎呀]
+[Achievement: Organ Harvest]	[成就：器官收割]
+[Achievement: Party Time]	[成就：派对时间]
+[Achievement: Power Corrupts]	[成就：权力使人腐化]
+[Achievement: Remodeling]	[成就：改头换面]
+[Achievement: Resistances Are Futile]	[成就：抵抗毫无意义]
+[Achievement: Shopping List]	[成就：购物清单]
+[Achievement: Storm Trooper]	[成就：风暴兵]
+[Achievement: Strength In Numbers]	[成就：人多力量大]
+[Achievement: The More The Merrier]	[成就：越多越热闹]
+[Achievement: There's More Where That Came From]	[成就：后面还有更多]
+[Achievement: This Is My Hole]	[成就：这是我的洞]
+[Achievement: Tourist]	[成就：游客]
+[Achievement: Unlikely Earthworm]	[成就：意外的蚯蚓]
+[Achievement: Well Done]	[成就：干得漂亮]
+{*}: "I think it's somewhere northeast of here"	{*}：“我觉得就在这附近偏东北”
+{*}: "I think it's somewhere northwest of here"	{*}：“我觉得就在这附近偏西北”
+{*}: "I think it's somewhere southeast of here"	{*}：“我觉得就在这附近偏东南”
+{*}: "I think it's somewhere southwest of here"	{*}：“我觉得就在这附近偏西南”
+Thug (Derelict)	暴徒（遗民）
+LOCATION=SUBCAVES	位置=子洞穴
+Input Search String	输入搜索词
+Backstab	背刺
+Coring	穿芯
+Overwhelming	压倒性优势
+Power Corrupts	权力使人腐化
+Organ Harvest	器官收割
+Tourist	游客
+Shopping List	购物清单
+Unique	唯一
+[Achievement: Backstab]	[成就：背刺]
+[Achievement: Coring]	[成就：穿芯]
+[Achievement: Overwhelming]	[成就：压倒性优势]
+[Achievement: Unique]	[成就：独一无二]
+[Achievement: Spot Them First]	[成就：抢先发现]
+FILE	文件
+{*} {n} M{n} {*}	{*} {n} M{n} {*}
+"{*}"	“{*}”
+Tinkerers	修补工
+Leopard	豹
+AMBIENT_HEAT={*}	环境热量={*}
+LOCATION=DSF	位置=DSF
+(Spacebar)]	（空格键）]
+(Escape)]	（Esc）]
+E X P L O R E R	探  索  者
+Relatively easy.	相对简单。
+Fairly challenging.	颇具挑战。
+Extremely hard.	极其困难。
+UNDISCOVERED COMPONENT	未发现组件
+<unclaimed>	<unclaimed>
+/ G A L L E R Y	/ 图  鉴
+C O L L E C T I O N /	收  藏 /
+\ F U L L S C R E E N \	\ 全 屏 显 示 \\
+PROGRAMMING	编程
+LEADERBOARDS DATABASE	排行榜数据库
+(Includes quicksave/load)	（含快速存取）
+(Permadeath enforced)	（强制永久死亡）
+REDACTED	已涂黑
+Alpha Centauri	半人马座α星
+I Have A Map?	我有地图？
+[Achievement: Close Call]	[成就：千钧一发]
+Close Call	千钧一发
+[Achievement: Universal Adapter]	[成就：万能适配器]
+Universal Adapter	万能适配器
+Well Done	干得漂亮
+[Achievement: Hehehe]	[成就：呵呵呵]
+Hehehe	呵呵呵
+[Achievement: Wheee!]	[成就：冲啊！]
+Wheee!	冲啊！
+[Achievement: It Was An Accident, I Swear]	[成就：我保证那是意外]
+It Was An Accident, I Swear	我保证那是意外
+[Achievement: Part-time Excavator]	[成就：兼职挖掘工]
+Part-time Excavator	兼职挖掘工
+Unlikely Earthworm	意外的蚯蚓
+[Achievement: Into The Breach]	[成就：突入敌阵]
+Into The Breach	突入敌阵
+Hey, That's Mine!	嘿，那是我的！
+Loot Pinata	战利品彩罐
+[Achievement: Treasure Hunter]	[成就：寻宝猎人]
+Treasure Hunter	寻宝猎人
+[Achievement: For Emergencies Only]	[成就：仅供紧急使用]
+[Achievement: Use The Force]	[成就：原力与你同在]
+Use The Force	原力与你同在
+[Achievement: Risk Taker]	[成就：冒险家]
+Risk Taker	冒险家
+[Achievement: Ooh, Shiny!]	[成就：噢，闪亮！]
+Ooh, Shiny!	噢，闪亮！
+[Achievement: Alien Tech]	[成就：异星科技]
+Alien Tech	异星科技
+[Achievement: System Compromised]	[成就：系统已遭入侵]
+System Compromised	系统已遭入侵
+[Achievement: Z1$+NX3F=JRE3_ZNQR]	[成就：Z1$+NX3F=JRE3_ZNQR]
+Z1$+NX3F=JRE3_ZNQR	Z1$+NX3F=JRE3_ZNQR
+A Problem For Future Me	留给未来的我解决
+[Achievement: Ew, Corruption]	[成就：呃，腐化]
+Ew, Corruption	呃，腐化
+[Achievement: Maybe Next Time I'll Detach My Launcher]	[成就：也许下次该拆掉发射器]
+Maybe Next Time I'll Detach My Launcher	也许下次该拆掉发射器
+[Achievement: Art Critic]	[成就：艺术评论家]
+Art Critic	艺术评论家
+Do Not Disturb	请勿打扰
+[Achievement: Botjacking]	[成就：机器人劫持]
+Botjacking	机器人劫持
+[Achievement: Let Me Out Of Here]	[成就：放我出去]
+Let Me Out Of Here	放我出去
+[Achievement: Short-term Sacrifices]	[成就：短期牺牲]
+Short-term Sacrifices	短期牺牲
+[Achievement: Just Shoot The Terminal]	[成就：直接射终端]
+Just Shoot The Terminal	直接射终端
+[Achievement: Release The Drones!]	[成就：放出无人机！]
+Release The Drones!	放出无人机！
+[Achievement: Live, Flee, And Rebuild]	[成就：生存、逃离、重建]
+Live, Flee, And Rebuild	生存、逃离、重建
+Storm Trooper	风暴兵
+[Achievement: Crack Shot]	[成就：神枪手]
+Crack Shot	神枪手
+[Achievement: Please Form A Line]	[成就：请排队]
+Please Form A Line	请排队
+[Achievement: Quick And Dirty]	[成就：快而粗糙]
+Quick And Dirty	快而粗糙
+There's More Where That Came From	后面还有更多
+Resistances Are Futile	抵抗毫无意义
+It's Just You	只有你
+[Achievement: Fist Fight]	[成就：拳头对决]
+Fist Fight	拳头对决
+[Achievement: Overkill]	[成就：火力过剩]
+Overkill	火力过剩
+[Achievement: Immobile And Lovin' It]	[成就：动不了也挺好]
+Immobile And Lovin' It	动不了也挺好
+[Achievement: Construction Begets Destruction]	[成就：建设带来毁灭]
+Construction Begets Destruction	建设带来毁灭
+[Achievement: Hammer Time]	[成就：锤子时间]
+Hammer Time	锤子时间
+[Achievement: Bumper Bots]	[成就：碰碰机器人]
+Bumper Bots	碰碰机器人
+[Achievement: Batter Up]	[成就：准备好挥棒]
+Batter Up	上场击球
+[Achievement: Watch This!]	[成就：看好了！]
+Watch This!	看好了！
+[Achievement: Deadly Force]	[成就：致命武力]
+Deadly Force	致命武力
+[Achievement: Ambidextrous]	[成就：左右开弓]
+Ambidextrous	左右开弓
+Oops	哎呀
+[Achievement: No Explosion For You]	[成就：不给你爆炸]
+No Explosion For You	不给你爆炸
+[Achievement: That Tickles]	[成就：挠痒痒]
+That Tickles	挠痒痒
+[Achievement: Physics Protects]	[成就：物理学护体]
+Physics Protects	物理学护体
+[Achievement: Oh No You Don't!]	[成就：你休想！]
+Oh No You Don't!	你休想！
+[Achievement: Ride The Lightning]	[成就：雷霆万钧]
+Ride The Lightning	雷霆万钧
+Let's See Who's Tougher	看看谁更硬
+[Achievement: Drive-By]	[成就：飞车袭击]
+Drive-By	飞车袭击
+[Achievement: Thread The Needle Around The Corner]	[成就：弯角穿针]
+Thread The Needle Around The Corner	弯角穿针
+[Achievement: Uninvited Guest]	[成就：不速之客]
+Uninvited Guest	不速之客
+[Achievement: Ghost 'Em]	[成就：糊弄一下]
+Ghost 'Em	糊弄一下
+[Achievement: One Hack Too Far]	[成就：黑了一个还不够]
+[Achievement: Troublemaker]	[成就：捣蛋鬼]
+Troublemaker	捣蛋鬼
+Party Time	派对时间
+[Achievement: Significant Disruption]	[成就：重大干扰]
+Significant Disruption	重大干扰
+[Achievement: Slippery One]	[成就：滑不溜手]
+Slippery One	滑不溜手
+[Achievement: Hunted]	[成就：被追猎]
+[Achievement: Suspicious]	[成就：形迹可疑]
+Suspicious	形迹可疑
+[Achievement: Jackpot]	[成就：头奖]
+Jackpot	头奖
+[Achievement: Heavy Suspicion]	[成就：高度可疑]
+Heavy Suspicion	高度可疑
+[Achievement: Please No, Not That]	[成就：拜托，别来这个]
+Please No, Not That	拜托，别来这个
+[Achievement: Look Less Dangerous Next Time]	[成就：下次装得没那么危险]
+Look Less Dangerous Next Time	下次装得没那么危险
+[Achievement: My Command Is Your Wish]	[成就：我的命令就是你的愿望]
+My Command Is Your Wish	我的命令就是你的愿望
+[Achievement: Just What I Needed]	[成就：正是我需要的]
+Just What I Needed	正是我需要的
+[Achievement: Official Business]	[成就：公务在身]
+Official Business	公务在身
+[Achievement: Part-time Mechanic]	[成就：兼职技工]
+Part-time Mechanic	兼职技工
+[Achievement: Safety First]	[成就：安全第一]
+Safety First	安全第一
+Item+	物品+
+[Achievement: Dynamic Key]	[成就：动态密钥]
+Dynamic Key	动态密钥
+[Achievement: Novice Programmer]	[成就：新手程序员]
+[Achievement: Librarian]	[成就：图书管理员]
+Librarian	馆员
+[Achievement: Armchair Analyst]	[成就：纸上谈兵的分析师]
+Armchair Analyst	纸上谈兵的分析师
+[Achievement: Everything Is Under Control]	[成就：一切尽在掌控]
+Everything Is Under Control	一切尽在掌控
+[Achievement: GoHome()]	[成就：GoHome()]
+GoHome()	GoHome()
+[Achievement: Fitting Room]	[成就：试衣间]
+Fitting Room	试衣间
+[Achievement: Throw Away The Key]	[成就：扔掉钥匙]
+Throw Away The Key	扔掉钥匙
+[Achievement: Brute Force]	[成就：暴力破解]
+Brute Force	暴力破解
+[Achievement: True Hacker]	[成就：真正的黑客]
+True Hacker	真正的黑客
+[Achievement: Quantum Hacking]	[成就：量子黑客]
+[Achievement: Express Service]	[成就：特快服务]
+Express Service	特快服务
+[Achievement: Bending The Rules]	[成就：打破规则]
+Bending The Rules	打破规则
+[Achievement: May I Have Another?]	[成就：再来一个？]
+May I Have Another?	再来一个？
+[Achievement: Myspace]	[成就：我空间]
+Myspace	我空间
+[Achievement: Tune-up]	[成就：调校]
+Tune-up	调校
+[Achievement: Fishing Tech]	[成就：钓取科技]
+Fishing Tech	钓取科技
+[Achievement: A New Friend]	[成就：新朋友]
+A New Friend	新朋友
+[Achievement: Junior Dev]	[成就：初级开发者]
+Junior Dev	初级开发者
+[Achievement: Not Today, Chutes]	[成就：这次不掉坑]
+[Achievement: Join The Dark Side]	[成就：加入黑暗面]
+Join The Dark Side	加入黑暗面
+[Achievement: You Will Be Upgraded]	[成就：你将得到升级]
+You Will Be Upgraded	你将得到升级
+[Achievement: Mindtrick]	[成就：心灵戏法]
+Mindtrick	心灵戏法
+[Achievement: Powerful Protocols]	[成就：强力协议]
+Powerful Protocols	强力协议
+[Achievement: Factory Defaults]	[成就：出厂设置]
+Factory Defaults	出厂设置
+[Achievement: Error 47]	[成就：错误47]
+[Achievement: Assimilation Complete]	[成就：同化完成]
+Assimilation Complete	同化完成
+[Achievement: Deep Understanding]	[成就：深入理解]
+Deep Understanding	深入理解
+[Achievement: Analysis Probe]	[成就：分析探针]
+Analysis Probe	分析探针
+[Achievement: Infodabbler]	[成就：信息浅尝者]
+Infodabbler	信息浅尝者
+Spot Them First	抢先发现
+[Achievement: No Signal]	[成就：无信号]
+[Achievement: Total Silence]	[成就：彻底静默]
+Total Silence	彻底静默
+[Achievement: I Spy]	[成就：我看见你了]
+[Achievement: Omniscient Cartographer]	[成就：全知制图师]
+Omniscient Cartographer	全知制图师
+[Achievement: Knowing Is Half The Battle]	[成就：知己知彼，胜算过半]
+Knowing Is Half The Battle	知己知彼，胜算过半
+[Achievement: Insider Info]	[成就：内部消息]
+Insider Info	内部消息
+[Achievement: Can't Catch Me]	[成就：抓不到我]
+Can't Catch Me	抓不到我
+[Achievement: Cya!]	[成就：闪人！]
+Cya!	拜！
+[Achievement: Physics Hates This One Trick]	[成就：物理学最恨的把戏]
+Physics Hates This One Trick	物理学最恨的把戏
+The More The Merrier	越多越热闹
+[Achievement: My Bad]	[成就：我的错]
+My Bad	我的错
+[Achievement: Betrayal Most Foul]	[成就：最卑劣的背叛]
+Betrayal Most Foul	最卑劣的背叛
+[Achievement: Hackathon]	[成就：黑客马拉松]
+Hackathon	黑客赛
+[Achievement: DIY Cooler]	[成就：DIY冷却器]
+DIY Cooler	DIY冷却器
+[Achievement: Survival Of The Most Covered]	[成就：掩护最多者生存]
+Survival Of The Most Covered	掩护最多者生存
+[Achievement: Fixer-Upper]	[成就：修修补补]
+Fixer-Upper	修修补补
+[Achievement: Some Acronyms Are Better Than Others]	[成就：缩写各有千秋]
+Some Acronyms Are Better Than Others	缩写各有千秋
+[Achievement: Frankenstein]	[成就：科学怪人]
+Frankenstein	科学怪人
+[Achievement: Not So Scrappy]	[成就：不那么废料]
+Not So Scrappy	不那么废料
+[Achievement: No Room For Error]	[成就：容错空间为零]
+No Room For Error	容错空间为零
+[Achievement: Better Safe Than Exploded]	[成就：小心才不会炸]
+Better Safe Than Exploded	小心才不会炸
+[Achievement: Subspace Traveler]	[成就：子空间旅者]
+Subspace Traveler	子空间旅者
+[Achievement: Spacetime Is Relative]	[成就：时空皆相对]
+Spacetime Is Relative	时空皆相对
+[Achievement: I, Locutus]	[成就：我，Locutus]
+I, Locutus	我,Locutus

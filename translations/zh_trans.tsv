@@ -1,0 +1,475 @@
+# Cogmind 简体中文原创译文。UTF-8，英文匹配模式<TAB>中文。
+# 首批：界面、部件属性、操作、终端与日志。未覆盖内容保留英文。
+/ L O G /	/ 日 志 /
+/ P A R T S /	/ 部 件 /
+/ I N V E N T O R Y /	/ 库 存 /
+/ S C A N /	/ 扫 描 /
+/ E V A S I O N /	/ 闪 避 /
+/ D A T A /	/ 数 据 /
+/ V O L L E Y /	/ 齐 射 /
+/ T R A N S M I S S I O N /	/ 通 信 /
+/ A L L I E S /	/ 友 军 /
+/ A C H I E V E M E N T S /	/ 成 就 /
+/ C O D E S /	/ 代 码 /
+/ C O M B A T /	/ 战 斗 /
+/ I N T E L /	/ 情 报 /
+/ P A T R O N S /	/ 赞 助 /
+/ S E A R C H /	/ 搜 索 /
+/ S T A T U S /	/ 状 态 /
+P o w e r	动 力
+P r o p u l s i o n	推 进
+U t i l i t y	功 能
+W e a p o n	武 器
+MATTER	物质
+ENERGY	能量
+INTEGRITY	耐久
+COVERAGE	覆盖权重
+VULNERABILITY	易损程度
+VULNERABLE	易损
+MASS	质量
+HEAT	热量
+TEMP	温度
+CORE	核心
+INFO	信息
+INTEL	情报
+ALLIES	友军
+ZOOM	缩放
+MAP	图
+INVENTORY	库存
+SYS. CORRUPTION	系统损坏
+SYS. CORRUPTION {n}%	系统损坏 {n}%
+INVENTORY {n}/{n}	库存 {n}/{n}
+MATTER {n}/{n}	物质 {n}/{n}
+ENERGY {n}/{n}	能量 {n}/{n}
+< ZOOM >	< 缩放 >
+Warning	警告
+Heat {n}	热量 {n}
+Heat	热量
+Cool	冷却
+Time: {n}	时间: {n}
+Loc: {*}	位置:{1}
+MOVEMENT: Core	移动: 核心
+MOVEMENT: {*}	移动: {1}
+Influence: {*}	影响力: {1}
+{n}% Avoidance	{n}% 闪避
+FREEZING	极寒
+FRIGID	寒冷
+SLOW	减速
+SLOWx2	减速x2
+SLOWx3	减速x3
+Immobile	无法移动
+Running	奔跑
+Weaving	蛇行
+INACTIVE	未启用
+Low Security	低戒备
+CORE DESTROYED	核心被毁
+CORE MELTED	核心熔毁
+HULL INTEGRITY	机体耐久
+CORE HOUSING	核心外壳
+CORE=STABLE	核心=稳定
+EXIT=FOUND	出口=发现
+GOAL=ESCAPE	目标=逃离
+GOAL=EXPLORE	目标=探索
+LOCATION=UNKNOWN	位置=未知
+INTEGRATION=OK	整合=正常
+[1 - Hostile]	[1 - 敌对]
+[3 - Parts]	[3 - 部件]
+[2 - Friendly] [4 - Exits]	[2 - 友方] [4 - 出口]
+[2 - Friendly]	[2 - 友方]
+[4 - Exits]	[4 - 出口]
+{n} HOSTILE	{n} 敌人
+Power	动力
+Propulsion	推进
+Utility	功能
+Weapon	武器
+Weapons	武器
+Protection	防护
+Hackware	黑客设备
+Processor	处理器
+Device	装置
+Storage	存储
+Reactor	反应堆
+Engine	引擎
+Wheel	轮
+Flight Unit	飞行装置
+Hover Unit	悬浮装置
+Ballistic Gun	实弹枪
+Energy Cannon	能量炮
+Energy Gun	能量枪
+Special Weapon	特殊武器
+Piercing Weapon	穿刺武器
+Slashing Weapon	斩切武器
+Impact Weapon	冲击武器
+Special Melee Weapon	特殊近战武器
+Unused	未使用
+Overview	概览
+Coverage	覆盖权重
+Damage	伤害
+Delay	延迟
+Disruption	干扰
+Electromagnetic	电磁
+Energy	能量
+Integrity	耐久
+Mass	质量
+Matter	物质
+Penetration	贯穿
+Projectile	弹体
+Range	射程
+Rating	评级
+Recoil	后坐力
+Salvage	回收
+Shot	射击
+Slot	槽位
+Spectrum	频谱
+Stability	稳定性
+Standard	标准
+State	状态
+Supply	供给
+Targeting	瞄准
+Type	类型
+Critical	暴击
+Active Upkeep	运行消耗
+Narrow (50%)	窄域 (50%)
+Base Hit {n}%	基础命中 {n}%
+Acquired {n} matter.	获得{1}物质。
+Acquired {n} matter. <x{n}>	获得{1}物质。<x{2}>
+{*} collects debris.	{1}回收残骸。
+{*} collects debris. <x{n}>	{1}回收残骸。<x{2}>
+Slammed into {*}.	撞上{1}.
+Slammed into {*}. <x{n}>	撞上{1}。<x{2}>
+{n} MATTER!	{n} 物质!
+{n} MATTER	{n} 物质
+No active weapons	无启用武器
+No activated weapons in range	无射程内启用武器
+Collision imminent! Confirm direction	即将碰撞！确认方向
+Systems online...	系统上线...
+Loading variables...	加载变量...
+PROCESS	处理器
+HWARE	黑客
+STORAGE	存储
+DEVICE	装置
+FLIGHT	飞行
+HOVER	悬浮
+WHEEL	轮式
+TREAD	履带
+REACTOR	反应堆
+ENGINE	引擎
+SCRAP	废料
+DATA	数据
+BASIC	基础
+ADVANCED	进阶
+MANUAL	手册
+OPTIONS	设置
+CREDITS	制作组
+RECORDS	记录
+[5] NEWS	[5] 新闻
+Save	保存
+(none)	(无)
+[Load]	[载入]
+Save & Quit	保存并退出
+Self-destruct	自毁
+Quit, Delete Save	退出并删存档
+- HIBERNATE -	- 休眠 -
+- ABORT -	- 中止 -
+- CONFIRM -	- 确认 -
+- CREATE RESTORE POINT -	- 创建还原点 -
+- LOAD RESTORE POINT -	- 载入还原点 -
+SORT (T)	排序(T)
+Left-click	左键
+Right-click	右键
+Drag & Drop	拖放
+Data Visualization	数据显示
+Left-click to attach	左键装配
+Left-click to activate/deactivate	左键启用/停用
+Right-click for info	右键查看信息
+Click to expand/shrink	点击展开/收起
+Scroll wheel to scroll	滚轮滚动
+Scroll wheel to wait	滚轮等待
+Scroll wheel with Shift to zoom	Shift+滚轮缩放
+(auto-scrolls with log)	(随日志自动滚动)
+Enter to center on self	Enter居中于自身
+Escape / ? / F1 for help/options	Escape / ? / F1帮助/设置
+Shift-right-click on ally to issue order	Shift+右键友军下令
+- On enemy to target and fire	- 点击敌人瞄准并射击
+- On self to pick up item	- 点击自身拾取物品
+- On position to move	- 点击位置移动
+- Between slots to reorganize parts	- 在槽位间拖动重排部件
+- To inventory to detach	- 拖至库存卸下
+- To map to drop	- 拖至地图丢弃
+- To parts list to attach/swap	- 拖至部件栏装配/替换
+- On self, robot, item, or machine for info	- 点击自身、机器人、物品或机器查看信息
+- To close/cancel	- 关闭/取消
+- Out of sight to pan map (or hold shift and move cursor)	- 点击视野外平移地图，或按住Shift移动指针
+- Hold to set view centerpoint (maintained on move)	- 长按设置视野中心，移动时保持
+( remaining core integrity )	( 核心剩余耐久 )
+( available energy )	( 可用能量 )
+( available matter )	( 可用物质 )
+( system corruption level )	( 系统损坏程度 )
+( temperature/heat level )	( 温度/热量 )
+( movement type and speed )	( 移动类型与速度 )
+( time elapsed )	( 已用时间 )
+( current location )	( 当前位置 )
+(c) Coverage: Relative coverage given current loadout	(c)覆盖权重: 当前配置中各部件的相对命中权重
+(e) Energy: Energy generation/consumption	(e)能量: 产出/消耗
+(w) Integrity: Remaining integrity (%)	(w)耐久: 剩余耐久(%)
+(q) Info: Essential stat summary	(q)信息: 主要属性概览
+Instability	不稳定性
+Max Damage	最大伤害
+Min Damage	最小伤害
+Projectiles	弹体数
+Shot Heat	射击热量
+Matter Cost	物质消耗
+Energy Cost	能量消耗
+Waypoints	路径点
+Burnout	烧毁
+Penalty	惩罚
+Support	承重
+Move Heat	移动热量
+Time/Move	移动耗时
+Matter Upkeep	物质维持费
+Energy Upkeep	能量维持费
+Max Integrity	最大耐久
+Arc	弧
+Drag	阻力
+Time	时间
+Utilities	功能部件
+ATTACHED	已装配
+GROUND	地面
+(None)	(无)
+Flying	飞行
+Hovering	悬浮
+Wheeled	轮式
+Treaded	履带
+Phasing	相位
+Ballistic	实弹
+Laser	激光
+Thermic	热能
+Electro	电子
+Charged	充能
+Volatile	易爆
+Shredding	撕裂
+Splicing	切割
+Directed	定向
+Accelerated	加速
+Kinetic	动能
+Explosive	爆炸
+Impact	冲击
+Piercing	穿刺
+Slashing	斩切
+Entropic	熵能
+/ H A C K I N G /	/ 入 侵 /
+/ S H E L L /	/ 终 端 /
+/ R E S U L T S /	/ 结 果 /
+/ T A R G E T /	/ 目 标 /
+System	系统
+Status	状态
+Targets	目标
+Node:	节点:
+Terminal	终端
+Security	安全
+DETECTED	已暴露
+TERMINAL LOCKED	终端锁定
+SECURITY LEVEL {n}	安全等级 {n}
+Authchips (Active)	认证芯片(启用)
+Authchips (Inactive)	认证芯片(停用)
+Chance of Detection:	暴露概率:
+Estimated Progress:	预计进度:
+Estimated Trace Progress	预计追踪进度
+Medium ({n}%)	中等 ({n}%)
+High ({n}%)	高 ({n}%)
+Low ({n}%)	低 ({n}%)
+V. High ({n}%)	极高 ({n}%)
+Current Alert Level: Low Security	当前警戒: 低戒备
+Current Alert Level: {*}	当前警戒: {1}
+Record	记录
+Part Schematic	部件图纸
+Robot Schematic	机器人图纸
+Robot Analysis	机器人分析
+Prototype ID Bank	原型识别库
+Open Door	开门
+Open DSF	开启DSF
+Level Access Points	楼层出入口
+Branch Access Points	分支出入口
+Emergency Access Points	紧急出入口
+Local Emergency Access	本区紧急通道
+Machine Index	机器索引
+Terminal Index	终端索引
+Fabricator Index	制造机索引
+Repair Station Index	维修站索引
+Recycling Unit Index	回收机索引
+Scanalyzer Index	扫描分析仪索引
+Garrison Index	驻防站索引
+Alert Level	警戒等级
+Unreport Threat	撤销威胁报告
+Purge Threat	清除威胁
+Locate Traps	定位陷阱
+Disarm Traps	解除陷阱
+Reprogram Traps	重编陷阱
+Dispatch Records	派遣记录
+Maintenance Status	维护状态
+Security Status	安保状态
+Surveillance Status	监视状态
+Patrol Status	巡逻状态
+Transport Status	运输状态
+Investigation Status	调查状态
+Extermination Status	清剿状态
+Reinforcement Status	增援状态
+Assault Status	突击状态
+Garrison Status	驻防状态
+Intercept Status	拦截状态
+Coupling Status	连接状态
+Recall Investigation	召回调查队
+Recall Extermination	召回清剿队
+Recall Reinforcements	召回增援队
+Recall Assault	召回突击队
+Hauler Manifests	运输货单
+Registered Components	已登记部件
+Registered Prototypes	已登记原型
+Component Inventory	部件库存
+Zone Layout	区域布局
+Garrison Registry	驻防登记册
+Patrol Navigation	巡逻路线
+Security Stations	安保岗哨
+Proto ID Catalog	原型识别目录
+Protovariant Controls	原型变体控制
+Activate Exoskeleton	启动外骨骼
+Disengage Seal	解除封锁
+Release Object	释放物体
+Manual Command	手动命令
+Gate Test 138-A	闸门测试138-A
+Gate Test 138-B	闸门测试138-B
+Gate Test 138-C	闸门测试138-C
+Gate Test 138-END	闸门测试138-END
+Terminal M{*} - Restricted Access	终端M{1} - 受限访问
+Scanning nodes...	扫描节点...
+Building attack tree...	构建攻击树...
+Bypassing authorization...	绕过认证...
+Leveraging RIF...	利用RIF...
+Leveraging 0b10 backdoors...	利用0b10后门...
+System tracing...	系统追踪...
+Accessing entry node...	访问入口节点...
+Connection established...	连接已建立...
+Establishing connection...	正在建立连接...
+Connecting with Terminal...	正在连接终端...
+Decrypting stream...	解密数据流...
+Decryption complete.	解密完成。
+Decryption failed.	解密失败。
+Brute forcing decryption...	暴力破解...
+Applying dynamic key...	应用动态密钥...
+Reading system data...	读取系统数据...
+Archive under local attack...	档案库正遭本地攻击...
+Data damaged beyond repair.	数据已损坏，无法修复。
+Stream ended.	数据流结束。
+Network defenses at {n}%...	网络防御 {n}%...
+Accessing prototype database...	访问原型数据库...
+Accessing schematics database...	访问图纸数据库...
+Accessing analysis database...	访问分析数据库...
+Extracting local trap data...	提取本区陷阱数据...
+Extracting route scan data...	提取路线扫描数据...
+Downloaded coordinate data.	已下载坐标数据。
+Retrieving latest reported positions...	查询最近上报位置...
+Map updated.	地图已更新。
+Data saved	数据已保存
+Unknown command.	未知命令。
+Invalid move	无法移动
+ALARM TRAP	警报陷阱
+{n}x Alarm Trap	{n}x 警报陷阱
+Found {n} active transport squads.	发现{1}支活动运输队。
+Found {n} trap in {n} array:	发现{1}陷阱/{2}组:
+Found {n} traps in {n} arrays:	发现{1}陷阱/{2}组:
+No trap data on record.	无陷阱记录。
+No applicable trap data on record.	无适用陷阱记录。
+No patrol data available.	无巡逻数据。
+No investigations on record.	无调查记录。
+No stockpiles on record.	无储备记录。
+No backups in storage.	无备用存储。
+No applicable prototype records.	无适用原型记录。
+No applicable schematic records.	无适用图纸记录。
+No applicable analyses.	无适用分析。
+No emergency access points on record.	无紧急出入口记录。
+No nearby security on record.	无附近安保记录。
+Reporting routines blocked.	报告程序已阻断。
+Collection routines blocked.	回收程序已阻断。
+Repair routines blocked.	维修程序已阻断。
+Processing routines blocked.	处理程序已阻断。
+Distress signal routine blocked.	求救信号程序已阻断。
+{n} HOSTILES	{n} 敌人
+{n}% Corrupt	{n}% 损坏
+[Achievement: {*}]	[成就: {1}]
+For Emergencies Only	仅限紧急使用
+One Hack Too Far	入侵过头
+Hack Snack	入侵小点心
+Hack The Planet	入侵星球
+Door Hack Initiated	闸门入侵已启动
+ALERT: Suspicious activity at Terminal {*}. Dispatching Investigation squad.	警报: 终端{1}出现可疑活动。派遣调查队。
+{*}+ [	{1}+ [
+Micro 	微型
+R O G U E	浪 人
+CORE=UNSTABLE	核心=不稳定
+Low-level Research	低级研究
+All-out Warlord	军阀全力出击
+[3] MANUAL	[3]手册
+[Save & Quit]	[保存并退出]
+[Self-destruct]	[自毁]
+[Quit, Delete Save]	[退出并删除存档]
+- SHUTDOWN -	- 关闭 -
+A D V E N T U R E R	冒险者
+Amulet of Y3-NDR	Y3-NDR护符
+Amulet of Y3-NDR [	Y3-NDR护符     [
+AMULET OF Y3-NDR	Y3-NDR护符
+Amulet of Y3-NDR [{*}]	Y3-NDR护符     [{*}]
+AMULET OF Y3-NDR [{*}]	Y3-NDR护符     [{*}]
+[{*}] AMULET OF Y3-NDR	[{*}] Y3-NDR护符
+[{*}] Amulet of Y3-NDR	[{*}] Y3-NDR护符
+AMULET OF Y3-NDR! [{*}]	Y3-NDR护符! [{*}]
+[{*}] AMULET OF Y3-NDR!	[{*}] Y3-NDR护符!
+Amulet of Y3-NDR! [{*}]	Y3-NDR护符! [{*}]
+[{*}] Amulet of Y3-NDR!	[{*}] Y3-NDR护符!
+AMULET OF Y3-NDR!	Y3-NDR护符!
+Amulet of Y3-NDR!	Y3-NDR护符!
+AMULET OF Y3-NDR ({n})	Y3-NDR护符 ({n})
+AMULET OF Y3-NDR ({n})!	Y3-NDR护符 ({n})!
+AMULET OF Y3-NDR ({n}) [{*}]	Y3-NDR护符 ({n}) [{*}]
+AMULET OF Y3-NDR ({n})! [{*}]	Y3-NDR护符 ({n})! [{*}]
+[{*}] AMULET OF Y3-NDR ({n})	[{*}] Y3-NDR护符 ({n})
+[{*}] AMULET OF Y3-NDR ({n})!	[{*}] Y3-NDR护符 ({n})!
+Amulet of Y3-NDR ({n})	Y3-NDR护符 ({n})
+Amulet of Y3-NDR ({n})!	Y3-NDR护符 ({n})!
+Amulet of Y3-NDR ({n}) [{*}]	Y3-NDR护符 ({n}) [{*}]
+Amulet of Y3-NDR ({n})! [{*}]	Y3-NDR护符 ({n})! [{*}]
+[{*}] Amulet of Y3-NDR ({n})	[{*}] Y3-NDR护符 ({n})
+[{*}] Amulet of Y3-NDR ({n})!	[{*}] Y3-NDR护符 ({n})!
+AMULET OF Y3-NDR [	Y3-NDR护符     [
+AMULET OF Y3-NDR! [	Y3-NDR护符! [
+Amulet of Y3-NDR! [	Y3-NDR护符! [
+Forge Plexus	锻炉中枢
+Forge Plexus!	锻炉中枢!
+Forge Plexus [	锻炉中枢 [
+Forge Plexus [{*}]	锻炉中枢 [{*}]
+[{*}] Forge Plexus	[{*}] 锻炉中枢
+Forge Plexus! [{*}]	锻炉中枢! [{*}]
+[{*}] Forge Plexus!	[{*}] 锻炉中枢!
+FORGE PLEXUS	锻炉中枢
+FORGE PLEXUS!	锻炉中枢!
+FORGE PLEXUS [	锻炉中枢 [
+FORGE PLEXUS [{*}]	锻炉中枢 [{*}]
+[{*}] FORGE PLEXUS	[{*}] 锻炉中枢
+FORGE PLEXUS! [{*}]	锻炉中枢! [{*}]
+[{*}] FORGE PLEXUS!	[{*}] 锻炉中枢!
+FORGE PLEXUS ({n})	锻炉中枢 ({n})
+FORGE PLEXUS ({n})!	锻炉中枢 ({n})!
+FORGE PLEXUS ({n}) [{*}]	锻炉中枢 ({n}) [{*}]
+FORGE PLEXUS ({n})! [{*}]	锻炉中枢 ({n})! [{*}]
+[{*}] FORGE PLEXUS ({n})	[{*}] 锻炉中枢 ({n})
+[{*}] FORGE PLEXUS ({n})!	[{*}] 锻炉中枢 ({n})!
+Forge Plexus ({n})	锻炉中枢 ({n})
+Forge Plexus ({n})!	锻炉中枢 ({n})!
+Forge Plexus ({n}) [{*}]	锻炉中枢 ({n}) [{*}]
+Forge Plexus ({n})! [{*}]	锻炉中枢 ({n})! [{*}]
+[{*}] Forge Plexus ({n})	[{*}] 锻炉中枢 ({n})
+[{*}] Forge Plexus ({n})!	[{*}] 锻炉中枢 ({n})!
+Forge Plexus! [	锻炉中枢! [
+FORGE PLEXUS! [	锻炉中枢! [
+Shift Map View (vi requires +Shift	平移地图（地图平移模式外，
+outside Mapshift Mode)	vi键需加按Shift）
+<stacks, capped at {n}%>	<可叠加，上限{1}%>

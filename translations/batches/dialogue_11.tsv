@@ -1,0 +1,500 @@
+>>Index(Machines)	>>索引（机器）
+>>Access(Emergency)	>>访问（紧急）
+>>Access(Branch)	>>访问（分支）
+>>Access(Main)	>>访问（主干）
+>>Open(DSF)	>>开(DSF)
+>>Open(Door)	>>打开（门）
+>>TROJAN(MTF)	>>木马（MTF）
+>>QUERY(CY-PHR)	>>查(CY-PHR)
+>>SCHEMATIC(SUPERFIELD GENERATOR)	>>蓝图（超场发生器）
+>>ANALYSIS(DATA MINER)	>>分析（数据挖掘器）
+>>INVENTORY(BORING STUFF)	>>库存（无聊东西）
+>>Query(Book of Scrap II ~ Genesis)	>>查询（废料之书II~创世）
+>>Query(Book of Scrap III ~ Convergence)	>>查询（废料之书III~汇聚）
+>>Query({*})	>>查({*})
+>>Analysis({*})	>>分析（{*}）
+>>Schematic({*})	>>蓝图（{*}）
+>>Enumerate({*})	>>枚举（{*}）
+>>Index({*})	>>索({*})
+>>Trojan({*})	>>木马（{*}）
+>>Recall({*})	>>回忆（{*}）
+>>Traps({*})	>>陷({*})
+>>Alert({*})	>>警({*})
+>>Access({*})	>>访问（{*}）
+>>Control({*})	>>控制（{*}）
+>>Download({*})	>>下载（{*}）
+>>Inventory({*})	>>库存（{*}）
+>>Layout({*})	>>布局（{*}）
+>>Open({*})	>>开({*})
+>>Force({*})	>>强({*})
+>>Load({*})	>>载({*})
+>>Scan({*})	>>扫({*})
+>>Recycle({*})	>>回收（{*}）
+>>Insert({*})	>>插入（{*}）
+>>Study({*})	>>研({*})
+>>Build({*})	>>造({*})
+>>Repair({*})	>>维修（{*}）
+>>Botnet({*})	>>网({*})
+>>Parse({*})	>>析({*})
+>>Assimilate({*})	>>同化（{*}）
+>>Reprogram({*})	>>重编程（{*}）
+>>Broadcast({*})	>>广播（{*}）
+Analysis({*})	分析（{*}）
+Load({*})	载({*})
+Scan({*})	扫({*})
+Recycle({*})	回收（{*}）
+Insert({*})	插入（{*}）
+Study({*})	研({*})
+Found {n} active squads:	发现{n}支现役小队：
+Found {n} active squad:	发现{n}支现役小队：
+{n}x Surveillance	{n}支监视队
+{n}x Patrol	{n}支巡逻队
+{n}x Transport	{n}支运输队
+{n}x Investigation	{n}支调查队
+{n}x Assault	{n}支突击队
+{n}x Extermination	{n}支歼灭队
+{n}x Reinforcement	{n}支增援队
+{n}x Intercept	{n}支拦截队
+{n}x Guard	{n}x守卫
+{n}x Maintenance	{n}支维护队
+{n}x Garrison	{n}支驻军队
+Found {n} registered maintenance bots:	发现{n}个已登记维护机器人：
+Found {n} registered maintenance bot:	发现{n}个已登记维护机器人：
+Found {n} branch access point:	发现{n}个分支入口：
+Found {n} branch access points:	发现{n}个分支入口：
+Found {n} emergency access door:	发现{n}个紧急门：
+Found {n} emergency access doors:	发现{n}个紧急门：
+Downloaded protocol data.	已下载协议数据。
+Trapped!	中招！
+Downloading analysis...	正在下载分析数据……
+Downloading schematic...	正在下载蓝图……
+Downloading prototype IDs...	正在下载原型ID……
+Retrieving superprototype records...	正在检索超级原型记录……
+Invalid syntax.	语法无效。
+Scanning protovariant control network...	正在扫描原型变体控制网……
+No local protovariants found.	未发现本地原型变体。
+Initiating Test 138-C...	启动测试138-C……
+Error: Test 138-C requires active singularity.	错误：测试138-C需要启用奇点。
+Error: Test 138-C already in progress.	错误：测试138-C已在进行中。
+Error: Test 138 in uncontrollable state.	错误：测试138处于不可控状态。
+Error: Test 138 inactive.	错误：测试138未激活。
+Test 138 successfully terminated.	测试138已成功终止。
+Testing...	测试中……
+Accumulated fabnet effectiveness:	累计制造网效能：
+Ready to Repair:	待维修：
+Attaching:	正在安装：
+Recycling at 100% efficiency:	回收效率100%：
+Procedural error.	流程错误。
+Loaded successfully:	成功载入：
+Bingo!	中了！
+Glorious!	辉煌！
+Neigh.	嘶！
+Prayed	祈祷了
+Made a sacrifice	献祭了
+Hello 0x0961h.	你好 0x0961h.
+- Unrestricted Access	- 无限制访问
+- Restricted Access	- 限制访问
+OPEN SYSTEM	开放系统
+UNKNOWN SYSTEM	未知系统
+Current Alert Level:	当前警戒等级：
+Laughable	可笑
+Baby Mode	宝宝模式
+Weakling	弱鸡
+Warmish	微暖
+Lukewarm	温热
+Unfriendly	不友好
+Promising	有希望
+Outrageous	惊人
+Popular	受欢迎
+Impossible	不可能
+Sterilization	灭菌
+Enjoyable	愉快
+Brimstone	硫磺火
+Purple	紫色
+Black	黑色
+Dissapointingly Low	低得令人失望
+Not A Troublemaker?!	不是麻烦制造者？！
+Reprogrammed {*}	已重编程：{*}
+Disarmed {*}	已解除：{*}
+Terminal linked with {*}	终端已连接：{*}
+Cancelling build: {*}	正在取消建造：{*}
+Cancelling repair: {*}	正在取消维修：{*}
+Missing component ({*})	缺少部件（{*}）
+Matter reserves: {n}	物质储备：{n}
+Matter ejected: {n}	物质已弹出：{n}
+Found vulnerable protovariant: {*}	发现易受攻击的原型变体：{*}
+[SORT (T)]	[排序(T)]
+Retrieving {n} inventory records...	正在检索{n}条库存记录……
+Retrieving {n} security records...	正在检索{n}条安保记录……
+Retrieving {n} patrol records...	正在检索{n}条巡逻记录……
+SHUTDOWN PROCEDURE IN PROGRESS	关机程序进行中
+Initializing resources	正在初始化资源
+{*} collects {*}.	{*}收集了{*}。
+{n}% chance to prevent other types of overheating side effects.	防止其他过热副作用的几率为{n}%。
+{n}%, if not overweight.	{n}%，未超重时。
+{n}% chance to detect and immediately disarm a hidden hostile trap if moving adjacent to one, but no more than one per move. The same chance and effect are applied to each known hostile trap at or adjacent to current location once per two turns.	移动到敌对陷阱相邻格时，有{n}%几率发现并立即解除，每次移动最多一个。每两回合也会以相同几率解除当前位置及相邻处已知敌对陷阱。
+{n}% chance to detect each hidden trap within field of view, checked each turn on a per-trap basis. Also	每回合逐个判定，{n}%几率发现视野内每个隐藏陷阱。另有
+{n}% chance of being noticed by hostiles if passing through their field of view when not their turn.	非敌方回合穿过敌人视野时，有{n}%几率被发现。
+{n}% chance to prevent the effects of a shock or surge trap.	有{n}%几率免受电击或电涌陷阱影响。
+{n}% of heat caused by thermal damage.	抵消热能伤害所致热量的{n}%。
+{n}%, applying benefit to both self and any allies within a range of	{n}%，自身及范围内盟友均可受益：
+{n}% of damage that would otherwise affect core. Also negates extra effects of critical strikes against core, but cannot protect against overflow damage.	抵消原本作用于核心的伤害{n}%。也可免疫核心暴击附加效果，但不能防止溢出伤害。
+{n}% of damage that would otherwise affect power sources. Also negates extra effects of critical strikes against power sources, and prevents chain reactions due to electromagnetic damage, but cannot protect against overflow damage.	抵消原本作用于能量源的伤害{n}%。也可免疫其暴击附加效果并防止电磁连锁反应，但不能防止溢出伤害。
+{n}% of damage that would otherwise affect propulsion units. Also negates extra effects of critical strikes against propulsion units, but cannot protect against overflow damage.	抵消原本作用于推进器的伤害{n}%。也可免疫其暴击附加效果，但不能防止溢出伤害。
+{n}% of damage that would otherwise affect utilities. Does not protect parts of the Protection type, and cannot protect against overflow damage, but negates extra effects of critical strikes against utilities.	抵消原本作用于功能件的伤害{n}%。不保护防护类部件，也不能防止溢出伤害；但可免疫功能件暴击附加效果。
+{n}% of damage that would otherwise affect weapons. Also negates extra effects of critical strikes against weapons, but cannot protect against overflow damage.	抵消原本作用于武器的伤害{n}%。也可免疫其暴击附加效果，但不能防止溢出伤害。
+Absorbs {n}% of damage that would otherwise affect core. Also negates extra effects of critical strikes against core, but cannot protect against overflow damage.	吸收原本作用于核心的伤害{n}%。免疫核心暴击附加效果，但不能防止溢出伤害。
+Absorbs {n}% of damage that would otherwise affect core. Also negates extra effects of critical strikes against core, but cannot protect against overflow damage. <stacks>	吸收原本作用于核心的伤害{n}%。免疫核心暴击附加效果，但不能防止溢出伤害。 <stacks>
+Absorbs {n}% of damage that would otherwise affect core. Also negates extra effects of critical strikes against core, but cannot protect against overflow damage. <no_stack>	吸收原本作用于核心的伤害{n}%。免疫核心暴击附加效果，但不能防止溢出伤害。 <no_stack>
+Absorbs {n}% of damage that would otherwise affect core. Also negates extra effects of critical strikes against core, but cannot protect against overflow damage. <half_stack>	吸收原本作用于核心的伤害{n}%。免疫核心暴击附加效果，但不能防止溢出伤害。 <half_stack>
+Absorbs {n}% of damage that would otherwise affect core. Also negates extra effects of critical strikes against core, but cannot protect against overflow damage. <parallel_ok>	吸收原本作用于核心的伤害{n}%。免疫核心暴击附加效果，但不能防止溢出伤害。 <parallel_ok>
+Absorbs {n}% of damage that would otherwise affect power sources. Also negates extra effects of critical strikes against power sources, and prevents chain reactions due to electromagnetic damage, but cannot protect against overflow damage.	吸收原本作用于能量源的伤害{n}%。免疫其暴击附加效果并防止电磁连锁反应，但不能防止溢出伤害。
+Absorbs {n}% of damage that would otherwise affect power sources. Also negates extra effects of critical strikes against power sources, and prevents chain reactions due to electromagnetic damage, but cannot protect against overflow damage. <stacks>	吸收原本作用于能量源的伤害{n}%。免疫其暴击附加效果并防止电磁连锁反应，但不能防止溢出伤害。 <stacks>
+Absorbs {n}% of damage that would otherwise affect power sources. Also negates extra effects of critical strikes against power sources, and prevents chain reactions due to electromagnetic damage, but cannot protect against overflow damage. <no_stack>	吸收原本作用于能量源的伤害{n}%。免疫其暴击附加效果并防止电磁连锁反应，但不能防止溢出伤害。 <no_stack>
+Absorbs {n}% of damage that would otherwise affect power sources. Also negates extra effects of critical strikes against power sources, and prevents chain reactions due to electromagnetic damage, but cannot protect against overflow damage. <half_stack>	吸收原本作用于能量源的伤害{n}%。免疫其暴击附加效果并防止电磁连锁反应，但不能防止溢出伤害。 <half_stack>
+Absorbs {n}% of damage that would otherwise affect power sources. Also negates extra effects of critical strikes against power sources, and prevents chain reactions due to electromagnetic damage, but cannot protect against overflow damage. <parallel_ok>	吸收原本作用于能量源的伤害{n}%。免疫其暴击附加效果并防止电磁连锁反应，但不能防止溢出伤害。 <parallel_ok>
+Absorbs {n}% of damage that would otherwise affect propulsion units. Also negates extra effects of critical strikes against propulsion units, but cannot protect against overflow damage.	吸收原本作用于推进器的伤害{n}%。免疫推进器暴击附加效果，但不能防止溢出伤害。
+Absorbs {n}% of damage that would otherwise affect propulsion units. Also negates extra effects of critical strikes against propulsion units, but cannot protect against overflow damage. <stacks>	吸收原本作用于推进器的伤害{n}%。免疫推进器暴击附加效果，但不能防止溢出伤害。 <stacks>
+Absorbs {n}% of damage that would otherwise affect propulsion units. Also negates extra effects of critical strikes against propulsion units, but cannot protect against overflow damage. <no_stack>	吸收原本作用于推进器的伤害{n}%。免疫推进器暴击附加效果，但不能防止溢出伤害。 <no_stack>
+Absorbs {n}% of damage that would otherwise affect propulsion units. Also negates extra effects of critical strikes against propulsion units, but cannot protect against overflow damage. <half_stack>	吸收原本作用于推进器的伤害{n}%。免疫推进器暴击附加效果，但不能防止溢出伤害。 <half_stack>
+Absorbs {n}% of damage that would otherwise affect propulsion units. Also negates extra effects of critical strikes against propulsion units, but cannot protect against overflow damage. <parallel_ok>	吸收原本作用于推进器的伤害{n}%。免疫推进器暴击附加效果，但不能防止溢出伤害。 <parallel_ok>
+Absorbs {n}% of damage that would otherwise affect utilities. Does not protect parts of the Protection type, and cannot protect against overflow damage, but negates extra effects of critical strikes against utilities.	吸收原本作用于功能件的伤害{n}%。不保护防护类部件，也不能防止溢出伤害；但免疫功能件暴击附加效果。
+Absorbs {n}% of damage that would otherwise affect utilities. Does not protect parts of the Protection type, and cannot protect against overflow damage, but negates extra effects of critical strikes against utilities. <stacks>	吸收原本作用于功能件的伤害{n}%。不保护防护类部件，也不能防止溢出伤害；但免疫功能件暴击附加效果。 <stacks>
+Absorbs {n}% of damage that would otherwise affect utilities. Does not protect parts of the Protection type, and cannot protect against overflow damage, but negates extra effects of critical strikes against utilities. <no_stack>	吸收原本作用于功能件的伤害{n}%。不保护防护类部件，也不能防止溢出伤害；但免疫功能件暴击附加效果。 <no_stack>
+Absorbs {n}% of damage that would otherwise affect utilities. Does not protect parts of the Protection type, and cannot protect against overflow damage, but negates extra effects of critical strikes against utilities. <half_stack>	吸收原本作用于功能件的伤害{n}%。不保护防护类部件，也不能防止溢出伤害；但免疫功能件暴击附加效果。 <half_stack>
+Absorbs {n}% of damage that would otherwise affect utilities. Does not protect parts of the Protection type, and cannot protect against overflow damage, but negates extra effects of critical strikes against utilities. <parallel_ok>	吸收原本作用于功能件的伤害{n}%。不保护防护类部件，也不能防止溢出伤害；但免疫功能件暴击附加效果。 <parallel_ok>
+Absorbs {n}% of damage that would otherwise affect weapons. Also negates extra effects of critical strikes against weapons, but cannot protect against overflow damage.	吸收原本作用于武器的伤害{n}%。免疫武器暴击附加效果，但不能防止溢出伤害。
+Absorbs {n}% of damage that would otherwise affect weapons. Also negates extra effects of critical strikes against weapons, but cannot protect against overflow damage. <stacks>	吸收原本作用于武器的伤害{n}%。免疫武器暴击附加效果，但不能防止溢出伤害。 <stacks>
+Absorbs {n}% of damage that would otherwise affect weapons. Also negates extra effects of critical strikes against weapons, but cannot protect against overflow damage. <no_stack>	吸收原本作用于武器的伤害{n}%。免疫武器暴击附加效果，但不能防止溢出伤害。 <no_stack>
+Absorbs {n}% of damage that would otherwise affect weapons. Also negates extra effects of critical strikes against weapons, but cannot protect against overflow damage. <half_stack>	吸收原本作用于武器的伤害{n}%。免疫武器暴击附加效果，但不能防止溢出伤害。 <half_stack>
+Absorbs {n}% of damage that would otherwise affect weapons. Also negates extra effects of critical strikes against weapons, but cannot protect against overflow damage. <parallel_ok>	吸收原本作用于武器的伤害{n}%。免疫武器暴击附加效果，但不能防止溢出伤害。 <parallel_ok>
+{n}% of damage to this part is instead passed along to the core.	此部件所受伤害的{n}%转移至核心。
+{n}% of damage to parts is instead transferred directly to the core.	部件所受伤害的{n}%直接转移至核心。
+{n}% chance to shoot down grenades, rockets, or missiles that pass within a range of	范围内榴弹、火箭或导弹的击落几率为{n}%；范围：
+{n}% chance to reflect	反射几率：{n}%
+{n}% chance to deflect	偏转几率：{n}%
+{n}% chance to redirect	改向几率：{n}%
+{n}% chance to immediately teleport towards the attacker, if not already adjacent. Requires an open path to target location.	若未相邻，有{n}%几率立即传送至攻击者身边；目标处须有畅通路径。
+{n}% chance to negate the effects of incoming critical strikes.	抵消来袭暴击效果的几率：{n}%
+{n}% of all thermal damage sustained.	所受热能伤害的{n}%。
+{n}%, if fired alone. Incompatible with Weapon Cyclers and autonomous or overloaded weapons.	单独开火时为{n}%。与武器循环器、自主武器或过载武器不兼容。
+{n}%. Incompatible with Quantum Capacitor, Launcher Loader, and autonomous weapons.	{n}%。与量子电容器、发射器装弹器及自主武器不兼容。
+{n}% against all targets.	对所有目标均为{n}%。
+{n}% to dodge while on legs, hovering or flying (no effect on tracked or wheeled movement). Same chance to evade triggered traps, and a +1 to effective momentum for melee attacks and ramming. No effects while overweight.	腿行、悬浮或飞行时闪避率+{n}%（履带/轮式无效）。触发陷阱时同样几率闪避；近战和冲撞有效动量+1。超重时无效。
+{n}% for each weapon fired in a multi-weapon volley, minus one.	多武器齐射时，每发射一件武器，几率为{n}%，首件不计。
+{n}% if your previous action was an attack on same target.	若上次行动攻击同一目标，几率为{n}%。
+{n}% if target's previous action was an attack on you.	若目标上次行动攻击了你，几率为{n}%。
+{n}%, and minimum damage by	{n}%，最低伤害增加
+{n}%, while also increasing their coverage by	{n}%，并使目标覆盖权重提高
+{n}%. Also prevents launcher misfires caused by system corruption.	{n}%。还可防止系统损坏导致发射器哑火。
+{n}%. Only affects weapons that are already capable of critical hits, and not applicable for the Meltdown critical.	{n}%。仅影响本可造成暴击的武器，不适用于熔毁暴击。
+{n}%. Applies only to gun, cannon, and melee attacks.	{n}%。仅适用于枪械、炮和近战攻击。
+{n}%. Reduces enemy ranged targeting accuracy by	{n}%，并降低敌方远程瞄准命中率
+{n}% <stacks>. Increases target core exposure by	{n}% <stacks>。目标核心暴露率提高
+{n}% chance to bypass target armor. Does not apply to AOE attacks.	绕过目标装甲的几率为{n}%。不适用于范围攻击。
+{n}%. If this part is destroyed, so is its user, and if used by Cogmind, for every 3 damage taken also does 1 damage to Cogmind's core integrity.	{n}%。此部件被毁则使用者死亡；若由Cogmind使用，每受3点伤害，核心耐久另受1点伤害。
+{n}% once calibration is complete.	校准完成后为{n}%。
+{n}%, and may allow some weapons to exceed their normal maximum damage as well.	{n}%，且部分武器可超过常规伤害上限。
+{n}%, and decreases melee attack accuracy by	{n}%，并降低近战命中率
+{n}% bonus to rewiring traps and disrupted robots.	陷阱重布及干扰机器人的加成：{n}%
+{n}% chance to crush robots when ramming them. Cannot crush targets of large or greater size, or those with more than	冲撞时压碎机器人的几率为{n}%。无法压碎大型及以上目标，或核心耐久超过
+{n}% chance to rewire temporarily disabled hostiles, further modified by any offensive hackware. Can be used to parse almost any robot system. Many more hacking options available after using a RIF Installer inside a Garrison, and with Relay Couplers.	暂时停用的敌人可被重接线，几率{n}%，并受攻击型黑客设备修正。几乎可解析任何机器人系统。在驻军区使用RIF安装器并配合中继耦合器，可解锁更多黑客选项。
+{n}% chance to interact with target system to cause random chaotic effects. Effect will not trigger on Special class targets.	与目标系统交互并造成随机混沌效果的几率：{n}%。特殊类目标不受影响。
+{n}% of hacking attempts against allies within a range of	范围内盟友遭受黑客尝试时，{n}%几率
+{n}% of the time, and repels	{n}%的时间，并击退
+{n}%. Blocks hacking feedback side effects	{n}%。阻断黑客反馈副作用
+{n}% of core integrity.	核心耐久的{n}%。
+{n}% chance to instantly assimilate any robot without disruption immunity. No effect on unpowered, unconnected, or broken bots.	瞬间同化无扰乱免疫机器人的几率：{n}%。无电、未连接或损坏机器人无效。
+{n}% integrity by this process.	此过程恢复耐久{n}。
+{n}%. Also enables	{n}%。并启用
+{n}% chance to avoid negative effects of attaching a faulty prototype or corrupted part, but this feature requires 20 matter to take effect.	装上故障原型或损坏部件时，有{n}%几率避免负面效果；需消耗20物质。
+{n}% chance to identify a random unidentified part in inventory each turn. Cannot identify alien technology.	每回合有{n}%几率识别库存中一件随机未识别部件。无法识别外星科技。
+{n}% chance each turn to purge 1% of system corruption, losing	每回合有{n}%几率清除1%系统损坏，效率损失
+{n}% efficiency) at a rate of	{n}%效率），速率为
+{n}% of maximum integrity.	最大耐久的{n}%。
+{n}% chance each turn to restore a broken or malfunctioning part, attached or in inventory, to functionality. Unable to repair alien technology, or prototypes above rating 8, and no effect on corrupted or faulty parts, only those currently marked "Broken".	每回合有{n}%几率修复已装或库存中损坏/故障部件。不能修外星科技、评级高于8的原型、损坏或故障部件；仅修复标记为“损坏”的部件。
+{n}% chance each turn to convert a faulty prototype, attached or in inventory, into a working version. Operation requires having at least two of the same prototype, even if both are faulty.	每回合有{n}%几率将已装或库存中的故障原型转为可用版本。需至少有两件相同原型，即使两件都故障。
+{n}% chance to extract a non-hostile trap at current location, adding it to the extractor inventory if possible. Can hold up to	提取当前位置非敌对陷阱的几率：{n}%；若可能则存入提取器。最多可容纳
+{n}% if the source is armor.	若来源为装甲则为{n}%。
+{n}% of that of the source, or	来源部件的{n}%，或
+{n}% of any missing amount.	缺失值的{n}%。
+{n}% of successful hits.	命中成功时为{n}%。
+{n}% chance to instantly crush targets of medium size and below which have no more than 50 remaining core integrity.	瞬间压碎中型及以下目标的几率：{n}%；目标核心耐久须不高于50。
+{n}% chance to instead pull target to self if path is clear, then immediately allowed to act again. Also a separate	若路径畅通，有{n}%几率改为将目标拉至身边，随后可立即行动。另有独立
+{n}% corruption in each robot in view and within a range of	视野内且范围内每个机器人的损坏值为{n}%，范围
+{n}% chance each turn to cause anywhere from	每回合有{n}%几率使数值介于
+{n}%. Dispatching hub defense squads. All non-combat units evacuate.	{n}%。正在派遣枢纽防御小队。所有非战斗单位撤离。
+{n}%2 blown off.	{n}%2被击飞。
+{n}% ranged accuracy).	远程命中率{n}%。
+{n}% ranged accuracy)	远程命中率{n}%
+{n}% melee accuracy).	近战命中率{n}%。
+{n}% melee accuracy)	近战命中率{n}%
+{n}% of incoming damage to your core, all Armor type parts instead transfer only	核心受到的伤害有{n}%；所有装甲部件改为仅转移
+{n}% of its code value to a matching attached Coupler. Cannot increase value beyond	将其代码值的{n}%赋予匹配的已装耦合器。数值不能超过
+{n}% chance to duplicate each hack, also applying it to the visible applicable target nearest to the initial target, at no extra cost. Must have a matching Coupler attached for the fork target. Compatible with most hacks, excluding generate_echo, map_walls, map_earth, map_route, or those that would have no meaningful effect.	每次黑客入侵有{n}%几率复制，并免费作用于初始目标附近最近的可见适用目标。分叉目标需装有匹配耦合器。兼容多数黑客指令；不兼容generate_echo、map_walls、map_earth、map_route及无实际效果者。
+{n}% chance to automatically trick target system into believing it is allied with Cogmind. After 10 turns the network will perform an automated quickboot to restore it to normal, a process which takes anywhere from 5 to 10 turns. Checked once per visible combat bot while matching Coupler attached, separately for each Coupler.	自动欺骗目标系统、使其误认Cogmind为盟友的几率：{n}%。10回合后网络自动快速重启恢复，耗时5至10回合。每个匹配耦合器分别判定，每个可见战斗机器人每次检查一次。
+{n}% chance to automatically rewrite all target system data, permanently converting it into a fully controllable ally. Requires 6 turns to complete the process. Checked once per visible combat bot while matching Coupler attached, separately for each Coupler.	自动改写目标系统全部数据并永久转为完全可控盟友的几率：{n}%。需6回合完成。每个匹配耦合器分别判定，每个可见战斗机器人每次检查一次。
+{n}%1 already inactive	{n}%1已停用
+{n}%1 already active	{n}%1已启用
+{n}%1 not functional	{n}%1无功能
+{n}%1 already tweaked	{n}%1已调校
+{n}%1 ready to repair	{n}%1待维修
+{n}%1 blasted off.	{n}%1被炸飞。
+{n}%1 ripped off.	{n}%1被撕下。
+{n}%1 blown off.	{n}%1被击飞。
+{n}%1 purges 1% system corruption (%2%).	{n}%1清除1%系统损坏（%2%）。
+{n}%1 fully charged.	{n}%1已充满。
+{n}%1 no longer valid.	{n}%1已无效。
+{n}%1 injects {name} to begin assimilation process, ETC: %2.	{n}%1注入{name}以开始同化，预计完成：%2。
+{n}%1 locks onto door control terminal, ETC: %2.	{n}%1锁定门控终端，预计完成：%2。
+{n}%1 suddenly shrinks, drawing all nearby mass into a quantum tunnel.	{n}%1突然缩小，将附近所有质量吸入量子隧道。
+{n}%1 temporarily destabilized by failed replication attempt, a second attempt will likely cause a devastating explosion.	{n}%1因复制失败而暂时失稳；再次尝试很可能引发毁灭性爆炸。
+{n}%1 melts away.	{n}%1融化消失。
+{n}%1 access sealed.	{n}%1访问已封锁。
+{n}%1 comes online.	{n}%1已上线。
+{n}%1 deploys [name].	{n}%1部署了[name]。
+{n}%1 fries itself.	{n}%1烧毁自身。
+{n}%1 repels hacking attempt against [name]	{n}%1抵御了针对[name]的黑客入侵。
+{n}%1 no longer valid	{n}%1已无效
+{n}%1 permanently improved by X0-1V1 (%2)	{n}%1被X0-1V1永久强化（%2）
+{n}%1 evolved into %2	{n}%1进化为%2
+{n}%1 warped into view	{n}%1跃迁至视野中
+{*} ({n}/{n})	{*}({n}/{n})
+{*} ({n}/{n}) [inv]	{*}({n}/{n}) [库存]
+{*} - Lgt.	{*}－轻
+{*} - Sml.	{*}－小
+{*} - Med.	{*}－中
+{*} - Hvy.	{*}－重
+{*} - Imp.	{*}－冲
+{*} - Adv.	{*}－高
+{*} - Exp.	{*}－爆
+{*} - Enh.	{*}－强化
+{*} - Prc.	{*}－穿
+{*} - Rnf.	{*}－增
+{*} - Hcp.	{*}－高容
+{*} - Arm.	{*}－装甲
+{*} - Com.	{*}－常
+{*} - Mak.	{*}－制
+{*} - Lrg.	{*}－大
+{*} - Mni.	{*}－微型
+{*} - Mic.	{*}－微
+Attached {*}	已装载：{*}
+Detached {*}	已拆下：{*}
+Activated {*}	已启用：{*}
+Deactivated {*}	已停用：{*}
+Waypoint {*}/{*}	航点：{*}/{*}
+Volume = {*}	体积={*}
+Found {*}.	找到{*}
+Identified {*}.	已识别：{*}。
+Dropped {*}.	丢弃{*}
+Discarded {*}.	已弃置：{*}。
+Released {*}.	已释放：{*}。
+Critical hit ({*}).	暴击（{*}）。
+Melted {*}.	熔化{*}
+{*} {*} severed.	{*}切断了{*}。
+{*} {*} stolen.	{*}偷走了{*}。
+{*} extracts {*}.	{*}提取了{*}。
+Repairing {*}.	维修{*}
+Rigged {*} with {*}.	用{*}设下{*}。
+Triggered {*}.	已触发：{*}。
+Core damaged (-{*}).	核心受损（-{*}）。
+{*} obliterated.	{*}被彻底摧毁。
+Installed {*}.	已安装：{*}。
+{*} delivers {*}.	{*}交付了{*}。
+{*} releases {*}.	{*}释放了{*}。
+{*} works on {*}.	{*}作用于{*}。
+{*} repairs {*}.	{*}修复了{*}。
+Converted {*} to {*}.	{*}转化为{*}。
+{*} absorbs {*}.	{*}吸收了{*}。
+Upgraded: {*} ({*})	已升级：{*}（{*}）
+{*} drops {*}.	{*}掉落了{*}。
+{*} attaches {*}.	{*}装上了{*}。
+{*} swaps in {*}.	{*}换上了{*}。
+Cleaned {*}.	清理{*}
+Broke down {*}.	{*}损坏。
+Repaired {*}.	已修复：{*}。
+Hacked {*}, {*}.	入侵{*}/{*}
+-- NOTE: {*}	--备注：{*}
+Entered {*}	进入：{*}
+Spotted {*}	发现：{*}
+Met {*}	遇{*}
+Lost {*} parts ({*})	损失{*}个部件（{*}）
+Murdered {*}	击杀：{*}
+Destroyed {*}	摧毁：{*}
+Rewired {*}	重接{*}
+Fabricated {*} (x{*})	制造：{*}（x{*}）
+Fabricated {*}?	制造：{*}？
+Repaired {*}	修复：{*}
+Repaired {*}?	修复：{*}？
+Found {*}	发现：{*}
+Identified {*}	识别：{*}
+Used {*}	用{*}
+Fired {*}	开火：{*}
+Installed {*}, {*}	已安装：{*}，{*}
+Triggered {*}	触发：{*}
+X0-1V1 opened {*}	X0-1V1开启了{*}
+X0-1V1 destroyed {*}	X0-1V1摧毁了{*}
+Visited {*}	到访：{*}
+Rescued {*}	救出：{*}
+Bump a potentially hostile 0b10 robot with force melee movement while Recalibrator inactive to deconstruct it. While Recalibrator inactive, valid targets blink pink. Cannot deconstruct huge or prototype targets, or targets currently in combat.	关闭校准器时，以强制近战移动撞击可能敌对的0b10机器人，将其拆解。有效目标会闪粉红。无法拆解巨型/原型目标或正在交战的目标。
+Mark all prototypes and alien tech within a range of 20, also providing their IDs.	标记20格内所有原型与外星科技，并显示其ID。
+Disassemble the nearest allied visible non-huge non-prototype 0b10 bot into its constituent parts.	拆解最近可见的友方0b10机器人，获取其部件（不包括巨型或原型）。
+Latch onto the nearest visible non-prototype 0b10 bot to hold it in place. This task is automatically cancelled after 25 turns.	抓住最近可见的非原型0b10机器人使其无法移动；25回合后自动取消。
+Instruct system to follow local evacuation protocols by heading to another 0b10-controlled level.	遵循本地撤离协议，前往另一层0b10控制区。
+Scan local network for vulnerable protovariant control systems to overload and turn against Complex 0b10.	扫描本地网络，寻找易受攻击的原型变体控制系统；使其过载并倒戈对抗复合体0b10。
+Download information about local prototype parts, making it possible to identify them before use.	下载本地原型部件资料，以便使用前识别。
+Obtain protocols for extracting patrol squad routing information throughout the connected Complex 0b10 area.	获取协议，以提取相连复合体0b10区域内的巡逻小队路线信息。
+Query system for the location of all prototype stockpiles, also revealing their dominant component.	查询所有原型库存位置，并显示主要部件。
+Query system for the location of all non-prototype stockpiles, also revealing their dominant component.	查询所有非原型库存位置，并显示主要部件。
+Download information about prototype parts, making it possible to identify them before use and distinguish between faulty and non-faulty versions.	下载原型部件信息，以便使用前识别并区分故障与正常版本。
+Reprograms the next squad emerging from this garrison. No effect on prototypes, though if dispatched from here they do not affect the installed trojan.	重编程从此驻军点出发的下一支小队。对原型无效；从此处派出的小队也不会影响已安装木马。
+Redirects all squads emerging from this garrison away from their intended targets, though the chance for its presence to be detected increases by 25% each time it takes effect. No effect on prototypes, though if dispatched from here they do not affect the installed trojan.	将从此驻军点出发的所有小队引离目标。每次生效后被发现几率增加25%。对原型无效；从此处派出的小队也不会影响已安装木马。
+Redirects the next squad emerging from this garrison away from its intended target. No effect on prototypes, though if dispatched from here they do not affect the installed trojan.	将下一支从此驻军点出发的小队引离目标。对原型无效；从此处派出的小队也不会影响已安装木马。
+Used to restore integrity of core and attached parts at a rate of 1 protomatter per 3 integrity. Protomatter at your current location is automatically applied each turn as available and necessary.	用于修复核心及已装部件，每3点耐久消耗1原质。当前位置的原质会在每回合自动按需使用。
+This is an unidentified prototype. Attaching it before proper analysis will identify its functions, but also carries the risk of negative side-effects if it is a faulty version.	未识别原型。装上后可识别其功能，但若为故障版本，可能产生副作用。
+: Automatically swap in additional matching Couplers in sequence from inventory when effective code value of current attached Couplers insufficient for desired hack.	: 当前耦合器代码值不足以执行目标入侵时，自动按库存顺序换上匹配耦合器。
+: Blocks local transmissions from visible hostiles while matching Coupler attached, making it impossible for them to share information about your current position. Also prevents calls for reinforcements, and suppresses alarm traps.	: 装有匹配耦合器时，阻断可见敌人的本地传输，使其无法共享你的位置；同时阻止呼叫增援并压制警报陷阱。
+: Block the influence of kills by allied former 0b10 combat bots while matching Coupler attached.	: 装有匹配耦合器时，阻止盟军前0b10战斗机器人击杀效果影响你。
+: Reveal any hidden door or phasewall on sight, and pass through phasewalls normally.	: 看见时揭示隐藏门或相位墙，并可正常穿越相位墙。
+: Fully prevent Programmers from hacking allied former 0b10 combat bots while matching Coupler attached (no range or sight limitations).	: 装有匹配耦合器时，完全阻止程序员入侵盟军前0b10战斗机器人（无距离或视线限制）。
+: Convert Swarmer, Grunt, Brawler, and Duelist Couplers to Relay Coupler [C], usable on any common 0b10 bots of these types.	: 将蜂群、步兵、斗士、决斗者耦合器转换为中继耦合器[C]，适用于这些类型的常见0b10机器人。
+Move North	向北移动
+Run North	向北奔跑
+Force Melee North	向北强制近战
+Move Northeast	向东北移动
+Run Northeast	向东北奔跑
+Force Melee Northeast ({n})	向东北强制近战（{n}）
+Move East	向东移动
+Run East	向东奔跑
+Force Melee East	向东强制近战
+Move Southeast	向东南移动
+Move Southeast ({n})	向东南移动（{n}）
+Run Southeast	向东南奔跑
+Run Southeast ({n})	向东南奔跑（{n}）
+Jump Southeast	向东南跳跃
+Jump Southeast ({n})	向东南跳跃（{n}）
+Force Melee Southeast ({n})	向东南强制近战（{n}）
+Move South	向南移动
+Run South	向南奔跑
+Force Melee South	向南强制近战
+Move Southwest	向西南移动
+Move Southwest ({n})	向西南移动（{n}）
+Run Southwest	向西南奔跑
+Run Southwest ({n})	向西南奔跑（{n}）
+Jump Southwest	向西南跳跃
+Jump Southwest ({n})	向西南跳跃（{n}）
+Force Melee Southwest ({n})	向西南强制近战（{n}）
+Move West	向西移动
+Run West	向西奔跑
+Force Melee West	向西强制近战
+Move Northwest	向西北移动
+Move Northwest ({n})	向西北移动（{n}）
+Run Northwest	向西北奔跑
+Run Northwest ({n})	向西北奔跑（{n}）
+Jump Northwest	向西北跳跃
+Jump Northwest ({n})	向西北跳跃（{n}）
+Force Melee Northwest ({n})	向西北强制近战（{n}）
+Close ({n})	关闭（{n}）
+Cancel ({n})	取消（{n}）
+Continue ({n})	继续（{n}）
+Return ({n})	返回（{n}）
+Skip ({n})	略({n})
+Confirm ({n})	确认（{n}）
+Previous ({n})	上一项（{n}）
+Next ({n})	下({n})
+Load ({n})	载({n})
+Restart ({n})	重启（{n}）
+Save & Quit ({n})	保存并退出（{n}）
+Wait ({n})	等({n})
+Data (Info) ({n})	数据({n})
+Resistance: I	抗性：I
+Resistance: S	抗性：S
+Resistance: P	抗性：P
+Destroyed A{n}	A{n}被摧毁
+Cored by {*} misfire	被{*}哑火击穿核心
+{n}/Abandoned Discotheque, turn {n}	{n}/废弃迪斯科厅，第{n}回合
+{n}/Access, turn {n}	{n}/访问/{n}回合
+{n}/Archives, turn {n}	{n}/档案室，第{n}回合
+{n}/Armory, turn {n}	{n}/军械/{n}回合
+{n}/Command, turn {n}	{n}/指挥区，第{n}回合
+{n}/D. Caves, turn {n}	{n}/深洞/{n}回合
+{n}/Data Miner, turn {n}	{n}/数据矿/{n}回合
+{n}/Deep Caves, turn {n}	{n}/深层洞穴，第{n}回合
+{n}/Deep Caves Substructure, turn {n}	{n}/深层洞穴下层结构，第{n}回合
+{n}/Derelict Communes, turn {n}	{n}/遗迹者公社，第{n}回合
+{n}/Exiles, turn {n}	{n}/放逐/{n}回合
+{n}/Extension, turn {n}	{n}/扩展区，第{n}回合
+{n}/Factory, turn {n}	{n}/工厂，第{n}回合
+{n}/Garrison, turn {n}	{n}/驻军区，第{n}回合
+{n}/Happy Place, turn {n}	{n}/欢乐之地，第{n}回合
+{n}/L. Caves, turn {n}	{n}/浅洞/{n}回合
+{n}/Lair, turn {n}	{n}/巢穴/{n}回合
+{n}/Lower Caves, turn {n}	{n}/低层洞穴，第{n}回合
+{n}/Lower Systems, turn {n}	{n}/下层系统，第{n}回合
+{n}/Materials, turn {n}	{n}/物资区，第{n}回合
+{n}/Mines, turn {n}	{n}/矿区，第{n}回合
+{n}/P. Caves, turn {n}	{n}/原洞/{n}回合
+{n}/Protoforge, turn {n}	{n}/原型锻炉，第{n}回合
+{n}/Proximity Caves, turn {n}	{n}/近区洞穴，第{n}回合
+{n}/Quarantine, turn {n}	{n}/隔离区，第{n}回合
+{n}/Recycling, turn {n}	{n}/回收区，第{n}回合
+{n}/Research, turn {n}	{n}/研究区，第{n}回合
+{n}/Scraptown, turn {n}	{n}/废料镇，第{n}回合
+{n}/Scrapyard, turn {n}	{n}/废料场，第{n}回合
+{n}/Section 7, turn {n}	{n}/第7区，第{n}回合
+{n}/Storage, turn {n}	{n}/储存区，第{n}回合
+{n}/Subcaves, turn {n}	{n}/支洞穴，第{n}回合
+{n}/Surface, turn {n}	{n}/地表，第{n}回合
+{n}/Testing, turn {n}	{n}/测试区，第{n}回合
+{n}/The Eye, turn {n}	{n}/之眼，第{n}回合
+{n}/U. Caves, turn {n}	{n}/上洞/{n}回合
+{n}/Upper Caves, turn {n}	{n}/上层洞穴，第{n}回合
+{n}/Warlord, turn {n}	{n}/军阀区，第{n}回合
+{n}/Wartown, turn {n}	{n}/战争镇，第{n}回合
+{n}/Waste, turn {n}	{n}/废土，第{n}回合
+{n}/Zhirov, turn {n}	{n}/日罗夫/{n}回合
+- SHUTDOWN -	- 正在关机 -
+Accepting {*}...	正在接受{*}……
+{*} ({n})	{*}({n})
+Inventory:	库存：
+Tier: {n}	等级：{n}
+Components: {n}	部件：{n}
+Building: {*}	建造中：{*}
+Loaded: {*}	已载入：{*}
+Idle	闲置
+Offline	离线
+Crashed	崩溃
+Failed {n}% (suspicious activity detected by network sentry).	失败{n}%（网络哨兵发现可疑活动）。
+Failed {n}% (near success, suspicious activity detected by network sentry).	失败{n}%（接近成功，但网络哨兵发现可疑活动）。
+Failed {n}% (catastrophic failure, suspicious activity detected by network sentry).	失败{n}%（灾难性失败，网络哨兵发现可疑活动）。
+Failed {n}% (encountered trap node).	失败{n}%（遭遇陷阱节点）。
+Failed {n}% (near success, encountered trap node).	失败{n}%（接近成功，但遭遇陷阱节点）。
+Failed {n}% (catastrophic failure, encountered trap node).	失败{n}%（灾难性失败，遭遇陷阱节点）。
+Failed {n}% (followed decoy data trail).	失败{n}%（沿诱饵数据路径追踪）。
+Failed {n}% (near success, followed decoy data trail).	失败{n}%（接近成功，但沿诱饵数据路径追踪）。
+Failed {n}% (catastrophic failure, followed decoy data trail).	失败{n}%（灾难性失败，沿诱饵数据路径追踪）。
+Failed {n}% (sudden abort of session control).	失败{n}%（会话控制突然中止）。
+Failed {n}% (near success, sudden abort of session control).	失败{n}%（接近成功，但会话控制突然中止）。
+Failed {n}% (catastrophic failure, sudden abort of session control).	失败{n}%（灾难性失败，会话控制突然中止）。
+Failed {n}% (receiving potentially harmful encrypted stream).	失败{n}%（收到可能有害的加密数据流）。
+Failed {n}% (near success, receiving potentially harmful encrypted stream).	失败{n}%（接近成功，但收到可能有害的加密数据流）。
+Failed {n}% (catastrophic failure, receiving potentially harmful encrypted stream).	失败{n}%（灾难性失败，收到可能有害的加密数据流）。
+Failed {n}% (dynamic firewall re-routed connection).	失败{n}%（动态防火墙已重路由连接）。
+Failed {n}% (near success, dynamic firewall re-routed connection).	失败{n}%（接近成功，但动态防火墙已重路由连接）。
+Failed {n}% (catastrophic failure, dynamic firewall re-routed connection).	失败{n}%（灾难性失败，动态防火墙已重路由连接）。
+Failed {n}% (unexpected hard line switch).	失败{n}%（硬线路意外切换）。
+Failed {n}% (near success, unexpected hard line switch).	失败{n}%（接近成功，但硬线路意外切换）。
+Failed {n}% (catastrophic failure, unexpected hard line switch).	失败{n}%（灾难性失败，硬线路意外切换）。
+Failed {n}% (triggered system alarm).	失败{n}%（触发系统警报）。
+Failed {n}% (near success, triggered system alarm).	失败{n}%（接近成功，但触发系统警报）。
+Failed {n}% (catastrophic failure, triggered system alarm).	失败{n}%（灾难性失败，触发系统警报）。
+Failed {n}% (triggered node purge).	失败{n}%（触发节点清除）。
+Failed {n}% (near success, triggered node purge).	失败{n}%（接近成功，但触发节点清除）。
+Failed {n}% (catastrophic failure, triggered node purge).	失败{n}%（灾难性失败，触发节点清除）。
+Failed {n}% (encountered local connection sweep).	失败{n}%（遭遇本地连接扫描）。
+Failed {n}% (near success, encountered local connection sweep).	失败{n}%（接近成功，但遭遇本地连接扫描）。
+Failed {n}% (catastrophic failure, encountered local connection sweep).	失败{n}%（灾难性失败，遭遇本地连接扫描）。
+Failed {n}% (session timeout).	失败{n}%（会话超时）。
+Failed {n}% (near success, session timeout).	失败{n}%（接近成功，但会话超时）。
+Failed {n}% (catastrophic failure, session timeout).	失败{n}%（灾难性失败，会话超时）。
+Failed {n}% (suspicious null response).	失败{n}%（收到可疑的空响应）。

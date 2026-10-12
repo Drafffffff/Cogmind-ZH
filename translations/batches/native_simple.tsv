@@ -1,0 +1,96 @@
+{*} disappears into a concealed tunnel.	{*}消失在一条隐秘隧道中。
+{*} falls loose from the Twisted Machinery.	{*}从扭曲机械中脱落。
+{*} vanishes into the earth.	{*}消失在土层中。
+{*} bursts out of the Twisted Machinery.	{*}从扭曲机械中冲出。
+{*} is pierced by a surge of energy.	{*}被一股能量涌流击中。
+{*} flashes as you approach.	你靠近时，{*}闪烁起来。
+ALERT: Network intrusion management efficiency reduced by {*}%. Dispatching hub defense squads. All non-combat units evacuate.	警报：网络入侵管理效率降低了{*}%。正在派遣枢纽防御小队。所有非战斗单位立即撤离。
+ALERT: Network intrusion management efficiency at {*}%.	警报：网络入侵管理效率为{*}%。
+{*} form shifts and reconstitutes itself, revealing true form.	{*}形态变换并重新组合，显露出真正形态。
+{*} bursts from the wall.	{*}破墙而出。
+{*} shrinks and is drawn into a quantum tunnel.	{*}缩小后被吸入量子隧道。
+{*} resistance returns to normal.	{*}抗性恢复正常。
+Weapon slot count returns to normal (-{*}).	武器槽数量恢复正常（-{*}）。
+X0-1V1 twists and redirects some latent energy in your direction (+{*} energy).	X0-1V1扭转并引导部分潜在能量流向你（+{*}能量）。
+X0-1V1: "Don't spend it all in one place." (+{*} energy generation)	X0-1V1：“别把能量都花在一个地方。”（+{*}能量生成）
+X0-1V1 connects you with a stream of twisted latent energy (+{*} energy generation).	X0-1V1为你接入一股扭曲的潜在能量流（+{*}能量生成）。
+X0-1V1 injects you with a stream of matter (+{*}).	X0-1V1向你注入一股物质流（+{*}）。
+X0-1V1 sucks the heat right out of you (-{*} heat).	X0-1V1直接从你身上抽走热量（-{*}热量）。
+X0-1V1: "Heat sink stocks are down. Don't ask me how I know." ({*} heat dissipation)	X0-1V1：“散热器库存告急。别问我怎么知道的。”（{*}散热）
+X0-1V1 thinks you're pretty cool, for now ({*} heat dissipation).	X0-1V1觉得你目前还挺酷（{*}散热）。
+X0-1V1: "A slightly more accurate toy is still a toy." ({*}% ranged accuracy)	X0-1V1：“玩具再精准也还是玩具。”（{*}%远程命中率）
+X0-1V1 waits impatiently for you to get up close and personal with every target in the area ({*}% melee accuracy).	X0-1V1迫不及待地等你与区域内每个目标近身交锋（{*}%近战命中率）。
+X0-1V1: "A slightly more accurate toy is still a toy." ({*}% melee accuracy)	X0-1V1：“玩具再精准也还是玩具。”（{*}%近战命中率）
+X0-1V1: "See? It buffs right out!" (+{*} core integrity)	X0-1V1：“看吧？一下就修好了！”（+{*}核心耐久）
+X0-1V1 ensures you are ready for glorious battle (+{*}).	X0-1V1确保你已准备好迎接光荣战斗（+{*}）。
+A marvel of modern technology appears at your location ({*}).	一项现代科技奇迹出现在你的位置（{*}）。
+X0-1V1: "Watch where you're going!" ({*} sight range)	X0-1V1：“看着点路！”（{*}视野范围）
+X0-1V1 makes important surrounding features appear closer to you ({*} sight range).	X0-1V1让周围的重要地形显得更近（{*}视野范围）。
+X0-1V1: "Let the electrons flow!" ({*} energy capacity)	X0-1V1：“让电子流动起来！”（{*}能量容量）
+X0-1V1 causes your matter storage to temporarily balloon in size. ({*} matter capacity)	X0-1V1让你的物质储量暂时大幅扩容（{*}物质容量）。
+X0-1V1: "Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge." (permanent {*} core integrity)	X0-1V1：“就算你挨了顿揍，周围有这么多备用部件，你那可爱的小核心总有希望浴火重生，完成光荣复仇。”（永久核心耐久{*}）
+X0-1V1 points here and there ({*} revealed).	X0-1V1指指点点（揭示了{*}）。
+X0-1V1: "I found some blueprints, how convenient!" ({*} revealed).	X0-1V1：“我找到了一些蓝图，真方便！”（揭示了{*}）。
+X0-1V1 wants to heat up the action around here (+{*} heat).	X0-1V1想让这里的战况升温（+{*}热量）。
+X0-1V1: "Your inner air conditioner seems to have fallen into disrepair." ({*} heat dissipation)	X0-1V1：“你的内置空调似乎已经失修了。”（散热{*}）
+X0-1V1: "There's a penalty for shooting from the hip 'round these parts." ({*}% ranged accuracy)	X0-1V1：“在这地方，盲射可是要受惩罚的。”（远程命中率{*}%）
+X0-1V1 projects screaming human faces on all surfaces in the area ({*}% melee accuracy).	X0-1V1把尖叫的人脸投影到区域内所有表面（近战命中率{*}%）。
+X0-1V1: "It's not much, but it's the thought that counts. (+{*} system corruption)"	X0-1V1：“心意到了就好，不必多。”（+{*}系统腐化）
+X0-1V1 brushes you with a corrupting influence (+{*} system corruption).	X0-1V1以腐化影响拂过你（+{*}系统腐化）。
+X0-1V1: "In a world full of sensor tech, vision is overrated." ({*} sight range)	X0-1V1：“在传感器技术遍地的世界里，视力被高估了。”（视野范围{*}）
+X0-1V1 blurs the world around you ({*} sight range).	X0-1V1令你眼中的世界变得模糊（视野范围{*}）。
+X0-1V1: "Did you know you're leaking matter?" ({*} matter capacity)	X0-1V1：“你知道自己正在漏物质吗？”（物质容量{*}）
+Established visual feed link with {*}	已建立与{*}的视觉信号连接
+ANNOUNCEMENT: Warlord currently on {*} approach. All units hit designated targets.	公告：军阀正沿{*}逼近。全体单位攻击指定目标。
+ALERT: Suspicious activity reported at {*}. Dispatching Cutter search squad to Garrison.	警报：{*}报告可疑活动。派遣切割者搜索小队前往驻防站。
+Re-established visual feed link, T-{n} until cutoff.	已重新建立视觉信号连接，距中断还有T-{n}。
+Established visual feed link, T-{n} until cutoff.	已建立视觉信号连接，距中断还有T-{n}。
+If only there was a way to {*}.	要是有办法能{*}就好了。
+Blocks 50% of damage to this part in exchange for energy loss at a 1:{*} ratio (no effect if insufficient energy). Example, 20 damage inflicted on this part would be reduced to 10, draining 10 energy to prevent the rest.	抵消对该部件50%的伤害，能量损失比为1:{*}（能量不足时无效）。\n\n例如，对该部件造成20点伤害时，伤害会减至10点，并消耗10点能量抵消其余伤害。
+Blocks 50% of damage to this part in exchange for energy loss at a 1:{*} ratio (no effect if insufficient energy).	抵消对该部件50%的伤害，能量损失比为1:{*}（能量不足时无效）。
+Example, 20 damage inflicted on this part would be reduced to 10, draining 10 energy to prevent the rest.	例如，对该部件造成20点伤害时，伤害会减至10点，并消耗10点能量抵消其余伤害。
+Increases salvage recovered from targets, +{*} modifier. Compatible only with gun-type weapons that fire a single projectile. <stacks>	提高目标的回收收益，修正值+{*}。仅兼容发射单发弹丸的枪械类武器。\n <stacks>
+Increases salvage recovered from targets, +{*} modifier. Compatible only with gun-type weapons that fire a single projectile.	提高目标的回收收益，修正值+{*}。仅兼容发射单发弹丸的枪械类武器。
+<stacks>	<stacks>
+Increases salvage recovered from targets, +{*} modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile. <stacks>	提高目标的回收收益，修正值+{*}。仅兼容发射单发弹丸的枪械或炮械类武器。\n <stacks>
+Increases salvage recovered from targets, +{*} modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.	提高目标的回收收益，修正值+{*}。仅兼容发射单发弹丸的枪械或炮械类武器。
+Holds target in place. Beam strength: {*}. Also cancels a flying/hovering target's 10%/5% bonus to dodge for the duration.	将目标定在原地。光束强度：{*}。持续期间还会取消飞行/悬浮目标的10%/5%闪避加成。
+Teleports the user to an approximate distance of {*} from current position, traveling along dimensional pathways of least resistance.	将使用者传送至距当前位置约{*}的地点，沿阻力最小的维度路径行进。
+Permanently increases core heat dissipation by {*}. <consumed>	永久提高核心散热能力{*}。\n <consumed>
+Permanently increases core heat dissipation by {*}.	永久提高核心散热能力{*}。
+<consumed>	<consumed>
+Permanently increases core energy generation by {*}. <consumed>	永久提高核心能量生成量{*}。\n <consumed>
+Permanently increases core energy generation by {*}.	永久提高核心能量生成量{*}。
+Destroys all walls and earth up to a distance of {*} without affecting other materials. <consumed>	摧毁距离{*}以内的所有墙壁和土层，不影响其他材料。\n <consumed>
+Destroys all walls and earth up to a distance of {*} without affecting other materials.	摧毁距离{*}以内的所有墙壁和土层，不影响其他材料。
+Permanently increases maximum core integrity by {*}. <consumed>	永久提高核心最大耐久{*}。\n <consumed>
+Permanently increases maximum core integrity by {*}.	永久提高核心最大耐久{*}。
+Permanently increases inventory capacity by {*}. <consumed>	永久提高库存容量{*}。\n <consumed>
+Permanently increases inventory capacity by {*}.	永久提高库存容量{*}。
+Permanently increases energy capacity by {*}. <consumed>	永久提高能量容量{*}。\n <consumed>
+Permanently increases energy capacity by {*}.	永久提高能量容量{*}。
+Permanently increases matter storage capacity by {*}. <consumed>	永久提升物质储存容量：{*}。\n <consumed>
+Permanently increases matter storage capacity by {*}.	永久提升物质储存容量：{*}。
+Permanently increases mass support by {*} (regardless of propulsion). <consumed>	永久提升质量承载：{*}（不受推进方式影响）。\n <consumed>
+Permanently increases mass support by {*} (regardless of propulsion).	永久提升质量承载：{*}（不受推进方式影响）。
+Attracts any debris within at least a range of {*}, converting it to matter on arrival.	至少可吸引{*}格范围内的所有残骸，到达后将其转化为物质。
+While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes {*} turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.	启用时，反复移入机器或爆破门即可拆解；目标装甲越高，拆解越久。每一步需要{*}回合，进度以完成拆解所剩回合数显示。拆解爆炸机器时会将其拆开而不会引爆。
+Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately {*} turns.	自主供能的单元，可建造并维护完整的魔像。建造约需{*}回合。
+Regenerates integrity at a rate of 1 per {*} turns. <parallel_ok, resume_ok>	每{*}回合恢复1点耐久。\n <parallel_ok, resume_ok>
+Regenerates integrity at a rate of 1 per {*} turns.	每{*}回合恢复1点耐久。
+<parallel_ok, resume_ok>	<parallel_ok, resume_ok>
+Regenerates integrity at a rate of {n} per turn. <parallel_ok>	每回合恢复{n}耐久。\n <parallel_ok>
+Regenerates integrity at a rate of {n} per turn.	每回合恢复{n}耐久。
+<parallel_ok>	<parallel_ok>
+Sets a temporal reversion point when attached, then loses {n} integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.	装上后设定时间回溯点，随后每回合损失{n}耐久。耐久自然耗尽时，你会被强制送回该时间点。若提前被摧毁，则不会触发回溯。
+Automatically and instantly reprograms visible hostile traps within a range of {n}.	自动即时重编程视野范围内距离不超过{n}的敌对陷阱。
+Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover {n}% of any missing amount. <parallel_ok>	间歇性地将已装部件变为其他部件。新部件保留原部件的耐久百分比，并额外恢复缺失部分的{n}%。\n <parallel_ok>
+Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover {n}% of any missing amount.	间歇性地将已装部件变为其他部件。新部件保留原部件的耐久百分比，并额外恢复缺失部分的{n}%。
+Move through up to {n} consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.	穿过最多{n}个连续实体障碍，抵达另一侧首个空格；每穿过一格，核心耐久承受相当于最大值1%的伤害。
+Warp across any number of open spaces nearly instantly, taking {n} damage to core integrity for each space traveled.	几乎瞬间跃迁任意数量的空格，每移动一格，核心耐久受到{n}点伤害。
+While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires {n} matter.	启用时，移入爆炸机器即可布设，使任意0b10战斗机器人经过时引爆。布设需消耗{n}点物质。
+If active while moving over free matter, repairs itself at a cost of {n} matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.	启用时，经过可拾取物质会消耗{n}点物质恢复1点耐久。若所有者的物质储量未满，只会消耗至多一半可用物质。
+Requires at least {n} momentum. Energy upkeep: 8.	至少需要{n}动量。能量维护消耗：8。
+While active and charged, move to teleport in a general direction to an approximate distance of {n} from current position. May not arrive at destination entirely in one piece.	启用且充能时，移动即可朝大致方向传送约{n}格。抵达时可能无法全身而退。
+While active, move to teleport in a general direction to an approximate distance of {n} from current position. Will not arrive at destination entirely in one piece. <consumed>	启用时，移动即可朝大致方向传送约{n}格。抵达时必然无法全身而退。\n <consumed>
+While active, move to teleport in a general direction to an approximate distance of {n} from current position. Will not arrive at destination entirely in one piece.	启用时，移动即可朝大致方向传送约{n}格。抵达时必然无法全身而退。

@@ -1,0 +1,859 @@
+[
+  {
+    "source": "disappears into a concealed tunnel.",
+    "raw": " disappears into a concealed tunnel.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "falls loose from the Twisted Machinery.",
+    "raw": " falls loose from the Twisted Machinery.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "vanishes into the earth.",
+    "raw": " vanishes into the earth.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "The earth collapses behind",
+    "raw": "The earth collapses behind ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "bursts out of the Twisted Machinery.",
+    "raw": " bursts out of the Twisted Machinery.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "route. See that they get there.",
+    "raw": " route. See that they get there.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "twisted beyond recognition.",
+    "raw": " twisted beyond recognition.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "containment failure.",
+    "raw": " containment failure.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least",
+    "raw": " integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least ",
+    "classification": "uncovered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "related_original_key": "Dissipates {n} heat per turn, losing {n} integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise above {n}.",
+    "difference_reason": "末尾阈值措辞不同：此片段为“rise to at least”，上游 key 为“rise above”；只能算近似相关，不能证实同一固定模板。"
+  },
+  {
+    "source": "energy to prevent the rest (5*",
+    "raw": " energy to prevent the rest (5*",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Example, {n} damage inflicted on this part would be reduced to {n}, draining {n} energy to prevent the rest.",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "Blocks 25% of damage in exchange for energy loss at a 1:",
+    "raw": "Blocks 25% of damage in exchange for energy loss at a 1:",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Blocks {n}% of damage in exchange for energy loss at a 1:{n} ratio (no effect if insufficient energy)",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+    "raw": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+    "classification": "uncovered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "related_original_key": "Blocks {n}% of damage in exchange for energy loss at a 1:{n} ratio (no effect if insufficient energy)",
+    "difference_reason": "片段额外限定“to this part”；上游 key 没有该限定，不能视为相同模板覆盖。"
+  },
+  {
+    "source": "energy to prevent the rest (10*",
+    "raw": " energy to prevent the rest (10*",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Example, {n} damage inflicted on this part would be reduced to {n}, draining {n} energy to prevent the rest.",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "Blocks 50% of damage in exchange for energy loss at a 1:",
+    "raw": "Blocks 50% of damage in exchange for energy loss at a 1:",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Blocks {n}% of damage in exchange for energy loss at a 1:{n} ratio (no effect if insufficient energy)",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "Example: A 20-damage attack would be reduced to 15 (20-(20*0.25)=15), draining",
+    "raw": "Example: A 20-damage attack would be reduced to 15 (20-(20*0.25)=15), draining ",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Example: A {n}-damage attack would be reduced to {n} ({n}-({n}*{n})={n}), draining {n} energy to prevent the rest ({n}*{n}={n}).",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "Example: A 20-damage attack would be reduced to 10 (20-(20*0.50)=10), draining",
+    "raw": "Example: A 20-damage attack would be reduced to 10 (20-(20*0.50)=10), draining ",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Example: A {n}-damage attack would be reduced to {n} ({n}-({n}*{n})={n}), draining {n} energy to prevent the rest ({n}*{n}={n}).",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "energy to prevent the rest (15*",
+    "raw": " energy to prevent the rest (15*",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Example, {n} damage inflicted on this part would be reduced to {n}, draining {n} energy to prevent the rest.",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "Example: A 20-damage attack would be reduced to 5 (20-(20*0.75)=5), draining",
+    "raw": "Example: A 20-damage attack would be reduced to 5 (20-(20*0.75)=5), draining ",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Example: A {n}-damage attack would be reduced to {n} ({n}-({n}*{n})={n}), draining {n} energy to prevent the rest ({n}*{n}={n}).",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "Blocks 75% of damage in exchange for energy loss at a 1:",
+    "raw": "Blocks 75% of damage in exchange for energy loss at a 1:",
+    "classification": "covered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "matched_original_key": "Blocks {n}% of damage in exchange for energy loss at a 1:{n} ratio (no effect if insufficient energy)",
+    "difference_reason": "原文片段与该固定上游英文 key 的字面词序一致；差异仅为数值/参数占位符以及本条截取了 key 的一部分。"
+  },
+  {
+    "source": "in a random direction.",
+    "raw": " in a random direction.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "back in the direction of the attack.",
+    "raw": " back in the direction of the attack.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Example: All weapons in a three-weapon volley would have +",
+    "raw": "Example: All weapons in a three-weapon volley would have +",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "modifier. Compatible only with gun-type weapons that fire a single projectile.",
+    "raw": " modifier. Compatible only with gun-type weapons that fire a single projectile.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.",
+    "raw": " modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Holds target in place. Beam strength:",
+    "raw": "Holds target in place. Beam strength: ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Penetrates target robot just enough to enable system access for hacking. Also a base",
+    "raw": "Penetrates target robot just enough to enable system access for hacking. Also a base ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "While hacking machines, reduces both chance of detection and rate of detection chance increases by",
+    "raw": "While hacking machines, reduces both chance of detection and rate of detection chance increases by ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Teleports the user to an approximate distance of",
+    "raw": "Teleports the user to an approximate distance of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "from current position, traveling along dimensional pathways of least resistance.",
+    "raw": " from current position, traveling along dimensional pathways of least resistance.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Simultaneously teleports all visible robots within a range of",
+    "raw": " Simultaneously teleports all visible robots within a range of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "part integrity is capable of repairing 100 core integrity.",
+    "raw": " part integrity is capable of repairing 100 core integrity.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "part integrity. A drain of",
+    "raw": " part integrity. A drain of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Examples: A drain of 100 core integrity is capable of repairing",
+    "raw": "Examples: A drain of 100 core integrity is capable of repairing ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Permanently increases core heat dissipation by",
+    "raw": "Permanently increases core heat dissipation by ",
+    "classification": "uncovered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "related_original_key": "{*} installed, core heat dissipation increased (+{*}).",
+    "difference_reason": "上游 key 是安装后弹出的结果提示，缺少原文中的“Permanently increases ... by”说明结构，不能证明覆盖。"
+  },
+  {
+    "source": "Permanently increases core energy generation by",
+    "raw": "Permanently increases core energy generation by ",
+    "classification": "uncovered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "related_original_key": "{*} installed, core energy generation increased (+{*}).",
+    "difference_reason": "上游 key 是安装后弹出的结果提示，缺少原文中的“Permanently increases ... by”说明结构，不能证明覆盖。"
+  },
+  {
+    "source": "ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below",
+    "raw": " ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+    "raw": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Energy and matter required for part attachment permanently reduced by",
+    "raw": "Energy and matter required for part attachment permanently reduced by ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below",
+    "raw": " max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Permanently adds automated ability which converts core to matter. If matter capacity is at least",
+    "raw": "Permanently adds automated ability which converts core to matter. If matter capacity is at least ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "heat would be used to generate",
+    "raw": " heat would be used to generate ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Example: At 400 heat precisely",
+    "raw": "Example: At 400 heat precisely ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "to energy every turn at a",
+    "raw": " to energy every turn at a ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Destroys all walls and earth up to a distance of",
+    "raw": "Destroys all walls and earth up to a distance of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Permanently increases maximum core integrity by",
+    "raw": "Permanently increases maximum core integrity by ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Permanently increases inventory capacity by",
+    "raw": "Permanently increases inventory capacity by ",
+    "classification": "uncovered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "related_original_key": "Increases inventory capacity by {n}.",
+    "difference_reason": "上游 key 缺少前缀“Permanently”，且以句号结束；只能确认近似效果文本，不能证明精确覆盖。"
+  },
+  {
+    "source": "Permanently increases energy capacity by",
+    "raw": "Permanently increases energy capacity by ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Permanently increases matter storage capacity by",
+    "raw": "Permanently increases matter storage capacity by ",
+    "classification": "uncovered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "related_original_key": "Increases matter storage capacity by {n}.",
+    "difference_reason": "上游 key 缺少前缀“Permanently”，且说明结构不同；不能证明精确覆盖。"
+  },
+  {
+    "source": "Permanently increases mass support by",
+    "raw": "Permanently increases mass support by ",
+    "classification": "uncovered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "related_original_key": "Increases mass support by {n}.",
+    "difference_reason": "上游 key 缺少前缀“Permanently”，且以句号结束；不能证明精确覆盖。"
+  },
+  {
+    "source": "integrity each time the effect is applied.",
+    "raw": " integrity each time the effect is applied.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "every turn, in other words consuming",
+    "raw": " every turn, in other words consuming ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Converts energy to matter at a ratio of",
+    "raw": "Converts energy to matter at a ratio of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "every turn, in other words consuming 1 matter to create",
+    "raw": " every turn, in other words consuming 1 matter to create ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Converts matter to energy at a ratio of 1:",
+    "raw": "Converts matter to energy at a ratio of 1:",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Automatically collects matter within a range of",
+    "raw": "Automatically collects matter within a range of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Attracts any debris within at least a range of",
+    "raw": "Attracts any debris within at least a range of ",
+    "classification": "uncovered_dynamic",
+    "upstream_file": "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "related_original_key": "Attracts any loose items within at least a range of {n}. Drop to activate, retrieve to deactivate.",
+    "difference_reason": "上游 key 写“loose items”而非“debris”，并追加操作说明；只属近似，不作为覆盖证据。"
+  },
+  {
+    "source": "scrap at a time.",
+    "raw": " scrap at a time.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "per turn. Can hold no more than",
+    "raw": " per turn. Can hold no more than ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Automatically cannibalizes a part on the ground to restore",
+    "raw": "Automatically cannibalizes a part on the ground to restore ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+    "raw": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "to repair any core damage and",
+    "raw": " to repair any core damage and ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "integrity to the most damaged attached part of the same subtype, up to no more than",
+    "raw": " integrity to the most damaged attached part of the same subtype, up to no more than ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+    "raw": " turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes",
+    "raw": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+    "raw": " matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "traps of the same type, but cannot store stasis traps. Each extraction attempt requires",
+    "raw": " traps of the same type, but cannot store stasis traps. Each extraction attempt requires ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "for each damaged or missing part. Repairs cannot drop bay integrity below",
+    "raw": " for each damaged or missing part. Repairs cannot drop bay integrity below ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of",
+    "raw": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Fabricates a random derelict part at a rate of 1 per",
+    "raw": "Fabricates a random derelict part at a rate of 1 per ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Fabricates a random Assembled at a rate of 1 per",
+    "raw": "Fabricates a random Assembled at a rate of 1 per ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Fabricates a random drone at a rate of 1 per",
+    "raw": "Fabricates a random drone at a rate of 1 per ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Fabricates a random turret at a rate of 1 per",
+    "raw": "Fabricates a random turret at a rate of 1 per ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "after remaining active for",
+    "raw": " after remaining active for ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately",
+    "raw": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "turns emits a powerful signal tuned to power down all Assembled within a range of",
+    "raw": " turns emits a powerful signal tuned to power down all Assembled within a range of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "turns emits a powerful signal that befriends all visible Subdwellers within a range of",
+    "raw": " turns emits a powerful signal that befriends all visible Subdwellers within a range of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Regenerates integrity at a rate of 1 per",
+    "raw": "Regenerates integrity at a rate of 1 per ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "per turn. Must be active, and requires",
+    "raw": " per turn. Must be active, and requires ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Regenerates integrity at a rate of",
+    "raw": "Regenerates integrity at a rate of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by",
+    "raw": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Converts each adjacent wall, earth, and door to",
+    "raw": "Converts each adjacent wall, earth, and door to ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+    "raw": " integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Sets a temporal reversion point when attached, then loses",
+    "raw": "Sets a temporal reversion point when attached, then loses ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Automatically hacks visible door terminals within a range of",
+    "raw": "Automatically hacks visible door terminals within a range of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Automatically and instantly reprograms visible hostile traps within a range of",
+    "raw": "Automatically and instantly reprograms visible hostile traps within a range of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover",
+    "raw": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Prevents core/hover/flight speed of all hostiles in view within a range of",
+    "raw": "Prevents core/hover/flight speed of all hostiles in view within a range of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "damage to core integrity for each space traveled.",
+    "raw": " damage to core integrity for each space traveled.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+    "raw": " consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Warp across any number of open spaces nearly instantly, taking",
+    "raw": "Warp across any number of open spaces nearly instantly, taking ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "integrity with each discharge.",
+    "raw": " integrity with each discharge.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "matter. Repeat the process to manually start a timer to detonate the power source after",
+    "raw": " matter. Repeat the process to manually start a timer to detonate the power source after ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires",
+    "raw": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires",
+    "raw": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+    "raw": " is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core,",
+    "raw": " regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "nearby objects to attack it.",
+    "raw": " nearby objects to attack it. ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly,",
+    "raw": " turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a",
+    "raw": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "When attached, gives access to additional temporary",
+    "raw": "When attached, gives access to additional temporary ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Access unavailable below",
+    "raw": "Access unavailable below ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+    "raw": " matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "If active while moving over free matter, repairs itself at a cost of",
+    "raw": "If active while moving over free matter, repairs itself at a cost of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "momentum. Energy upkeep: 8.",
+    "raw": " momentum. Energy upkeep: 8.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "from current position. May not arrive at destination entirely in one piece.",
+    "raw": " from current position. May not arrive at destination entirely in one piece.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "While active and charged, move to teleport in a general direction to an approximate distance of",
+    "raw": "While active and charged, move to teleport in a general direction to an approximate distance of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "from current position. Will not arrive at destination entirely in one piece.",
+    "raw": " from current position. Will not arrive at destination entirely in one piece.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "While active, move to teleport in a general direction to an approximate distance of",
+    "raw": "While active, move to teleport in a general direction to an approximate distance of ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "While active, intermittently and automatically attempts to teleport user a distance of approximately",
+    "raw": "While active, intermittently and automatically attempts to teleport user a distance of approximately ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "already has a count value before even starting to exit",
+    "raw": " already has a count value before even starting to exit",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "cannot break an overloaded part currently in special mode",
+    "raw": "cannot break an overloaded part currently in special mode",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "already has a count value before mode even started",
+    "raw": " already has a count value before mode even started",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "releases a shadow of itself that zips off towards",
+    "raw": " releases a shadow of itself that zips off towards ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Shadow retroactively draws in",
+    "raw": "Shadow retroactively draws in ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+    "raw": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "no longer operational.",
+    "raw": " no longer operational.",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "attempting to follow self at",
+    "raw": " attempting to follow self at ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+    "raw": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "is not an interactive terminal",
+    "raw": " is not an interactive terminal",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  },
+  {
+    "source": "unable to find more targets on",
+    "raw": " unable to find more targets on ",
+    "classification": "uncovered_dynamic",
+    "matched_original_key": null,
+    "difference_reason": "在 kr_para.tsv 与 kr_trans.tsv 中按大小写无关字面片段、数字/参数归一化后的连续词序及近似词项检索，未发现足以证明同一英文模板的 key；因此不能认定已覆盖。"
+  }
+]

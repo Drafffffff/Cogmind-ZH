@@ -1,0 +1,500 @@
+Connecting to Singularity Gate...	正在连接奇点之门……
+Cycle Items (+Shift Reverses Tab)	循环物品（+Shift反转Tab）
+Establishing remote squad link...	正在建立远程小队链接……
+Failed to disarm Fusion Bomb Trap	融合炸弹陷阱解除失败
+Failed to overload target system.	目标系统过载失败。
+Infected machine control systems.	已感染机器控制系统。
+Melee accuracy returns to normal.	近战命中率恢复正常。
+Part undamaged or not repairable.	部件未损坏或无法修复。
+Release stored object or objects.	释放已储存物品。
+Run Singularity Gate diagnostics.	运行奇点之门诊断。
+Test {n} successfully terminated.	测试{n}已成功终止。
+Unable to find valid hold target.	找不到有效驻守目标。
+X0-1V1 taps the No Entrance sign.	X0-1V1敲了敲“禁止进入”标志。
+X0-1V1 tries on a Mechanic's hat.	X0-1V1戴上技工帽试了试。
+You have to see it to believe it.	眼见为实。
+(no score upload for this build)	（此版本不上传分数）
+AI seems to be hacking itself...	AI似乎在黑入自己……
+ALERT: Access garrison breached.	警报：驻军入口已被闯入。
+ALERT: Ambient heat levels +{n}.	警报：环境热量+{n}。
+Active feed link already exists.	活动供料链接已存在。
+Automated backup system disabled	自动备份系统已禁用
+Broadcasting enabled and active.	广播已启用并运行。
+Eject all local matter reserves.	弹出所有本地物质储备。
+Encountered infestation in Mines	矿坑发现侵染
+Found active disruption routine.	发现活动中的扰乱程序。
+Installed hostile record filter.	已安装敌对记录过滤器。
+Mark all common part stockpiles.	标记所有常见部件储藏点。
+No evac targets found in memory.	内存中未找到撤离目标。
+Open full list of RIF abilities.	打开RIF能力完整列表。
+Potential Host Acquisition Intel	潜在宿主获取情报
+Terminal is limited access only.	终端仅限授权访问。
+Terminal unresponsive.	终端无响应。
+The surroundings shift and blur.	周围景象扭曲模糊。
+They're taking the loot to Zion!	他们正把战利品运往锡安！
+Tweaking power source heat flow.	正在调整能量源热流。
+Unable to locate active weapons.	找不到活动武器。
+Unable to override squad orders.	无法覆盖小队指令。
+You could just ask me, you know.	你其实可以直接问我嘛。
+[ No Unaware schematics found. ]	[ 未找到未察觉状态蓝图。 ]
+ALERT: Enemy forces retreating.	警报：敌军正在撤退。
+ALERT: LRC-V3 report to MAIN.C.	警报：LRC-V3向MAIN.C报到。
+ALERT: Machine network offline.	警报：机器网络离线。
+Connection blocked by override.	覆盖指令阻断连接。
+Existing schematic match found.	找到匹配的现有蓝图。
+Found active resonance routine.	发现活动中的共振程序。
+Immune to transmission jamming.	免疫通信干扰。
+Knights of the Pentagonal Table	五边形圆桌骑士
+Oversee Network Hub restoration	监督网络枢纽修复
+Repeat command to confirm test.	重复指令以确认测试。
+Something is scanning the area.	有东西正在扫描该区域。
+Spikes shoot up from the floor.	地面刺出尖刺。
+System resists disarm attempts.	系统抵抗解除尝试。
+System resists sunder attempts.	系统抵抗拆解尝试。
+Theoretical Avoidance Rate {n}%	理论闪避率{n}%
+Warlord Statue falls to pieces.	军阀雕像碎裂。
+X0-1V1 submits a timely report.	X0-1V1及时提交了报告。
+X0-1V1 taps a No Entrance sign.	X0-1V1敲了敲禁止进入标志。
+[ No registered guards found. ]	[ 未找到登记守卫。 ]
+(auto-save conditions not met)	（未满足自动保存条件）
+A missile flies into the area.	一枚导弹飞入该区域。
+ALERT: Cache delivery inbound.	警报：缓存即将送达。
+Cycle Map Center Reverse ({n})	循环地图中心反转（{n}）
+Drawn towards the singularity.	被吸向奇点。
+Engaged C-{n} Crusher in melee	与C-{n}粉碎者近战
+Found active overload routine.	发现活动中的过载程序。
+Found existing mod algorithms.	发现现有改造算法。
+Heat dissipation looks good...	散热状态良好……
+Ho, ho, beep! Nothing for you!	呵呵，哔！没你的份！
+If triggered by chain reaction	若由连锁反应触发
+Investigate cause of explosion	调查爆炸原因
+List of Uniques/NPCs Destroyed	已摧毁独特单位/NPC列表
+Locate the nearest Fabricator.	定位最近的制造机。
+Locate the nearest Scanalyzer.	定位最近的扫描分析仪。
+Network status link confirmed.	网络状态链接已确认。
+No active manifests on record.	记录中无活动清单。
+No branch access points found.	未找到分支访问点。
+Open the entrance to this DSF.	打开此DSF入口。
+Polymind Host Kill Leaderboard	Polymind宿主击杀榜
+Sensor data returns to normal.	传感器数据恢复正常。
+Shutting down primary systems.	正在关闭主系统。
+Sight range returns to normal.	视野范围恢复正常。
+X0-1V1 imagines sitting ducks.	X0-1V1幻想着活靶子。
+[ Establishing connection... ]	[ 正在建立连接…… ]
+[ Invalid squad designation. ]	[ 小队代号无效。 ]
+[ No Unaware analyses found. ]	[ 未找到未察觉状态分析。 ]
+[ No emergency access found. ]	[ 未找到紧急访问权限。 ]
+[{n} - Friendly] [{n} - Exits]	[{n}-友军] [{n}-出口]
+Corrupted by faulty component	被故障部件损坏
+Drop Mode, select a~z/{n}~{n}	丢弃模式，选a~z/{n}~{n}
+Energy supply looking good...	能量供应正常……
+Error: Access codes required.	错误：需要访问代码。
+Info Mode, select a~z/{n}~{n}	信息模式，选a~z/{n}~{n}
+No applicable machines found.	未找到适用机器。
+No level access points found.	未找到层级访问点。
+No traps found in local area.	本地区未发现陷阱。
+Previous Label Category ({n})	上一标记类别（{n}）
+Recycling at {n}% efficiency:	以{n}%效率回收：
+Toggle Autowaiting for Energy	切换自动等待能量
+Triborg suddenly powers down.	三角博格突然关机。
+X0-1V1 stares into the ether.	X0-1V1凝视虚空。
+{*} comes tumbling into view.	{*}跌跌撞撞地进入视野。
+Error: Must run diagnostics.	错误：必须先运行诊断。
+Error: No exoskeleton found.	错误：未找到外骨骼。
+Found existing data sniffer.	发现现有数据嗅探器。
+Locate the nearest Terminal.	定位最近的终端。
+Player {n} drops a Meganuke.	玩家{n}投下一枚超级核弹。
+Scheduling {*} for disposal.	正安排处置{*}。
+Set deconstruct target: {*}.	设置拆解目标：{*}。
+Set priority target: LRC-V3.	设置优先目标：LRC-V3。
+Starting new wizard mode run	开始新的向导模式游戏
+The tunnel wall slides away.	隧道墙滑开了。
+Tracking enabled and active.	追踪已启用并运行。
+X0-1V1 animates Wyrm Statue.	X0-1V1让巨龙雕像动了起来。
+X0-1V1 makes it rain matter.	X0-1V1让物质如雨落下。
+X0-1V1 turns out the lights.	X0-1V1关掉了灯。
+[ Coordinates transferred. ]	[ 坐标已传输。 ]
+0b10 Decoder Chip [Generic]	0b10解码芯片[通用型]
+A bomb flies into the area.	一枚炸弹飞入该区域。
+Add filters via '.' prefix:	使用“.”前缀添加筛选器：
+Coverage (Toggle for Vuln.)	覆盖率（切换弱点）
+Enjoying the animated intro	正在欣赏动画开场
+Error: Gate already active.	错误：门已激活。
+Good luck finding this one.	祝你能找到这个。
+Integrity (Toggle for Mass)	完整度（切换质量）
+Modal Remove/Drop (KB Mode)	模态移除/丢弃（键盘模式）
+Previous Manual Topic ({n})	上一手册主题（{n}）
+Type Sort (Repeat Reverses)	类型排序（重复可反转）
+X0-1V1 admires the scenery.	X0-1V1欣赏着风景。
+[ No branch access found. ]	[ 未找到分支访问权限。 ]
+[{n}] Toggle All Categories	[{n}]切换所有类别
+{*} emits a wave of energy.	{*}释放出一道能量波。
+All visual feed links lost	所有视觉信号链接均已丢失
+Cave-in area search failed	洞穴塌方区域搜索失败
+Ctrl-Shift + Movement Keys	Ctrl-Shift+移动键
+Entombed by U-{n} Engineer	被U-{n}工程师掩埋
+Experimented on in Testing	在测试区接受实验
+Finished Modified EM Gauss	完成改造型电磁高斯炮
+Invited to Help at Command	受邀协助指挥中心
+Left-click to toggle intel	左键点击切换情报
+MAIN.C Attacked Proxy Base	MAIN.C代理基地遭袭
+Map Warlord access tunnels	绘制军阀访问隧道地图
+Move Cursor (KB Mode Only)	移动光标（仅键盘模式）
+No relevant settings found	未找到相关设置
+Overwhelmed by UFD forces!	被UFD部队淹没！
+Seek source of infestation	寻找侵染源
+Set Guided Weapon Waypoint	设置制导武器航点
+Set dismantle target: {*}.	设置拆除目标：{*}。
+The floor suddenly erupts.	地板突然爆裂。
+{*} sucked into the hatch.	{*}被吸入舱口。
+Assist with LRC-V7 design	协助设计LRC-V7
+Calls Wizards to aid you.	召来向导助战。
+Error: Test {n} inactive.	错误：测试{n}未激活。
+Error: Unable to connect.	错误：无法连接。
+Heard of this one before?	以前听说过这个吗？
+Huh? Did I miss anything?	嗯？我错过什么了吗？
+IFF burst signal emitted.	已发出敌我识别脉冲信号。
+Items no longer flee you.	物品不再逃离你。
+Load failed: Data missing	载入失败：缺少数据
+Run over by Superbehemoth	被超级巨像碾过
+Triggered Deep Caves Wall	触发深层洞穴墙壁
+Using default host target	使用默认宿主目标
+V3-CT5 was great at that.	V3-CT5很擅长这个。
+X0-1V1 dreams of freedom.	X0-1V1梦想着自由。
+You open your loot box...	你打开战利品箱……
+[ Dispatch in progress. ]	[ 正在调度。 ]
+[ No main access found. ]	[ 未找到主访问权限。 ]
+[ No reports available. ]	[ 没有可用报告。 ]
+Deactivate fullscreen mode to play in a window. In windowed mode you may want to select a smaller font, or reduce the map size as desired (50x50 map recommended, though with the game closed /user/system.cfg can be edited to adjust the map size). Use borderless fullscreen mode for better multimonitor support.	停用全屏模式以窗口运行。窗口模式下可改用较小字体，或按需缩小地图（建议50x50；关闭游戏后可编辑/user/system.cfg调整地图尺寸）。多显示器建议使用无边框全屏。
+See the manual (in game, or manual.txt) for a detailed list of how Explorer and Adventurer affect the game mechanics	Explorer和Adventurer对游戏机制的影响详见手册（游戏内或manual.txt）。
+Testing. Nailhacker was here.	测试区。Nailhacker到此一游。
+This might be come in handy.	这可能会派上用场。
+Destroy 0b10 Robot/C	摧毁0b10机器人/C
+Hack a protovariant.	入侵一个原变体。
+Use a RIF Installer.	使用RIF安装器。
+Win while imprinted.	在印刻状态下获胜。
+Destroy 0b10 Robot/NC	摧毁0b10机器人/NC
+Destroy an Unchained.	摧毁一个脱链者。
+Trigger max security.	触发最高警戒。
+Destroy The Architect.	摧毁Architect。
+Attach a Plexus Tether.	安装Plexus系绳。
+Attach 8R-AWN's Boregun.	安装8R-AWN的钻孔枪。
+Become a complete Golem.	成为完整魔像。
+Fire a Potential Cannon.	发射一枚潜能炮弹。
+Join forces with MAIN.C.	与MAIN.C结盟。
+Reach the gates of Zion.	抵达锡安之门。
+Use a Core Reset Matrix.	使用核心重置矩阵。
+Create a Mutated Botcube.	造变异机器人立方体。
+Destroy an Energy Cycler.	摧毁一个能量循环器。
+Hack a robot without RIF.	不使用RIF入侵机器人。
+Kill an ally via misfire.	误击杀死盟友。
+Win VL-GR5's competition.	赢得VL-GR5的竞赛。
+Cause a robot to meltdown.	使机器人发生熔毁。
+Win and leave for 0bPrime.	获胜并前往0bPrime。
+Win with the Scrap Engine.	使用废料引擎获胜。
+Reach critical temperature.	达到临界温度。
+Build a part via Fabricator.	通过制造机制造部件。
+Earn all other achievements.	获得所有其他成就。
+Enter Recycling via Storage.	经由储存区进入回收区。
+Reach Maximal UFD readiness.	达到UFD最高就绪度。
+Use a Scrap Shield Fragment.	使用一块废料护盾碎片。
+Win after praying to X0-1V1.	向X0-1V1祈祷后获胜。
+Win and destroy Tau Ceti IV.	获胜并摧毁Tau Ceti IV。
+Acquire the Amulet of Y3-NDR.	取得Y3-NDR护符。
+Build an ally via Fabricator.	通过制造机制造盟友。
+Destroy a hostile by ramming.	用冲撞摧毁敌人。
+Discover what you really are.	发现真正的自己。
+Fire the L-Cannon (any form).	发射L型炮（任意形态）。
+Use a Vortex Field Projector.	使用涡旋场投射器。
+Attach an Active Sensor Suite.	安装主动传感器套件。
+Use a coupler hack on a robot.	对机器人使用耦合器入侵。
+Trigger Decapitator deployment.	触发斩首者部署。
+Acquire an Encrypted Comm Array.	取得加密通信阵列。
+Attach or use an alien artifact.	安装或使用外星神器。
+Trigger DSF rapid sterilization.	触发DSF快速灭菌。
+Win and begin establishing 0b11.	获胜并开始建立0b11。
+Attach an unidentified prototype.	安装未识别原型。
+Destroy Zhirov's Cloak Generator.	摧毁Zhirov的隐形发生器。
+Destroy a robot via core entropy.	用核心熵变摧毁机器人。
+Escape town with the Wyrm Statue.	带着巨龙雕像逃离城镇。
+Acquire the Enhanced Scrap Shield.	取得强化废料护盾。
+Become immune to critical effects.	免疫所有暴击效果。
+Escape Mines after an infestation.	侵染后逃离矿坑。
+Win and escape to Epsilon Eridani.	获胜并逃往波江座ε。
+Win and rendezvous with the fleet.	获胜并与舰队会合。
+Fire a Storm Laser or Plasma Storm.	发射风暴激光器或等离子风暴炮。
+Win fighting alongside the Warrior.	与勇士并肩作战并获胜。
+Cause an Artisan to cry out in pain.	让工匠痛苦尖叫。
+Create an entropic construct weapon.	制造一件熵变构造武器。
+Hack Hauler Manifests at a Terminal.	在终端黑入搬运者清单。
+Identify a prototype via Scanalyzer.	通过扫描分析仪识别原型。
+Kill a Sentry with explosive damage.	用爆炸伤害击杀哨兵。
+Study a common part at a Scanalyzer.	在扫描分析仪研究常见部件。
+Trigger Warlord's attack on Research.	触发军阀袭击研究区。
+Win and nuke Complex 0b10 from orbit.	获胜并从轨道核平0b10综合设施。
+Win and take control of Complex 0b10.	获胜并控制0b10综合设施。
+Win without attaching any propulsion.	不安装任何推进部件获胜。
+Destroy Fortress with a Core Stripper.	用核心剥离器摧毁堡垒。
+Destroy a Saboteur before it succeeds.	在破坏者得逞前将其摧毁。
+Survive a research branch with FarCom.	携带FarCom在研究分支存活。
+Use a utility to increase sight range.	用工具增加视野范围。
+Win and begin fortifying Complex 0b10.	获胜并开始加固0b10综合设施。
+Win without destroying a single robot.	不摧毁任何机器人而获胜。
+Fire the Supercharged Sigix Terminator.	发射超充能Sigix终结者。
+Become immune to electromagnetic damage.	免疫电磁伤害。
+Destroy a visible ARC before it deploys.	ARC部署前将其摧毁。
+Use a coupler hack on a prototype robot.	对原型机器人使用耦合器入侵。
+Use a Terminal to recall an active squad.	用终端召回活动小队。
+Use in examine mode to set a target first	在检查模式中先设置目标
+Hack MAIN.C with the Cetus Mainframe code.	用Cetus主机代码黑入MAIN.C。
+Win and escape the artificial singularity.	获胜并逃离人工奇点。
+Win without increasing inventory capacity.	不增加库存容量而获胜。
+Move into an ally to swap places with them.	撞向盟友与其交换位置。
+Enter the Cyclist members-only reading room.	进入Cyclist会员专属阅览室。
+Escape Scraptown after the civil war begins.	内战爆发后逃离废料镇。
+Use an Operator Data Core before it expires.	在操作员数据核心过期前使用。
+Win after interfacing with the Data Conduit.	连接数据导管后获胜。
+Escape Warlord's base with the counterattack.	带着反击情报逃离军阀基地。
+Use Data Miner's code to access Warlord Stash.	用数据挖掘者代码访问军阀藏匿点。
+Use an Authchip to initiate a fabrication job.	用授权芯片启动制造任务。
+Depthwide Sectors/{n}	全深度区域/{n}
+{n}/Derelict Communes	{n}/废弃者聚居地
+Player {n}/Cogmind (%)	玩家{n}/Cogmind（%）
+Unchained Bloopers {n}	脱链者失误集锦{n}
+Released control of {*}.	已释放对{*}的控制。
+Spacefolded through {*}.	经由{*}空间折叠。
+Started {*} timer ({*}).	已启动{*}计时器（{*}）。
+Temporary {*} slot lost.	临时{*}槽位丢失。
+{*} IFF system glitched.	{*}的敌我识别系统故障。
+{*} accesses terminal...	{*}正在访问终端……
+{*} begins transmitting.	{*}开始传输。
+{*} breaks down the {*}.	{*}拆解了{*}。
+{*} fondles an Authchip.	{*}摆弄授权芯片。
+{*} forced to warp away.	{*}被迫传送离开。
+{*} fried beyond repair.	{*}烧毁，无法修复。
+{*} inspects a terminal.	{*}正在检查终端。
+{*} installation failed.	{*}安装失败。
+{*} is disintegrating...	{*}正在解体……
+{*} processes inventory.	{*}正在处理库存。
+{*} reconstituted as {*}	{*}重构为{*}
+{*} rewires a component.	{*}重接了一个部件。
+{*} system inaccessible.	{*}系统无法访问。
+{*} transformed into {*}	{*}变成了{*}
+{n}-RNG would be jealous	{n}-RNG会嫉妒
+Acquired {*} Protomatter.	获得{*}原生物质。
+Attempting to rewire {*}.	正尝试重接{*}。
+{n}/Abandoned Discotheque	{n}/废弃迪斯科舞厅
+Given {*} rating by A0-MCA	A0-MCA给予{*}评级
+Oh yeah, T-{n} by the way.	对了，顺便说下T-{n}。
+Scrap Engine modifies {*}:	废料引擎改造{*}：
+{*} reinforcements arrived?	{*}的增援到了？
+Have {n}% or less core exposure.	核心暴露度不高于{n}%。
+Learned location of {*} from {*}	从{*}处获知{*}的位置
+Overheating: {*} damaged (-{*}).	过热：{*}受损（-{*}）。
+Reach {n} total construct slots.	达到{n}个构造槽位。
+Retrieved Zion intel report: {*}	取回锡安情报报告：{*}
+Trigger high security {n} times.	触发高警戒{n}次。
+Violent recoil rips off {*} {*}.	剧烈后坐力扯掉了{*}{*}。
+Win with {n} hostiles destroyed.	摧毁{n}个敌对单位后获胜。
+{*} core entropy levels peaking.	{*}核心熵变水平达到峰值。
+{*} discarded by recycling unit.	{*}被回收单元丢弃。
+{*} emerged from the dark tunnel	{*}从黑暗隧道中出现
+{*} fries systems beyond repair.	{*}系统烧毁，无法修复。
+{*} fumbles a strange component.	{*}笨拙地摆弄奇怪部件。
+{*} generating attraction field.	{*}正在生成吸引力场。
+{*} is fixated on the mainframe.	{*}盯上了主机。
+{*} prevented system corruption.	{*}阻止了系统损坏。
+{*} shredded by subspace vortex.	{*}被子空间漩涡撕碎。
+{*} slips back into the shadows.	{*}悄然退回阴影。
+{*} system terminally corrupted.	{*}系统遭受终极损坏。
+{*} was tampered with by CY-PHR.	{*}遭CY-PHR篡改。
+Ambient heat levels rising (+{*})	环境热量上升（+{*}）
+Damage phase-mirrored to {*} {*}.	伤害阶段镜像至{*}{*}。
+Evaded trap by timely firing {*}.	及时开火{*}，躲过陷阱。
+Extracted schematic archive: {*}.	已提取蓝图档案：{*}。
+Hack {n} different robot classes.	入侵{n}种不同机器人类别。
+Inserted {*} into recycling unit.	将{*}放入回收单元。
+Installed {*}, added new {*} slot	已安装{*}，新增{*}槽位
+Overheating: Core damaged (-{*}).	过热：核心受损（-{*}）。
+Overheating: Energy bleed (-{*}).	过热：能量流失（-{*}）。
+Overheating: Matter decay (-{*}).	过热：物质衰变（-{*}）。
+Protovariant out of control ({*})	原变体失控（{*}）
+SHUTEYE.EXE: Sleepy time for {*}!	SHUTEYE.EXE：{*}，睡觉时间到！
+Sensed {*} artifacts in vicinity.	感知到附近有{*}件神器。
+Sneak attack {n} active hostiles.	偷袭{n}个活动敌人。
+X0-1V1 downgraded hostiles (x{*})	X0-1V1削弱敌人（x{*}）
+{*} begins transforming into {*}.	{*}开始变形为{*}。
+{*} failed due to unstable space.	{*}因空间不稳定而失败。
+{*} grabbed from subspace vortex.	从子空间漩涡中抓出{*}。
+{*} not functional, unable to rig	{*}无法运作，无法改装
+{*} reconfigures itself into {*}.	{*}将自身重构为{*}。
+Ambient heat levels falling (-{*})	环境热量下降（-{*}）
+Attached {*}, gained temporary {*}	安装{*}，获得临时{*}
+Core integrity regenerated (+{*}).	核心完整度再生（+{*}）。
+Discovered exit to {*} (range {*})	发现通往{*}的出口（距离{*}）
+How To Hack 0b10 in {n} Easy Steps	轻松黑入0b10的{n}个步骤
+Visit and survive {n} Waste areas.	访问并在{n}个废土区域存活。
+{*} allies followed down the chute	{*}名盟友跟着下了滑槽
+{*} blocked chain reaction in {*}.	{*}阻止了{*}中的连锁反应。
+{*} cannot be readied without ammo	{*}没有弹药，无法准备
+{*} critical resonance detonation.	{*}触发临界共振爆炸。
+{*} digs through a pile of debris.	{*}在瓦砾堆中挖掘。
+{*} grabs a component from a pile.	{*}从堆中拿起一个部件。
+{*} heat temporarily disables {*}.	{*}过热，暂时瘫痪了{*}。
+{*} inserts {*} into Forge Plexus.	{*}将{*}插入锻造矩阵。
+{*} integration process incomplete	{*}整合过程未完成
+{*} is tinkering with some device.	{*}正在摆弄某个设备。
+{*} releases {*} into floor hatch.	{*}将{*}放入地板舱口。
+{*} shoots sparks and powers down.	{*}迸出火花后关机。
+{*} speeds away down the corridor.	{*}沿走廊疾驰而去。
+{*} stasis bubble strength at {*}.	{*}静滞泡强度为{*}。
+{*} system critically compromised.	{*}系统严重受损。
+{*} tumbles out of recycling unit.	{*}从回收单元中滚出。
+{*} tumbles out of repair station.	{*}从维修站中滚出。
+Assimilation attempt on {*} failed.	对{*}的同化尝试失败。
+Attach {n} unidentified prototypes.	安装{n}个未识别原型。
+Core damaged by loss of {*} (-{*}).	因失去{*}导致核心受损（-{*}）。
+Create a {n}-slot construct weapon.	制造一个{n}槽构造武器。
+Destabilizing: Core damaged (-{*}).	失稳：核心受损（-{*}）。
+Destroy all {n} of MAIN.C's guards.	摧毁MAIN.C的全部{n}名守卫。
+Destroy {n} Assembled in the Mines.	在矿坑摧毁{n}个组装体。
+Entropic reaction triggered in {*}.	{*}中触发熵变反应。
+Fabricator completes liberated {*}.	制造机完成解放{*}。
+Fire {n} overtuned weapons at once.	一次发射{n}件过调武器。
+Forked command to additional {*}...	已将指令分叉至其他{*}……
+Make {n} faulty parts usable again.	使{n}个故障部件恢复可用。
+Switching to secondary target: {*}.	切换至次要目标：{*}。
+System corrupted: Slammed into {*}.	撞上{*}，系统损坏。
+System interference averted by {*}.	{*}避免了系统干扰。
+Travel with {n}-MTF to meet KN-7UR.	与{n}-MTF同行会见KN-7UR。
+Use {n} types of infowar utilities.	使用{n}种信息战工具。
+Will discard {*}, repeat to confirm	将丢弃{*}，再次输入以确认
+Will leave behind {*}! Confirm move	将留下{*}！确认移动
+{*} already prepared for activation	{*}已准备好启动
+{*} call for reinforcements jammed.	{*}的增援请求遭干扰。
+{*} cannibalized {*} to repair {*}.	{*}拆用{*}修复{*}。
+{*} cannibalizes {*} to repair {*}.	{*}拆用{*}来修复{*}。
+{*} closely examines the mainframe.	{*}仔细检查主机。
+{*} converts {*} to usable version.	{*}将{*}转换为可用版本。
+{*} disappears through a trap door.	{*}穿过活板门消失。
+{*} installation progress: {*}/{*}.	{*}安装进度：{*}/{*}。
+{*} ponders an existential dilemma.	{*}陷入存在主义困境。
+{*} reveals location of phase wall.	{*}揭示了相位墙位置。
+{*} ripped apart by the singularity	{*}被奇点撕碎
+{*} ripped away by subspace vortex.	{*}被子空间漩涡扯走。
+{*} suddenly begins malfunctioning.	{*}突然开始故障。
+{*} tumbles out of Garrison Access.	{*}从驻军入口滚出。
+{*}'s core emerges from the rubble.	{*}的核心从废墟中露出。
+Absorb {n},{n} damage using shields.	用护盾吸收{n},{n}点伤害。
+Cannot restore functionality to {*}.	无法恢复{*}的功能。
+Charge rate: {n} energy * {n} turns.	充能速率：{n}能量×{n}回合。
+Collect {n} matter via Tractor Beam.	用牵引光束收集{n}物质。
+Destroy {n} robots in a single turn.	单回合摧毁{n}个机器人。
+ERRANTS.EXE: Time for a stroll, {*}!	ERRANTS.EXE：{*}，出来散步！
+Hack {n} different Terminal records.	入侵{n}条不同终端记录。
+Internal heat damage averted by {*}.	{*}避免了内部热损伤。
+Lose {n} allies in a short duration.	短时间内失去{n}名盟友。
+Receive {n} pieces of Zionite intel.	获得{n}条锡安情报。
+Started Test {n}-C, cascade imminent	已启动测试{n}-C，即将级联崩溃
+Subatomizers consume a piece of {*}.	亚原子化器消耗了一块{*}。
+Temporary {*} slot became permanent.	临时{*}槽位已永久化。
+Unable to grow Collective beyond {*}	无法将集体扩张到{*}以上
+X0-1V1 revealed exit location to {*}	X0-1V1向{*}透露出口位置
+{*} allies followed out of Recycling	{*}名盟友跟着离开了回收区
+{*} assimilation complete, grew {*}.	{*}同化完成，扩张至{*}。
+{*} collects and crushes {*} (+{*}).	{*}收集并粉碎{*}（+{*}）。
+{*} comes tumbling out of the earth.	{*}从地底滚出。
+{*} generated special schematic: {*}	{*}生成特殊蓝图：{*}
+{*} inserts {*} into recycling unit.	{*}将{*}放入回收单元。
+{*} installs {*} in garrison access.	{*}将{*}安装在驻军入口。
+{*} is dormant, system inaccessible.	{*}处于休眠状态，系统无法访问。
+{*} reveals location of hidden door.	{*}揭示了隐藏门位置。
+{*} ripped apart by the singularity.	{*}被奇点撕碎。
+{*} unable to locate suitable route.	{*}找不到合适路线。
+0b10 security level has risen to {*}.	0b10安保等级已升至{*}。
+Cannot remove {*} while in siege mode	攻城模式下无法移除{*}
+{*} system fluff test.	{*}系统填充测试。
+Detonation sequence initiated: T-{n}.	引爆序列启动：T-{n}。
+Dispatcher launches {*} into the air.	调度员将{*}发射至空中。
+Expand your Collective to {n} allies.	将集体扩张至{n}名盟友。
+GOLEM Unit beginning {*} integration.	GOLEM单元开始整合{*}。
+Gain {n} Operator allies via Trojans.	通过木马获得{n}名操作员盟友。
+Insufficient inventory capacity ({*})	库存容量不足（{*}）
+Lose {n},{n} points to friendly fire.	被友军误伤，损失{n},{n}点。
+Make {n} moves through cave-in areas.	在塌方区域移动{n}次。
+Reach a speed of {n} spaces per turn.	达到每回合移动{n}格速度。
+Repair station completes {*} repairs.	维修站完成{*}项维修。
+Subatomizers consume {*} from within.	亚原子化器从内部消耗{*}。
+Synergy achieved. Target locked: {*}.	协同达成。目标锁定：{*}。
+Will drop onto {*}, repeat to confirm	将掉落在{*}上，再次输入以确认
+{*} blocked entropic reaction in {*}.	{*}阻止了{*}中的熵变反应。
+{*} cannot be activated in siege mode	攻城模式下无法启动{*}
+{*} reconfigured, {*}% effectiveness.	{*}已重配，效能{*}%。
+{*} slows and shuts down temporarily.	{*}减速并暂时关机。
+{*} system corruption misinterpreted.	{*}系统损坏被误判。
+{*} too well protected, unable to rig	{*}保护过严，无法改装
+Achieve a kill streak of {n} hostiles.	达成连续击杀{n}名敌人。
+Destroy {n} machines in a single turn.	单回合摧毁{n}台机器。
+Faulty integration damages {*} (-{*}).	错误整合导致{*}受损（-{*}）。
+HACKBUD.EXE: Welcome to the fold, {*}!	HACKBUD.EXE：欢迎加入我们，{*}！
+Kill at least {n} inhabitants of Zion.	至少击杀锡安的{n}名居民。
+Reach {n} martial strikes on hostiles.	对敌人打出{n}次武技攻击。
+System corrupted: Matter fused (-{*}).	系统损坏：物质融合（-{*}）。
+System corrupted: {*} failed to cycle.	系统损坏：{*}循环失败。
+The earth crumbles away to reveal {*}.	地面崩落，露出{*}。
+{*} calls for garrison reinforcements.	{*}呼叫驻军增援。
+{*} completes new EM projectile array.	{*}完成新型电磁弹阵列。
+{*} is rebooting, system inaccessible.	{*}正在重启，系统无法访问。
+{*} mechanical functionality restored.	{*}机械功能已恢复。
+{*} {*} critical resonance detonation.	{*}{*}触发临界共振爆炸。
+{*} {*} shoots sparks and powers down.	{*}{*}迸出火花后关机。
+{*}'s internal power supply exhausted.	{*}内部能量耗尽。
+0b10 security level has lowered to {*}.	0b10安保等级已降至{*}。
+About to detonate {*}! Confirm decision	即将引爆{*}！确认操作
+Cannot remove {*} while in martial mode	武技模式下无法移除{*}
+Destabilizing: System corrupted (+{*}).	失稳：系统损坏（+{*}）。
+Destroy {n} different classes of robot.	摧毁{n}种不同类别的机器人。
+Destroy {n} prototype bots of any type.	摧毁{n}台任意原型机器人。
+Impede construction progress {n} times.	阻碍建造进度{n}次。
+Install RIF at a depth of {n} or above.	在深度{n}或更深处安装RIF。
+Insufficient room for {*} to transform.	空间不足，{*}无法变形。
+Integrity redistributed to core (+{*}).	完整度转移至核心（+{*}）。
+Shifting Twisted Machinery released {*}	扭曲机械转移，释放{*}
+Simultaneously tracked by {n} hostiles.	同时被{n}名敌人追踪。
+System corrupted: {*} failed to launch.	系统损坏：{*}发射失败。
+Trigger {n} intercept squad dispatches.	触发{n}次拦截小队派遣。
+{*} applied, reinforcements redirected.	已应用{*}，增援已改道。
+{*} cannot be activated in martial mode	武技模式下无法启动{*}
+{*} core remains intact and functional.	{*}核心仍完好且可运作。
+{*} emerges from the Twisted Machinery.	{*}从扭曲机械中出现。
+{*} expertly merges several components.	{*}熟练地融合多个部件。
+{*} forcefully detaches two components.	{*}强行拆下两个部件。
+{*} intercepted {*}% system corruption.	{*}拦截了{*}%系统损坏。
+{*} is intensely focused on the statue.	{*}正全神贯注地凝视雕像。
+{*} repels hacking attempt against {*}.	{*}击退了针对{*}的入侵。
+{*} scrutinizes some mainframe outputs.	{*}仔细查看主机输出。
+{*} shorts {*} self-destruct mechanism.	{*}使{*}自毁装置短路。
+{*} suddenly blasts apart at the seams.	{*}突然迸裂炸开。
+{*} suddenly disappears in plain sight.	{*}突然当着众人消失。
+{*} unaffected by assimilation attempt.	{*}不受同化尝试影响。
+{*} {*} absorbs {*} into its structure.	{*}{*}将{*}吸收到自身结构中。
+{*} {*} suddenly begins malfunctioning.	{*}{*}突然开始故障。
+Core integrity restored by X0-1V1 (+{*})	X0-1V1恢复核心完整度（+{*}）
+Core temporarily expanded with {*} slot.	核心临时扩充{*}槽位。
+Hit {n} robots with a single projectile.	用单枚投射物命中{n}个机器人。
+Reacquire {n} lost items from Lightpack.	从轻装包重新取得{n}件遗失物品。
+Used {*}, restored core integrity (+{*})	使用{*}，恢复核心完整度（+{*}）
+Will leave behind {*}! Confirm direction	将留下{*}！确认方向
+X0-1V1 mutated your {*} slot to {*} slot	X0-1V1将你的{*}槽改为{*}槽
+{*} appears to be looking for something.	{*}似乎在寻找什么。
+{*} installed, core decompositor active.	{*}已安装，核心分解器启动。
+{*} permanently improved by X0-1V1 ({*})	X0-1V1永久强化了{*}（{*}）
+{*} reinforces its armored shell (+{*}).	{*}强化了装甲外壳（+{*}）。
+{*} resets terminal and reports anomaly.	{*}重置终端并报告异常。
+Cannot remove {*} while in shielding mode	屏蔽模式下无法移除{*}
+Faulty integration effect averted by {*}.	错误整合效果被{*}阻止。
+Fire a construct that generates {n} heat.	发射一件产热{n}的构造武器。
+Integrity redistributed from core (-{*}).	完整度从核心转移（-{*}）。
+System corrupted: Heat flow error (+{*}).	系统损坏：热流错误（+{*}）。
+System intrusion detected, triggered {*}.	检测到系统入侵，触发{*}。
+This branch ({*}) requires roguelike mode	此分支（{*}）需要Roguelike模式

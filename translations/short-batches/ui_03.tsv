@@ -1,0 +1,300 @@
+({n},{n}) Research	({n},{n})研究区
+({n},{n}) Access	({n},{n})入口区
+({n},{n}) Surface	({n},{n})地表
+({n},{n}) Mines	({n},{n})矿区
+({n},{n}) Exiles	({n},{n})流亡者
+({n},{n}) Storage	({n},{n})仓储区
+({n},{n}) Recycling	({n},{n})回收区
+({n},{n}) Scraptown	({n},{n})废料镇
+({n},{n}) Waste	({n},{n})废料区
+({n},{n}) Garrison	({n},{n})驻防站
+({n},{n}) Subcaves	({n},{n})地下洞穴
+({n},{n}) Lower Caves	({n},{n})下层洞穴
+({n},{n}) Upper Caves	({n},{n})上层洞穴
+({n},{n}) Proximity Caves	({n},{n})近区洞穴
+({n},{n}) Deep Caves	({n},{n})深层洞穴
+({n},{n}) Warlord	({n},{n})军阀
+({n},{n}) Extension	({n},{n})扩展区
+({n},{n}) Archives	({n},{n})档案区
+({n},{n}) Armory	({n},{n})军械库
+({n},{n}) Quarantine	({n},{n})隔离区
+({n},{n}) Testing	({n},{n})测试区
+({n},{n}) Section 7	({n},{n})第7区
+({n},{n}) Protoforge	({n},{n})原型锻炉
+({n},{n}) Command	({n},{n})指挥区
+({n},{n}) Lair	({n},{n})巢穴
+({n},{n}) Wartown	({n},{n})战争镇
+({n},{n}) Data Miner	({n},{n})数据矿工
+({n},{n}) Zhirov	({n},{n})日罗夫
+({n},{n}) L. Caves	({n},{n})下层洞穴
+({n},{n}) U. Caves	({n},{n})上层洞穴
+({n},{n}) P. Caves	({n},{n})近区洞穴
+({n},{n}) D. Caves	({n},{n})深层洞穴
+{n}/Zhirov	{n}/日罗夫
+{n}/L. Caves	{n}/下层洞穴
+{n}/U. Caves	{n}/上层洞穴
+{n}/P. Caves	{n}/近区洞穴
+{n}/D. Caves	{n}/深层洞穴
+L-CANNON	L炮
+L-Cannon [{*}]	L炮 [{*}]
+RPG [{*}]	RPG [{*}]
+PCU [{*}]	PCU [{*}]
+V-Series [{*}]	V系列 [{*}]
+V2 [{*}]	V2 [{*}]
+EXE-6 [{*}]	EXE-6 [{*}]
+AP7-3 [{*}]	AP7-3 [{*}]
+LRC-V4 [{*}]	LRC-V4 [{*}]
+LRC-V5 [{*}]	LRC-V5 [{*}]
+LRC-V6 [{*}]	LRC-V6 [{*}]
+01-MTF [{*}]	01-MTF [{*}]
+KN-7UR [{*}]	KN-7UR [{*}]
+5H-AD0 [{*}]	5H-AD0 [{*}]
+HV-R5K [{*}]	HV-R5K [{*}]
+VL-GR5 [{*}]	VL-GR5 [{*}]
+LV-01A [{*}]	LV-01A [{*}]
+DD-05H [{*}]	DD-05H [{*}]
+CL-0N3 [{*}]	CL-0N3 [{*}]
+DW-4LL [{*}]	DW-4LL [{*}]
+6S-H0T [{*}]	6S-H0T [{*}]
+GL-D0S [{*}]	GL-D0S [{*}]
+1B-0RG [{*}]	1B-0RG [{*}]
+Optimus [{*}]	擎天柱 [{*}]
+A7 [{*}]	A7 [{*}]
+A6 [{*}]	A6 [{*}]
+A5 [{*}]	A5 [{*}]
+Perun [{*}]	佩伦 [{*}]
+Elf [{*}]	Elf [{*}]
+[{*}] 01-MTF	[{*}] 01-MTF
+[{*}] 1B-0RG	[{*}] 1B-0RG
+[{*}] 1C-UTU'S SWORD "LOOTMAKER"	[{*}] 1C-UTU之剑“寻宝者”
+[{*}] 5H-AD0	[{*}] 5H-AD0
+[{*}] 6S-H0T	[{*}] 6S-H0T
+[{*}] A5	[{*}] A5
+[{*}] A6	[{*}] A6
+[{*}] A7	[{*}] A7
+[{*}] AP7-3	[{*}] AP7-3
+[{*}] CL-0N3	[{*}] CL-0N3
+[{*}] DD-05H	[{*}] DD-05H
+[{*}] DW-4LL	[{*}] DW-4LL
+[{*}] EXE-6	[{*}] EXE-6
+[{*}] Elf	[{*}] Elf
+[{*}] GL-D0S	[{*}] GL-D0S
+[{*}] HV-R5K	[{*}] HV-R5K
+[{*}] IN-MT5'S PITCHFORK "INSURRECTION"	[{*}] IN-MT5的干草叉“起义”
+[{*}] KN-7UR	[{*}] KN-7UR
+[{*}] L-Cannon	[{*}] L炮
+[{*}] LRC-V4	[{*}] LRC-V4
+[{*}] LRC-V5	[{*}] LRC-V5
+[{*}] LRC-V6	[{*}] LRC-V6
+[{*}] LV-01A	[{*}] LV-01A
+[{*}] Optimus	[{*}] 擎天柱
+[{*}] PCU	[{*}] PCU
+[{*}] Perun	[{*}] 佩伦
+[{*}] RPG	[{*}] RPG
+[{*}] V-Series	[{*}] V系列
+[{*}] V2	[{*}] V2
+[{*}] VL-GR5	[{*}] VL-GR5
+Acquired {*}.	已获取{*}.
+{sort (t)}	{排序(t)}
+< MAP > < ESC/? >	< 图 > < ESC/? >
+Loc: {n}/???	位置:{n}/???
+Loc: {n}/Scrapyard	位置:{n}/废料场
+Loc: {n}/Materials	位置:{n}/物资区
+Loc: {n}/Factory	位置:{n}/工厂
+Loc: {n}/Research	位置:{n}/研究区
+Loc: {n}/Access	位置:{n}/入口区
+Loc: {n}/Surface	位置:{n}/地表
+Loc: {n}/Mines	位置:{n}/矿区
+Loc: {n}/Exiles	位置:{n}/流亡者
+Loc: {n}/Storage	位置:{n}/仓储区
+Loc: {n}/Recycling	位置:{n}/回收区
+Loc: {n}/Scraptown	位置:{n}/废料镇
+Loc: {n}/Waste	位置:{n}/废料
+Loc: {n}/Garrison	位置:{n}/驻防站
+Loc: {n}/Subcaves	位置:{n}/地下洞穴
+Loc: {n}/Lower Caves	位置:{n}/下层洞穴
+Loc: {n}/Upper Caves	位置:{n}/上层洞穴
+Loc: {n}/Proximity Caves	位置:{n}/近区洞穴
+Loc: {n}/Deep Caves	位置:{n}/深层洞穴
+Loc: {n}/Warlord	位置:{n}/军阀
+Loc: {n}/Extension	位置:{n}/扩展区
+Loc: {n}/Archives	位置:{n}/档案区
+Loc: {n}/Armory	位置:{n}/军械库
+Loc: {n}/Quarantine	位置:{n}/隔离区
+Loc: {n}/Testing	位置:{n}/测试区
+Loc: {n}/Section 7	位置:{n}/第7区
+Loc: {n}/Protoforge	位置:{n}/原型锻炉
+Loc: {n}/Command	位置:{n}/指挥区
+Loc: {n}/Lair	位置:{n}/巢穴
+Loc: {n}/Wartown	位置:{n}/战争镇
+Loc: {n}/Data Miner	位置:{n}/数据矿工
+Loc: {n}/Zhirov	位置:{n}/日罗夫
+MOVEMENT: Running ({n}%)	移动：奔跑({n}%)
+MOVEMENT: Weaving ({n}%)	移动：迂回({n}%)
+MOVEMENT: Walking ({n}%)	移动：步行({n}%)
+MOVEMENT: Rolling ({n}%)	移动：滚动({n}%)
+MOVEMENT: Treading ({n}%)	移动：履带行进({n}%)
+MOVEMENT: Flying ({n}%)	移动：飞行({n}%)
+MOVEMENT: Hovering ({n}%)	移动：悬浮({n}%)
+MOVEMENT: Core ({n}%)	移动：核心({n}%)
+MOVEMENT: Immobile	移动：无法移动
+01-MTF! [{*}]	01-MTF! [{*}]
+[{*}] 01-MTF!	[{*}] 01-MTF!
+1B-0RG! [{*}]	1B-0RG! [{*}]
+[{*}] 1B-0RG!	[{*}] 1B-0RG!
+5H-AD0! [{*}]	5H-AD0! [{*}]
+[{*}] 5H-AD0!	[{*}] 5H-AD0!
+6S-H0T! [{*}]	6S-H0T! [{*}]
+[{*}] 6S-H0T!	[{*}] 6S-H0T!
+A5! [{*}]	A5! [{*}]
+[{*}] A5!	[{*}] A5!
+A6! [{*}]	A6! [{*}]
+[{*}] A6!	[{*}] A6!
+A7! [{*}]	A7! [{*}]
+[{*}] A7!	[{*}] A7!
+AP7-3! [{*}]	AP7-3! [{*}]
+[{*}] AP7-3!	[{*}] AP7-3!
+ADV. ACTUATOR ARRAY [	进阶执行器阵列[
+ADV. ASSAULT CANNON [	进阶突击炮[
+ADV. BEAM CANNON [	进阶光束炮[
+Adv. Beam Rifle [	进阶光束步枪[
+Adv. Cloaking Device [	进阶隐形装置[
+Adv. Component Analysis Suite [	进阶部件分析套件[
+ADV. CONCUSSIVE RPG [	进阶震荡火箭炮[
+ADV. COOLANT INJECTOR [	进阶冷却剂注射器[
+ADV. COOLING SYSTEM [	进阶冷却系统[
+Adv. Corruption Screen [	进阶腐化屏障[
+Adv. Cryofiber Web [	进阶冷纤维网[
+ADV. DATAJACK [	进阶数据接口[
+ADV. DRONE BAY [	进阶无人机舱[
+Adv. Dynamic Insulation System [	进阶动态绝缘系统[
+ADV. ECM SUITE [	进阶电抗套件[
+Adv. EM Disruption Field [	进阶电磁干扰场[
+Adv. EM Shield [	进阶电磁护盾[
+Adv. EMP Blaster [	进阶电磁脉冲炮[
+Adv. Energy Well [	进阶能量井[
+ADV. FIELD RECYCLING UNIT [	进阶现场回收机[
+Adv. Focal Shield [	进阶焦点护盾[
+ADV. FORCE BOOSTER [	进阶冲力强化器[
+Adv. Force Field [	进阶力场[
+Adv. Gravity Neutralizer [	进阶重力中和器[
+Adv. Hacking Suite [	进阶入侵套件[
+Adv. Hardlight Generator [	进阶硬光发生器[
+Adv. Heat Sink [	进阶散热器[
+Adv. Heavy Siege Treads [	进阶重型攻城履带[
+Adv. Heavy Treads [	进阶重型履带[
+ADV. KE PENETRATOR [	进阶动能贯穿器[
+ADV. KINECELLERATOR [	进阶动能加速器[
+Adv. Launcher Guidance Computer [	进阶发射器制导计算机[
+ADV. MATTER COMPRESSOR [	进阶物质压缩器[
+ADV. MEDIUM TREADS [	进阶中型履带[
+ADV. MELEE ANALYSIS SUITE [	进阶近战分析套件[
+Adv. Micro-nuke Launcher [	进阶微型核弹发射器[
+Adv. Myomer Leg [	进阶肌肉腿[
+Adv. Particle Accelerator [	进阶粒子加速器[
+ADV. PARTICLE CHARGER [	进阶粒子充能器[
+Adv. Phase Shifter [	进阶相位转移器[
+Adv. Plasma Cannon [	进阶等离子炮[
+Adv. Plasma Rifle [	进阶等离子步枪[
+Adv. Point Defense System [	进阶点防御系统[
+ADV. POWER AMPLIFIER [	进阶动力增幅器[
+Adv. Powered Armor [	进阶动力装甲[
+ADV. QUANTUM SHADING MACHINE [	进阶量子遮蔽装置[
+ADV. REACTION CONTROL SYSTEM [	进阶反应控制系统[
+Adv. Recalibrator [	进阶校准器[
+Adv. Recoil Stabilizer [	进阶后坐力稳定器[
+ADV. REMOTE DATAJACK [	进阶远程数据接口[
+ADV. REMOTE FORCE FIELD [	进阶远程力场[
+Adv. Remote Shield [	进阶远程护盾[
+Adv. Salvage Targeting Computer [	进阶回收瞄准计算机[
+Adv. Sensor Array [	进阶传感器阵列[
+ADV. SHIELD GENERATOR [	进阶护盾发生器[
+Adv. Signal Interpreter [	进阶信号分析器[
+ADV. SURGE THRUSTER [	进阶脉冲推进器[
+Adv. System Restoration Module [	进阶系统恢复模块[
+Adv. System Shield [	进阶系统护盾[
+Adv. Target Analyzer [	进阶目标分析仪[
+Adv. Targeting Computer [	进阶瞄准计算机[
+Adv. Terrain Scan Processor [	进阶地形扫描处理器[
+Adv. Terrain Scanner [	进阶地形扫描仪[
+ADV. THERMAL DEFENSE SUITE [	进阶热能防御套件[
+ADV. THERMAL GENERATOR [	进阶热能发生器[
+ADV. THERMAL SHIELD [	进阶热能护盾[
+ADV. TRANSMISSION JAMMER [	进阶通信干扰器[
+ADV. TRAP EXTRACTOR [	进阶陷阱取出器[
+Adv. Trap Scanner [	进阶陷阱扫描仪[
+Adv. Treads [	进阶履带[
+Adv. VSS Leg [	进阶VSS腿[
+ADV. VARIABLE CHARGE GUN [	进阶可变充能枪[
+ADV. VISUAL PROCESSING UNIT [	进阶视觉处理单元[
+Adv. Weapon Cycler [	进阶武器循环器[
+Adv. Weight Redist. System [	进阶重量分配系统[
+Arm. Heavy Treads [	装甲重型履带[
+Arm. Huge Wheel [	装甲巨型轮
+Arm. Leg [	装甲腿
+ARM. MEDIUM TREADS [	装甲中型履带[
+Arm. Scrap Engine [	装甲废料引擎[
+ARM. TREADS [	装甲履带[
+Arm. Wheel [	装甲轮
+Asb. Alloy Armor [	组装合金装甲[
+Asb. Alloy Leg [	组装合金腿[
+Asb. Biocell Array [	组装生物电池阵列[
+Asb. Blade [	组装刀刃[
+ASB. COMBAT SUITE [	组装战斗套件[
+ASB. F-TORCH [	组装火炬[
+Asb. Flux Generator [	组装通量发生器[
+Asb. Focal Cannon [	组装焦点炮[
+Asb. Gauss Rifle [	组装高斯步枪[
+ASB. HEAVY RIFLE [	组装重型步枪[
+ASB. HOVER SYSTEM [	组装悬浮系统[
+Asb. Hover Unit [	组装悬浮单元[
+ASB. MAUL [	组装重锤[
+ASB. METAFIBER NETWORK [	组装超纤维网络[
+Asb. Nanovents [	组装纳米通风器[
+Asb. P-maul [	组装等离子锤[
+ASB. P-SWORD [	组装等离子剑[
+ASB. P-TORCH [	组装等离子炬[
+Asb. Rifle [	组装步枪[
+ASB. SHOTGUN [	组装霰弹枪[
+ASB. SUSPENSION FRAME [	组装悬架框架[
+CL-0N3! [{*}]	CL-0N3! [{*}]
+[{*}] CL-0N3!	[{*}] CL-0N3!
+CEP. ANTIGRAV STORAGE UNIT [	铈反重力储存器[
+Cep. Antimissile System [	铈反导系统[
+CEP. ARCSIGHT MISSILE LAUNCHER [	铈弧光导弹发射器[
+Cep. Beam Splitter [	铈光束分流器[
+CEP. BIOMETAL EXOSKELETON [	铈生物金属外骨骼[
+Cep. Blasthammer [	铈爆震锤[
+Cep. Chromion Battery [	铈铬离子电池[
+Cep. Cloak Mesh [	铈隐形网
+CEP. COMBAT AEROLEV UNIT [	铈战斗气动升力单元[
+Cep. Concussive Dispersal Blaster [	铈震荡散射炮[
+CEP. CORE ANALYSIS SUITE [	铈核心分析套件[
+Cep. Core Shell [	铈核心外壳[
+Cep. Countertargeting System [	铈反瞄准系统[
+CEP. DEFLECTOR SWORD [	铈偏转剑[
+Cep. Dimensional Manipulator [	铈维度操纵器[
+Cep. Disintegration Ray [	铈解体射线[
+CEP. EMP BLANKET LAUNCHER [	铈电磁脉冲毯发射器[
+CEP. ENERGY MANTLE [	铈能量披风[
+CEP. FIELDTHRUST DRIVE [	铈场推驱动器[
+Cep. Graviton Pulverizer	铈引力子粉碎器
+Cep. Gyrokinetic System [	铈陀螺动能系统[
+CEP. HARDLIGHT DIRECTOR [	铈硬光指挥器[
+Cep. Heavy Railcannon [	铈重型轨道炮[
+Cep. Helical Railcannon [	铈螺旋轨道炮[
+CEP. HYPERTARGETING SYSTEM [	铈超瞄准系统[
+Cep. Impact Drone Bay [	铈冲击无人机舱[
+Cep. Lightning Penetrator [	铈闪电贯穿器[
+CEP. MATTER STREAMER [	铈物质喷流器[
+CEP. MELEE REFLEX SUITE [	铈近战反射套件[
+Cep. Miniperforator [	铈微型穿孔器[
+CEP. NT7 MATTERBANK [	铈NT7物质库[
+CEP. NANOFILAMENTS [CONDUCTIVE] [	铈导电纳米丝[
+Cep. Nanofilaments [Endoweave] [	铈内织纳米丝[
+Cep. Nanofilaments [Polyglass] [	铈聚玻璃纳米丝[
+CEP. NANOFILAMENTS [TENSILE] [	铈抗拉纳米丝[
+CEP. NAVIGATION HARNESS [	铈导航背带[
+CEP. NETWORK PENETRATOR [	铈网络贯穿器[
+CEP. NETWORKED TARGETING SYSTEM [	铈联网瞄准系统[
+Cep. Phase Shift Module [	铈相位转移模块[

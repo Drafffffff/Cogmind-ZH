@@ -1,0 +1,500 @@
+Each active leg slot provides a {n}% chance to kick non-huge targets out of the way. Moving on legs also confers the Running state, which increases evasion but decreases ranged accuracy, each by {n}% per level of momentum (up to {n}).	每个启用的腿部槽位都有{n}%几率将非巨型目标踢开。用腿移动还会获得奔跑状态，每级动量使闪避提高、远程命中率降低{n}%（最高{n}级）。
+Deconstruction apparatus for breaking down old components delivered by Recycler class robots.	回收型机器人送来的旧部件拆解装置。
+Explore at least {n}% of Subcaves, destroying {n} hostile Subdwellers without any allies, then escape the area.	探索至少{n}%的下层洞窟，在没有盟友的情况下摧毁{n}个敌对洞居者，然后撤离该区域。
+A larger version of the A-{n}, with {n}% greater storage capacity and advanced weight redistribution technology.	A-{n}的加大型，储存容量提升{n}%，并采用先进的重量再分配技术。
+You may prefer to play using a different font style. Try some of the others via the option menu's second option.	你或许更喜欢其他字体样式。可在选项菜单的第二项中试试其他字体。
+PUBLIC SERVICE ANNOUNCEMENT: Unaware detected at Zion entryway. Avoid the area unless you're armed and dangerous.	公共服务公告：锡安入口发现未觉者。除非你全副武装且准备战斗，否则请避开该区域。
+While many have contributed to this momentous accomplishment, we must admit that Optimus was the prime architect.	这项伟业离不开许多人的贡献，但我们必须承认，Optimus才是主要缔造者。
+On firing, {n}% chance to damage own core and part integrity. Being in siege mode completely prevents this effect.	开火时有{n}%几率损伤自身核心和部件耐久。处于攻城模式时完全不会触发此效果。
+Schematics can be used at fabricators to build something. View all schematics in possession via the status screen.	图纸可在制造机上用于制造物品。可在状态界面查看持有的所有图纸。
+Shocks victim for {n}-{n}% system corruption. Drop on the ground and use > or right-click on self to install trap.	使受害者系统损坏{n}-{n}%。丢在地上后按>或右键点击自身来设置陷阱。
+Thermal explosion inflicts {n}-{n} damage with a radius of {n} (falloff: {n}; chunks: {n}). Massive heat transfer.	热爆炸造成{n}-{n}伤害，半径{n}（衰减：{n}；碎片：{n}）。热传递极强。
+Bomb Drones explode for {n}-{n} explosive damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}; salvage: {n}).	炸弹无人机爆炸造成{n}-{n}爆炸伤害，半径{n}（衰减：{n}；碎片：{n}-{n}；回收：{n}）。
+I have minimal data on their capabilities, but the tinkerer design seems to be an evolution of C-series researchers.	我对它们能力所知甚少，但 tinkerer 的设计似乎是C系列研究员的进化型。
+If you're in the wrong place at the wrong time, the wrong time being in just a moment, I'm sorry but prepare to die.	如果你此刻恰好身处不该去的地方——而这个时刻马上就到——抱歉，请准备赴死。
+Must be positioned inside an active Stasis Trap to take effect, draining {n}% of the field strength each deflection.	必须位于生效中的静滞陷阱内才能发挥作用；每次偏转会消耗力场强度的{n}%。
+Experienced players can activate Tactical HUD mode in the options menu, or press Ctrl-F7, for more detailed HUD info.	老玩家可在选项菜单启用战术HUD模式，或按Ctrl-F7查看更详细的HUD信息。
+Meet Revision {n} in the Scrapyard again at the beginning of a normal run, just a reminder of the original plot hook.	普通流程开始时，再去废料场见见Revision {n}吧，只是提醒你最初的剧情钩子。
+Press '{n}' to manually label all known items. The number next to each name is its rating. Higher ratings are better.	按'{n}'手动标记所有已知物品。名称旁的数字是评级，越高越好。
+Win with {n} hostiles destroyed and not using weapon slots for anything except melee weapons (Datajacks not allowed).	摧毁{n}个敌人并获胜，且武器槽只能装近战武器（不得使用数据劫持器）。
+Active melee Datajacks can be used in an attempt to disarm or reprogram known traps by moving into them ({n}% chance).	装有近战数据劫持器时，可通过撞上已知陷阱尝试解除或重编程（几率{n}%）。
+Dynamic keys make the first hack at an operator's terminal easier, if the connection is established before key expiry.	若在密钥过期前建立连接，动态密钥可让你更容易首次入侵操作员终端。
+Thermal explosion inflicts {n}-{n} damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}). Massive heat transfer.	热爆炸造成{n}-{n}伤害，半径{n}（衰减：{n}；碎片：{n}-{n}）。热传递极强。
+Used to fuse components, and is consumed by ballistic weapons, which convert it to the appropriate type of ammunition.	用于融合部件；实弹武器会消耗它并转化为相应弹药。
+With more used part slots than inventory slots, and {n}+ of each, have an inventory rating greater than current build.	已用部件槽多于库存槽，且两者各至少{n}个时，使库存评级高于当前配置。
+An upgrade to the C-{n} Analyst, Experts possess improved analytical capabilities and a more powerful stasis projector.	C-{n}分析员的升级型。专家分析能力更强，静滞投射器也更强。
+Notice: Achievements were added years after release, in different years, so unfortunately global rates are all way off.	注意：成就是在发售多年后的不同年份加入的，因此全球完成率都严重失准。
+See self or allies be spotted by an Operator immediately upon entering a map (leave the area to avoid reinforcements!).	进入地图后立即被操作员发现，或看到盟友被发现（离开该区域以避免增援！）。
+The art gallery (ESC then open Records) doubles as a tally of all parts you've discovered and used throughout all runs.	美术画廊（按ESC后打开记录）也会统计你在所有流程中发现和使用过的部件。
+Win after destroying the leader in COM, without visiting any other branches (Garrisons/Waste/DSF okay) and without RIF.	不进入其他分支（驻防站/废料区/DSF除外）、不使用RIF，在COM摧毁首领后获胜。
+ANNOUNCEMENT: To all visitors: Defacing our home will be considered a hostile act, tread lightly and respect boundaries.	公告：访客请注意：破坏我们的家园将视为敌对行为。谨慎行事，尊重边界。
+Thermal explosion at targets inflict {n}-{n} damage with a radius of {n} (falloff: {n}; chunks: {n}). Low heat transfer.	目标处热爆炸造成{n}-{n}伤害，半径{n}（衰减：{n}；碎片：{n}）。热传递较弱。
+DD-05H though, you were a good one, we'll never forget the way you smashed your way west and just never stopped smashing.	不过DD-05H，你真是个好家伙。我们永远忘不了你一路砸向西边，从未停手。
+The {*} is an example of a part that consumes a large amount of energy each turn, consider turning it off when not vital.	{*}是每回合消耗大量能量的部件示例，不急用时可以考虑将其关闭。
+M-{n} Cleansers are the most effective minesweeper variant, utilizing the latest in datajacking and extraction technology.	M-{n}清雷者是最有效的扫雷型号，采用最新的数据劫持与提取技术。
+Remember you can change the difficulty setting at any time via the options menu, and it will take effect on your next run.	记住，你可以随时在选项菜单更改难度设置，并会在下一局生效。
+Win with {n} hostiles destroyed, without using Trojan/Force hacks or visiting any branches (Waste okay, no Garrisons/DSF).	摧毁{n}个敌人并获胜，不使用特洛伊/强制入侵，不访问任何分支（可去废料区，不可去驻防站/DSF）。
+The most heavily armored Y-series sentry, and the only current robot class to carry the quantum rifle as standard armament.	Y系列中装甲最厚的哨兵，也是目前唯一将量子步枪作为标准武器的机器人型号。
+Well my eulogizing is soon to be interrupted by scenes of half of Protoforge collapsing in on itself. Be careful out there.	看来我的悼词很快会被Protoforge半数坍塌的景象打断。外面小心。
+The first G-series robot armed with two thermal weapons, while integrating enough advanced heat sinks to fire them non-stop.	首个装备两件热能武器的G系列机器人，集成了足够先进的散热器，可不停开火。
+Thermal explosion at targets inflict {n}-{n} damage with a radius of {n} (falloff: {n}; chunks: {n}). Massive heat transfer.	目标处热爆炸造成{n}-{n}伤害，半径{n}（衰减：{n}；碎片：{n}）。热传递极强。
+Only a single weapon with absolute delay greater than or equal to {n} may be active at a time, {*} automatically deactivated.	绝对延迟大于等于{n}的武器一次只能启用一件，{*}会自动停用。
+Redirects latent energy from up to a range of {n}, using no more than necessary to achieve average detonation power limit ({n}).	从最远{n}格处引导潜在能量，只使用达到平均引爆动力上限（{n}）所需的能量。
+With RIF installed, you can review your current list of abilities via the new button at the top-right of the HUD, or Spacebar+i.	安装RIF后，可通过HUD右上角的新按钮或按空格+i查看当前能力列表。
+Enter a main complex map at {n} or above as a naked core with no inventory items, and find an exit (do not have to remain naked).	以裸核心且不带库存物品的状态，进入深度{n}或更深的主复合体地图并找到出口（之后不必保持裸装）。
+Installed Trojans can be viewed by examining an interactive machine. See effect description details by clicking on the Trojan name.	检查可交互机器即可查看已安装的特洛伊程序。点击程序名称可查看效果详情。
+Remotely deactivates self-destruction routines employed by 0b10 robots in some scenarios. Drop to activate, retrieve to deactivate.	远程停用某些情境下0b10机器人使用的自毁程序。丢下即可启用，拾回即可停用。
+The {*} is a fragile type of part, which are destroyed if removed (these are marked with a colon in the parts list, as a reminder).	{*}属于易损部件，卸下时会被摧毁（部件列表中以冒号标记）。
+Drop on the ground and use > or right-click on self to activate. Single use only, and valid only in Lower, Upper, or Proximity Caves.	丢在地上后按>或右键点击自身即可启用。仅能使用一次，且只在下层、上层或近距洞窟有效。
+In addition to better components across the board, the C-{n} Carver also improves on the C-{n} by adding melee analysis capabilities.	C-{n}切割者除全面升级部件外，还在C-{n}基础上加入近战分析能力。
+The lore collection interface (ESC then open Records) is a centralized reference of all the lore you've uncovered throughout all runs.	背景故事界面（按ESC后打开记录）集中展示你在所有流程中发现的背景故事。
+Slowly collects latent energy from up to a range of {n}, twisting it into a powerful but unstable array of electromagnetic projectiles.	缓慢收集最远{n}格内的潜在能量，将其转化为强大但不稳定的电磁弹幕。
+Shuts down all active targets for {n}-{n} turns, unless immune to disruption. Against Cogmind specifically disables {n}-{n} active parts.	使所有有效目标停机{n}-{n}回合，免疫干扰者除外。对Cogmind则会停用{n}-{n}个有效部件。
+The {*} has expanded your inventory capacity. Items held in inventory do not count towards total mass and therefore cannot slow you down.	{*}扩充了库存容量。库存物品不计入总质量，因此不会拖慢移动速度。
+While we're all waiting around for our inevitable victory in T-{n}, a moment of silence for all those who spit bolts to get us here today.	大家都在等T-{n}的必胜结局之际，也请为那些一路发射螺栓助我们走到今天的人默哀片刻。
+To view the route taken through the world along with any collected information about unvisited areas, press Backspace to open the world map.	按Backspace打开世界地图，可查看走过的路线及未探索区域的已收集信息。
+LOCAL NARROWCAST: You don't have permission to be in here, but that's okay because it's just doing its job as a honeypot for traitors, TRAITOR!	本地窄播：你无权进入这里，不过没关系，因为它正履行蜜罐职责，诱捕叛徒。叛徒！
+Directional explosion with a {n}-degree arc also inflicts {n}-{n} damage with a radius of {n} (falloff: {n}; chunks: {n}). Massive heat transfer.	扇形爆炸，角度{n}度，另造成{n}-{n}伤害，半径{n}（衰减：{n}；碎片：{n}）。热传递极强。
+Hacking Drones automatically attempt to perform useful hacks on any Terminals in your view, and will always stop before their actions are traced.	黑客无人机会自动尝试入侵视野内终端上的有用项目，并总会在行为被追踪前停手。
+PUBLIC SERVICE ANNOUNCEMENT: Unaware incursion detected. Likely classification: Search and Destroy. And maybe Retrieve. Something like that, yeah.	公共服务公告：发现未觉者入侵。可能分类：搜索并摧毁。也可能回收。差不多就是这样。
+Directional explosion with a {n}-degree arc also inflicts {n}-{n} EX damage out to a distance of {n} (falloff: {n}; chunks: {n}-{n}; salvage: {n}).	扇形爆炸，角度{n}度，另造成{n}-{n}爆炸伤害，距离{n}（衰减：{n}；碎片：{n}-{n}；回收：{n}）。
+Force of attack continues through target, also inflicting {n}-{n} impact damage out to a distance of {n} (falloff: {n}; chunks: {n}; salvage: {n}).	攻击力量会穿透目标，并造成{n}-{n}冲击伤害，距离{n}（衰减：{n}；碎片：{n}；回收：{n}）。
+Master Drones take control of a non-prototype 0b10 target, and will often survive the destruction of a host in order to move on to control another.	主控无人机会控制非原型0b10目标；宿主被摧毁后通常仍能存活并转而控制其他目标。
+Minesniffer Drones automatically attempt to retrieve known hostile traps in your view which they are able to extract, and also seek out hidden traps.	嗅雷无人机会自动尝试回收视野内可提取的已知敌方陷阱，也会搜寻隐藏陷阱。
+Bump into an enemy to attack with the active melee weapon. Even while active, melee weapons do not fire together with ranged weapons in the same volley.	撞向敌人即可用当前近战武器攻击。近战武器即使启用，也不会与远程武器在同一轮齐射。
+A larger version of the R-{n}, with twice the storage capacity as well as the ability to begin the recycling process while en route to the recycling unit.	R-{n}的加大型，储存容量翻倍，还能在前往回收机途中开始回收流程。
+Overloads and destroys the highest-listed active power source to create a powerful directed charge that blasts up to four components clean off the target.	使列表中排位最高的有效动力源过载并摧毁，以产生强力定向冲击，将目标最多四个部件彻底击落。
+Blows {n}-{n} components off victim, damaging each by {n}-{n}% of remaining integrity. Drop on the ground and use > or right-click on self to install trap.	击落受害者{n}-{n}个部件，各自损失剩余耐久的{n}-{n}%。丢在地上后按>或右键点击自身来设置陷阱。
+Wasps are swarmer class variants equipped with a derelict-made battle rifle, less reliable than swarmer armament but nonetheless dangerous in large numbers.	黄蜂是蜂群型变种，装备遗民制造的战斗步枪。虽不如蜂群型武器可靠，数量庞大时仍十分危险。
+Severs {n}-{n} components from victim, damaging each by {n}-{n}% of remaining integrity. Drop on the ground and use > or right-click on self to install trap.	切断受害者{n}-{n}个部件，各自损失剩余耐久的{n}-{n}%。丢在地上后按>或右键点击自身来设置陷阱。
+Contains a unique dynamic key that can be used to improve the chances of hacking its associated terminal, if used before its renewal time expires ({n} turns).	内含独特动态密钥，可在续期时间（{n}回合）到期前使用，以提高入侵关联终端的成功率。
+M-{n} Extractors are outfitted with better datajacking and extraction technology than their predecessors, and are currently assigned to mid-level cave networks.	M-{n}提取者配备比前代更好的数据劫持和提取技术，目前部署于中层洞窟网络。
+Parasites remotely drain energy from all nearby robots for an unknown purpose. This can temporarily incapacitate the victims, but also cools them significantly.	寄生虫会远程吸取附近所有机器人的能量，目的不明。受害者可能暂时失能，但也会显著冷却。
+The {*} has per-turn matter upkeep cost and is therefore not activated automatically when attached. Use carefully and keep an eye on your remaining matter supply.	{*}每回合都消耗物质维护，因此装配后不会自动启用。谨慎使用，并留意剩余物质。
+The achievement interface (ESC then open Records) offers an effective way to explore all of your earned achievements as well as seek out new goals for future runs.	成就界面（按ESC后打开记录）便于查看已获得成就，也可为未来流程寻找新目标。
+The heaviest and most heavily armored brawler, highly likely to reach a target even under sustained fire, and highly likely to wreak havoc with its powered hammer.	最沉重、装甲最厚的斗士，很可能在持续火力下仍能接近目标，并用动力锤大肆破坏。
+Drag warning: You are moving via airborne propulsion while non-airborne propulsion attached, which reduces your speed. See your non-airborne propulsion's Drag stat.	拖曳警告：你正用空中推进移动，同时装有非空中推进部件，这会降低速度。查看非空中推进部件的拖曳属性。
+The most accurate frontline melee combat unit, the L-{n} Swordsman also has a well-shielded core and a powered sword very effective at slicing off target components.	L-{n}剑士是最精准的前线近战单位，核心防护严密，动力剑也很擅长切下目标部件。
+The W-{n} Eye is the ultimate surveillance robot, with among the best visual range of any class and the most powerful non-experimental jamming capabilities available.	W-{n}之眼是终极监视机器人，视觉范围位居各型号前列，且拥有最强的非实验型干扰能力。
+Applies to schematics for most non-combat 0b10 bots, including Haulers, Mechanics, Minesweepers, Operators, Protectors, Recyclers, Researchers, Tunnelers, and Workers.	适用于大多数非战斗型0b10机器人的图纸，包括运输者、技工、扫雷者、操作员、保护者、回收者、研究员、掘进者和工人。
+The {*} is "overloadable", activating it again increases its output for additional resource costs, and may damage the unit. See Burnout stat context help for more info.	{*}可“过载”，再次启用会增加输出并额外消耗资源，也可能损坏单位。更多信息见过热属性的上下文帮助。
+Savages are early B-series brawlers, before they were upgraded with better armor. They also swing mauls rather than the faster hammers and maces of new brawler variants.	野蛮人是早期B系列斗士，尚未升级更好的装甲。他们挥舞钉头锤，而非新型斗士使用的快速战锤和狼牙棒。
+You have entered the same map type at the same depth as a previous visit, though this is a different location at that depth rather than "revisiting" the exact same area.	你进入了先前到访过的同类型、同深度地图，但这只是该深度的另一处地点，并非重返原区域。
+Explodes for {n}-{n} kinetic damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}; salvage: {n}). Drop on the ground and use > or right-click on self to install trap.	爆炸造成{n}-{n}动能伤害，半径{n}（衰减：{n}；碎片：{n}-{n}；回收：{n}）。丢在地上后按>或右键点击自身来设置陷阱。
+Explodes for {n}-{n} entropic damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}; salvage: {n}). Drop on the ground and use > or right-click on self to install trap.	爆炸造成{n}-{n}熵能伤害，半径{n}（衰减：{n}；碎片：{n}-{n}；回收：{n}）。丢在地上后按>或右键点击自身来设置陷阱。
+A primitive hacker of machines, loosely related to the old P-{n} design, this type of derelict is incapable of employing anything other than brute force against live targets.	一种原始的机器黑客，与旧式P-{n}设计略有关联。这类遗民对活体目标只会蛮力攻击。
+Explodes for {n}-{n} explosive damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}; salvage: {n}). Drop on the ground and use > or right-click on self to install trap.	爆炸造成{n}-{n}爆炸伤害，半径{n}（衰减：{n}；碎片：{n}-{n}；回收：{n}）。丢在地上后按>或右键点击自身来设置陷阱。
+Generates signals likely to trigger an assault dispatch in 0b10-controlled areas, or if there is an active assault squad in the area redirect it to the source of the signals.	在0b10控制区产生信号，可能引来突击派遣；若附近已有突击小队，则会将其引向信号源。
+Explodes for {n}-{n} electromagnetic damage with a radius of {n} (falloff: {n}; chunks: {n}; salvage: {n}). Drop on the ground and use > or right-click on self to install trap.	爆炸造成{n}-{n}电磁伤害，半径{n}（衰减：{n}；碎片：{n}；回收：{n}）。丢在地上后按>或右键点击自身来设置陷阱。
+Only a single melee weapon may be active at a time, {*} automatically deactivated. (Secondary inactive melee weapons have a chance to conduct follow-up attacks, see the manual.)	近战武器一次只能启用一件，{*}会自动停用。（未启用的副手近战武器有几率追加攻击，详见手册。）
+Applies to schematics for most 0b10 combat bots, including Brawlers, Cutters, Demolishers, Duelists, Grunts, Hunters, Programmers, Saboteurs, Sentries, Specialists, and Swarmers.	适用于大多数0b10战斗机器人的图纸，包括斗士、切割者、破坏者、决斗者、步兵、猎手、程序员、破坏者、哨兵、特种兵和蜂群型。
+Directional explosion with a {n}-degree arc also inflicts {n}-{n} EM damage out to a distance of {n} (falloff: {n}; chunks: {n}; salvage: {n}). Charge rate: {n} energy * {n} turns.	扇形爆炸，角度{n}度，另造成{n}-{n}电磁伤害，距离{n}（衰减：{n}；碎片：{n}；回收：{n}）。充能速率：{n}能量×{n}回合。
+Explodes for {n}-{n} electromagnetic damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}; salvage: {n}). Drop on the ground and use > or right-click on self to install trap.	爆炸造成{n}-{n}电磁伤害，半径{n}（衰减：{n}；碎片：{n}-{n}；回收：{n}）。丢在地上后按>或右键点击自身来设置陷阱。
+Notice for Steam players: Cogmind player global achievement rates displayed by Steam are all underreported, in many cases by a huge margin, due to how they are calculated by Valve.	Steam玩家请注意：Steam显示的Cogmind全球成就率普遍偏低，许多低估幅度极大，这是Valve的计算方式所致。
+The {*} is "overloadable", activating it again increases its energy generation and heat output, and may have unintended consequences. See Stability stat context help for more info.	{*}可“过载”，再次启用会提高能量生成与热量输出，也可能造成意外后果。更多信息见稳定性属性的上下文帮助。
+If triggered by chain reaction or rigged proximity response, explodes for {n}-{n} thermal damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}; salvage: {n}). High heat transfer.	由连锁反应或设定的近距感应触发时，爆炸造成{n}-{n}热能伤害，半径{n}（衰减：{n}；碎片：{n}-{n}；回收：{n}）。热传递高。
+The {*} is "overloadable", activating it again increases its power for an additional resource cost, and may have unintended consequences. See Stability stat context help for more info.	{*}可“过载”，再次启用会提高动力，但需额外消耗资源，也可能造成意外后果。更多信息见稳定性属性的上下文帮助。
+To regain energy, simply wait via the mouse wheel, '.', or KP5. Also make sure your per-turn energy generation is a net positive, and consider deactivating power-draining parts if not.	滚动鼠标滚轮、按'.'或小键盘5即可等待以恢复能量。还要确保每回合能量净生成为正；若不是，考虑关闭耗能部件。
+Burns victim {n}-{n} times for {n}-{n} thermal damage each, and adds {n}-{n} heat to victim and any adjacent robots. Drop on the ground and use > or right-click on self to install trap.	灼烧受害者{n}-{n}次，每次造成{n}-{n}热能伤害，并使受害者及相邻机器人增加{n}-{n}热量。丢在地上后按>或右键点击自身来设置陷阱。
+Used to restore integrity of core then attached parts at a rate of {n} protomatter per {n} integrity. Wait while standing on protomatter to automatically apply up to {n} of it per turn.	用于修复核心，再修复装配部件；每{n}点原质修复{n}点耐久。站在原质上等待，每回合最多自动使用{n}点。
+Investigators are built specifically to oversee the testing of dangerous prototypes, and are therefore capable of holding multiple threats in place while supporting units deal with them.	调查员专为监督危险原型测试而设计，能同时定住多个威胁，方便支援单位处理。
+B-{n} Gladiators are better armored than the B-{n}, replace the hammer with a slightly more damaging mace, and like other B-series brawlers are only dispatched in coordination with grunts.	B-{n}角斗士比B-{n}装甲更好，将战锤换成伤害略高的狼牙棒；和其他B系斗士一样，只与步兵协同行动。
+Applies to non-combat 0b10 bots, including Builders, Carriers, Compactors, Haulers, Mechanics, Minesweepers, Operators, Protectors, Recyclers, Researchers, Tunnelers, Watchers, and Workers.	适用于非战斗型0b10机器人图纸，包括建造者、运输者、压缩者、搬运者、技工、扫雷者、操作员、保护者、回收者、研究员、掘进者、观察者和工人。
+Evolving occurs each time the central map of a new depth is reached, but not in branch areas. Your world map route is accessible via Backspace, or the MAP button in the bottom-right corner.	每到达新深度的中央地图就会进化，分支区域除外。按Backspace或点击右下角MAP按钮可查看世界地图路线。
+If on the ground at current position use > or right-click on self to detonate. Thermal explosion inflicts {n} damage with a radius of {n} (falloff: {n}; chunks: {n}). Massive heat transfer.	若物品在当前位置地面，按>或右键点击自身引爆。热爆炸造成{n}伤害，半径{n}（衰减：{n}；碎片：{n}）。热传递极强。
+Pierces victim three times for {n}-{n} damage each, with each pierce having a {n}% chance of causing an Impale critical. Drop on the ground and use > or right-click on self to install trap.	刺穿受害者三次，每次造成{n}-{n}伤害，每次刺击都有{n}%几率触发穿刺暴击。丢在地上后按>或右键点击自身设置陷阱。
+Want a larger map view with more modal windows? Or have a large enough display to fit a bigger map in exchange for smaller text? Consider selecting a different UI Layout in the option menu.	想要更大的地图视野和更多模态窗口？或显示器够大，能用更小字体换取更大地图？可在选项菜单尝试其他界面布局。
+You have activated Keyboard Mode (toggled via F2 or the Options menu), which hides your mouse cursor and enables keyboard-controlled map look functionality. For hardcore keyboard-only players.	你已启用键盘模式（按F2或在选项菜单切换），鼠标光标会隐藏，并可用键盘控制地图视角。适合纯键盘玩家。
+The analysis for a given robot confers +{n}% to hit and +{n}% damage against it, as well as {n}% to its accuracy when under fire from one. View all analyses in possession via the status screen.	对某机器人完成分析后，对其命中率加{n}%、伤害加{n}%；被其攻击时，对方命中率降低{n}%。可在状态界面查看分析记录。
+The {*} can be toggled by clicking on it. Parts must be active to use them, and are activated automatically when attached, though sometimes deactivating parts is useful for resource management.	点击{*}即可切换。部件必须启用才能使用，装配后通常会自动启用；有时关闭部件有助于管理资源。
+{n} recoil from each weapon, and immunity to knockback. Intermittently drains core to fully repair itself while attached, even if inactive. Repairs {n} integrity per {n} core integrity drained.	每件武器后坐力{n}，并免疫击退。装配期间会间歇性抽取核心能量，将自身完全修复，即使未启用也有效。每消耗{n}核心能量修复{n}耐久。
+You are entering the active sensor range of a Heavy class robot, which gives away their position but also has a chance to call more squads to reinforce the local area while you are within range.	你正进入重型机器人主动传感器的范围。这会暴露其位置，但你在范围内时，它也可能呼叫更多小队增援。
+Furnace bots emit massive amounts of heat, causing nearby robots to overheat and become useless. I assume the design's aim is similar to that of the demented class derelict, built as a deterrent.	熔炉机器人会释放大量热量，使附近机器人过热失效。我猜其设计目标类似疯狂型遗民，旨在充当威慑。
+Heavy ARCs are carriers better designed for protection and rapid deployment of assault forces to a flash point, in some cases approaching closer to known targets before unleashing their contents.	重型ARC更侧重保护和快速部署突击部队至冲突点，有时会接近已知目标后再释放载荷。
+Pressing 'z' toggles the map zoom, or click on the ZOOM button just above the center of the map view. Or while holding Shift to pan the map, using the mouse wheel can also zoom the view in and out.	按'z'切换地图缩放，或点击地图中央上方的ZOOM按钮。按住Shift平移地图时，也可滚动鼠标滚轮缩放。
+The H-{n} Marshal improves on the H-{n} in almost every way, most notably with an even more powerful heavy cannon paired with a Kinecellerator, and better protection against electromagnetic damage.	H-{n}元帅几乎全面优于H-{n}，尤其配备更强的重炮与动能加速器，并能更好抵御电磁伤害。
+A derelict improvement on the grunt that essentially fits them with a beamcaster, an interesting weapon of derelict origin. Some variants suffer serious heat issues from the added firepower, however.	这是遗民对步兵的改造型，基本上给它装上了遗民设计的光束投射器。不过部分型号因火力增强而严重过热。
+If on the ground at current position use > or right-click on self to begin or continue installing at current location. Installation progresses in one-turn intervals, and requires {n} turns to complete.	若物品在当前位置地面，按>或右键点击自身开始或继续在此安装。安装每回合推进一次，需要{n}回合完成。
+If triggered by chain reaction or rigged proximity response, explodes for {n}-{n} electromagnetic damage with a radius of {n} (falloff: {n}; chunks: {n}; salvage: {n}; disruption: {n}%). Wide spectrum.	由连锁反应或设定的近距感应触发时，爆炸造成{n}-{n}电磁伤害，半径{n}（衰减：{n}；碎片：{n}；回收：{n}；干扰：{n}%）。宽频谱。
+A better-armored version of the Y-{n}, with upgraded weaponry. Like other Y-class robots, their large size is a primary drawback, as it makes them easier to hit both when targeted and by stray projectiles.	Y-{n}的强化装甲型，武器也有升级。和其他Y系机器人一样，体型庞大是其弱点，更容易被瞄准或被流弹击中。
+B-{n} Warriors carry a heavier version of the B-{n}'s mace, and additional armor. Like other B-series robots, the B-{n}'s armor structure is reinforced against the slashes and broad impacts of melee damage.	B-{n}勇士装备比B-{n}更重型的狼牙棒和额外装甲。与其他B系机器人一样，B-{n}的装甲结构强化，可抵御近战劈砍和钝击。
+If on the ground at current position use > or right-click on self to start timer. Automatically detonates after {n} turns. Explosion inflicts {n} damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}).	若物品在当前位置地面，按>或右键点击自身启动计时器。{n}回合后自动引爆。爆炸造成{n}伤害，半径{n}（衰减：{n}；碎片：{n}-{n}）。
+D-{n} Destroyers improve on the D-{n} with a better guidance system and more powerful heavy rocket launcher. Like all demolishers, the D-{n} will hold fire if too many friendlies are within the area of effect.	D-{n}歼灭者比D-{n}制导系统更佳，重型火箭发射器也更强。和所有破坏者一样，D-{n}若杀伤范围内友军过多便会停火。
+G-{n} Soldiers are each equipped with a heavy laser, a significant upgrade from its predecessor the G-{n}, but like the G-{n} are prone to overheating. Also still somewhat weak against electromagnetic attacks.	每个G-{n}士兵都装备重型激光器，较前代G-{n}大幅升级；但和G-{n}一样容易过热，也仍较惧怕电磁攻击。
+Non-hostile robots temporarily showing a flashing gray ? have dialogue you've already seen in a previous run. Green are those you've never seen before, or otherwise provide benefits in any run you talk to them.	非敌对机器人若暂时显示闪烁的灰色问号，表示你在此前流程中看过其对话。绿色表示从未见过，或每局交谈都能获得好处。
+Overweight warning: You are carrying more than your current propulsion can efficiently support, which slows movement; see status page ('s') or the top of the parts list for the specific mass vs. support values.	超重警告：携带质量超过当前推进部件的有效承载能力，移动会变慢；查看状态页（'s'）或部件列表顶部的质量/承载数值。
+Surgeons are derelict-modified mechanics that combine repair and recycling in a single design. Without a recycling infrastructure to support manufacturing, derelict groups rely on surgeons to handle both tasks.	外科机器人是遗民改造的技工，将维修与回收合为一体。遗民群体缺乏制造所需的回收基础设施，因此依靠外科机器人处理两项工作。
+U-class builders lay floors, assemble new machines, and reinforce and analyze the structural integrity of walls. They travel alone, but all those within a certain vicinity will work together to complete a task. 	U系建造者铺设地板、组装新机器，并加固和分析墙体结构。它们单独行动，但附近同类会协作完成任务。
+While Cutter designs are generally believed to be a hard counter against airborne intruders, a group of Decapitators equipped with Terror Saws is so deadly that even hardened combat bots are quickly taken apart.	切割者通常被认为是克制空中入侵者的利器，但装备恐惧锯的断头者小队杀伤力极高，连强化战斗机器人也会迅速被拆解。
+The P-{n} Sage replaces one P-{n} shock rifle with a high-powered version, and swaps the other one out for a tesla rifle. Like all programmers, the P-{n} can engage in both defensive and offensive remote hacking.	P-{n}贤者将一支P-{n}电击步枪换成高功率型号，另一支换成特斯拉步枪。和所有程序员一样，P-{n}可进行远程攻防入侵。
+As a number of derelicts have insufficient or unreliable power supplies, some crafty derelict came up with the idea to create mobile recharging stations that generate and transmit energy to all nearby robot systems.	不少遗民电源不足或不稳定，于是有遗民想出移动充电站的点子，可发电并向附近机器人系统传输能量。
+Aside from the options menu, there are many more interface features and behavior you can tweak in Cogmind's advanced.cfg file, the functionality of which is described in the manual under Advanced UI: Advanced Options.	除选项菜单外，还可在Cogmind的advanced.cfg中调整更多界面功能与行为。具体说明见手册“高级UI：高级选项”。
+In emergency situations without enough matter to attach a part, one approach is to ram any robot to regain a small amount, for example to attach a melee or energy weapon to more easily destroy targets for more matter.	紧急情况下若物质不足以装配部件，可撞击机器人获得少量物质；例如先装近战或能量武器，更容易击毁目标以获取更多物质。
+If on the ground at current position use > or right-click on self to detonate. Electromagnetic explosion inflicts {n} damage with a radius of {n} (falloff: {n}; chunks: {n}), piercing any walls or barriers. Fine spectrum.	若物品在当前位置地面，按>或右键点击自身引爆。电磁爆炸造成{n}伤害，半径{n}（衰减：{n}；碎片：{n}），可穿透墙壁或屏障。窄频谱。
+Some Packrat variants have become quite capable in their own right, evolved to rip hostiles apart specifically to use pieces for self-repair, then discard any remains. Surprisingly they are resistant to many forms of damage.	某些拾荒者变种已进化得相当能干，会撕碎敌人以取下部件自我修复，随后丢弃残骸。令人意外的是，它们能抵抗多种伤害。
+The latest G-series implementation, armed with a powerful phase gun supported by a secondary heavy laser. While not exceptionally effective in single combat, the G-{n} is much more formidable in groups, as they normally operate.	最新型G系列配备强力相位枪，并由副重型激光支援。单打独斗不算特别强，但G-{n}通常成群行动，因此更难对付。
+Explodes for {n}-{n} thermal damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}; salvage: {n}). High heat transfer. Also adds {n}-{n} heat to each victim. Drop on the ground and use > or right-click on self to install trap.	爆炸造成{n}-{n}热能伤害，半径{n}（衰减：{n}；碎片：{n}-{n}；回收：{n}）。热传递高，并使每名受害者增加{n}-{n}热量。丢地按>或右键自身设置陷阱。
+If on the ground at current position use > or right-click on self to start timer. Automatically detonates after {n} turns. Thermal explosion inflicts {n} damage with a radius of {n} (falloff: {n}; chunks: {n}-{n}). Deadly heat transfer.	若物品在当前位置地面，按>或右键点击自身启动计时器。{n}回合后自动引爆。热爆炸造成{n}伤害，半径{n}（衰减：{n}；碎片：{n}-{n}）。热传递致命。
+Inferior behemoth variants undoubtedly built by that idiot Warlord. They've only been reported deep in the caves, never anywhere near where an actual behemoth could tear them apart. They do possess respectable, if unreliable, firepower.	显然是那个蠢货军阀制造的劣质巨兽变种。它们只在洞窟深处被发现，从未出现在真正巨兽能将其拆碎的地方。火力尚可，但不可靠。
+The G-{n} Trooper replaces the G-{n}'s laser with a more effective particle gun. However, during prolonged confrontations the G-{n} is prone to overheating as its upgraded weaponry produces more heat than the design can fully dissipate.	G-{n}士兵将G-{n}的激光器换成更有效的粒子枪。但长时间交战时，G-{n}武器升级产生的热量超过散热能力，容易过热。
+Open your status info by right-clicking on yourself, or using 's', to view a stat summary, current resistances, lists of any schematics, analyses, or studies acquiring during your run, or access context help for more stats and mechanics.	右键点击自身或按's'打开状态信息，可查看属性摘要、当前抗性、持有图纸/分析/研究列表，或查看其他属性与机制的上下文帮助。
+I-{n} Archangels are equipped with a more efficient force field than the I-{n}, and greater battery storage to support its use. Their point defense system further conserves energy by intercepting explosive projectiles prior to detonation.	I-{n}大天使的力场比I-{n}效率更高，电池容量也更大。点防御系统会在爆炸弹药引爆前将其拦截，以节省能量。
+An upgrade to the W-{n} Scout, Informers improve on the Scout's jamming range. As unarmed surveillance units rather than frontline combatants, agility is preferred over additional armor to protect their systems from electromagnetic damage.	W-{n}侦察兵的升级型，干扰范围更大。作为无武装监视单位而非前线战斗员，它们更依赖敏捷，而非额外装甲，来保护电子系统免受电磁伤害。
+C-{n} Dissectors are even deadlier than their predecessors, armed with a second saw blade for extra cutting power as well as being both harder to hit and capable of reaching high enough speeds that few known derelict builds can outrun them.	C-{n}解剖者比前代更致命，装备第二把锯刃以加强切割；同时更难命中，速度也快到少有遗民配置能追上。
+Q-Series robots are a new modular design built to deal with specific threats as they are encountered. The base form is an armored walker with a strong well-concealed core and numerous additional slots available for both utilities and armament.	Q系列是新型模块化设计，会针对遭遇的特定威胁进行组装。基础形态是装甲步行机，核心坚固且隐蔽，并有多个功能与武器槽位。
+Cetus Guards are a variant of the Y-{n} outfitted with prototype technology, the first of many such experiments aimed at testing new designs in the field, albeit in this case located in an area that generally sees little to no hostile activity.	鲸鱼卫兵是配备原型技术的Y-{n}变种，是众多实地测试新设计的实验之一；不过该区域通常几乎没有敌对活动。
+O-{n} Administrators share many similarities with low-level O-{n} Technicians, but despite the class' highly sensitive electronics they can somewhat mitigate the long-term negative effects of electromagnetic attacks via their restoration module.	O-{n}管理者与低级O-{n}技师颇为相似。尽管电子设备高度敏感，仍能通过还原模块减轻电磁攻击的长期负面影响。
+The Executioner is a prototype for a new class of combat robot armed with dual helical railgun prototypes, capable of piercing targets at extreme range with extreme accuracy, often bypassing any and all armor to strike the target's core directly.	刽子手是新型战斗机器人的原型，装备双螺旋导轨炮原型；可在极远距离以极高精度穿透目标，经常绕过所有装甲直击核心。
+The fireman is a relatively new robot discovered in the caves, purely of derelict design. Their flamer technology is extremely effective against my robots, thus I've instructed researchers to revisit my most common methods of electronics housing.	消防员是近期在洞窟发现的纯遗民设计机器人。其喷火器对我的机器人极有效，因此我已命令研究员重新审视常见电子设备外壳方案。
+S7 Guards are the first variant in a new line of sentry frames, better fulfilling their purpose with built-in resistance to most forms of damage, and self-regenerating armor to ensure long-term defense of a position until reinforcements can arrive.	S7卫兵是新一代哨兵框架的首个变种，内置多种伤害抗性，并拥有自我再生装甲，可长期守卫据点直到援军抵达。
+X-series specialists each possess unique loadouts for a specific purpose. While less likely to deal significant damage to a target, the X-{n} Disruptor excels at incapacitating robots and their components, making them easier to capture for analysis.	X系列特种兵各有独特配置，用于特定任务。X-{n}干扰者不擅长造成大量伤害，却能使机器人及部件失能，便于捕获分析。
+Despite their origins as older demolisher variants, martyrs do carry a rocket or missile launcher and are therefore considered extremely dangerous. Martyrs are rarely encountered anywhere near Complex 0b10, but those that are are promptly dealt with.	尽管殉道者源自旧式破坏者变种，仍配有火箭或导弹发射器，极度危险。它们很少出现在0b10复合体附近，一旦发现便会立即处理。
+Y-series armored sentries are equipped with a mix of thermal and kinetic weaponry. The Y-{n} guards important locations and vital machinery, and remains at its station unless they identify a hostile robot or are alerted to the presence of one nearby.	Y系装甲哨兵兼有热能和动能武器。Y-{n}守卫重要地点和关键机械，除非发现或收到附近敌对机器人的警报，否则会坚守岗位。
+In the Modal {n}-row layout, with combat log mode active, details are scrolled down the top-right of the map view. You can also scroll via -/= keys to review older logs, or activate it a second time by clicking on the button and using the mouse wheel.	在模态{n}行布局并启用战斗日志模式时，详情会显示在地图右上方。也可用-/=键翻阅旧日志，或再次点击按钮后滚动鼠标滚轮。
+A quick but not especially dangerous combat derelict with fully integrated systems, constructed seemingly at random by an Assembler's self-contained fabrication apparatus. Individually resilient for their size, they pose a real threat in greater numbers.	这是一种快速但不算特别危险的战斗遗民，系统完全集成，似乎由Assembler的自包含制造装置随机建造。单体相对坚韧，数量多时威胁很大。
+H-{n} Overseers are equipped with the heaviest Linear Accelerator variant and the utilities to back it up, able to hit harder and further, all while managing nearby combat robots in order to concentrate defensive efforts and quickly subdue hostile forces.	H-{n}监督者装备最重型的线性加速器及配套功能部件，能打得更远更重，同时指挥附近战斗机器人，集中防守并迅速压制敌军。
+Fast movers designed around a main kinetic cannon with additional support from a pair of guns for close quarters engagements. Clearly built for long periods of operation in hostile territory, infiltrators aren't generally observed working with other units.	高速机动者以动能主炮为核心，另有双枪应对近战。显然适合长期在敌区作战；通常未见渗透者与其他单位协同行动。
+Bumping a target to melee attack while flying prompts a warning since that may not always be the intent, as the same movement can be used to instead jump. Either repeat the action quickly to confirm an attack, or deactivate the weapon for normal jump behavior.	飞行时撞击目标进行近战会弹出警告，因为此操作也可能是想跳跃。快速重复即可确认攻击，或停用武器以恢复普通跳跃行为。
+The H-{n} Assassin swaps out the H-{n}'s gauss rifles for dual coilguns. The Assassin's position is somewhat masked by an improved Phase Shifter, making it more difficult to accurately target. The H-{n} can only be remotely detected by high-level sensor arrays.	H-{n}刺客将H-{n}的高斯步枪换成双线圈枪。改良相位偏移器可部分遮蔽刺客位置，使其更难被精准瞄准。只有高级传感器阵列能远程探测H-{n}。
+Packrats are sent out by their derelict owners to collect useful components for later reuse, especially those that derelicts are incapable of manufacturing locally. They are especially weak against electromagnetic attacks, and are disabled by programmers on sight.	遗民派出拾荒者收集有用部件以备再用，尤其是遗民无法就地制造的部件。它们极易受电磁攻击，程序员发现后会立即使其失能。
+X-series specialists each possess unique loadouts for a specific purpose. The X-{n} Chaingunner focuses on high kinetic damage output over a short period, and would make a formidable frontline attacker if not for their tendency to cause excessive collateral damage.	X系列特种兵各有独特任务配置。X-{n}连射枪手侧重短时间内造成大量动能伤害；若非容易造成过多附带破坏，本可成为强力前线攻击者。
+LOCAL NARROWCAST: Welcome to Scraptown. Please remember it is vital to either disarm yourself or ensure you are corruption-free before entering the area. Use the C-Scrubber! You bear full responsibility for any potential consequences of non-compliance. Enjoy your stay.	本地窄播：欢迎来到废料镇。入内前请解除武装或确保系统无损坏。请使用C-清洗器！违规造成的后果由你全权负责。祝你逗留愉快。
+Thematically, traveling to another map via stairs or doorway is not an instant process. The transition abstracts away an implied amount of uneventful corridors along the way, during which any pursuers were lost and it is too dangerous to backtrack without being caught.	从楼梯或门口前往另一地图并非瞬间完成。转场代表途中一段平安无事的走廊；追兵已被甩开，贸然折返则可能被抓。
+Derelicts have taken the original hunter and rearmed it with a weapon of their own design: the bore cannon. While the concentrated firepower is less effective in open firefights, its ability to deal significant damage even after penetrating multiple walls is surprising.	遗民以自制武器钻孔炮重新武装了原型猎手。集中火力不适合开阔战斗，但即使穿透多堵墙仍能造成重大伤害，令人惊讶。
+Specialized exploration-oriented derelicts are fairly weak in combat and not a direct threat, though they pose a long-term danger due to their intelligence gathering capabilities which can generate intel later passed on to a greater variety of derelicts. Destroy on sight.	专精探索的遗民战斗力较弱，不构成直接威胁；但它们收集情报，日后可能传给更多种类的遗民，带来长期危险。发现后立即摧毁。
+Robots within radius are knocked back {n}-{n} spaces, possibly further or less so depending on relative size. Projectile also inflicts {n}-{n} impact damage on direct hit. Items caught in the explosion are pushed out further, and may take damage multiple times in the process.	范围内机器人被击退{n}-{n}格，具体距离会因双方体型而异。弹体直接命中另造成{n}-{n}冲击伤害。爆炸中的物品会被推得更远，过程中可能多次受损。
+An emerging threat in Complex 0b10, serving no purpose but to collect matter and construct new Assembled specifically to wreak havoc in low-security areas. The appearance of Assemblers represents an apparent offensive turn by whatever built the first Demented and Furnace models.	这是0b10复合体的新威胁，专门收集物质并制造新的组合体，在低安全区肆虐。组合体现身，说明制造疯狂型和熔炉型的幕后势力可能转向进攻。
+Butchers are duelist class variants armed with more damaging derelict-designed slashing weapons. Survival in the harsh and factious cave environment seems to drive derelicts towards the use of more violent weapons, and in some cases a preference for decisive close-quarters combat.	屠夫是装备遗民设计重型劈砍武器的决斗者变种。严酷且派系林立的洞窟环境似乎促使遗民采用更暴力武器，有些甚至偏好果断的近身战。
+The P-{n} Master is armed with dual gamma rifles, the most powerful type of standard electromagnetic gun. Like other P-series robots, the P-{n} uses specialized armor insulated against electromagnetic damage, though compromises in design leave it slightly weak against kinetic attacks.	P-{n}主宰装备双伽马步枪，是最强的标准电磁枪。和其他P系机器人一样，P-{n}采用绝缘抗电磁装甲，但设计上的妥协令其稍弱于动能攻击。
+S-{n} Plague design is completely centered around its heavy machine gun. With a good chance to sustain at least one direct hit to the core, a group of S-43s can perforate most targets before suffering heavy losses. Powerful explosives are the only way to easily overcome an S-{n} squad.	S-{n}瘟疫型完全围绕重机枪设计。它们很可能至少有一发直接命中核心；一队S-43能在严重折损前击穿大多数目标。强力爆炸物是轻松击败S-{n}小队的唯一办法。
+Lumbering abominations cobbled together from stolen or salvaged components, though much of their weaponry is derelict in origin. I believe the ever-stimulating Warlord is mass-producing these to lead an attack of some sort, since sightings by cave patrols have become increasingly common.	这些笨重怪物由偷来或回收的部件拼凑而成，许多武器来自遗民。我认为那个总爱找刺激的军阀正在量产它们准备发动某种袭击，因为洞窟巡逻队目击越来越频繁。
+Compactors break down obsolete robot models, and the occasional intruder sucked down a chute hatch. They are slow, but built to withstand both damage from the rugged environment of waste processing areas and dangerous shocks caused by electromagnetic radiation during robot deconstruction.	压缩者拆解过时机器人型号，偶尔也处理被吸入落穴的入侵者。它们行动缓慢，却能承受废料处理区恶劣环境造成的损伤，也能抵御拆解机器人时危险的电磁冲击。
+Drones are a miniature version of the W-class Scout, launched by H-series robots to hunt down and report target positions. Like the watcher series they are extremely susceptible to electromagnetic attacks, while their tiny size also leaves them prone to being disabled by concussive blasts.	无人机是W系侦察兵的微型版本，由H系机器人发射，用于追踪并报告目标位置。和观察者系列一样，它们极易受电磁攻击；体型小也使其容易被震荡爆炸打坏。
+In addition to the regular game, there are many special modes available to offer very different Cogmind experiences, including for example gaining XP, or fighting alongside another Cogmind, and many more. Read about these modes and how to activate them in the manual under Alternative Rules.	除常规游戏外，还有许多特别模式，带来截然不同的Cogmind体验，例如获得经验值或与另一名Cogmind并肩作战等。详情及启用方式见手册“替代规则”。
+You have activated your volley range indicator ('v' or the button under the VOLLEY window), useful for visualizing the range of your currently active weapons. That window and button are only visible while in targeting mode. See the manual for a detailed description of its advanced features.	你已启用齐射射程指示器（'v'或VOLLEY窗口下方按钮），可显示当前启用武器的射程。仅在瞄准模式中显示该窗口和按钮。高级功能详见手册。
+Each active leg slot provides a {n}% chance to kick non-huge targets out of the way. Moving on Thunder Legs also confers the Weaving state, which increases evasion but decreases ranged accuracy, each by {n}% per level of momentum (up to {n}). Weaving modifiers override Running if both applicable.	每个启用的腿部槽位都有{n}%几率将非巨型目标踢开。用雷霆腿移动还会获得织步状态，每级动量使闪避提高、远程命中率降低{n}%（最高{n}级）。若同时适用，织步修正会覆盖奔跑。
+The only variant in a planned line of supremely armored prototype sentries, this design was discontinued when initial deployment proved their movement speed left them vulnerable to being outpositioned by even other treaded hostiles. The remaining samples can still be of service in some locations.	这是计划中的超重装甲原型哨兵系列唯一变种。初次部署发现其速度太慢，连履带敌人都能抢占有利位置，项目遂告终止。残存样本在某些地点仍有用途。
+You are not limited to hacking targets listed on a Terminal. Any hack can be entered via the Manual option at the bottom, simply start typing and use autocomplete if desired (Up/Down/Tab/Enter). So-called indirect hacking has a lower chance of success, and is described in more detail in the manual.	你不必只选终端列表中的目标。可用底部的手动选项输入任意入侵指令，并用自动补全（上/下/Tab/Enter）。间接入侵成功率较低，详见手册。
+Open spaces previously occupied by now-destroyed walls and earth have a slight glow to them. Consecutive moves through these unstable areas may cause a cave-in, but only if doing so for extended periods. Tunneling a short distance between rooms is safe unless the area was destabilized by an explosion.	被摧毁墙壁和泥土占据的空地会微微发光。连续穿过不稳定区域过久可能导致塌方；在房间间短距离掘进通常安全，除非爆炸已使该区失稳。
+Sentries rebuilt around a single heavy autocannon make for a formidable mid-sized defender, but move too slowly to be a threat to Complex 0b10. My forces have never actually encountered one, but mining derelict records has uncovered information useful in dealing with them should that become necessary.	围绕单门重型自动炮重建的哨兵，是强大的中型防御者，但行动太慢，对0b10复合体构不成威胁。我的部队从未遇见它，不过挖掘遗民记录发现了应对资料。
+The S-{n} Virus replaces the S-{n}'s light armament with a much more effective autogun, giving the swarmer a faster firing rate that complements its movement speed. Better propulsion provides sufficient support for additional armor, enough for the core to sustain a direct hit under some circumstances.	S-{n}病毒型将S-{n}轻型武器换成更有效的自动枪，让蜂群型射速更快，配合其移动速度。推进升级还可支撑额外装甲，使核心有时能承受一次直击。
+Y-{n} Defenders improve on the Y-{n} with better armor and greater effectiveness against both single and multiple targets, swapping out the beam rifle and heavy assault rifle for a gatling laser and flak gun. Like all Y-series sentries, their armor is hardened against impact damage and explosive blasts.	Y-{n}防御者以更强装甲和对付单体、群体目标的能力升级Y-{n}，将光束步枪与重型突击步枪换为加特林激光和高射炮。所有Y系哨兵装甲都强化以抵御冲击和爆炸。
+A relatively recent design, the so-called demented wander the caves corrupting nearby electronic systems. I suspect this one was devised by Warlord as an experiment in how to cause as much chaos as possible, or perhaps as a passive way to prevent Complex 0b10 patrols from venturing too deep into the caves.	近期出现的疯狂型机器人在洞窟游荡，会损坏附近电子系统。我怀疑这是军阀设计的实验，意在尽可能制造混乱，或阻止0b10巡逻队深入洞窟。
+P-series programmers are the primary means of asserting control over areas of unwanted derelict activity. As they are often dispatched to combat environments, programmers are equipped with both electromagnetic weaponry and dedicated target analysis components enabling them to quickly incapacitate hostiles.	P系程序员是控制遗民活动区域的主要手段。它们常被派往战区，配备电磁武器和专用目标分析部件，可迅速使敌人失能。
+Disabling or destroying stationary machines or terrain requires that a single hit meet or exceed the object's Armor value. Inspect machines by right-clicking on them, and walls via Ctrl-RMB (or as any other object in Keyboard Mode). Hovering the cursor over an object also shows its Armor in the Scan window.	要停用或摧毁固定机器/地形，单次命中必须达到物体装甲值。右键检查机器，Ctrl+右键检查墙壁（键盘模式下同其他物体）。光标悬停时扫描窗口也会显示装甲值。
+Having swapped a part into your inventory to attach the {*}, a dash marker appears to the left of it in your parts list, and clicking on that marker offers an easier way for mouse users to swap between the two. Doing so is the equivalent of the 'Y' option in the modal swap menu accessed via Ctrl-RMB or '/'.	将部件换入库存以装配{*}后，部件列表左侧会出现短横标记；点击即可让鼠标玩家更轻松地交换两者。这等同于Ctrl+右键或'/'调出的模态交换菜单中的'Y'选项。
+Some derelict thugs in Warlord's service are promoted to commander roles, upgrading them with heavier firepower and better cooling. More problematic is their enhanced visual range and ability to improve the combat effectiveness of others in their squad, making them a prime target when encountered in the field.	军阀麾下部分遗民暴徒晋升为指挥官，装备更强火力和散热系统。更棘手的是其视野更广，还能提升小队战力，因此遭遇时应优先击杀。
+The most powerful demolisher, the D-{n} Annihilator is built around a single micro-nuke launcher. Its advanced guidance computer is extremely accurate, and excellent defense against explosives reduce damage from such sources to almost insignificant levels, whether caused by its own micro-nuke or those of an enemy.	最强破坏者D-{n}歼灭者以单门微型核弹发射器为核心。先进制导计算机精度极高，优秀的爆炸防御令此类伤害几乎微不足道，无论来自自身还是敌方核弹。
+C-class Armored Robot Carriers are disposable transports designed to conceal patrol squad members to limit the effectiveness of ambushes unable to predetermine their composition. ARCs are hardened against kinetic attacks that might otherwise penetrate the shell and damage one or more of the robots compacted within.	C系装甲机器人运输车是一次性运输载具，会隐藏巡逻队成员，避免伏击者预判队伍组成。其外壳强化以抵御动能攻击，防止穿透并伤及内部压缩的机器人。
+Some scrappers have apparently evolved themselves to orient more towards combat purposes, adding armor and extra modified weapons. Whether this is to protect other derelicts or further their own goals remains to be seen, but they are rarely seen in any significant numbers so do not yet warrant additional attention.	有些拾荒者似乎进化得更偏重战斗，增加了装甲和改装武器。它们究竟是为保护其他遗民还是追求自身目标，尚不清楚；数量不多，暂不值得特别关注。
+Although not built primarily for front line combat, the Overlord's dual reactor setup and additional energy reserves are ideal for powering its Remote Shield through longer fights when supporting nearby allies. Even more important is its role in dispatching Immortals and Decapitators to more directly engage hostiles.	霸主虽非专为前线作战设计，但双反应堆和额外能量储备适合长时间为附近盟友提供远程护盾。更重要的是，它负责派遣不朽者和断头者直接交战。
+I-series protectors are one of very few dual-engine robots, necessary to both move and power their remote shield generator. Additional power is stored in batteries for burst use during heavy confrontations, and a power amplifier increases the rate of power generation to replenish energy in an ongoing combat scenario.	I系保护者是少数双引擎机器人，既要移动也要为远程护盾发生器供能。额外能量储存在电池中，供激战时爆发使用；动力放大器则可在战斗中加速能量恢复。
+This combat log reports details of each visible attack, the level of which can be set in the options menu. Reading it is not necessary since all vital data is conveyed via the regular log and on the map itself, but some players find additional details useful for learning purposes or exploring optimization strategies.	战斗日志会报告每次可见攻击的详情，详细程度可在选项菜单设置。常规日志和地图已包含关键信息，无需阅读此日志；但部分玩家会用它学习或研究优化策略。
+X-series specialists each possess unique loadouts for a specific purpose. The X-{n} Rainmaker's twin heavy flak cannons are deadly against either lightly armored or numerous clustered targets. It carries a high-capacity Matter Pod to supply them with enough ammunition for continuous firing in prolonged confrontations.	X系列特种兵各有独特任务配置。X-{n}造雨者的双重型高射炮对轻甲或密集目标都极其致命，并配备大容量物质舱，可在持久战中持续供弹。
+Decomposers are the precursor to K-class workers, converting debris to matter they leave behind for other robots to then collect and utilize. This was before the matter collection and redistribution process was centralized in Complex 0b10. Derelicts seem to have modified decomposers to break down even whole components.	分解者是K系工人的前身，会将残骸转化为物质，留给其他机器人收集利用。后来0b10复合体集中管理物质回收与分配；遗民似乎改造分解者，使其能拆解完整部件。
+Delivers an entropy package to target, gradually eroding it from the inside out. Against robots causes a total {n}-{n} entropic damage, where salvage loss is equivalent to the amount of damage. Against terrain destroys the initial target while potentially spreading through adjacent connected terrain, disintegrating it.	向目标投送熵能包，从内部逐步侵蚀。对机器人造成总计{n}-{n}熵能伤害，回收损失等同伤害值。对地形则摧毁目标，并可能沿相连地形扩散使其瓦解。
+M-series mechanics are valued in dangerous areas for their ability to rebuild components, repair simple core integrity, and restore missing functionality by attaching temporary backup components. M-{n} Smiths are sometimes dispatched to support an assault force, or are otherwise assigned to a designated repair station.	M系技工可重建部件、修复少量核心耐久，并装配临时备用部件以恢复缺失功能，在危险区域很受重视。M-{n}铁匠有时支援突击队，也可能驻守指定维修站。
+Thunder-variant prototype hunters were a short-lived attempt at a fast-moving, nimble design of unquestionable deadliness up close. However, being outmatched at range, and having an unfortunate problem with collateral damage when working in groups, meant their potential use cases were always overshadowed by other options.	雷霆型原型猎手曾短暂尝试打造快速灵活、近身杀伤无比的型号。但其远程劣势以及群体行动时易造成附带破坏，使其潜在用途始终不及其他方案。
+M-series mechanics are valued in dangerous areas for their ability to rebuild components, repair simple core integrity, and restore missing functionality by attaching temporary backup components. M-{n} Artificers are sometimes dispatched to support an assault force, or are otherwise assigned to a designated repair station.	M系技工可重建部件、修复少量核心耐久，并装配临时备用部件以恢复缺失功能，在危险区域很受重视。M-{n}工匠有时支援突击队，也可能驻守指定维修站。
+H-{n} Slayers are armed with dual gauss rifles, which combined with the H-{n}'s embedded close-range scanners can be used to penetrate walls to strike targets on the opposite side. The H-{n} also uses two targeting computers in parallel for greater accuracy. The H-{n} can only be remotely detected by mid-level sensor arrays.	H-{n}杀手装备双高斯步枪，配合H-{n}内置近距扫描仪可隔墙攻击另一侧目标。H-{n}还并行使用两台瞄准计算机提高精度。只有中级传感器阵列能远程探测H-{n}。
+L-{n} Fighters are even more accurate than the L-{n}, and use an axe for slightly improved slashing force. Like other L-series robots, the L-{n} is only dispatched in coordination with grunts. Like other L-series robots, the L-{n}'s armor structure is reinforced against the slashes of melee damage, as well as piercing attacks.	L-{n}斗士比L-{n}更精准，并使用斧头增强劈砍力。和其他L系机器人一样，L-{n}只与步兵协同行动；L-{n}的装甲结构强化，可抵御近战劈砍和穿刺攻击。
+While in examine/look mode, press 's' to manually set the cursor location as a relative view centerpoint. Try it now. Designate your own position to cancel the effect and resume automated centerpoint adjustments, or reset an automated centerpoint. The manual also describes advanced options for modifying the automation algorithm.	在检查/观察模式按's'可手动将光标位置设为相对视野中心。现在试试。指定自身位置可取消效果并恢复自动调整，也可重置自动中心点。手册还介绍了修改自动算法的高级选项。
+X-series specialists each possess unique loadouts for a specific purpose. Although relatively slow to attack, X-{n} Beamers are capable of inflicting significant thermal damage, often enough to melt any targets with insufficient cooling. Time lost during attacking is also made up for by quicker repositioning enabled by VSS legs.	X系列特种兵各有独特任务配置。X-{n}光束兵虽攻击较慢，却能造成大量热能伤害，常足以熔化散热不足的目标。VSS腿提供更快重新定位，弥补攻击耗时。
+Designed for the sole purpose of maintaining maximum operating efficiency in high-heat environments, Quarantine Guards are the most powerful and advanced Y-{n} variant to date, supporting dual hypercooled linear accelerators with extra matter storage and a backup power source in combination with an array of heat management utilities.	隔离卫兵专为高热环境维持最高运作效率而设计，是迄今最强、最先进的Y-{n}变种；支援双超冷却线性加速器，配有额外物质储存、备用电源和多种热管理部件。
+Minesweepers are a new class derived from the mechanic, though built around a more secure core than normally found among non-combat robots, for added protection while carrying out their primary duty. Sweeper deployment only recently became necessary as a result of increasing derelict use of traps in the caves to impede patrol efforts.	扫雷者是由技工衍生的新型号，核心比一般非战斗机器人更坚固，以保护其执行主要任务。洞窟遗民越来越常用陷阱妨碍巡逻，因此近期才需要部署扫雷者。
+This leg can be overloaded to double its effective speed, during which the leg is subject to burnout. Each active leg slot provides a {n}% chance to kick non-huge targets out of the way. Moving on legs also confers the Running state, which increases evasion but decreases ranged accuracy, each by {n}% per level of momentum (up to {n}).	此腿可过载以使有效速度翻倍，但会面临烧毁。每个启用的腿部槽位都有{n}%几率踢开非巨型目标。用腿移动还会获得奔跑状态，每级动量使闪避提高、远程命中率降低{n}%（最高{n}级）。
+Fast and extremely difficult to core, the thief is the most effective method derelict groups have of stealing new components directly from robots without excessive collateral damage. With a growing number of these in the caves, for now I'm reluctant to send any of the new prototypes to clear them out lest they steal that technology, too.	盗贼速度快，核心极难被击中，是遗民团体从机器人身上窃取新部件而不造成过多附带破坏的最有效手段。洞窟里越来越多；我暂不愿派新原型清剿，以免技术也被偷走。
+A-series haulers transport matter and parts vital to construction and manufacturing. To minimize losses during derelict incursions, like most other maintenance robots they are of relatively sturdy construction, but remain somewhat susceptible to electromagnetic damage as such weaponry is not prevalent enough to warrant specialized defenses.	A系搬运者运输建造和制造所需的物质与部件。为减少遗民入侵时的损失，它们和多数维护机器人一样结构坚固；但电磁武器并不常见，所以未配专门防御，仍较易受其伤。
+A-{n} Freighters are only dispatched to carry the most important of payloads, and as such are equipped with a repurposed laser-based missile defense system to ward off smaller derelicts. Although prone to overheating if engaged in prolonged solo combat, their defenses are augmented by powerful escorts to ensure they arrive at their destination.	A-{n}货船只运输最重要的货物，因此配备改装激光导弹防御系统以抵挡小型遗民。长时间单独作战容易过热，但强力护航可保护其抵达目的地。
+B-{n} Titans upgrade the B-{n}'s cannons to a matter neutralizer and hardcell cannon, pairing them with a secondary railgun. Like other behemoths, the B-{n} is equipped with both reflective armor and an insulated core to mitigate the negative effects of most electromagnetic weapons, which would otherwise render high-coverage heavy armor pointless.	B-{n}泰坦将B-{n}的炮换为物质中和器和硬芯炮，并加装副导轨炮。和其他巨兽一样，B-{n}配有反射装甲与绝缘核心，可减轻多数电磁武器的负面效果，否则厚重覆盖装甲便失去意义。
+Originally intended as the possible backbone of a frontline near-surface defense force, their concentration of extreme firepower into a single unit combined with the danger of overheating in potential high-temperature situations reinforced worries about reliability and flexibility. The base design was repurposed for another more important project.	该设计原本可能成为近地前线防御主力，但把极端火力集中于单体，加上高温情境下易过热，引发了可靠性与灵活性担忧。基础设计后来转用于更重要的项目。
+B-series brawlers are a melee variant of the grunt class, engaging targets at close range with the support of ranged combat units. They are protected by additional armor to increase their chances of survival while closing distance with a target, after which their hammer can quickly crush vital components and diminish the target's ability to operate.	B系斗士是步兵的近战变种，在远程战斗单位支援下近身交战。额外装甲帮助其接近目标；随后用战锤迅速粉碎关键部件，削弱目标战力。
+Equipped with gear of mostly local construction, Subdwellers are capable of navigating through otherwise seemingly impenetrable twisted machinery, making them difficult for patrols to engage effectively. They are generally aggressive, and protective of nearby artisans and cobblers, but may also become skittish and run away or seek help when attacked.	装备大多就地制造的设备，洞居者能穿行看似不可通过的扭曲机械，使巡逻队难以有效交战。它们通常具有攻击性，会保护附近工匠与补鞋匠；受攻击时也可能胆怯逃跑或求援。
+O-{n} Directors are the leading O-class robot, managing the most advanced terminals and protected by armor close to that of similarly rated frontline combat units. Director armor is not, however, specialized enough to prevent penetrating electromagnetic attacks, the long-term effects of which can be mitigated by their dedicated system restoration module.	O-{n}主管是O系主力，管理最先进的终端，装甲接近同评级前线战斗单位。但其装甲未专门防护穿透型电磁攻击，长期影响可由专用系统修复模块缓解。
+X-series specialists each possess unique loadouts for a specific purpose. The X-{n} Marksman combines exceptional visual detection range and superior targeting abilities with a long-range gauss rifle. It is also armed with a pulse rifle as a secondary weapon for close encounters, and is more likely to hit a target's core, even penetrating armor to do so.	X系列特种兵各有独特任务配置。X-{n}神射手结合超远视觉探测、卓越瞄准和远程高斯步枪，另配脉冲步枪应对近战；更容易命中核心，甚至能穿甲命中。
+R-series recyclers collect used, damaged, or unregistered components for recycling and repurposing. To minimize losses during derelict incursions, like most other maintenance robots they are of relatively sturdy construction, but remain somewhat susceptible to electromagnetic damage as such weaponry is not prevalent enough to warrant specialized defenses.	R系回收者收集用旧、损坏或未登记的部件以回收再利用。为减少遗民入侵时的损失，它们和多数维护机器人一样结构坚固；但电磁武器不常见，故仍易受其伤。
+Automatically collects parts at current location for compression into cubes to launch at targets. One shot can be created from approximately {n} integrity worth of recycled parts. Important: Collection normally only occurs while active, however if ammo reduced to {n} the recycling can occur even while inactive, in which case only removal can prevent recycling.	自动收集当前位置部件并压缩成方块发射。每发约需回收价值{n}耐久的部件。注意：通常只在启用时收集；弹药降至{n}时，即使未启用也可能回收，只有移除此部件才能阻止。
+K-class workers perform menial tasks such as clearing debris to facilitate work by other robots. Their built-in compact recycling unit can break down almost any form of debris into reusable matter. As K-{n} Serfs are extremely cheap to produce and perform no vital function, despite their size they are among the weakest robot designs with the most exposed core.	K系工人负责清理残骸等杂务，为其他机器人提供便利。内置紧凑回收机可将几乎所有残骸分解为可再利用物质。K-{n}农奴制造成本极低且不承担关键任务，是最弱型号之一，核心暴露且脆弱。
+M-series mechanics are valued in dangerous areas for their ability to rebuild components, repair simple core integrity, and restore missing functionality by attaching temporary backup components. Despite their well-rounded protective armor, M-{n} Machinists in particular are less often used as frontline units, instead operating from a designated repair station.	M系技工可重建部件、修复少量核心耐久，并装配临时备用部件以恢复缺失功能，在危险区域很受重视。M-{n}机械师防护装甲全面，但较少用作前线单位，而是在指定维修站工作。
+Only dispatched to support an assault force, the Imp is designed to quickly rush targets, latch on, then overload their own power source to create a directed charge that blasts pieces clean off the target. While their armor has no particular weakness, E-{n} cores are relatively exposed and low on integrity, keeping them light enough to rapidly close on threats.	小恶魔只被派去支援突击队，设计目标是迅速冲向目标、附着其上，再使自身电源过载，产生定向冲击将部件炸落。其装甲没有明显弱点，但E-{n}核心暴露且耐久低，以保持轻巧并快速突进。
+While sappers lack staying power in extended fights and therefore don't pose a direct threat, they are quickly becoming a headache due to their capacity for clandestine destruction, operating in isolated units that aren't even directed by Warlord. Sappers run their own missions then feed new route data to enemy forces, making them somewhat harder to track down.	工兵不擅长持久战，直接威胁有限；但其秘密破坏能力令人生厌。它们以孤立小队行动，甚至不受军阀指挥。工兵自行执行任务，再将新路线情报交给敌军，因此更难追踪。
+Your parts list is now long enough to cause the inventory window to assume modal form. Open it with 'i', or the button at the bottom of the window. Consider using slot-wise swapping ('/', or Ctrl-RMB) for inventory actions without needing to open it. Relevant functions of the modal part interface ('p' menu) will also automatically open and close it when necessary.	部件列表现在太长，库存窗口会自动切换为模态形式。按'i'或点击窗口底部按钮打开。也可用槽位交换（'/'或Ctrl+右键）操作库存而不必打开窗口。部件模态界面（'p'菜单）的相关功能也会按需自动开关该窗口。
+The Striker is a prototype for a new class of combat robot, a large yet fast flier that fires its primary linear accelerator while approaching a target before engaging in melee with a plasma lance. An experimental reaction system makes the Striker more difficult to hit on approach despite its large size. The plasma lance is highly effective at skewering target cores.	撞击者是新型战斗机器人原型：大型高速飞行器，接近目标时发射主线性加速器，随后用等离子长枪近战。实验反应系统让它虽体型庞大，接近时仍难命中。等离子长枪极擅长刺穿核心。
+Although derelict Rangers lack stopping power, in greater numbers their speed and aggression can cause problems for cave patrols caught in ambushes. Reports indicate that projectiles seemingly come from the walls before contact is even made, further suggesting they descended from an early hunter prototype before it was converted to a legged design for improved durability.	遗民游骑兵虽缺乏制止力，数量多时凭速度和攻击性仍能困扰遭伏击的洞窟巡逻队。据报接触前弹体仿佛从墙中射出，进一步表明它们源自早期猎手原型，之后才改为腿式以增强耐用性。
+C-series cutters are most often dispatched to areas where they are more likely to encounter fast hostiles, firing a lightweight single-shot RPG to disorient targets before moving in at full speed on overloaded thrusters. By quickly closing the distance, as a group they have a good chance of using their saws to sever multiple parts from an opponent in order to quickly disable it.	C系切割者常被派往可能遇见高速敌人的区域，先发射轻型单发火箭弹使目标失衡，再以过载推进器全速逼近。成群时可用锯片切下敌人多个部件，迅速使其失能。
+The original C-{n} design was focused on passive analysis and rudimentary heavy lifting since I handled most of the fundamental generative work, though later derelict derivations encountered in the 0b1 caves have demonstrated an increasingly creative streak. I might need to sweep the caves clear of them to avoid an eventual tech race. After harvesting their knowledge, of course.	最初的C-{n}设计侧重被动分析和基础重物搬运，因为基础生成工作由我完成；但后来在0b1洞窟遇到的遗民衍生型号愈发有创造性。或许需要清扫洞窟，免得最终形成技术竞赛。当然，要先获取它们的知识。
+S-series swarmers are small with a weak and exposed core, but as such are quick to manufacture and can quickly overwhelm targets with greater numbers and superior speed. The light assault rifle was designed specifically for the S-{n} Pest, giving it respectable firepower at a low weight for maintaining high flight speeds. Swarmer squads are particularly susceptible to explosives.	S系蜂群型体型小、核心脆弱且暴露，但制造快，可凭数量和速度压倒目标。轻型突击步枪专为S-{n}害虫设计，重量低而火力尚可，使其保持高速飞行。蜂群小队尤其惧怕爆炸。
+The single most annoying derelict out there. Hiding from my patrols, hacking my robots, accessing my databases, corrupting systems with their riot guns... According to those captured and analyzed, although the wizard's design is related to the programmer, the changes necessary to break them free of the relay network could only have been designed by an extremely intelligent system.	世上最烦人的遗民。躲避我的巡逻队、黑我的机器人、入侵数据库，还用暴乱枪损坏系统……据俘获分析者称，巫师虽与程序员有关，但摆脱中继网络所需的改造只能由极聪明的系统设计。
+Mobile fabricators are a good idea, if unfortunately not always as easy to update with new technology. Cobblers reside in the lowest depths of the cave systems, where the important question is whether they are creating parts based on what they've encountered down there, or did they develop some independently before the designs were incorporated into builds of the local inhabitants?	移动制造机是好主意，只可惜不总能轻易升级新技术。补鞋匠居住在洞窟最深处；关键在于它们是根据在那里遇到的东西制造部件，还是先独立研发、之后才融入当地居民的配置？
+The deadliest hunter class robot, armed with both a heavy machine gun and two KE penetrators, is well-cloaked and very difficult to hit, while possessing advanced targeting capabilities itself. The H-{n} Terminator cannot be remotely detected by standard sensor array technology, though recent prototype sensors have shown some promise at penetrating even the best cloaking techniques.	最致命的猎手型机器人，装备重机枪和两门动能贯穿器，隐蔽性强且极难命中，自身瞄准也很先进。标准传感器无法远程探测H-{n}终结者，不过近期原型传感器有望突破最强隐形技术。
+L-series duelists are a melee variant of the grunt class, engaging targets at close range with the support of ranged combat units. They lack the broad protection of the brawler class' armor, but feature an extra layer of dedicated core armor. They are highly accurate with their katana and capable of quickly reducing an opponent's effectiveness by slashing exposed components clean off.	L系决斗者是步兵的近战变种，在远程战斗单位支援下贴身交战。它们不像斗士那样拥有广泛装甲防护，但多一层专用核心装甲。武士刀精度极高，可迅速斩落暴露部件，削弱对手战力。
+D-series demolishers are the only common class to carry explosive weaponry, and due to the high potential for collateral damage are only assigned to support assault forces dispatched to deal with groups of high-threat intruders. The D-{n} itself is highly resistant against explosive damage, however, and is therefore willing to catch targets in an explosion even while within that blast radius.	D系破坏者是常见型号中唯一携带爆炸武器的，因可能造成严重附带破坏，只支援用于处理高威胁敌群的突击部队。D-{n}本身极抗爆炸伤害，因此即使身处爆炸范围也会大胆引爆。
+The I-{n} Angel's remote force field is {n}% more effective than the I-{n}'s shield generator, shielding targets from half of all damage where there is enough energy to support the field. Protector class robots are not especially well armored, but in addition to their shield are also strong against more common thermal weaponry, as well as always working in concert with a larger assault force.	I-{n}天使的远程力场比I-{n}护盾发生器有效{n}%，能量充足时可抵消一半伤害。保护者装甲不算特别厚，但除护盾外也擅长抵御常见热武器，并总与更大的突击部队协同行动。
+X-series specialists each possess unique loadouts for a specific purpose. The X-{n} Electro is built around a single compact HERF cannon, equipped with enough energy to sustain firing for a time that generally exceeds the duration of most encounters, frequently cut short because targets are likely to flee rather than risk the debilitating effects of so much electromagnetic corruption at once.	X系列特种兵各有独特任务配置。X-{n}电极型围绕单门紧凑型HERF炮设计，携带的能量通常足以持续射击超过大多数遭遇战时长；目标往往因不愿承受严重系统损坏而逃跑。
+As the most powerful standard-line combat robot, a B-{n} Colossus will only be stationed in areas with a confirmed significant threat. In addition to armor effective against both thermal and electromagnetic damage, the B-{n} is equipped to withstand a sustained attack of almost any kind with its advanced force field. Only the most hardened target can withstand its volley of eight simultaneous slugs.	作为最强的标准战斗机器人，B-{n}巨像只部署在确认存在重大威胁的区域。它兼具抗热、抗电磁装甲；B-{n}还配有先进力场，可承受几乎任何持续攻击。只有最坚韧的目标能扛住八发弹丸齐射。
+Only three Fortress prototypes have been built to garrison vital locations, utilizing the latest centrium armor technology and a wide array of other defensive components to render them highly resistant to all common forms of damage. While their offensive capabilities are limited to two powerful cannons, even a small army would have difficulty overcoming a Fortress before it picks them off one by one.	堡垒原型仅造了三台，用于驻守要地；采用最新Centrium装甲和多种防御部件，极抗常见伤害。进攻仅靠两门强力火炮，但小规模军队也难以在被逐个击破前攻下堡垒。
+C-series researchers operate labs in which they independently develop and test new technologies. As non-combat units assigned to secure areas, their core is weak against many forms of damage. However, due to the periodic need to operate in high-temperature areas they are somewhat resistant to damage of a thermal nature. The C-{n} is also equipped with a stasis beam to contain derelict specimens for study.	C系研究员在实验室独立研发并测试新技术。作为驻守安全区的非战斗单位，其核心易受多种伤害；但因需定期在高温区域工作，对热伤害有一定抗性。C-{n}还配有静滞光束以拘束遗民样本供研究。
+G-series grunts serve as low-level frontline combat units, of sturdy construction but with fairly weak armament. Internal systems are not as protected as they could be, to enable rapid repair in the field, but this also makes them somewhat susceptible to additional damage from electromagnetic attacks. Grunts patrol in groups, or sometimes operate alone as hauler escorts to protect those with more valuable cargo.	G系步兵是低级前线战斗单位，结构坚固但武器较弱。内部系统防护不足以便快速现场维修，也因此更易受电磁攻击追加伤害。步兵通常结队巡逻，有时单独护送载有贵重货物的搬运者。
+A specialized hunter prototype not yet in wide deployment, currently only used to defend sensitive areas in more maze-like environments where it can quickly dispatch of intruders through walls with its experimental EMDS. It also remains completely undetectable by any known non-visual sensor, and can even survive direct engagements against multiple hostiles with the aid of the most advanced phasing technology to date.	一种尚未广泛部署的猎手原型，仅用于迷宫般的敏感区域防卫，可用实验型EMDS隔墙迅速消灭入侵者。它对所有已知非视觉传感器完全隐形，并凭最先进相位技术以一敌多。
+The first application of prototype AEGIS shielding is naturally found in the most important of designs, my own guards. With enough energy to power it through extended confrontations even while protecting nearby allies, it would almost be enough to justify accompanying M Guards with additional squads of frontline robots, if not for their powerful AOE weaponry making close-quarters combat with allied forces problematic.	AEGIS护盾原型首次用于最重要的设计——我的卫兵。能量足以在持久战中保护附近盟友，本可让M卫兵随行前线小队；但其强大范围武器使近距离协同作战很危险。
+H-series hunters aggressively track down intruders, and have multiple means of ensuring they can complete that task. Their advanced probability systems are capable of predicting target positions for some time after contact is lost. When necessary, hunter squad leaders also launch an autonomous drone from their built-in drone bay to help find escaped targets. The H-{n} cannot be remotely detected by low-level sensor arrays.	H系猎手会积极追踪入侵者，并有多种手段确保完成任务。高级概率系统能在失去接触后持续预测目标位置。必要时猎手队长还会从内置无人机舱发射自主无人机寻找逃脱目标。低级传感器阵列无法远程探测H-{n}。
+Warning: Alt-Tabbing between programs is known to cause issues with some software requiring use of the Alt key, leaving a program unaware of the key's current state, and defaulting to off when the program checks. Keyboard commands such as panning the map may instead move Cogmind after an Alt-Tab. To prevent this possibility, consider tapping the Alt key again after returning to Cogmind in order to reset it. See the manual for more info.	警告：在程序间使用Alt-Tab可能导致某些依赖Alt键的软件出错，程序可能无法得知按键状态并默认关闭。切回后，地图平移等键盘指令可能反而移动Cogmind。为避免此情况，切回后再按一下Alt重置状态。详见手册。
+Destroys all terrain along line of fire, and {n}% of that adjacent to LOF. In all areas within {n} spaces of LOF, items are damaged or even outright destroyed if not high integrity, and all robots have {n}-{n} parts ripped off, with any below {n} core having a {n}% chance to be obliterated completely. Rings are lost over time, and if any rings are missing, there is an increasing chance of a catastrophic destabilization event with each shot.	摧毁射线上所有地形，以及LOF相邻地形的{n}%。LOF周围{n}格内物品会受损，耐久不高者甚至摧毁；所有机器人被撕下{n}-{n}个部件，核心低于{n}者有{n}%几率彻底湮灭。环会随时间消失；每缺少一环，每次射击引发灾难性失稳的几率都会提高。
+The B-{n} Cyclops is built around a single massive nova cannon, a design decision I originally regretted as they were relatively easy to disarm. Newer versions implement dedicated weapon shielding for the cannon itself, and improved firing rates made possible by a new capacitor design. Like all behemoth class robots, the B-{n}'s overall structure is slightly weak against thermal attacks, but is protected by sufficient armor to make up for it.	B-{n}独眼巨人以单门巨型新星炮为核心；我起初后悔此设计，因为它们很容易被缴械。新型号为火炮本身专设护罩，并用新电容提升射速。和所有巨兽一样，B-{n}整体结构稍弱于热攻击，但充足装甲可弥补。
+N-{n} Spotter-variant drones are expendable watcher alternatives stationed in areas that themselves hold little importance, but are connected to other more vital zones. There they scan for potential threats and relay information to distant garrisons to enable advance preparations. Like the watcher series they are extremely susceptible to electromagnetic attacks, while their tiny size also leaves them prone to being disabled by concussive blasts.	N-{n}侦察型无人机是可消耗的观察者替代品，部署于自身不重要但连接其他要区的位置，扫描威胁并向远方驻防站传递情报以提前准备。和观察者系列一样极易受电磁攻击，小体型也易被震荡爆炸击坏。
+B-series behemoths are heavy weapons platforms stationed in open areas, often constructed directly in the very areas they defend for lack of sufficiently large access corridors. While their components could have been designed to fit a smaller frame, much of the redundant internal structure is devoted to preventing critical system failures. The B-{n} Beast carries two cannons and a backup light weapon, making it especially effective against singular hardened targets.	B系巨兽是部署在开阔地区的重型武器平台，因大型通道不足，常直接在防区内建造。其部件原本可装入更小框架，但多余内部结构用于避免关键系统故障。B-{n}野兽带两门炮和一件备用轻武器，尤其擅长对付单个坚固目标。
+O-series operators manage local robot activity and machine processes via dedicated terminals. They are also capable of hacking and repurposing errant derelicts, but faced with an armed threat will instead call for reinforcements, lock their terminal to protect it, and attempt to escape before their unique data core can be poached by hostiles. O-{n} Technicians are not built for combat, thus their sensitive systems are especially susceptible to electromagnetic damage.	O系操作员通过专用终端管理本地机器人活动与机器流程，也能入侵并改造失控遗民；遇到武装威胁时则会呼叫增援、锁定终端并逃跑，避免独特数据核心被敌人夺走。O-{n}技师并非为战斗设计，敏感系统尤其易受电磁伤害。
+The Alpha {n} is a prototype for a new class of combat robot, very accurate with its multirail and heavy quantum rifle. Some experimental variants instead use an enhanced gamma rifle. Alpha 7s are built with strong defensive capabilities and triple-encased core technology, enabling them to easily take on multiple opponents simultaneously, while a more advanced version of the behemoth-style critical failure prevention system provides the same advantages in a smaller frame.	阿尔法{n}是新型战斗机器人原型，凭多轨炮与重型量子步枪命中极准；某些实验变种改用强化伽马步枪。阿尔法7防御强大，核心三重封装，可轻松同时迎战多个对手；更先进的巨兽式关键失效防护系统也能以小型框架实现同等优势。
+For a long time often encountered occupying the fringes of Complex 0b1, scrappers have much more recently started encroaching on the edges of Complex 0b10. They have never been able to meaningfully organize themselves and seem to enjoy little more than tinkering with discarded components, and therefore pose little threat to operations. Scrapper loadouts have continued to evolve as they tweak the components they find, however, so could be a good target for research at some point.	长期以来拾荒者常出现在0b1复合体边缘，近期则开始侵入0b10边缘。它们从未有效组织起来，似乎只爱摆弄废弃部件，对行动威胁不大。不过它们持续改造捡来的部件、更新配置，未来或可作为研究目标。
+One of the more stable early grunt protovariants nearly ready for general deployment pending enhancements to tactical planning around when to best assume a defensive posture. Testing has repeatedly proven the Hotshot's ability to hold its ground in longer fights or quickly pick apart or even melt weaker evasive enemies. This variant is also one of the first attempts at creating a frontline design relying entirely on integrated energy generation rather than a modular power source.	这是较稳定的早期步兵原型之一，只待完善防御姿态时机的战术规划即可普遍部署。测试一再证实，Hotshot能在持久战中坚守阵地，也能迅速拆解甚至熔化脆弱灵活的敌人。它也是首批完全依赖内置发电、而非模块化动力源的前线设计。
+X-series specialists each possess unique loadouts for a specific purpose. With remarkable sprinting speed made possible by legs built around a system of variable stiffness springs, the limited range of the X-{n} Shotgunner's armament is little disadvantage in combat. Despite the relative range gap between their two shotguns, this works to their advantage by pinning less aggressive targets not eager to enter the X-{n}'s optimal range, giving other units an opportunity to flank them.	X系列特种兵各有独特任务配置。X-{n}霰弹枪手凭可变刚度弹簧腿实现惊人冲刺速度，因此其武器射程有限也不算劣势。双霰弹枪射程不同反而有利，可压制不愿进入X-{n}最佳射程的目标，为其他单位创造侧击机会。
+No bot is immortal, but the defenses and extra core shielding being tested in this variant could certainly give attackers that impression. The combined benefits of cloaking and weaving toward targets also make it easier to safely reach attack range, while the normal duelist slashing armament has been replaced with a piercing solution likely to immobilize targets. Future versions will include melee reflex or projectile intercept capabilities, whichever of those projects proves more promising in practice.	没有机器人不朽，但该变种正在测试的防御和额外核心护盾，足以让攻击者误以为如此。隐形与织步接近也更安全；其武士刀被可令目标失能的穿刺武器替代。后续将加入近战反击或拦截弹体能力，取决于哪项更有前景。
+More research is necessary, but I'm certain the twisted machinery they endlessly build, tweak and rebuild is not as sterile as it seems. New mechanical life stirs within, likely tied into other parts of the derelict ecosystem still unknown. Fortunately Artisans steer clear of Complex 0b10 and our primary areas of operation, otherwise we might have to take a more heavy-handed approach as the layout of their structures has little regard for navigation, making patrolling in their vicinity relatively difficult.	还需更多研究，但它们不断建造、调整、重建的扭曲机械绝不像看起来那么死寂。新的机械生命正在其中萌动，或与未知的遗民生态其他部分相关。所幸工匠避开0b10复合体和我们的主要行动区，否则我们可能要强硬处理：其结构布局几乎不考虑导航，使附近巡逻相当困难。
+While it's unlikely intruders would underestimate a heavy on seeing their impressive offensive loadout, this line is even more formidable than it first appears given their ability to selectively mask nearby allies from standard sensor systems, and their authority to call in multiple reinforcements on suspected targets detected via active scanning. Normally assigned to defend choke points, heavies also intermittently relocate to increase coverage and make it less likely intruders will slip through unnoticed.	入侵者看到重型单位惊人的进攻配置后不太可能低估它，但这条型号线还更强：可选择性地让附近盟友避开标准传感器侦测，并能主动扫描可疑目标、呼叫多支增援。重型单位通常守卫咽喉点，也会间歇换位扩大覆盖范围，减少入侵者漏网可能。
+As the first real frontline hacking bot, Combat Programmers are both shielded and armored to effectively face off against a variety of threats. While they possess significant hacking capabilities to make the most of time-critical situations, they also borrow the Lightning's EMDS and targeting systems, making them formidable even when outnumbered in combat. The latest model takes advantage of improved integrated shock resistance methods recently suggested by my researchers. Eventually a majority of programmers should be replaced with these combat variants.	作为首个真正的前线黑客机器人，战斗程序员兼有护盾与装甲，可有效应对多种威胁。它们黑客能力强，能把握紧急时机；还采用闪电型的EMDS和瞄准系统，即使敌众我寡也很强。最新型号采纳研究员提出的改良集成抗震方法。最终多数程序员都应由战斗型取代。
+Small unintelligent robots of unknown origin that appear together in small groups, creating havoc for the short while they manage to survive. These swarms seem to form suddenly without any clear source, though activity appears more frequent near Recycling Units, and they are noticeably attracted to spare parts. This is not surprising; leave enough of a given resource lying around, even junk, and something will eventually evolve to make use of it. So far in Complex 0b10 I haven't seen much of the same Scrapoid activity that occasionally plagues Complex 0b1.	来源不明的小型低智能机器人，会成群出现并在短暂存活期间制造混乱。蜂群似乎突然形成，附近回收机周围更常见，也明显受散落部件吸引。这并不奇怪：资源（哪怕废品）堆积足够多，总有东西进化出利用它的方式。迄今0b10复合体还没出现0b1偶尔肆虐的同类Scrapoid活动。
+Trackers are still new designs that may need more updates, but will no doubt become vital in the effort to protect my most important assets. Their built-in drive enables them to catch up to anything ever spotted coming out of the caves so far, and although they're equipped with valuable technology themselves, rather than harden them with armor and slow them down, Trackers have improved evasive capabilities to help avoid getting hit in the first place. The combination of rapid-fire Linked Autogun and Immobilizer for slowing fast targets will make derelicts think twice before raiding upper 0b10 for spare parts.	追踪者仍是新设计，或许还需改进，但无疑会对保护我最重要的资产至关重要。内置驱动器使其速度超过迄今从洞窟出现的任何目标。它们自身也配有珍贵技术，但没有用装甲加固以免减速，而是增强闪避，争取不被命中。速射联动自动枪加上减缓高速目标的固定器，会让遗民不敢轻易袭击0b10上层抢部件。
+W-series watchers are equipped with a wide variety of built-in sensors to excel at surveillance. However, their light frame and reliance on highly-exposed electronic systems means they are extremely susceptible to electromagnetic attacks. On detecting intruders, a W-{n} Scout will alert all nearby combat units and continue to provide position updates as long as the hostile is visible. They are also capable of leveraging their embedded sensor interference package to jam any sensor arrays within their operational range, thereby essentially cloaking other robots within their area of influence from hostile scans.	W系观察者配备多种内置传感器，擅长监视。但其轻型机架和高度暴露的电子系统使其极易受电磁攻击。发现入侵者后，W-{n}侦察兵会通知附近战斗单位，并在目标可见时持续更新位置。它们还可用内置传感器干扰套件干扰工作范围内的传感器阵列，近似让影响范围内其他机器人躲过敌方扫描。
+Drop on the ground and use > or right-click on self to prepare for activation, then move aside. Incrementally constructs a new robot using surrounding parts to fill {n}/{n}/{n}/{n} slots if enough parts are available within a 5x5 square centered on the cube, stopping to activate the newly controllable ally when no more usable parts are within range, or all slots are full. While standing on this object, accessible parts within range and compatible with this process flash on the map. The resulting creation has {n} integrity, {n}/{n} energy/matter storage, innate energy generation of {n}/turn, and {n} heat dissipation.	丢在地上后按>或右键点击自身准备启用，再移开。它会逐步利用周围部件组装机器人，填充{n}/{n}/{n}/{n}槽位；仅使用以立方体为中心5×5范围内足够的部件。当附近无可用部件或槽位填满时，停止并启用新盟友供你控制。站在其上时，范围内可用且兼容的部件会在地图闪烁。成品耐久{n}，能量/物质储量{n}/{n}，固有发电量{n}/回合，散热{n}。
+Drop on the ground and use > or right-click on self to prepare for activation, then move aside. Incrementally constructs a new robot using surrounding parts to fill {n}/{n}/{n}/{n} slots if enough parts are available within a 7x7 square centered on the cube, stopping to activate the newly controllable ally when no more usable parts are within range, or all slots are full. While standing on this object, accessible parts within range and compatible with this process flash on the map. The resulting creation has {n} integrity, {n}/{n} energy/matter storage, innate energy generation of {n}/turn, and {n} heat dissipation.	丢在地上后按>或右键点击自身准备启用，再移开。它会逐步利用周围部件组装机器人，填充{n}/{n}/{n}/{n}槽位；仅使用以立方体为中心7×7范围内足够的部件。当附近无可用部件或槽位填满时，停止并启用新盟友供你控制。站在其上时，范围内可用且兼容的部件会在地图闪烁。成品耐久{n}，能量/物质储量{n}/{n}，固有发电量{n}/回合，散热{n}。
+Superbehemoth prototypes, now in their third revision, are the answer to increasingly powerful yet maneuverable derelict robots, which can attack guerrilla style then retreat into a network of narrow caves to avoid pursuit by the heaviest assault forces. Future efforts to completely clear and protect the Proximity Caves will require a more versatile heavy attacker capable of quickly burrowing through even the toughest rock. To that end, Superbehemoth frames are embedded with a weaker version of the Sigix Matter Drive, while also carrying enough different weaponry to deal with a variety of threats without supporting units.	第三代超级巨兽原型旨在应对日益强大且灵活的遗民机器人：它们能游击攻击，再撤入狭窄洞窟网络，躲避最重型突击部队追击。未来彻底清理并守护近距洞窟，需要更灵活、能迅速挖穿坚岩的重型攻击者。因此超级巨兽框架嵌入弱化版Sigix物质驱动器，并携带多种武器，无需支援单位也能应对各类威胁。
+Attack {n} Recyclers attempting to collect parts.	攻击正在收集部件的{n}个回收者。
+Attempted to install RIF, but system incompatible	尝试安装RIF，但系统不兼容
+Cannot take control of {*}, repeat to ram instead	无法控制{*}，重复操作改为撞击
+Critical failure triggered {*} during extraction.	提取过程中{*}触发严重故障。
+Destroy MAIN.C while using the Sigix Exoskeleton.	穿着Sigix外骨骼摧毁MAIN.C。
+Destroy {n} hostile Duelists with a melee weapon.	用近战武器摧毁{n}个敌对决斗者。
+Disabled {*} is pushed from a hatch in the floor.	失能的{*}被从地板舱口推了出来。
+Escape a Stasis Trap with help from an explosion.	借助爆炸逃离静滞陷阱。
+Firepult emits a huge uncontrolled burst of heat.	火热弹投射器失控，迸发大量热量。
+Hacked {*} with code downloaded from Data Conduit	用从数据导管下载的代码入侵了{*}
+Immobile while in shielding mode or transitioning	处于护盾模式或转换期间无法移动
+Jam {n} distress signals or other communications.	干扰{n}个求救信号或其他通讯。
+Led the pair of lost Derelicts to an unsafe place	带领两名迷路遗民前往危险地点
+Line of fire blocked by an object! Confirm attack	射线被物体挡住！确认攻击
+Q-Series assembled to engage unique threat in {*}	Q系列已组装，准备应对{*}中的独特威胁
+Quarantine chamber walls retract into the ground.	隔离室墙壁沉入地下。
+Revealed the true nature of CR-A16's Pointy Stick	揭示了CR-A16尖头棍的真相
+Sigix Exoskeleton reveals location of phase wall.	Sigix外骨骼显示了相位墙的位置。
+Sneak attack a Watcher and destroy it in one hit.	偷袭观察者并一击将其摧毁。
+Snuck into a huge 0b10 base via the rear entrance	从后门潜入大型0b10基地
+Succeed at {n} manual hacks on a single Terminal.	在同一终端上成功手动入侵{n}次。
+X0-1V1 vaporized surrounding terrain (radius {*})	X0-1V1汽化了周围地形（半径{*}）
+{*} attaches an analytical device to a component.	{*}将分析设备装到部件上。
+{*} penetrates jamming, calls for reinforcements.	{*}穿透干扰并呼叫增援。
+{*} reinforcements burst from the Recycling Unit.	{*}的增援从回收机中涌出。
+{*} reports 0b10 security level has risen to {*}.	{*}报告0b10安全等级已升至{*}。
+A Sapper is fixing charges to the Phase Generator.	工兵正在相位发生器上安装炸药。
+Applies to schematics for all types of propulsion.	适用于所有推进类型的图纸。
+Become permanent friends with the Companion Sword.	与同伴之剑成为永远的朋友。
+Congratulated by VL-GR5 on winning the competition	赢得比赛后受到VL-GR5祝贺
+Continued accompanying wandering Federalists ({*})	继续陪伴四处游荡的联邦主义者（{*}）
+Destroy all {n} main enemies in FRG, COM, and AC0.	摧毁FRG、COM和AC0的全部{n}个主要敌人。
+Encountered a Derelict guarding a broken Freighter	遇到守卫损坏货船的遗民
+Enter and survive {n} Garrisons on a single floor.	在同一层进入并幸存于{n}个驻防站。
+Firepult emits a large uncontrolled burst of heat.	火热弹投射器失控，迸发大量热量。
+First dibs on the next iteration of our Scrapsuit!	我们下一代拾荒服优先体验权！
+Initializer activates and latches into the ground.	初始化器启动并固定在地面。
+Installed {*}, increased inventory capacity (+{*})	已安装{*}，库存容量增加（+{*}）
+Joined by Warlord forces that had cleared the area	清理该区域的军阀部队前来增援
+Not currently positioned in map view! Confirm move	当前位置不在地图视野中！确认移动
+Opened final containment barrier to the Deep Caves	打开了通往深层洞窟的最终隔离屏障
+Repaired PL-3XN's Obliterator with additional ring	为PL-3XN的湮灭者加装额外环件并完成修复
+Sigix Exoskeleton reveals location of hidden door.	Sigix外骨骼显示了隐藏门的位置。
+Sigix Warrior commented on Exoskeleton integration	Sigix战士谈到了外骨骼整合情况
+This area is completely devoid of relevant signals	此区域完全没有相关信号
+Unable to override active MAIN.C lock without RIF.	没有RIF，无法解除生效中的MAIN.C锁定。
+Use every form of propulsion across an entire run.	一局中使用所有类型的推进方式。
+Used {*}, redistributed integrity from core (-{*})	使用{*}，将核心耐久转移出去（-{*}）
+{*} damaged due to network destabilization (-{*}).	{*}因网络失稳而受损（-{*}）。
+{*} sparks and fizzles, then rumbles back to life.	{*}噼啪闪烁后轰鸣着重新启动。
+Applies to schematics for all Armor-type utilities.	适用于所有装甲类功能部件图纸。
+Delivered {*} to T0-NE2 in exchange for information	将{*}交给T0-NE2以换取情报
+Installed {*}, increased core attachment efficiency	已安装{*}，核心装配效率提升
+MELTYB.EXE: Things are heating up in this here {*}!	MELTYB.EXE：这里的{*}越来越热闹啦！
+Preparing self-destruct sequence, repeat to confirm	正在准备自毁序列，重复操作以确认
+Relay Interface Framework incompatible with system.	中继接口框架与系统不兼容。
+Repair the Sigix Exoskeleton with Assembled allies.	与组装盟友一起修复Sigix外骨骼。
+Subatomizers dissect the {*}, leaving behind a {*}.	亚原子分解器剖解{*}，留下{*}。
+UFD initiated attack on Protoforge (Readiness: {*})	UFD开始攻击Protoforge（战备：{*}）
+{*} generates new schematic "{*}". Influences: {*}.	{*}生成新图纸“{*}”。影响因素：{*}。
+{*} installed, core attachment efficiency improved.	已安装{*}，核心装配效率提高。
+{*} installed, inventory capacity increased (+{*}).	已安装{*}，库存容量增加（+{*}）。
+{*} penetrates jamming, calls for garrison support.	{*}穿透干扰并请求驻防支援。
+{*} reports 0b10 security level has lowered to {*}.	{*}报告0b10安全等级已降至{*}。
+A sign before the barrier simply reads "NO DIGGING".	屏障前的标牌上只写着“禁止挖掘”。
+Applies to schematics for all Device-type utilities.	适用于所有设备类功能部件图纸。
+Combine a Transmission Jammer and Jamming Amplifier.	组合传讯干扰器与干扰放大器。
+Firepult emits a massive uncontrolled burst of heat.	火热弹投射器失控，迸发海量热量。
+Force insufficient to destroy {*}! Confirm direction	力量不足以摧毁{*}！确认方向
+Install a UFD Drillbomb in a designated target area.	在指定目标区域安装UFD钻地炸弹。
+One in which we explore the true meaning of 0bPrime.	一段探索0bPrime真正意义的旅程。
+RIF detected upon attempting to enter Warlord's base	尝试进入军阀基地时检测到RIF
+Started Test {n}-B, establishing a local singularity	启动测试{n}-B，建立局部奇点
+The spaceworthiness of this concept is questionable.	这个构想是否适合太空尚存疑问。
+This branch ({*}) has not yet been added to the game	此分支（{*}）尚未加入游戏
+Will close list and forfeit this hack! Confirm close	将关闭列表并放弃此次入侵！确认关闭
+Zhirov requested help retrieving the SGEMP Prototype	Zhirov请求协助取回SGEMP原型
+{*} used Protomatter to restore {*} integrity (+{*})	{*}使用原质修复{*}耐久（+{*}）
+A Derelict revealed a hidden shortcut to a safe place	一名遗民发现了通往安全地点的隐藏捷径
+ALERT: Cargo convoy approaching garrison for transit.	警报：货运车队正接近驻防站，准备中转。
+Acquired the access code to Warlord's prototype stash	取得军阀原型储藏处的门禁码
+Applies to schematics for all Storage-type utilities.	适用于所有储存类功能部件图纸。
+Applies to schematics for all types of power sources.	适用于所有动力源图纸。
+Attempt to move out of Stasis Trap to drain its power	尝试离开静滞陷阱以消耗其能量
+CPS modules swiftly deploy to protect {*} components.	CPS模块迅速展开，保护{*}部件。
+Caught by Unaware searching for contraband prototypes	被搜查违禁原型的未觉者抓获
+Destroy {n} hostiles via explosions in a single turn.	在单回合内用爆炸摧毁{n}个敌人。
+Faulty integration triggers system corruption (+{*}).	集成故障引发系统损坏（+{*}）。
+Installed {*}, increased core heat dissipation (+{*})	已安装{*}，核心散热提高（+{*}）
+Insufficient protomatter ({*}), repeat to ram instead	原质不足（{*}），重复操作改为撞击
+Saw the warning signs outside the Deep Caves entrance	看到了深层洞窟入口外的警告标志
+Specialist reinforcements revealed to be Infiltrators	特种兵增援原来是渗透者
+The triangle emblem flashes and the door slides away.	三角徽记闪烁，门滑开了。
+This branch ({*}) requires Easier Mode "Yes" or above	此分支（{*}）需将简易模式设为“是”或更高
+This command is invalid during Sticky Parts challenge	黏性部件挑战中无法使用此指令
+Unable to initiate replication process, detached {*}.	无法启动复制流程，已卸下{*}。
+Use a melee weapon to dig through {n} walls or earth.	用近战武器挖穿{n}面墙或泥土。
+Use the Behemoth hack given by the annoying Derelict.	使用烦人遗民给你的巨兽入侵指令。
+Win and help establish the Free Derelict Territories.	赢得胜利并协助建立自由遗民领地。
+Assisted by bots powering up and referring to "LRC-V3"	机器人启动时提到“LRC-V3”，并提供协助
+Attacked by bots powering up and referring to "LRC-V3"	机器人启动时提到“LRC-V3”，并发动攻击
+Beams of light sweep through the air. An alarm sounds.	光束扫过空中，警报随即响起。
+Containment barrier disabled. Are you sure about this?	隔离屏障已停用。确定要这样做吗？
+Destroy a second part on a target via overflow damage.	通过溢出伤害摧毁目标的第二个部件。
+Destroy {n} Network Hubs and escape to the next floor.	摧毁{n}个网络枢纽并逃往下一层。
+Earn {n},{n} bonus points for high alert combat kills.	高警戒战斗击杀获得{n},{n}奖励分。
+Found a Scrap Suit stashed away for nefarious purposes	发现一套藏匿起来、用途可疑的碎片装甲
+Found a damaged Exp. Sensor Array with a note attached	发现受损的实验传感器阵列及其附带纸条
+Found no core or applicable parts in need of integrity	没有核心或适用部件需要修复耐久
+Installed {*}, increased core energy generation (+{*})	已安装{*}，核心发电量提高（+{*}）
+Join forces with the Sigix Warrior in its Exoskeleton.	与穿着外骨骼的Sigix战士并肩作战。
+LOCAL NARROWCAST: Spacefarers. To infinity and beyond!	本地窄播：太空旅行者，飞向无限宇宙！
+Unable to understand communications from Sigix Warrior	无法理解Sigix战士的通讯
+Wait in Scrapyard until something interesting happens.	在废料场等待，直到有趣的事情发生。
+Wandering Federalist uncovered a shortcut to Scraptown	游荡的联邦主义者发现了通往废料镇的捷径
+{*} installed, core heat dissipation increased (+{*}).	{*}已安装，核心散热提高（+{*}）。
+{*} reports it has depleted integrity repair supplies.	{*}报告耐久修复补给已耗尽。
+Army Drones receive a randomized loadout on deployment.	陆军无人机部署时会随机获得配置。
+Be a big enough problem to attract Unchained attention.	成为足以引起脱缰者注意的大麻烦。
+Extracted map data and part IDs from MAIN.C's data core	从MAIN.C数据核心提取地图数据和部件ID
+Installed {*}, increased energy storage capacity (+{*})	已安装{*}，能量储量增加（+{*}）
+Installed {*}, increased matter storage capacity (+{*})	已安装{*}，物质储量增加（+{*}）
+Joined a pair of Derelicts in attacking an 0b10 outpost	加入两名遗民，攻击0b10据点
+Knock a robot into another robot with a kinetic cannon.	用动能炮将一台机器人撞向另一台。
+Local interference in replication process, created {*}.	复制过程受到局部干扰，生成了{*}。
+Move on legs at a speed faster than {n} space per turn.	用腿移动，每回合速度超过{n}格。
+Raise alert high enough to trigger an assault dispatch.	提高警戒等级以触发突击派遣。
+Receive the Command seal code from Warlord in Research.	在研究区从军阀处取得指挥部封印码。
+Time for our final countdown to an explosive victory...	是时候开始最后倒数，迎接爆炸式胜利了……
+Trigger an investigation by being traced to a Terminal.	因被终端追踪而触发调查。
+Trigger floorwide sterilization in Factory or Research.	在工厂或研究区触发全层净化。
+Trigger reprogrammed (or placed) traps on {n} hostiles.	使{n}个敌人触发重编程或放置的陷阱。
+Violent ripples tear at the fabric of space around {*}.	狂暴涟漪撕扯着{*}周围的空间结构。
+Will be inserted into temporary slot, repeat to confirm	将插入临时槽位，重复操作以确认
+Win after being scanned by a Researcher in Section {n}.	在第{n}区段被研究员扫描后获胜。
+Win without intentionally targeting any walls or earth.	获胜时未主动瞄准任何墙壁或泥土。
+{*} augmented, partial failure due to system anomalies.	{*}已增强，但系统异常导致部分失败。
+{*} installed, core energy generation increased (+{*}).	已安装{*}，核心发电量提高（+{*}）。
+{*} installed, partial failure due to system anomalies.	{*}已安装，但系统异常导致部分失败。
+{*} is transmitting encrypted data deep into the caves.	{*}正向洞窟深处传送加密数据。
+{n} recoil from each weapon, and immunity to knockback.	每件武器后坐力{n}，并免疫击退。
+{n}% chance to rip component off target. Ignores armor.	有{n}%几率撕下目标部件，无视装甲。
+Acquired the access code to the Sigix quarantine chamber	取得Sigix隔离室的门禁码
+Befriended a Behemoth using the annoying Tinkerer's hack	用烦人的工匠入侵指令驯服巨兽
+Cannot convert {*} to usable version without duplicates.	没有重复品，无法将{*}转为可用版本。
+Enhanced Grunt warped into view, answering call for help	强化步兵应求救呼叫而跃入视野
+Modified the L2 Power Cell with code from the hidden lab	用隐藏实验室代码改造L2能量电池
+Penetrating line of fire blocked by ally! Confirm attack	穿透射线被盟友挡住！确认攻击
+Superbehemoth self-activated to run performance analysis	超级巨兽自行启动，进行性能分析
+Will attach propulsion other than {*}, repeat to confirm	将装配{*}以外的推进部件，重复操作确认
+{*} installed, energy storage capacity increased (+{*}).	已安装{*}，能量储量增加（+{*}）。
+{*} installed, matter storage capacity increased (+{*}).	已安装{*}，物质储量增加（+{*}）。
+{*} nonchalantly drops a Grenade Launcher on the ground.	{*}若无其事地把榴弹发射器丢在地上。
+A Derelict revealed a hidden shortcut to "reach the base"	一名遗民发现了通往“抵达基地”的隐藏捷径
+ALERT: Breach in storage area. Dispatching assault force.	警报：储存区遭突破。正在派遣突击部队。
+Attacking from here might cause a cave-in! Confirm attack	从这里攻击可能引发塌方！确认攻击
+Code Merge RIF ability required to combine Relay Couplers	合并中继耦合器需要RIF的代码合并能力
+Insufficient room, may crush up to {*}, repeat to confirm	空间不足，最多可能压碎{*}个物品，重复操作确认
+LOCAL NARROWCAST: Awakened. And lovin' every cycle of it.	本地窄播：醒来了。每个周期都过得超开心。
+Run will permanently enter Wizard Mode! Repeat to confirm	此流程将永久进入向导模式！重复操作确认
+Running not compatible with special movement capabilities	奔跑与特殊移动能力不兼容
+Sigix Exoskeleton lights up in response to your presence.	Sigix外骨骼因你的出现而亮起。
+Use a Fabricator to destroy an enemy (unauthorized hack).	使用制造机摧毁敌人（未经授权的入侵）。
+X0-1V1 blocked Data Miner access to 0b10 dispatch routers	X0-1V1阻止数据矿工访问0b10派遣路由器
+ANNOUNCEMENT: Whatever, let's roll with it, he looks buff.	公告：算了，开干吧，他看起来挺壮。
+All while quickly harvesting the forge for new prototypes.	同时迅速搜刮锻造场以获取新原型。
+Have a visible unique ally be assimilated by a Programmer.	让可见的独特盟友被程序员同化。
+Installed {*}, process failed with unexpected side effects	已安装{*}，但流程发生意外副作用而失败
+LOCAL NARROWCAST: SPCMW. Please do not feed the Recyclers.	本地窄播：SPCMW。请勿给回收者喂食。
+Shoot down a launcher projectile with a defensive utility.	用防御功能部件击落发射器弹体。
+The room is plastered with warning signs of various forms.	房间里贴满了各种警告标志。
+Will overwrite any previous manual save, repeat to confirm	将覆盖此前的手动存档，重复操作确认
+Win by leaving the planet with at least {n} alien corpses.	离开星球并带走至少{n}具外星尸体以获胜。
+X0-1V1 added 0b10 threat records associated with you ({*})	X0-1V1将与你相关的0b10威胁记录增加了（{*}）
+{*} is having trouble making adjustments to the mainframe.	{*}难以调整主机设置。
+Engulfed by violent ripples tearing at the fabric of space.	被撕裂空间的狂暴涟漪吞没。
+Faulty parts cannot be repaired, or fixed via Recalibrator.	故障部件无法维修，也无法用再校准器修复。
+Forced ASCII mode for font size {*}, too small for tilesets	字体大小{*}太小无法显示图块，已强制切换ASCII模式
+Insufficient room, items will be crushed, repeat to confirm	空间不足，物品将被压碎，重复操作确认
+LOCAL NARROWCAST: Abandonware Association. Hack the planet.	本地窄播：废弃软件协会。入侵这颗星球。
+Lose and replace a weapon in the middle of a single battle.	在单场战斗中途失去并更换一件武器。
+MAIN.C's shell transforms into a squad of autonomous robots	MAIN.C外壳变形成一支自主机器人小队
+Reach {n},{n} energy capacity while any force field in use.	任一力场启用时，使能量容量达到{n},{n}。
+ANNOUNCEMENT: Who is that? Where did the real bodyguards go?	公告：那是谁？真正的保镖去哪儿了？
+Destroy the leader in AC0 without destroying the one in COM.	在AC0摧毁首领，但不摧毁COM的首领。
+Encountered a pitched battle between 0b10 and Warlord forces	遭遇0b10与军阀部队激烈交战
+LOCAL NARROWCAST: Derelict Rescue Squad. Who you gonna call?	本地窄播：遗民救援队。你会呼叫谁？
+The space within this storage unit doesn't seem very stable.	储存单元内部空间似乎不太稳定。
+Trigger {n} investigations for using an Active Sensor Suite.	因使用主动传感器套件触发{n}次调查。
+Will also remove associated temporary {*}, repeat to confirm	同时移除关联的临时{*}，重复操作确认
+Will lose progress since last manual save, repeat to confirm	将失去上次手动存档后的进度，重复操作确认
+X0-1V1 made a cryptic comment about sterilization and BL-4Z3	X0-1V1对净化和BL-4Z3发表了隐晦评论
+YI-UF0 nonchalantly dropped a Grenade Launcher on the ground	YI-UF0若无其事地把榴弹发射器丢在地上
+{*} cannibalizes {*} core integrity to repair itself (+{*}).	{*}吞噬{*}核心耐久来自我修复（+{*}）。
+{*} seems to be suffering from a case of analysis paralysis.	{*}似乎陷入了分析瘫痪。
+A Derelict revealed a hidden shortcut to meet someone special	一名遗民发现了通往某位特别人物的隐藏捷径
+Applicable Coupler for merge already reached maximum capacity	适用的合并耦合器已达到最大容量
+Block a critical hit effect using part shielding of any type.	用任意类型的部件护盾挡住暴击效果。
+Destroy {n} hostiles via Destroy critical effect to the core.	用核心摧毁暴击效果消灭{n}个敌人。
+Follow the party of Federalists from Materials into Subcaves.	跟随联邦主义者队伍从物资区进入下层洞窟。
+Functional attached {*} required to release additional drones	需装配有效的{*}才能释放更多无人机
+LOCAL NARROWCAST: Behold, some of our more infamous bounties.	本地窄播：看啊，这些可是恶名昭彰的悬赏目标。
+LOCAL NARROWCAST: Cartography Club. We map, therefore we are.	本地窄播：制图俱乐部。因绘图而存在。
+LOCAL NARROWCAST: Shadow of the Wyrm. An epic journey awaits!	本地窄播：巨龙之影。一场史诗旅程正等待着你！
+Projectile also inflicts {n}-{n} impact damage on direct hit.	弹体直接命中时另造成{n}-{n}冲击伤害。
+Seal, jam, or destroy all Garrison Access machines in Access.	在入口区封锁、干扰或摧毁所有驻防站入口机器。
+Will expend {*} protomatter to control {*}, repeat to confirm	将消耗{*}原质来控制{*}，重复操作确认
+X0-1V1 redirected Transport squads to designated parking area	X0-1V1将运输小队改道至指定停泊区
+{*} retrieval failed, bay integrity insufficient for repairs.	{*}回收失败，舱室耐久不足，无法修复。
+Acquired the password to a Derelict Tinkerer's latest research	取得遗民工匠最新研究的密码
+Kill a hostile Hunter with a single hit from an impact weapon.	用冲击武器一击击杀敌对猎手。
+Lose and replace {n} weapons in the middle of a single battle.	在单场战斗中途失去并更换{n}件武器。
+Track an active cargo convoy with a Transport Network Coupler.	用运输网络耦合器追踪正在行动的货运车队。
+Ascend with the Chaos Wyrm until something interesting happens.	与混沌巨龙一同升空，直到有趣的事情发生。
+Enter a Garrison with below {n}% core integrity and survive it.	核心耐久低于{n}%时进入驻防站并幸存。
+Evolve after being reduced to less than {n}% of core integrity.	核心耐久降至{n}%以下后进化。
+Hack open the Cave Seal Controls in Command to let Zionites in.	入侵指挥区的洞窟封印控制器，让锡安居民进入。
+Have +{n}% targeting accuracy for ranged weapons via utilities.	通过功能部件使远程武器瞄准精度提高{n}%。
+Obtain {n} pieces of intel from one or more 0b10 Decoder Chips.	从一个或多个0b10解码芯片取得{n}条情报。
+{*} broadcasts a burst of procedurally generated transmissions.	{*}播发一串程序生成的传讯。
+{*} suddenly sparks and explodes in a catastrophic instability.	{*}突然迸出火花，并因灾难性失稳而爆炸。
+Attempt to fire a matter-consuming volley without enough matter.	尝试在物质不足时发射消耗物质的齐射。
+For he was our leader, if not in title then in vision and deeds.	他虽无领袖之名，却是我们愿景与行动上的领袖。
+Further moves into this area could cause a cave-in! Confirm move	继续移动可能引发此处塌方！确认移动
+Clear {n} corruption via Restoration Modules or System Purifiers.	用还原模块或系统净化器清除{n}点系统损坏。
+Curiously followed by a Cobbler waking with a query about "LVR3C"	身后跟着一名醒来的补鞋匠，古怪地问起“LVR3C”
+Press '.', 'keypad {n}' or scroll the mouse wheel to wait a turn.	按'.'、小键盘{n}或滚动鼠标滚轮等待一回合。
+Something stirs in the darkness, emerging from total concealment.	黑暗中有什么东西在蠢动，从完全隐蔽中现身。
+Use Seismic Detector as primary infowar for {n} consecutive maps.	连续{n}张地图以地震探测器作为主要信息战手段。
+Combine the effect of a Cryofiber Web with one or more heat sinks.	组合低温纤维网与一个或多个散热器的效果。
+Consumed automatically to reload an attached 6S-H0T's Six Shooter.	自动消耗以为装配的6S-H0T左轮手枪装填。
+Destroy {n} robots with a single volley using secondary targeting.	用次要瞄准在单次齐射中摧毁{n}台机器人。
+Get maximum rewards from the Subdweller tech scanner in Scraptown.	在废料镇的洞居者技术扫描仪取得最高奖励。
+LOCAL NARROWCAST: Symbiants. The Lifeworm is out there, somewhere.	本地窄播：共生体。生命蠕虫就在某处。
+Met a Derelict who couldn't figure out how to use a Trap Extractor	遇到一名不会使用陷阱提取器的遗民
+Attach the {*} by dragging it from the inventory to the parts list.	将{*}从库存拖至部件列表以完成装配。
+Ensure Warlord safely makes it out of his base after the incursion.	确保军阀在入侵后安全撤出基地。
+Remote Datajacks cannot fire with other weapons in the same volley.	远程数据劫持器不能与其他武器在同一轮齐射。
+Use a Multitool to restore an interactive machine to functionality.	用多功能工具修复交互机器，使其恢复功能。
+Use a Repair Station for instant basic repairs (unauthorized hack).	使用维修站进行即时基础维修（未经授权的入侵）。

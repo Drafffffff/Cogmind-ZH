@@ -1,0 +1,410 @@
+[
+  {
+    "source": "D-48 Pulsar",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "G-30 Squaddie",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "G-47 Trooper",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "H-44 Whirlwind",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "H-61 Shepherd",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "H-66 Slayer",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "I-36 Angel",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "I-47 Archangel",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "K-01 Serf",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "L-01 Lifeworm",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "L-11 Stabber",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "L-21 Spearman",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "L-31 Rogue",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "L-41 Fighter",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "M-13 Machinist",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "M-28 Smith",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "M-30 Cleanser",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "N-00 Fly",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "N-04 Retriever",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "P-50 Guru",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "P-60 Hacker",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "P-70 Sage",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "R-06 Scavenger",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "S-02 Bug",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "S-10 Pest",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "S-22 Vector",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "S-43 Plague",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "S-99 Seraph",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "T-05 Blastbot",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "T-07 Excavator",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "T-20 Terraformer",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "U-03 Stacker",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "W-04 Raven",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "X-52 Archer",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "X-67 Chaingunner",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "X-77 Beamer",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "X-82 Rainmaker",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "X-87 Electro",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Y-36 Patrolman",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Y-58 Custodian",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Y-72 Warden",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "DESTINATION: C6153-B",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Cave J31",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Cave V09",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Cave G34",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Cave G35",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Cave U66",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Cave S58",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Cave Z42",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Cave J87",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Commander 0b11",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Protovariant P",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Protovariant H",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Protovariant X",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Protovariant D",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Protovariant Y",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Protovariant L",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Protovariant G",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "X0-1V1's TEDDY BEAR",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "TOY OF X0-1V1",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "HEX-080/Lightpack 2.0",
+    "reason": "HEX-080是规范型号ID，保留该段；Lightpack 2.0已译为“轻量包2.0”。"
+  },
+  {
+    "source": "Project Skyward",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Project Ferryman",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Project G-00",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Retriever Launch",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Retriever Recovery",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Chapter 10",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "UFD Leadership",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "UC Origins",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "UC Activity",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "TC4 Museum",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "SE/05. Modes",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "SE/07. Creation",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "SE/12. Guidance",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Not Today, Chutes",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Error 47",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "I Spy",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "King Drone",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Chop Chop",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "RIFT Wizard",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Civilization 2243",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Straight Shot",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "CY-PHR",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "EX-HEX",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "1B-0RG'S ASSIMILATOR",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "2N-1CE'S FROST ARRAY",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "4L-MR0'S PROTOTYPE LOGS",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "A0-MCA DATA CENTER",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "CL-0N3'S METAMASS DISPLACER",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "CR-A16'S BEHEMOTH SLAYER",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "CR-A16'S POINTY STICK",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "CR-KLE'S REPAIR CENTER",
+    "reason": "CR-KLE为规范机器型号ID，保留该段；Repair Center已翻译为“维修中心”。"
+  },
+  {
+    "source": "CY-PHR'S GREATEST HITS",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "D4-RBY'S BEHEMOTH BEFRIENDER",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "DA-N13 CHARITABLE FOUNDATION",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "IN-MT5'S SAFE",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "IN-MT5'S STUDY",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "KN-7UR'S AUTOPENETRATOR",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "LU-1G1'S BORING CREW",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "P1-3CE'S GATLING FLAKKER",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "VL-GR5'S TIMING CHIP",
+    "reason": "专名或规范机器/地点标识保留；周边描述已翻译。"
+  },
+  {
+    "source": "Elf!",
+    "reason": "窄格机器人专名 Elf，保留原名以符合术语表与显示宽度。"
+  }
+]

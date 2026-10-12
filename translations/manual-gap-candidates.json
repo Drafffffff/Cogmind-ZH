@@ -1,0 +1,2131 @@
+{
+  "report": "manual-gap-candidates",
+  "source": "original/bazzite/manual.txt",
+  "coverage_source": "analysis/manual-translation-coverage.json",
+  "review_scope": "Unmatched headings and table cells only; natural-language gaps distinguished from preserved codes/syntax and already-covered segments. Manual presence is not proof that runtime displays a fragment.",
+  "count": 33,
+  "summary": {
+    "needs_translation": 8,
+    "already_covered_by_other_segment": 1,
+    "preserve": 24
+  },
+  "entries": [
+    {
+      "line": 3,
+      "line_end": 3,
+      "original_full": " Cogmind Manual                                version: Beta 17.1",
+      "candidate_fragment": "Cogmind Manual",
+      "classification": "已有其他分段规则",
+      "translation": "Cogmind手册",
+      "reason": "整行因标题与版本信息拼接而未匹配；“Cogmind Manual”在当前zh_trans.tsv中精确命中“Cogmind手册”，Beta 17.1为版本值。",
+      "same_row_cells": []
+    },
+    {
+      "line": 3,
+      "line_end": 3,
+      "original_full": " Cogmind Manual                                version: Beta 17.1",
+      "candidate_fragment": "version:",
+      "classification": "需要翻译",
+      "translation": "版本：",
+      "reason": "手册封面标题行中的自然语言标签；整行没有可匹配规则，标题片段虽已覆盖，但此标签未覆盖。",
+      "same_row_cells": []
+    },
+    {
+      "line": 3,
+      "line_end": 3,
+      "original_full": " Cogmind Manual                                version: Beta 17.1",
+      "candidate_fragment": "Beta 17.1",
+      "classification": "保留",
+      "translation": null,
+      "reason": "版本代号与数值原样保留。",
+      "same_row_cells": []
+    },
+    {
+      "line": 1184,
+      "line_end": 1184,
+      "original_full": " Map",
+      "candidate_fragment": "Map",
+      "classification": "需要翻译",
+      "translation": "地图",
+      "reason": "独立手册章节标题，当前生成表中没有“Map”的精确源键或完整模板。",
+      "same_row_cells": []
+    },
+    {
+      "line": 1854,
+      "line_end": 1854,
+      "original_full": " Map",
+      "candidate_fragment": "Map",
+      "classification": "需要翻译",
+      "translation": "地图",
+      "reason": "独立手册章节标题，当前生成表中没有“Map”的精确源键或完整模板。",
+      "same_row_cells": []
+    },
+    {
+      "line": 448,
+      "line_end": 448,
+      "original_full": "#Weapons   Total Time",
+      "candidate_fragment": "#Weapons",
+      "classification": "需要翻译",
+      "translation": "武器数",
+      "reason": "表格列标题，表示齐射中的武器数量；“Total Time”同一行已有“总耗时”翻译。",
+      "same_row_cells": [
+        {
+          "candidate": "#Weapons",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "Total Time",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "总耗时",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1199,
+      "line_end": 1199,
+      "original_full": "  Red     Combat-related",
+      "candidate_fragment": "Red",
+      "classification": "需要翻译",
+      "translation": "红色",
+      "reason": "音效来源颜色标签；同一行说明“Combat-related”已有译文“战斗相关”。",
+      "same_row_cells": [
+        {
+          "candidate": "Red",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "Combat-related",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "战斗相关",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1201,
+      "line_end": 1201,
+      "original_full": "  Yellow  Trap trigger, carrier deployment, or garrison dispatch",
+      "candidate_fragment": "Trap trigger, carrier deployment, or garrison dispatch",
+      "classification": "需要翻译",
+      "translation": "陷阱触发、运载机器人部署或驻防站派遣",
+      "reason": "音效来源说明文本；同一行颜色“Yellow”已译为“黄色”。garrison按词典术语使用“驻防站”。",
+      "same_row_cells": [
+        {
+          "candidate": "Yellow",
+          "mode": "table_cell_1",
+          "status": "exact",
+          "table": "short",
+          "translation": "黄色",
+          "preservation_reason": null
+        },
+        {
+          "candidate": "Trap trigger, carrier deployment, or garrison dispatch",
+          "mode": "table_cell_2",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1202,
+      "line_end": 1202,
+      "original_full": "  Blue    Emergency door open/close or phase wall destroyed",
+      "candidate_fragment": "Blue",
+      "classification": "需要翻译",
+      "translation": "蓝色",
+      "reason": "音效来源颜色标签；同一行事件说明已由当前表中对应规则覆盖。",
+      "same_row_cells": [
+        {
+          "candidate": "Blue",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "Emergency door open/close or phase wall destroyed",
+          "mode": "table_cell_2",
+          "status": "cmkr_core_match",
+          "table": "zh_para.tsv",
+          "translation": "Emergency door open/close or phase wall已摧毁",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1875,
+      "line_end": 1877,
+      "original_full": "                     Ctrl-Alt (Hold)   Highlight path to cursor,\n                                         or set keyboard path\n                                         and any cave-in areas",
+      "candidate_fragment": "Highlight path to cursor, or set keyboard path and any cave-in areas",
+      "classification": "需要翻译",
+      "translation": "高亮至光标的路径，或设置键盘路径及所有塌方区域。",
+      "reason": "快捷键说明表中的完整自然语言单元格；同行Ctrl-Alt (Hold)是需保留的键位，本文案无精确或模板匹配。",
+      "same_row_cells": [
+        {
+          "candidate": "Ctrl-Alt (Hold)",
+          "mode": "table_cell_1",
+          "status": "exact",
+          "table": "paragraph",
+          "translation": "按住Ctrl-Alt",
+          "preservation_reason": null
+        },
+        {
+          "candidate": "Highlight path to cursor, or set keyboard path and any cave-in areas",
+          "mode": "table_cell_2",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1144,
+      "line_end": 1144,
+      "original_full": "  r   range",
+      "candidate_fragment": "r",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，同行说明“range”已有“射程”译文。",
+      "same_row_cells": [
+        {
+          "candidate": "r",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "range",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "射程",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1145,
+      "line_end": 1145,
+      "original_full": "  s   size, target",
+      "candidate_fragment": "s",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，同行说明“size, target”已有“尺寸、目标”译文。",
+      "same_row_cells": [
+        {
+          "candidate": "s",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "size, target",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "尺寸、目标",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1146,
+      "line_end": 1146,
+      "original_full": "  sg  siege mode",
+      "candidate_fragment": "sg",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，同行说明“siege mode”已有对应译文。",
+      "same_row_cells": [
+        {
+          "candidate": "sg",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "siege mode",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "攻城模式",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1147,
+      "line_end": 1147,
+      "original_full": "  c   corruption",
+      "candidate_fragment": "c",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，corruption说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "c",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "corruption",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "损坏",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1148,
+      "line_end": 1148,
+      "original_full": "  h   heat",
+      "candidate_fragment": "h",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，heat说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "h",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "heat",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "热量",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1149,
+      "line_end": 1149,
+      "original_full": "  ht  heat, target",
+      "candidate_fragment": "ht",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，同行说明“heat, target”已有译文。",
+      "same_row_cells": [
+        {
+          "candidate": "ht",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "heat, target",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "热量、目标",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1150,
+      "line_end": 1150,
+      "original_full": "  u   utilities",
+      "candidate_fragment": "u",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，utilities说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "u",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "utilities",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "功能部件",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1151,
+      "line_end": 1151,
+      "original_full": "  ut  utilities, target",
+      "candidate_fragment": "ut",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，同行说明“utilities, target”已有译文。",
+      "same_row_cells": [
+        {
+          "candidate": "ut",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "utilities, target",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "功能件、目标",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1152,
+      "line_end": 1152,
+      "original_full": "  m   movement",
+      "candidate_fragment": "m",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，movement说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "m",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "movement",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "移动",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1153,
+      "line_end": 1153,
+      "original_full": "  mt  movement, target",
+      "candidate_fragment": "mt",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，同行说明“movement, target”已有译文。",
+      "same_row_cells": [
+        {
+          "candidate": "mt",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "movement, target",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "移动、目标",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1154,
+      "line_end": 1154,
+      "original_full": "  ft  flying, target",
+      "candidate_fragment": "ft",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，同行说明“flying, target”已有译文。",
+      "same_row_cells": [
+        {
+          "candidate": "ft",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "flying, target",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "飞行、目标",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1155,
+      "line_end": 1155,
+      "original_full": "  im  immobile",
+      "candidate_fragment": "im",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，immobile说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "im",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "immobile",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "无法移动",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1156,
+      "line_end": 1156,
+      "original_full": "  ob  obstructing robot",
+      "candidate_fragment": "ob",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，同行说明“obstructing robot”已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "ob",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "obstructing robot",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "阻挡机器人",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1157,
+      "line_end": 1157,
+      "original_full": "  a   analysis",
+      "candidate_fragment": "a",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，analysis说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "a",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "analysis",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "分析",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1158,
+      "line_end": 1158,
+      "original_full": "  ha  hacked targeting",
+      "candidate_fragment": "ha",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，hacked targeting说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "ha",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "hacked targeting",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "黑入瞄准",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1159,
+      "line_end": 1159,
+      "original_full": "  di  disruption (from a hack)",
+      "candidate_fragment": "di",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，disruption说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "di",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "disruption (from a hack)",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "干扰（入侵造成）",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1160,
+      "line_end": 1160,
+      "original_full": "  tc  tactical coordination suite",
+      "candidate_fragment": "tc",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，tactical coordination suite说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "tc",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "tactical coordination suite",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "战术协调套件",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1161,
+      "line_end": 1161,
+      "original_full": "  to  targeting obfuscator",
+      "candidate_fragment": "to",
+      "classification": "保留",
+      "translation": null,
+      "reason": "命中率修正项的内部缩写代码，targeting obfuscator说明已有表项。",
+      "same_row_cells": [
+        {
+          "candidate": "to",
+          "mode": "table_cell_1",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        },
+        {
+          "candidate": "targeting obfuscator",
+          "mode": "table_cell_2",
+          "status": "exact",
+          "table": "short",
+          "translation": "瞄准混淆器",
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1262,
+      "line_end": 1262,
+      "original_full": "  Slots        .po(wer)",
+      "candidate_fragment": ".po(wer)",
+      "classification": "保留",
+      "translation": null,
+      "reason": "过滤器语法示例，不是普通文本；保持原样。",
+      "same_row_cells": [
+        {
+          "candidate": "Slots",
+          "mode": "table_cell_1",
+          "status": "exact",
+          "table": "short",
+          "translation": "槽位",
+          "preservation_reason": null
+        },
+        {
+          "candidate": ".po(wer)",
+          "mode": "table_cell_2",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1266,
+      "line_end": 1266,
+      "original_full": "  Type         .mat(ter)",
+      "candidate_fragment": ".mat(ter)",
+      "classification": "保留",
+      "translation": null,
+      "reason": "过滤器语法示例，不是普通文本；保持原样。",
+      "same_row_cells": [
+        {
+          "candidate": "Type",
+          "mode": "table_cell_1",
+          "status": "exact",
+          "table": "short",
+          "translation": "类型",
+          "preservation_reason": null
+        },
+        {
+          "candidate": ".mat(ter)",
+          "mode": "table_cell_2",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1286,
+      "line_end": 1286,
+      "original_full": "  Damage Type  .ki",
+      "candidate_fragment": ".ki",
+      "classification": "保留",
+      "translation": null,
+      "reason": "过滤器语法示例，不是普通文本；保持原样。",
+      "same_row_cells": [
+        {
+          "candidate": "Damage Type",
+          "mode": "table_cell_1",
+          "status": "exact",
+          "table": "short",
+          "translation": "伤害类型",
+          "preservation_reason": null
+        },
+        {
+          "candidate": ".ki",
+          "mode": "table_cell_2",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1297,
+      "line_end": 1297,
+      "original_full": "  Integrity    .X%, where X is a minimum percentage of remaining",
+      "candidate_fragment": ".X%, where X is a minimum percentage of remaining",
+      "classification": "保留",
+      "translation": null,
+      "reason": "属性筛选语法及参数说明；按任务范围保留原文，不作为待译短语。",
+      "same_row_cells": [
+        {
+          "candidate": "Integrity",
+          "mode": "table_cell_1",
+          "status": "exact",
+          "table": "short",
+          "translation": "耐久",
+          "preservation_reason": null
+        },
+        {
+          "candidate": ".X%, where X is a minimum percentage of remaining",
+          "mode": "table_cell_2",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        }
+      ]
+    },
+    {
+      "line": 1300,
+      "line_end": 1300,
+      "original_full": "  Other        .uni(que) retains only items which cannot spawn as",
+      "candidate_fragment": ".uni(que) retains only items which cannot spawn as",
+      "classification": "保留",
+      "translation": null,
+      "reason": "过滤器语法示例且在原行中跨后续上下文说明；不将语法关键字当作遗漏翻译。",
+      "same_row_cells": [
+        {
+          "candidate": "Other",
+          "mode": "table_cell_1",
+          "status": "exact",
+          "table": "short",
+          "translation": "其他",
+          "preservation_reason": null
+        },
+        {
+          "candidate": ".uni(que) retains only items which cannot spawn as",
+          "mode": "table_cell_2",
+          "status": "unmatched_by_exact_and_cmkr_core",
+          "table": null,
+          "translation": null,
+          "preservation_reason": null
+        }
+      ]
+    }
+  ],
+  "layout_overrides": [
+    {
+      "line_start": 3,
+      "line_end": 3,
+      "source": " Cogmind Manual                                version: Beta 17.1",
+      "translation": "Cogmind手册                                版本：Beta 17.1",
+      "kind": "translated",
+      "reason": "Translate the manual title/version label; preserve game name and version identifier.",
+      "covers_item_ids": [
+        "manual-0003:item-1"
+      ]
+    },
+    {
+      "line_start": 47,
+      "line_end": 47,
+      "source": "For one the message log has been deemphasized. It's not necessary to follow the log to figure out what's going on in combat; instead the map provides you with all the important information. When attacking a target, for example, the only truly significant hits are those on its core, and if you hit the core a little number pops up showing their remaining core integrity percent. Most robots are destroyed by just a couple core hits.",
+      "translation": "首先，消息日志的地位较低。要弄清战斗状况，不必盯着日志；地图会显示所有重要信息。例如攻击目标时，真正重要的命中只有击中核心；命中核心后会弹出小数字，显示剩余核心耐久百分比。大多数机器人只需命中核心几次就会被摧毁。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0047:item-1"
+      ]
+    },
+    {
+      "line_start": 74,
+      "line_end": 74,
+      "source": "Legs are the best form of starter propulsion. They move fast enough, have a relatively high integrity, and you can salvage spares off enemy Grunts fairly easily. Avoid using wheels if possible. And generally avoid mixing propulsion, since you can't activate multiple types at once, anyway.",
+      "translation": "腿是最适合作为初始推进器的类型。速度够快，耐久相对较高，也很容易从敌方杂兵身上拆下备用腿。尽量避免使用轮子。通常也不要混装多种推进器，因为无论如何都无法同时启用多种类型。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0074:item-1"
+      ]
+    },
+    {
+      "line_start": 258,
+      "line_end": 258,
+      "source": "The most vital component of any robot is its \"core\". Once a core's integrity is reduced to zero, that robot is destroyed. Cogmind is no exception.",
+      "translation": "任何机器人的核心都是最重要的部件。核心耐久降至零时，该机器人就会被摧毁。Cogmind也不例外。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0180:item-1"
+      ]
+    },
+    {
+      "line_start": 260,
+      "line_end": 260,
+      "source": "Over time Cogmind's core will evolve, gaining both integrity and the ability to interface with a greater number of parts at once. The reason for this evolution is part of the story to be uncovered.",
+      "translation": "随着时间推移，Cogmind的核心会进化，提升耐久，并能同时连接更多部件。进化的原因是故事的一部分，等待你去发掘。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0182:item-1"
+      ]
+    },
+    {
+      "line_start": 274,
+      "line_end": 274,
+      "source": "Aside from integrity damage, robots are also prone to system corruption. Any core that is 100% corrupted is destroyed regardless of structural integrity. The most common cause of system corruption is electromagnetic damage.",
+      "translation": "除了耐久损伤，机器人还容易受到系统损坏影响。任何核心一旦完全腐化（100%），无论结构耐久如何都会被摧毁。系统损坏最常见的原因是电磁伤害。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0190:item-1"
+      ]
+    },
+    {
+      "line_start": 276,
+      "line_end": 276,
+      "source": "Cogmind's own system corruption is wiped with each evolution.",
+      "translation": "每次进化都会清除Cogmind自身的系统损坏。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0192:item-1"
+      ]
+    },
+    {
+      "line_start": 354,
+      "line_end": 354,
+      "source": "Some hover and flight units are capable of overloading, which boosts performance and associated costs. While overloaded, speed is calculated as if there is twice the number of units active at once, support is increased by 50%, energy costs are doubled, and heat generation is tripled. The performance boost comes at the additional cost of integrity strain (see a propulsion's \"burnout\" stat). For these parts, the normal activation/deactivation command will instead cycle between off, on, and overloaded states.",
+      "translation": "部分悬浮和飞行单元可过载，以提高性能，也会增加相应消耗。过载时，速度按同时启用两倍数量的单元计算，承重提高50%，能耗翻倍，产热增至三倍。性能提升还会导致耐久受损（参见推进器的“烧毁”属性）。这些部件的常规启用/停用指令会改为在关闭、启用和过载状态间循环。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0270:item-1"
+      ]
+    },
+    {
+      "line_start": 390,
+      "line_end": 390,
+      "source": "Protective gear, some of which does not indicate a particular effect, instead using high coverage and integrity to reduce the chance that other parts will be damaged. Unlike other parts, armor can never be instantly destroyed by critical strikes, taking 20% more damage instead.",
+      "translation": "防护装备中有些没有明确效果，而是通过高覆盖率和高耐久降低其他部件受损几率。装甲与其他部件不同，绝不会被暴击瞬间摧毁，而是多承受20%伤害。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0302:item-1"
+      ]
+    },
+    {
+      "line_start": 442,
+      "line_end": 442,
+      "source": "  Ram             100+",
+      "translation": "撞击   100+",
+      "kind": "translated",
+      "reason": "root-review-required: translate the natural-language action label Ram; retain its numeric value.",
+      "covers_item_ids": [
+        "root-review-required:442-442"
+      ]
+    },
+    {
+      "line_start": 448,
+      "line_end": 448,
+      "source": "#Weapons   Total Time",
+      "translation": "武器数   总耗时",
+      "kind": "translated",
+      "reason": "Only the missing #Weapons header is translated; Total Time reuses its existing “总耗时” table-cell translation.",
+      "covers_item_ids": [
+        "manual-0350:row-1"
+      ]
+    },
+    {
+      "line_start": 487,
+      "line_end": 488,
+      "source": "  -5~15% if defender running on legs (not overweight)\n     (5% evasion for each level of momentum)",
+      "translation": "目标以腿部奔跑且未超重时，命中率-5~15%（目标动量每级提供5%闪避）",
+      "kind": "translated",
+      "reason": "Recombine the complete two-line list item using existing exact translations; retain both percentages and parentheses.",
+      "covers_item_ids": [
+        "manual-0375:item-10"
+      ]
+    },
+    {
+      "line_start": 490,
+      "line_end": 491,
+      "source": "  -5~15% if attacker running on legs (ranged attacks only)\n     (5% for each level of momentum)",
+      "translation": "攻击者以腿部奔跑时，命中率-5~15%（仅远程攻击；动量每级-5%）",
+      "kind": "translated",
+      "reason": "Recombine the complete two-line list item using existing exact translations; retain both percentages and parentheses.",
+      "covers_item_ids": [
+        "manual-0375:item-12"
+      ]
+    },
+    {
+      "line_start": 517,
+      "line_end": 517,
+      "source": "* -[attacker system corruption]/X% (X = 4 for Cogmind, 8 for others)",
+      "translation": "* -[攻击者系统损坏]/X%（Cogmind的X=4，其他机器人为8）",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0391:item-1"
+      ]
+    },
+    {
+      "line_start": 565,
+      "line_end": 565,
+      "source": "Enemy robots work the same way, so the more parts you blow off, the more likely you are to hit and destroy their core. Armor plating has a very high coverage, so it's more likely to be hit, while tiny utilities such as embedded processors have very low coverage, so you can expect them to last much longer (unless you have little or nothing else covering you). As you progress, your core will become more and more protected by attached parts, because you'll have many more of them, but by that time there are other dangers such as system corruption.",
+      "translation": "敌对机器人也遵循相同规则，所以你拆掉的部件越多，击中并摧毁其核心的几率就越高。装甲覆盖率很高，因此更容易被击中；嵌入式处理器等小型工具覆盖率很低，所以往往能存活更久（除非你几乎没有其他部件保护自己）。随着进度推进，你会安装更多部件，使核心得到越来越周全的保护；但那时也会面临系统损坏等其他危险。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0422:item-1"
+      ]
+    },
+    {
+      "line_start": 569,
+      "line_end": 569,
+      "source": "When a part is destroyed by damage that exceeds its remaining integrity, the surplus damage is then applied directly to the core or another part as chosen by standard coverage/exposure rules. No additional defenses are applied against that damage. Exceptions: There is no damage overflow if the destroyed part itself is armor, and overflow damage always targets armor first if there is any. Critical strikes that outright destroy a part can still cause overflow if their original damage amount exceeded the part's integrity anyway. Damage overflow is caused by all weapons except those of the \"gun\" type, and can overflow through multiple destroyed parts if there is sufficient damage.",
+      "translation": "部件受到的伤害超过剩余耐久并被摧毁时，超出的伤害会按常规覆盖率/暴露率规则，直接施加到核心或另一部件上；该伤害不会再受任何防御减免。例外：若被摧毁的部件本身是装甲，则不会产生溢出伤害；若有装甲，溢出伤害总会优先命中装甲。暴击直接摧毁部件时，若原始伤害本就超过部件耐久，也仍会产生溢出。除“枪”类武器外，所有武器都会产生溢出伤害；伤害足够时可连续穿透多个被摧毁部件。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0426:item-1"
+      ]
+    },
+    {
+      "line_start": 581,
+      "line_end": 581,
+      "source": "The chance for the robot's parts to survive, checked individually for each part, is ([percent_remaining_integrity / 2] + [salvage_modifier]), thus more damaged parts are more likely to be destroyed completely along with the robot. But even if that check succeeds, there are still two more possible factors that may prevent a given part from dropping. If the robot has any residual heat, parts can be melted, the chance of which is ([heat - max_integrity] / 4), so again less likely to affect large parts (though still possible, especially at very high heat levels). If the robot was corrupted, parts can be \"fried,\" the chance of which is [system_corruption - max_integrity]; by the numbers, this will generally only affect small electronic components like processors, and sometimes devices. Each salvageable part left by a corrupted robot also has a corruption% chance to itself be corrupted, specifically by a random amount from 1 to (10*[corruption]/100), and when attached will increase Cogmind's system corruption by the same value as well as possibly cause another side effect. In cases where a robot's system corruption significantly exceeded 100 at the time of destruction, a single part's corruption is capped at 15.",
+      "translation": "每个部件会单独计算幸存几率，公式为（[剩余完整度百分比/2]+[回收修正值]），因此受损越重的部件越容易随机器人一同彻底损毁。即使通过这项检定，还有两个因素可能让部件无法掉落。机器人若有残余热量，部件可能熔毁，几率为（[热量-最大完整度]/4），所以大型部件较不易受影响（但热量极高时仍可能熔毁）。机器人若被腐化，部件也可能“烧毁”，几率为[系统损坏-最大完整度]；按数值计算，这通常只影响处理器等小型电子组件，有时也会影响设备。腐化机器人留下的每个可回收部件，还有等于腐化率%的几率自身也被腐化；腐化量为1至（10*[腐化]/100）之间的随机值。安装此部件会让Cogmind的系统损坏增加相同数值，也可能触发其他副作用。若机器人被摧毁时系统损坏显著超过100，单个部件的腐化值上限为15。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0438:item-1"
+      ]
+    },
+    {
+      "line_start": 623,
+      "line_end": 623,
+      "source": "13. Choose target part (or core) based on coverage, where an Armor Integrity Analyzer first applies its chance to bypass all armor, if applicable, then available Core Analyzers increase core exposure, before finally testing individual target chances normally.",
+      "translation": "13. 根据覆盖率选择目标部件（或核心）。若适用，先判定装甲耐久分析仪能否绕过全部装甲；然后由已有核心分析仪提高核心暴露率；最后按常规方式检定各目标的单独命中率。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0480:item-1"
+      ]
+    },
+    {
+      "line_start": 633,
+      "line_end": 633,
+      "source": "18. If part destroyed by damage, record any excess damage as overflow. If outright destroyed by a critical hit but damage exceeded part's integrity anyway, any excess damage is still recorded as overflow.",
+      "translation": "18. 若部件因伤害被摧毁，记录所有超额伤害作为溢出。若部件被暴击直接摧毁，但伤害本来也超过其耐久，超额伤害仍会记作溢出。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0490:item-1"
+      ]
+    },
+    {
+      "line_start": 690,
+      "line_end": 690,
+      "source": "Ramming with active treads or legs always avoids self-damage and destabilization. Treads have a per-tread chance to instantly crush targets of medium size and below which have no more than 50 remaining core integrity. Crushed robots have their salvage modified by -20. Legs have a 20% chance per leg to kick the target out of the way. (Not applicable against huge targets.)",
+      "translation": "启用履带或腿时，撞击不会令自身受伤或失衡。每条履带都有几率瞬间碾碎中型及以下、核心剩余耐久不超过50的目标。被碾碎的机器人回收修正为-20。每条腿有20%几率将目标踢开。（对巨型目标无效。）",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0544:item-1"
+      ]
+    },
+    {
+      "line_start": 713,
+      "line_end": 713,
+      "source": "Electromagnetic (EM) weapons have less of an impact on integrity, but are capable of corrupting a target's computer systems. Anywhere from 50 to 150% of damage done is also applied as system corruption. (Cogmind is less susceptible to EM-caused corruption, but still has a damage% chance to suffer 1 point of system corruption per hit.) EM-based explosions only deal half damage to inactive items lying on the ground, but can also corrupt them.",
+      "translation": "电磁（EM）武器对耐久的影响较小，但能腐化目标的计算机系统。造成伤害的50%至150%也会转化为系统损坏。（Cogmind较不易受电磁腐化影响，但每次命中仍有等同伤害百分比的几率受到1点系统损坏。）电磁爆炸对地上未启用物品只造成一半伤害，但也能腐化它们。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0567:item-1"
+      ]
+    },
+    {
+      "line_start": 785,
+      "line_end": 785,
+      "source": "* System Corruption: Being corrupted decreases the chance of success (-corruption/3%).",
+      "translation": "* 系统损坏：腐化会降低成功几率（-腐化率/3%）。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0639:item-1"
+      ]
+    },
+    {
+      "line_start": 797,
+      "line_end": 797,
+      "source": "* Feedback: Once traced, the system is permanently locked and may attempt to counterattack the source of the unauthorized access, which either causes system corruption or disables connected hackware.",
+      "translation": "* 反馈：追踪到来源后，系统会永久锁定，并可能反击未授权访问来源，造成系统损坏或停用已连接的黑客工具。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0651:item-1"
+      ]
+    },
+    {
+      "line_start": 819,
+      "line_end": 819,
+      "source": "Repairing parts is a two-stage process. First instruct the station to scan a component currently in your inventory. Then initiate the repair process, which both fixes broken parts and restores them to full integrity.",
+      "translation": "修理部件分两步进行。先指示维修站扫描背包中的组件，再启动修理流程；该流程会修复故障部件，并将其耐久恢复至满值。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0673:item-1"
+      ]
+    },
+    {
+      "line_start": 946,
+      "line_end": 946,
+      "source": "* Mechanic: When instructed to AID an ally they enter repair mode, in which they attempt to repair (in priority order:) that ally, or Cogmind, or the closest ally in need of repairs. Repair prioritizes robot cores, broken parts, restoration of missing functionality, followed by part integrity. Field repairs on the latter are only capable of restoring a part up to 50% integrity. Repairs cannot be made while either the target is in combat or the Mechanic itself is taking fire. Mechanics are not capable of repairing Cogmind's core. For keyboard users there is a shortcut to simultaneously order all visible controllable Mechanics to AID, by pressing 'r' once in order mode.",
+      "translation": "* 技工：命令其AID盟友时会进入维修模式，并按优先级尝试修理该盟友、Cogmind或最近需要维修的盟友。修理优先核心、故障部件、恢复缺失功能，最后才修复部件耐久。现场维修最多只能将部件恢复到50%耐久。目标处于战斗中或技工自身正在挨打时无法维修。技工不能修理Cogmind核心。键盘玩家可在下令模式中按‘r’，同时命令所有视野内可控技工执行AID。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0794:item-1"
+      ]
+    },
+    {
+      "line_start": 1011,
+      "line_end": 1011,
+      "source": "* challengeDevolution: Start with 20 slots chosen randomly (from a weighted distribution), and lose 1, also randomly, at each new evolution. Base integrity never changes, always resetting to 800 with each evolution, and inherent heat dissipation (20) is also static throughout the run. If there are no free slots of the type that devolves, a random excess part is dropped to the ground. Bonus points are applied at each depth change, though the modifiers are negative in the early game before accumulating even larger positive modifiers in the late game. Incompatible with challengeInhibitedEvolution and challengeUnstableEvolution (Devolution takes precedence).",
+      "translation": "* challengeDevolution：以随机选取的20个槽位开局（按加权分布选择），每次进化时再随机失去1个槽位。基础耐久始终不变，每次进化都重置为800；固有热量耗散（20）也会在整局中保持不变。若失去槽位的类型已无空槽，则随机丢弃一件多余部件。每次改变深度都会获得奖励分；游戏前期修正为负，后期则逐渐累积为更高的正修正。与challengeInhibitedEvolution和challengeUnstableEvolution不兼容（Devolution优先）。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0854:item-1"
+      ]
+    },
+    {
+      "line_start": 1051,
+      "line_end": 1051,
+      "source": "* \"Winter2019/RPGLIKE\" (191217-200101): Meant as a serious alternative way to play Cogmind with RPG-like XP leveling mechanics and permanent upgrades instead of the standard method of evolution. Gain XP by exploring and/or raising the alert level. You start with much higher core integrity, and 80% of incoming damage to parts (or 40% in the case of Armor-type parts) is instead transferred to your core, thus losing parts is relatively rare. You can also use Protomatter to restore the integrity of your core and parts. Storage Units do not exist and you start with no base inventory, but you can optionally expand inventory capacity via level upgrades. For RIF users, although fewer Relay Couplers will spawn, all that do have double their normal value. Overall quite a different Cogmind experience, but one that might be more enjoyable for those who prefer to have more attachment to their build, or rely on certain rare parts for much of their run without having to worry about protecting or replacing them.",
+      "translation": "* “Winter2019/角色扮演”（191217-200101）：Cogmind的严肃替代玩法，以类似RPG的经验升级和永久强化取代常规进化方式。探索和/或提高警戒等级即可获得经验。开局核心耐久大幅提高；部件受到的伤害有80%（装甲类部件为40%）会转移到核心，因此部件较少被摧毁。你还可用原物质修复核心和部件。此模式没有储存单元，且开局背包容量为零，但可选择通过升级扩充背包。RIF用户生成的中继耦合器会更少，但每个耦合器价值都是通常的两倍。整体体验与Cogmind很不一样，偏好依恋当前构装、或希望整局依赖稀有部件而不必担心保护和替换的玩家，可能会更喜欢此模式。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0894:item-1"
+      ]
+    },
+    {
+      "line_start": 1053,
+      "line_end": 1053,
+      "source": "* \"AFD2020/Player2\" (200401): Take on Complex 0b10 together with a friend! Your new buddy's core integrity is linked to your own, but they also share most of your own capabilities and can attach parts to manage their build and inventory, evolve with each new depth, and have special AI behaviors that make them rather unique compared to other allies. Oh yeah, they can also be quite opinionated.",
+      "translation": "* “AFD2020/Player2”（200401）：和朋友一起挑战复合体0b10！新伙伴的核心耐久与你相连，但也共享你的大部分能力；它可以安装部件管理自己的构装和背包，随每次深度变化进化，并拥有独特AI行为，与其他盟友截然不同。对了，它也相当有主见。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0896:item-1"
+      ]
+    },
+    {
+      "line_start": 1081,
+      "line_end": 1081,
+      "source": "* Robot core damage popups indicate actual remaining integrity rather than a percentage",
+      "translation": "* 机器人核心受损弹窗显示剩余耐久实际数值，而非百分比",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0915:item-10"
+      ]
+    },
+    {
+      "line_start": 1082,
+      "line_end": 1082,
+      "source": "* Scan window displays both robot integrity and current heat, rather than just integrity",
+      "translation": "* 扫描窗口同时显示机器人耐久与当前热量，而非仅显示耐久",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0915:item-11"
+      ]
+    },
+    {
+      "line_start": 1086,
+      "line_end": 1086,
+      "source": "* Part integrity markers in your parts list are boxed upon taking damage, remaining that way until your next action",
+      "translation": "* 部件受损后，部件列表中的耐久标记会加框，并保持到你下一次行动",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0915:item-15"
+      ]
+    },
+    {
+      "line_start": 1105,
+      "line_end": 1105,
+      "source": "Hovering over objects displays their basic data here. For robots the top block color reflects their current integrity, the bottom block color indicates their current heat level (not shown when temperature is cool), while the color of the name indicates their current relation with you: red for hostile, gray for neutral, and green for friendly. When spotted by a hostile, a red '!' appears in the bottom left corner. When a robot has some dialogue that requires you to be adjacent or bump into them to hear, a green '?' is shown there instead. The '?' instead appears gray if you've already collected the associated lore and listening to them does not offer any repeat per-run benefits.",
+      "translation": "将光标悬停在物体上时，这里会显示其基本数据。对于机器人，顶部色块表示当前耐久，底部色块表示当前热量（温度较低时不显示）；名称颜色表示与你的关系：红色为敌对、灰色为中立、绿色为友好。敌人发现你时，左下角会出现红色“!”。若机器人有必须相邻或撞上才能听到的对话，则会显示绿色“?”。若你已收集相关传说，且再次聆听不会带来本局额外收益，“?”会变为灰色。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0933:item-1"
+      ]
+    },
+    {
+      "line_start": 1121,
+      "line_end": 1121,
+      "source": "To the right of each part is extra information about each depending on the current mode (coverage/energy/integrity/info). Info ('q') mode is the most esoteric, but provides a useful at-a-glance summary of stats relevant to each type of item, usually enough to make quick comparisons without opening the full info window. The first number for all parts is always the rating, preceded by a * if it's a prototype, or ** if an artifact. A '+' also appears before that to indicate when you currently have a schematic for that type of part, though note that in the case of a few late-game weapons, there may not be enough room in their summary to show the + reminder. Subsequent values differ by item type. All parts except propulsion indicate their mass with 'M'. Power sources indicate energy output with 'E'. Propulsion indicate base cost/move with 'T', and support with 'S'. Utilities show an ABBR/###, where ABBR is a very short four-letter abbreviation for its effect type, followed by the strength/value of its effect. Because each utility has only one primary type of effect, there isn't much point in learning to recognize those abbreviations (though there is a scheme to them). Instead the number is what's really important.",
+      "translation": "每个部件右侧会根据当前模式显示额外信息（覆盖率/能量/耐久/信息）。信息（“q”）模式最晦涩，但能快速概览各类物品的相关属性，通常无需打开完整信息窗口就能比较。所有部件的首个数值都是评级；原型前标“*”，神器前标“**”。若你已拥有该部件蓝图，前面还会有“+”；但少数后期武器的摘要空间不足，可能无法显示加号。后续数值因物品类别而异。除推进部件外，所有部件都用“M”表示质量；能量源用“E”表示能量产出；推进部件用“T”表示基础移动消耗、“S”表示支撑值。工具显示ABBR/###：ABBR是效果类型的四字母缩写，后接效果强度/数值。每种工具只有一种主要效果，没必要刻意记缩写（尽管其中有规律）；真正重要的是后面的数值。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0949:item-1"
+      ]
+    },
+    {
+      "line_start": 1123,
+      "line_end": 1123,
+      "source": "In Vulnerability ('c') mode, the graphs are derived from a combination of coverage and integrity, where those parts with greater vulnerability are more likely to be lost before others, statistically speaking.",
+      "translation": "弱点（“c”）模式中的图表结合覆盖率和耐久；从统计上说，弱点较高的部件更可能先被摧毁。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0951:item-1"
+      ]
+    },
+    {
+      "line_start": 1144,
+      "line_end": 1144,
+      "source": "  r   range",
+      "translation": "r   射程",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key r verbatim; the sibling description is already “射程”.",
+      "covers_item_ids": [
+        "manual-0972:row-1"
+      ]
+    },
+    {
+      "line_start": 1145,
+      "line_end": 1145,
+      "source": "  s   size, target",
+      "translation": "s   尺寸、目标",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key s verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-2"
+      ]
+    },
+    {
+      "line_start": 1146,
+      "line_end": 1146,
+      "source": "  sg  siege mode",
+      "translation": "sg   攻城模式",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key sg verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-3"
+      ]
+    },
+    {
+      "line_start": 1147,
+      "line_end": 1147,
+      "source": "  c   corruption",
+      "translation": "c   损坏",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key c verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-4"
+      ]
+    },
+    {
+      "line_start": 1148,
+      "line_end": 1148,
+      "source": "  h   heat",
+      "translation": "h   热量",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key h verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-5"
+      ]
+    },
+    {
+      "line_start": 1149,
+      "line_end": 1149,
+      "source": "  ht  heat, target",
+      "translation": "ht   热量、目标",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key ht verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-6"
+      ]
+    },
+    {
+      "line_start": 1150,
+      "line_end": 1150,
+      "source": "  u   utilities",
+      "translation": "u   功能部件",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key u verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-7"
+      ]
+    },
+    {
+      "line_start": 1151,
+      "line_end": 1151,
+      "source": "  ut  utilities, target",
+      "translation": "ut   功能件、目标",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key ut verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-8"
+      ]
+    },
+    {
+      "line_start": 1152,
+      "line_end": 1152,
+      "source": "  m   movement",
+      "translation": "m   移动",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key m verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-9"
+      ]
+    },
+    {
+      "line_start": 1153,
+      "line_end": 1153,
+      "source": "  mt  movement, target",
+      "translation": "mt   移动、目标",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key mt verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-10"
+      ]
+    },
+    {
+      "line_start": 1154,
+      "line_end": 1154,
+      "source": "  ft  flying, target",
+      "translation": "ft   飞行、目标",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key ft verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-11"
+      ]
+    },
+    {
+      "line_start": 1155,
+      "line_end": 1155,
+      "source": "  im  immobile",
+      "translation": "im   无法移动",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key im verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-12"
+      ]
+    },
+    {
+      "line_start": 1156,
+      "line_end": 1156,
+      "source": "  ob  obstructing robot",
+      "translation": "ob   阻挡机器人",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key ob verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-13"
+      ]
+    },
+    {
+      "line_start": 1157,
+      "line_end": 1157,
+      "source": "  a   analysis",
+      "translation": "a   分析",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key a verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-14"
+      ]
+    },
+    {
+      "line_start": 1158,
+      "line_end": 1158,
+      "source": "  ha  hacked targeting",
+      "translation": "ha   黑入瞄准",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key ha verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-15"
+      ]
+    },
+    {
+      "line_start": 1159,
+      "line_end": 1159,
+      "source": "  di  disruption (from a hack)",
+      "translation": "di   干扰（入侵造成）",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key di verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-16"
+      ]
+    },
+    {
+      "line_start": 1160,
+      "line_end": 1160,
+      "source": "  tc  tactical coordination suite",
+      "translation": "tc   战术协调套件",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key tc verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-17"
+      ]
+    },
+    {
+      "line_start": 1161,
+      "line_end": 1161,
+      "source": "  to  targeting obfuscator",
+      "translation": "to   瞄准混淆器",
+      "kind": "preserved",
+      "reason": "Keep the abbreviated hit-chance modifier key to verbatim; reuse the existing Chinese description.",
+      "covers_item_ids": [
+        "manual-0972:row-18"
+      ]
+    },
+    {
+      "line_start": 1184,
+      "line_end": 1184,
+      "source": " Map",
+      "translation": "地图",
+      "kind": "translated",
+      "reason": "Translate the standalone Map section heading.",
+      "covers_item_ids": [
+        "manual-0995:item-1"
+      ]
+    },
+    {
+      "line_start": 1188,
+      "line_end": 1188,
+      "source": "* Numbers that appear next to a robot taking core damage represent its remaining core integrity. This can be reverted to non-Tactical HUD behavior by setting percentCorePopup in /user/advanced.cfg to show percent integrity instead, but in either case the color coding reflects how close they are to core destruction, by percentage. Sometimes more than one number may appear, indicating the same robot's core was hit more than once in rapid succession.",
+      "translation": "* 机器人核心受损时旁边显示的数字代表剩余核心耐久。将/user/advanced.cfg中的percentCorePopup设为显示耐久百分比，可恢复非战术HUD行为。无论哪种显示方式，颜色都会按百分比反映核心距离被摧毁还有多近。有时会出现多个数字，表示同一机器人的核心在短时间内多次受击。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-0999:item-1"
+      ]
+    },
+    {
+      "line_start": 1199,
+      "line_end": 1199,
+      "source": "  Red     Combat-related",
+      "translation": "红色   战斗相关",
+      "kind": "translated",
+      "reason": "Translate the missing color cell; reuse the existing Chinese description cell.",
+      "covers_item_ids": [
+        "manual-1010:row-1"
+      ]
+    },
+    {
+      "line_start": 1201,
+      "line_end": 1201,
+      "source": "  Yellow  Trap trigger, carrier deployment, or garrison dispatch",
+      "translation": "黄色   陷阱触发、运载机器人部署或驻防站派遣",
+      "kind": "translated",
+      "reason": "Reuse existing “黄色”; translate the missing event description, using the glossary term 驻防站.",
+      "covers_item_ids": [
+        "manual-1010:row-3"
+      ]
+    },
+    {
+      "line_start": 1202,
+      "line_end": 1202,
+      "source": "  Blue    Emergency door open/close or phase wall destroyed",
+      "translation": "蓝色   紧急门开/关或相位墙被摧毁",
+      "kind": "translated",
+      "reason": "root-review-required: translate both the color label and event description.",
+      "covers_item_ids": [
+        "root-review-required:1202-1202"
+      ]
+    },
+    {
+      "line_start": 1203,
+      "line_end": 1203,
+      "source": "  Green   Machine destroyed",
+      "translation": "绿色   机器被摧毁",
+      "kind": "translated",
+      "reason": "root-review-required: translate both the color label and event description.",
+      "covers_item_ids": [
+        "root-review-required:1203-1203"
+      ]
+    },
+    {
+      "line_start": 1225,
+      "line_end": 1225,
+      "source": "* Replace an item of the same name that has a lower integrity. This process ignores non-functional parts since a player may have other reasons for owning them, so drop those manually if not needed.",
+      "translation": "* 替换同名但耐久较低的物品。此过程忽略失效部件，因为玩家可能有其他理由保留它们；不需要时请手动丢弃。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1031:item-1"
+      ]
+    },
+    {
+      "line_start": 1227,
+      "line_end": 1227,
+      "source": "* Replace a different part that has the same type of effect, but that effect is not as powerful, regardless of the two parts' respective integrity. This mostly applies to utilities. If more than one part has the same effect type, it will select the one with the worst value, breaking ties by choosing the one with the lowest integrity.",
+      "translation": "* 替换效果类型相同但效果较弱的其他部件，无论双方耐久如何。此规则主要适用于工具。若有多个同类效果部件，会选数值最差者；数值相同则选耐久最低者。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1033:item-1"
+      ]
+    },
+    {
+      "line_start": 1229,
+      "line_end": 1229,
+      "source": "* Replace a different part of the same subtype (ex: \"Energy Cannon\") where the old part has a lower integrity than any other of the same subtype with a lesser or equal effective rating. \"Effective Rating\" equals rating, +1 for prototypes. Ties among potential swap targets are broken by choosing the one with the lowest effective rating. This step is skipped by utilities and any parts with an effect, except treads. Weapon subtypes are compared and replaced only if they inflict the same type of damage. And because the only intent behind power source subtypes is to convey a general range of ratings, their subtypes are not treated as separate categories when analyzing potential replacement candidates.",
+      "translation": "* 替换同一子类型（如“能量炮”）的其他部件：旧部件耐久须低于所有评级不高于它的同类部件。“有效评级”等于评级，原型额外+1。多个候选时选择有效评级最低者。工具和有特殊效果的部件（履带除外）跳过此步骤。武器只有伤害类型相同时才比较并替换子类型。能量源子类型仅表示大致评级范围，因此分析替换候选时不视为独立类别。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1035:item-1"
+      ]
+    },
+    {
+      "line_start": 1231,
+      "line_end": 1231,
+      "source": "* Armor without any special effect is replaced by other such armor, comparing purely for current integrity (rating is ignored, except to break ties).",
+      "translation": "* 没有特殊效果的装甲仅与同类装甲互换，只比较当前耐久（评级仅用于打破平局）。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1037:item-1"
+      ]
+    },
+    {
+      "line_start": 1262,
+      "line_end": 1262,
+      "source": "  Slots        .po(wer)",
+      "translation": "槽位   .po(wer)",
+      "kind": "translated",
+      "reason": "Reuse existing “槽位”; preserve the filter syntax exactly.",
+      "covers_item_ids": [
+        "manual-1068:row-1"
+      ]
+    },
+    {
+      "line_start": 1266,
+      "line_end": 1266,
+      "source": "  Type         .mat(ter)",
+      "translation": "类型   .mat(ter)",
+      "kind": "translated",
+      "reason": "Reuse existing “类型”; preserve the filter syntax exactly.",
+      "covers_item_ids": [
+        "manual-1070:row-1"
+      ]
+    },
+    {
+      "line_start": 1286,
+      "line_end": 1286,
+      "source": "  Damage Type  .ki",
+      "translation": "伤害类型   .ki",
+      "kind": "translated",
+      "reason": "Reuse existing “伤害类型”; preserve the filter syntax exactly.",
+      "covers_item_ids": [
+        "manual-1072:row-1"
+      ]
+    },
+    {
+      "line_start": 1297,
+      "line_end": 1298,
+      "source": "  Integrity    .X%, where X is a minimum percentage of remaining\n                integrity from 1~100",
+      "translation": "耐久   .X%，X为剩余耐久百分比下限（1~100）",
+      "kind": "translated",
+      "reason": "Translate the filter explanation while preserving its .X% syntax and range; merge with the following physical continuation line 1298 for a complete cell.",
+      "covers_item_ids": [
+        "manual-1074:row-1"
+      ]
+    },
+    {
+      "line_start": 1300,
+      "line_end": 1301,
+      "source": "  Other        .uni(que) retains only items which cannot spawn as\n                random drops",
+      "translation": "其他   .uni(que)仅保留不会作为随机掉落生成的物品",
+      "kind": "translated",
+      "reason": "Translate the explanation and retain the .uni(que) filter syntax; merge the physical continuation “random drops” at line 1301.",
+      "covers_item_ids": [
+        "manual-1076:row-2"
+      ]
+    },
+    {
+      "line_start": 1303,
+      "line_end": 1303,
+      "source": "Multiple special filters can be combined with one another, as well as used alongside name filters if desired, again using a comma to delineate separate filters. For example \"rifle,.th\" would list any items with \"rifle\" in the name which are also capable of dealing thermal damage. Or \".hov,5,70%\" would list all hover propulsion of at least rating 5 with a minimum of 70% current integrity. Notice that it's not necessary to repeat the '.' filter prefix for subsequent filters.",
+      "translation": "可组合多个特殊筛选器，也可与名称筛选器一起使用；不同条件仍以逗号分隔。例如“rifle,.th”会列出名称含“rifle”且能造成热伤害的物品；“.hov,5,70%”会列出评级至少5、当前耐久至少70%的悬浮推进部件。后续筛选器无需重复输入“.”前缀。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1079:item-1"
+      ]
+    },
+    {
+      "line_start": 1309,
+      "line_end": 1309,
+      "source": "Items are ordered by their current direct distance from your position, near to far, not taking into account walls or available paths. Those items currently within Cogmind's FOV display their distance in blue, whereas those outside FOV display it in a shade of gray depending on distance. To the right of each item is its last known integrity, if available.",
+      "translation": "物品按当前位置到你的直线距离由近到远排序，不考虑墙壁或可行路径。当前位于Cogmind视野内的物品以蓝色显示距离，视野外则按距离以不同深浅的灰色显示。每件物品右侧会显示其已知的最近耐久（若有）。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1085:item-1"
+      ]
+    },
+    {
+      "line_start": 1387,
+      "line_end": 1387,
+      "source": "* itemLabelIntegrityPercentCutoff: When mass labeling map items, only label those with at least this integrity percentage (0 to label always label items regardless of integrity).",
+      "translation": "* itemLabelIntegrityPercentCutoff：批量标记地图物品时，仅标记耐久至少达到此百分比的物品。设为0则无论耐久都标记。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1163:item-1"
+      ]
+    },
+    {
+      "line_start": 1397,
+      "line_end": 1397,
+      "source": "* mapLabelsShowIntegrity: Item and robot popup labels also include the object's remaining integrity, if not currently at max.",
+      "translation": "* mapLabelsShowIntegrity：物品和机器人弹出标签也显示剩余耐久（若未满）。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1173:item-1"
+      ]
+    },
+    {
+      "line_start": 1399,
+      "line_end": 1399,
+      "source": "* itemLabelIntegrityPercent: Map item labels show percentage integrity instead of raw integrity value. Requires mapLabelsShowIntegrity.",
+      "translation": "* itemLabelIntegrityPercent：地图物品标签显示耐久百分比，而非原始数值。需启用mapLabelsShowIntegrity。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1175:item-1"
+      ]
+    },
+    {
+      "line_start": 1479,
+      "line_end": 1479,
+      "source": "* percentCorePopup: In Tactical HUD mode, force core integrity popups that appear next to robots taking damage to display as a percentage rather than actual integrity.",
+      "translation": "* percentCorePopup：战术HUD中，强制机器人受损时旁边的核心耐久弹窗显示百分比而非实际数值。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1255:item-1"
+      ]
+    },
+    {
+      "line_start": 1485,
+      "line_end": 1485,
+      "source": "* partDamageIndicatorsRetained: In Tactical HUD mode, damaged parts retain a box around their integrity indicator until your next action.",
+      "translation": "* partDamageIndicatorsRetained：战术HUD中，受损部件的耐久指示框会保留至你的下一次行动。",
+      "kind": "translated",
+      "reason": "Normalize source term integrity to 耐久 and system corruption to 系统损坏, preserving the existing Chinese translation and all other wording.",
+      "covers_item_ids": [
+        "manual-1261:item-1"
+      ]
+    },
+    {
+      "line_start": 1833,
+      "line_end": 1833,
+      "source": "                        Esc \\ ? \\ F1   Help/Options",
+      "translation": "Esc \\ ? \\ F1   帮助/选项",
+      "kind": "preserved",
+      "reason": "Keep the full keyboard-input column verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1601:row-3"
+      ]
+    },
+    {
+      "line_start": 1854,
+      "line_end": 1854,
+      "source": " Map",
+      "translation": "地图",
+      "kind": "translated",
+      "reason": "Translate the standalone Map section heading.",
+      "covers_item_ids": [
+        "manual-1609:item-1"
+      ]
+    },
+    {
+      "line_start": 1856,
+      "line_end": 1856,
+      "source": "  Alt-Move Keys \\ Accent + Move Keys   Shift map view",
+      "translation": "Alt-移动键 \\ 重音键 + 移动键   平移地图视图",
+      "kind": "translated",
+      "reason": "root-review-required: translate Move Keys and Accent; preserve the modifier/key operators.",
+      "covers_item_ids": [
+        "root-review-required:1856-1856"
+      ]
+    },
+    {
+      "line_start": 1863,
+      "line_end": 1863,
+      "source": "                          RMB (Hold)   Set view centerpoint",
+      "translation": "RMB（按住）   设置视野中心",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1615:row-2"
+      ]
+    },
+    {
+      "line_start": 1864,
+      "line_end": 1864,
+      "source": "                              Accent   Toggle mapshift mode",
+      "translation": "重音键   切换地图平移模式",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1615:row-3"
+      ]
+    },
+    {
+      "line_start": 1872,
+      "line_end": 1872,
+      "source": "           Tab \\ -/= \\ KP-/+ \\ Wheel   Cycle item label category",
+      "translation": "Tab \\ -/= \\ KP-/+ \\ 滚轮   切换物品标签类别",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1617:row-7"
+      ]
+    },
+    {
+      "line_start": 1875,
+      "line_end": 1877,
+      "source": "                     Ctrl-Alt (Hold)   Highlight path to cursor,\n                                         or set keyboard path\n                                         and any cave-in areas",
+      "translation": "Ctrl-Alt（按住）   高亮至光标的路径，或设置键盘路径及所有塌方区域。",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1619:row-2"
+      ]
+    },
+    {
+      "line_start": 1878,
+      "line_end": 1878,
+      "source": "                                   x   Examine (look) mode",
+      "translation": "x   检查（查看）模式",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1620:row-1"
+      ]
+    },
+    {
+      "line_start": 1882,
+      "line_end": 1883,
+      "source": "                                         (outside examine mode\n                                         repeats last destination)",
+      "translation": "（检查模式外重复上个目的地）",
+      "kind": "translated",
+      "reason": "Merge the full two-line parenthetical note; keep its parentheses.",
+      "covers_item_ids": [
+        "manual-1621:item-1",
+        "manual-1621:item-2"
+      ]
+    },
+    {
+      "line_start": 1885,
+      "line_end": 1885,
+      "source": "                                   m   Map intel overlays",
+      "translation": "m   地图情报叠层",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1622:row-2"
+      ]
+    },
+    {
+      "line_start": 1891,
+      "line_end": 1891,
+      "source": "        KP# \\ LMB \\ Arrows \\ vi-keys   Move",
+      "translation": "KP# \\ LMB \\ 方向键 \\ vi-keys   移动",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1626:row-1"
+      ]
+    },
+    {
+      "line_start": 1894,
+      "line_end": 1894,
+      "source": "         Shift-KP# \\ r-Arrows \\ r-vi   Run (r/Esc cancels)",
+      "translation": "Shift-KP# \\ r-方向键 \\ r-vi   奔跑（r/Esc取消）",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1628:row-1"
+      ]
+    },
+    {
+      "line_start": 1895,
+      "line_end": 1897,
+      "source": "                         < \\ > \\ LMB   Up stairs / To branch /\n                                         Trigger/Install trap /\n                                         Release drones",
+      "translation": "< \\ > \\ LMB   上楼/进入分支/触发或安装陷阱/释放无人机",
+      "kind": "translated",
+      "reason": "root-review-required: preserve the actual key/mouse inputs, translate the complete three-line action list.",
+      "covers_item_ids": [
+        "manual-1628:row-2"
+      ]
+    },
+    {
+      "line_start": 1904,
+      "line_end": 1905,
+      "source": "                                         (repeat if slots full\n                                         for manual ground swap)",
+      "translation": "（槽位满时重复可手动替换地面物品）",
+      "kind": "translated",
+      "reason": "Merge the full two-line parenthetical note; keep its parentheses.",
+      "covers_item_ids": [
+        "manual-1633:item-1",
+        "manual-1633:item-2"
+      ]
+    },
+    {
+      "line_start": 1922,
+      "line_end": 1922,
+      "source": "                                   s   Set view centerpoint",
+      "translation": "s   设置视野中心",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1642:row-3"
+      ]
+    },
+    {
+      "line_start": 1938,
+      "line_end": 1938,
+      "source": "                        Drag to Slot   Swap/Reassign",
+      "translation": "拖至槽位   替换/重新指派",
+      "kind": "translated",
+      "reason": "root-review-required: translate the plain-language drag instruction and its action labels.",
+      "covers_item_ids": [
+        "root-review-required:1938-1938"
+      ]
+    },
+    {
+      "line_start": 1942,
+      "line_end": 1942,
+      "source": "                   Drag to Inventory   Detach",
+      "translation": "拖至库存   卸下",
+      "kind": "translated",
+      "reason": "root-review-required: translate the plain-language drag instruction; action “Detach” reuses the established 卸下 term.",
+      "covers_item_ids": [
+        "root-review-required:1942-1942"
+      ]
+    },
+    {
+      "line_start": 1943,
+      "line_end": 1943,
+      "source": "                         Drag to Map   Drop",
+      "translation": "拖至地图   丢弃",
+      "kind": "translated",
+      "reason": "root-review-required: translate the plain-language drag instruction and action label.",
+      "covers_item_ids": [
+        "root-review-required:1943-1943"
+      ]
+    },
+    {
+      "line_start": 1944,
+      "line_end": 1944,
+      "source": "                         , + Alt-a~z   Detach-drop",
+      "translation": ", + Alt-a~z   卸下并丢弃",
+      "kind": "preserved",
+      "reason": "Keep the full keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1652:row-10"
+      ]
+    },
+    {
+      "line_start": 1947,
+      "line_end": 1947,
+      "source": "                                   ;   Cycle propulsion mode",
+      "translation": ";   切换推进模式",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1652:row-13"
+      ]
+    },
+    {
+      "line_start": 1948,
+      "line_end": 1948,
+      "source": "                                   \"   Toggle utilities w/upkeep",
+      "translation": "\"   切换有维护耗能的功能件",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1652:row-14"
+      ]
+    },
+    {
+      "line_start": 1949,
+      "line_end": 1949,
+      "source": "                                   '   Toggle all weapons",
+      "translation": "'   切换所有武器",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1652:row-15"
+      ]
+    },
+    {
+      "line_start": 1950,
+      "line_end": 1950,
+      "source": "                                   :   Sort by subtype",
+      "translation": ":   按子类型排序",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1652:row-16"
+      ]
+    },
+    {
+      "line_start": 1951,
+      "line_end": 1951,
+      "source": "                                   p   Modal part management",
+      "translation": "p   弹窗式部件管理",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1652:row-17"
+      ]
+    },
+    {
+      "line_start": 1953,
+      "line_end": 1953,
+      "source": "                                   c   Visualization: Coverage",
+      "translation": "c   显示：覆盖权重",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1652:row-19"
+      ]
+    },
+    {
+      "line_start": 1955,
+      "line_end": 1955,
+      "source": "                                   e   Visualization: Energy",
+      "translation": "e   显示：能量",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1654:row-1"
+      ]
+    },
+    {
+      "line_start": 1957,
+      "line_end": 1957,
+      "source": "                                   w   Visualization: Integrity",
+      "translation": "w   显示：耐久",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1656:row-1"
+      ]
+    },
+    {
+      "line_start": 1959,
+      "line_end": 1959,
+      "source": "                                   q   Visualization: Info",
+      "translation": "q   显示：信息",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1658:row-1"
+      ]
+    },
+    {
+      "line_start": 1964,
+      "line_end": 1964,
+      "source": "                                   i   Open/close inventory",
+      "translation": "i   打开/关闭库存",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1663:row-1"
+      ]
+    },
+    {
+      "line_start": 1966,
+      "line_end": 1966,
+      "source": "                         ]/[ \\ Wheel   Scroll (+Ctrl for page)",
+      "translation": "]/[ \\ 滚轮   滚动（Ctrl翻页）",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1665:row-1"
+      ]
+    },
+    {
+      "line_start": 1967,
+      "line_end": 1967,
+      "source": "                                   t   Type Sort (again to reverse)",
+      "translation": "t   按类型排序（再次反转）",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1665:row-2"
+      ]
+    },
+    {
+      "line_start": 1969,
+      "line_end": 1969,
+      "source": "                  Drag to Parts List   Attach",
+      "translation": "拖至部件列表   装配",
+      "kind": "translated",
+      "reason": "root-review-required: translate the plain-language drag instruction; reuse glossary term 装配.",
+      "covers_item_ids": [
+        "root-review-required:1969-1969"
+      ]
+    },
+    {
+      "line_start": 1971,
+      "line_end": 1971,
+      "source": "               Alt-1~0 \\ Drag to Map   Drop",
+      "translation": "Alt-1~0 \\ 拖至地图   丢弃",
+      "kind": "translated",
+      "reason": "root-review-required: preserve the key sequence and translate the human operation label Drag to Map.",
+      "covers_item_ids": [
+        "root-review-required:1971-1971"
+      ]
+    },
+    {
+      "line_start": 1979,
+      "line_end": 1979,
+      "source": "                                 End   End",
+      "translation": "End   跳至末尾",
+      "kind": "translated",
+      "reason": "Preserve End as the keyboard key name and translate the unresolved action cell as requested.",
+      "covers_item_ids": [
+        "manual-1669:row-3"
+      ]
+    },
+    {
+      "line_start": 1985,
+      "line_end": 1985,
+      "source": "                                   o   Order mode",
+      "translation": "o   指令模式",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1673:row-1"
+      ]
+    },
+    {
+      "line_start": 1986,
+      "line_end": 1986,
+      "source": "                         -/= \\ Wheel   Scroll",
+      "translation": "-/= \\ 滚轮   滚动",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1673:row-2"
+      ]
+    },
+    {
+      "line_start": 1989,
+      "line_end": 1989,
+      "source": "                                   r   Order all repairs",
+      "translation": "r   下达全部维修指令",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1673:row-5"
+      ]
+    },
+    {
+      "line_start": 1991,
+      "line_end": 1991,
+      "source": "    Shift-Alt-o (Hold) \\ Hover [ALL]   Show orders",
+      "translation": "Shift-Alt-o（按住） \\ 悬停[全部]   显示指令",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1673:row-7"
+      ]
+    },
+    {
+      "line_start": 1995,
+      "line_end": 1995,
+      "source": "                                   m   Map intel mode toggle",
+      "translation": "m   切换地图情报模式",
+      "kind": "preserved",
+      "reason": "Keep the keyboard input verbatim; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1677:row-1"
+      ]
+    },
+    {
+      "line_start": 1996,
+      "line_end": 1996,
+      "source": "                         -/= \\ Wheel   Scroll",
+      "translation": "-/= \\ 滚轮   滚动",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1677:row-2"
+      ]
+    },
+    {
+      "line_start": 2003,
+      "line_end": 2003,
+      "source": "                         -/= \\ Wheel   Scroll",
+      "translation": "-/= \\ 滚轮   滚动",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1681:row-1"
+      ]
+    },
+    {
+      "line_start": 2007,
+      "line_end": 2007,
+      "source": "                         -/= \\ Wheel   Scroll",
+      "translation": "-/= \\ 滚轮   滚动",
+      "kind": "translated",
+      "reason": "root-review-required: preserve keys/modifiers and translate natural operation labels such as Hold, Arrows, Wheel, and Hover.",
+      "covers_item_ids": [
+        "manual-1685:row-1"
+      ]
+    },
+    {
+      "line_start": 2013,
+      "line_end": 2013,
+      "source": "                              Delete   Delete character at caret",
+      "translation": "Delete   删除光标处字符",
+      "kind": "preserved",
+      "reason": "Keep Delete as the keyboard key name; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1689:row-3"
+      ]
+    },
+    {
+      "line_start": 2014,
+      "line_end": 2014,
+      "source": "                           Backspace   Delete last character",
+      "translation": "Backspace   删除末尾字符",
+      "kind": "preserved",
+      "reason": "Keep Backspace as the keyboard key name; reuse the existing Chinese action label.",
+      "covers_item_ids": [
+        "manual-1689:row-4"
+      ]
+    }
+  ],
+  "layout_override_summary": {
+    "unresolved_logical_items": 70,
+    "layout_overrides": 118,
+    "translated": 79,
+    "preserved": 39,
+    "merged_item_pairs": 2,
+    "additional_root_review_overrides": 9,
+    "terminology_normalizations_added": 41
+  }
+}

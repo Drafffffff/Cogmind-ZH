@@ -1,0 +1,60 @@
+{
+  "title": "Advanced Help page 1 line-context translation candidates",
+  "status": "Candidate only; source rows checked against captured live grid. Integrate selectively into runtime/manual table after layout review.",
+  "source_evidence": "analysis/native-evidence/advanced-help-source-audit.json",
+  "candidate_rows": [
+    {
+      "row": 3,
+      "source": "?               KP-/+ \\ Wheel   Scroll           ??            -/= \\ Wheel   Scroll                ? ( available matter )",
+      "candidate": "?               小键盘-/+ \\ 滚轮   翻页           ??            -/= \\ 滚轮   翻页                ?（可用物质量）",
+      "notes": "Wheel is mouse-wheel input in these controls. Preserve KP-/+, -/=."
+    },
+    {
+      "row": 5,
+      "source": "?                         End   End              ??                                                ? ( temperature/heat level )",
+      "candidate": "?                         End   跳至末尾              ??                                                ?（温度/热量）",
+      "notes": "Keep the first End as the physical key name; translate the second as the log destination."
+    },
+    {
+      "row": 13,
+      "source": "Alt-Move Keys \\ Accent + Move Keys   Shift Map View (vi requires +Shift              ?              Ctrl-a~z \\ LMB   Toggle State",
+      "candidate": "Alt+移动键 \\ 重音键+移动键   平移地图（地图平移模式外，              ?              Ctrl+a~z \\ 左键 切换状态",
+      "notes": "Here “Shift” is a verb meaning pan/shift the map, not the Shift key. Parenthetical instruction continues on row 14."
+    },
+    {
+      "row": 14,
+      "source": "outside Mapshift Mode)                        ?          Ctrl-Shift-a~z/1~0   Swap/Reassign",
+      "candidate": "vi 键需加按 Shift）                        ?          Ctrl+Shift+a~z/1~0   交换/重新分配",
+      "notes": "Together with row 13: “平移地图（地图平移模式外，vi 键需加按 Shift）”. Do not leave the Mapshift mode name in English."
+    },
+    {
+      "row": 21,
+      "source": "z \\ Shift-Wheel   Zoom Map                                        ?                           \\\"   Toggle Utilities w/Upkeep",
+      "candidate": "z \\ Shift+滚轮   缩放地图                                        ?                           \\\"   切换维护型设备",
+      "notes": "Contextual mouse-wheel input; preserve z and Shift."
+    },
+    {
+      "row": 31,
+      "source": "KP5 \\ . \\ Wheel   Wait",
+      "candidate": "KP5 \\ . \\ 滚轮   等待",
+      "notes": "Here Wheel is an input binding. Keep the physical key and punctuation bindings."
+    },
+    {
+      "row": 34,
+      "source": "]/[ \\ Wheel   Scroll (+Ctrl for Page)",
+      "candidate": "]/[ \\ 滚轮   滚动（+Ctrl 翻页）",
+      "notes": "Inventory navigation; Wheel means mouse wheel."
+    },
+    {
+      "row": 43,
+      "source": "KP = Keypad/Numpad       LMB/CMB/RMB = Left/Center/Right Mouse Button        Wheel = Mouse Wheel",
+      "candidate": "KP = 小键盘       LMB/CMB/RMB = 鼠标左键/中键/右键        Wheel = 鼠标滚轮",
+      "notes": "Explicit legend provides unambiguous device meaning. Leave key abbreviations intact."
+    }
+  ],
+  "review_notes": [
+    "Candidates cover the evidenced semantics and are not a claim that every Advanced Help line is localized.",
+    "Avoid changing global Wheel entries used for Wheel/Wheeled movement-part names.",
+    "Inspect rendered line widths before runtime integration; candidate wording may need compacting to fit the 160-column grid."
+  ]
+}

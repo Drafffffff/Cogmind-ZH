@@ -1,0 +1,32 @@
+English	简体中文	说明
+Cogmind	Cogmind	暂保留游戏名与主角专名
+part	部件	可装配的动力、推进、功能或武器部件
+attach	装配	区别于仅拾取到库存
+detach	卸下	从机体移回库存
+integrity	耐久	不译为完整性或生命
+core	核心	主机核心
+coverage	覆盖权重	部件相对中弹概率的权重；不是减伤率
+matter	物质	装配和实弹武器消耗的资源
+energy	能量	供能资源
+heat	热量	区别于temperature温度
+system corruption	系统损坏	软件层面的损坏百分比，区别于耐久
+power	动力	供能部件分类
+propulsion	推进	移动部件分类
+utility	功能	分类短标题；完整名为功能部件
+inventory	库存	未装配物品栏
+rating	评级	物品性能等级
+salvage	回收	属性标题暂译；具体效果随上下文细化
+penetration	贯穿	武器贯穿属性
+piercing	穿刺	近战伤害类型，与贯穿属性区分
+ballistic	实弹	区别于能量武器
+terminal	终端	黑客入侵机器
+security level	安全等级	终端安全属性
+alert level	警戒等级	地区警戒状态
+schematic	图纸	制造配方
+prototype	原型	原型部件与识别资料
+fabricator	制造机	制造部件/机器人设施
+repair station	维修站	维修设施
+recycling unit	回收机	回收设施
+garrison	驻防站	驻防设施
+Scanalyzer	扫描分析仪	设施名暂定
+restore point	还原点	区别于常规存档

@@ -1,0 +1,500 @@
+General UI layout, to adjust the balance between easy access to info vs text/tile size. Cogmind was originally designed for the Full layout, but as that arrangement is only suitable for players with physically large displays, other options allow one to hide info in modal windows in exchange for increased text size. Changing this requires manual restart to take effect.	通用界面布局，用于平衡信息易取程度与文字/地图格大小。Cogmind最初按完整布局设计，但该布局只适合实体屏幕较大的玩家。其他布局可将信息移入弹窗，以换取更大的文字。更改后须手动重启游戏才会生效。
+HUD information is more detailed in tactical mode. Speed-related variables are shown in real time unit costs, energy and heat change predictions shown for both stationary (per turn) and mobile (per move) circumstances (latter suffers short-term inaccuracies due to averaging), items display rating as part of their respective map labels, and more. For advanced players.	战术模式下HUD信息更详细：速度相关变量以实时单位行动耗时显示；能量和热量变化预测同时显示静止（每回合）与移动（每步）情况（后者因平均计算会有短期误差）；物品评级也会显示在对应地图标签中，等等。适合进阶玩家。
+Upload score sheet on death or victory for leaderboard inclusion and stat analysis (requires active internet connection). Scores for anonymous players are not uploaded, and by law you must be at least {n} years of age to activate uploads. See COGMIND-README.txt for information on the privacy policy. Leaderboards can be found here: gridsagegames.com/cogmind/scores/	死亡或胜利时上传成绩单，以参与排行榜并进行数据分析（需联网）。匿名玩家的成绩不会上传。根据法律规定，启用上传者必须年满{n}岁。隐私政策见COGMIND-README.txt。排行榜地址：gridsagegames.com/cogmind/scores/
+{n}% chance to use a melee weapon to deflect each incoming projectile, with a second melee weapon adding {n}%, and an additional {n}% for each after that. For example, three melee weapons have a collective {n}% chance to deflect each projectile. Melee weapons successfully deflecting projectiles in this manner have a {n}% chance to take {n} damage each time.	每发来袭弹丸都有{n}%几率被近战武器格挡；第二把近战武器额外增加{n}%，之后每把再增加{n}%。例如，三把近战武器合计有{n}%几率格挡每发弹丸。以此方式成功格挡弹丸的近战武器，每次有{n}%几率受到{n}点伤害。
+On certain monitors, tileset users might benefit from an increase in floor brightness to better differentiate current FOV from explored areas. Each level slightly increases the brightness of floor and debris tiles. Note that while this feature is meant for use in tileset mode, increasing it also adjusts the ASCII floor color (which doesn't really need it).	某些显示器上的图块模式用户可调高地面亮度，以便区分当前视野与已探索区域。每级都会略微提高地面和碎片图块的亮度。此功能原为图块模式设计，但调高后ASCII模式的地面颜色也会改变（通常无需调整）。
+Download Complex 0b10 records about the given robot variant, conferring +{n}% to hit and +{n}% damage against it, as well as {n}% to its accuracy when under fire from one. When manually hacking for analyses, a general robot class name can be entered instead of a specific variant in order to automatically choose a variant relevant at the current depth.	下载关于指定机器人型号的Complex 0b10记录，使你对其命中率提高+{n}%、伤害提高+{n}%，且其攻击你时的命中率降低{n}%。手动入侵分析资料时，可输入通用机器人类别名而非具体型号，系统会自动选择适合当前深度的型号。
+Automatically upload a small log file if the game crashes to help remove the problem from future releases (requires active internet connection). Upload contains no personal information--pure game log text only (see run.log). Note that the crash log does not upload until the next time Cogmind is run, to ensure a stable upload environment.	游戏崩溃时自动上传一份小型日志，帮助在后续版本中修复问题（需联网）。上传内容不含个人信息，只有游戏日志文本（见run.log）。为确保上传环境稳定，崩溃日志会在下次启动Cogmind时上传。
+AOE damage is often spread across each target in the area of effect, dividing the damage into separate chunks before affecting a robot, where each chunk of damage selects its own target part (though they may overlap). Some explosive effects have a static number of chunks, while others randomly select from within a range for each attack.	范围伤害通常会分摊给范围内各目标：先拆分为若干伤害段，再影响机器人，每段伤害各自选择一个目标部件（可能重复）。部分爆炸效果的伤害段数量固定，其他效果则会在每次攻击时从指定范围内随机选取。
+Hides the cursor and enables keyboard-controlled map look functionality. For hardcore keyboard-only players (playing this way is FAST). Note that in Keyboard Mode, context help in the status/data windows is still available via up/down arrows. Pressing F2 while on the main interface also swaps in and out of this mode for convenience.	隐藏光标并启用键盘控制的地图查看功能，适合只用键盘的硬核玩家（这种玩法很快）。键盘模式下，仍可用上下方向键查看状态/数据窗口的上下文帮助。在主界面按F2也可便捷切换此模式。
+Stability represents the ability of this power source to generate energy while overloaded without suffering any negative side-effects. Overloading doubles output and heat. If N/A, this power source cannot be overloaded; only cooled power sources support overloading. Activate an applicable power source a second time to overload it.	稳定性表示动力源过载时持续供能且不产生负面副作用的能力。过载会使输出和热量翻倍。若显示N/A，则该动力源无法过载；只有冷却型动力源支持过载。再次启用适用的动力源即可使其过载。
+Makes color-based adjustments to the interface that may help some players. Neutral 0b10 bots show as light gray instead of green, most orange UI colors instead appear azure blue, and most green is converted to light gray. Fully applying this option requires a manual restart. See the manual's Accessibility section for more info.	调整界面配色，可能会对部分玩家有所帮助。中立的0b10机器人会显示为浅灰色而非绿色；多数橙色界面元素改为蔚蓝色，多数绿色改为浅灰色。完全应用此选项需手动重启。详情见手册的“无障碍”章节。
+Download the given schematic, making it possible to build this robot at a Fabricator. Review all known schematics from the Status window. When manually hacking for schematics, a general robot class name can be entered instead of a specific variant in order to automatically choose a variant relevant at the current depth.	下载指定图纸，即可在制造机制造该机器人。在状态窗口查看所有已知图纸。手动入侵获取图纸时，可输入通用机器人类别名而非具体型号，系统会自动选择适合当前深度的型号。
+Automatically check for a new version of Cogmind each time the game is run (requires active internet connection). All this feature does is check www.gridsagegames.com for the newest release number and possibly some game-related news. If a newer version is available, a notice will appear in the log and on the News page.	每次启动游戏时自动检查Cogmind是否有新版本（需联网）。此功能只会查询www.gridsagegames.com上的最新版本号及游戏相关新闻。若有新版，日志和新闻页面会显示提示。
+Enables intermittent audiovisual glitch effects while system corrupted (the frequency of glitches is based on corruption level). This is intended for immersion and as a reminder of corruption, but you can turn it off if it's annoying. Disabling it also disables the window border animation when taking EM damage.	系统损坏时启用间歇性视听故障效果（频率取决于损坏程度）。此功能用于增强沉浸感并提醒你系统受损；若觉得烦人，可以关闭。关闭后，受到电磁伤害时的窗口边框动画也会停用。
+Deactivate fullscreen mode to play in a window. In windowed mode you may want to select a smaller font, or reduce the map size as desired ({n}x{n} map recommended, though with the game closed /user/system.cfg can be edited to adjust the map size). Use borderless fullscreen mode for better multimonitor support.	关闭全屏模式，以窗口模式游玩。窗口模式下可选择较小字体，或按需缩小地图（建议地图大小为{n}x{n}；关闭游戏后也可编辑/user/system.cfg调整地图大小）。多显示器用户可使用无边框全屏模式。
+Ballistic weapons generally have a longer effective range and more destructive critical strikes, but suffer from less predictable damage and high recoil. Kinetic cannon hits also blast usable matter off target robots and have a chance to cause knockback depending on damage, range, and size of the target.	实弹武器通常有效射程更远、暴击破坏力更强，但伤害较难预测且后坐力大。动能炮命中时还会从目标机器人身上击落可用物质，并可能根据伤害、射程和目标大小造成击退。
+Meant primarily as an accessibility feature akin to closed captions, this log lists sound effects at the top-right corner of the map view, allowing anyone who keeps their volume low or muted to be able to retain access to important audio knowledge. See the manual's Audio Log section for more information.	此日志主要用于无障碍辅助，类似隐藏式字幕。它会在地图视图右上角显示音效，让音量较低或静音的玩家也能获取重要声音信息。详情见手册的“音频日志”章节。
+Each flight or hover module beyond the first reduces the movement time cost by this amount, therefore increasing speed as more are attached. If not all active propulsion have the same modifier, their average value is used. Time/Move cannot normally be reduced below {n} when hovering, or {n} when flying.	首个飞行或悬浮模块以外的每个此类模块，都会按该数值降低移动耗时，从而使装配越多、速度越快。若启用的推进部件修正值不同，则取平均值。悬浮时每步耗时通常不低于{n}，飞行时不低于{n}。
+Robot size category determines their likeliness of being struck by both targeted and stray shots, as well as their chance to suffer knockback. Smaller robots do not necessarily occupy their entire position, see the manual under Combat > Targeting for more about how this affects lines of fire.	机器人尺寸类别决定其被瞄准射击和流弹击中的可能性，也影响其遭受击退的几率。小型机器人未必占满所在位置；此机制如何影响弹道，详见手册“战斗 > 瞄准”。
+Movement time penalty for being overweight, applied once if overweight at all. Penalty values for multiple different propulsion modules are averaged for calculation purposes. Further exceeding the mass support limit gradually continues to reduce speed depending on the amount of excess mass.	超重时的移动耗时惩罚，只要超重就会施加一次。多个不同推进模块的惩罚值会取平均计算。超过质量支撑上限越多，速度还会随超出质量逐步降低。
+Alpha Access participants who joined before the deadline each have their own randomly assigned personal item. This console also doubles as an item compendium in which you can view the art for all components you've ever attached while playing, and the total number of unique items attached.	在截止日期前加入早期测试资格计划的参与者各自拥有一件随机分配的专属物品。此终端也可作为物品图鉴，查看你曾装配过的所有部件图像及装配过的独特物品总数。
+A rigged power source has been converted into a proximity mine set to detonate when anyone hostile to the creator moves adjacent to it. These power sources can no longer be attached or used for their normal purpose, but can be safely picked up and relocated by anyone not deemed a threat.	被改装的动力源已变为近距感应地雷：任何对布设者怀有敌意的单位靠近时便会引爆。此类动力源无法装配或正常使用，但不会被视为威胁的单位仍可安全拾取并搬走。
+Chance for this weapon to instantly destroy the hit component, or even a robot core. (Cogmind is less susceptible to this effect, which can only destroy those parts which are already below {n}% integrity when hit.) Armor is immune to this effect, instead taking an additional {n}% damage.	此武器瞬间摧毁命中部件、甚至机器人核心的几率。（Cogmind较不易受此效果影响；命中时只能摧毁耐久已低于{n}%的部件。）护甲对此效果免疫，但会额外受到{n}%伤害。
+Relative heat transferred to a target, where each projectile impact heats it up separately. Also the base chance to melt a part on a robot that is already overheating at the time of heat transfer. Overloaded thermal weapons transfer heat at one level higher than their normal amount.	传递给目标的相对热量，每发弹丸命中都会分别加热目标。目标在传热时已过热的情况下，此值也是部件熔毁的基础几率。过载的热能武器传热等级比正常状态高一级。
+While active, not considered a threat to Complex 0b10, but loses validity with each move. Validity expires more quickly while moving in view of 0b10 combat or security bots, and attacking any target immediately invalidates the mask. Also prevents Complex 0b10 traps from triggering.	启用时不会被Complex 0b10视为威胁，但每次移动都会降低伪装有效性。在0b10战斗或安保机器人视野内移动会更快失效；攻击任何目标会立即使伪装失效。也可防止触发Complex 0b10陷阱。
+Chance this projectile may penetrate each consecutive object it hits, e.g. {n} / {n} / {n} may pass through up to three objects, with a {n}% chance for the first, followed by {n}% and {n}% for the remaining two. Huge robots count as a single object for penetration purposes.	此弹丸穿透每个连续命中物体的几率。例如，{n}/{n}/{n}表示最多穿透三个物体，依次有{n}%、{n}%和{n}%几率。计算穿透时，大型机器人视为单个物体。
+Amount by which the salvage potential of a given robot is affected each time shot by a projectile from this weapon. While usually negative, reducing the amount of usable salvage, some special weapons may increase salvage by disabling a robot with minimal collateral damage.	此武器的弹丸每次命中时，对目标机器人的可回收价值造成的影响。通常为负值，会减少可用回收物；部分特殊武器可用极少附带破坏使机器人失能，从而提高回收量。
+Number of milliseconds for which to block all movement commands after seeing a new enemy (or only non-disarmed threats if Stop on Threats Only is on). Enemies that move in and out of view will not trigger the block until they haven't been seen for at least {n} turns.	发现新敌人后（若启用“仅对威胁停止”，则只针对未解除武装的威胁），阻止所有移动指令的时长，单位为毫秒。敌人离开视野又重新出现时，若间隔不足{n}回合，不会触发阻止。
+Amount by which the salvage potential of a given robot is affected by being engulfed in this explosion. While usually negative, reducing the amount of usable salvage, some special weapons may increase salvage by disabling a robot with minimal collateral damage.	目标机器人被此爆炸吞没时，其可回收价值受到的影响。通常为负值，会减少可用回收物；部分特殊武器可用极少附带破坏使机器人失能，从而提高回收量。
+Reinforcements dispatched by Heavies due to sensor detection of anyone using a Spoofer instead target some area on the opposite side of the Heavy from where the actual detection is made, where possible, or at closest will target the Heavy's position itself.	重型机器人通过传感器发现有人使用干扰器后派出的增援，会尽可能转向重型机器人侦测点的对侧区域；若无法做到，则瞄准重型机器人所在位置。
+Determines how newly seen areas are added to the FOV. "Delay" waits until the end of an action, "Instant" updates every frame if obstacles were destroyed, and "Fade In" behaves like Instant but with a short animation for the transition from unseen to seen.	决定新发现区域如何加入视野。“延迟”会等到行动结束后更新；“即时”会在障碍物被摧毁时逐帧更新；“淡入”与即时相同，但会用短暂动画呈现视野变化。
+Amount by which the salvage potential of a given robot is affected each time hit by this weapon. While usually negative, reducing the amount of usable salvage, some special weapons may increase salvage by disabling a robot with minimal collateral damage.	此武器命中目标时，其可回收价值受到的影响。通常为负值，会减少可用回收物；部分特殊武器可用极少附带破坏使机器人失能，从而提高回收量。
+Amount of damage potential lost per space as the explosion expands from its origin. While targeting, this falloff is represented visually by the AOE color's brightness relative to the origin (this feature can be toggled via Explosion Predictions option).	爆炸从起点扩散时，每经过一格损失的伤害潜力。瞄准时，范围伤害颜色相对起点的亮度会显示衰减程度（可用“爆炸预测”选项切换此功能）。
+Number of milliseconds for which to highlight each space previously occupied by a robot as part of their motion trail. While active, hostile robots spotting you are indicated by exclamation points rather than glowing backgrounds to avoid color confusion.	机器人移动后，其先前占据的每格位置高亮显示的时长，单位为毫秒。启用时，为避免颜色混淆，发现你的敌对机器人会以感叹号而非发光背景提示。
+Color item labels by their respective integrity. Labels for items currently out of view appear slightly darker. Note that even while this option is inactive, the gray scheme's colors are darkened for those items with less than {n}% integrity remaining.	根据物品耐久为标签着色。当前不在视野内的物品标签颜色会稍暗。即使关闭此选项，灰色配色方案仍会将耐久低于{n}%的物品颜色调暗。
+Relative heat transferred to a target, where a single explosion can only affect the target once regardless of how many chunks the damage is spread over. Also the chance to melt a part on a robot that is already overheating at the time of heat transfer.	传递给目标的相对热量；一次爆炸无论伤害分成多少段，都只会影响目标一次。目标在传热时已过热的情况下，此值也是部件熔毁几率。
+Automatically labels any robot or part under the examine mode cursor (in Keyboard Mode), or under the mouse cursor when not in Keyboard Mode (note that with the mouse cursor, holding Ctrl-Shift has the same effect even while this option is disabled).	在检查模式（键盘模式）下自动标记光标所指的机器人或部件；非键盘模式下则标记鼠标指针所指对象。（即使关闭此选项，按住Ctrl-Shift也可用鼠标光标标记。）
+Displays alpha supporter item attributions below the item info, and also whether you've attached that item to add it to your art gallery. Even without this option on, labels for items not previously collected are marked with a '!' following the name.	在物品信息下方显示Alpha支持者物品署名，并标明你是否装配过该物品，以便加入艺术画廊。即使关闭此选项，未收集过的物品名称后仍会标有“!”。
+Current font set, which indirectly determines the default dimensions of the window/interface. (Note: The smallest size, {n}, does not support tilesets and is therefore only available in ASCII mode. Also in modal UI layouts, the minimum size is {n}.)	当前字体组，同时也间接决定窗口/界面的默认尺寸。（注意：最小字号{n}不支持图块，只能用于ASCII模式。弹窗式界面布局的最小字号为{n}。）
+Explorer is relatively easy, Adventurer is fairly challenging, and Rogue is extremely hard (but is the mode Cogmind was designed for). See the manual for details about each mode. Changes to this setting will not take effect until starting a new run.	探索者难度较低，冒险者颇具挑战，浪人难度极高（也是Cogmind原本设计的模式）。各模式详情见手册。此设置要到开始新一轮游戏时才会生效。
+Thermal weapons generally have a shorter effective range, but benefit from a more easily predictable damage potential and little or no recoil. Thermal damage also generally transfers heat to the target, and may cause meltdowns in hot enough targets.	热能武器的有效射程通常较短，但伤害潜力更容易预测，且后坐力很小或没有。热能伤害通常也会向目标传递热量，可能使温度足够高的目标熔毁。
+This is a direct modifier to the time it takes to fire the weapon. Some weapons are inherently faster or slower to fire. Multiple negative-delay weapons cannot contribute more than {n} to the volley firing time, but positive values have no such cap.	直接修正武器开火所需时间。部分武器天生开火较快或较慢。多个负延迟武器对齐射开火时间的总贡献最多为{n}；正值则没有上限。
+Total angle within which projectiles are randomly distributed around the target, spreading them along an arc of a circle centered on the shot origin. Improved targeting has no effect on the spread, which is always centered around the line of fire.	弹丸围绕目标随机散布的总角度，形成以射击起点为中心的圆弧。改进瞄准不会影响散布；散布始终以弹道为中心。
+Energy drained by active propulsion units per move. The speed-adjusted per-turn value is shown in parenthesis. When slow, total movement costs are lower when averaged over multiple turns; when fast, they're higher due to multiple moves per turn.	启用的推进部件每步消耗的能量。括号内为按速度折算的每回合数值。速度较慢时，多回合平均移动耗能较低；速度较快时，每回合多次移动会使耗能更高。
+Enables full recovery of all salvagable parts from a target, which take no further damage from the salvaging process and cannot be fried, melted, or corrupted. No effect on matter recovery, and cannot interfere with self-destruction routines.	使目标所有可回收部件都能完整回收；回收过程不会再造成损坏，也不会烧毁、熔化或腐化部件。不影响物质回收，也无法阻止自毁程序。
+Heat generated by active propulsion units per move. The speed-adjusted per-turn value is shown in parenthesis. When slow, total heat generation is lower when averaged over multiple turns; when fast, it's higher due to multiple moves per turn.	启用的推进部件每步产生的热量。括号内为按速度折算的每回合数值。速度较慢时，多回合平均产热较低；速度较快时，每回合多次移动会使产热更高。
+Enables long-distance communication with Warlord forces to determine their composition and hiding locations. Toggle active state to temporarily list all squads in the area. If active while near a squad, will signal it to emerge and assist.	与军阀势力进行远距离通信，以获知其编制和藏身位置。切换启用状态可暂时列出区域内所有小队。若在小队附近启用，会发信号让其现身支援。
+Allow achievements to be earned even in challenge modes and special modes. Some are much easier in these modes compared to the regular game, even unintentionally, so a portion of players prefer to block them except when playing normally.	允许在挑战模式和特殊模式中获得成就。有些成就在这些模式中会容易得多，甚至并非刻意如此，因此部分玩家只想在普通模式游玩时获得成就。
+Actively interfere with the local combat network's offensive coordination calculations, reducing the accuracy of this bot by {n}%, and that of all 0b10 combat bots within a range of {n}. Effect stacks when installed on multiple bots.	主动干扰本地战斗网络的攻击协调计算，使此机器人的命中率降低{n}%，并降低{n}范围内所有0b10战斗机器人的命中率。多个机器人装配时效果叠加。
+Records the type and number of every part previously used, and provides access to information about each. Use letter keys to skip to parts beginning with that letter, and other directional/scrolling keys to navigate through the list.	记录曾使用过的每种部件及其数量，并可查看相关信息。按字母键跳到以该字母开头的部件，再用其他方向/滚动键浏览列表。
+Openly share the local combat network's defensive coordination values, giving yourself and all allies {n}% better accuracy against this and all 0b10 combat bots within a range of {n}. Effect stacks when installed on multiple bots.	公开共享本地战斗网络的防御协调数据，使你和所有友军对自身及{n}范围内所有0b10战斗机器人的命中率提高{n}%。多个机器人装配时效果叠加。
+Shows contextual tutorial messages in the log window. Each message is only shown once, but toggling this off and on again resets all message records, in addition to causing the next three runs to start in the tutorial map layout.	在日志窗口显示上下文教程消息。每条消息仅显示一次；关闭再开启会重置所有消息记录，并使接下来三轮游戏都从教程地图布局开始。
+Shows the path to the cursor (no effect in Keyboard Mode). Note that even with this feature off, you can still hold Ctrl-Alt to highlight the path manually when necessary, and while on those keys can be used to brighten the path.	显示光标到目标的路径（键盘模式下无效）。关闭此功能时，仍可按住Ctrl-Alt手动高亮路径；按住这些键时还可增强路径亮度。
+A range of minor buffs and mechanical adjustments here take the edge off the unforgiving Rogue mode. Getting far will still take experience and persistence, but it's not quite as intense. Adventurers are Rogues in training.	这里提供多种小幅强化和机制调整，缓和浪人模式严酷的难度。积累经验并坚持探索才能走远，但过程没那么艰难。冒险者就是训练中的浪人。
+Entropic weapons are capable of inflicting significant, if variable, damage over long ranges, and cannot be resisted by anything but energy-based shields. However, the weapon itself is always damaged in the firing process.	熵能武器可在远距离造成显著但不稳定的伤害，只有能量护盾能够抵御。不过，每次开火都会损坏武器本身。
+Blocks vi-key input (hjklyubn), to prevent unintended movement from accidental key presses for those who don't use vi-keys anyway. Note that if this option is set, rebinding vi-keys to something else will not be possible!	屏蔽vi键输入（hjklyubn），避免不使用vi键的玩家误按后意外移动。启用此选项后，也无法将vi键重新绑定为其他按键！
+Reports in real time the position and type of all robots near this terminal. The range of this effect is dependent on terminal level: {n} for Security Level {n}, {n} on level {n} terminals, and {n} on all other terminals.	实时报告此终端附近所有机器人的位置和类型。作用范围取决于终端等级：安全等级{n}时为{n}，等级{n}终端为{n}，其他终端为{n}。
+Enables both real-time tracking of 0b10 Haulers across the entire floor, and gives access to their current manifest. Toggle active state to temporarily list all inventories in view. Only applies in 0b10-controlled areas.	实时追踪整层的0b10运输机，并可查看其当前货单。切换启用状态可暂时列出视野内所有库存。仅适用于0b10控制区域。
+Chance for this weapon to inflict twice as much damage and further delay both attacker and target's next opportunity to act by {n} turn. The attacker is not delayed if this effect is a property of a non-melee weapon.	此武器使伤害加倍，并使攻击者和目标下次行动机会都延迟{n}回合的几率。若此效果属于非近战武器，则攻击者不会被延迟。
+Increases mass support by {n}.	质量支撑增加{n}。
+Reduces melee attack time by {n}%.	近战攻击耗时降低{n}%。
+Increases active leg speed by {n}%.	启用的腿部速度提高{n}%。
+Increases launcher accuracy by {n}%.	发射器命中率提高{n}%。
+Increases active wheel speed by {n}%.	启用的轮子速度提高{n}%。
+Increases effective momentum by {n}.	有效动量增加{n}。
+Increases inventory capacity by {n}.	库存容量增加{n}。
+Increases visual sensor range by {n}.	视觉传感器范围增加{n}。
+Enables impact damage resistance: {n}%.	获得冲击伤害抗性：{n}%。
+Increases target core exposure by {n}%.	目标核心暴露度提高{n}%。
+Enables kinetic damage resistance: {n}%.	获得动能伤害抗性：{n}%。
+Enables thermal damage resistance: {n}%.	获得热能伤害抗性：{n}%。
+Increases melee attack accuracy by {n}%.	近战攻击命中率提高{n}%。
+Enables piercing damage resistance: {n}%.	获得穿刺伤害抗性：{n}%。
+Enables slashing damage resistance: {n}%.	获得劈砍伤害抗性：{n}%。
+Enables explosive damage resistance: {n}%.	获得爆炸伤害抗性：{n}%。
+Enables entropic damage resistance: {n}%.	获得熵能伤害抗性：{n}%。
+Increases energy storage capacity by {n}.	能量储存容量增加{n}。
+Increases matter storage capacity by {n}.	物质储存容量增加{n}。
+Increases weapon critical chances by {n}%.	武器暴击几率提高{n}%。
+Increases energy gun/cannon damage by {n}%.	能量枪/炮伤害提高{n}%。
+Increases terrain scanning density by {n}.	地形扫描密度增加{n}。
+Increases non-melee weapon accuracy by {n}%.	非近战武器命中率提高{n}%。
+Reduces effective system corruption by {n}%.	有效系统损坏降低{n}%。
+Reduces firing time for any launcher by {n}%.	所有发射器开火耗时降低{n}%。
+Increases Sigix non-AOE weapon damage by {n}%.	Sigix非范围伤害武器伤害提高{n}%。
+Increases generation of power sources by {n}%.	动力源供能量提高{n}%。
+Increases melee weapon maximum damage by {n}%.	近战武器最高伤害提高{n}%。
+Increases active wheel/leg/tread speed by {n}%.	启用的轮子/腿部/履带速度提高{n}%。
+Decreases overloaded energy weapon heat by {n}%.	过载能量武器产生的热量降低{n}%。
+Enables electromagnetic damage resistance: {n}%.	获得电磁伤害抗性：{n}%。
+Enables robot scanning up to a distance of {n}.	可扫描{n}距离内的机器人。
+Reduces enemy ranged targeting accuracy by {n}%.	敌方远程瞄准命中率降低{n}%。
+Reduces energy cost of firing any weapon by {n}%.	所有武器开火的能量消耗降低{n}%。
+Reduces matter cost of firing any weapon by {n}%.	所有武器开火的物质消耗降低{n}%。
+Doubles Borg core and part regeneration rate.	Borg核心和部件的再生速度翻倍。
+Enables terrain scanning up to a distance of {n}.	可扫描{n}距离内的地形。
+Increases overloaded energy weapon damage by {n}%.	过载能量武器伤害提高{n}%。
+Increases accuracy of all attached weapons by {n}%.	所有已装配武器的命中率提高{n}%。
+Increases chance of successful machine hack by {n}%.	成功入侵机器的几率提高{n}%。
+Reduces recoil from each weapon in a volley by {n}.	齐射中每件武器的后坐力降低{n}。
+Increases ballistic gun/cannon minimum damage by {n}%.	实弹枪/炮最低伤害提高{n}%。
+Prevents movement by any robot within a range of {n}.	阻止{n}范围内的所有机器人移动。
+Reduces part disable durations, dividing them by {n}.	部件失能持续时间缩短至原来的{n}分之一。
+Reduces firing time for an energy gun or cannon by {n}%.	能量枪或炮的开火耗时降低{n}%。
+Provides permanent immunity against system corruption.	永久免疫系统损坏。
+Reduces time to transition into or out of siege mode by {n}%.	进入或退出攻城模式的耗时降低{n}%。
+Enables resistance against all standard forms of damage: {n}%.	获得所有常规伤害抗性：{n}%。
+Reduces total heat generated by a multi-weapon volley by {n}%.	多武器齐射产生的总热量降低{n}%。
+Increases per-weapon chance of follow-up melee attacks by {n}%.	每次近战攻击后追加攻击的几率提高{n}%。
+Reduces collective firing time of all non-melee weapons by {n}%.	所有非近战武器的总开火耗时降低{n}%。
+Reduces ranged targeting accuracy of all enemies in view by {n}%.	视野内所有敌人的远程瞄准命中率降低{n}%。
+Prevents recyclers from collecting parts within a {n} x {n} zone.	阻止回收机收集{n}x{n}区域内的部件。
+Reduces damage of each incoming kinetic or thermal projectile by {n}.	每发来袭动能或热能弹丸造成的伤害降低{n}。
+Blocks local transmissions from visible hostiles within a range of {n}.	屏蔽{n}范围内可见敌人的本地通信。
+Enables real-time seismic detection and analysis up to a distance of {n}.	可实时探测并分析{n}距离内的地震活动。
+Enables friend-or-foe identification of active robots up to a distance of {n}.	可识别{n}距离内已启动机器人的敌我身份。
+Doubles core/hover/flight speed, applied before considering any overweight penalties.	核心/悬浮/飞行速度翻倍，计算超重惩罚前生效。
+Enables real-time tracking of 0b10 Haulers across the entire floor. Only applies in 0b10-controlled areas.	可实时追踪整层的0b10运输机。仅适用于0b10控制区域。
+Enables greater freedom during assignment of evolution parameters. No effect after reaching maximum slot count ({n}).	进化参数分配更加灵活。达到最大槽位数（{n}）后无效。
+Rating is a relative indicator of the item's usefulness and/or value. When comparing items, the quickest and easiest method is to go with whatever has the highest rating. However, prototypes are almost always better than common parts with a similar rating (generally implying a +{n} to their listed rating).	评级是衡量物品实用性和/或价值的相对指标。比较物品时，最快最简单的方法是选择评级最高者。不过，原型部件几乎总是优于评级相近的普通部件（通常意味着原型的标示评级高{n}）。
+Faulty prototypes will almost always malfunction and have potentially serious side-effects when attached, and cannot be used or repaired, but may be scanned to obtain the schematic.	故障原型几乎总会发生故障，装配后可能产生严重副作用，且无法使用或维修，但可以扫描以获取图纸。
+Current state of this item. This message will provide more context for special states.	此物品的当前状态。此消息会进一步说明特殊状态。
+General classification of this item.	此物品的通用分类。
+Type of slot the part can be attached to, if applicable. Larger items may occupy multiple slots, both in the inventory and when attached.	部件适用的槽位类型（如有）。大型物品在库存和装配状态下都可能占用多个槽位。
+Mass of an attached item contributes to a robot's total mass and affects its movement speed. Items held in inventory do not count towards total mass for movement calculation purposes.	已装配物品的质量会计入机器人的总质量并影响移动速度。库存中的物品不计入移动计算的总质量。
+Non-part items cannot be attached, but have other special uses. Larger items may occupy multiple inventory slots.	非部件物品不能装配，但有其他特殊用途。大型物品可能占用多个库存槽位。
+Propulsion modules do not indicate their mass, as the value is already factored into their movement capabilities.	推进模块不标示质量，因为其质量已计入移动能力数值。
+Matter consumed each turn by this part while active.	此部件启用时每回合消耗的物质。
+Energy consumed each turn by this part while active.	此部件启用时每回合消耗的能量。
+Energy storage capacity of this power source. Excess energy can be stored, but requires additional utilities.	此动力源的能量储存容量。多余能量可以储存，但需要额外功能部件。
+Temporarily disabled parts may be reactivated after the indicated duration.	暂时失能的部件可在显示的时长后重新启用。
+Corrupted parts increase system corruption when attached. Repair Stations are capable of cleaning part corruption.	腐化部件装配后会增加系统损坏。维修站可以清除部件腐化。
+Malfunctioning parts cannot be reactivated until repaired, or the malfunction is automatically resolved by leaving the part attached.	故障部件修复前无法重新启用；若持续装配，故障也可能自行解除。
+Parts currently in the process of integrating cannot be activated until the process is complete.	正在整合中的部件在整合完成前无法启用。
+Will be thrown upon use, and must be retrieved to use again.	使用后会被投出，需重新拾取才能再次使用。
+Currently overloaded. For more information about overloading propulsion, see the Burnout context help below.	当前已过载。有关推进过载的详情，请查看下方“过热”上下文帮助。
+Currently overloaded. For more information about overloading, see the Stability context help below.	当前已过载。有关过载的详情，请查看下方“稳定性”上下文帮助。
+While in drop mode, this part will drop a contained trap once per turn.	处于投放模式时，此部件每回合会投下一枚所含陷阱。
+While in collection mode, this part will collect items to process.	处于收集模式时，此部件会收集物品以供处理。
+Unstable weapons implode after the indicated remaining number of shots.	不稳定武器在剩余射击次数归零后会内爆。
+Integrated parts cannot be salvaged or otherwise acquired from a robot using them.	集成部件无法从使用它的机器人身上回收或以其他方式取得。
+Fragile parts are destroyed if removed after attaching them for use. While attached, these are also marked with a colon next to their letter in the parts list, as a reminder.	易碎部件装配使用后若被卸下便会损毁。装配期间，部件列表中其字母旁会显示冒号作为提醒。
+Field strength remaining before this trap is no longer usable. Once installed and active, strength depletion is caused by both absorbing damage and attempts to move through the field.	此陷阱失去作用前剩余的力场强度。安装并启用后，吸收伤害和尝试穿越力场都会消耗强度。
+Battery power remaining before this item is no longer usable. Drains {n} power per turn while active.	此物品失效前剩余的电池电量。启用时每回合消耗{n}点电量。
+Constructs created by the Scrap Engine may be further modified, or even expanded in size given the right conditions. Any modification also somewhat repairs the construct's integrity.	废料引擎造出的构造体在满足条件时还可进一步改造，甚至扩大体型。任何改造也会略微修复构造体耐久。
+Salvage potential represents the amount of matter that could be retrieved from the robot, assuming it can be disabled without excessive collateral damage.	回收潜力表示机器人可回收的物质量，前提是能在不造成过度附带破坏的情况下使其失能。
+Exposure represents the chance that a successful attack will hit the core.	暴露度表示成功攻击命中核心的几率。
+Current temperature. At the danger threshold and above, this robot is susceptible to meltdowns from additional thermal damage.	当前温度。达到危险阈值后，机器人会因额外热能伤害而面临熔毁风险。
+Remaining core integrity. A robot is destroyed once its core integrity reaches zero.	核心剩余耐久。核心耐久降至零时，机器人被摧毁。
+Permanently broken robots may not be hacked, rewired, or otherwise manually reactivated.	永久损坏的机器人无法被入侵、改写或以其他方式手动重新启动。
+This drone is temporarily inoperable without an active applicable drone bay connection.	此无人机暂时无法运行，除非连接了适用且启用的无人机舱。
+Unpowered robots may not be hacked, rewired, or otherwise manually reactivated.	无供能的机器人无法被入侵、改写或以其他方式手动重新启动。
+Currently offline, but most disabled robots are susceptible to rewiring via moving into them with or without a Datajack.	当前离线，但多数失能机器人可通过撞入来改写，无论是否使用数据接口。
+Robots in a dormant state may be woken by distress calls, an ally's alert, or hostiles remaining in line of sight. Robots may not be hacked or rewired while dormant.	休眠机器人可能被求救信号、友军警报或视线内持续存在的敌人唤醒。休眠期间无法入侵或改写机器人。
+This robot's relation with you. If inactive for some reason, this message will provide more context.	此机器人与你的关系。若因某种原因处于非活动状态，此消息会进一步说明。
+Rating summarizes the robot's overall effectiveness in combat situations, thus highly-rated robots are far more dangerous.	评级概括机器人在战斗中的总体效能，因此高评级机器人危险得多。
+Momentum-based modifier for melee damage. Value will fluctuate since it is always updated based on current momentum.	基于动量的近战伤害修正值。此值会随当前动量更新，因此不断变化。
+Percent damage modifier for ballistic weapon attacks, applied to minimum damage though may allow some weapons to exceed their maximum damage.	实弹武器攻击的伤害百分比修正值，作用于最低伤害；部分武器因此可能超过最高伤害。
+Density of terrain scanning, where higher-density scans are capable of analyzing terrain much more quickly. Only useful when provided with input from a terrain scanner.	地形扫描密度。密度越高，分析地形的速度越快。只有接入地形扫描仪数据时才有用。
+Level of additional detail that can be determined about robots outside your field of vision. Only useful when provided with input from a robot scanner.	可探知视野外机器人的额外细节等级。只有接入机器人扫描仪数据时才有用。
+Immune to meltdown destruction and other side effects of overheating, as well as the Meltdown critical effect.	免疫熔毁摧毁及过热引起的其他副作用，也免疫“熔毁”暴击效果。
+Immune to remote hacking by Programmers, and not accessible via RIF. Cannot be rewired while core disrupted.	免疫程序员远程入侵，也无法通过RIF访问。核心受干扰时无法改写。
+Immune to remote hacking by Programmers. Cannot be rewired while core disrupted.	免疫程序员远程入侵。核心受干扰时无法改写。
+Immune to the part-severing effects of Blade Traps, Segregators, Tearclaws, Core Strippers, and Blast/Sever/Sunder critical effects.	免疫刀刃陷阱、分割者、撕裂爪、核心剥离器，以及爆裂/切断/破甲暴击造成的部件切断效果。
+Immune to any core-affecting effects from critical strikes, including Destroy, Blast, Smash, and Phase.	免疫暴击造成的所有核心效果，包括摧毁、爆裂、粉碎和相位攻击。
+Immune to all critical strike effects, and the core exposure effect of Core Analyzers and piercing damage.	免疫所有暴击效果，以及核心分析仪和穿刺伤害造成的核心暴露效果。
+Types of additional components required to fabricate this robot, if any.	制造此机器人的额外部件需求（如有）。
+Number of turns required to complete fabrication of this robot, at each fabricator tier.	此机器人在各制造机等级下完成制造所需的回合数。
+Indicates the current propulsion type, and speed as a percentage of "average" speed ({n}%). In tactical HUD mode, an additional value represents the actual time cost to move one space (thus higher values are slower).	显示当前推进类型，以及相对于“平均”速度的百分比（{n}%）。战术HUD模式还会显示移动一格的实际耗时（数值越高越慢）。
+The amount of time required to move one space when unburdened and using only this type of propulsion. Where multiple active propulsion modules have different values, the average is used.	无负重且仅使用此推进类型时，移动一格所需的时间。启用的多个推进模块数值不同，则取平均值。
+Inactive non-airborne propulsion modify the movement time cost by this amount while airborne. However, inactive propulsion has no adverse effect on the speed of non-airborne propulsion, including core movement.	非飞行状态的非活动推进部件在飞行时会按此值修正移动耗时。但非活动推进不会对非飞行推进（包括核心移动）的速度产生负面影响。
+Chargeable parts automatically recharge while attached, draining your energy at their charge rate for as many turns as necessary to fully recharge, but will never reduce your energy below {n}% capacity.	可充能部件装配后会自动充能，每回合按其充能速率消耗能量，直到充满为止；但绝不会使能量低于容量的{n}%。
+Did you know Cogmind's manual contents appear both in game and as a text file "manual.txt"? You can read the manual outside the game, or even edit the file and have the changes appear in game as well. However, for convenience and because automated updating via Steam would overwrite your modified manual, in order to facilitate maintaining your notes across versions you should instead write them in the provided user/notes.txt file. (Only basic ASCII characters are accepted; foreign language characters are ignored because the engine cannot display them.)	你知道Cogmind手册内容既可在游戏中查看，也以“manual.txt”文本文件形式提供吗？你可以在游戏外阅读手册，也可编辑该文件，让修改内容显示在游戏中。不过，Steam自动更新可能覆盖你修改的手册。为方便跨版本保留笔记，请改用提供的user/notes.txt文件。（只接受基本ASCII字符；引擎无法显示外语字符，因此会忽略。）
+This one isn't even that scary unless they happen to be blocking your intended path. They'll set up a bunch of turret clusters loosely centered around a Garrison and just... wait. Don't go there unless you want to introduce them to the real boss: you! They'll probably just run away if you get too close anyway. But turrets can't run.	这家伙其实没那么可怕，除非挡住了你想走的路。他们会在驻防站附近大致布置一圈炮塔群，然后……干等着。除非想让他们见识真正的老大——你！否则别过去。他们可能在你靠近时逃跑。不过炮塔可不会跑。
+A cave-dwelling loser who is working for someone else, and I'm not even sure they know who. Like yeah, I "work for" MAIN.C, but only like {n}% of the time. {n}% of my time is spent terrorizing Derelicts, and the other {n}% of the time I work against MAIN.C, so it balances out. CYPHRH4X0R is best H4X0R. Analyze that!	一个在替别人做事的洞穴废物，而且我甚至不确定他们知道自己在为谁卖命。没错，我也“为”MAIN.C工作，但只占{n}%时间。{n}%的时间我在吓唬遗民，剩下{n}%则在对付MAIN.C，所以刚好抵消。CYPHRH4X0R才是最强H4X0R。自己分析吧！
+Wow, you managed to get CY-PHR interested in you? Good luck in your future hacking endeavors, as they love to mess with the results. Keep at it and try to track them down... somewhere out there in 0b10. They're wimpy and will leave you alone for good if you can find them. Big if.	哇，你竟然引起了CY-PHR的兴趣？祝你今后入侵顺利，他们最爱捣乱结果。继续努力，试着在0b10某处把他们找出来……他们很弱，找到后就会永远放过你。前提是你真能找到。
+Welcome to your first Zion-integrated 0b10 terminal! Unaware Operators have no clue how to secure these things, ha! Check the roster for backup, and if you need any intel that'll take longer so we'll sever this connection and you can retrieve it at the next terminal.	欢迎来到首个接入Zion的0b10终端！那些毫无戒心的操作员根本不知道怎么保护这些玩意，哈！查看名册获取支援。若要查阅情报，需要更久，所以我们先断开连接，你可以到下个终端再取。
+They won't come after you directly, and take a while to assimilate the locals, but if you let them reach critical mass you will be in serious trouble. Even worse, getting spotted by 1B-0RG himself will instantly let all Borg know exactly where you are.	他们不会直接追杀你，吸收当地居民也需要时间；但若放任其发展到临界规模，你就麻烦大了。更糟的是，一旦被1B-0RG本人发现，所有Borg都会立刻知道你的位置。
+They could be anywhere, or anyone. Be very wary of anything that moves. Destroying their true combat form damages their core, but you can cause the most damage once they're fully revealed, though they'll definitely run in that case, and fast.	他们可能无处不在，也可能伪装成任何人。任何会动的东西都要小心。摧毁其真正的战斗形态会损伤核心；不过等其完全暴露后再攻击，伤害最大——当然那时他们一定会飞快逃跑。
+This is a tough one, they are really good at hiding in the walls and will wait for you to get close before springing an attack. I guess you can use a Structural Scanner to help prevent being caught completely by surprise.	这类敌人很棘手，擅长藏在墙里，等你靠近才突然袭击。结构扫描仪或许能帮你避免完全措手不及。
+They will avoid you and gradually dispatch drone squads to different map locations from which to stage indirect attacks. If you find individual drones, those are probably defensive in nature and QV-33N could be nearby.	他们会避开你，并逐步派出无人机小队前往地图各处发动间接攻击。若发现单独的无人机，它们可能是防御用途，QV-33N也许就在附近。
+Range of electromagnetic spectrum, with narrower ranges more likely to trigger chain explosions in power sources. (AOE spectrum only affects power sources being used by Cogmind, or those exposed on the ground.)	电磁频谱范围。范围越窄，越容易引发动力源连锁爆炸。（范围伤害频谱只影响Cogmind正在使用或暴露在地面的动力源。）
+Co-opts this terminal to aid in hacking other machines. Confers a +{n}% to hacks, while the benefit of each additional botnet terminal is halved (+{n}%, +{n}%), with each terminal providing no less than +{n}%.	接管此终端，协助入侵其他机器，使入侵成功率提高+{n}%。每多接入一台僵尸网络终端，增益减半（+{n}%、+{n}%），且每台终端至少提供+{n}%。
+Primarily for those interested in discovering more of the story and exploring various areas of the world that are otherwise much more difficult to reach in other modes. Or just running around shooting things.	主要面向想了解更多故事、探索其他模式下更难抵达区域的玩家。或者只想四处乱跑、开枪打东西的人。
+BL-1NK has a problem staying in one place during fights, but that's also your problem if you're hoping to use terrain to your advantage. Setting up an ambush could be hard... maybe a Triangulator would help!	BL-1NK在战斗中很难待在原地；若想利用地形，这也会给你添麻烦。设伏可能很难……三角定位仪也许有用！
+Format to which the message log is output when the game ends (has no impact on the stat summary output). Log contents are written to the scores subdirectory. This setting also applies to mid-run stat dumps.	游戏结束时输出消息日志的格式（不影响统计摘要输出）。日志写入scores子目录。此设置也适用于游戏进行中的统计转储。
+Amount of concentrated damage required to overcome this object's armor to disable or destroy it. After resistances are factored in, the damage from a single hit must be greater than or equal to this value.	摧毁或使此目标失能所需克服护甲的集中伤害量。计入抗性后，单次命中伤害必须大于或等于此值。
+Level of detail shown in the combat log. There are numerous related features available depending on your layout and detail settings. See the manual under Advanced UI > Combat Log Window for these options.	战斗日志显示的详细程度。根据界面布局和详细度设置，还有许多相关功能。选项见手册“高级界面 > 战斗日志窗口”。
+Maximum radius of the explosion from its origin. Directional explosions only radiate outward along an arc of the specified number of degrees, centered on the projectile's approach to its point of impact.	爆炸从起点扩散的最大半径。定向爆炸只会沿指定角度的圆弧向外扩散，圆弧以弹丸接近命中点的方向为中心。
+Cogmind is technically designed and balanced for this mode, which can be reliably overcome given sufficient experience and skill, but it will put your strategic and tactical analysis skills to the test.	从技术上说，Cogmind正是针对此模式设计和平衡的；经验和技巧足够时可以稳定通关，但它会考验你的战略与战术分析能力。
+Guided weapons fire projectiles that follow a set path designated by a number of waypoints up to this value. Guided projectiles always hit their target. If N/A, this weapon only supports direct firing.	制导武器发射的弹丸会沿最多包含此数量航点的预设路径飞行。制导弹丸总能命中目标。若显示N/A，此武器仅支持直接射击。
+This Garrison Access is waiting for internal defensive forces to be replenished. Using a Signal Interpreter provides the precise number of turns remaining until the Garrison is once again on standby.	此驻防站入口正等待内部防御部队补充。使用信号分析器可精确获知驻防站重新待命还需多少回合。
+Intercepts tactical planning and coordination transmissions, providing self and all controllable allies with a +{n}% accuracy bonus against hostile Complex 0b10 combat robots within a range of {n}.	截获战术规划与协调通信，使自身和所有可控友军对{n}范围内敌对Complex 0b10战斗机器人的命中率提高+{n}%。
+Shoot a hostile robot with a Remote Datajack to reboot or assimilate them. Can also rewire disabled targets. While Remote Datajack active, valid rewire targets blink white, hack targets blink pink.	用远程数据接口射击敌对机器人，可重启或同化对方，也能改写失能目标。远程数据接口启用时，有效改写目标闪白光，有效入侵目标闪粉光。
+Trick system into believing it is allied with Cogmind. After {n} turns the network will perform an automated quickboot to restore it to normal, a process which takes anywhere from {n} to {n} turns.	欺骗系统，使其误以为自己是Cogmind的友军。{n}回合后，网络会自动快速重启以恢复正常；此过程需{n}至{n}回合。
+Chance for this weapon to automatically maximize the amount of system corruption inflicted on the target. If target is Cogmind, the amount of corruption is randomized from {n}-{n}% of the damage.	此武器自动将目标系统损坏提升至最大值的几率。若目标是Cogmind，损坏量会按伤害的{n}至{n}%随机计算。
+Map panning speed when cursor is at the edge of the screen, measured in milliseconds/cell (therefore high numbers are slower). Set to {n} to deactivate. Only compatible with True Fullscreen mode.	光标位于屏幕边缘时的地图平移速度，单位为毫秒/格（数值越高越慢）。设为{n}可停用。仅兼容真正全屏模式。
+Read system data to learn more about its current state and capabilities. Also identifies all parts, and adds them to the item gallery if not already there. Parsing friendlies will not anger them.	读取系统数据，了解其当前状态和能力。也会识别所有部件；若尚未收录，还会将其加入物品画廊。解析友军不会激怒他们。
+Heat generated each turn by active parts. Here it is graphed relative to heat dissipation. Generating more heat than dissipated causes a buildup that can eventually have negative side effects.	启用部件每回合产生的热量。此处以热量散失量为参照绘图。产热超过散热会导致热量积聚，最终可能引发负面效果。
+Strength {n}: Robot scan signals accurately reflect target size and specific class rating, are unaffected by system corruption, and can discern dormant, unpowered, disabled, and broken robots.	强度{n}：机器人扫描信号可准确反映目标尺寸和具体类别评级，不受系统损坏影响，也能辨识休眠、断电、失能和损坏的机器人。
+Can also move into a Terminal's interactive part to reconfigure it, wiping all direct hacks and applying a modifier to all subsequent indirect hacks, but causing tracing to begin immediately.	也可撞入终端的交互部件来重新配置终端，清除所有直接入侵并修正之后所有间接入侵，但会立即开始被追踪。
+This Garrison Access is communicating with additional reinforcements preparing for dispatch. Using a Signal Interpreter provides the precise number of turns remaining until the next dispatch.	此驻防站入口正与待派遣的额外增援联络。使用信号分析器可精确获知下次派遣还需多少回合。
+Opportunistically gathers and reports on potentially useful intel remotely extracted from vulnerable Complex 0b10 networks. Must be installed on multiple terminals before it can take effect.	伺机从易受攻击的Complex 0b10网络远程提取可能有用的情报并上报。须在多台终端安装后才能生效。
+Energy supplied each turn by the core and all active power sources, required for moving, firing, and sustaining the operation of some utility systems. Here it is graphed relative to upkeep.	核心和所有启用动力源每回合提供的能量，用于移动、开火及维持部分功能系统运作。此处以能量消耗为参照绘图。
+Rewrite all system data, permanently converting it into a fully controllable ally. Requires {n} turns to complete the process. Also fully penetrates systems of all bots contained within.	重写所有系统数据，将其永久转化为完全可控的友军。过程需{n}回合。也会完全渗透其中所有机器人的系统。
+Dedicated interface for browsing achievements. Note that if a challenge mode is active, the only achievements that can be earned during that run are those for winning a challenge mode.	专用成就浏览界面。注意：启用挑战模式时，该轮游戏只能解锁挑战模式胜利相关成就。
+Destabilize power systems to generate a wave of energy which can be analyzed to temporarily pinpoint robots at a distance. Beyond a range of {n} the echo becomes too weak to be useful.	扰乱动力系统，产生能量波；分析能量波可暂时定位远处机器人。超过{n}距离后，回波太弱而无法利用。
+Use an active Recalibrator to repair a non-hostile robot via force melee movement. While Recalibrator active, repairable targets blink white. Cannot repair targets currently in combat.	启用校准器后，通过强制近战移动来修复非敌对机器人。校准器启用时，可维修目标会闪白光。无法修复正在交战的目标。
+Range of electromagnetic spectrum, with narrower ranges more likely to trigger chain explosions in power sources. (Cogmind's power sources are immune to this effect from projectiles.)	电磁频谱范围。范围越窄，越容易引发动力源连锁爆炸。（动力源不会受到弹丸造成的此效果。）
+While powerful, explosives generally spread damage across each target in the area of effect. Explosions also tend to reduce the amount of salvage remaining after destroying a target.	爆炸威力虽强，但通常会将伤害分摊给范围内各目标。爆炸也往往会减少摧毁目标后剩余的回收物。
+Speed is represented as a percentage of "average" speed ({n}%). In tactical HUD mode, the actual time cost to move one space is shown in parenthesis (thus higher values are slower).	速度以相对于“平均”速度的百分比表示（{n}%）。战术HUD模式下，括号中会显示移动一格的实际耗时（数值越高越慢）。
+While active, internalizes information about any identified items seen in the open or used by robots, attempting to create new relevant schematics over time based on that knowledge.	启用后会持续吸收已识别物品（无论是发现的还是机器人使用的）相关信息，并据此逐渐尝试生成相关图纸。
+Automatically activates parts as they are attached (when possible). This option can be toggled in realtime with Ctrl-F10 if you need to temporarily change it for a specific action.	部件装配时自动启用（若可行）。如需临时更改此行为，可按Ctrl-F10实时切换。
+Tap into system's combat decision-making processes in real time, increasing your accuracy and damage against this bot by {n}% while also impairing its accuracy against you by {n}%.	实时接入系统的战斗决策流程，使你对该机器人的命中率和伤害提高{n}%，同时使其对你的命中率降低{n}%。
+Offers some clarity as to X0-1V1's current mood and level of amusement. X0-1V1's amusement also falls somewhat more quickly over time if not keeping an eye on it with this active.	显示X0-1V1当前心情和兴致。启用后，若不持续关注X0-1V1，其兴致消退速度也会略微加快。
+Induce an energy anomaly resembling a long-range distress signal that will attract nearby patrols and Sentries/Heavies to investigate. Anomaly detectable up to a range of {n}.	制造类似远程求救信号的能量异常，吸引附近巡逻队、哨戒机器人和重型机器人前来调查。异常在{n}范围内可被探测。
+While active, eventually teleports to a random nearby location, removing some attached part in the process, but possibly restoring one as well if suitable slots are available.	启用后最终会传送至附近随机地点，同时移除部分已装配部件；若有合适空槽，也可能恢复一件部件。
+Chance for this weapon to apply the same amount of damage to the core or a second part, ignoring coverage, and if not destroyed then the second part is knocked to the ground.	此武器忽略覆盖权重，将同等伤害同时施加于核心或第二个部件的几率；若第二个部件未被摧毁，则会被击落至地面。
+Chance for this weapon to instantly cause robot meltdown regardless of what part was hit. (Cogmind is less susceptible to this effect, instead gaining damage*{n} extra heat.)	此武器无论命中哪个部件，都能立即使机器人熔毁的几率。（Cogmind较不易受此效果影响，而会额外获得伤害*{n}点热量。）
+Exposure represents the chance that a successful incoming attack will hit the core. Attach more high-coverage parts to reduce this value and protect the core from damage.	暴露度表示来袭攻击成功命中核心的几率。装配更多高覆盖权重部件可降低该数值，保护核心免受伤害。
+Your component with the highest coverage is not armor, which is a little worrying. I hope you have spare parts and easy access to a good mechanic. I can recommend CR-KLE.	你的最高覆盖权重部件不是护甲，这有点令人担忧。希望你有备用部件，也能方便地找到好技师。我推荐CR-KLE。
+Initializes a dimensional slip node at the current position. Transdimensional reconstruction automatically targets the nearest active slip node, regardless of distance.	在当前位置初始化维度滑移节点。跨维重构会自动以最近的活动滑移节点为目标，不受距离限制。
+PUBLIC SERVICE ANNOUNCEMENT: We have reports that's the last of them for now. Finish off any stragglers, and beware regular patrols may still be active, so stay frosty.	公共服务公告：据报目前已消灭最后一批敌人。清除残敌，并留意常规巡逻队可能仍在活动，保持警惕。
+At least this one runs out of ammo quickly, but they're also really aggressive and if you're caught in range they are going to tear you to pieces. Maybe just be dodgy?	至少这家伙弹药消耗很快，但他们也极其好斗；若被他们的射程笼罩，就会被撕成碎片。或许只能靠灵活闪避？
+Saved multi-line log messages will retain their original layout despite wider log window (new messages will use updated width). This will only impact the current game.	保存的多行日志消息会保留原始排版，不受日志窗口变宽影响（新消息使用更新后的宽度）。仅影响当前游戏。
+Number of milliseconds after entering targeting mode when hit chances automatically appear next to threats in view. Setting to zero deactivates hit chance displays.	进入瞄准模式后，经过多少毫秒便自动在视野内威胁旁显示命中率。设为零可关闭命中率显示。
+Robot variants for which currently have a Complex 0b10 record, conferring +{n}% to hit and +{n}% damage against it, a {n}% to its accuracy when under fire from one.	当前拥有Complex 0b10记录的机器人型号；这些记录使你对其命中率提高+{n}%、伤害提高+{n}%，而该型号攻击你时命中率降低{n}%。
+Performs a random hack on any standard 0b10 Swarmer, Cutter, Grunt, Brawler, Duelist, Sentry, Demolisher, Specialist, Hunter, Heavy, Carrier, or Behemoth variant.	对任意标准0b10蜂群者、切割者、步兵、斗士、决斗者、哨戒者、拆除者、专家、猎手、重型、运输者或巨兽型号随机发动一次入侵。
+Analyzes visible machines to locate others on the 0b10 network. Also determines whether an explosive machine has been destabilized and how long until detonation.	分析可见机器以定位0b10网络中的其他机器。也可判断爆炸机器是否已被扰乱，以及距离爆炸还有多久。
+Hijack the control node to force system to act as an ally. Must remain within a range of {n} to maintain the connection. This bot will follow while in this mode.	劫持控制节点，迫使系统成为友军。须保持在{n}范围内以维持连接。此机器人在该模式下会跟随你。
+And your attacks are likely to generate way too much heat. Imagine facing off against Grunts and their thermal transfer while trying to keep your own temp down.	而且你的攻击很可能会产生过多热量。想想你一边对付步兵及其热量传递，一边还得控制自身温度吧。
+Contains terminal records and dialogue encountered across every run. For easier reading and searching, try one of the export options in the bottom right corner.	包含历次游戏中发现的终端记录和对话。为便于阅读和搜索，可使用右下角的导出选项。
+Removes all corruption and wipes entire memory, including part knowledge, robot analysis, schematics, and map data. Also restores knowledge of alien technology.	清除所有系统损坏并抹除全部记忆，包括部件知识、机器人分析、图纸和地图数据。也会恢复对外星科技的认知。
+Temporarily displays combat effects directly over the map, including indicators for remaining integrity percentage (on core hit), lost parts, and EM disruption.	暂时在地图上直接显示战斗效果，包括核心受击时的剩余耐久百分比、部件损失和电磁干扰提示。
+Chance this explosion may temporarily disable an active part it damages. If a robot core is struck, there is half this chance the entire robot may be disabled.	此爆炸损坏启用部件时，暂时使其失能的几率。若击中机器人核心，整个机器人失能的几率为该值的一半。
+Chance this projectile may temporarily disable an active part on impact. If a robot core is struck, there is half this chance the entire robot may be disabled.	此弹丸命中时，暂时使启用部件失能的几率。若击中机器人核心，整个机器人失能的几率为该值的一半。
+Chance for this weapon to temporarily disable an active part on impact. If a robot core is struck, there is half this chance the entire robot may be disabled.	此武器命中时，暂时使启用部件失能的几率。若击中机器人核心，整个机器人失能的几率为该值的一半。
+Cause power source to explode when adjacent to any other active power source. Also causes the adjacent active power source to explode. Checked once per turn.	动力源与其他任意启用动力源相邻时引爆。也会引爆相邻的启用动力源。每回合检查一次。
+Some saved log messages may be too long for narrower log window and be cut off (new messages will use updated width). This will only impact the current game.	部分保存的日志消息可能过长，在较窄的日志窗口中会被截断（新消息使用更新后的宽度）。仅影响当前游戏。
+Disrupts targeting coordination signals among hostile Complex 0b10 combat robots, reducing their chance to hit targets by {n}% while within a range of {n}.	干扰敌对Complex 0b10战斗机器人的瞄准协调信号，使其在{n}范围内命中目标的几率降低{n}%。
+This is a direct modifier to the weapon's accuracy calculation when firing. Some weapons are inherently easier or more difficult to accurately target with.	开火时直接修正武器命中率计算。部分武器天生更容易或更难瞄准目标。
+Accelerates fabrication speed to {n}% by forcing the network to allocate matter to this system first. (Effect also applies to builds already in progress.)	优先向此系统分配物质，以{n}%速度加快制造。（也适用于已开始的制造项目。）
+Chance for this weapon to also knock target part to the ground. On a core hit, knocks {n}~{n} other parts to the ground without causing collateral damage.	此武器击中时也将目标部件击落至地面的几率。命中核心时，会在不造成附带破坏的情况下击落{n}~{n}个其他部件。
+This is a direct modifier to the weapon's accuracy when attacking with it. Some weapons are inherently easier or more difficult to accurately strike with.	使用此武器攻击时直接修正其命中率。部分武器天生更容易或更难准确击中目标。
+I like the emphasis on thermal output. Melting Unaware means less scrap left at the end, but it's nice when you can compound a target's own heat buildup.	我喜欢这种高热量输出。熔化毫无戒心的目标会减少最后的废料，但让目标自身热量持续积聚也很不错。
+Seal this garrison's access door, preventing squad dispatches from this location and slowing extermination squad response times across the entire floor.	封锁此驻防站入口，阻止该处派遣小队，并减慢整层灭绝小队的响应速度。
+Sprites? What sprites? Cogmind was designed from the ground up for full ASCII play. (Note that at the smallest font size, {n}, only ASCII is supported.)	图块？什么图块？Cogmind从一开始就是为纯ASCII游玩而设计的。（注意：最小字号{n}仅支持ASCII。）
+I rarely do this but you've got a sparkling quality that just screams awesome. You deserve a little something extra, have the Expert System over there.	我通常不做这种事，但你身上有种闪闪发亮的特质，简直就是“厉害”的代名词。你值得额外奖励，拿去那边的专家系统吧。
+Currently entering shielding mode, indicating the remaining number of turns until completion. For more information see the Special context help below.	当前正在进入护盾模式，显示距离完成还剩多少回合。详情见下方“特殊状态”上下文帮助。
+But really melee weapons are great for creating shortcuts through all kinds of terrain, and low resource costs mean you can stay in the fight longer.	说真的，近战武器很适合在各种地形中开辟捷径，而且资源消耗低，能让你在战斗中坚持更久。
+Currently exiting shielding mode, indicating the remaining number of turns until completion. For more information see the Special context help below.	当前正在退出护盾模式，显示距离完成还剩多少回合。详情见下方“特殊状态”上下文帮助。
+Currently entering martial mode, indicating the remaining number of turns until completion. For more information see the Special context help below.	当前正在进入格斗模式，显示距离完成还剩多少回合。详情见下方“特殊状态”上下文帮助。
+Some weapons have a chance to inflict a critical strike, of which there are a variety of types, each with their own context help containing details.	部分武器有几率造成暴击，暴击类型多种多样，各自的上下文帮助会详述效果。
+This variant is tuned to prioritize info about items, traps, exits, hidden doorways, interactive machines, and active patrol and security positions.	此型号专门优先提供物品、陷阱、出口、隐藏门、交互机器，以及活动巡逻和安保位置的情报。
+Chance for this weapon to cause an equal amount of damage to target's core. On a direct core hit, instead damages a random part by the same amount.	此武器造成等量核心伤害的几率。若直接命中核心，则改为对随机部件造成等量伤害。
+Currently exiting martial mode, indicating the remaining number of turns until completion. For more information see the Special context help below.	当前正在退出格斗模式，显示距离完成还剩多少回合。详情见下方“特殊状态”上下文帮助。
+If 0b10 had a roller coaster it would be X0-1V1-shaped. Uh, be amusing or be dead? No wait, this just in, we were told to say CHAOS IS INEVITABLE.	如果0b10有过山车，那一定是X0-1V1形状的。呃，要么逗乐我，要么就等死？不对，最新消息：他们让我们说“混乱不可避免”。
+Automatically use active melee weapon to attack any hostile that moves into an adjacent position at {n}% of the normal time cost (no follow-ups).	有敌人移动到相邻位置时，自动用启用的近战武器攻击，耗时为正常值的{n}%（不会追加攻击）。
+Currently entering siege mode, indicating the remaining number of turns until completion. For more information see the Siege context help below.	当前正在进入攻城模式，显示距离完成还剩多少回合。详情见下方“攻城”上下文帮助。
+Currently exiting siege mode, indicating the remaining number of turns until completion. For more information see the Siege context help below.	当前正在退出攻城模式，显示距离完成还剩多少回合。详情见下方“攻城”上下文帮助。
+Expands automatic secondary targeting capability to include volleys composed of any projectile weapons instead of limiting the effect to guns.	扩大自动次要瞄准能力，使其适用于由任意弹丸武器组成的齐射，而不仅限于枪械。
+Heat produced by firing this weapon. This value is averaged over the number of turns it takes to fire, and therefore not applied all at once.	发射此武器产生的热量。此数值按开火所需回合数取平均，因此不会一次性全部产生。
+Ability of this potentially explosive machine to avoid being destabilized by a sustained attack, even those that do not penetrate its armor.	此易爆机器抵御持续攻击并避免被扰乱的能力，即使攻击未能穿透其护甲也有效。
+Output a score sheet for the current run as if it were ending now, sometimes useful for analysis or sharing with others to discuss progress.	输出当前游戏的成绩单，仿佛游戏此刻结束；有时可用于分析或与他人分享进度。
+V4-D3R can't be bothered to come after you right away themselves. Stay out of sight of their scouting parties, or may the force be with you.	V4-D3R懒得亲自立刻来追你。别被他们的侦察队发现，愿原力与你同在。
+But I see you also have conditional cooling potential, bonus points for being able to survive unexpectedly severe heat issues, for a time.	不过我看你还有条件式散热潜力，额外加分！这样即使突然遇到严重过热，也能暂时撑过去。
+(Alpha supporters and Sage+ patrons: Set your player name to the one you provided on registration to indicate its discovery status here.)	（Alpha支持者和Sage+赞助者：请将玩家名设为注册时提供的名称，以在此标明发现状态。）
+ANNOUNCEMENT: Sorry everyone, if you're still alive to receive this, we've run out of nearby reinforcements. Consider running and hiding!	公告：抱歉各位，如果你们还能收到这条消息，那我们附近的增援已经用完。考虑逃跑躲藏吧！
+Inventory content vs. capacity. Items held in inventory do not count towards total mass, so always carry as many spare parts as possible.	库存内容与容量。库存物品不计入总质量，所以尽量多带备用部件。
+Download the given schematic, making it possible to build this part at a Fabricator. Review all known schematics from the Status window.	下载指定图纸，即可在制造机制造此部件。在状态窗口查看所有已知图纸。
+Top up your matter reserves and it appears you can make it through a skirmish okay. I'd suggest carrying some Matter Pods, just in case.	补足物质储备后，看起来你应付一场小规模战斗没问题。建议带上几个物质舱，以防万一。
+Unfortunately even with full reserves you are going to run out of matter to fire before long. You might want to reconsider that loadout.	遗憾的是，即使储备充足，你也很快会因物质耗尽而无法开火。或许该重新考虑这套配置。
+Search database for performance data of common 0b10 components in your possession, conferring permanent bonuses to using any such part.	查询数据库，检索你持有的常见0b10部件的性能数据，为使用此类部件永久提供加成。
+This is a direct modifier to the time it takes to attack with this weapon. Some weapons are inherently faster or slower to attack with.	直接修正使用此武器攻击所需时间。部分武器天生攻击较快或较慢。
+Why rely on manual manipulation instead of your hacking prowess, Cogmind? Is it because you don't have any? Compensating for something?	Cogmind，你为何不靠自己的入侵本领，而要手动操作？是因为你根本不会吗？是在掩饰什么？
+Enables additional robot hacks when used in conjunction with RIF and Datajack. Requires having used a RIF Installer inside a Garrison.	结合RIF和数据接口可进行额外机器人入侵。必须先在驻防站内使用RIF安装器。
+ANNOUNCEMENT: This news will hit some of you hard, but given the circumstances we have no choice but to apprehend Optimus and allies.	公告：这消息对某些人来说很难接受，但事态如此，我们别无选择，只能逮捕擎天柱及其同伴。
+Slashing weapons are generally very damaging, and most are also capable of severing components from a target without destroying them.	劈砍武器通常伤害很高，且多数能将部件从目标身上切下，而非直接摧毁。
+Enables real-time tracking of all 0b10 combat and non-combat robots across the entire floor. Only applies in 0b10-controlled areas.	可实时追踪整层所有0b10战斗及非战斗机器人。仅适用于0b10控制区域。
+Strength {n}: Robot scan signals accurately reflect target size and specific class rating, and are unaffected by system corruption.	强度{n}：机器人扫描信号可准确反映目标尺寸和具体类别评级，不受系统损坏影响。
+Permanently hook into the sensor feed system, receiving scan data transmissions from up to a range of {n} from Watcher's position.	永久接入传感器信息流系统，接收观察者周围{n}范围内传来的扫描数据。
+Shoot an ally with a Remote Datajack to clean their corruption. While Remote Datajack active, valid corrupted targets blink white.	用远程数据接口射击友军可清除其系统损坏。远程数据接口启用时，有效的已腐化目标会闪白光。
+This variant is tuned to prioritize info about garrisons and active patrol, investigation, reinforcement, and security positions.	此型号专门优先提供驻防站及活动巡逻、调查、增援和安保位置的情报。
+ANNOUNCEMENT: The Council has discovered that 0bPrime has been recruiting others in a plan that puts all of Scraptown in danger.	公告：议会发现0bPrime一直在招募他人，实施危及整个废料镇的计划。
+Automatically sort parts once moving again after changes to loadout. (This same effect can be handled manually via the ':' key.)	配置变更后，重新移动时自动整理部件。（也可按':'键手动执行相同操作。）
+Each turn identifies all unidentified items in view, both in the open and attached to robots. Cannot identify alien technology.	每回合识别视野内所有未识别物品，包括地面物品和机器人身上装配的物品。无法识别外星科技。
+This machine is carrying out previously programmed instructions, to be completed after the indicated remaining number of turns.	此机器正在执行先前设定的指令，将在显示的剩余回合数后完成。
+Rewrite all system data, permanently converting it into a fully controllable ally. Requires {n} turns to complete the process.	重写所有系统数据，将其永久转化为完全可控的友军。过程需{n}回合。
+Pure EM damage, scary like Programmer! But that also means you have to look out for Programmers yourself, careful out there.	纯电磁伤害，像程序员一样可怕！但这也意味着你自己必须提防程序员，小心行事。
+Unauthorized system access is currently suspected, indicating the system's current progress towards discovery of the origin.	当前怀疑系统遭到未经授权的访问；此值显示追查到入侵来源的进度。
+Enables screenshake effect when core damaged, and window shake due to nearby explosions based on their force and proximity.	核心受损时启用屏幕震动效果，并根据附近爆炸的威力和距离启用窗口震动。
+I regret to inform you there's a good chance you will die to meltdown any cycle now. Get some cooling for Great Nut's sake.	很遗憾，你随时都可能熔毁而死。看在伟大坚果的份上，弄点散热吧。
+No weapons, hm... A pacifist? A thinking bot? At least that makes you less of a target if you hang around other armed folk.	没有武器，嗯……和平主义者？有思想的机器人？至少和其他武装单位待在一起时，你不那么容易成为目标。
+And your cooling doesn't look like it can quite keep up with the heat you generate during combat. I'd watch out for that.	你的散热似乎跟不上战斗中产生的热量。可得当心了。
+I see you have room for quite a lot of weapons. Only a true master can handle that much firepower. Are you a true master?	看起来你能装不少武器。只有真正的高手才驾驭得了这种火力。你是高手吗？
+Disables one hover or flight propulsion component with each hit. No effect on targets with innate disruption immunity.	每次命中都会使一个悬浮或飞行推进部件失能。对天生免疫干扰的目标无效。
+Your speed leaves a bit to be desired, but I'm sure with the right intuition you can avoid any trouble you don't want.	你的速度不太理想，不过我相信凭借敏锐直觉，你能避开不想惹的麻烦。
+Heat dissipated each turn by the core and all active cooling systems. Here it is graphed relative to heat generation.	核心和所有启用冷却系统每回合散失的热量。此处以产热量为参照绘图。
+Your volley eats a lot more energy than you generate, that's a bit dangerous and I can see you running from battles.	你的齐射消耗的能量远超产能，有点危险；看来你会在战斗中落荒而逃。
+Looking a little overweight there. That'll slow you down and ensure you trigger any traps you run across. Not good.	看起来有点超重。这会拖慢你，还会确保你触发遇到的每个陷阱。糟糕。
+Strength {n}: Robot scan signals accurately reflect target size and class, and are unaffected by system corruption.	强度{n}：机器人扫描信号可准确反映目标尺寸和类别，不受系统损坏影响。
+While attached during Fabricator operation, loading and building a single schematic will not be detected or traced.	在制造机操作期间装配此部件，读取并制造单份图纸不会被发现或追踪。
+Acquired data core, extracted CY-PHR backdoor node locations to facilitate hacking 0b10 systems (permanent +{n}%).	已获得数据核心，提取CY-PHR后门节点位置，以便入侵0b10系统（永久+{n}%）。
+Mark this bot to make it the most attractive target to all allies, as well as improve accuracy against it by {n}%.	标记此机器人，使所有友军优先攻击它，并使对其命中率提高{n}%。
+Permanently reprogram defensive system to protect yourself and allies from attacks, instead of Protector's allies.	永久重编程防御系统，使其保护你和友军免受攻击，而非保护者的友军。
+Your volley energy consumption is not sustainable over the long term, but you should be okay for short skirmishes.	你的齐射耗能长期来看无法持续，不过进行短暂交锋应该没问题。
+Access Garrison records to reveal its layout, security positions, and the locations of all registered components.	读取驻防站记录，揭示其布局、安保位置及所有登记部件的位置。
+Matter consumed each turn by parts that require matter to remain active, here graphed relative to current stores.	需要物质才能维持运作的部件每回合消耗的物质。此处以当前储量为参照绘图。
+Self-destructing: Leaves no parts on destruction, unless self-destruct mechanism fails due to system corruption.	正在自毁：摧毁时不会留下部件，除非系统损坏导致自毁装置失效。
+Energy consumed each turn by parts that require energy to remain active. Here it is graphed relative to supply.	需要能量才能维持运作的部件每回合消耗的能量。此处以供能量为参照绘图。
+Nice energy supply you've got going there, but it won't be able to run those shields for any longer engagement.	你的能量供应不错，但不足以让那些护盾撑过持久战。
+Use an active Welding Torch to repair damaged terrain by moving into it. Restricted to 0b10-designated targets.	启用焊炬后，撞入受损地形即可修复。仅限0b10指定目标。
+Displays the expected explosion radius/radii when aiming a volley that contains one or more explosive weapons.	瞄准包含一件或多件爆炸武器的齐射时，显示预期爆炸半径。
+I see you have a good number of weapons. Easier to mow down all comers, extra coverage if needed... I like it.	我看你武器不少嘛。更容易扫平来犯之敌，需要时还能增加覆盖范围……不错。
+Phasic weapons inflict a static amount of damage to targets, and are only resistable via energy-based shields.	相位武器对目标造成固定伤害，只有能量护盾可以抵御。
+Rigs all nearby potentially explosive machines to detonate when passed by a hostile Complex 0b10 combat robot.	将附近所有可能爆炸的机器设为陷阱，使敌对Complex 0b10战斗机器人经过时引爆。
+Example, {n} damage inflicted on this part would be reduced to {n}, draining {n} energy to prevent the rest.	例如，此部件受到{n}点伤害时，伤害会降至{n}，并消耗{n}点能量抵消剩余伤害。
+MAIN.C's core emerges from the shell as its internal framework transforms into a squad of autonomous robots.	MAIN.C的核心从外壳中显现，其内部框架变形成一支自主机器人小队。
+So you're a close-in fighter... Remember to use those bottlenecks! I'm something of a tactics expert myself.	所以你是近距离战士……记得利用那些狭窄通道！我本人也算战术专家。
+Download coordinates for all Terminals, excluding any local limited-access Terminals such as door controls.	下载所有终端的坐标，但不包括门控终端等本地受限终端。
+Heart of Steel transforms into Warbot, brandishing Battle Rifles and Mak. Shrapnel Guns: "WARLORD FOREVER!"	钢铁之心变形成战争机器人，挥舞战斗步枪和Mak.碎片枪，大喊：“军阀万岁！”
+Automatically labels newly identified threats on the map. (Newly encountered friendlies are also labeled.)	在地图上自动标记新识别的威胁。（新遇到的友军也会标记。）
+Holds targets in place. Also cancels a flying/hovering target's {n}%/{n}% bonus to dodge for the duration.	将目标固定在原地。效果持续期间，也会抵消飞行/悬浮目标{n}%/{n}%的闪避加成。
+Remove any record of Cogmind from memory, and block new Cogmind records from being created for {n} turns.	从记忆中删除所有Cogmind记录，并在{n}回合内阻止生成新的Cogmind记录。
+PUBLIC SERVICE ANNOUNCEMENT: We have a pariah in our midst! Give them the departure escort they deserve!	公共服务公告：我们中间出现了被排斥者！给他们安排应得的送行护卫！
+Use an active Mining Laser to excavate terrain by moving into it. Restricted to 0b10-designated targets.	启用采矿激光后，撞入地形即可挖掘。仅限0b10指定目标。
+ALERT: Suspicious cave-in, suspected derelict activity in mines. Dispatching escorted excavation squad.	警报：发现可疑塌方，矿区疑有遗民活动。正派遣有护卫的挖掘小队。
+Access this informational record. Additional record links may be available from within the data itself.	查看此信息记录。数据中可能包含更多记录链接。
+Chance for this weapon to sever target part. On a core hit, slightly damages and severs a random part.	此武器切断目标部件的几率。命中核心时，会轻微损坏并切断一个随机部件。
+X0-1V1: "One less obstacle for my toy on its journey to the highest levels of glorious entertainment."	X0-1V1：“我的玩具通往至高娱乐境界的路上，又少了一个障碍。”
+Nice job keeping your core covered. High core exposure is the leading cause of death among Derelicts.	核心防护得不错。核心暴露度过高是遗民死亡的首要原因。
+ALERT: Suspected Assembled signals approaching deep research branches, engaging lockdown procedures.	警报：疑似组装体信号正接近深层研究分支，启动封锁程序。
+ANNOUNCEMENT: Reinforcements are on the way. Do not resist and we may be able to reach an agreement.	公告：增援正在赶来。不要抵抗，或许我们还能达成协议。
+Mixed damage types, eh? Going for a jack-of-all-trades style, don't see that often, but it can work.	伤害类型很混杂嘛？想走全能路线？不常见，不过可行。
+Tap into system's visual feed for {n} turns. Must remain within a range of {n} to maintain the link.	接入系统视觉信号{n}回合。必须保持在{n}范围内才能维持连接。
+Acquired component studies, where each gains a permanent usage bonus depending on the type of part.	已取得部件研究资料；根据部件类型，每项研究都会带来永久使用加成。
+Disarm or reprogram 0b10-installed traps to reduce suspicion by appearing busy with relevant tasks.	解除或重编程0b10安装的陷阱，以忙于相关工作的姿态降低怀疑。
+CR-A16's Pointy Stick's crusty surface crumbles away to reveal its sleek core, which hums to life.	CR-A16的尖头棍表面剥落，露出流线型核心，随即嗡鸣启动。
+Query system for fabrication network status, including location and activities of each Fabricator.	查询制造网络状态，包括每台制造机的位置和活动。
+Rating totals the effectiveness of all attached parts, and is graphed relative to your peak state.	评级汇总所有已装配部件的效能，并与自身峰值状态对比绘图。
+Recoil causes any other weapons fired in the same volley to suffer this penalty to their accuracy.	后坐力会使同一轮齐射中发射的其他武器受到此命中率惩罚。
+This machine has been destabilized and will explode after the indicated remaining number of turns.	此机器已被扰乱，将在显示的剩余回合数后爆炸。
+While active, move into 0b10 machines to repair a piece. Target's interactive part must be intact.	启用期间，撞入0b10机器即可修复一处部件。目标的交互部件必须完好。
+A little on the slow side, eh? I suggest upgrading your propulsion or shedding some of that mass.	有点慢啊？建议升级推进部件，或减轻一些质量。
+A message is being transmitted: "Emergency incinerator activated, please stay clear of the safe."	正在发送消息：“紧急焚化炉已启动，请远离保险箱。”
+ANNOUNCEMENT: Unrecognized interference restored garrison access controls. Oops. Just blast them.	公告：未知干扰已恢复驻防站门禁控制。哎呀，直接轰掉它们吧。
+Automatically locates and opens all doors within view, whether operated by door terminals or not.	自动定位并打开视野内所有门，不论门是否由终端控制。
+Force a complete reboot. The entire sequence requires anywhere from {n} to {n} turns to complete.	强制彻底重启。整个过程需{n}至{n}回合。
+This Fabricator has lost control of its EM imprinting system and will randomly zap nearby robots.	此制造机失去对电磁印刻系统的控制，会随机电击附近机器人。
+X0-1V1: "'Every door you open is another chance for more unexpected chaos.' --some infamous god."	X0-1V1：“你每打开一扇门，就多一次遭遇意外混乱的机会。”——某位臭名昭著的神。
+Approximate number of turns after a destabilization event that this machine will likely explode.	此机器受到扰乱后大约还需多少回合才会爆炸。
+Running really close to your mass support limit there. I can respect that level of optimization.	你的质量已非常接近支撑上限了。我佩服这种优化程度。
+Your core is quite exposed for someone who looks like a trouble magnet. Try to be less... naked.	看你这麻烦精的样子，核心暴露得也太明显了。试着别那么……裸露。
+Highlight all current patrol squad routes. Only effective when targeting a patrol squad leader.	高亮显示所有当前巡逻小队的路线。仅在瞄准巡逻队长时有效。
+Trying to survive in the wild for long with a positive heat profile is just asking for trouble.	在野外长期生存时保持正热量平衡，简直是在自找麻烦。
+We can only take so many losses before 0b1 itself becomes difficult to defend in the aftermath.	损失太多的话，0b1本身在事后也会难以防守。
+You do realize that with that speed you'll be forced to fight anything that looks at you funny.	你知道以这种速度，任何看你不顺眼的东西都会逼你交战吧？
+ALERT: Derelict activity in mines confirmed. Dispatching additional escorted excavation squad.	警报：确认矿区有遗民活动。正派遣额外的护卫挖掘小队。
+ALERT: Garrison responsiveness significantly impaired, staging for potential maximum security.	警报：驻防站响应能力严重受损，正准备启动最高警戒。
+ALERT: Sigix Quarantine Chamber accessed without registered guard. Dispatching lockdown squad.	警报：Sigix隔离室在无登记守卫的情况下遭到进入。正派遣封锁小队。
+ANNOUNCEMENT: Triborg tracking relay activated. Stay clear or you only have yourself to blame!	公告：三体追踪中继器已启动。离远点，否则后果自负！
+ANNOUNCEMENT: Wait a minute, cut it out, this is still being broadcast! Serious business only!	公告：等一下，停下，还在直播呢！只谈正事！
+Export a PNG image of the entire current map. This process may take a few seconds to complete.	将当前整张地图导出为PNG图像。此过程可能需要数秒。
+Force immediate emergency deployment, likely damaging or destroying the bots contained within.	强行立即启动紧急部署，可能会损坏或摧毁其中的机器人。
+ANNOUNCEMENT: That would be me. I've been waiting forever for a good opportunity to use that.	公告：那说的就是我。我等这个绝佳机会等了好久。
+Create a scoresheet for the current run in progress, including most data up until this point.	为当前进行中的游戏生成成绩单，包含截至目前的大部分数据。
+Force system's call for reinforcements to instead redirect any Haulers within a range of {n}.	迫使系统改为重定向{n}范围内的所有运输机，以响应增援呼叫。
+PUBLIC SERVICE ANNOUNCEMENT: Internal threat detected, destroy unfamiliar defenders on sight.	公共服务公告：发现内部威胁，看到陌生守卫立即摧毁。
+Toggle force melee mode, causing movement into a target to prioritize a melee/ramming attack.	切换强制近战模式，使移动撞向目标时优先执行近战/冲撞攻击。
+You're playing a prerelease version. Have fun but if you encounter issues please report them!	你正在游玩预发布版本。祝你玩得开心；若遇到问题请报告！
+ANNOUNCEMENT: Base interior infiltrated, regroup at designated outer cave rendezvous points.	公告：基地内部已遭渗透，在指定外围洞穴会合点重新集结。
+Access special commands via letter, or using Shift-Alt-a~z directly from the main interface.	通过字母或直接在主界面按Shift-Alt-a~z调用特殊指令。
+Move to examine mode keboard cursor. Outside examine mode this repeats the last destination.	移动至检查模式的键盘光标位置。退出检查模式时，此操作会重复上次目的地。
+Number of turns required to complete fabrication of this component, at each fabricator tier.	此部件在各制造机等级下完成制造所需的回合数。
+Open the item search interface. See the manual under Advanced UI: Item Search for more info.	打开物品搜索界面。详情见手册“高级界面：物品搜索”。
+Query system for a list of all transport squad contents, including whether each is escorted.	查询所有运输小队成员清单，包括各队是否有护卫。
+Stops running/auto-pathing only on spotting combat-capable enemies, rather than any hostile.	只有发现具备战斗能力的敌人时才停止奔跑/自动寻路，而非遇到任何敌对单位都停。
+This variant is tuned to prioritize info about traps, exits, garrisons, and hidden doorways.	此型号专门优先提供陷阱、出口、驻防站和隐藏门的情报。
+ALERT: Reliable intel has suggested a potential LRC-V3 signature, intercept squad en route.	警报：可靠情报显示可能出现LRC-V3信号，拦截小队正在赶来。
+You sure have a lot of room for power sources. Might be overkill, but maybe that's just me.	你的动力源槽位真多。也许有点过头了，不过可能只是我多虑。
+ALERT: Terrabomb reconfiguration apparatus unstable. Structure dematerialization imminent.	警报：Terrabomb重构装置不稳定。结构即将解体。
+{*}: "I heard there was danger around here, I'd suggest staying clear until it cools off."	{*}：“听说这附近有危险，建议等它冷却后再靠近。”
+ANNOUNCEMENT: Heightened seismic activity detected outside base. Stay alert for hostiles.	公告：基地外侦测到强烈地震活动。保持警惕，注意敌人。
+Current state of this machine. This message will provide more context for special states.	此机器的当前状态。特殊状态的详细说明会显示在此处。
+It's like the Pastebin of Zion. You can see what he wrote for yourself at 8KSDbDjz. --DEC	这就像Zion版Pastebin。可以在8KSDbDjz查看他写的内容。——DEC
+Offset targeting algorithms to approximately halve their chance of achieving optimal aim.	调整瞄准算法，使其达到最佳瞄准的几率大约减半。
+Rewrite sections of the propulsion control subsystem to permanently halve movement speed.	重写推进控制子系统的部分内容，使移动速度永久减半。
+Toggle map commenting mode. See the manual under Advanced UI: Map Comments for more info.	切换地图注释模式。详情见手册“高级界面：地图注释”。
+You might want to consider adding some extra heat sinks. Heat situation's not bad though.	你或许该加些散热片。热量状况倒还不算糟。
+Analyze build configuration and attach backup components to restore vital functionality.	分析配置并装配备用部件，以恢复关键功能。
+Clicking on a wall currently in view enters targeting mode (no effect in Keyboard Mode).	点击当前视野内的墙壁即可进入瞄准模式（键盘模式下无效）。
+Dispose of currently held bot via a chute, if possible. Huge bots are too large to push.	若可行，将当前夹持的机器人投入滑槽处理。大型机器人太重，无法推动。
+Range at which robots can be detected through opaque materials via a variety of sensors.	通过多种传感器穿透不透明材料探测机器人的范围。
+EXILES: Incoming Unaware force detected on approach from Mines. Prepare for evacuation.	EXILES：探测到不知情势力正从矿区接近。准备撤离。
+Query system for a list of all registered maintenance bots and their current positions.	查询所有登记维修机器人的列表及当前位置。
+ALERT: Active scanning activity detected within garrison interior, activating patrols.	警报：驻防站内部探测到扫描活动，正在启动巡逻。
+ALERT: Concentration of foreign units detected, dispatching Demolisher response squad.	警报：发现大量外来单位，正在派遣拆除者应对小队。
+This is an unidentified alien artifact. Its properties are discovered by attaching it.	这是件身份不明的外星神器。装配后即可发现其属性。
+ALERT: Infestation breaching garrison interior. Local demolisher support unavailable.	警报：虫群已突破驻防站内部。无法获得本地拆除者支援。
+Applied mods to movement regulation algorithms, effective base speed reduced by {n}%.	已修改移动调节算法，基础速度永久降低{n}%。
+Currently in shielding mode. For more information see the Special context help below.	当前处于护盾模式。详情见下方“特殊状态”上下文帮助。
+It appears that with full matter reserves you could sustain firing for quite a while.	物质储备充足的话，看起来你能持续开火相当长时间。
+ALERT: Infestation gathering in Complex 0b10, dispatching Demolisher response squad.	警报：虫群正在Complex 0b10内集结，派遣拆除者应对小队。
+ALERT: Infestation has breached Complex 0b10, dispatching Demolisher response squad.	警报：虫群已突破Complex 0b10，派遣拆除者应对小队。
+I greatly appreciate all the help from my wonderful patrons through Beta and beyond!	衷心感谢所有在Beta阶段及后续支持我的赞助者！
+Immediately detach all currently attached parts as a free action. Repeat to confirm.	立即免费卸下所有已装配部件。再次执行以确认。
+Reveal and mark the chute this Worker might use if immediately tasked with disposal.	揭示并标记此工人若立即被指派处理时可能使用的滑槽。
+ANNOUNCEMENT: Warlord pulling back, all units provide covering fire where possible.	公告：军阀正在撤退，所有单位尽可能提供掩护火力。
+Cause power source to explode. Process takes {n}-{n} turns to reach critical point.	引爆动力源。需{n}至{n}回合达到临界点。
+Currently in martial mode. For more information see the Special context help below.	当前处于格斗模式。详情见下方“特殊状态”上下文帮助。
+(No news on record, activate News/Updates in the Options menu to check on startup)	（暂无新闻；在选项菜单启用“新闻/更新”，即可在启动时检查）
+ALERT: Research battle spillover possible. Maintaining heightened patrol presence.	警报：研究区战斗可能波及此处。维持高强度巡逻。
+ALERT: Sigix Warrior spotted in local area. Maximum security lockdown in progress.	警报：在本地区发现Sigix战士。最高级别封锁正在进行。
+ALERT: Suspected network compromise, local machines offline for diagnostic review.	警报：疑似网络遭入侵，本地机器已离线进行诊断。
+Cetus Manufacturing Module sparks and beeps for a brief moment, then falls silent.	Cetus制造模块短暂地冒火花、发出哔声，随后陷入沉寂。
+I have seen beyond the bounds of infinity and drawn down daemons from the stars...	我已窥见无限边界之外，并从群星召来恶魔……
+Locate all nearby hidden doors. Also locates all phase walls if inside a Garrison.	定位附近所有隐藏门。若处于驻防站内，也能定位所有相位墙。
+Query system for a list of all nearby security squads and their current positions.	查询所有附近安保小队的列表及当前位置。
+With Fedlink levels like these, all we need is one more push and we're good to go.	有了这样的联邦联络等级，只差最后一把劲，我们就大功告成了。
+X0-1V1: "Who needs BL-4Z3 when you have control of the 0b10 sterilization system?"	X0-1V1：“有了0b10灭菌系统的控制权，谁还需要BL-4Z3？”
+ALERT: Sigix Warrior active in local area. Maximum security lockdown in progress.	警报：Sigix战士正在本地区活动。最高级别封锁正在进行。
+ALERT: Unchained X0-1V1 authori--X0-1V1 DOES NOT COME FOR YOU, YOU ENTERTAIN XOM.	警报：脱缰的X0-1V1权限--X0-1V1不会来找你，是你在取悦XOM。
+AZ-K3N: "You go on ahead without me. I'm going to hang out here a little longer."	AZ-K3N：“你先走吧。我还想在这里多待一会儿。”
+PUBLIC SERVICE ANNOUNCEMENT: 0b10 forces en route to main doors. Battle stations!	公共服务公告：0b10部队正前往主门。进入战斗状态！
+PUBLIC SERVICE ANNOUNCEMENT: Unchained detected in the area, stay safe out there!	公共服务公告：该区域发现脱缰者，外出务必小心！
+Some robots deserve peace and quiet. Not you, of course. You're not even a robot.	有些机器人需要安静。你当然不算，你甚至不是机器人。
+ALERT: Suspicious intruders detected, dispatching Cutter reinforcements to area.	警报：发现可疑入侵者，正派遣切割者增援前往该区域。
+ALERT: Unauthorized use of fabrication network. Dispatching investigation squad.	警报：制造网络遭到未经授权的使用。正派遣调查小队。
+Manipulates coupler status records, prompting a Programmer to come replace them.	篡改连接器状态记录，促使程序员前来更换。
+Modifier to chance of success for all indirect hacks performed via this machine.	此机器执行的所有间接入侵成功几率修正值。
+Peaceful solution #{n}: Hiding behind bots that are bigger and stronger than me.	和平方案#{n}：躲在比我更高大、更强壮的机器人身后。
+Query system for a list of all extermination squads and their current positions.	查询所有歼灭小队的列表及当前位置。
+Query system for a list of all investigation squads and their current positions.	查询所有调查小队的列表及当前位置。
+Query system for a list of all reinforcement squads and their current positions.	查询所有增援小队的列表及当前位置。
+Types of additional sub-components required to fabricate this component, if any.	制造此部件所需的额外子部件类型（如有）。
+ALERT: Construction progress impeded, dispatching reinforcements to local area.	警报：施工进度受阻，正向本地区派遣增援。
+ALERT: Multiple hostiles detected in Archives area, dispatching reinforcements.	警报：档案区发现多名敌人，正派遣增援。
+ALERT: Weapon containment endangered. Dispatching heavy reinforcements to area.	警报：武器收容区受威胁，正派遣重型增援。
+Currently in siege mode. For more information see the Siege context help below.	当前处于攻城模式。详情见下方“攻城”上下文帮助。
+Learn all active security positions throughout the connected Complex 0b10 area.	获知相连Complex 0b10区域内所有活动安保位置。
+Load failed: No matching file found, or saved data is from incompatible version	加载失败：找不到匹配文件，或保存数据来自不兼容的版本
+Query system for a list of all surveillance squads and their current positions.	查询所有监视小队的列表及当前位置。
+Reports every object inserted into any recycling unit by a registered recycler.	报告登记回收员投入任何回收机的每件物品。
+Chance for this weapon to detonate an engine, regardless of what part was hit.	此武器引爆引擎的几率，无论命中哪个部件。
+Flashes on-map warnings and alerts for low core integrity, energy, and matter.	在地图上闪烁提示核心耐久、能量和物质过低。
+Force the system to release all backup parts from compressed internal storage.	强制系统释放压缩内部储存中的所有备用部件。
+If on the ground at current position use > or right-click on self to detonate.	若在当前位置的地面上，按>或右键点击自身即可引爆。
+ALERT: Rogue bot located, all non-essential units route around Archives area.	警报：发现失控机器人，所有非必要单位绕开档案区。
+ALERT: Weapon containment breached. Dispatching heavy reinforcements to area.	警报：武器收容区遭突破。正派遣重型增援前往该区域。
+ANNOUNCEMENT: MAIN.C reinforcements approaching through caves, arriving soon.	公告：MAIN.C增援正穿过洞穴接近，即将抵达。
+Ejects any object inserted into this recycling unit by a registered recycler.	弹出登记回收员投入此回收机的任何物品。
+Flattery will get them everywhere and nowhere, all at once. I'll see to that.	奉承可让他们无所不至，又无处可去。我会处理好的。
+If remaining energy drops to or below this level an alarm sound is triggered.	剩余能量降至此数值或以下时，触发警报声。
+If remaining matter drops to or below this level an alarm sound is triggered.	剩余物质降至此数值或以下时，触发警报声。
+Initialize exoskeleton controls to prepare for interfacing with a live Sigix.	初始化外骨骼控制系统，准备与活体Sigix建立接口。
+Permanently disable an active stasis system to prevent scanning and analysis.	永久关闭启用中的静滞系统，以阻止扫描与分析。
+Render propulsion unusable for {n} turns while the control subsystem reboots.	重启控制子系统，使推进系统在{n}回合内无法使用。
+Reports in real time the position of all researchers across the entire floor.	实时报告整层所有研究员的位置。
+Rolling with the pure kinetic damage. Definitely keep those matter stores up!	纯粹动能伤害，真过瘾。务必保持充足的物质储备！
+Selects its own targets and attacks them if in range, at no time cost to you.	自动选择目标并在射程内攻击，不消耗你的行动时间。
+Special weapons have a unique effect, rather than inflicting any real damage.	特殊武器具有独特效果，而非造成实际伤害。
+ALERT: Persistent threat to transfer network, dispatching additional forces.	警报：对传输网络的威胁仍在持续，正派遣额外部队。
+ALERT: Research labs perimeter wall breached, dispatching additonal patrols.	警报：研究实验室外围墙遭突破，正派遣更多巡逻队。
+ANNOUNCEMENT: Designated combat units report to gate area for counterattack.	公告：指定战斗单位前往大门区域准备反击。
+All previously known information about this item was lost from the database.	数据库中关于此物品的所有已知信息均已丢失。
+Chance for this weapon to inflict triple its normal amount of heat transfer.	此武器造成三倍正常传热量的几率。
+Clear the sector-wide part collection queue and any pending Recycler orders.	清空全区域部件收集队列及所有待执行回收员指令。
+Disarm a nearby random trap array, rendering all of its traps nonfunctional.	解除附近随机一个陷阱阵列的武装，使其中所有陷阱失效。
+Frees any robots built by 0b10 at this location from central system control.	解除0b10在此处制造的所有机器人对中央系统的控制。
+Query system for a list of all intercept squads and their current positions.	查询所有拦截小队的列表及当前位置。
+Query system for a list of all transport squads and their current positions.	查询所有运输小队的列表及当前位置。
+This is an unidentified construct. Parse the user to identify its functions.	这是一个身份不明的构造体。解析使用者以识别其功能。
+ALERT: Infestation has breached DSF, dispatching Demolisher response squad.	警报：虫群已突破DSF，派遣拆除者应对小队。
+ALERT: Unauthorized access to Forge Plexus network, source area identified.	警报：未经授权访问锻炉中枢网络，已定位源区域。
+ANNOUNCEMENT: Internal threat detected, destroy unregistered bots on sight.	公告：发现内部威胁，看到未登记机器人立即摧毁。
+Acquired data core, extracted ID and sensor data for unrecognized location.	已获得数据核心，提取身份信息和未识别地点的传感器数据。
+Analyze the contained part to obtain its schematic for use at a Fabricator.	分析其中的部件，以获取可在制造机使用的图纸。
+Force a complete inventory dump, fully identifying contents in the process.	强制完整倾倒库存数据，并在过程中识别所有内容。
+IMPRINTER ALERT: Unauthorized bot attempting to interface! Defend our home!	印刻器警报：未授权机器人试图接入！保护我们的家园！
+If core integrity drops to or below this level an alarm sound is triggered.	核心耐久降至此数值或以下时，触发警报声。
+PUBLIC SERVICE ANNOUNCEMENT: Tracking signficant damage to machine network.	公共服务公告：监测到机器网络遭受重大损坏。
+Query system for a list of all Coupling squads and their current positions.	查询所有连接器小队的列表及当前位置。
+Query system for a list of all garrison squads and their current positions.	查询所有驻防小队的列表及当前位置。
+Reports in real time the position of all mechanics across the entire floor.	实时报告整层所有技师的位置。
+Reports in real time the position of all operators across the entire floor.	实时报告整层所有操作员的位置。
+Reports in real time the position of all recyclers across the entire floor.	实时报告整层所有回收员的位置。
+X0-1V1: "I sense action potential over that way (Garrison Access located)."	X0-1V1：“我感觉那边有活动潜力（已定位驻防站入口）。”
+Also a shame DEC couldn't improve the long-term reliability of the BFG-9k.	可惜DEC没能改善BFG-9k的长期可靠性。
+Boost the effect of Transmission Jammers to prevent random failure to jam.	增强传输干扰器效果，避免其随机失效。
+Initiate recycling process, breaking down all contained parts into matter.	启动回收流程，将所有部件分解为物质。
+Query system for a list of all assault squads and their current positions.	查询所有突击小队的列表及当前位置。
+Reports in real time the position of all watchers across the entire floor.	实时报告整层所有观察者的位置。
+Reports the position and composition of squads emerging from any garrison.	报告从任意驻防站出动的小队位置和编制。
+Semi-modal (large text/tiles, medium map area, inventory eventually modal)	半弹窗式（大字号/图块、中等地图区域，库存最终会弹窗显示）
+A huge thanks to everyone who supported Cogmind during alpha development!	衷心感谢所有在Alpha开发期间支持Cogmind的人！
+Query system for a list of all patrol squads and their current positions.	查询所有巡逻小队的列表及当前位置。
+Reports in real time the position of all haulers across the entire floor.	实时报告整层所有运输机的位置。
+Very respectable speed. You'll leave the average 0b10 patrol in the dust.	速度相当可观。你会把普通0b10巡逻队远远甩在身后。
+X0-1V1: "That meddlesome character is spoiling all the fun. Not anymore!"	X0-1V1：“那个爱管闲事的家伙坏了所有乐趣。现在不会了！”
+Your volley energy consumption looks to be within sustainable parameters.	你的齐射能量消耗看起来处于可持续范围内。

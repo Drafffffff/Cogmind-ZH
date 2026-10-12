@@ -1,0 +1,128 @@
+{
+  "source_file": "build/rea/pseudocode/602-pseudo-5d4890.c",
+  "function": "FUN_005d4890",
+  "source_c_file": "Ghidra decompilation output; original C source unavailable",
+  "basis": "Templates below use only string literals and the dynamic local visibly passed at the listed call sites. The code sets local_1f0 from DAT_00cfbd78 plus an indexed 0x1c-byte entry at C line 145. Its semantic value is not independently named here; {*} marks that exact dynamic value.",
+  "template_status": "candidate pending helper verification",
+  "outer_literal": {
+    "text": "FARCOM_MSG: ",
+    "c_file_line": 139,
+    "handling": "Visible string setup before the branch switch. Included in candidate templates, but its exact relation to branch output should be confirmed with the string helper analysis."
+  },
+  "helper_status": {
+    "FUN_009ce830": "Called with a visible literal and local_1f0 in the branch setup; appears to combine strings, but behavior and argument order are not yet confirmed.",
+    "FUN_009ce8f0": "Called with the preceding result and another visible literal; appears to combine strings, but behavior and argument order are not yet confirmed.",
+    "FUN_009ceaa0": "Called in case 2 with local_1f0 and a visible suffix; behavior is not yet confirmed.",
+    "FUN_009b0bb0": "Downstream message handling; not used to infer additional text."
+  },
+  "entries": [
+    {
+      "branch": 0,
+      "source_c_lines": [154, 165],
+      "calls": ["FUN_009ce830", "FUN_009ce8f0"],
+      "visible_parts_in_code_order": [
+        {"literal": "Whoa there, are you sure you want to do that? "},
+        {"variable": "local_1f0", "capture": "{*}"},
+        {"literal": "? Bad things will happen to you."}
+      ],
+      "candidate_template": "FARCOM_MSG: Whoa there, are you sure you want to do that? {*}? Bad things will happen to you.",
+      "translation": "FARCOM_MSG: 等等，你确定要这么做吗？{*}？后果会很严重。",
+      "notes": "Do not interpret the captured string as a particular place name until local_1f0 is identified."
+    },
+    {
+      "branch": 1,
+      "source_c_lines": [179, 190],
+      "calls": ["FUN_009ce830", "FUN_009ce8f0"],
+      "visible_parts_in_code_order": [
+        {"literal": "While we would love for you to report back what you find inside "},
+        {"variable": "local_1f0", "capture": "{*}"},
+        {"literal": ", your report would likely be very, very short."}
+      ],
+      "candidate_template": "FARCOM_MSG: While we would love for you to report back what you find inside {*}, your report would likely be very, very short.",
+      "translation": "FARCOM_MSG: 虽然我们很希望你能回来汇报在{*}里面的发现，但你的报告大概会非常、非常简短。",
+      "notes": "English template preserves the displayed literal/capture boundary."
+    },
+    {
+      "branch": 2,
+      "source_c_lines": [203, 210],
+      "calls": ["FUN_009ceaa0"],
+      "visible_parts_in_code_order": [
+        {"literal": "? Only the best science in there, but if you head that way our totally scientific relationship with you will likely come to an end."},
+        {"variable": "local_1f0", "capture": "{*}"}
+      ],
+      "candidate_template": "FARCOM_MSG: {*}? Only the best science in there, but if you head that way our totally scientific relationship with you will likely come to an end.",
+      "translation": "FARCOM_MSG: {*}？里面可都是顶尖科学成果，但你要是真往那边去，我们这种完全科学的关系恐怕就到此为止了。",
+      "notes": "The literal begins with a question mark and is assigned before local_1f0 at the FUN_009ceaa0 call. Placement of {*} in the candidate follows the apparent sentence boundary only; verify helper semantics before registration."
+    },
+    {
+      "branch": 3,
+      "source_c_lines": [221, 232],
+      "calls": ["FUN_009ce830", "FUN_009ce8f0"],
+      "visible_parts_in_code_order": [
+        {"literal": "We cannot in good conscience advise you to enter "},
+        {"variable": "local_1f0", "capture": "{*}"},
+        {"literal": " at this time. EX-BIN: It would be funny, though."}
+      ],
+      "candidate_template": "FARCOM_MSG: We cannot in good conscience advise you to enter {*} at this time. EX-BIN: It would be funny, though.",
+      "translation": "FARCOM_MSG: 我们实在不能昧着良心建议你现在进入{*}。EX-BIN：不过那样倒也挺有趣。",
+      "notes": "Uses the existing dynamic-translations-02 wording for the visible prefix and EX-BIN suffix; Chinese moves “现在” before the captured object for natural syntax."
+    },
+    {
+      "branch": 4,
+      "source_c_lines": [246, 259],
+      "calls": ["FUN_009ce830", "FUN_009ce8f0"],
+      "visible_parts_in_code_order": [
+        {"literal": "I finished my Atomic Chain Massager. We'll give it to the next anonymous tester bot for their inevitably unsafe journey into "},
+        {"variable": "local_1f0", "capture": "{*}"},
+        {"literal": ". You stay out."}
+      ],
+      "candidate_template": "FARCOM_MSG: I finished my Atomic Chain Massager. We'll give it to the next anonymous tester bot for their inevitably unsafe journey into {*}. You stay out.",
+      "translation": "FARCOM_MSG: 我的原子链条按摩器做好了。我们会把它交给下一台匿名测试机器人，让它踏上注定危险的旅程，前往{*}。你就别去了。",
+      "notes": "The device name is translated descriptively, not treated as a verified proper name."
+    },
+    {
+      "branch": 5,
+      "source_c_lines": [273, 286],
+      "calls": ["FUN_009ce830", "FUN_009ce8f0"],
+      "visible_parts_in_code_order": [
+        {"literal": "In case you forgot, our tech and "},
+        {"variable": "local_1f0", "capture": "{*}"},
+        {"literal": " do not mix. It's like fire and water. Assembled and Derelicts. Imprinter and sanity."}
+      ],
+      "candidate_template": "FARCOM_MSG: In case you forgot, our tech and {*} do not mix. It's like fire and water. Assembled and Derelicts. Imprinter and sanity.",
+      "translation": "FARCOM_MSG: 别忘了，我们的技术和{*}格格不入。这就像水火不容：组装体与遗迹机器人，印刻者与理智。",
+      "notes": "Faction/term wording follows dynamic-translations-02. The identity of the captured value is not inferred."
+    },
+    {
+      "branch": 6,
+      "source_c_lines": [300, 312],
+      "calls": ["FUN_009ce830", "FUN_009ce8f0"],
+      "visible_parts_in_code_order": [
+        {"literal": "We can't do much more than enjoy the fireworks if you do decide to enter "},
+        {"variable": "local_1f0", "capture": "{*}"},
+        {"literal": ". EX-BIN: Is laughing hysterically on the table?"}
+      ],
+      "candidate_template": "FARCOM_MSG: We can't do much more than enjoy the fireworks if you do decide to enter {*}. EX-BIN: Is laughing hysterically on the table?",
+      "translation": "FARCOM_MSG: 如果你真决定进入{*}，我们也只能坐看烟花了。EX-BIN：在桌上笑得歇斯底里吗？",
+      "notes": "The source suffix omits an explicit subject, so the translation does too."
+    },
+    {
+      "branch": "generic_entrance_warning",
+      "source_c_lines": [327, 338],
+      "calls": ["FUN_009ce830", "FUN_009ce8f0"],
+      "visible_parts_in_code_order": [
+        {"literal": "Danger! You're approaching an entrance to "},
+        {"variable": "local_1f0", "capture": "{*}"},
+        {"literal": "!"}
+      ],
+      "candidate_template": "FARCOM_MSG: Danger! You're approaching an entrance to {*}!",
+      "translation": "FARCOM_MSG: 危险！你正接近通往{*}的入口！",
+      "notes": "Prefix translation follows dynamic-translations-02. The visible exclamation suffix is translated as Chinese punctuation."
+    }
+  ],
+  "verification_needed": [
+    "Confirm FUN_009ce830 and FUN_009ce8f0 concatenation behavior and operand ordering before registering full templates.",
+    "Confirm FUN_009ceaa0 behavior for case 2.",
+    "Identify the string represented by local_1f0 before adding assumptions about the captured value."
+  ]
+}

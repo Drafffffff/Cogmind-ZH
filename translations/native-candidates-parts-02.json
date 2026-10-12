@@ -1,0 +1,1069 @@
+{
+  "source": "translations/native-worklists/parts_02.json",
+  "assembly": "build/rea/part-description-annotated.asm",
+  "helper_evidence": {
+    "0x9ce7b0": "destination = literal + string",
+    "0x9ce8f0": "destination = string + literal",
+    "0x9ceaa0": "destination = string + literal",
+    "0x9b0bb0": "append string to ECX string",
+    "0x9ce830": "literal + string (per helper-prepend.asm)",
+    "unresolved_helper_note": "Numeric/string formatting calls such as 0x405350, 0x4079f0, 0x9ce930 are identified only where nearby stack/register values expose the argument; semantic labels are not asserted when unknown.",
+    "0x9ce930": "destination = arg1 + arg2 (verified in analysis/native-helper-additional.json)",
+    "0x4079f0": "returns passed pointer; whether internal accessor mutates/formats contents remains unknown",
+    "0x9ceb60": "destination = arg1 + arg2 (verified in analysis/native-helper-additional.json)",
+    "0x9b0bd0": "append stack argument to ECX string (verified in analysis/native-helper-additional.json)"
+  },
+  "entries": [
+    {
+      "raw_template": "Permanently increases matter storage capacity by {*}.\n <consumed>",
+      "source": "Permanently increases matter storage capacity by {*}. <consumed>",
+      "translation": "永久提升物质储存容量：{*}。\n <consumed>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Permanently increases matter storage capacity by ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7050] numeric/string value passed in EAX"
+        },
+        {
+          "type": "literal",
+          "text": ".\n <consumed>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        8998
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56a2fc"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Permanently increases matter storage capacity by ",
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Permanently increases mass support by {*} (regardless of propulsion).\n <consumed>",
+      "source": "Permanently increases mass support by {*} (regardless of propulsion). <consumed>",
+      "translation": "永久提升质量承载：{*}（不受推进方式影响）。\n <consumed>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Permanently increases mass support by ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7068] value passed in EDX"
+        },
+        {
+          "type": "literal",
+          "text": " (regardless of propulsion).\n <consumed>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        9045
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56a3d7"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Permanently increases mass support by ",
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "{*}% chance each turn to purge 1% of system corruption, losing {*} integrity each time the effect is applied.\n <parallel_ok>",
+      "source": "{*}% chance each turn to purge 1% of system corruption, losing {*} integrity each time the effect is applied. <parallel_ok>",
+      "translation": "每回合有{*}%几率净化1%系统腐化，每次生效损失{*}点完整性。\n <parallel_ok>",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "formatted local [ebp-0x70c0], produced from float at 0x4079f0"
+        },
+        {
+          "type": "literal",
+          "text": "% chance each turn to purge 1% of system corruption, losing ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x70b4] value passed to 0x9ce930"
+        },
+        {
+          "type": "literal",
+          "text": " integrity each time the effect is applied.\n <parallel_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        9323
+      ],
+      "calls": [
+        "0x405b60",
+        "0x4079f0",
+        "0x9ceaa0",
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56a8cd"
+      ],
+      "confidence": "unresolved",
+      "covered_raw_string": " integrity each time the effect is applied.\n <parallel_ok>",
+      "status": "unresolved",
+      "notes": "字面量顺序和两个捕获已由拼接调用确认；首个捕获经 0x4079f0 处理，但该访问器可能改写内容，尚不能确认运行时格式。"
+    },
+    {
+      "raw_template": "Converts energy to matter at a ratio of {*}:{*} every turn, in other words consuming {*} energy to create {*} matter.\n <parallel_ok>",
+      "source": "Converts energy to matter at a ratio of {*}:{*} every turn, in other words consuming {*} energy to create {*} matter. <parallel_ok>",
+      "translation": "按{*}:{*}的比例将能量转为物质；每回合消耗{*}能量，生成{*}物质。\n <parallel_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Converts energy to matter at a ratio of ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x711c] ratio value"
+        },
+        {
+          "type": "literal",
+          "text": ":",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "ratio value appended after colon"
+        },
+        {
+          "type": "literal",
+          "text": " every turn, in other words consuming ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7134] formatted amount"
+        },
+        {
+          "type": "literal",
+          "text": " energy to create ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x713c] formatted amount"
+        },
+        {
+          "type": "literal",
+          "text": " matter.\n <parallel_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        9464,
+        9496
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56ab76",
+        "0x56ac04"
+      ],
+      "confidence": "high",
+      "covered_raw_strings": [
+        "Converts energy to matter at a ratio of ",
+        " every turn, in other words consuming "
+      ],
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Converts matter to energy at a ratio of 1:{*} every turn, in other words consuming 1 matter to create {*} energy.\n <parallel_ok>",
+      "source": "Converts matter to energy at a ratio of 1:{*} every turn, in other words consuming 1 matter to create {*} energy. <parallel_ok>",
+      "translation": "按1:{*}的比例将物质转为能量；每回合消耗1物质，生成{*}能量。\n <parallel_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Converts matter to energy at a ratio of 1:",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "ratio value joined after literal; exact origin outside immediate fragment"
+        },
+        {
+          "type": "literal",
+          "text": " every turn, in other words consuming 1 matter to create ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7164] numeric result"
+        },
+        {
+          "type": "literal",
+          "text": " energy.\n <parallel_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        9618,
+        9627
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56ae36",
+        "0x56ae60"
+      ],
+      "confidence": "high",
+      "covered_raw_strings": [
+        "Converts matter to energy at a ratio of 1:",
+        " every turn, in other words consuming 1 matter to create "
+      ],
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Automatically collects matter within a range of {*}. Ignores all obstacles and does not require line of sight.",
+      "source": "Automatically collects matter within a range of {*}. Ignores all obstacles and does not require line of sight.",
+      "translation": "自动收集{*}范围内的物质。忽略所有障碍物且无需视线。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Automatically collects matter within a range of ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x71ac] value"
+        },
+        {
+          "type": "literal",
+          "text": ". Ignores all obstacles and does not require line of sight.",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        9739,
+        9744,
+        9758,
+        9765
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00",
+        "0x9b0b30",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x56b07d"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Automatically collects matter within a range of ",
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Attracts any debris within at least a range of {*}, converting it to matter on arrival.",
+      "source": "Attracts any debris within at least a range of {*}, converting it to matter on arrival.",
+      "translation": "吸引至少在{*}范围内的所有残骸，到达后将其转化为物质。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Attracts any debris within at least a range of ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x71c4] value"
+        },
+        {
+          "type": "literal",
+          "text": ", converting it to matter on arrival.",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        9798
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56b177"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Attracts any debris within at least a range of ",
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter ({*}% efficiency) at a rate of {*} per turn. Can hold no more than {*} scrap at a time.\n <parallel_ok, resume_ok>",
+      "source": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter ({*}% efficiency) at a rate of {*} per turn. Can hold no more than {*} scrap at a time. <parallel_ok, resume_ok>",
+      "translation": "再次启动即可自动收集当前位置的部件并回收为物质（效率{*}%），每回合回收{*}物质。最多储存{*}份废料。\n <parallel_ok, resume_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "efficiency value from stack/local passed to helper"
+        },
+        {
+          "type": "literal",
+          "text": "% efficiency) at a rate of ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7204] rate value"
+        },
+        {
+          "type": "literal",
+          "text": " per turn. Can hold no more than ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x721c] capacity value"
+        },
+        {
+          "type": "literal",
+          "text": " scrap at a time.\n <parallel_ok, resume_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        9919,
+        9951,
+        9974
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56b39e",
+        "0x56b42c",
+        "0x56b490"
+      ],
+      "confidence": "high",
+      "covered_raw_strings": [
+        "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+        " per turn. Can hold no more than ",
+        " scrap at a time.\n <parallel_ok, resume_ok>"
+      ],
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Automatically cannibalizes a part on the ground to restore {*} integrity to the most damaged attached part of the same subtype, up to no more than {*}% of maximum integrity. Also provides active maintenance of attached Overtuned parts to prevent malfunctions (function available even if powered off). If part on the ground is an identified gun/cannon/melee weapon and currently have an empty weapon slot, instead attaches it at no cost.",
+      "source": "Automatically cannibalizes a part on the ground to restore {*} integrity to the most damaged attached part of the same subtype, up to no more than {*}% of maximum integrity. Also provides active maintenance of attached Overtuned parts to prevent malfunctions (function available even if powered off). If part on the ground is an identified gun/cannon/melee weapon and currently have an empty weapon slot, instead attaches it at no cost.",
+      "translation": "自动拆解地面部件，为同类已装配部件中受损最严重者恢复{*}点完整性，最高恢复至最大完整性的{*}%。还会主动维护已装配的超频部件以防故障（断电时也有效）。若地面部件是已识别的枪械、加农炮或近战武器，且当前有空武器槽，则改为免费装配该武器。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Automatically cannibalizes a part on the ground to restore ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7248] formatted restore amount"
+        },
+        {
+          "type": "literal",
+          "text": " integrity to the most damaged attached part of the same subtype, up to no more than ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "formatted cap value"
+        },
+        {
+          "type": "literal",
+          "text": "% of maximum integrity. Also provides active maintenance of attached Overtuned parts to prevent malfunctions (function available even if powered off). If part on the ground is an identified gun/cannon/melee weapon and currently have an empty weapon slot, instead attaches it at no cost.",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        10046,
+        10055,
+        10074,
+        10101,
+        10106
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56b5ec",
+        "0x56b616"
+      ],
+      "confidence": "high",
+      "covered_raw_strings": [
+        "Automatically cannibalizes a part on the ground to restore ",
+        " integrity to the most damaged attached part of the same subtype, up to no more than "
+      ],
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes {*} turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+      "source": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes {*} turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+      "translation": "启用时，反复移入机器或爆破门即可拆解；目标装甲越高，拆解越久。每一步需要{*}回合，进度以完成拆解所剩回合数显示。拆解爆炸机器时会将其拆开而不会引爆。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x737c] turn count formatted then appended"
+        },
+        {
+          "type": "literal",
+          "text": " turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        10334,
+        10343
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56bb0f",
+        "0x56bb39"
+      ],
+      "confidence": "high",
+      "covered_raw_strings": [
+        "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes ",
+        " turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion."
+      ],
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Enables {*}% chance to extract a non-hostile trap at current location, adding it to the extractor inventory if possible. Can hold up to {*} traps of the same type, but cannot store stasis traps. Each extraction attempt requires {*} matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+      "source": "Enables {*}% chance to extract a non-hostile trap at current location, adding it to the extractor inventory if possible. Can hold up to {*} traps of the same type, but cannot store stasis traps. Each extraction attempt requires {*} matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+      "translation": "有{*}%几率从当前位置提取非敌对陷阱；若可行，将其加入提取器库存。最多储存同类型陷阱{*}个，但不能储存静滞陷阱。每次提取消耗{*}物质。再次启动即可每回合将一个已储存陷阱放到地面。还可防止因移动而意外触发当前位置陷阱时造成系统腐化。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Enables ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7300] descriptor/value"
+        },
+        {
+          "type": "literal",
+          "text": "% chance to extract a non-hostile trap at current location, adding it to the extractor inventory if possible. Can hold up to ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x72f8] capacity"
+        },
+        {
+          "type": "literal",
+          "text": " traps of the same type, but cannot store stasis traps. Each extraction attempt requires ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x72f0] cost"
+        },
+        {
+          "type": "literal",
+          "text": " matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        10435,
+        10458
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56bcd4",
+        "0x56bd38"
+      ],
+      "confidence": "high",
+      "covered_raw_strings": [
+        " traps of the same type, but cannot store stasis traps. Each extraction attempt requires ",
+        " matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement."
+      ],
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of {*} {*} to repair any core damage and {*} for each damaged or missing part. Repairs cannot drop bay integrity below {*}%, at which point a bay cannot retrieve damaged drones.",
+      "source": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of {*} {*} to repair any core damage and {*} for each damaged or missing part. Repairs cannot drop bay integrity below {*}%, at which point a bay cannot retrieve damaged drones.",
+      "translation": "舱体启动时发射。只要本舱功能正常且已装配，匹配的无人机便会持续运行，本舱无需保持启动。只要有一个舱体已装配，库存中的其他可用舱体也能接收返航无人机。回收时会消耗舱体完整性修复无人机：核心损伤消耗{*}{*}，每个损坏或缺失部件消耗{*}。修复不会使舱体完整性低于{*}%；低于此值时舱体无法回收受损无人机。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x5e0c] value appended to cost literal"
+        },
+        {
+          "type": "literal",
+          "text": " ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7384] value appended before core-damage clause"
+        },
+        {
+          "type": "literal",
+          "text": " to repair any core damage and ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x737c] value after core-damage clause"
+        },
+        {
+          "type": "literal",
+          "text": " for each damaged or missing part. Repairs cannot drop bay integrity below ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x7374] value before threshold clause"
+        },
+        {
+          "type": "literal",
+          "text": "%, at which point a bay cannot retrieve damaged drones.",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        10641,
+        10646,
+        10658,
+        10666,
+        10678,
+        10689,
+        10699,
+        10709
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56c0b2",
+        "0x56c116",
+        "0x56c17a"
+      ],
+      "confidence": "unresolved",
+      "covered_raw_strings": [
+        "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of ",
+        " to repair any core damage and ",
+        " for each damaged or missing part. Repairs cannot drop bay integrity below "
+      ],
+      "status": "unresolved",
+      "notes": "调用链证明此处按原顺序拼入四段动态文本；前两段在字面量之间无分隔符，具体格式含义无法从该窗口确认，未补造标点或单位。"
+    },
+    {
+      "raw_template": "Fabricates a random derelict part at a rate of 1 per {*} turn(s).\n <parallel_ok, resume_ok>",
+      "source": "Fabricates a random derelict part at a rate of 1 per {*} turn(s). <parallel_ok, resume_ok>",
+      "translation": "每{*}回合随机制造一个废弃部件。\n <parallel_ok, resume_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Fabricates a random derelict part at a rate of 1 per ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x5e10] interval; plural/singular branch confirmed by 56c424-56c4bf"
+        },
+        {
+          "type": "literal",
+          "text": " turn(s).\n <parallel_ok, resume_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        10855
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b08d0"
+      ],
+      "covers_xrefs": [
+        "0x56c4d2"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Fabricates a random derelict part at a rate of 1 per ",
+      "status": "reconstructed_candidate",
+      "notes": "间隔词尾存在分别指向 “ turns.” 和 “ turn.” 的分支（汇编 56c424/56c478）；raw_template 用 turn(s) 表示两支。"
+    },
+    {
+      "raw_template": "Fabricates a {*} at a rate of 1 per {*} turn(s).\n <parallel_ok, resume_ok>",
+      "source": "Fabricates a {*} at a rate of 1 per {*} turn(s). <parallel_ok, resume_ok>",
+      "translation": "每{*}回合制造{*}。\n <parallel_ok, resume_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Fabricates a ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "runtime type/name at [ebp-0x5e4c]+0x1b4 passed to 0x9ce830"
+        },
+        {
+          "type": "literal",
+          "text": " at a rate of 1 per ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "interval value selected by singular/plural branch"
+        },
+        {
+          "type": "literal",
+          "text": " turn(s).\n <parallel_ok, resume_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        11089
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b08d0"
+      ],
+      "covers_xrefs": [
+        "0x56c983"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Fabricates a random Assembled at a rate of 1 per ",
+      "status": "reconstructed_candidate",
+      "notes": "9ce830 将前缀与对象名字符串拼接；对象名内容由运行时字段提供，因此译文保留该捕获，不额外臆造其取值。间隔词尾由 turn/turns 两条分支产生。 间隔词尾存在 turn/turns 两条分支（汇编 56c639/56c68d）。"
+    },
+    {
+      "raw_template": "Fabricates a random drone at a rate of 1 per {*} turn(s). Fabricated drones disintegrate after {*} turns, or upon being disarmed.\n <parallel_ok, resume_ok>",
+      "source": "Fabricates a random drone at a rate of 1 per {*} turn(s). Fabricated drones disintegrate after {*} turns, or upon being disarmed. <parallel_ok, resume_ok>",
+      "translation": "每{*}回合随机制造一架无人机。制造的无人机在{*}回合后或被解除武装时解体。\n <parallel_ok, resume_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Fabricates a random drone at a rate of 1 per ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "interval"
+        },
+        {
+          "type": "literal",
+          "text": " turn(s). Fabricated drones disintegrate after ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "lifetime passed through 9ce930"
+        },
+        {
+          "type": "literal",
+          "text": " turns, or upon being disarmed.\n <parallel_ok, resume_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        11200
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56cbc2"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Fabricates a random drone at a rate of 1 per ",
+      "status": "reconstructed_candidate",
+      "notes": "“无人机解体”后的字面量固定为 turns（汇编 56cc50），无单数分支。"
+    },
+    {
+      "raw_template": "Fabricates a random turret at a rate of 1 per {*} turn(s). Requires sufficient space to deploy, where if no suitable location is available the build will be temporarily halted just before deployment.\n <parallel_ok, resume_ok>",
+      "source": "Fabricates a random turret at a rate of 1 per {*} turn(s). Requires sufficient space to deploy, where if no suitable location is available the build will be temporarily halted just before deployment. <parallel_ok, resume_ok>",
+      "translation": "每{*}回合随机制造一座炮塔。部署需要足够空间；若没有合适位置，制造会在部署前暂时停止。\n <parallel_ok, resume_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Fabricates a random turret at a rate of 1 per ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x5e20] interval"
+        },
+        {
+          "type": "literal",
+          "text": " turn(s). Requires sufficient space to deploy, where if no suitable location is available the build will be temporarily halted just before deployment.\n <parallel_ok, resume_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        11334
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b08d0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56ce63"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Fabricates a random turret at a rate of 1 per ",
+      "status": "reconstructed_candidate",
+      "notes": "间隔词尾存在 turn/turns 两条分支（汇编 56ce0a/56ce44）；其后固定追加原始空间部署说明。"
+    },
+    {
+      "raw_template": null,
+      "source": "",
+      "translation": "",
+      "components": [],
+      "assembly_lines": [
+        11490
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56d173"
+      ],
+      "confidence": "unresolved",
+      "covered_raw_string": " after remaining active for ",
+      "status": "unresolved"
+    },
+    {
+      "raw_template": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately {*} turns.",
+      "source": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately {*} turns.",
+      "translation": "自主供能的单元，可建造并维护完整的魔像。建造约需{*}回合。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "turn count from [ebp-0x74fc]"
+        },
+        {
+          "type": "literal",
+          "text": " turns.",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        11535
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56d246"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately ",
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Every {*} turns emits a powerful signal tuned to power down all Assembled within a range of {*}.",
+      "source": "Every {*} turns emits a powerful signal tuned to power down all Assembled within a range of {*}.",
+      "translation": "每{*}回合发出强力信号，使范围{*}内所有组装体关机。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Every ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "interval from [ebp-0x752c]"
+        },
+        {
+          "type": "literal",
+          "text": " turns emits a powerful signal tuned to power down all Assembled within a range of ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "range from [ebp-0x7544]"
+        },
+        {
+          "type": "literal",
+          "text": ".",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        11648
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56d450"
+      ],
+      "confidence": "high",
+      "covered_raw_string": " turns emits a powerful signal tuned to power down all Assembled within a range of ",
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Every {*} turns emits a powerful signal that befriends all visible Subdwellers within a range of {*}.",
+      "source": "Every {*} turns emits a powerful signal that befriends all visible Subdwellers within a range of {*}.",
+      "translation": "每{*}回合发出强力信号，使范围{*}内所有可见的地下居民成为友方。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Every ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "interval"
+        },
+        {
+          "type": "literal",
+          "text": " turns emits a powerful signal that befriends all visible Subdwellers within a range of ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "range"
+        },
+        {
+          "type": "literal",
+          "text": ".",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        11736
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x56d5e3"
+      ],
+      "confidence": "high",
+      "covered_raw_string": " turns emits a powerful signal that befriends all visible Subdwellers within a range of ",
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Regenerates integrity at a rate of 1 per {*} turns.\n <parallel_ok, resume_ok>",
+      "source": "Regenerates integrity at a rate of 1 per {*} turns. <parallel_ok, resume_ok>",
+      "translation": "每{*}回合恢复1点完整性。\n <parallel_ok, resume_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Regenerates integrity at a rate of 1 per ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x5e44]-derived interval"
+        },
+        {
+          "type": "literal",
+          "text": " turns.\n <parallel_ok, resume_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        11818
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56d763"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Regenerates integrity at a rate of 1 per ",
+      "status": "reconstructed_candidate"
+    },
+    {
+      "raw_template": "Regenerates integrity at a rate of {*} per turn. Must be active, and requires {*} energy.\n <parallel_ok>",
+      "source": "Regenerates integrity at a rate of {*} per turn. Must be active, and requires {*} energy. <parallel_ok>",
+      "translation": "每回合恢复{*}点完整性。必须启动，并消耗{*}能量。\n <parallel_ok>",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Regenerates integrity at a rate of ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "rate value from [ebp-0x5e48] formatting path"
+        },
+        {
+          "type": "literal",
+          "text": " per turn. Must be active, and requires ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "energy cost formatted by 9ce930"
+        },
+        {
+          "type": "literal",
+          "text": " energy.\n <parallel_ok>",
+          "source": null
+        }
+      ],
+      "assembly_lines": [
+        11887
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930"
+      ],
+      "covers_xrefs": [
+        "0x56d8b9"
+      ],
+      "confidence": "high",
+      "covered_raw_string": "Regenerates integrity at a rate of ",
+      "status": "reconstructed_candidate"
+    }
+  ]
+}

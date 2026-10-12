@@ -1,0 +1,855 @@
+{
+  "source_file": "translations/exe-review.json",
+  "selection": {
+    "classification": "dynamic_fragment",
+    "filtered_dynamic_start_index": 120,
+    "count": 119
+  },
+  "upstream_checked": [
+    "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_para.tsv",
+    "upstream/KR-AOS-Cogmind/Cogmind-KR_PDS/kr_trans.tsv"
+  ],
+  "entries": [
+    {
+      "dynamic_index": 120,
+      "exe_review_index": 231,
+      "source": "no longer safe.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 121,
+      "exe_review_index": 232,
+      "source": "Danger! You're approaching an entrance to",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 122,
+      "exe_review_index": 234,
+      "source": "While we would love for you to report back what you find inside",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 123,
+      "exe_review_index": 235,
+      "source": "at this time. EX-BIN: It would be funny, though.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 124,
+      "exe_review_index": 236,
+      "source": "We cannot in good conscience advise you to enter",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 125,
+      "exe_review_index": 237,
+      "source": "I finished my Atomic Chain Massager. We'll give it to the next anonymous tester bot for their inevitably unsafe journey into",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 126,
+      "exe_review_index": 238,
+      "source": "do not mix. It's like fire and water. Assembled and Derelicts. Imprinter and sanity.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 127,
+      "exe_review_index": 239,
+      "source": "In case you forgot, our tech and",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 128,
+      "exe_review_index": 240,
+      "source": "We can't do much more than enjoy the fireworks if you do decide to enter",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 129,
+      "exe_review_index": 246,
+      "source": "A concussive blast radiates from",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 130,
+      "exe_review_index": 247,
+      "source": "form resolidifies at new position.",
+      "status": "covered",
+      "matched_table": "kr_para.tsv",
+      "matched_line": 2098,
+      "matched_source_key": "Form resolidifies at new position.",
+      "match_basis": "片段完整词序连续出现在固定上游键中；比对时忽略大小写、标点差异，并将具体数值、{n}、{*}视为同类参数。",
+      "difference_reason": "仅大小写/标点及数值或捕获参数写法不同，词序内容完全对应。"
+    },
+    {
+      "dynamic_index": 131,
+      "exe_review_index": 248,
+      "source": "is pierced by a surge of energy.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 132,
+      "exe_review_index": 253,
+      "source": "ripped apart by quantum tension.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 133,
+      "exe_review_index": 255,
+      "source": "flashes as you approach.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 134,
+      "exe_review_index": 279,
+      "source": "ALERT: Network intrusion management efficiency reduced by",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 135,
+      "exe_review_index": 280,
+      "source": "ALERT: Network intrusion management efficiency at",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 136,
+      "exe_review_index": 281,
+      "source": "Damage insufficient to overcome",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 137,
+      "exe_review_index": 282,
+      "source": "ALERT: Unidentified disturbance in Zone",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 138,
+      "exe_review_index": 283,
+      "source": "ALERT: Significant disruption in Zone",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 139,
+      "exe_review_index": 284,
+      "source": "ALERT: Active scanning activity reported from Zone",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 140,
+      "exe_review_index": 285,
+      "source": "ALERT: Unscheduled coupler replacement inbound for",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 141,
+      "exe_review_index": 293,
+      "source": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 142,
+      "exe_review_index": 294,
+      "source": "reconstitutes self from the rubble and scrap.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 143,
+      "exe_review_index": 295,
+      "source": "reconstitutes true form from the rubble and scrap.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 144,
+      "exe_review_index": 296,
+      "source": "form shifts and reconstitutes itself, revealing true form.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 145,
+      "exe_review_index": 297,
+      "source": "bursts from the wall.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 146,
+      "exe_review_index": 298,
+      "source": "shrinks and is drawn into a quantum tunnel.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 147,
+      "exe_review_index": 299,
+      "source": "resistance returns to normal.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 148,
+      "exe_review_index": 300,
+      "source": "Weapon slot count returns to normal (-",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 149,
+      "exe_review_index": 301,
+      "source": "X0-1V1 twists and redirects some latent energy in your direction (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 150,
+      "exe_review_index": 302,
+      "source": "X0-1V1: \"Don't spend it all in one place.\" (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 151,
+      "exe_review_index": 303,
+      "source": "energy generation).",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 152,
+      "exe_review_index": 304,
+      "source": "X0-1V1 connects you with a stream of twisted latent energy (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 153,
+      "exe_review_index": 305,
+      "source": "X0-1V1 injects you with a stream of matter (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 154,
+      "exe_review_index": 306,
+      "source": "X0-1V1 sucks the heat right out of you (-",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 155,
+      "exe_review_index": 307,
+      "source": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 156,
+      "exe_review_index": 308,
+      "source": "heat dissipation).",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 157,
+      "exe_review_index": 309,
+      "source": "X0-1V1 thinks you're pretty cool, for now (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 158,
+      "exe_review_index": 310,
+      "source": "X0-1V1: \"A slightly more accurate toy is still a toy.\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 159,
+      "exe_review_index": 311,
+      "source": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 160,
+      "exe_review_index": 312,
+      "source": "X0-1V1 manipulates the space around you (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 161,
+      "exe_review_index": 313,
+      "source": "X0-1V1: \"See? It buffs right out!\" (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 162,
+      "exe_review_index": 314,
+      "source": "X0-1V1 ensures you are ready for glorious battle (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 163,
+      "exe_review_index": 315,
+      "source": "A marvel of modern technology appears at your location (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 164,
+      "exe_review_index": 317,
+      "source": "system corruption).",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 165,
+      "exe_review_index": 318,
+      "source": "X0-1V1 lends a hand with your twisted circuits (-",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 166,
+      "exe_review_index": 319,
+      "source": "X0-1V1: \"Watch where you're going!\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 167,
+      "exe_review_index": 320,
+      "source": "sight range).",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 168,
+      "exe_review_index": 321,
+      "source": "X0-1V1 makes important surrounding features appear closer to you (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 169,
+      "exe_review_index": 322,
+      "source": "X0-1V1: \"Let the electrons flow!\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 170,
+      "exe_review_index": 323,
+      "source": "X0-1V1 causes your matter storage to temporarily balloon in size. (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 171,
+      "exe_review_index": 324,
+      "source": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 172,
+      "exe_review_index": 325,
+      "source": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 173,
+      "exe_review_index": 326,
+      "source": "X0-1V1: \"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\" (permanent",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 174,
+      "exe_review_index": 327,
+      "source": "X0-1V1 smiles upon you. (Received",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 175,
+      "exe_review_index": 330,
+      "source": "X0-1V1 points here and there (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 176,
+      "exe_review_index": 331,
+      "source": "X0-1V1: \"I found some blueprints, how convenient!\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 177,
+      "exe_review_index": 332,
+      "source": "to go sit in the corner.\"",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 178,
+      "exe_review_index": 333,
+      "source": "X0-1V1 wants to heat up the action around here (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 179,
+      "exe_review_index": 334,
+      "source": "X0-1V1: \"Your inner air conditioner seems to have fallen into disrepair.\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 180,
+      "exe_review_index": 335,
+      "source": "X0-1V1: \"There's a penalty for shooting from the hip 'round these parts.\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 181,
+      "exe_review_index": 336,
+      "source": "X0-1V1 projects screaming human faces on all surfaces in the area (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 182,
+      "exe_review_index": 337,
+      "source": "caught in stasis.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 183,
+      "exe_review_index": 340,
+      "source": "system corruption)\"",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 184,
+      "exe_review_index": 341,
+      "source": "X0-1V1: \"It's not much, but it's the thought that counts. (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 185,
+      "exe_review_index": 342,
+      "source": "X0-1V1 brushes you with a corrupting influence (+",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 186,
+      "exe_review_index": 343,
+      "source": "of your inventory parts (corrupted).",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 187,
+      "exe_review_index": 344,
+      "source": "X0-1V1 blurs the world around you (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 188,
+      "exe_review_index": 345,
+      "source": "X0-1V1: \"In a world full of sensor tech, vision is overrated.\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 189,
+      "exe_review_index": 346,
+      "source": "X0-1V1: \"Did you know you're leaking matter?\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 190,
+      "exe_review_index": 347,
+      "source": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 191,
+      "exe_review_index": 350,
+      "source": "X0-1V1: \"I may have passed a hint to a nearby",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 192,
+      "exe_review_index": 353,
+      "source": "X0-1V1 pokes a wall.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 193,
+      "exe_review_index": 358,
+      "source": "hacked open.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 194,
+      "exe_review_index": 359,
+      "source": "inbound, all units not involved in other operations escort to target.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 195,
+      "exe_review_index": 360,
+      "source": "buries itself in the floor.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 196,
+      "exe_review_index": 361,
+      "source": "targets ready for detonation.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 197,
+      "exe_review_index": 364,
+      "source": "ALERT: Derelict incursion at",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 198,
+      "exe_review_index": 365,
+      "source": "Established visual feed link with",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 199,
+      "exe_review_index": 370,
+      "source": "ANNOUNCEMENT: Warlord currently on",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 200,
+      "exe_review_index": 371,
+      "source": "to Cogmind's location.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 201,
+      "exe_review_index": 372,
+      "source": "ANNOUNCEMENT: Unaware assault squad dispatched in",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 202,
+      "exe_review_index": 373,
+      "source": "turns your loot boxes might contain...",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 203,
+      "exe_review_index": 376,
+      "source": "Unlike other parts in RPGLIKE mode that transfer",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 204,
+      "exe_review_index": 377,
+      "source": "Unlike other parts in BattleRoyale mode that transfer",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 205,
+      "exe_review_index": 380,
+      "source": "effective code value to all Relay Couplers.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 206,
+      "exe_review_index": 381,
+      "source": "more turns before they can pinpoint your position for dispatching.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 207,
+      "exe_review_index": 382,
+      "source": "while at least one Relay Coupler [NC] attached.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 208,
+      "exe_review_index": 383,
+      "source": "ANNOUNCEMENT: Welcome to our newest member,",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 209,
+      "exe_review_index": 391,
+      "source": "stockpile data.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 210,
+      "exe_review_index": 393,
+      "source": "materializes via a weapon slot.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 211,
+      "exe_review_index": 394,
+      "source": "blips out of existence for a moment, then partially fades back in.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 212,
+      "exe_review_index": 406,
+      "source": "ripped apart by twisting subspace fabric.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 213,
+      "exe_review_index": 415,
+      "source": "sort of build. As for the details...",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 214,
+      "exe_review_index": 416,
+      "source": "support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 215,
+      "exe_review_index": 417,
+      "source": "Impressive surplus mass support. Even if you were to lose some",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 216,
+      "exe_review_index": 418,
+      "source": "speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 217,
+      "exe_review_index": 419,
+      "source": "looks a bit greedy.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 218,
+      "exe_review_index": 421,
+      "source": "rendered useless by plates shifting to reveal entrance.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 219,
+      "exe_review_index": 422,
+      "source": "Acceleration Regulator",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 220,
+      "exe_review_index": 423,
+      "source": "is a serious offense. Repeat command to confirm.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 221,
+      "exe_review_index": 425,
+      "source": "Support from the recent Fedlink buildup",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 222,
+      "exe_review_index": 426,
+      "source": "is limited, but with our capabilities exposed it's now or never.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 223,
+      "exe_review_index": 427,
+      "source": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 224,
+      "exe_review_index": 428,
+      "source": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 225,
+      "exe_review_index": 429,
+      "source": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 226,
+      "exe_review_index": 430,
+      "source": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 227,
+      "exe_review_index": 431,
+      "source": "rendered useless by seal.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 228,
+      "exe_review_index": 432,
+      "source": "ALERT: Suspicious activity reported at",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 229,
+      "exe_review_index": 437,
+      "source": "until cutoff.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 230,
+      "exe_review_index": 438,
+      "source": "to completion.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 231,
+      "exe_review_index": 447,
+      "source": "If only there was a way to",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 232,
+      "exe_review_index": 448,
+      "source": "while I steal that schematic before they can even call for help.",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 233,
+      "exe_review_index": 449,
+      "source": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 234,
+      "exe_review_index": 450,
+      "source": "intercept whatever it can find, and the data will also feed back",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 235,
+      "exe_review_index": 451,
+      "source": "to me here for my wiki so we can all benefit!",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 236,
+      "exe_review_index": 452,
+      "source": "If the Merchants find out I took this prototype before it was finished,",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    },
+    {
+      "dynamic_index": 237,
+      "exe_review_index": 454,
+      "source": "did not survive the journey.",
+      "status": "covered",
+      "matched_table": "kr_para.tsv",
+      "matched_line": 1015,
+      "matched_source_key": "{*} did not survive the journey",
+      "match_basis": "片段完整词序连续出现在固定上游键中；比对时忽略大小写、标点差异，并将具体数值、{n}、{*}视为同类参数。",
+      "difference_reason": "仅大小写/标点及数值或捕获参数写法不同，词序内容完全对应。"
+    },
+    {
+      "dynamic_index": 238,
+      "exe_review_index": 457,
+      "source": "Default           Keyboard",
+      "status": "uncovered_dynamic",
+      "reason": "固定上游 kr_para.tsv / kr_trans.tsv 中没有该片段完整连续词序的参数模板对应项；主题相似、零散词重合或词序/关键措辞不同均不足以证明覆盖。"
+    }
+  ]
+}

@@ -1,0 +1,1805 @@
+{
+  "source_worklist": "translations/native-worklists/remaining_03.json",
+  "description": "Native text reconstruction candidates from the specified xref windows. Source uses only supported capture markers. Diagnostic-only entries are excluded from player translation. Review pass: four advice strings have complete same-branch compositions but remain unresolved because their final player-render sink is not proven; config comment remains diagnostic-only.",
+  "entries": [
+    {
+      "raw_template": "{*} ripped apart by twisting subspace fabric.",
+      "source": "{*} ripped apart by twisting subspace fabric.",
+      "translation": "{*}被扭曲的子空间织构撕碎。",
+      "components": [
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "source object passed to text constructor"
+        },
+        {
+          "type": "literal",
+          "text": " ripped apart by twisting subspace fabric.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/82f384.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "82f384: 68 7c 0f c0 00               \tpush\t0xc00f7c ; TEXT 0xc00f7c=\" ripped apart by twisting subspace fabric.\""
+        },
+        {
+          "line": 102,
+          "instruction": "82f389: 8d 85 b8 ea ff ff            \tlea\teax, [ebp - 0x1548]"
+        },
+        {
+          "line": 104,
+          "instruction": "82f390: 8d 8d bc f3 ff ff            \tlea\tecx, [ebp - 0xc44]"
+        },
+        {
+          "line": 106,
+          "instruction": "82f397: b9 28 e5 cf 00               \tmov\tecx, 0xcfe528"
+        },
+        {
+          "line": 117,
+          "instruction": "82f3be: e8 dd f6 19 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 132,
+          "instruction": "82f3f8: e8 33 17 18 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9d02e0",
+        "0x9ceaa0",
+        "0x49c9f0"
+      ],
+      "covers_xrefs": [
+        "0x82f384"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "完整输出由当前对象字符串与该xref字面后缀组成；对象名称本身语义未知，按要求保留为整体捕获。",
+      "covered_input_fragments": [
+        {
+          "raw": " ripped apart by twisting subspace fabric.",
+          "xref": "0x82f384",
+          "string_va": [
+            "0xc00f7c"
+          ],
+          "classification": "player_visible_confirmed"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/82f384.asm",
+        "calls": [
+          "0x9d02e0",
+          "0x9ceaa0",
+          "0x49c9f0"
+        ],
+        "observation": "Completed string is passed to 0x5122d0 or to the text/event wrapper 0x49c9f0 which invokes 0x5122d0."
+      },
+      "audit_review": {
+        "composition": "Branch-local exact literals and verified concatenation calls are included in assembly_lines.",
+        "sink": "The message path reaches the game message/event sink."
+      }
+    },
+    {
+      "raw_template": "You strike me as a {*} sort of build. As for the details...",
+      "source": "You strike me as a {*} sort of build. As for the details...",
+      "translation": "你给我的感觉像是走{*}路线的。至于细节嘛……",
+      "components": [
+        {
+          "type": "literal",
+          "text": "You strike me as a ",
+          "origin": "immediate literal confirmed in this xref branch"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "build-category value"
+        },
+        {
+          "type": "literal",
+          "text": " sort of build. As for the details...",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        {
+          "line": 92,
+          "instruction": "8f7515: 68 5c 51 c0 00               \tpush\t0xc0515c ; TEXT 0xc0515c=\"You strike me as a \""
+        },
+        {
+          "line": 95,
+          "instruction": "8f751e: e8 0d 73 0d 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 101,
+          "instruction": "8f753c: 68 34 51 c0 00               \tpush\t0xc05134 ; TEXT 0xc05134=\" sort of build. As for the details...\""
+        },
+        {
+          "line": 106,
+          "instruction": "8f754f: e8 9c 73 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 118,
+          "instruction": "8f7589: e8 a2 95 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 121,
+          "instruction": "8f7595: e8 96 95 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x4168e0",
+        "0x4af3a0",
+        "0x5152a0",
+        "0x5d33e0",
+        "0x9b1b90",
+        "0x9b1f40",
+        "0x9b7f50",
+        "0x9b8a30",
+        "0x9bb920",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x8f753c"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "当前构造明确为字面前缀+动态类别+字面后缀；确认完成字符串随后加入对话列表。",
+      "covered_input_fragments": [
+        {
+          "raw": " sort of build. As for the details...",
+          "xref": "0x8f753c",
+          "string_va": [
+            "0xc05134"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "audit_review": {
+        "composition": "Literal components and captures in this candidate are assembled by the verified string helpers. The complete result is inserted into the same feedback text vector used by the report component.",
+        "5d33e0": "This helper selects/looks up values in the assessment collection; it is not being treated as proof of display.",
+        "sink": "The report component receives the feedback vector and is created/registered in the UI path, then marked active. The producer also runs in active game flow, establishing player visibility."
+      },
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "selection": "In the surrounding build-assessment routine, 0x5d33e0 iterates the collection at [this+0x134], compares entries with the input key [ebp+0xc], and writes the matched value through [ebp+8] (lines 547329-547382). Its callers feed the assessment gates; it is a lookup/selector, not the text sink.",
+        "composition": "The literal prefix/suffix are combined by 0x9ce830/0x9ce7b0 and 0x9ce8f0 at the xref branch, then the completed string object is inserted into the shared feedback text vector [ebp-0x9a8] by 0x9b1b90 or 0x9b1f40 at the code following the statement construction.",
+        "ui_sink": "The routine passes [ebp-0x9a8] as its final argument at 0x8f985e-0x8f9887 (lines 1375859-1375872). 0x4af3a0 stores that argument into the report component at this+0x7c via 0x9b1a20 (lines 219568-219618), creates the component through UI constructors/registration 0x48c410 and 0x4168e0 (lines 219580-219708), then sets its active/visible flag at 0x4af581 (line 219710). Thus the generated assessment text is consumed by the player-facing report UI.",
+        "event_path": "The assessment producer is called from the active game flow at 0x530e29 (line 378951) and emits its report/event records through 0x5152a0 at 0x8f9748 (line 1375800).",
+        "evidence_lines": [
+          {
+            "line": 1373878,
+            "instruction": "Candidate literal is loaded in its assessment branch; see assembly_lines for exact VA and string text."
+          },
+          {
+            "line": 1373892,
+            "instruction": "Completed candidate is copied into [ebp-0x9a8] feedback text vector by the adjacent 0x9b1b90/0x9b1f40 or 0x9b1f10+0x9b0bb0 calls."
+          },
+          {
+            "line": 1375859,
+            "instruction": "8f985e: LEA ECX,[EBP-0x9a8]; this pointer is pushed as the sixth argument at 0x8f9864."
+          },
+          {
+            "line": 219607,
+            "instruction": "4af415-4af418: object+0x7c receives the caller-provided feedback vector via 0x9b1a20."
+          },
+          {
+            "line": 219710,
+            "instruction": "4af581: UI component active/visible flag set to 1."
+          },
+          {
+            "line": 378951,
+            "instruction": "530e29: active-flow caller invokes assessment producer 0x8f6e90."
+          }
+        ]
+      }
+    },
+    {
+      "raw_template": "Impressive surplus mass support. Even if you were to lose some {*} support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "source": "Impressive surplus mass support. Even if you were to lose some {*} support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "translation": "额外质量支撑相当充足。即使因意外命中、过热或其他异常而失去部分{*}支撑，你仍能相当从容地撤离。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Impressive surplus mass support. Even if you were to lose some ",
+          "origin": "immediate literal confirmed in this xref branch"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "mass-support amount/value"
+        },
+        {
+          "type": "literal",
+          "text": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "8f76cd: 68 68 52 c0 00               \tpush\t0xc05268 ; TEXT 0xc05268=\"Impressive surplus mass support. Even if you were to lose some \""
+        },
+        {
+          "line": 104,
+          "instruction": "8f76d9: e8 d2 70 0d 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "8f76f7: 68 f0 51 c0 00               \tpush\t0xc051f0 ; TEXT 0xc051f0=\" support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.\""
+        },
+        {
+          "line": 115,
+          "instruction": "8f770a: e8 e1 71 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 127,
+          "instruction": "8f7744: e8 e7 93 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 130,
+          "instruction": "8f7753: e8 d8 93 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x4168e0",
+        "0x4af3a0",
+        "0x5152a0",
+        "0x5d33e0",
+        "0x9b1b90",
+        "0x9b1f40",
+        "0x9b7f50",
+        "0x9b8a30",
+        "0x9bb920",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x8f76cd",
+        "0x8f76f7"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "两个实际literal由已验证拼接helper连接；中间动态字符串传入后构成完整句。",
+      "covered_input_fragments": [
+        {
+          "raw": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+          "xref": "0x8f76f7",
+          "string_va": [
+            "0xc051f0"
+          ],
+          "classification": "unknown"
+        },
+        {
+          "raw": "Impressive surplus mass support. Even if you were to lose some ",
+          "xref": "0x8f76cd",
+          "string_va": [
+            "0xc05268"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "audit_review": {
+        "composition": "Literal components and captures in this candidate are assembled by the verified string helpers. The complete result is inserted into the same feedback text vector used by the report component.",
+        "5d33e0": "This helper selects/looks up values in the assessment collection; it is not being treated as proof of display.",
+        "sink": "The report component receives the feedback vector and is created/registered in the UI path, then marked active. The producer also runs in active game flow, establishing player visibility."
+      },
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "selection": "In the surrounding build-assessment routine, 0x5d33e0 iterates the collection at [this+0x134], compares entries with the input key [ebp+0xc], and writes the matched value through [ebp+8] (lines 547329-547382). Its callers feed the assessment gates; it is a lookup/selector, not the text sink.",
+        "composition": "The literal prefix/suffix are combined by 0x9ce830/0x9ce7b0 and 0x9ce8f0 at the xref branch, then the completed string object is inserted into the shared feedback text vector [ebp-0x9a8] by 0x9b1b90 or 0x9b1f40 at the code following the statement construction.",
+        "ui_sink": "The routine passes [ebp-0x9a8] as its final argument at 0x8f985e-0x8f9887 (lines 1375859-1375872). 0x4af3a0 stores that argument into the report component at this+0x7c via 0x9b1a20 (lines 219568-219618), creates the component through UI constructors/registration 0x48c410 and 0x4168e0 (lines 219580-219708), then sets its active/visible flag at 0x4af581 (line 219710). Thus the generated assessment text is consumed by the player-facing report UI.",
+        "event_path": "The assessment producer is called from the active game flow at 0x530e29 (line 378951) and emits its report/event records through 0x5152a0 at 0x8f9748 (line 1375800).",
+        "evidence_lines": [
+          {
+            "line": 1373966,
+            "instruction": "Candidate literal is loaded in its assessment branch; see assembly_lines for exact VA and string text."
+          },
+          {
+            "line": 1373989,
+            "instruction": "Completed candidate is copied into [ebp-0x9a8] feedback text vector by the adjacent 0x9b1b90/0x9b1f40 or 0x9b1f10+0x9b0bb0 calls."
+          },
+          {
+            "line": 1375859,
+            "instruction": "8f985e: LEA ECX,[EBP-0x9a8]; this pointer is pushed as the sixth argument at 0x8f9864."
+          },
+          {
+            "line": 219607,
+            "instruction": "4af415-4af418: object+0x7c receives the caller-provided feedback vector via 0x9b1a20."
+          },
+          {
+            "line": 219710,
+            "instruction": "4af581: UI component active/visible flag set to 1."
+          },
+          {
+            "line": 378951,
+            "instruction": "530e29: active-flow caller invokes assessment producer 0x8f6e90."
+          }
+        ]
+      }
+    },
+    {
+      "raw_template": "Fairly fast {*} speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "source": "Fairly fast {*} speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "translation": "你这速度相当快，{*}，足以躲开或甩掉步兵之类的敌人。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Fairly fast ",
+          "origin": "immediate literal confirmed in this xref branch"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "speed descriptor/value"
+        },
+        {
+          "type": "literal",
+          "text": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        {
+          "line": 92,
+          "instruction": "8f7960: 68 0c 54 c0 00               \tpush\t0xc0540c ; TEXT 0xc0540c=\"Fairly fast \""
+        },
+        {
+          "line": 95,
+          "instruction": "8f796c: e8 3f 6e 0d 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 101,
+          "instruction": "8f798a: 68 b8 53 c0 00               \tpush\t0xc053b8 ; TEXT 0xc053b8=\" speed you've got there. More than enough to dodge or outrun Grunts and the like.\""
+        },
+        {
+          "line": 106,
+          "instruction": "8f799d: e8 4e 6f 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 118,
+          "instruction": "8f79d7: e8 54 91 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 121,
+          "instruction": "8f79e6: e8 45 91 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 124,
+          "instruction": "8f79f5: e8 36 91 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x4168e0",
+        "0x4af3a0",
+        "0x5152a0",
+        "0x5d33e0",
+        "0x9b1b90",
+        "0x9b1f40",
+        "0x9b7f50",
+        "0x9b8a30",
+        "0x9bb920",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x8f798a"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "同分支的Fairly fast前缀、动态速度描述与本项后缀直接拼接，随后进入对话列表。",
+      "covered_input_fragments": [
+        {
+          "raw": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+          "xref": "0x8f798a",
+          "string_va": [
+            "0xc053b8"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "audit_review": {
+        "composition": "Literal components and captures in this candidate are assembled by the verified string helpers. The complete result is inserted into the same feedback text vector used by the report component.",
+        "5d33e0": "This helper selects/looks up values in the assessment collection; it is not being treated as proof of display.",
+        "sink": "The report component receives the feedback vector and is created/registered in the UI path, then marked active. The producer also runs in active game flow, establishing player visibility."
+      },
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "selection": "In the surrounding build-assessment routine, 0x5d33e0 iterates the collection at [this+0x134], compares entries with the input key [ebp+0xc], and writes the matched value through [ebp+8] (lines 547329-547382). Its callers feed the assessment gates; it is a lookup/selector, not the text sink.",
+        "composition": "The literal prefix/suffix are combined by 0x9ce830/0x9ce7b0 and 0x9ce8f0 at the xref branch, then the completed string object is inserted into the shared feedback text vector [ebp-0x9a8] by 0x9b1b90 or 0x9b1f40 at the code following the statement construction.",
+        "ui_sink": "The routine passes [ebp-0x9a8] as its final argument at 0x8f985e-0x8f9887 (lines 1375859-1375872). 0x4af3a0 stores that argument into the report component at this+0x7c via 0x9b1a20 (lines 219568-219618), creates the component through UI constructors/registration 0x48c410 and 0x4168e0 (lines 219580-219708), then sets its active/visible flag at 0x4af581 (line 219710). Thus the generated assessment text is consumed by the player-facing report UI.",
+        "event_path": "The assessment producer is called from the active game flow at 0x530e29 (line 378951) and emits its report/event records through 0x5152a0 at 0x8f9748 (line 1375800).",
+        "evidence_lines": [
+          {
+            "line": 1374112,
+            "instruction": "Candidate literal is loaded in its assessment branch; see assembly_lines for exact VA and string text."
+          },
+          {
+            "line": 1374126,
+            "instruction": "Completed candidate is copied into [ebp-0x9a8] feedback text vector by the adjacent 0x9b1b90/0x9b1f40 or 0x9b1f10+0x9b0bb0 calls."
+          },
+          {
+            "line": 1375859,
+            "instruction": "8f985e: LEA ECX,[EBP-0x9a8]; this pointer is pushed as the sixth argument at 0x8f9864."
+          },
+          {
+            "line": 219607,
+            "instruction": "4af415-4af418: object+0x7c receives the caller-provided feedback vector via 0x9b1a20."
+          },
+          {
+            "line": 219710,
+            "instruction": "4af581: UI component active/visible flag set to 1."
+          },
+          {
+            "line": 378951,
+            "instruction": "530e29: active-flow caller invokes assessment producer 0x8f6e90."
+          }
+        ]
+      }
+    },
+    {
+      "raw_template": " That {*} looks a bit greedy.",
+      "source": " That {*} looks a bit greedy.",
+      "translation": "这套{*}看起来有点贪心。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " That ",
+          "origin": "EXE literal 0xc0555c, preserving its exact leading and trailing spaces"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "selected configuration descriptor"
+        },
+        {
+          "type": "literal",
+          "text": " looks a bit greedy.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        {
+          "line": 92,
+          "instruction": "8f7dd8: 68 5c 55 c0 00               \tpush\t0xc0555c ; TEXT 0xc0555c=\" That \""
+        },
+        {
+          "line": 95,
+          "instruction": "8f7de4: e8 c7 69 0d 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 101,
+          "instruction": "8f7e02: 68 44 55 c0 00               \tpush\t0xc05544 ; TEXT 0xc05544=\" looks a bit greedy.\""
+        },
+        {
+          "line": 106,
+          "instruction": "8f7e15: e8 d6 6a 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 117,
+          "instruction": "8f7e47: e8 64 8d 0b 00               \tcall\t0x9b0bb0 <PHYSFSRWOPS_openAppend+0x5ad120>"
+        }
+      ],
+      "calls": [
+        "0x4168e0",
+        "0x4af3a0",
+        "0x5152a0",
+        "0x5d33e0",
+        "0x9b1b90",
+        "0x9b1f40",
+        "0x9b7f50",
+        "0x9b8a30",
+        "0x9bb920",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x8f7e02"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "确切前缀That、动态对象与后缀拼接，后续加入已构造的对话消息。 Native prefix 0xc0555c is exactly “ That ”, including a leading space; raw_template/source/components now preserve it.",
+      "covered_input_fragments": [
+        {
+          "raw": " looks a bit greedy.",
+          "xref": "0x8f7e02",
+          "string_va": [
+            "0xc05544"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "audit_review": {
+        "composition": "The literal prefix 0xc0555c is exactly “ That ” including the leading and trailing spaces; the capture follows, and the literal suffix starts with a space.",
+        "5d33e0": "This helper selects/looks up values in the assessment collection; it is not being treated as proof of display.",
+        "sink": "The report component receives the feedback vector and is created/registered in the UI path, then marked active. The producer also runs in active game flow, establishing player visibility."
+      },
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "selection": "In the surrounding build-assessment routine, 0x5d33e0 iterates the collection at [this+0x134], compares entries with the input key [ebp+0xc], and writes the matched value through [ebp+8] (lines 547329-547382). Its callers feed the assessment gates; it is a lookup/selector, not the text sink.",
+        "composition": "The literal prefix/suffix are combined by 0x9ce830/0x9ce7b0 and 0x9ce8f0 at the xref branch, then the completed string object is inserted into the shared feedback text vector [ebp-0x9a8] by 0x9b1b90 or 0x9b1f40 at the code following the statement construction.",
+        "ui_sink": "The routine passes [ebp-0x9a8] as its final argument at 0x8f985e-0x8f9887 (lines 1375859-1375872). 0x4af3a0 stores that argument into the report component at this+0x7c via 0x9b1a20 (lines 219568-219618), creates the component through UI constructors/registration 0x48c410 and 0x4168e0 (lines 219580-219708), then sets its active/visible flag at 0x4af581 (line 219710). Thus the generated assessment text is consumed by the player-facing report UI.",
+        "event_path": "The assessment producer is called from the active game flow at 0x530e29 (line 378951) and emits its report/event records through 0x5152a0 at 0x8f9748 (line 1375800).",
+        "evidence_lines": [
+          {
+            "line": 1374373,
+            "instruction": "Candidate literal is loaded in its assessment branch; see assembly_lines for exact VA and string text."
+          },
+          {
+            "line": 1374389,
+            "instruction": "Completed candidate is copied into [ebp-0x9a8] feedback text vector by the adjacent 0x9b1b90/0x9b1f40 or 0x9b1f10+0x9b0bb0 calls."
+          },
+          {
+            "line": 1375859,
+            "instruction": "8f985e: LEA ECX,[EBP-0x9a8]; this pointer is pushed as the sixth argument at 0x8f9864."
+          },
+          {
+            "line": 219607,
+            "instruction": "4af415-4af418: object+0x7c receives the caller-provided feedback vector via 0x9b1a20."
+          },
+          {
+            "line": 219710,
+            "instruction": "4af581: UI component active/visible flag set to 1."
+          },
+          {
+            "line": 378951,
+            "instruction": "530e29: active-flow caller invokes assessment producer 0x8f6e90."
+          }
+        ]
+      }
+    },
+    {
+      "raw_template": "{*} rendered useless by plates shifting to reveal entrance.",
+      "source": "{*} rendered useless by plates shifting to reveal entrance.",
+      "translation": "{*}因板块移开、入口显露而失效。",
+      "components": [
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "affected object/feature string"
+        },
+        {
+          "type": "literal",
+          "text": " rendered useless by plates shifting to reveal entrance.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9216e8.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9216e8: 68 0c a2 c0 00               \tpush\t0xc0a20c ; TEXT 0xc0a20c=\" rendered useless by plates shifting to reveal entrance.\""
+        },
+        {
+          "line": 106,
+          "instruction": "9216fb: e8 a0 d3 0a 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 125,
+          "instruction": "92173c: e8 8f 0b bf ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ceaa0",
+        "0x5122d0"
+      ],
+      "covers_xrefs": [
+        "0x9216e8"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "同xref调用以对象字符串为前半、该literal为后缀构成消息，并到达玩家消息sink。",
+      "covered_input_fragments": [
+        {
+          "raw": " rendered useless by plates shifting to reveal entrance.",
+          "xref": "0x9216e8",
+          "string_va": [
+            "0xc0a20c"
+          ],
+          "classification": "player_visible_confirmed"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/9216e8.asm",
+        "calls": [
+          "0x9ceaa0",
+          "0x5122d0"
+        ],
+        "observation": "Completed string is passed to 0x5122d0 or to the text/event wrapper 0x49c9f0 which invokes 0x5122d0."
+      },
+      "audit_review": {
+        "composition": "Branch-local exact literals and verified concatenation calls are included in assembly_lines.",
+        "sink": "The message path reaches the game message/event sink."
+      }
+    },
+    {
+      "raw_template": "\n  Acceleration Regulator",
+      "source": "\n  Acceleration Regulator",
+      "translation": "\n  加速度调节器",
+      "components": [
+        {
+          "type": "literal",
+          "text": "\n  Acceleration Regulator",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/928521.asm",
+      "assembly_lines": [
+        {
+          "line": 98,
+          "instruction": "928511: 68 3c ad c0 00               \tpush\t0xc0ad3c ; TEXT 0xc0ad3c=\"\\n  Mindflail\""
+        },
+        {
+          "line": 100,
+          "instruction": "92851c: e8 af 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 101,
+          "instruction": "928521: 68 4c ad c0 00               \tpush\t0xc0ad4c ; TEXT 0xc0ad4c=\"\\n  Acceleration Regulator\""
+        },
+        {
+          "line": 103,
+          "instruction": "92852c: e8 9f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 104,
+          "instruction": "928531: 68 68 ad c0 00               \tpush\t0xc0ad68 ; TEXT 0xc0ad68=\"\\n  Hcp. Trap Extractor\""
+        },
+        {
+          "line": 106,
+          "instruction": "92853c: e8 8f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 107,
+          "instruction": "928541: 68 80 ad c0 00               \tpush\t0xc0ad80 ; TEXT 0xc0ad80=\"\\n  Preattuning Coils\""
+        },
+        {
+          "line": 109,
+          "instruction": "92854c: e8 7f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 110,
+          "instruction": "928551: 68 98 ad c0 00               \tpush\t0xc0ad98 ; TEXT 0xc0ad98=\"\\n  Mak. Powered Armor\""
+        },
+        {
+          "line": 112,
+          "instruction": "92855c: e8 6f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 113,
+          "instruction": "928561: 68 b0 ad c0 00               \tpush\t0xc0adb0 ; TEXT 0xc0adb0=\"\\n  Regenerative Guardplate\""
+        },
+        {
+          "line": 115,
+          "instruction": "92856c: e8 5f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x928521"
+      ],
+      "confidence": "high",
+      "status": "player_facing_candidate",
+      "notes": "该精确换行列表项被追加到菜单/轮换列表字符串；仅翻译条目名称并保留缩进换行。",
+      "covered_input_fragments": [
+        {
+          "raw": "  Acceleration Regulator",
+          "xref": "0x928521",
+          "string_va": [
+            "0xc0ad4c"
+          ],
+          "classification": "player_facing_candidate"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "instruction": "String is appended to the visible options/warning buffer and passed at 0x928a18 to 0x90ea80, the prompt/modal UI path."
+      },
+      "audit_review": {
+        "composition": "Complete line literal is directly copied/appended; the full SEP-X warning is one exact literal with its original line break.",
+        "sink": "The buffer is passed to the confirmation/menu UI path 0x90ea80, so it is player-visible."
+      }
+    },
+    {
+      "raw_template": "\nWARNING: Removing SEP-X without authorization\nis a serious offense. Repeat command to confirm.",
+      "source": "\nWARNING: Removing SEP-X without authorization\nis a serious offense. Repeat command to confirm.",
+      "translation": "\n警告：未经授权移除SEP-X\n属于严重违规。重复执行命令以确认。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "\nWARNING: Removing SEP-X without authorization\nis a serious offense. Repeat command to confirm.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9295b7.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9295b7: 68 e8 b2 c0 00               \tpush\t0xc0b2e8 ; TEXT 0xc0b2e8=\"\\nWARNING: Removing SEP-X without authorization\\nis a serious offense. Repeat command to confirm.\""
+        },
+        {
+          "line": 102,
+          "instruction": "9295bc: 8d 8d bc b8 ff ff            \tlea\tecx, [ebp - 0x4744]"
+        },
+        {
+          "line": 103,
+          "instruction": "9295c2: e8 09 76 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 109,
+          "instruction": "9295d4: 8d 8d 98 b8 ff ff            \tlea\tecx, [ebp - 0x4768]"
+        },
+        {
+          "line": 112,
+          "instruction": "9295e1: e8 9a 54 fe ff               \tcall\t0x90ea80 <PHYSFSRWOPS_openAppend+0x50aff0>"
+        }
+      ],
+      "calls": [
+        "0x9b0bd0",
+        "0x90ea80"
+      ],
+      "covers_xrefs": [
+        "0x9295b7"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "完整警告literal由字符串追加helper送入确认提示窗口；换行、型号及重复命令提示均保留。",
+      "covered_input_fragments": [
+        {
+          "raw": "is a serious offense. Repeat command to confirm.",
+          "xref": "0x9295b7",
+          "string_va": [
+            "0xc0b2e8"
+          ],
+          "classification": "player_visible_confirmed"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "instruction": "String is appended to the visible options/warning buffer and passed at 0x9295e1 to 0x90ea80, the prompt/modal UI path."
+      },
+      "audit_review": {
+        "composition": "Complete line literal is directly copied/appended; the full SEP-X warning is one exact literal with its original line break.",
+        "sink": "The buffer is passed to the confirmation/menu UI path 0x90ea80, so it is player-visible."
+      }
+    },
+    {
+      "raw_template": " Support from the recent Fedlink buildup is limited, but with our capabilities exposed it's now or never.",
+      "source": " Support from the recent Fedlink buildup is limited, but with our capabilities exposed it's now or never.",
+      "translation": "近期远联势力扩张带来的支持有限，但既然我们的能力已经暴露，现在就是孤注一掷的时候。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " Support from the recent Fedlink buildup ",
+          "origin": "EXE literal 0xc0c9ec, including exact leading/trailing spaces"
+        },
+        {
+          "type": "literal",
+          "text": "is limited, but with our capabilities exposed it's now or never.",
+          "origin": "selected suffix literal; exact adjoining boundary verified in branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9341ca.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9341ca: 68 ec c9 c0 00               \tpush\t0xc0c9ec ; TEXT 0xc0c9ec=\" Support from the recent Fedlink buildup \""
+        },
+        {
+          "line": 102,
+          "instruction": "9341cf: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 105,
+          "instruction": "9341dc: e8 ef c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 112,
+          "instruction": "934207: 68 28 cb c0 00               \tpush\t0xc0cb28 ; TEXT 0xc0cb28=\"is limited, but with our capabilities exposed it's now or never.\""
+        },
+        {
+          "line": 113,
+          "instruction": "93420c: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 116,
+          "instruction": "934219: e8 b2 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b1f10",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x9341ca",
+        "0x934207"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "EXE prefix literal 0xc0c9ec starts and ends with a space; raw/source preserve its leading space. The suffix begins with is and consumes the prefix trailing space; do not trim or add another separator.",
+      "covered_input_fragments": [
+        {
+          "raw": " Support from the recent Fedlink buildup ",
+          "xref": "0x9341ca",
+          "string_va": [
+            "0xc0c9ec"
+          ],
+          "classification": "unknown"
+        },
+        {
+          "raw": "is limited, but with our capabilities exposed it's now or never.",
+          "xref": "0x934207",
+          "string_va": [
+            "0xc0cb28"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "call_sequence": [
+          "0x9341ca-0x934296 append text to [ebp-0x5180] by 0x9b0bd0",
+          "0x93429b append resource key frgUfdAttacked_g",
+          "0x934316-0x93433e construct event type 0x206 and dispatch through 0x5152a0"
+        ]
+      },
+      "audit_review": {
+        "composition": "Exact native concatenation preserves the leading and trailing spaces of 0xc0c9ec; the suffix literal begins “is”, so the trailing space is the boundary separator.",
+        "sink": "The completed text is attached to the frgUfdAttacked_g priority/event object and submitted by 0x5152a0 (event type 0x206), confirming game event output."
+      }
+    },
+    {
+      "raw_template": " Support from the recent Fedlink buildup is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "source": " Support from the recent Fedlink buildup is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "translation": "近期远联势力扩张带来的支持低于我的预期，但既然我们的能力已经暴露，现在就是孤注一掷的时候。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " Support from the recent Fedlink buildup ",
+          "origin": "EXE literal 0xc0c9ec, including exact leading/trailing spaces"
+        },
+        {
+          "type": "literal",
+          "text": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+          "origin": "selected suffix literal; exact adjoining boundary verified in branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9341ca.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9341ca: 68 ec c9 c0 00               \tpush\t0xc0c9ec ; TEXT 0xc0c9ec=\" Support from the recent Fedlink buildup \""
+        },
+        {
+          "line": 102,
+          "instruction": "9341cf: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 105,
+          "instruction": "9341dc: e8 ef c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 118,
+          "instruction": "934220: 68 88 cb c0 00               \tpush\t0xc0cb88 ; TEXT 0xc0cb88=\"is lower than I'd prefer, but with our capabilities exposed it's now or never.\""
+        },
+        {
+          "line": 119,
+          "instruction": "934225: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 122,
+          "instruction": "934232: e8 99 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b1f10",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x9341ca",
+        "0x934220"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "EXE prefix literal 0xc0c9ec starts and ends with a space; raw/source preserve its leading space. The suffix begins with is and consumes the prefix trailing space; do not trim or add another separator.",
+      "covered_input_fragments": [
+        {
+          "raw": " Support from the recent Fedlink buildup ",
+          "xref": "0x9341ca",
+          "string_va": [
+            "0xc0c9ec"
+          ],
+          "classification": "unknown"
+        },
+        {
+          "raw": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+          "xref": "0x934220",
+          "string_va": [
+            "0xc0cb88"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "call_sequence": [
+          "0x9341ca-0x934296 append text to [ebp-0x5180] by 0x9b0bd0",
+          "0x93429b append resource key frgUfdAttacked_g",
+          "0x934316-0x93433e construct event type 0x206 and dispatch through 0x5152a0"
+        ]
+      },
+      "audit_review": {
+        "composition": "Exact native concatenation preserves the leading and trailing spaces of 0xc0c9ec; the suffix literal begins “is”, so the trailing space is the boundary separator.",
+        "sink": "The completed text is attached to the frgUfdAttacked_g priority/event object and submitted by 0x5152a0 (event type 0x206), confirming game event output."
+      }
+    },
+    {
+      "raw_template": " Support from the recent Fedlink buildup is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "source": " Support from the recent Fedlink buildup is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "translation": "近期远联势力扩张带来的支持处于合理水平；只要大家都赞成，我有信心办成此事。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " Support from the recent Fedlink buildup ",
+          "origin": "EXE literal 0xc0c9ec, including exact leading/trailing spaces"
+        },
+        {
+          "type": "literal",
+          "text": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+          "origin": "selected suffix literal; exact adjoining boundary verified in branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9341ca.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9341ca: 68 ec c9 c0 00               \tpush\t0xc0c9ec ; TEXT 0xc0c9ec=\" Support from the recent Fedlink buildup \""
+        },
+        {
+          "line": 102,
+          "instruction": "9341cf: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 105,
+          "instruction": "9341dc: e8 ef c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 124,
+          "instruction": "934239: 68 d8 cb c0 00               \tpush\t0xc0cbd8 ; TEXT 0xc0cbd8=\"is at reasonable levels, I'm fairly confident we can do this if everyone is on board.\""
+        },
+        {
+          "line": 125,
+          "instruction": "93423e: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 128,
+          "instruction": "93424b: e8 80 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b1f10",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x9341ca",
+        "0x934239"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "EXE prefix literal 0xc0c9ec starts and ends with a space; raw/source preserve its leading space. The suffix begins with is and consumes the prefix trailing space; do not trim or add another separator.",
+      "covered_input_fragments": [
+        {
+          "raw": " Support from the recent Fedlink buildup ",
+          "xref": "0x9341ca",
+          "string_va": [
+            "0xc0c9ec"
+          ],
+          "classification": "unknown"
+        },
+        {
+          "raw": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+          "xref": "0x934239",
+          "string_va": [
+            "0xc0cbd8"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "call_sequence": [
+          "0x9341ca-0x934296 append text to [ebp-0x5180] by 0x9b0bd0",
+          "0x93429b append resource key frgUfdAttacked_g",
+          "0x934316-0x93433e construct event type 0x206 and dispatch through 0x5152a0"
+        ]
+      },
+      "audit_review": {
+        "composition": "Exact native concatenation preserves the leading and trailing spaces of 0xc0c9ec; the suffix literal begins “is”, so the trailing space is the boundary separator.",
+        "sink": "The completed text is attached to the frgUfdAttacked_g priority/event object and submitted by 0x5152a0 (event type 0x206), confirming game event output."
+      }
+    },
+    {
+      "raw_template": " Support from the recent Fedlink buildup is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "source": " Support from the recent Fedlink buildup is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "translation": "近期远联势力扩张带来的支持相当强劲，新建的原型锻炉生产出0bPrime技术只是时间问题！",
+      "components": [
+        {
+          "type": "literal",
+          "text": " Support from the recent Fedlink buildup ",
+          "origin": "EXE literal 0xc0c9ec, including exact leading/trailing spaces"
+        },
+        {
+          "type": "literal",
+          "text": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+          "origin": "selected suffix literal; exact adjoining boundary verified in branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9341ca.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9341ca: 68 ec c9 c0 00               \tpush\t0xc0c9ec ; TEXT 0xc0c9ec=\" Support from the recent Fedlink buildup \""
+        },
+        {
+          "line": 102,
+          "instruction": "9341cf: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 105,
+          "instruction": "9341dc: e8 ef c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 136,
+          "instruction": "93426b: 68 30 cc c0 00               \tpush\t0xc0cc30 ; TEXT 0xc0cc30=\"is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!\""
+        },
+        {
+          "line": 137,
+          "instruction": "934270: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 140,
+          "instruction": "93427d: e8 4e c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b1f10",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x9341ca",
+        "0x93426b"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "EXE prefix literal 0xc0c9ec starts and ends with a space; raw/source preserve its leading space. The suffix begins with is and consumes the prefix trailing space; do not trim or add another separator.",
+      "covered_input_fragments": [
+        {
+          "raw": " Support from the recent Fedlink buildup ",
+          "xref": "0x9341ca",
+          "string_va": [
+            "0xc0c9ec"
+          ],
+          "classification": "unknown"
+        },
+        {
+          "raw": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+          "xref": "0x93426b",
+          "string_va": [
+            "0xc0cc30"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "call_sequence": [
+          "0x9341ca-0x934296 append text to [ebp-0x5180] by 0x9b0bd0",
+          "0x93429b append resource key frgUfdAttacked_g",
+          "0x934316-0x93433e construct event type 0x206 and dispatch through 0x5152a0"
+        ]
+      },
+      "audit_review": {
+        "composition": "Exact native concatenation preserves the leading and trailing spaces of 0xc0c9ec; the suffix literal begins “is”, so the trailing space is the boundary separator.",
+        "sink": "The completed text is attached to the frgUfdAttacked_g priority/event object and submitted by 0x5152a0 (event type 0x206), confirming game event output."
+      }
+    },
+    {
+      "raw_template": " Support from the recent Fedlink buildup is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "source": " Support from the recent Fedlink buildup is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "translation": "近期远联势力扩张带来的支持前所未有，MAIN.C毫无胜算！",
+      "components": [
+        {
+          "type": "literal",
+          "text": " Support from the recent Fedlink buildup ",
+          "origin": "EXE literal 0xc0c9ec, including exact leading/trailing spaces"
+        },
+        {
+          "type": "literal",
+          "text": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+          "origin": "selected suffix literal; exact adjoining boundary verified in branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9341ca.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9341ca: 68 ec c9 c0 00               \tpush\t0xc0c9ec ; TEXT 0xc0c9ec=\" Support from the recent Fedlink buildup \""
+        },
+        {
+          "line": 102,
+          "instruction": "9341cf: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 105,
+          "instruction": "9341dc: e8 ef c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 142,
+          "instruction": "934284: 68 94 cc c0 00               \tpush\t0xc0cc94 ; TEXT 0xc0cc94=\"is at unprecedented levels, MAIN.C doesn't stand a chance!\""
+        },
+        {
+          "line": 143,
+          "instruction": "934289: 8d 8d 80 ae ff ff            \tlea\tecx, [ebp - 0x5180]"
+        },
+        {
+          "line": 146,
+          "instruction": "934296: e8 35 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b1f10",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x9341ca",
+        "0x934284"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "EXE prefix literal 0xc0c9ec starts and ends with a space; raw/source preserve its leading space. The suffix begins with is and consumes the prefix trailing space; do not trim or add another separator.",
+      "covered_input_fragments": [
+        {
+          "raw": " Support from the recent Fedlink buildup ",
+          "xref": "0x9341ca",
+          "string_va": [
+            "0xc0c9ec"
+          ],
+          "classification": "unknown"
+        },
+        {
+          "raw": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+          "xref": "0x934284",
+          "string_va": [
+            "0xc0cc94"
+          ],
+          "classification": "unknown"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/exe-text.asm",
+        "call_sequence": [
+          "0x9341ca-0x934296 append text to [ebp-0x5180] by 0x9b0bd0",
+          "0x93429b append resource key frgUfdAttacked_g",
+          "0x934316-0x93433e construct event type 0x206 and dispatch through 0x5152a0"
+        ]
+      },
+      "audit_review": {
+        "composition": "Exact native concatenation preserves the leading and trailing spaces of 0xc0c9ec; the suffix literal begins “is”, so the trailing space is the boundary separator.",
+        "sink": "The completed text is attached to the frgUfdAttacked_g priority/event object and submitted by 0x5152a0 (event type 0x206), confirming game event output."
+      }
+    },
+    {
+      "raw_template": "{*} rendered useless by plates shifting to reveal entrance.",
+      "source": "{*} rendered useless by plates shifting to reveal entrance.",
+      "translation": "{*}因板块移开、入口显露而失效。",
+      "components": [
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "affected object/feature string"
+        },
+        {
+          "type": "literal",
+          "text": " rendered useless by plates shifting to reveal entrance.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9373a7.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "93738b: c7 85 a4 91 ff ff dc d9 c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0d9dc ; TEXT 0xc0d9dc=\" rendered useless by plates shifting to reveal entrance.\""
+        },
+        {
+          "line": 99,
+          "instruction": "937397: c7 85 a4 91 ff ff 18 da c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0da18 ; TEXT 0xc0da18=\" rendered useless by seal.\""
+        },
+        {
+          "line": 101,
+          "instruction": "9373a7: 51                           \tpush\tecx"
+        },
+        {
+          "line": 106,
+          "instruction": "9373b6: e8 e5 76 09 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 125,
+          "instruction": "9373f7: e8 d4 ae bd ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ceaa0",
+        "0x5122d0"
+      ],
+      "covers_xrefs": [
+        "0x93738b",
+        "0x9373a7"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "该构造以当前失效对象字符串和所选固定原因字面拼接。9373a7候选分支中两种原因互斥；本记录描述板块移开的那个具体变体。",
+      "covered_input_fragments": [
+        {
+          "raw": " rendered useless by plates shifting to reveal entrance.",
+          "xref": "0x93738b",
+          "string_va": [
+            "0xc0d9dc"
+          ],
+          "classification": "player_visible_confirmed"
+        },
+        {
+          "raw": " rendered useless by plates shifting to reveal entrance.",
+          "xref": "0x9373a7",
+          "string_va": [
+            "0xc0d9dc"
+          ],
+          "classification": "player_visible_confirmed"
+        },
+        {
+          "raw": " rendered useless by seal.",
+          "xref": "0x9373a7",
+          "string_va": [
+            "0xc0da18"
+          ],
+          "classification": "player_visible_confirmed"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/9373a7.asm",
+        "calls": [
+          "0x9ceaa0",
+          "0x5122d0"
+        ],
+        "observation": "Completed string is passed to 0x5122d0 or to the text/event wrapper 0x49c9f0 which invokes 0x5122d0."
+      },
+      "audit_review": {
+        "composition": "Branch-local exact literals and verified concatenation calls are included in assembly_lines.",
+        "sink": "The message path reaches the game message/event sink."
+      }
+    },
+    {
+      "raw_template": "{*} rendered useless by seal.",
+      "source": "{*} rendered useless by seal.",
+      "translation": "{*}因封印而失效。",
+      "components": [
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "affected object/feature string"
+        },
+        {
+          "type": "literal",
+          "text": " rendered useless by seal.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/937397.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "937397: c7 85 a4 91 ff ff 18 da c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0da18 ; TEXT 0xc0da18=\" rendered useless by seal.\""
+        },
+        {
+          "line": 108,
+          "instruction": "9373b6: e8 e5 76 09 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 127,
+          "instruction": "9373f7: e8 d4 ae bd ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ceaa0",
+        "0x5122d0"
+      ],
+      "covers_xrefs": [
+        "0x937397",
+        "0x9373a7"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "该构造以当前失效对象字符串和封印原因字面拼接，随后送入消息sink。",
+      "covered_input_fragments": [
+        {
+          "raw": " rendered useless by seal.",
+          "xref": "0x937397",
+          "string_va": [
+            "0xc0da18"
+          ],
+          "classification": "player_visible_confirmed"
+        },
+        {
+          "raw": " rendered useless by seal.",
+          "xref": "0x9373a7",
+          "string_va": [
+            "0xc0da18"
+          ],
+          "classification": "player_visible_confirmed"
+        }
+      ],
+      "coverage_mapping": "Covers the seal-reason alternative selected at 0x937397 and the corresponding alternative reference at shared selector xref 0x9373a7; plate-shift reason is represented separately.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/937397.asm",
+        "calls": [
+          "0x9ceaa0",
+          "0x5122d0"
+        ],
+        "observation": "Completed string is passed to 0x5122d0 or to the text/event wrapper 0x49c9f0 which invokes 0x5122d0."
+      },
+      "audit_review": {
+        "composition": "Branch-local exact literals and verified concatenation calls are included in assembly_lines.",
+        "sink": "The message path reaches the game message/event sink."
+      }
+    },
+    {
+      "raw_template": "Triggered propulsion reboot sequence, T-{*} to completion.",
+      "source": "Triggered propulsion reboot sequence, T-{*} to completion.",
+      "translation": "已启动推进系统重启序列，距完成还需T-{*}。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Triggered propulsion reboot sequence, T-",
+          "origin": "immediate literal confirmed in this xref branch"
+        },
+        {
+          "type": "capture",
+          "capture": "*",
+          "origin": "timer text produced for this sequence"
+        },
+        {
+          "type": "literal",
+          "text": " to completion.",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/951e9d.asm",
+      "assembly_lines": [
+        {
+          "line": 92,
+          "instruction": "951e73: 68 d4 fe c0 00               \tpush\t0xc0fed4 ; TEXT 0xc0fed4=\"Triggered propulsion reboot sequence, T-\""
+        },
+        {
+          "line": 95,
+          "instruction": "951e7f: e8 2c c9 07 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 101,
+          "instruction": "951e9d: 68 c4 fe c0 00               \tpush\t0xc0fec4 ; TEXT 0xc0fec4=\" to completion.\""
+        },
+        {
+          "line": 106,
+          "instruction": "951eb0: e8 3b ca 07 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 129,
+          "instruction": "951f06: e8 c5 03 bc ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x5122d0"
+      ],
+      "covers_xrefs": [
+        "0x951e9d"
+      ],
+      "confidence": "high",
+      "status": "player_visible_confirmed",
+      "notes": "计时捕获是完整文本值，保留T-前缀与to completion固定后缀；不假定其内部格式为纯数字。",
+      "covered_input_fragments": [
+        {
+          "raw": " to completion.",
+          "xref": "0x951e9d",
+          "string_va": [
+            "0xc0fec4"
+          ],
+          "classification": "player_visible_confirmed"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/951e9d.asm",
+        "calls": [
+          "0x9ce7b0",
+          "0x9ce8f0",
+          "0x5122d0"
+        ],
+        "observation": "Completed string is passed to 0x5122d0 or to the text/event wrapper 0x49c9f0 which invokes 0x5122d0."
+      },
+      "audit_review": {
+        "composition": "Branch-local exact literals and verified concatenation calls are included in assembly_lines.",
+        "sink": "The message path reaches the game message/event sink."
+      }
+    },
+    {
+      "raw_template": "while I steal that schematic before they can even call for help.",
+      "source": "while I steal that schematic before they can even call for help.",
+      "translation": "趁他们还没来得及呼救，我就偷走那份蓝图。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "while I steal that schematic before they can even call for help.",
+          "origin": "EXE literal 0xc10b68; no neighboring literal included"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+      "assembly_lines": [
+        {
+          "line": 37,
+          "instruction": "EXE evidence at 0x957089: TEXT 0xc10b68='while I steal that schematic before they can even call for help.'"
+        }
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b1f40"
+      ],
+      "covers_xrefs": [
+        "0x957089"
+      ],
+      "confidence": "high",
+      "status": "exact_player_dialogue_fragment",
+      "notes": "该原生字面量从while开始且包含句号；前面的相邻literal没有空格边界证据，不拼入。",
+      "covered_input_fragments": [
+        {
+          "raw": "while I steal that schematic before they can even call for help.",
+          "xref": "0x957089",
+          "string_va": [
+            "0xc10b68"
+          ],
+          "classification": "player dialogue fragment"
+        }
+      ],
+      "coverage_mapping": "Covers only this exact worklist fragment. Adjacent literals are separate paragraph/vector entries; this record does not claim native string concatenation.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+        "call_sequence": [
+          "0x957089 loads exact literal 0xc10b68 into dialogue text buffer via 0x9b0b70",
+          "0x9b1f40 places separate text/color buffers into the dialogue paragraph/vector structure",
+          "dialogue dispatch at 0x957cb2"
+        ],
+        "sink": "Player dialogue path; paragraph rendering groups entries, but this evidence does not prove native concatenation between these fragments."
+      },
+      "audit_review": {
+        "composition": "Exact fragment only. 0x9b1f40 receives a dialogue/vector structure and a separate buffer; it is not evidence of string concatenation. Any displayed grouping requires PlanParagraph/render evidence.",
+        "sink": "This is dialogue content in the player-facing dialogue dispatch path."
+      }
+    },
+    {
+      "raw_template": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "source": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "translation": "这会让你大吃一惊：下次经过时，试着在终端安装我的木马（Skim）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "will really blow your mind: Try installing my Trojan(Skim) at",
+          "origin": "EXE literal 0xc10bf4; no neighboring literal included"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "EXE evidence at 0x9571a1: TEXT 0xc10bf4='will really blow your mind: Try installing my Trojan(Skim) at'"
+        }
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b1f40"
+      ],
+      "covers_xrefs": [
+        "0x9571a1"
+      ],
+      "confidence": "high",
+      "status": "exact_player_dialogue_fragment",
+      "notes": "仅登记该VA的精确字面片段。Trojan(Skim)之后的句段、前置/后续句段均未在此拼接；0x9b1f40调用是段落向量登记，不构成串接证据。",
+      "covered_input_fragments": [
+        {
+          "raw": "will really blow your mind: Try installing my Trojan(Skim) at",
+          "xref": "0x9571a1",
+          "string_va": [
+            "0xc10bf4"
+          ],
+          "classification": "player dialogue fragment"
+        }
+      ],
+      "coverage_mapping": "Covers only this exact worklist fragment. Adjacent literals are separate paragraph/vector entries; this record does not claim native string concatenation.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+        "call_sequence": [
+          "0x957285 loads exact literal 0xc10cfc into dialogue text buffer via 0x9b0b70",
+          "0x9b1f40 places separate text/color buffers into the dialogue paragraph/vector structure",
+          "dialogue dispatch at 0x957cb2"
+        ],
+        "sink": "Player dialogue path; paragraph rendering groups entries, but this evidence does not prove native concatenation between these fragments."
+      },
+      "audit_review": {
+        "composition": "Exact fragment only. 0x9b1f40 receives a dialogue/vector structure and a separate buffer; it is not evidence of string concatenation. Any displayed grouping requires PlanParagraph/render evidence.",
+        "sink": "This is dialogue content in the player-facing dialogue dispatch path."
+      }
+    },
+    {
+      "raw_template": "intercept whatever it can find, and the data will also feed back",
+      "source": "intercept whatever it can find, and the data will also feed back",
+      "translation": "它会截获能找到的一切，数据也会回传",
+      "components": [
+        {
+          "type": "literal",
+          "text": "intercept whatever it can find, and the data will also feed back",
+          "origin": "EXE literal 0xc10cb8; no neighboring literal included"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+      "assembly_lines": [
+        {
+          "line": 137,
+          "instruction": "EXE evidence at 0x957239: TEXT 0xc10cb8='intercept whatever it can find, and the data will also feed back'"
+        }
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b1f40"
+      ],
+      "covers_xrefs": [
+        "0x957239"
+      ],
+      "confidence": "high",
+      "status": "exact_player_dialogue_fragment",
+      "notes": "仅登记该VA的精确字面片段。Trojan(Skim)之后的句段、前置/后续句段均未在此拼接；0x9b1f40调用是段落向量登记，不构成串接证据。",
+      "covered_input_fragments": [
+        {
+          "raw": "intercept whatever it can find, and the data will also feed back",
+          "xref": "0x957239",
+          "string_va": [
+            "0xc10cb8"
+          ],
+          "classification": "player dialogue fragment"
+        }
+      ],
+      "coverage_mapping": "Covers only this exact worklist fragment. Adjacent literals are separate paragraph/vector entries; this record does not claim native string concatenation.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+        "call_sequence": [
+          "0x957239 loads exact literal 0xc10cb8 into dialogue text buffer via 0x9b0b70",
+          "0x9b1f40 places separate text/color buffers into the dialogue paragraph/vector structure",
+          "dialogue dispatch at 0x957cb2"
+        ],
+        "sink": "Player dialogue path; paragraph rendering groups entries, but this evidence does not prove native concatenation between these fragments."
+      },
+      "audit_review": {
+        "composition": "Exact fragment only. 0x9b1f40 receives a dialogue/vector structure and a separate buffer; it is not evidence of string concatenation. Any displayed grouping requires PlanParagraph/render evidence.",
+        "sink": "This is dialogue content in the player-facing dialogue dispatch path."
+      }
+    },
+    {
+      "raw_template": "to me here for my wiki so we can all benefit!",
+      "source": "to me here for my wiki so we can all benefit!",
+      "translation": "给我用于这里的维基，让大家都能受益！",
+      "components": [
+        {
+          "type": "literal",
+          "text": "to me here for my wiki so we can all benefit!",
+          "origin": "EXE literal 0xc10cfc; no neighboring literal included"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+      "assembly_lines": [
+        {
+          "line": 155,
+          "instruction": "957285: push 0xc10cfc ; TEXT 0xc10cfc=\"to me here for my wiki so we can all benefit!\""
+        }
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b1f40"
+      ],
+      "covers_xrefs": [
+        "0x957285"
+      ],
+      "confidence": "high",
+      "status": "exact_player_dialogue_fragment",
+      "notes": "仅登记该VA的精确字面片段。前后句段均未在此拼接；0x9b1f40调用是段落向量登记，不构成串接证据。",
+      "covered_input_fragments": [
+        {
+          "raw": "to me here for my wiki so we can all benefit!",
+          "xref": "0x957285",
+          "string_va": [
+            "0xc10cfc"
+          ],
+          "classification": "player dialogue fragment"
+        }
+      ],
+      "coverage_mapping": "Covers only this exact worklist fragment. Adjacent literals are separate paragraph/vector entries; this record does not claim native string concatenation.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+        "call_sequence": [
+          "0x957285 loads exact literal 0xc10cfc into dialogue text buffer via 0x9b0b70",
+          "0x9b1f40 places separate text/color buffers into the dialogue paragraph/vector structure",
+          "dialogue dispatch at 0x957cb2"
+        ],
+        "sink": "Player dialogue path; paragraph rendering groups entries, but this evidence does not prove native concatenation between these fragments."
+      },
+      "audit_review": {
+        "composition": "Exact fragment only. 0x9b1f40 receives a dialogue/vector structure and a separate buffer; it is not evidence of string concatenation. Any displayed grouping requires PlanParagraph/render evidence.",
+        "sink": "This is dialogue content in the player-facing dialogue dispatch path."
+      }
+    },
+    {
+      "raw_template": "If the Merchants find out I took this prototype before it was finished,",
+      "source": "If the Merchants find out I took this prototype before it was finished,",
+      "translation": "要是商人发现我趁原型尚未完成就把它拿走，",
+      "components": [
+        {
+          "type": "literal",
+          "text": "If the Merchants find out I took this prototype before it was finished,",
+          "origin": "EXE literal 0xc10dc8; no neighboring literal included"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+      "assembly_lines": [
+        {
+          "line": 296,
+          "instruction": "EXE evidence at 0x9574cc: TEXT 0xc10dc8='If the Merchants find out I took this prototype before it was finished,'"
+        }
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b1f40"
+      ],
+      "covers_xrefs": [
+        "0x9574cc"
+      ],
+      "confidence": "high",
+      "status": "exact_player_dialogue_fragment",
+      "notes": "该字面量以逗号结束；后续句子在单独literal中，不与本项拼接。",
+      "covered_input_fragments": [
+        {
+          "raw": "If the Merchants find out I took this prototype before it was finished,",
+          "xref": "0x9574cc",
+          "string_va": [
+            "0xc10dc8"
+          ],
+          "classification": "player dialogue fragment"
+        }
+      ],
+      "coverage_mapping": "Covers only this exact worklist fragment. Adjacent literals are separate paragraph/vector entries; this record does not claim native string concatenation.",
+      "sink_evidence": {
+        "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+        "call_sequence": [
+          "0x9574cc loads exact literal 0xc10dc8 into dialogue text buffer via 0x9b0b70",
+          "0x9b1f40 places separate text/color buffers into the dialogue paragraph/vector structure",
+          "dialogue dispatch at 0x957cb2"
+        ],
+        "sink": "Player dialogue path; paragraph rendering groups entries, but this evidence does not prove native concatenation between these fragments."
+      },
+      "audit_review": {
+        "composition": "Exact fragment only. 0x9b1f40 receives a dialogue/vector structure and a separate buffer; it is not evidence of string concatenation. Any displayed grouping requires PlanParagraph/render evidence.",
+        "sink": "This is dialogue content in the player-facing dialogue dispatch path."
+      }
+    },
+    {
+      "raw_template": "// Default           Keyboard",
+      "source": "// Default           Keyboard",
+      "translation": "",
+      "components": [
+        {
+          "type": "literal",
+          "text": "// Default           Keyboard",
+          "origin": "immediate literal confirmed in this xref branch"
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        {
+          "line": 73863,
+          "instruction": "439400: 68 40 9f c1 00               \tpush\t0xc19f40"
+        },
+        {
+          "line": 73868,
+          "instruction": "439410: e8 db 54 59 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 73897,
+          "instruction": "439487: e8 14 56 59 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 73908,
+          "instruction": "4394b5: e8 36 54 59 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 73941,
+          "instruction": "439545: 68 18 a0 c1 00               \tpush\t0xc1a018"
+        },
+        {
+          "line": 73960,
+          "instruction": "43959f: 68 2c a0 c1 00               \tpush\t0xc1a02c"
+        },
+        {
+          "line": 73966,
+          "instruction": "4395b9: e8 62 72 57 00               \tcall\t0x9b0820 <PHYSFSRWOPS_openAppend+0x5acd90>"
+        },
+        {
+          "line": 73991,
+          "instruction": "439630: e8 cb 74 57 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+        },
+        {
+          "line": 74052,
+          "instruction": "439727: 68 50 a0 c1 00               \tpush\t0xc1a050"
+        },
+        {
+          "line": 74062,
+          "instruction": "439755: e8 d6 73 57 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce8f0",
+        "0x9ceaa0",
+        "0x9b0820",
+        "0x9b0b00",
+        "0x9b0b50",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x43959f"
+      ],
+      "confidence": "unresolved",
+      "status": "diagnostic_only",
+      "notes": "这是Keyboard::save()写入用户keyboard.cfg的配置注释（附近有文件路径/保存函数），不是游戏内玩家文案，不进入译表。",
+      "covered_input_fragments": [
+        {
+          "raw": "// Default           Keyboard",
+          "xref": "0x43959f",
+          "string_va": [
+            "0xc1a02c"
+          ],
+          "classification": "config_nonplayer"
+        }
+      ],
+      "coverage_mapping": "One reconstructed entry covers the listed worklist fragments; repeated xrefs in a composed record are distinct source pieces/variants as shown by assembly lines.",
+      "audit_review": {
+        "composition": "Not a gameplay message: it is a literal config-comment line.",
+        "sink": "Surrounding code constructs user/keyboard.cfg and reports save errors; 0x439545 contains Keyboard::save(), then this comment is written via 0x9b0820. Diagnostic/config-only, excluded from player translation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "source": "{*}+ [",
+    "reason": "捕获名称后附加的数量/状态符号，无自然语言；名称通过捕获译名函数处理。"
+  },
+  {
+    "source": "R. cogger W.",
+    "table": "para",
+    "reason": "EXE中位于Gary Cowell、Danny Evans、sk2k、may2ever等贡献者署名列表中，账号名原样保留。"
+  },
+  {
+    "table": "para",
+    "source": "Irony.or.Death",
+    "reason": "机器人/玩家账号式专名，保留句点分隔的原始标识。"
+  }
+]

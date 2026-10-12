@@ -1,0 +1,300 @@
+D-43 Bomber	D-43轰炸机
+D-48 Pulsar	D-48脉冲星
+G-11 Fodder	G-11炮灰
+G-30 Squaddie	G-30小队兵
+G-47 Trooper	G-47步兵
+H-44 Whirlwind	H-44旋风
+H-50 Prospector	H-50勘探机
+H-61 Shepherd	H-61牧者
+H-66 Slayer	H-66杀手
+I-36 Angel	I-36天使
+I-47 Archangel	I-47大天使
+K-01 Serf	K-01农奴
+L-01 Lifeworm	L-01生命蠕虫
+L-11 Stabber	L-11刺客
+L-21 Spearman	L-21长矛兵
+L-31 Rogue	L-31游侠
+L-41 Fighter	L-41战士
+M-13 Machinist	M-13机械师
+M-28 Smith	M-28铁匠
+M-30 Cleanser	M-30净化者
+N-00 Fly	N-00飞虫
+N-04 Retriever	N-04回收者
+P-50 Guru	P-50导师
+P-60 Hacker	P-60黑客
+P-70 Sage	P-70智者
+R-06 Scavenger	R-06拾荒者
+S-02 Bug	S-02虫子
+S-10 Pest	S-10害虫
+S-22 Vector	S-22矢量
+S-43 Plague	S-43瘟疫
+S-99 Seraph	S-99炽天使
+T-05 Blastbot	T-05爆破机
+T-07 Excavator	T-07挖掘机
+T-20 Terraformer	T-20地形改造者
+U-03 Stacker	U-03堆垛机
+W-04 Raven	W-04乌鸦
+X-52 Archer	X-52弓箭手
+X-67 Chaingunner	X-67链枪手
+X-77 Beamer	X-77光束手
+X-82 Rainmaker	X-82造雨者
+X-87 Electro	X-87电极
+Y-36 Patrolman	Y-36巡逻员
+Y-58 Custodian	Y-58看守者
+Y-72 Warden	Y-72典狱官
+Destroyed {*}.	已摧毁{*}.
+Current location identified	已识别当前位置
+[Record	[记录
+[Analysis	[分析
+[Schematic	[图纸
+[Query	[查询
+[Index	[索引
+[Prototype ID Bank]	[原型编号库]
+Fabricator	制造机
+"Lightweight Power Sources"	“轻型动力源”
+! "Scrapper"	! “拾荒者”
+Failed {n}% ({*}).	失败{n}% ({*}).
+Failed {n}% ({*}, {*}).	失败{n}% ({*}, {*}).
+Failed {n}%	失败{n}%
+suspicious activity detected by network sentry	网络哨兵发现可疑活动
+encountered trap node	遭遇陷阱节点
+followed decoy data trail	循诱饵数据轨迹前行
+sudden abort of session control	会话控制突然中止
+receiving potentially harmful encrypted stream	收到可能有害的加密数据流
+dynamic firewall re-routed connection	动态防火墙已重路由连接
+unexpected hard line switch	意外切换有线连接
+triggered system alarm	触发系统警报
+triggered node purge	触发节点清除
+encountered local connection sweep	遭遇本地连接扫描
+session timeout	会话超时
+suspicious null response	可疑的空响应
+primary interim node flashed	主要中继节点短暂闪烁
+near success	差点成功
+catastrophic failure	灾难性失败
+botnet-enabled success	僵尸网络辅助成功
+assessment: botnet-enabled success	评估结果：僵尸网络辅助成功
+Current Alert Level: Low	当前警戒等级：低
+Current Alert Level: Medium	当前警戒等级：中
+Current Alert Level: High	当前警戒等级：高
+Current Alert Level: Critical	当前警戒等级：危急
+Message Errors	消息错误
+Energy Discharges	能量释放
+\ R E P A I R \	\ 维 修 \
+Refit	改装
+Repair {*}	维修{*}
+Scanning {*}...	正在扫描{*}…
+Rating: {n}	评级：{n}
+Repair Station M{n} - Restricted Access	维修站M{n} - 受限访问
+Repair Station M{n} - Unrestricted Access	维修站M{n} - 非受限访问
+Terminal M{n} - Unrestricted Access	终端M{n} - 非受限访问
+Fabricator M{n} - Restricted Access	制造机M{n} - 受限访问
+Recycling Unit M{n} - Restricted Access	回收机M{n} - 受限访问
+Scanalyzer M{n} - Restricted Access	扫描分析仪M{n} - 受限访问
+Garrison Access M{n} - Restricted Access	驻防站入口M{n} - 受限访问
+Chance of Detection: Low ({n}%)	被发现几率：低 ({n}%)
+Chance of Detection: Medium ({n}%)	被发现几率：中 ({n}%)
+Chance of Detection: High ({n}%)	被发现几率：高 ({n}%)
+Chance of Detection: Very High ({n}%)	被发现几率：极高 ({n}%)
+Sfc.	地表
+Close	关闭
+Continue	继续
+Return	返回
+Skip	跳过
+Previous	上一页
+Next	下个
+Class Distribution	类别分布
+Last Messages	最新消息
+Branch Regions	分支区域
+Highest Spend	最高花费
+Special Trait	特殊特性
+Evasion (%)	闪避（%）
+Matter Filtering	物质过滤
+Energy Filtering	能量过滤
+Overload Regulation	过载调节
+Actively Blocked	主动阻止
+Targeting Errors	瞄准错误
+Level 1	等级1
+Level 2	等级2
+Level 3	等级3
+Level 4	等级4
+Level 5	等级5
+V. High	极高
+ASSIMILATED 0B10	已同化0B10
+DESTROYED 0B10	已摧毁0B10
+ESTABLISHING 0B11	正在建立0B11
+Assimilated 0b10!	已同化0b10！
+Destroyed 0b10!	已摧毁0b10！
+Establishing 0b11!	正在建立0b11！
+YOU AWAKEN	你醒了
+DOWNLOADING ORGANIC MEMORY	正在下载有机记忆
+SECURING SYSTEM	正在保护系统
+ENTERING ORBIT	正在进入轨道
+DESTINATION: C6153-B	目的地：C6153-B
+ASCII ART	ASCII图案
+Section 7	第7区
+D. Caves	深层洞穴
+P. Caves	近区洞穴
+U. Caves	上层洞穴
+L. Caves	下层洞穴
+Great Rift	大裂谷
+Twisting Tunnel	蜿蜒隧道
+L2 Fabricator	L2制造机
+JC Pilot Fab	JC飞行制造
+Complex 0b1	复合体0b1
+Complex 0b10	复合体0b10
+Cave J31	洞穴J31
+Cave V09	洞穴V09
+Cave G34	洞穴G34
+Cave G35	洞穴G35
+Cave U66	洞穴U66
+Cave S58	洞穴S58
+Cave Z42	洞穴Z42
+Cave J87	洞穴J87
+Tau Ceti	天仓五
+Commander 0b11	0b11指挥官
+Protovariant P	原型变体P
+Protovariant H	原型变体H
+Protovariant X	原型变体X
+Protovariant D	原型变体D
+Protovariant Y	原型变体Y
+Protovariant L	原型变体L
+Protovariant G	原型变体G
+The Evicted	被驱逐者
+Tech Extrapolator	科技外推器
+LC Capacitor	LC电容器
+Lightpack 2.0	轻量包2.0
+Vector Light	矢量光
+Swarm Drone	蜂群无人机
+Triangle Musket	三角火枪
+X0-1V1's TEDDY BEAR	X0-1V1的泰迪熊
+TOY OF X0-1V1	X0-1V1的玩具
+HEX-080/Lightpack 2.0	HEX-080/轻量包2.0
+Reclaim stolen prototype cache	取回被盗原型缓存
+Test Sliptech prototypes	测试滑移科技原型
+Project Skyward	天际计划
+Project Ferryman	摆渡人计划
+Project G-00	G-00计划
+Retriever Launch	回收者发射
+Retriever Recovery	回收者回收
+Chapter 10	第10章
+UFD Leadership	UFD领导层
+UC Origins	UC起源
+UC Activity	UC活动
+TC4 Museum	TC4博物馆
+SE/05. Modes	SE/05.模式
+SE/07. Creation	SE/07.创造
+SE/12. Guidance	SE/12.指导
+Not Today, Chutes	滑槽休想
+Error 47	错误47
+I Spy	谍影
+King Drone	无人机王
+Chop Chop	砍砍砍
+Inventory Pressure	库存压力
+RIFT Wizard	裂隙巫师
+Civilization 2243	2243文明
+Straight Shot	直线射击
+Botcube	机块
+Nanovents	纳米通风
+Optics	光学
+P-maul	等离锤
+Teslapod Launcher	特斯拉舱发射器
+Autominer	自动矿机
+Autosiege Treads	自动攻城履带
+Biocell	生电池
+Coverage/Vulnerability	覆盖/易损
+Graviton Pulverizer	引力子粉碎器
+Info/Matter	信息/物质
+CY-PHR	CY-PHR
+Centrium	钴合金
+EX-HEX	EX-HEX
+Eye	眼
+F-cell	F电池
+Suit	套装
+Surveybot	测绘机
+1B-0RG'S ASSIMILATOR	1B-0RG的同化器
+2N-1CE'S FROST ARRAY	2N-1CE的寒霜阵列
+4L-MR0'S PROTOTYPE LOGS	4L-MR0的原型日志
+A0-MCA DATA CENTER	A0-MCA数据中心
+CL-0N3'S METAMASS DISPLACER	CL-0N3的超质量位移器
+CR-A16'S BEHEMOTH SLAYER	CR-A16的巨兽杀手
+CR-A16'S POINTY STICK	CR-A16的尖头棍
+CR-KLE'S REPAIR CENTER	CR-KLE维修中心
+CY-PHR'S GREATEST HITS	CY-PHR精选集
+D4-RBY'S BEHEMOTH BEFRIENDER	D4-RBY的巨兽和事佬
+DA-N13 CHARITABLE FOUNDATION	DA-N13慈善基金会
+IN-MT5'S SAFE	IN-MT5保险箱
+IN-MT5'S STUDY	IN-MT5的研究
+KN-7UR'S AUTOPENETRATOR	KN-7UR自动贯穿器
+LU-1G1'S BORING CREW	LU-1G1无聊小队
+P1-3CE'S GATLING FLAKKER	P1-3CE加特林高射炮
+VL-GR5'S TIMING CHIP	VL-GR5定时芯片
+X0-1V1 AMUSEMENT GAINS	X0-1V1娱乐值
+{*}+	{*}+
+01-MTF!	01-MTF!
+1B-0RG!	1B-0RG!
+5H-AD0!	5H-AD0!
+6S-H0T!	6S-H0T!
+A5!	A5!
+A6!	A6!
+A7!	A7!
+AP7-3!	AP7-3!
+CL-0N3!	CL-0N3!
+DD-05H!	DD-05H!
+DW-4LL!	DW-4LL!
+EXE-6!	EXE-6!
+Elf!	Elf!
+GL-D0S!	GL-D0S!
+HV-R5K!	HV-R5K!
+KN-7UR!	KN-7UR!
+L-Cannon!	L炮!
+LRC-V4!	LRC-V4!
+LRC-V5!	LRC-V5!
+LRC-V6!	LRC-V6!
+LV-01A!	LV-01A!
+Optimus!	擎天柱!
+PCU!	PCU!
+Perun!	佩伦!
+RPG!	RPG!
+V-Series!	V系列!
+V2!	V2!
+VL-GR5!	VL-GR5!
+ENERGY WARNING	能量警告
+MATTER WARNING	物质警告
+CORE WARNING	核心警告
+HEAT WARNING	热量警告
+TEMP WARNING	温度警告
+SYSTEM WARNING	系统警告
+INTEGRITY WARNING	耐久警告
+CORRUPTION WARNING	腐化警告
+SECURITY ALERT	安全警报
+INTRUDER ALERT	入侵者警报
+{*} WARNING	{*}警告
+{*} ALERT	{*}警报
+Insufficient energy ({n})	能量不足 ({n})
+Gravjet Array	重力喷射阵列
+>>Manifests	>>货单
+Hot	热
+Spd {n}%	速{n}%
+R={n} [{*}]	R={n} [{*}]
+{n}x {*}	{n}x {*}
+World map updated: {*}	世界地图已更新：{*}
+({*}) (amb.	({*}) (模糊
+(amb.	(模糊
+{*}: "I think it's somewhere east of here"	{*}：“我觉得就在这儿东边”
+{*}: "I think it's somewhere west of here"	{*}：“我觉得就在这儿西边”
+{*}: "I think it's somewhere north of here"	{*}：“我觉得就在这儿北边”
+{*}: "I think it's somewhere south of here"	{*}：“我觉得就在这儿南边”
+01-MTF ({n})	01-MTF ({n})
+01-MTF ({n})!	01-MTF ({n})!
+01-MTF ({n}) [{*}]	01-MTF ({n}) [{*}]
+01-MTF ({n})! [{*}]	01-MTF ({n})! [{*}]
+[{*}] 01-MTF ({n})	[{*}] 01-MTF ({n})
+[{*}] 01-MTF ({n})!	[{*}] 01-MTF ({n})!
+1B-0RG ({n})	1B-0RG ({n})
+1B-0RG ({n})!	1B-0RG ({n})!
+1B-0RG ({n}) [{*}]	1B-0RG ({n}) [{*}]
+1B-0RG ({n})! [{*}]	1B-0RG ({n})! [{*}]
+[{*}] 1B-0RG ({n})	[{*}] 1B-0RG ({n})
+[{*}] 1B-0RG ({n})!	[{*}] 1B-0RG ({n})!
+5H-AD0 ({n})	5H-AD0 ({n})
+5H-AD0 ({n})!	5H-AD0 ({n})!

@@ -1,0 +1,3320 @@
+[
+  {
+    "source": "CHECK failed: field->is_repeated():",
+    "raw": "CHECK failed: field->is_repeated(): ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "File is already registered:",
+    "raw": "File is already registered: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Type is already registered:",
+    "raw": "Type is already registered: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "can't reach here.",
+    "raw": "can't reach here.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Invalid proto descriptor for file \"",
+    "raw": "Invalid proto descriptor for file \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "The first enum value must be zero in proto3.",
+    "raw": "The first enum value must be zero in proto3.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "CHECK failed: has_default_value():",
+    "raw": "CHECK failed: has_default_value(): ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "\".  To use it here, please add the necessary import.",
+    "raw": "\".  To use it here, please add the necessary import.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Invalid wire type for CPPTYPE_MESSAGE:",
+    "raw": "Invalid wire type for CPPTYPE_MESSAGE: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.",
+    "raw": "map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.",
+    "raw": "Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "but not used.",
+    "raw": " but not used.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "\" which is a proto3 message type.",
+    "raw": "\" which is a proto3 message type.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "\" is not a proto3 enum, but is used in \"",
+    "raw": "\" is not a proto3 enum, but is used in \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Explicit default values are not allowed in proto3.",
+    "raw": "Explicit default values are not allowed in proto3.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "When enum name is stripped and label is PascalCased (",
+    "raw": "When enum name is stripped and label is PascalCased (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Found invalid proto option data for:",
+    "raw": "Found invalid proto option data for: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Field numbers $0 through $1 are reserved for the protocol buffer library implementation.",
+    "raw": "Field numbers $0 through $1 are reserved for the protocol buffer library implementation.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Enum value \"$0\" is reserved.",
+    "raw": "Enum value \"$0\" is reserved.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Extension range $0 to $1 includes field \"$2\" ($3).",
+    "raw": "Extension range $0 to $1 includes field \"$2\" ($3).",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports \"",
+    "raw": "Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Fields of oneofs must themselves have label LABEL_OPTIONAL.",
+    "raw": "Fields of oneofs must themselves have label LABEL_OPTIONAL.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Could not create an instance of",
+    "raw": "Could not create an instance of ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be quoted string for string option \"",
+    "raw": "Value must be quoted string for string option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "\" for option \"",
+    "raw": "\" for option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be identifier for enum-valued option \"",
+    "raw": "Value must be identifier for enum-valued option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be \"true\" or \"false\" for boolean option \"",
+    "raw": "Value must be \"true\" or \"false\" for boolean option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be identifier for boolean option \"",
+    "raw": "Value must be identifier for boolean option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be number for double option \"",
+    "raw": "Value must be number for double option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be non-negative integer for uint64 option \"",
+    "raw": "Value must be non-negative integer for uint64 option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be non-negative integer for uint32 option \"",
+    "raw": "Value must be non-negative integer for uint32 option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value out of range for uint32 option \"",
+    "raw": "Value out of range for uint32 option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be integer for int64 option \"",
+    "raw": "Value must be integer for int64 option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value out of range for int64 option \"",
+    "raw": "Value out of range for int64 option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value must be integer for int32 option \"",
+    "raw": "Value must be integer for int32 option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Value out of range for int32 option \"",
+    "raw": "Value out of range for int32 option \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "No field named \"uninterpreted_option\" in the Options proto.",
+    "raw": "No field named \"uninterpreted_option\" in the Options proto.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "of the Protocol Buffer runtime library, which is not compatible with the installed version (",
+    "raw": " of the Protocol Buffer runtime library, which is not compatible with the installed version (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "This program was compiled against version",
+    "raw": "This program was compiled against version ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "of the Protocol Buffer runtime library, but the installed version is",
+    "raw": " of the Protocol Buffer runtime library, but the installed version is ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "This program requires version",
+    "raw": "This program requires version ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Not implemented field number",
+    "raw": "Not implemented field number ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Problem     : Enum value did not match field type:",
+    "raw": "  Problem     : Enum value did not match field type:",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Problem     : Field is not the right type for this message:",
+    "raw": "  Problem     : Field is not the right type for this message:",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "the actual field type (for enums T should be the generated enum",
+    "raw": "the actual field type (for enums T should be the generated enum ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of",
+    "raw": "Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "was modified concurrently during serialization.",
+    "raw": " was modified concurrently during serialization.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "message of type \"",
+    "raw": " message of type \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "CHECK failed: (&from) != (to):",
+    "raw": "CHECK failed: (&from) != (to): ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Cannot allocate buffer larger than kint32max for",
+    "raw": "Cannot allocate buffer larger than kint32max for ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unsupported: type mismatch",
+    "raw": "Unsupported: type mismatch",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "This can't happen; base64 decoder state =",
+    "raw": "This can't happen; base64 decoder state = ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "\"/*\" inside block comment.  Block comments cannot be nested.",
+    "raw": "\"/*\" inside block comment.  Block comments cannot be nested.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "CHECK failed: is_prototype():",
+    "raw": "CHECK failed: is_prototype(): ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Expect a decimal number, got:",
+    "raw": "Expect a decimal number, got: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Expected integer or identifier, got:",
+    "raw": "Expected integer or identifier, got: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "args were given.  Full format string was: \"",
+    "raw": " args were given.  Full format string was: \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Symbol name \"",
+    "raw": "Symbol name \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Extension conflicts with extension already in database: extend",
+    "raw": "Extension conflicts with extension already in database: extend ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "A protocol message was rejected because it was too big (more than",
+    "raw": "A protocol message was rejected because it was too big (more than ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "buffer. Use the 'bytes' type if you intend to send raw",
+    "raw": "buffer. Use the 'bytes' type if you intend to send raw ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Extension factory's GetPrototype() returned NULL for extension:",
+    "raw": "Extension factory's GetPrototype() returned NULL for extension: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Status::OK is not a valid argument.",
+    "raw": "Status::OK is not a valid argument.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Duration nanos is non-negative, but seconds is negative for field:",
+    "raw": "Duration nanos is non-negative, but seconds is negative for field: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Nested protocol message not parsed in its entirety.",
+    "raw": "Nested protocol message not parsed in its entirety.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Invalid configuration. Could not find the type:",
+    "raw": "Invalid configuration. Could not find the type: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Attempting to fetch value instead of handling error",
+    "raw": "Attempting to fetch value instead of handling error ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to determine length of sound sample:",
+    "raw": "Unable to determine length of sound sample: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "text file in program directory may have more information)",
+    "raw": " text file in program directory may have more information)",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Application icon \"",
+    "raw": "Application icon \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "to generate a non-QUAD/OCT font (index",
+    "raw": " to generate a non-QUAD/OCT font (index ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "to generate a _QUAD/_OCT from a non-_STANDARD/_WIDE font (",
+    "raw": " to generate a _QUAD/_OCT from a non-_STANDARD/_WIDE font (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "generatedSourceIndex must refer to a font type prior to the QUAD/OCT (font type",
+    "raw": "generatedSourceIndex must refer to a font type prior to the QUAD/OCT (font type ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to open config file (",
+    "raw": "Unable to open config file (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to load default font set (",
+    "raw": "Unable to load default font set (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "XConsole parent not found:",
+    "raw": "XConsole parent not found: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Console does not fit on target surface (",
+    "raw": "Console does not fit on target surface (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "contains incorrect data count in line",
+    "raw": " contains incorrect data count in line ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Scaling beyond a factor of 9 not currently supported (",
+    "raw": "Scaling beyond a factor of 9 not currently supported (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "among same type for source-specific scaling",
+    "raw": " among same type for source-specific scaling",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "\" does not share same col/row count as source:",
+    "raw": "\" does not share same col/row count as source: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Scaled font \"",
+    "raw": "Scaled font \"",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "build record empty, storing value of current build",
+    "raw": "build record empty, storing value of current build",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Feeling alright?",
+    "raw": "Feeling alright?",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "感觉还好吗？"
+  },
+  {
+    "source": "Fortifying 0b10!",
+    "raw": "Fortifying 0b10!",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "正在巩固0b10！"
+  },
+  {
+    "source": "R. cogger W.",
+    "raw": "R. cogger W.",
+    "classification": "contributor_credit",
+    "reason": "署名/贡献者名称，不是游戏文案。",
+    "registered": true
+  },
+  {
+    "source": "Automated backup system unable to find",
+    "raw": "Automated backup system unable to find ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Automated backup system saving user data to",
+    "raw": "Automated backup system saving user data to ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Invalid news format, tag not found:",
+    "raw": "Invalid news format, tag not found: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "the current situation is...",
+    "raw": "the current situation is... ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to open crash log:",
+    "raw": "Unable to open crash log: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to resolve address:",
+    "raw": "Unable to resolve address:",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Steam not loaded, unable to request",
+    "raw": "Steam not loaded, unable to request",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to open internet (code",
+    "raw": "Unable to open internet (code ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to connect to internet (code",
+    "raw": "Unable to connect to internet (code ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "unable to find rate limit",
+    "raw": "unable to find rate limit",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to add screenshot to Steam library",
+    "raw": "Unable to add screenshot to Steam library",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Added screenshot to Steam library:",
+    "raw": "Added screenshot to Steam library: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Ambient sounds at position (",
+    "raw": "Ambient sounds at position (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Compendium does not contain group:",
+    "raw": "Compendium does not contain group: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "was an event developed long before the smaller 45-row UI layouts. As the upgrades menu is not fully compatible with the availible interface area, suggest switching to either the Non-modal or Modal layout in the Options menu.",
+    "raw": " was an event developed long before the smaller 45-row UI layouts. As the upgrades menu is not fully compatible with the availible interface area, suggest switching to either the Non-modal or Modal layout in the Options menu.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": false,
+    "translation": "此事件的开发早于45行的小型界面布局。升级菜单与当前界面区域不完全兼容，建议在选项菜单中切换为非模态或模态布局。"
+  },
+  {
+    "source": "for writing, no log output",
+    "raw": " for writing, no log output",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "for writing, no streaming and resetting",
+    "raw": " for writing, no streaming and resetting ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "failed to spawn 8R-AWN to",
+    "raw": "failed to spawn 8R-AWN to ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "disappears into a concealed tunnel.",
+    "raw": " disappears into a concealed tunnel.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "falls loose from the Twisted Machinery.",
+    "raw": " falls loose from the Twisted Machinery.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "vanishes into the earth.",
+    "raw": " vanishes into the earth.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "The earth collapses behind",
+    "raw": "The earth collapses behind ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "bursts out of the Twisted Machinery.",
+    "raw": " bursts out of the Twisted Machinery.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "route. See that they get there.",
+    "raw": " route. See that they get there.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Connection aborted.",
+    "raw": "Connection aborted.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": true
+  },
+  {
+    "source": "twisted beyond recognition.",
+    "raw": " twisted beyond recognition.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "containment failure.",
+    "raw": " containment failure.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least",
+    "raw": " integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "energy to prevent the rest (5*",
+    "raw": " energy to prevent the rest (5*",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Blocks 25% of damage in exchange for energy loss at a 1:",
+    "raw": "Blocks 25% of damage in exchange for energy loss at a 1:",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+    "raw": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "energy to prevent the rest (10*",
+    "raw": " energy to prevent the rest (10*",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Blocks 50% of damage in exchange for energy loss at a 1:",
+    "raw": "Blocks 50% of damage in exchange for energy loss at a 1:",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "Example: A 20-damage attack would be reduced to 15 (20-(20*0.25)=15), draining",
+    "raw": "Example: A 20-damage attack would be reduced to 15 (20-(20*0.25)=15), draining ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Example: A 20-damage attack would be reduced to 10 (20-(20*0.50)=10), draining",
+    "raw": "Example: A 20-damage attack would be reduced to 10 (20-(20*0.50)=10), draining ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "energy to prevent the rest (15*",
+    "raw": " energy to prevent the rest (15*",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Example: A 20-damage attack would be reduced to 5 (20-(20*0.75)=5), draining",
+    "raw": "Example: A 20-damage attack would be reduced to 5 (20-(20*0.75)=5), draining ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Blocks 75% of damage in exchange for energy loss at a 1:",
+    "raw": "Blocks 75% of damage in exchange for energy loss at a 1:",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "in a random direction.",
+    "raw": " in a random direction.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "back in the direction of the attack.",
+    "raw": " back in the direction of the attack.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Example: All weapons in a three-weapon volley would have +",
+    "raw": "Example: All weapons in a three-weapon volley would have +",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "modifier. Compatible only with gun-type weapons that fire a single projectile.",
+    "raw": " modifier. Compatible only with gun-type weapons that fire a single projectile.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.",
+    "raw": " modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Holds target in place. Beam strength:",
+    "raw": "Holds target in place. Beam strength: ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Penetrates target robot just enough to enable system access for hacking. Also a base",
+    "raw": "Penetrates target robot just enough to enable system access for hacking. Also a base ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "While hacking machines, reduces both chance of detection and rate of detection chance increases by",
+    "raw": "While hacking machines, reduces both chance of detection and rate of detection chance increases by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Teleports the user to an approximate distance of",
+    "raw": "Teleports the user to an approximate distance of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "from current position, traveling along dimensional pathways of least resistance.",
+    "raw": " from current position, traveling along dimensional pathways of least resistance.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Simultaneously teleports all visible robots within a range of",
+    "raw": " Simultaneously teleports all visible robots within a range of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "part integrity is capable of repairing 100 core integrity.",
+    "raw": " part integrity is capable of repairing 100 core integrity.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "part integrity. A drain of",
+    "raw": " part integrity. A drain of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Examples: A drain of 100 core integrity is capable of repairing",
+    "raw": "Examples: A drain of 100 core integrity is capable of repairing ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Permanently increases core heat dissipation by",
+    "raw": "Permanently increases core heat dissipation by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Permanently increases core energy generation by",
+    "raw": "Permanently increases core energy generation by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below",
+    "raw": " ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+    "raw": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Energy and matter required for part attachment permanently reduced by",
+    "raw": "Energy and matter required for part attachment permanently reduced by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below",
+    "raw": " max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Permanently adds automated ability which converts core to matter. If matter capacity is at least",
+    "raw": "Permanently adds automated ability which converts core to matter. If matter capacity is at least ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "heat would be used to generate",
+    "raw": " heat would be used to generate ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Example: At 400 heat precisely",
+    "raw": "Example: At 400 heat precisely ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "to energy every turn at a",
+    "raw": " to energy every turn at a ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Destroys all walls and earth up to a distance of",
+    "raw": "Destroys all walls and earth up to a distance of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Permanently increases maximum core integrity by",
+    "raw": "Permanently increases maximum core integrity by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Permanently increases inventory capacity by",
+    "raw": "Permanently increases inventory capacity by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Permanently increases energy capacity by",
+    "raw": "Permanently increases energy capacity by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Permanently increases matter storage capacity by",
+    "raw": "Permanently increases matter storage capacity by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Permanently increases mass support by",
+    "raw": "Permanently increases mass support by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "integrity each time the effect is applied.",
+    "raw": " integrity each time the effect is applied.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Decodes ambient 0b10 transmissions to extract bits of useful data over time.",
+    "raw": "Decodes ambient 0b10 transmissions to extract bits of useful data over time. ",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内零件说明、可见列表条目或独立名称；与相邻提取记录核对后可作为完整显示文本。",
+    "registered": true,
+    "translation": "随时间解码周围的0b10通讯，提取有用数据。"
+  },
+  {
+    "source": "every turn, in other words consuming",
+    "raw": " every turn, in other words consuming ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Converts energy to matter at a ratio of",
+    "raw": "Converts energy to matter at a ratio of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "every turn, in other words consuming 1 matter to create",
+    "raw": " every turn, in other words consuming 1 matter to create ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Converts matter to energy at a ratio of 1:",
+    "raw": "Converts matter to energy at a ratio of 1:",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Automatically collects matter within a range of",
+    "raw": "Automatically collects matter within a range of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Attracts any debris within at least a range of",
+    "raw": "Attracts any debris within at least a range of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "scrap at a time.",
+    "raw": " scrap at a time.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "per turn. Can hold no more than",
+    "raw": " per turn. Can hold no more than ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Automatically cannibalizes a part on the ground to restore",
+    "raw": "Automatically cannibalizes a part on the ground to restore ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+    "raw": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Unable to use or repair parts marked non-repairable, or unique parts, but may use and repair prototypes.",
+    "raw": " Unable to use or repair parts marked non-repairable, or unique parts, but may use and repair prototypes.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内零件说明、可见列表条目或独立名称；与相邻提取记录核对后可作为完整显示文本。",
+    "registered": false,
+    "translation": "无法使用或修理标记为不可修复的零件或独特零件，但原型零件除外。"
+  },
+  {
+    "source": "Unable to use or repair parts marked non-repairable, or any prototypes or unique parts.",
+    "raw": " Unable to use or repair parts marked non-repairable, or any prototypes or unique parts.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内零件说明、可见列表条目或独立名称；与相邻提取记录核对后可作为完整显示文本。",
+    "registered": false,
+    "translation": "无法使用或修理标记为不可修复的零件、原型零件或独特零件。"
+  },
+  {
+    "source": "to repair any core damage and",
+    "raw": " to repair any core damage and ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "integrity to the most damaged attached part of the same subtype, up to no more than",
+    "raw": " integrity to the most damaged attached part of the same subtype, up to no more than ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+    "raw": " turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes",
+    "raw": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+    "raw": " matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "traps of the same type, but cannot store stasis traps. Each extraction attempt requires",
+    "raw": " traps of the same type, but cannot store stasis traps. Each extraction attempt requires ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "for each damaged or missing part. Repairs cannot drop bay integrity below",
+    "raw": " for each damaged or missing part. Repairs cannot drop bay integrity below ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of",
+    "raw": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Fabricates a random derelict part at a rate of 1 per",
+    "raw": "Fabricates a random derelict part at a rate of 1 per ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Fabricates a random Assembled at a rate of 1 per",
+    "raw": "Fabricates a random Assembled at a rate of 1 per ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Fabricates a random drone at a rate of 1 per",
+    "raw": "Fabricates a random drone at a rate of 1 per ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Fabricates a random turret at a rate of 1 per",
+    "raw": "Fabricates a random turret at a rate of 1 per ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "after remaining active for",
+    "raw": " after remaining active for ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately",
+    "raw": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "turns emits a powerful signal tuned to power down all Assembled within a range of",
+    "raw": " turns emits a powerful signal tuned to power down all Assembled within a range of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "turns emits a powerful signal that befriends all visible Subdwellers within a range of",
+    "raw": " turns emits a powerful signal that befriends all visible Subdwellers within a range of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Regenerates integrity at a rate of 1 per",
+    "raw": "Regenerates integrity at a rate of 1 per ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "per turn. Must be active, and requires",
+    "raw": " per turn. Must be active, and requires ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Regenerates integrity at a rate of",
+    "raw": "Regenerates integrity at a rate of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by",
+    "raw": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Converts each adjacent wall, earth, and door to",
+    "raw": "Converts each adjacent wall, earth, and door to ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+    "raw": " integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Sets a temporal reversion point when attached, then loses",
+    "raw": "Sets a temporal reversion point when attached, then loses ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Automatically hacks visible door terminals within a range of",
+    "raw": "Automatically hacks visible door terminals within a range of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Automatically and instantly reprograms visible hostile traps within a range of",
+    "raw": "Automatically and instantly reprograms visible hostile traps within a range of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover",
+    "raw": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Prevents core/hover/flight speed of all hostiles in view within a range of",
+    "raw": "Prevents core/hover/flight speed of all hostiles in view within a range of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "damage to core integrity for each space traveled.",
+    "raw": " damage to core integrity for each space traveled.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+    "raw": " consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Warp across any number of open spaces nearly instantly, taking",
+    "raw": "Warp across any number of open spaces nearly instantly, taking ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "integrity with each discharge.",
+    "raw": " integrity with each discharge.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "matter. Repeat the process to manually start a timer to detonate the power source after",
+    "raw": " matter. Repeat the process to manually start a timer to detonate the power source after ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires",
+    "raw": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires",
+    "raw": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+    "raw": " is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core,",
+    "raw": " regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "nearby objects to attack it.",
+    "raw": " nearby objects to attack it. ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly,",
+    "raw": " turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a",
+    "raw": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "When attached, gives access to additional temporary",
+    "raw": "When attached, gives access to additional temporary ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Access unavailable below",
+    "raw": "Access unavailable below ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+    "raw": " matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "If active while moving over free matter, repairs itself at a cost of",
+    "raw": "If active while moving over free matter, repairs itself at a cost of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "momentum. Energy upkeep: 8.",
+    "raw": " momentum. Energy upkeep: 8.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "While active, moving towards a wall, earth, or machine automatically disintegrates it.",
+    "raw": "While active, moving towards a wall, earth, or machine automatically disintegrates it. ",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内零件说明、可见列表条目或独立名称；与相邻提取记录核对后可作为完整显示文本。",
+    "registered": true,
+    "translation": "启用时，朝墙壁、土层或机器移动即可将其自动分解。"
+  },
+  {
+    "source": "from current position. May not arrive at destination entirely in one piece.",
+    "raw": " from current position. May not arrive at destination entirely in one piece.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "While active and charged, move to teleport in a general direction to an approximate distance of",
+    "raw": "While active and charged, move to teleport in a general direction to an approximate distance of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "from current position. Will not arrive at destination entirely in one piece.",
+    "raw": " from current position. Will not arrive at destination entirely in one piece.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "While active, move to teleport in a general direction to an approximate distance of",
+    "raw": "While active, move to teleport in a general direction to an approximate distance of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "While active, intermittently and automatically attempts to teleport user a distance of approximately",
+    "raw": "While active, intermittently and automatically attempts to teleport user a distance of approximately ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "already has a count value before even starting to exit",
+    "raw": " already has a count value before even starting to exit",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "cannot break an overloaded part currently in special mode",
+    "raw": "cannot break an overloaded part currently in special mode",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "already has a count value before mode even started",
+    "raw": " already has a count value before mode even started",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "releases a shadow of itself that zips off towards",
+    "raw": " releases a shadow of itself that zips off towards ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Shadow retroactively draws in",
+    "raw": "Shadow retroactively draws in ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "A0_RES: I have more important things to do than play hide-and-seek. Deal with this piece of junk if it returns.",
+    "raw": "A0_RES: I have more important things to do than play hide-and-seek. Deal with this piece of junk if it returns.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "A0_RES：我还有更重要的事要做，没空陪你玩捉迷藏。它要是再回来，就把这破烂玩意儿处理掉。"
+  },
+  {
+    "source": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+    "raw": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "no longer operational.",
+    "raw": " no longer operational.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "drops Multinova Projection Cannon: \"You know, I like your style and I think you could put this MPC to good use. It's yours!\"",
+    "raw": " drops Multinova Projection Cannon: \"You know, I like your style and I think you could put this MPC to good use. It's yours!\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": false,
+    "translation": "丢下多新星投影炮：“知道吗，我喜欢你的风格，也觉得你能把这门MPC用得很好。送你了！”"
+  },
+  {
+    "source": "attempting to follow self at",
+    "raw": " attempting to follow self at ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+    "raw": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is not an interactive terminal",
+    "raw": " is not an interactive terminal",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "unable to find more targets on",
+    "raw": " unable to find more targets on ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "no longer safe.",
+    "raw": " no longer safe.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Danger! You're approaching an entrance to",
+    "raw": "Danger! You're approaching an entrance to ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Whoa there, are you sure you want to do that?",
+    "raw": "Whoa there, are you sure you want to do that? ",
+    "classification": "visible_complete_text",
+    "reason": "完整的确认提示问题；后续提取记录是另一个独立的具体后果补充。",
+    "registered": true,
+    "translation": "喂，你确定要这么做吗？"
+  },
+  {
+    "source": "While we would love for you to report back what you find inside",
+    "raw": "While we would love for you to report back what you find inside ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "at this time. EX-BIN: It would be funny, though.",
+    "raw": " at this time. EX-BIN: It would be funny, though.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "We cannot in good conscience advise you to enter",
+    "raw": "We cannot in good conscience advise you to enter ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "I finished my Atomic Chain Massager. We'll give it to the next anonymous tester bot for their inevitably unsafe journey into",
+    "raw": "I finished my Atomic Chain Massager. We'll give it to the next anonymous tester bot for their inevitably unsafe journey into ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "do not mix. It's like fire and water. Assembled and Derelicts. Imprinter and sanity.",
+    "raw": " do not mix. It's like fire and water. Assembled and Derelicts. Imprinter and sanity.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "In case you forgot, our tech and",
+    "raw": "In case you forgot, our tech and ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "We can't do much more than enjoy the fireworks if you do decide to enter",
+    "raw": "We can't do much more than enjoy the fireworks if you do decide to enter ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "can't possess self!",
+    "raw": "can't possess self!",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "only works on Cogmind!",
+    "raw": "only works on Cogmind!",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "is already a member of faction (",
+    "raw": " is already a member of faction (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "to critical power.",
+    "raw": " to critical power.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "System outside max range to establish control (",
+    "raw": "System outside max range to establish control (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "A concussive blast radiates from",
+    "raw": "A concussive blast radiates from ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "form resolidifies at new position.",
+    "raw": " form resolidifies at new position.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is pierced by a surge of energy.",
+    "raw": " is pierced by a surge of energy.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "has no trap type stored in trait for",
+    "raw": " has no trap type stored in trait for ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to find Golem Asb. CPart to redraw:",
+    "raw": "Unable to find Golem Asb. CPart to redraw: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to find Golem Asb. CPart to activate:",
+    "raw": "Unable to find Golem Asb. CPart to activate: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to find Golem Asb. CPart to update integrity:",
+    "raw": "Unable to find Golem Asb. CPart to update integrity: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "ripped apart by quantum tension.",
+    "raw": " ripped apart by quantum tension.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Could not find EFFECT_BLINK_CORE destination within range (",
+    "raw": "Could not find EFFECT_BLINK_CORE destination within range (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "flashes as you approach.",
+    "raw": " flashes as you approach.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Could not find EFFECT_TELEPORT destination within range (",
+    "raw": "Could not find EFFECT_TELEPORT destination within range (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_GAIN_SLOT, found on",
+    "raw": "Only player should be able to use EFFECT_GAIN_SLOT, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_REGENERATION, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_REGENERATION, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_REDISTRIBUTE_INTEGRITY, found on",
+    "raw": "Only player should be able to use EFFECT_REDISTRIBUTE_INTEGRITY, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_HEAT_DISSIPATION, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_HEAT_DISSIPATION, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_ENERGY_GENERATION, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_ENERGY_GENERATION, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_ATTACHMENT_EFFICIENCY, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_ATTACHMENT_EFFICIENCY, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_MATTER_RESTORATION, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_MATTER_RESTORATION, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_CORRUPTION_IMMUNITY, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_CORRUPTION_IMMUNITY, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_THERMOELECTRICS, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_THERMOELECTRICS, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_TELEPORTITIS, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_TELEPORTITIS, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_CORE_RESET, found on",
+    "raw": "Only player should be able to use EFFECT_CORE_RESET, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_PERMANENT_INTEGRITY, found on",
+    "raw": "Only player should be able to use EFFECT_PERMANENT_INTEGRITY, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_PERMANENT_INV_CAPACITY, found on",
+    "raw": "Only player should be able to use EFFECT_PERMANENT_INV_CAPACITY, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_PERMANENT_ENERGY, found on",
+    "raw": "Only player should be able to use EFFECT_PERMANENT_ENERGY, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_PERMANENT_MATTER, found on",
+    "raw": "Only player should be able to use EFFECT_PERMANENT_MATTER, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_PERMANENT_SUPPORT, found on",
+    "raw": "Only player should be able to use EFFECT_PERMANENT_SUPPORT, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Only player should be able to use EFFECT_PERMANENT_RESISTANCE, found on",
+    "raw": "Only player should be able to use EFFECT_PERMANENT_RESISTANCE, found on ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Non-player Entity has no controller:",
+    "raw": "Non-player Entity has no controller: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "weapons left in unordered volley",
+    "raw": " weapons left in unordered volley",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "no garrison type provided",
+    "raw": "no garrison type provided",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "no garrison target provided",
+    "raw": "no garrison target provided",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Attempting to disable already-disabled",
+    "raw": "Attempting to disable already-disabled ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "ALERT: Network intrusion management efficiency reduced by",
+    "raw": "ALERT: Network intrusion management efficiency reduced by ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ALERT: Network intrusion management efficiency at",
+    "raw": "ALERT: Network intrusion management efficiency at ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Damage insufficient to overcome",
+    "raw": "  Damage insufficient to overcome ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ALERT: Unidentified disturbance in Zone",
+    "raw": "ALERT: Unidentified disturbance in Zone ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ALERT: Significant disruption in Zone",
+    "raw": "ALERT: Significant disruption in Zone ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ALERT: Active scanning activity reported from Zone",
+    "raw": "ALERT: Active scanning activity reported from Zone ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ALERT: Unscheduled coupler replacement inbound for",
+    "raw": "ALERT: Unscheduled coupler replacement inbound for ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "No applicable weapons found for level",
+    "raw": "No applicable weapons found for level ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "No applicable explosive found for level",
+    "raw": "No applicable explosive found for level ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "No analysis on which to base CLASS_QSERIES",
+    "raw": "No analysis on which to base CLASS_QSERIES",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "No CLASS_DEMOLISHER found",
+    "raw": "No CLASS_DEMOLISHER found",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "out of control, dispatching containment squad.",
+    "raw": " out of control, dispatching containment squad.",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "FARCOM_MSG: We kinda like the data you're collecting and don't want to witness your untimely demise, so we kindly advise you to run like hell.",
+    "raw": "FARCOM_MSG: We kinda like the data you're collecting and don't want to witness your untimely demise, so we kindly advise you to run like hell.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "FARCOM_MSG：我们挺喜欢你收集的数据，也不想眼睁睁看你早早送命，所以好心劝你赶紧有多远跑多远。"
+  },
+  {
+    "source": "FARCOM_MSG: I've located an exit near your position you could probably use to shake them for a while.",
+    "raw": "FARCOM_MSG: I've located an exit near your position you could probably use to shake them for a while.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "FARCOM_MSG：我在你附近找到一个出口，你应该能借它甩开追兵一阵子。"
+  },
+  {
+    "source": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of",
+    "raw": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "reconstitutes self from the rubble and scrap.",
+    "raw": " reconstitutes self from the rubble and scrap.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "reconstitutes true form from the rubble and scrap.",
+    "raw": " reconstitutes true form from the rubble and scrap.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "form shifts and reconstitutes itself, revealing true form.",
+    "raw": " form shifts and reconstitutes itself, revealing true form.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "bursts from the wall.",
+    "raw": " bursts from the wall.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "shrinks and is drawn into a quantum tunnel.",
+    "raw": " shrinks and is drawn into a quantum tunnel.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "resistance returns to normal.",
+    "raw": " resistance returns to normal.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Weapon slot count returns to normal (-",
+    "raw": "Weapon slot count returns to normal (-",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 twists and redirects some latent energy in your direction (+",
+    "raw": "X0-1V1 twists and redirects some latent energy in your direction (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Don't spend it all in one place.\" (+",
+    "raw": "X0-1V1: \"Don't spend it all in one place.\" (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "energy generation).",
+    "raw": " energy generation).",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 connects you with a stream of twisted latent energy (+",
+    "raw": "X0-1V1 connects you with a stream of twisted latent energy (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 injects you with a stream of matter (+",
+    "raw": "X0-1V1 injects you with a stream of matter (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 sucks the heat right out of you (-",
+    "raw": "X0-1V1 sucks the heat right out of you (-",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" (",
+    "raw": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "heat dissipation).",
+    "raw": " heat dissipation).",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 thinks you're pretty cool, for now (",
+    "raw": "X0-1V1 thinks you're pretty cool, for now (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"A slightly more accurate toy is still a toy.\" (",
+    "raw": "X0-1V1: \"A slightly more accurate toy is still a toy.\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area (",
+    "raw": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 manipulates the space around you (+",
+    "raw": "X0-1V1 manipulates the space around you (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"See? It buffs right out!\" (+",
+    "raw": "X0-1V1: \"See? It buffs right out!\" (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 ensures you are ready for glorious battle (+",
+    "raw": "X0-1V1 ensures you are ready for glorious battle (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "A marvel of modern technology appears at your location (",
+    "raw": "A marvel of modern technology appears at your location (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"I sense a duel!\"",
+    "raw": "X0-1V1: \"I sense a duel!\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "X0-1V1：“我感知到一场决斗！”"
+  },
+  {
+    "source": "system corruption).",
+    "raw": " system corruption).",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 lends a hand with your twisted circuits (-",
+    "raw": "X0-1V1 lends a hand with your twisted circuits (-",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Watch where you're going!\" (",
+    "raw": "X0-1V1: \"Watch where you're going!\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "sight range).",
+    "raw": " sight range).",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 makes important surrounding features appear closer to you (",
+    "raw": "X0-1V1 makes important surrounding features appear closer to you (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Let the electrons flow!\" (",
+    "raw": "X0-1V1: \"Let the electrons flow!\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 causes your matter storage to temporarily balloon in size. (",
+    "raw": "X0-1V1 causes your matter storage to temporarily balloon in size. (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent",
+    "raw": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1",
+    "raw": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\" (permanent",
+    "raw": "X0-1V1: \"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\" (permanent ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 smiles upon you. (Received",
+    "raw": "X0-1V1 smiles upon you. (Received ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"I love subatomizers!\"",
+    "raw": "X0-1V1: \"I love subatomizers!\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "X0-1V1：“我爱亚原子化器！”"
+  },
+  {
+    "source": "X0-1V1: \"Enjoy your XOMVISION!\"",
+    "raw": "X0-1V1: \"Enjoy your XOMVISION!\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "X0-1V1：“享受你的XOMVISION吧！”"
+  },
+  {
+    "source": "X0-1V1 points here and there (",
+    "raw": "X0-1V1 points here and there (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"I found some blueprints, how convenient!\" (",
+    "raw": "X0-1V1: \"I found some blueprints, how convenient!\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "to go sit in the corner.\"",
+    "raw": " to go sit in the corner.\"",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 wants to heat up the action around here (+",
+    "raw": "X0-1V1 wants to heat up the action around here (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Your inner air conditioner seems to have fallen into disrepair.\" (",
+    "raw": "X0-1V1: \"Your inner air conditioner seems to have fallen into disrepair.\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"There's a penalty for shooting from the hip 'round these parts.\" (",
+    "raw": "X0-1V1: \"There's a penalty for shooting from the hip 'round these parts.\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 projects screaming human faces on all surfaces in the area (",
+    "raw": "X0-1V1 projects screaming human faces on all surfaces in the area (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "caught in stasis.",
+    "raw": " caught in stasis.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Fight!\"",
+    "raw": "X0-1V1: \"Fight!\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "X0-1V1：“战斗！”"
+  },
+  {
+    "source": "X0-1V1: \"Draw!\"",
+    "raw": "X0-1V1: \"Draw!\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "X0-1V1：“平局！”"
+  },
+  {
+    "source": "system corruption)\"",
+    "raw": " system corruption)\"",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"It's not much, but it's the thought that counts. (+",
+    "raw": "X0-1V1: \"It's not much, but it's the thought that counts. (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 brushes you with a corrupting influence (+",
+    "raw": "X0-1V1 brushes you with a corrupting influence (+",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "of your inventory parts (corrupted).",
+    "raw": " of your inventory parts (corrupted).",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1 blurs the world around you (",
+    "raw": "X0-1V1 blurs the world around you (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"In a world full of sensor tech, vision is overrated.\" (",
+    "raw": "X0-1V1: \"In a world full of sensor tech, vision is overrated.\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Did you know you're leaking matter?\" (",
+    "raw": "X0-1V1: \"Did you know you're leaking matter?\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+    "raw": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Enjoy the ride!\"",
+    "raw": "X0-1V1: \"Enjoy the ride!\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "X0-1V1：“享受旅程吧！”"
+  },
+  {
+    "source": "X0-1V1: \"A box. Just for you.\"",
+    "raw": "X0-1V1: \"A box. Just for you.\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "X0-1V1：“送你个盒子。”"
+  },
+  {
+    "source": "X0-1V1: \"I may have passed a hint to a nearby",
+    "raw": "X0-1V1: \"I may have passed a hint to a nearby ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "X0-1V1: \"Don't be shy now.\"",
+    "raw": "X0-1V1: \"Don't be shy now.\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "X0-1V1：“别害羞嘛。”"
+  },
+  {
+    "source": "How flattering.",
+    "raw": "How flattering.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "真荣幸。"
+  },
+  {
+    "source": "X0-1V1 pokes a wall.",
+    "raw": "X0-1V1 pokes a wall.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": true
+  },
+  {
+    "source": "found occupant in forced loc",
+    "raw": "found occupant in forced loc ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "excessive target searching",
+    "raw": "excessive target searching",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "not enough suitable exits",
+    "raw": "not enough suitable exits",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "No valid exit found for CHALLENGE_GAUNTLET at depth -",
+    "raw": "No valid exit found for CHALLENGE_GAUNTLET at depth -",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "hacked open.",
+    "raw": " hacked open.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "inbound, all units not involved in other operations escort to target.",
+    "raw": " inbound, all units not involved in other operations escort to target.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "buries itself in the floor.",
+    "raw": " buries itself in the floor.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "targets ready for detonation.",
+    "raw": " targets ready for detonation.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "no item found to arrive at",
+    "raw": "no item found to arrive at ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Interactive machine prop at",
+    "raw": "Interactive machine prop at ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "ALERT: Derelict incursion at",
+    "raw": "ALERT: Derelict incursion at ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Established visual feed link with",
+    "raw": "Established visual feed link with ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "unable to place pingLoc around player at",
+    "raw": "unable to place pingLoc around player at ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "FARCOM_MSG: Not cool, anonymous tester bot. We've taken inventory and discovered your thievery. Let's see how you like having parts stolen!",
+    "raw": "FARCOM_MSG: Not cool, anonymous tester bot. We've taken inventory and discovered your thievery. Let's see how you like having parts stolen!",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "FARCOM_MSG：匿名测试机器人，真不厚道。我们盘点后发现你偷了东西。看看被偷零件是什么滋味！"
+  },
+  {
+    "source": "FARCOM_MSG: We know a huge science fan when we see one!",
+    "raw": "FARCOM_MSG: We know a huge science fan when we see one!",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "FARCOM_MSG：你一看就是个科学迷！"
+  },
+  {
+    "source": "FARCOM_MSG: Anonymous tester bot, EX-BIN here, just a quick reminder that unless you're really into science and its potentially deadly consequences, consider trying your best to avoid entering Testing or Quarantine.",
+    "raw": "FARCOM_MSG: Anonymous tester bot, EX-BIN here, just a quick reminder that unless you're really into science and its potentially deadly consequences, consider trying your best to avoid entering Testing or Quarantine.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "FARCOM_MSG：匿名测试机器人，我是EX-BIN，提醒你一下：除非你真心热爱科学及其可能致命的后果，否则最好尽量别进测试区或隔离区。"
+  },
+  {
+    "source": "ANNOUNCEMENT: Warlord currently on",
+    "raw": "ANNOUNCEMENT: Warlord currently on ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "to Cogmind's location.",
+    "raw": " to Cogmind's location.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ANNOUNCEMENT: Unaware assault squad dispatched in",
+    "raw": "ANNOUNCEMENT: Unaware assault squad dispatched in ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "turns your loot boxes might contain...",
+    "raw": " turns your loot boxes might contain... ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "temp slots unable to remove",
+    "raw": " temp slots unable to remove",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "has no art!",
+    "raw": " has no art!",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unlike other parts in RPGLIKE mode that transfer",
+    "raw": "Unlike other parts in RPGLIKE mode that transfer ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Unlike other parts in BattleRoyale mode that transfer",
+    "raw": "Unlike other parts in BattleRoyale mode that transfer ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "suspicion value for scored unsuspicious activity > 0",
+    "raw": "suspicion value for scored unsuspicious activity > 0",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "impossible to remove enough slots to satisfy reqs",
+    "raw": "impossible to remove enough slots to satisfy reqs",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "effective code value to all Relay Couplers.",
+    "raw": " effective code value to all Relay Couplers.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "more turns before they can pinpoint your position for dispatching.",
+    "raw": " more turns before they can pinpoint your position for dispatching.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "while at least one Relay Coupler [NC] attached.",
+    "raw": " while at least one Relay Coupler [NC] attached.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ANNOUNCEMENT: Welcome to our newest member,",
+    "raw": "ANNOUNCEMENT: Welcome to our newest member, ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "not found, resetting tutorial)",
+    "raw": " not found, resetting tutorial)",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to group channels for sound group",
+    "raw": "Unable to group channels for sound group ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to add audio search path:",
+    "raw": "Unable to add audio search path: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to access sound archive:",
+    "raw": "Unable to access sound archive: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "for writing, could create default",
+    "raw": " for writing, could create default",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "PRELEARNED_EXIT_TO syntax error:",
+    "raw": "PRELEARNED_EXIT_TO syntax error: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "PRELEARNED_EXIT_FROM syntax error:",
+    "raw": "PRELEARNED_EXIT_FROM syntax error: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "stockpile data.",
+    "raw": " stockpile data.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "could not open file for export:",
+    "raw": "could not open file for export: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "materializes via a weapon slot.",
+    "raw": " materializes via a weapon slot.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "blips out of existence for a moment, then partially fades back in.",
+    "raw": " blips out of existence for a moment, then partially fades back in.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "more (full list in score sheet)",
+    "raw": " more (full list in score sheet)",
+    "classification": "non_game_markup",
+    "reason": "网页/HTML样式或分数页格式片段，不是自然语言游戏文本。",
+    "registered": false
+  },
+  {
+    "source": "a:visited { color: #C8C8C8 }",
+    "raw": "a:visited { color: #C8C8C8 }",
+    "classification": "non_game_markup",
+    "reason": "网页分数页中的HTML/CSS格式片段，不是自然语言游戏文本。",
+    "registered": false
+  },
+  {
+    "source": "border-collapse: collapse;",
+    "raw": "  border-collapse: collapse;",
+    "classification": "non_game_markup",
+    "reason": "网页分数页中的HTML/CSS格式片段，不是自然语言游戏文本。",
+    "registered": false
+  },
+  {
+    "source": "background-color: #003300;",
+    "raw": "  background-color: #003300;",
+    "classification": "non_game_markup",
+    "reason": "网页分数页中的HTML/CSS格式片段，不是自然语言游戏文本。",
+    "registered": false
+  },
+  {
+    "source": "Unable to open file to export lore:",
+    "raw": "Unable to open file to export lore: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to open file to export achievements:",
+    "raw": "Unable to open file to export achievements: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "CParts does not contain item to re-assign:",
+    "raw": "CParts does not contain item to re-assign: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "CParts does not contain item to remove/swap:",
+    "raw": "CParts does not contain item to remove/swap: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "CParts does not contain item to drop:",
+    "raw": "CParts does not contain item to drop: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Found incompatible save file from an earlier version of Cogmind (",
+    "raw": "Found incompatible save file from an earlier version of Cogmind (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "no Ent or scan record found at",
+    "raw": "no Ent or scan record found at ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "ripped apart by twisting subspace fabric.",
+    "raw": " ripped apart by twisting subspace fabric.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "narrowcast message: \"Please hold, a Derelict Rescue Squad will be with you shortly.\"",
+    "raw": " narrowcast message: \"Please hold, a Derelict Rescue Squad will be with you shortly.\"",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": false,
+    "translation": "窄播消息：“请稍候，废土救援小队很快就到。”"
+  },
+  {
+    "source": "item no longer exists!",
+    "raw": "item no longer exists!",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Item not found in inventory after transfer:",
+    "raw": "Item not found in inventory after transfer: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "tempSlotCreator Item not found in inventory after transfer:",
+    "raw": "tempSlotCreator Item not found in inventory after transfer: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "weapons not considered for cycling; first:",
+    "raw": " weapons not considered for cycling; first: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "part not found for auto-activation",
+    "raw": "part not found for auto-activation",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "too little content, will crash",
+    "raw": "too little content, will crash",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "cannot display info for non-machine props (",
+    "raw": "cannot display info for non-machine props (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "sort of build. As for the details...",
+    "raw": " sort of build. As for the details...",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+    "raw": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Impressive surplus mass support. Even if you were to lose some",
+    "raw": "Impressive surplus mass support. Even if you were to lose some ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+    "raw": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "looks a bit greedy.",
+    "raw": " looks a bit greedy.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is invalid (out of topLine=",
+    "raw": " is invalid (out of topLine=",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "rendered useless by plates shifting to reveal entrance.",
+    "raw": " rendered useless by plates shifting to reveal entrance.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Acceleration Regulator",
+    "raw": "  Acceleration Regulator",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is a serious offense. Repeat command to confirm.",
+    "raw": "is a serious offense. Repeat command to confirm.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "UFD!RECORDED_MSG: If you're reading this know that we did it, it's ours. Everyone retreat to safety in 0b1.",
+    "raw": "UFD!RECORDED_MSG: If you're reading this know that we did it, it's ours. Everyone retreat to safety in 0b1.",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。",
+    "registered": true,
+    "translation": "UFD!RECORDED_MSG：如果你读到这条消息，就说明我们成功了，这里归我们了。所有人撤到0b1安全区。"
+  },
+  {
+    "source": "Support from the recent Fedlink buildup",
+    "raw": " Support from the recent Fedlink buildup ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is limited, but with our capabilities exposed it's now or never.",
+    "raw": "is limited, but with our capabilities exposed it's now or never.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+    "raw": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+    "raw": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+    "raw": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+    "raw": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "rendered useless by seal.",
+    "raw": " rendered useless by seal.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "ALERT: Suspicious activity reported at",
+    "raw": "ALERT: Suspicious activity reported at ",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "Linking operator network (",
+    "raw": "Linking operator network (",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Additional feedback blocked by",
+    "raw": "Additional feedback blocked by ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Dumping inventory...",
+    "raw": "Dumping inventory...",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": true
+  },
+  {
+    "source": "Insufficient room to drop",
+    "raw": "Insufficient room to drop ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "until cutoff.",
+    "raw": " until cutoff.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "to completion.",
+    "raw": " to completion.",
+    "classification": "dynamic_fragment",
+    "reason": "从EXE中提取的拼接片段、带缺失上下文/变量的模板，或描述性文本的截段；当前字符串本身不构成完整可独立翻译的显示文本。",
+    "registered": false
+  },
+  {
+    "source": "shrink a robot down to micro-size without affecting its structure",
+    "raw": "shrink a robot down to micro-size without affecting its structure",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。",
+    "registered": false,
+    "translation": "把机器人缩小至微型而不改变其结构"
+  },
+  {
+    "source": "trick Unaware into thinking I'm a wall",
+    "raw": "trick Unaware into thinking I'm a wall",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。",
+    "registered": false,
+    "translation": "欺骗Unaware，让它以为我是一堵墙"
+  },
+  {
+    "source": "watch what all the Watchers are watching",
+    "raw": "watch what all the Watchers are watching",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。",
+    "registered": false,
+    "translation": "监视Watchers所监视的一切"
+  },
+  {
+    "source": "perfect my Behemoth alchemy table",
+    "raw": "perfect my Behemoth alchemy table",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。",
+    "registered": false,
+    "translation": "完善我的巨像炼金台"
+  },
+  {
+    "source": "make a Behemoth even bigger so I can get inside and drive it",
+    "raw": "make a Behemoth even bigger so I can get inside and drive it",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。",
+    "registered": false,
+    "translation": "把巨像再造大些，好让我进去驾驶"
+  },
+  {
+    "source": "filter the Oracle's feed so he'd actually be wrong about something for once",
+    "raw": "filter the Oracle's feed so he'd actually be wrong about something for once",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。",
+    "registered": false,
+    "translation": "过滤Oracle的信息流，让他偶尔也猜错一次"
+  },
+  {
+    "source": "replicate the ID masking tech used by the Unchained",
+    "raw": "replicate the ID masking tech used by the Unchained",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。",
+    "registered": false,
+    "translation": "复制Unchained使用的身份伪装技术"
+  },
+  {
+    "source": "get supplies from the Merchants without indirectly helping MAIN.C",
+    "raw": "get supplies from the Merchants without indirectly helping MAIN.C",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。",
+    "registered": false,
+    "translation": "从商人那里获取物资，又不间接资助MAIN.C"
+  },
+  {
+    "source": "If only there was a way to",
+    "raw": "If only there was a way to ",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "while I steal that schematic before they can even call for help.",
+    "raw": "while I steal that schematic before they can even call for help.",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "will really blow your mind: Try installing my Trojan(Skim) at",
+    "raw": "will really blow your mind: Try installing my Trojan(Skim) at",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "intercept whatever it can find, and the data will also feed back",
+    "raw": "intercept whatever it can find, and the data will also feed back",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "to me here for my wiki so we can all benefit!",
+    "raw": "to me here for my wiki so we can all benefit!",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "If the Merchants find out I took this prototype before it was finished,",
+    "raw": "If the Merchants find out I took this prototype before it was finished,",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "Dope Sterilization Festival",
+    "raw": "Dope Sterilization Festival",
+    "classification": "visible_complete_text",
+    "reason": "完整的游戏内零件说明、可见列表条目或独立名称；与相邻提取记录核对后可作为完整显示文本。",
+    "registered": false,
+    "translation": "消毒狂欢节"
+  },
+  {
+    "source": "did not survive the journey.",
+    "raw": " did not survive the journey.",
+    "classification": "dynamic_fragment",
+    "reason": "该字符串以句子中段/未完成模板结尾，需运行时参数或相邻字符串补全，故不作为独立完整文案收录。",
+    "registered": false
+  },
+  {
+    "source": "unable to load font set:",
+    "raw": "unable to load font set: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "for writing, keyboard layout not saved",
+    "raw": " for writing, keyboard layout not saved",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Default           Keyboard",
+    "raw": "// Default           Keyboard",
+    "classification": "dynamic_fragment",
+    "reason": "疑似运行时拼接片段或缺少上下文；没有足够证据证明该片段单独显示。",
+    "registered": false
+  },
+  {
+    "source": "Domain header missing closing ']' in line",
+    "raw": "Domain header missing closing ']' in line ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "for writing, keybinds not saved",
+    "raw": " for writing, keybinds not saved",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "for writing, config not saved",
+    "raw": " for writing, config not saved",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "cannot set an auto-activate item to a negative/broken value",
+    "raw": "cannot set an auto-activate item to a negative/broken value",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "IS INACCESSIBLE, POSSIBLY BLOCKED BY THE OPERATING SYSTEM OR ANTI-VIRUS SOFTWARE. Please ensure this file is accessible to continue. Alternatively, delete the file and a new one will be created, BUT ALL META PROGRESS WILL BE LOST! Consider saving a copy elsewhere to restore it if necessary (there are also automated backups located in",
+    "raw": " IS INACCESSIBLE, POSSIBLY BLOCKED BY THE OPERATING SYSTEM OR ANTI-VIRUS SOFTWARE. Please ensure this file is accessible to continue. Alternatively, delete the file and a new one will be created, BUT ALL META PROGRESS WILL BE LOST! Consider saving a copy elsewhere to restore it if necessary (there are also automated backups located in ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "not found, resetting data)",
+    "raw": " not found, resetting data)",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to open file to store score record:",
+    "raw": "Unable to open file to store score record: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Unable to open file to append score summary:",
+    "raw": "Unable to open file to append score summary: ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Subclass method not implemented",
+    "raw": "Subclass method not implemented",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "Art does not contain layer",
+    "raw": "Art does not contain layer ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  },
+  {
+    "source": "CHECK failed: (&other) != (this):",
+    "raw": "CHECK failed: (&other) != (this): ",
+    "classification": "third_party_or_program_diagnostic",
+    "reason": "程序、配置、资源加载或内部状态诊断；不是面向玩家的完整游戏文案。",
+    "registered": false
+  }
+]

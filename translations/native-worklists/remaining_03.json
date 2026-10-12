@@ -1,0 +1,462 @@
+[
+  {
+    "raw": " ripped apart by twisting subspace fabric.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x82f384",
+        "assembly_file": "build/rea/fragment-windows/82f384.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " ripped apart by twisting subspace fabric.",
+            "string_va": "0xc00f7c",
+            "xref_evidence": "ev_63c678ba2c4476bf0f214afc816a696e4c1b3cd04deb3e816886237e20cbc1bd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " sort of build. As for the details...",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x8f753c",
+        "assembly_file": "build/rea/fragment-windows/8f753c.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " sort of build. As for the details...",
+            "string_va": "0xc05134",
+            "xref_evidence": "ev_52362486fd865bb17cf4defd7637b65265a456f2b603036c21b6b8aa22f5f7af"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x8f76f7",
+        "assembly_file": "build/rea/fragment-windows/8f76f7.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+            "string_va": "0xc051f0",
+            "xref_evidence": "ev_c4f75a5cf7c0828d5baa4180b7423c3e8d58d9b493ba4d8aed7cd9e9dfa15c39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "Impressive surplus mass support. Even if you were to lose some ",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x8f76cd",
+        "assembly_file": "build/rea/fragment-windows/8f76cd.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "Impressive surplus mass support. Even if you were to lose some ",
+            "string_va": "0xc05268",
+            "xref_evidence": "ev_6ae82a7eae552dbcdf93a231b24ff623ca2c97005fb949ab5a1694d3e4d51f92"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x8f798a",
+        "assembly_file": "build/rea/fragment-windows/8f798a.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+            "string_va": "0xc053b8",
+            "xref_evidence": "ev_4059818a62f01dbdaac357b0918923cf62f63d963238d34a639464dd3661d140"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " looks a bit greedy.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x8f7e02",
+        "assembly_file": "build/rea/fragment-windows/8f7e02.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " looks a bit greedy.",
+            "string_va": "0xc05544",
+            "xref_evidence": "ev_f53f9c578f5930e4b10ade69dff349b132f34dea76f607e10db990f743b7ca35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " rendered useless by plates shifting to reveal entrance.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x9216e8",
+        "assembly_file": "build/rea/fragment-windows/9216e8.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " rendered useless by plates shifting to reveal entrance.",
+            "string_va": "0xc0a20c",
+            "xref_evidence": "ev_f8560a5879fdcc27e44606c5885fb3f11bee5672ab29d9a306bee5d129f59293"
+          }
+        ]
+      },
+      {
+        "xref": "0x93738b",
+        "assembly_file": "build/rea/fragment-windows/93738b.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " rendered useless by plates shifting to reveal entrance.",
+            "string_va": "0xc0d9dc",
+            "xref_evidence": "ev_dfe7fe7c8e723c97cc34a68c2a69a50383fd6c1b0da602a72582f8dae11627de"
+          }
+        ]
+      },
+      {
+        "xref": "0x9373a7",
+        "assembly_file": "build/rea/fragment-windows/9373a7.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " rendered useless by plates shifting to reveal entrance.",
+            "string_va": "0xc0d9dc",
+            "xref_evidence": "ev_dfe7fe7c8e723c97cc34a68c2a69a50383fd6c1b0da602a72582f8dae11627de"
+          },
+          {
+            "string": " rendered useless by seal.",
+            "string_va": "0xc0da18",
+            "xref_evidence": "ev_e7e4ff6ad1618eaf2b5346b681eb3346fd8c0ed1e82951ff545b177d82b4983e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "  Acceleration Regulator",
+    "classification": "player_facing_candidate",
+    "references": [
+      {
+        "xref": "0x928521",
+        "assembly_file": "build/rea/fragment-windows/928521.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "\n  Acceleration Regulator",
+            "string_va": "0xc0ad4c",
+            "xref_evidence": "ev_785cca6bbe4459ec226f4f1dcddc53e3c7b9e75aeaab7fe81f28d1fa53b298c7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "is a serious offense. Repeat command to confirm.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x9295b7",
+        "assembly_file": "build/rea/fragment-windows/9295b7.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "\nWARNING: Removing SEP-X without authorization\nis a serious offense. Repeat command to confirm.",
+            "string_va": "0xc0b2e8",
+            "xref_evidence": "ev_818647f32633d6735082ab526fde1d4e452e483a2bd28d5d4fdba79b85be9b32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " Support from the recent Fedlink buildup ",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x9341ca",
+        "assembly_file": "build/rea/fragment-windows/9341ca.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " Support from the recent Fedlink buildup ",
+            "string_va": "0xc0c9ec",
+            "xref_evidence": "ev_36299f746a54377eff58caee3e3a003d46aa31cbc94cfc30fa2782d3cdc80a1e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "is limited, but with our capabilities exposed it's now or never.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x934207",
+        "assembly_file": "build/rea/fragment-windows/934207.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "is limited, but with our capabilities exposed it's now or never.",
+            "string_va": "0xc0cb28",
+            "xref_evidence": "ev_13e7dbd5e78e3cb0d5988bd6220324efaaa3033d0a6605c3012de2c628643e59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x934220",
+        "assembly_file": "build/rea/fragment-windows/934220.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+            "string_va": "0xc0cb88",
+            "xref_evidence": "ev_bd765070da46ef6409516bc7d46c1a1005d98843d1c0f31ef709c4360f8cbb31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x934239",
+        "assembly_file": "build/rea/fragment-windows/934239.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+            "string_va": "0xc0cbd8",
+            "xref_evidence": "ev_545093cb32e95866549e652633cdce630861a6fd0b76de0e8d2aea552d998277"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x93426b",
+        "assembly_file": "build/rea/fragment-windows/93426b.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+            "string_va": "0xc0cc30",
+            "xref_evidence": "ev_eb193626356cac5ce59c2a52e1db45f68c9720aec89ab4104dcfda5f192fbe88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x934284",
+        "assembly_file": "build/rea/fragment-windows/934284.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+            "string_va": "0xc0cc94",
+            "xref_evidence": "ev_899d8f622fcde5aeefee2c5fcd2b72bd07a8d719de5bf7f4c3f072fd3c2e758d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " rendered useless by seal.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x937397",
+        "assembly_file": "build/rea/fragment-windows/937397.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " rendered useless by seal.",
+            "string_va": "0xc0da18",
+            "xref_evidence": "ev_e7e4ff6ad1618eaf2b5346b681eb3346fd8c0ed1e82951ff545b177d82b4983e"
+          }
+        ]
+      },
+      {
+        "xref": "0x9373a7",
+        "assembly_file": "build/rea/fragment-windows/9373a7.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " rendered useless by plates shifting to reveal entrance.",
+            "string_va": "0xc0d9dc",
+            "xref_evidence": "ev_dfe7fe7c8e723c97cc34a68c2a69a50383fd6c1b0da602a72582f8dae11627de"
+          },
+          {
+            "string": " rendered useless by seal.",
+            "string_va": "0xc0da18",
+            "xref_evidence": "ev_e7e4ff6ad1618eaf2b5346b681eb3346fd8c0ed1e82951ff545b177d82b4983e"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " to completion.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x951e9d",
+        "assembly_file": "build/rea/fragment-windows/951e9d.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " to completion.",
+            "string_va": "0xc0fec4",
+            "xref_evidence": "ev_ce20d7d471a780f881653532faf404c78628861b3604cc3bb493127e8d724521"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "while I steal that schematic before they can even call for help.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x957089",
+        "assembly_file": "build/rea/fragment-windows/957089.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "while I steal that schematic before they can even call for help.",
+            "string_va": "0xc10b68",
+            "xref_evidence": "ev_304815feb02fabf93b0f6f74378126f70c9e8adab34dcbac3646831e09db2f87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "will really blow your mind: Try installing my Trojan(Skim) at",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x9571a1",
+        "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "will really blow your mind: Try installing my Trojan(Skim) at",
+            "string_va": "0xc10bf4",
+            "xref_evidence": "ev_0abca6baf9e0ef1e41aae9e120416daf7a7dd892ed80b879ac9c2437ad4f1910"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "intercept whatever it can find, and the data will also feed back",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x957239",
+        "assembly_file": "build/rea/fragment-windows/957239.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "intercept whatever it can find, and the data will also feed back",
+            "string_va": "0xc10cb8",
+            "xref_evidence": "ev_e3b0d85b98422e1ca7d6a4b67b21c775a871554d7854155a0efc1577298ce865"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "to me here for my wiki so we can all benefit!",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x957285",
+        "assembly_file": "build/rea/fragment-windows/957285.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "to me here for my wiki so we can all benefit!",
+            "string_va": "0xc10cfc",
+            "xref_evidence": "ev_e774fb20ee4a477e7ade424c80d0e01bc2a9657076826b2a5ece752e65310653"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "If the Merchants find out I took this prototype before it was finished,",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x9574cc",
+        "assembly_file": "build/rea/fragment-windows/9574cc.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "If the Merchants find out I took this prototype before it was finished,",
+            "string_va": "0xc10dc8",
+            "xref_evidence": "ev_c43cedad739ac2fe4d2e33d345a3fe8c0ea818faad5d00b675d498a57ec15195"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "// Default           Keyboard",
+    "classification": "config_nonplayer",
+    "references": [
+      {
+        "xref": "0x43959f",
+        "assembly_file": "build/rea/fragment-windows/43959f.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "// Default           Keyboard\n",
+            "string_va": "0xc1a02c",
+            "xref_evidence": "ev_ba0b172d2b3db1fc559c0b2afa6778f93d76d5863e898c2afd3cd92422abf9e7"
+          }
+        ]
+      }
+    ]
+  }
+]

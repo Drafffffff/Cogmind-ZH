@@ -1,0 +1,242 @@
+[
+  {
+    "string": " integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least ",
+    "string_va": "0xbdaa18",
+    "xref": "0x5603d1",
+    "assembly_line": 144,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_ced14ea90bca3d65d26cd8bc5c161596bbc6b56e6126ee19cc02815bca34b5d0"
+  },
+  {
+    "string": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+    "string_va": "0xbdd308",
+    "xref": "0x563aa1",
+    "assembly_line": 3177,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_26b270d037a99f1fac5b353f84e67f16507ec353583545f1f663360bded25c78"
+  },
+  {
+    "string": " back in the direction of the attack.",
+    "string_va": "0xbdd98c",
+    "xref": "0x565127",
+    "assembly_line": 4442,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_cd8b6026ce0f6a54546b0165fcf757175475d20474b317d2f2bbad71f04b9390"
+  },
+  {
+    "string": " in a random direction.",
+    "string_va": "0xbdd91c",
+    "xref": "0x565261",
+    "assembly_line": 4511,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_929973b54d8c056e1d2acd55c390a1cb0babb4973948e24de4a6cc4f695c5a53"
+  },
+  {
+    "string": "% for each weapon fired in a multi-weapon volley, minus one.\n <stacks>\n\nExample: All weapons in a three-weapon volley would have +",
+    "string_va": "0xbde138",
+    "xref": "0x56624d",
+    "assembly_line": 5398,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_43062f580d24bde25e4aa85f1073afc011fa3005099d10a59644f6bbe91a6596"
+  },
+  {
+    "string": " modifier. Compatible only with gun-type weapons that fire a single projectile.\n <stacks>",
+    "string_va": "0xbdee88",
+    "xref": "0x567d34",
+    "assembly_line": 6893,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_818d3aca4d0a88e9e45d41d494373b585f3bc68887dbd5e514e72031dabeee99"
+  },
+  {
+    "string": " modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.\n <stacks>",
+    "string_va": "0xbdef10",
+    "xref": "0x567e0f",
+    "assembly_line": 6940,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_fe87c3438b3c30851f20129b8693c708bbfab716a024e6a93b8463bdf11418e3"
+  },
+  {
+    "string": "Holds target in place. Beam strength: ",
+    "string_va": "0xbdf0c4",
+    "xref": "0x567ed2",
+    "assembly_line": 6982,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_4c5316e1fe13a68dc2f1524ef2487b42f533d4454e81833d98b3b0e7d6ed867e"
+  },
+  {
+    "string": "Penetrates target robot just enough to enable system access for hacking. Also a base ",
+    "string_va": "0xbdf368",
+    "xref": "0x5681e6",
+    "assembly_line": 7156,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_7123efdb3ee0b1dc2a9f1f23d6512b34d6f3f82097a3a7ec5389ccf0794f2aef"
+  },
+  {
+    "string": "While hacking machines, reduces both chance of detection and rate of detection chance increases by ",
+    "string_va": "0xbdf6e8",
+    "xref": "0x56864f",
+    "assembly_line": 7408,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_ba2bc220cae7dd90df3bcbfbb3d780294119408cee0fb93e7d552836bfa34283"
+  },
+  {
+    "string": "Teleports the user to an approximate distance of ",
+    "string_va": "0xbdf74c",
+    "xref": "0x568a44",
+    "assembly_line": 7631,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_66d8b0c8a02d633c26c6b8ee5c223239639c9f796ace145966638070b10dab6d"
+  },
+  {
+    "string": " from current position, traveling along dimensional pathways of least resistance.",
+    "string_va": "0xbdf9c0",
+    "xref": "0x568a6e",
+    "assembly_line": 7640,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_0b0f5f401b2a314960ea92f57cab8f5994111fb0df6ec9626528f4101bc8d5bb"
+  },
+  {
+    "string": " Simultaneously teleports all visible robots within a range of ",
+    "string_va": "0xbdfab8",
+    "xref": "0x568b22",
+    "assembly_line": 7678,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_d8650da2c5fc9e296e705cfe573cdb401928d101934b325cdc1ffa5da9526d3b"
+  },
+  {
+    "string": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+    "string_va": "0xbdfd20",
+    "xref": "0x568f64",
+    "assembly_line": 7906,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_bd680e231ea55d5d6ccdf612137cdb8a1c70ec0ef32eb58266f0ffff8da2301e"
+  },
+  {
+    "string": " ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below ",
+    "string_va": "0xbdfc90",
+    "xref": "0x568f8e",
+    "assembly_line": 7915,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_413f2c144c36c86baf02e53ce3340bc0789ed1325552c50f8e74f6aba03b4bd1"
+  },
+  {
+    "string": "% integrity by this process.\n <consumed>\n\nExamples: A drain of 100 core integrity is capable of repairing ",
+    "string_va": "0xbdfbc0",
+    "xref": "0x568ff2",
+    "assembly_line": 7938,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_79ceaee0634f49a2036ef3c31fad2502defa1546e4b48b1bdf8642b35a042bda"
+  },
+  {
+    "string": " part integrity. A drain of ",
+    "string_va": "0xbdfba0",
+    "xref": "0x569056",
+    "assembly_line": 7961,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_0e50b469be29a996061e841a5031d6a9312d34561a7dc404519c1475d2b831ed"
+  },
+  {
+    "string": " part integrity is capable of repairing 100 core integrity.",
+    "string_va": "0xbdfb64",
+    "xref": "0x5690ba",
+    "assembly_line": 7984,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_a05627d89d9fce01d379e54b84b8daa58c32d5124e85a4def48c7484cbc59d8a"
+  },
+  {
+    "string": "Permanently increases core heat dissipation by ",
+    "string_va": "0xbdfc2c",
+    "xref": "0x5691f2",
+    "assembly_line": 8049,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_bc2cfec3c59e8a8e2b83e0010ec3d7f567264f475ee0e5e63a48b698cdc07fac"
+  },
+  {
+    "string": "Permanently increases core energy generation by ",
+    "string_va": "0xbdfc5c",
+    "xref": "0x5692d3",
+    "assembly_line": 8096,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_64d016f57847195357805517b7248494002d76472850eff06642a5304a5099a6"
+  },
+  {
+    "string": "Energy and matter required for part attachment permanently reduced by ",
+    "string_va": "0xbdfe40",
+    "xref": "0x5693d5",
+    "assembly_line": 8152,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_31cb696b589171c85ec62b05fd6c1a4b02fdb5a370d5895573f6c41b692eb9f3"
+  },
+  {
+    "string": "Permanently adds automated ability which converts core to matter. If matter capacity is at least ",
+    "string_va": "0xbdff58",
+    "xref": "0x5695db",
+    "assembly_line": 8265,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_b95aed405af5a356090e58dfbda805ef86c0d5db0feb760f1fa92505d84957c1"
+  },
+  {
+    "string": " max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below ",
+    "string_va": "0xbdfe98",
+    "xref": "0x569731",
+    "assembly_line": 8343,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_558c1681dd76f8ed7cb881ebd9086e0377095cdcfd114b6c6dd1d9dc39fc95a6"
+  },
+  {
+    "string": " to energy every turn at a ",
+    "string_va": "0xbe0084",
+    "xref": "0x569aaf",
+    "assembly_line": 8535,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_187fbd778a1bb708b5f7d0e38b397a1d143e06e9e7d028639aa62ff507e10f7d"
+  },
+  {
+    "string": "\n\nExample: At 400 heat precisely ",
+    "string_va": "0xbe003c",
+    "xref": "0x569b77",
+    "assembly_line": 8581,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_f69a48b5f6a6776deb8ab33036bffebf6b3b2b30665bc8f2812244aa9f2461e4"
+  },
+  {
+    "string": " heat would be used to generate ",
+    "string_va": "0xbe0018",
+    "xref": "0x569bdb",
+    "assembly_line": 8604,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_c945b1e6b5bdf3fc4224aa3562693919e4a51b6a106711e2606b10a0e48f4625"
+  },
+  {
+    "string": "Destroys all walls and earth up to a distance of ",
+    "string_va": "0xbe01d0",
+    "xref": "0x569f6c",
+    "assembly_line": 8802,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_233acf8c96efd7689b698700ca0f410817cd5a23a59675789c17e9011ea7b631"
+  },
+  {
+    "string": "Permanently increases maximum core integrity by ",
+    "string_va": "0xbe0298",
+    "xref": "0x56a06b",
+    "assembly_line": 8857,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_732207be1571127618c586812efe179ae594e170ee743e2b864282c407d3808e"
+  },
+  {
+    "string": "Permanently increases inventory capacity by ",
+    "string_va": "0xbe02dc",
+    "xref": "0x56a146",
+    "assembly_line": 8904,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_e24b46668ef24684c64a7d2f510719782578e2b553c3be97ae67476f04ddd5b2"
+  },
+  {
+    "string": "Permanently increases energy capacity by ",
+    "string_va": "0xbe031c",
+    "xref": "0x56a221",
+    "assembly_line": 8951,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_857bcb97bb440d78271aa2e0441226cd38aeadd43a3dd0c507cb4796a68022a4"
+  }
+]

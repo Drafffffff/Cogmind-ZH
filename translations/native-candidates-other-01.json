@@ -1,0 +1,3149 @@
+{
+  "source_worklist": "translations/native-worklists/other_01.json",
+  "assembly_directory": "build/rea/fragment-windows",
+  "description": "Candidates reconstructed from literal/capture flows visible in per-xref assembly windows. Entries marked unresolved require helper/boundary confirmation before registration.",
+  "candidates": [
+    {
+      "raw_template": "// Default           Keyboard\n",
+      "source": "// Default Keyboard",
+      "translation": "// 默认           键盘\n",
+      "components": [
+        {
+          "literal": "// Default           Keyboard\n"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/43959f.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/43959f.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x43959f"
+      ],
+      "confidence": "high",
+      "notes": "静态配置注释，直接取自单一字面串。",
+      "xref_sources": [
+        {
+          "xref": "0x43959f",
+          "strings": [
+            {
+              "string": "// Default           Keyboard\n",
+              "string_va": "0xc1a02c",
+              "xref_evidence": "ev_ba0b172d2b3db1fc559c0b2afa6778f93d76d5863e898c2afd3cd92422abf9e7"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/43959f.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} disappears into a concealed tunnel.",
+      "source": "{*} disappears into a concealed tunnel.",
+      "translation": "{*}消失在一条隐秘隧道中。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " disappears into a concealed tunnel."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/535364.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/535364.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b1f10",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x535364"
+      ],
+      "confidence": "high",
+      "notes": "动态名称字符串与该后缀由已核实的9ceaa0按string+literal拼接。",
+      "xref_sources": [
+        {
+          "xref": "0x535364",
+          "strings": [
+            {
+              "string": " disappears into a concealed tunnel.",
+              "string_va": "0xbd7674",
+              "xref_evidence": "ev_9961658cabcc70b0949c9ecbfe618fc779fa822ee0f6dc40cff5a7a0cd122c50"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/535364.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} falls loose from the Twisted Machinery.",
+      "source": "{*} falls loose from the Twisted Machinery.",
+      "translation": "{*}从扭曲机械中脱落。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " falls loose from the Twisted Machinery."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/53626c.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/53626c.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b7f10",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x53626c"
+      ],
+      "confidence": "high",
+      "notes": "动态名称与后缀按9ce8f0的string+literal顺序组合。",
+      "xref_sources": [
+        {
+          "xref": "0x53626c",
+          "strings": [
+            {
+              "string": " falls loose from the Twisted Machinery.",
+              "string_va": "0xbd7738",
+              "xref_evidence": "ev_86e5f517fbcb50858c2234f478cc3eccc23db582c1b3907b4430fc02650cc086"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/53626c.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} vanishes into the earth.",
+      "source": "{*} vanishes into the earth.",
+      "translation": "{*}消失在土层中。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " vanishes into the earth."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/53ddb0.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/53ddb0.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b08d0",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x53ddb0"
+      ],
+      "confidence": "high",
+      "notes": "事件主体字符串后接该字面后缀。",
+      "xref_sources": [
+        {
+          "xref": "0x53ddb0",
+          "strings": [
+            {
+              "string": " vanishes into the earth.",
+              "string_va": "0xbd8204",
+              "xref_evidence": "ev_f64ccd0fd0c34ef02ba2c40d139520c2ad46ac6d9827de9500a005ecf0dc7569"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/53ddb0.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "The earth collapses behind {*}: \"They'll never stop me! The dig must go on!\"",
+      "source": "The earth collapses behind {*}: \"They'll never stop me! The dig must go on!\"",
+      "translation": "身后的土层在{*}后塌陷：“他们永远拦不住我！挖掘必须继续！”",
+      "components": [
+        {
+          "literal": "The earth collapses behind "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": ": \"They'll never stop me! The dig must go on!\""
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/53e175.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/53e175.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x53e175"
+      ],
+      "confidence": "high",
+      "notes": "9ce830将字面前缀置于主体之前，9ce8f0追加冒号与可见对白。",
+      "xref_sources": [
+        {
+          "xref": "0x53e175",
+          "strings": [
+            {
+              "string": "The earth collapses behind ",
+              "string_va": "0xbd82a4",
+              "xref_evidence": "ev_5b28572d5c401d9b5b011630264feb0407611a462bb6111b50eb35947a8e4cad"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/53e175.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} bursts out of the Twisted Machinery.",
+      "source": "{*} bursts out of the Twisted Machinery.",
+      "translation": "{*}从扭曲机械中冲出。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " bursts out of the Twisted Machinery."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/541cea.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/541cea.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b08d0",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x541cea"
+      ],
+      "confidence": "high",
+      "notes": "实体名称字符串与尾部字面串组合。",
+      "xref_sources": [
+        {
+          "xref": "0x541cea",
+          "strings": [
+            {
+              "string": " bursts out of the Twisted Machinery.",
+              "string_va": "0xbd86a4",
+              "xref_evidence": "ev_b4c52c67da6ab2a7505cd281f3ba5f99e4f46c8d6afe25c6d12fe6e2c3b622c8"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/541cea.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} twisted beyond recognition.",
+      "source": "{*} twisted beyond recognition.",
+      "translation": "{*}被扭曲得面目全非。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " twisted beyond recognition."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5583c0.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5583c0.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x5583c0"
+      ],
+      "confidence": "unresolved",
+      "notes": "分支选取该后缀后经9b0bd0附加；helper语义及主体边界尚未核实。",
+      "xref_sources": [
+        {
+          "xref": "0x5583c0",
+          "strings": [
+            {
+              "string": " twisted beyond recognition.",
+              "string_va": "0xbda4cc",
+              "xref_evidence": "ev_3af02dd33b9b6c2b7c438b810e2a5cfcec57ec2859b48dfe29ef1a171d9377dc"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5583c0.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} containment failure.",
+      "source": "{*} containment failure.",
+      "translation": "{*}收容失效。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " containment failure."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5583d2.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5583d2.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x5583d2"
+      ],
+      "confidence": "unresolved",
+      "notes": "分支选取该后缀后经9b0bd0附加；helper语义及主体边界尚未核实。",
+      "xref_sources": [
+        {
+          "xref": "0x5583d2",
+          "strings": [
+            {
+              "string": " containment failure.",
+              "string_va": "0xbda4ec",
+              "xref_evidence": "ev_d7f5afbe0efd176a9f05d5d8f3a55a417aecd5620136cabc61fff49376dcc7a1"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5583d2.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "Access unavailable below {*} .",
+      "source": "Access unavailable below {*} .",
+      "translation": "低于{*}时无法访问。",
+      "components": [
+        {
+          "literal": "Access unavailable below "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " ."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5706c8.asm",
+        "build/rea/fragment-windows/5709c2.asm",
+        "build/rea/fragment-windows/5c4472.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5706c8.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/5709c2.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/5c4472.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x5706c8",
+        "0x5709c2",
+        "0x5c4472"
+      ],
+      "confidence": "high",
+      "notes": "可见构造只包含该前缀、动态门槛值和句点；At 0b10消息是分支中的另一条独立字符串，未并入。",
+      "xref_sources": [
+        {
+          "xref": "0x5706c8",
+          "strings": [
+            {
+              "string": "Access unavailable below ",
+              "string_va": "0xbe2eec",
+              "xref_evidence": "ev_db69d3dab202b24144a33307702666c4305ed12410201a8fc89a2d8947e0155b"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5706c8.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x5709c2",
+          "strings": [
+            {
+              "string": "Access unavailable below ",
+              "string_va": "0xbe3524",
+              "xref_evidence": "ev_b03a5503dfb20f02fa58bf655d031715337922de0247dd98304b9ddd31e4dc7a"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5709c2.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x5c4472",
+          "strings": [
+            {
+              "string": "Access unavailable below ",
+              "string_va": "0xbe5390",
+              "xref_evidence": "ev_16a128df377553d20ec43257194d415ebaed4527c1200fea9150071e35642887"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5c4472.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} already has a count value before even starting to exit",
+      "source": "{*} already has a count value before even starting to exit",
+      "translation": "{*}在开始退出前就已有计数值",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " already has a count value before even starting to exit"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/57a43e.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/57a43e.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x57a43e"
+      ],
+      "confidence": "high",
+      "notes": "已核实9ceaa0将已有名称/主体字符串与后缀字面串连接。",
+      "xref_sources": [
+        {
+          "xref": "0x57a43e",
+          "strings": [
+            {
+              "string": " already has a count value before even starting to exit",
+              "string_va": "0xbe3970",
+              "xref_evidence": "ev_e8aa96d6574a00fff8f9a280a31baa3390e11c5b26db206eb47a39bff075c3dd"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/57a43e.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "cannot break an overloaded part currently in special mode",
+      "source": "cannot break an overloaded part currently in special mode",
+      "translation": "当前处于特殊模式的过载部件无法拆下",
+      "components": [
+        {
+          "literal": "cannot break an overloaded part currently in special mode"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/57a75f.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/57a75f.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b7f10"
+      ],
+      "covers_xrefs": [
+        "0x57a75f"
+      ],
+      "confidence": "high",
+      "notes": "单一完整错误字面串。",
+      "xref_sources": [
+        {
+          "xref": "0x57a75f",
+          "strings": [
+            {
+              "string": "cannot break an overloaded part currently in special mode",
+              "string_va": "0xbe3a30",
+              "xref_evidence": "ev_630ae0d6d59b22ff228fe5cc755612c272db45e4aff50d37a2223ad2407ef49c"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/57a75f.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} already has a count value before mode even started",
+      "source": "{*} already has a count value before mode even started",
+      "translation": "{*}在模式开始前就已有计数值",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " already has a count value before mode even started"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/57aadf.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/57aadf.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x57aadf"
+      ],
+      "confidence": "high",
+      "notes": "已核实9ceaa0将主体字符串与后缀连接。",
+      "xref_sources": [
+        {
+          "xref": "0x57aadf",
+          "strings": [
+            {
+              "string": " already has a count value before mode even started",
+              "string_va": "0xbe3a80",
+              "xref_evidence": "ev_e0e86c156c08f525500764104bdf6180a697b8561668d9e6b36df1b45b73c212"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/57aadf.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} releases a shadow of itself that zips off towards {*}.",
+      "source": "{*} releases a shadow of itself that zips off towards {*}.",
+      "translation": "{*}释放出自己的一个影子，飞速奔向{*}。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " releases a shadow of itself that zips off towards "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": "."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/57e983.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/57e983.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x57e983"
+      ],
+      "confidence": "unresolved",
+      "notes": "目标位置经未核实的9ceb60拼接；边界需确认。",
+      "xref_sources": [
+        {
+          "xref": "0x57e983",
+          "strings": [
+            {
+              "string": " releases a shadow of itself that zips off towards ",
+              "string_va": "0xbe3c20",
+              "xref_evidence": "ev_44fc9e21f443144fb6fb510c3c457757941cdcb84514af0651f5e8e72cc0f3f5"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/57e983.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "Shadow retroactively draws in {*}.",
+      "source": "Shadow retroactively draws in {*}.",
+      "translation": "影子回溯着吸引{*}。",
+      "components": [
+        {
+          "literal": "Shadow retroactively draws in "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": "."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/57eb23.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/57eb23.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x57eb23"
+      ],
+      "confidence": "unresolved",
+      "notes": "实体目标经未核实的9ceb60拼接，数据边界需核实。",
+      "xref_sources": [
+        {
+          "xref": "0x57eb23",
+          "strings": [
+            {
+              "string": "Shadow retroactively draws in ",
+              "string_va": "0xbe3c58",
+              "xref_evidence": "ev_c8d9d3210a375f028d893a064ea61e785069e76a144cb908c5e13676bd31b862"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/57eb23.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+      "source": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+      "translation": "非FACTION_COGMIND派系的AI不能设为EXPLORE！",
+      "components": [
+        {
+          "literal": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5990eb.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5990eb.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b7f10"
+      ],
+      "covers_xrefs": [
+        "0x5990eb"
+      ],
+      "confidence": "high",
+      "notes": "完整静态错误字面串；保留标识符常量。",
+      "xref_sources": [
+        {
+          "xref": "0x5990eb",
+          "strings": [
+            {
+              "string": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+              "string_va": "0xbe42f8",
+              "xref_evidence": "ev_e7877ac76922fbd703cef5897c28e7e5254fa09f078afd2cd37f9dcd0dd950fb"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5990eb.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "ANNOUNCEMENT: Tunneling progress halted along {*} route. {*} no longer operational.",
+      "source": "ANNOUNCEMENT: Tunneling progress halted along {*} route. {*} no longer operational.",
+      "translation": "公告：隧道挖掘在{*}路线上停止。{*}已停止运作。",
+      "components": [
+        {
+          "literal": "ANNOUNCEMENT: Tunneling progress halted along "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " route. "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " no longer operational."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5a98f8.asm",
+        "build/rea/fragment-windows/63626d.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5a98f8.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/63626d.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x5a98f8",
+        "0x63626d"
+      ],
+      "confidence": "unresolved",
+      "notes": "构造链由9ce7b0/8f0与未核实9ceb60连接动态路线和目标主体；完整外层边界仍待确认。",
+      "xref_sources": [
+        {
+          "xref": "0x5a98f8",
+          "strings": [
+            {
+              "string": " no longer operational.",
+              "string_va": "0xbe4510",
+              "xref_evidence": "ev_9555d7f9656cbf92c2f956afc45199ee46ccdf66e476869d5a8bc2fedfc00a7d"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5a98f8.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x63626d",
+          "strings": [
+            {
+              "string": " no longer operational.",
+              "string_va": "0xbe8008",
+              "xref_evidence": "ev_69c23807e07c46e08ecbffed803213e7c98c4436c47c4fd050d509242120f5bb"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/63626d.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} attempting to follow self at {*} , cancelling",
+      "source": "{*} attempting to follow self at {*} , cancelling",
+      "translation": "{*}试图在{*}处跟随自身，已取消",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " attempting to follow self at "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " , cancelling"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5b40f5.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5b40f5.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b7f10",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x5b40f5"
+      ],
+      "confidence": "high",
+      "notes": "实体名和位置经可见构造后接后缀及取消字面串。",
+      "xref_sources": [
+        {
+          "xref": "0x5b40f5",
+          "strings": [
+            {
+              "string": " attempting to follow self at ",
+              "string_va": "0xbe4880",
+              "xref_evidence": "ev_e1996c4eb7f9a22af51d4b4f2f41b9527d179020963aec56552d696080ac6657"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5b40f5.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "Unable to path to a valid goal for AI_MOVE_PATROL ({*})",
+      "source": "Unable to path to a valid goal for AI_MOVE_PATROL ({*})",
+      "translation": "无法为AI_MOVE_PATROL规划通往有效目标的路径（{*}）",
+      "components": [
+        {
+          "literal": "Unable to path to a valid goal for AI_MOVE_PATROL ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": ")"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5b46db.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5b46db.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b7f10",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x5b46db"
+      ],
+      "confidence": "high",
+      "notes": "9ce830以可见字面前缀和动态值组合，随后追加右括号。",
+      "xref_sources": [
+        {
+          "xref": "0x5b46db",
+          "strings": [
+            {
+              "string": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+              "string_va": "0xbe4930",
+              "xref_evidence": "ev_fb7d1103b6fe5c5e5f755c3130d76d80470f6e1d8a8baad6643414edae215da1"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5b46db.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} is not an interactive terminal",
+      "source": "{*} is not an interactive terminal",
+      "translation": "{*}不是可交互终端",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " is not an interactive terminal"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5b48c3.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5b48c3.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x5b48c3"
+      ],
+      "confidence": "high",
+      "notes": "动态对象名称与错误后缀由已核实9ce8f0连接。",
+      "xref_sources": [
+        {
+          "xref": "0x5b48c3",
+          "strings": [
+            {
+              "string": " is not an interactive terminal",
+              "string_va": "0xbe4980",
+              "xref_evidence": "ev_b08a36383cb7f4494d61f306df8263d2d7b2579334c538a9f4a07eed15d3ee27"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5b48c3.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} unable to find more targets on {*}.",
+      "source": "{*} unable to find more targets on {*}.",
+      "translation": "{*}在{*}上找不到更多目标。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " unable to find more targets on "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": "."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5bfa1b.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5bfa1b.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce8f0",
+        "0x9ceaa0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x5bfa1b"
+      ],
+      "confidence": "unresolved",
+      "notes": "主体/地图位置通过9ceb60参与拼接；捕获边界尚待核实。",
+      "xref_sources": [
+        {
+          "xref": "0x5bfa1b",
+          "strings": [
+            {
+              "string": " unable to find more targets on ",
+              "string_va": "0xbe4d04",
+              "xref_evidence": "ev_f2d42161d38256504fb98ff2908602fbdf16944296548a02442145a58d00b3df"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5bfa1b.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} reports that hacking {*} is no longer safe.",
+      "source": "{*} reports that hacking {*} is no longer safe.",
+      "translation": "{*}报告称，入侵{*}已不再安全。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " reports that hacking "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " is no longer safe."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5c32cb.asm",
+        "build/rea/fragment-windows/5c3437.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5c32cb.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/5c3437.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x5c32cb",
+        "0x5c3437"
+      ],
+      "confidence": "unresolved",
+      "notes": "有两个动态字符串与尾部句段；9ceaa0参与合并且疑似有更外层报告模板，需确认完整数据流。",
+      "xref_sources": [
+        {
+          "xref": "0x5c32cb",
+          "strings": [
+            {
+              "string": " no longer safe.",
+              "string_va": "0xbe52ec",
+              "xref_evidence": "ev_e7c21a268c5b5dff129db4cea3f9cc7ef2b7b77f113af5c4cf01ad84ebf6308d"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5c32cb.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x5c3437",
+          "strings": [
+            {
+              "string": " no longer safe.",
+              "string_va": "0xbe5318",
+              "xref_evidence": "ev_e49271a1c9d7539fdceae361e45ad4439a831c4e8c50012a3cefd0ba473a7ef3"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5c3437.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} is pierced by a surge of energy.",
+      "source": "{*} is pierced by a surge of energy.",
+      "translation": "{*}被一股能量涌流击中。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " is pierced by a surge of energy."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/5fb984.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/5fb984.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x5fb984"
+      ],
+      "confidence": "high",
+      "notes": "动态实体与完整静态尾句相连。",
+      "xref_sources": [
+        {
+          "xref": "0x5fb984",
+          "strings": [
+            {
+              "string": " is pierced by a surge of energy.",
+              "string_va": "0xbe72e0",
+              "xref_evidence": "ev_96d03c04e86f9fde224f45a4c30c6527e1680340baba3de94a9be86b68427e83"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/5fb984.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} flashes as you approach.",
+      "source": "{*} flashes as you approach.",
+      "translation": "你靠近时，{*}闪烁起来。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " flashes as you approach."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/64171c.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/64171c.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x64171c"
+      ],
+      "confidence": "high",
+      "notes": "显示对象名称与静态字面后缀相连。",
+      "xref_sources": [
+        {
+          "xref": "0x64171c",
+          "strings": [
+            {
+              "string": " flashes as you approach.",
+              "string_va": "0xbe833c",
+              "xref_evidence": "ev_a2db9c15d35750065db384a464dae32f8f4b4e95b6a13c044caf2196cdd5fd1b"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/64171c.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "ALERT: Network intrusion management efficiency reduced by {*}%. Dispatching hub defense squads. All non-combat units evacuate.",
+      "source": "ALERT: Network intrusion management efficiency reduced by {*}%. Dispatching hub defense squads. All non-combat units evacuate.",
+      "translation": "警报：网络入侵管理效率降低了{*}%。正在派遣枢纽防御小队。所有非战斗单位立即撤离。",
+      "components": [
+        {
+          "literal": "ALERT: Network intrusion management efficiency reduced by "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": "%. Dispatching hub defense squads. All non-combat units evacuate."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/66117e.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/66117e.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x66117e"
+      ],
+      "confidence": "high",
+      "notes": "以可见百分比数值和完整后续字面串构成。",
+      "xref_sources": [
+        {
+          "xref": "0x66117e",
+          "strings": [
+            {
+              "string": "ALERT: Network intrusion management efficiency reduced by ",
+              "string_va": "0xbe9814",
+              "xref_evidence": "ev_9fa41afb5c6807df4157d1a1cafa44763a9bdec87d6304da91b74b2842d8f350"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/66117e.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "ALERT: Network intrusion management efficiency at {*}%.",
+      "source": "ALERT: Network intrusion management efficiency at {*}%.",
+      "translation": "警报：网络入侵管理效率为{*}%。",
+      "components": [
+        {
+          "literal": "ALERT: Network intrusion management efficiency at "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": "%."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6615c5.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6615c5.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6615c5"
+      ],
+      "confidence": "high",
+      "notes": "末尾百分比和句点均为可见后缀。",
+      "xref_sources": [
+        {
+          "xref": "0x6615c5",
+          "strings": [
+            {
+              "string": "ALERT: Network intrusion management efficiency at ",
+              "string_va": "0xbe9918",
+              "xref_evidence": "ev_b43881e09c1083df70a611dd1566a5edfc6f52d88caa8e53166f8b61d16f4922"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6615c5.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "  Damage insufficient to overcome {*} armor",
+      "source": "Damage insufficient to overcome {*} armor",
+      "translation": "  伤害不足以击穿{*}护甲",
+      "components": [
+        {
+          "literal": "  Damage insufficient to overcome "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " armor"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/666282.asm",
+        "build/rea/fragment-windows/66fd90.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/666282.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/66fd90.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b7f10",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x666282",
+        "0x66fd90"
+      ],
+      "confidence": "high",
+      "notes": "共同模板由固定字面片段、动态防护值和armor后缀构成。",
+      "xref_sources": [
+        {
+          "xref": "0x666282",
+          "strings": [
+            {
+              "string": "  Damage insufficient to overcome ",
+              "string_va": "0xbe9ed8",
+              "xref_evidence": "ev_c58fe840f8219b657ee49b670f05a1f7ede76a4ca5d02a4f349c04e77c3dc6f9"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/666282.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x66fd90",
+          "strings": [
+            {
+              "string": "  Damage insufficient to overcome ",
+              "string_va": "0xbea524",
+              "xref_evidence": "ev_e05a6b1d4e13ab856841fdc9b1eccdf8d0b4f9d74d8ec1536471e3ac9fc5e3c9"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/66fd90.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "ALERT: Unidentified disturbance in Zone {*} , {*} , {*}",
+      "source": "ALERT: Unidentified disturbance in Zone {*} , {*} , {*}",
+      "translation": "警报：{*}区出现不明扰动，{*}，{*}",
+      "components": [
+        {
+          "literal": "ALERT: Unidentified disturbance in Zone "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " , "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " , "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6799d2.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6799d2.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b0b70",
+        "0x9b0bb0",
+        "0x9b0bd0",
+        "0x9b7f10"
+      ],
+      "covers_xrefs": [
+        "0x6799d2"
+      ],
+      "confidence": "unresolved",
+      "notes": "9b0b70建立告警，后续调用追加区域/派遣结果；9b0bb0/9b0bd0语义未确认，最后一段是分支选择内容。",
+      "xref_sources": [
+        {
+          "xref": "0x6799d2",
+          "strings": [
+            {
+              "string": "ALERT: Unidentified disturbance in Zone ",
+              "string_va": "0xbeab5c",
+              "xref_evidence": "ev_d4eb8f3030a1e001e003ee0fdf9dd37e5a2093c32c33c467db173dffd87c9998"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6799d2.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "ALERT: Significant disruption in Zone {*} , {*} , {*}",
+      "source": "ALERT: Significant disruption in Zone {*} , {*} , {*}",
+      "translation": "警报：{*}区发生重大扰乱，{*}，{*}",
+      "components": [
+        {
+          "literal": "ALERT: Significant disruption in Zone "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " , "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " , "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/679a48.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/679a48.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b08d0",
+        "0x9b0b70",
+        "0x9b0bb0",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x679a48"
+      ],
+      "confidence": "unresolved",
+      "notes": "9b0b70建立告警，后续调用追加区域/派遣结果；9b0bb0/9b0bd0语义未确认，最后一段是分支选择内容。",
+      "xref_sources": [
+        {
+          "xref": "0x679a48",
+          "strings": [
+            {
+              "string": "ALERT: Significant disruption in Zone ",
+              "string_va": "0xbeab88",
+              "xref_evidence": "ev_afc6c0f11b90635b5fc15693d245771e434d57efff78e3162c60d47244d85240"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/679a48.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "ALERT: Active scanning activity reported from Zone {*} , dispatching {*} squad.",
+      "source": "ALERT: Active scanning activity reported from Zone {*} , dispatching {*} squad.",
+      "translation": "警报：{*}区报告有主动扫描活动，正在派遣{*}小队。",
+      "components": [
+        {
+          "literal": "ALERT: Active scanning activity reported from Zone "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " , dispatching "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " squad."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/67a8c7.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/67a8c7.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x67a8c7"
+      ],
+      "confidence": "unresolved",
+      "notes": "zone与小队数据在格式化调用后拼接；相关追加helper边界尚未核实。",
+      "xref_sources": [
+        {
+          "xref": "0x67a8c7",
+          "strings": [
+            {
+              "string": "ALERT: Active scanning activity reported from Zone ",
+              "string_va": "0xbeaca8",
+              "xref_evidence": "ev_2eb701bd2d502887072042d2491962be1b6b50249bddf5b3f69486e468c82dcc"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/67a8c7.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "ALERT: Unscheduled coupler replacement inbound for {*}.",
+      "source": "ALERT: Unscheduled coupler replacement inbound for {*}.",
+      "translation": "警报：有未经安排的耦合器替换件正送往{*}。",
+      "components": [
+        {
+          "literal": "ALERT: Unscheduled coupler replacement inbound for "
+        },
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": "."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/67b8aa.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/67b8aa.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x67b8aa"
+      ],
+      "confidence": "high",
+      "notes": "9ce830连接告警字面前缀与动态目标名，9ce8f0追加句点。",
+      "xref_sources": [
+        {
+          "xref": "0x67b8aa",
+          "strings": [
+            {
+              "string": "ALERT: Unscheduled coupler replacement inbound for ",
+              "string_va": "0xbead90",
+              "xref_evidence": "ev_f130ee6fbe980303eeab482f7b92d36ae2f77cd9d9df0c24e3e539a25b5cc6f9"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/67b8aa.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of {*} .",
+      "source": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of {*} .",
+      "translation": "FARCOM_MSG: EX-HEX是好意，但我个人倒想让你留下来，把{*}身上的螺栓都敲下来。",
+      "components": [
+        {
+          "literal": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " ."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6955eb.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6955eb.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6955eb"
+      ],
+      "confidence": "unresolved",
+      "notes": "外层FARCOM_MSG与分支文本来自不同拼接路径，目标动态边界由9b0bb0/9b0bd0涉及。",
+      "xref_sources": [
+        {
+          "xref": "0x6955eb",
+          "strings": [
+            {
+              "string": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of ",
+              "string_va": "0xbec348",
+              "xref_evidence": "ev_a73ef95bfbdda4f161c81336a10d76683cd1f4060dc57278d99d8d75354e9032"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6955eb.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} reconstitutes self from the rubble and scrap.",
+      "source": "{*} reconstitutes self from the rubble and scrap.",
+      "translation": "{*}从瓦砾与废料中重组自身。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " reconstitutes self from the rubble and scrap."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/69b44a.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/69b44a.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ceaa0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x69b44a"
+      ],
+      "confidence": "high",
+      "notes": "名称和字面后缀直接由9ce8f0拼接。",
+      "xref_sources": [
+        {
+          "xref": "0x69b44a",
+          "strings": [
+            {
+              "string": " reconstitutes self from the rubble and scrap.",
+              "string_va": "0xbec838",
+              "xref_evidence": "ev_b7f937084d8afe2b463cac291b19a737252c5d1ce949f42b67c8f67ea60f6ecb"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/69b44a.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} reconstitutes true form from the rubble and scrap.",
+      "source": "{*} reconstitutes true form from the rubble and scrap.",
+      "translation": "{*}从瓦砾与废料中重组成真正形态。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " reconstitutes true form from the rubble and scrap."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/69b874.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/69b874.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x69b874"
+      ],
+      "confidence": "high",
+      "notes": "名称和字面后缀直接由9ce8f0拼接。",
+      "xref_sources": [
+        {
+          "xref": "0x69b874",
+          "strings": [
+            {
+              "string": " reconstitutes true form from the rubble and scrap.",
+              "string_va": "0xbec8a0",
+              "xref_evidence": "ev_186c3ce856f9502ca865b46dae943a6a56f466f149a0962eb73375e49245b05c"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/69b874.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} form shifts and reconstitutes itself, revealing true form.",
+      "source": "{*} form shifts and reconstitutes itself, revealing true form.",
+      "translation": "{*}形态变换并重新组合，显露出真正形态。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " form shifts and reconstitutes itself, revealing true form."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/69b8ce.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/69b8ce.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x69b8ce"
+      ],
+      "confidence": "high",
+      "notes": "动态名称前置于可见后缀。",
+      "xref_sources": [
+        {
+          "xref": "0x69b8ce",
+          "strings": [
+            {
+              "string": " form shifts and reconstitutes itself, revealing true form.",
+              "string_va": "0xbec8d4",
+              "xref_evidence": "ev_8496fb520657eed7f6cb875511fedc15aa0bfcdf162f1a657bbfa38bb141d355"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/69b8ce.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} bursts from the wall.",
+      "source": "{*} bursts from the wall.",
+      "translation": "{*}破墙而出。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " bursts from the wall."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/69bbef.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/69bbef.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x69bbef"
+      ],
+      "confidence": "high",
+      "notes": "动态实体加字面尾句。",
+      "xref_sources": [
+        {
+          "xref": "0x69bbef",
+          "strings": [
+            {
+              "string": " bursts from the wall.",
+              "string_va": "0xbec910",
+              "xref_evidence": "ev_1af57d00c1f3066272128d383bf495a15391538a805b72f7054b77240fdaf11d"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/69bbef.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} shrinks and is drawn into a quantum tunnel.",
+      "source": "{*} shrinks and is drawn into a quantum tunnel.",
+      "translation": "{*}缩小后被吸入量子隧道。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " shrinks and is drawn into a quantum tunnel."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/69c08b.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/69c08b.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b08d0",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x69c08b"
+      ],
+      "confidence": "high",
+      "notes": "动态对象名与字面后缀拼接。",
+      "xref_sources": [
+        {
+          "xref": "0x69c08b",
+          "strings": [
+            {
+              "string": " shrinks and is drawn into a quantum tunnel.",
+              "string_va": "0xbec928",
+              "xref_evidence": "ev_d752897c2566925985f821c1394a23205e150e2112e0f45357a9a7e787e8e8b2"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/69c08b.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "{*} resistance returns to normal.",
+      "source": "{*} resistance returns to normal.",
+      "translation": "{*}抗性恢复正常。",
+      "components": [
+        {
+          "capture": "{*}",
+          "source": "动态格式化值；对应的调用数据流见assembly_lines/calls。"
+        },
+        {
+          "literal": " resistance returns to normal."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a1648.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a1648.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x6a1648"
+      ],
+      "confidence": "high",
+      "notes": "9ceaa0把动态属性名与完整字面后缀拼接。",
+      "xref_sources": [
+        {
+          "xref": "0x6a1648",
+          "strings": [
+            {
+              "string": " resistance returns to normal.",
+              "string_va": "0xbecbe8",
+              "xref_evidence": "ev_9791732ba084d8a5791192654143fac9ae193866143a41e1644fbc1255852f70"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a1648.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "Weapon slot count returns to normal (-{*}).",
+      "source": "Weapon slot count returns to normal (-{*}).",
+      "translation": "武器槽数量恢复正常（-{*}）。",
+      "components": [
+        {
+          "literal": "Weapon slot count returns to normal (-"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": ")."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a2396.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a2396.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a2396"
+      ],
+      "confidence": "high",
+      "notes": "数值与括号后缀由9ce830/9ce8f0构成。",
+      "xref_sources": [
+        {
+          "xref": "0x6a2396",
+          "strings": [
+            {
+              "string": "Weapon slot count returns to normal (-",
+              "string_va": "0xbeccec",
+              "xref_evidence": "ev_907b736c03d63966caf531cadcb0becf6590583a75e520272851eb78f68aebde"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a2396.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 twists and redirects some latent energy in your direction (+{*} energy).",
+      "source": "X0-1V1 twists and redirects some latent energy in your direction (+{*} energy).",
+      "translation": "X0-1V1扭转并引导部分潜在能量流向你（+{*}能量）。",
+      "components": [
+        {
+          "literal": "X0-1V1 twists and redirects some latent energy in your direction (+"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " energy)."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a4377.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a4377.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a4377"
+      ],
+      "confidence": "high",
+      "notes": "已核实helper按字面前缀、格式化值、后缀顺序构造。",
+      "xref_sources": [
+        {
+          "xref": "0x6a4377",
+          "strings": [
+            {
+              "string": "X0-1V1 twists and redirects some latent energy in your direction (+",
+              "string_va": "0xbecee8",
+              "xref_evidence": "ev_5026b2902297afa7302e506b78476a24b3d801c9b3e21026dbc6eeb882973bca"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a4377.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"Don't spend it all in one place.\" (+{*} energy generation)",
+      "source": "X0-1V1: \"Don't spend it all in one place.\" (+{*} energy generation)",
+      "translation": "X0-1V1：“别把能量都花在一个地方。”（+{*}能量生成）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"Don't spend it all in one place.\" (+"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " energy generation)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a4505.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a4505.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a4505"
+      ],
+      "confidence": "high",
+      "notes": "括号内动态值处于固定引号对白与后缀之间。",
+      "xref_sources": [
+        {
+          "xref": "0x6a4505",
+          "strings": [
+            {
+              "string": "X0-1V1: \"Don't spend it all in one place.\" (+",
+              "string_va": "0xbecf40",
+              "xref_evidence": "ev_4904fdfabcf04af254a953dd5c5da23f831b0390eb85abf2467d2845b484344d"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a4505.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 connects you with a stream of twisted latent energy (+{*} energy generation).",
+      "source": "X0-1V1 connects you with a stream of twisted latent energy (+{*} energy generation).",
+      "translation": "X0-1V1为你接入一股扭曲的潜在能量流（+{*}能量生成）。",
+      "components": [
+        {
+          "literal": "X0-1V1 connects you with a stream of twisted latent energy (+"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " energy generation)."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a463d.asm",
+        "build/rea/fragment-windows/6a4667.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a463d.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/6a4667.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b0b70",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a463d",
+        "0x6a4667"
+      ],
+      "confidence": "high",
+      "notes": "包括跨两处引用的完整提示；追加短语与句点均在汇编可见。",
+      "xref_sources": [
+        {
+          "xref": "0x6a463d",
+          "strings": [
+            {
+              "string": "X0-1V1 connects you with a stream of twisted latent energy (+",
+              "string_va": "0xbecf88",
+              "xref_evidence": "ev_084958283aa06c01cfaef3c7829dc14ebf8e1bbbcca2e3c0bc5913495a8a2b71"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a463d.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x6a4667",
+          "strings": [
+            {
+              "string": " energy generation).",
+              "string_va": "0xbecf70",
+              "xref_evidence": "ev_2188198d41d2a7bcc2665d89dc8c6389b94b8420ca9e58e8a5ccdaae2af07a2b"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a4667.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 injects you with a stream of matter (+{*}).",
+      "source": "X0-1V1 injects you with a stream of matter (+{*}).",
+      "translation": "X0-1V1向你注入一股物质流（+{*}）。",
+      "components": [
+        {
+          "literal": "X0-1V1 injects you with a stream of matter (+"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": ")."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a47db.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a47db.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a47db"
+      ],
+      "confidence": "high",
+      "notes": "完整前后缀在同一构造链中可见。",
+      "xref_sources": [
+        {
+          "xref": "0x6a47db",
+          "strings": [
+            {
+              "string": "X0-1V1 injects you with a stream of matter (+",
+              "string_va": "0xbecff8",
+              "xref_evidence": "ev_2d2339cdfb2ead1adc601e8ce0e9f5e86ab171f2d628ff79c6b6c782daf4cbd4"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a47db.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 sucks the heat right out of you (-{*} heat).",
+      "source": "X0-1V1 sucks the heat right out of you (-{*} heat).",
+      "translation": "X0-1V1直接从你身上抽走热量（-{*}热量）。",
+      "components": [
+        {
+          "literal": "X0-1V1 sucks the heat right out of you (-"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " heat)."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a4c44.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a4c44.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a4c44"
+      ],
+      "confidence": "high",
+      "notes": "完整前后缀在同一构造链中可见。",
+      "xref_sources": [
+        {
+          "xref": "0x6a4c44",
+          "strings": [
+            {
+              "string": "X0-1V1 sucks the heat right out of you (-",
+              "string_va": "0xbed088",
+              "xref_evidence": "ev_4577af9610d0f1306d3e85b47977e3b505917066487566b926d8fc77335225a3"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a4c44.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" ({*} heat dissipation)",
+      "source": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" ({*} heat dissipation)",
+      "translation": "X0-1V1：“散热器库存告急。别问我怎么知道的。”（{*}散热）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " heat dissipation)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a4de6.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a4de6.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a4de6"
+      ],
+      "confidence": "high",
+      "notes": "百分比/数值由运行时值提供，前后缀字面完整。",
+      "xref_sources": [
+        {
+          "xref": "0x6a4de6",
+          "strings": [
+            {
+              "string": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" (",
+              "string_va": "0xbed0c8",
+              "xref_evidence": "ev_6db4b65daa17ad3be7db9e1f71c94ea316b3a857f3a1fbe2d4aa54fac6b7d7ce"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a4de6.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 thinks you're pretty cool, for now ({*} heat dissipation).",
+      "source": "X0-1V1 thinks you're pretty cool, for now ({*} heat dissipation).",
+      "translation": "X0-1V1觉得你目前还挺酷（{*}散热）。",
+      "components": [
+        {
+          "literal": "X0-1V1 thinks you're pretty cool, for now ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " heat dissipation)."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a4f1e.asm",
+        "build/rea/fragment-windows/6a4f48.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a4f1e.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/6a4f48.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b0b70",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a4f1e",
+        "0x6a4f48"
+      ],
+      "confidence": "high",
+      "notes": "完整提示跨前后缀两次引用。",
+      "xref_sources": [
+        {
+          "xref": "0x6a4f1e",
+          "strings": [
+            {
+              "string": "X0-1V1 thinks you're pretty cool, for now (",
+              "string_va": "0xbed11c",
+              "xref_evidence": "ev_e1117e5c60f311b76c8c24048956d4beb8092accacec06a7f3058f823288bc33"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a4f1e.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x6a4f48",
+          "strings": [
+            {
+              "string": " heat dissipation).",
+              "string_va": "0xbed108",
+              "xref_evidence": "ev_1f274ef4e792c4717dd704d6f7cfff8c0c3f9ea78b797ff0584e6a8e8e377f65"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a4f48.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"A slightly more accurate toy is still a toy.\" ({*}% ranged accuracy)",
+      "source": "X0-1V1: \"A slightly more accurate toy is still a toy.\" ({*}% ranged accuracy)",
+      "translation": "X0-1V1：“玩具再精准也还是玩具。”（{*}%远程命中率）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"A slightly more accurate toy is still a toy.\" ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": "% ranged accuracy)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a52d2.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a52d2.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a52d2"
+      ],
+      "confidence": "high",
+      "notes": "动态百分比置于完整引号对白后的括号中。",
+      "xref_sources": [
+        {
+          "xref": "0x6a52d2",
+          "strings": [
+            {
+              "string": "X0-1V1: \"A slightly more accurate toy is still a toy.\" (",
+              "string_va": "0xbed208",
+              "xref_evidence": "ev_a30c78d1852b226a9bb22563714c3d2d707597bcee68c342d28e1792ac445609"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a52d2.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area ({*}% melee accuracy).",
+      "source": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area ({*}% melee accuracy).",
+      "translation": "X0-1V1迫不及待地等你与区域内每个目标近身交锋（{*}%近战命中率）。",
+      "components": [
+        {
+          "literal": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": "% melee accuracy)."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a54a3.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a54a3.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a54a3"
+      ],
+      "confidence": "high",
+      "notes": "动态百分比后接可见单位/句点。",
+      "xref_sources": [
+        {
+          "xref": "0x6a54a3",
+          "strings": [
+            {
+              "string": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area (",
+              "string_va": "0xbed258",
+              "xref_evidence": "ev_ec45f76ec71f11442ddef2430dd511ecbf035f89c4797baac628d9ef4997b0c8"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a54a3.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"A slightly more accurate toy is still a toy.\" ({*}% melee accuracy)",
+      "source": "X0-1V1: \"A slightly more accurate toy is still a toy.\" ({*}% melee accuracy)",
+      "translation": "X0-1V1：“玩具再精准也还是玩具。”（{*}%近战命中率）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"A slightly more accurate toy is still a toy.\" ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": "% melee accuracy)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a55db.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a55db.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a55db"
+      ],
+      "confidence": "high",
+      "notes": "动态百分比后接完整可见单位。",
+      "xref_sources": [
+        {
+          "xref": "0x6a55db",
+          "strings": [
+            {
+              "string": "X0-1V1: \"A slightly more accurate toy is still a toy.\" (",
+              "string_va": "0xbed2cc",
+              "xref_evidence": "ev_a6ae5770d1f6ef7f81b146c01d296e56034971a99c70ec3cc964f9392f69cb2c"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a55db.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 manipulates the space around you (+{*}% {*} resistance).",
+      "source": "X0-1V1 manipulates the space around you (+{*}% {*} resistance).",
+      "translation": "X0-1V1操纵你周围的空间（+{*}%{*}抗性）。",
+      "components": [
+        {
+          "literal": "X0-1V1 manipulates the space around you (+"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": "% "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " resistance)."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a5948.asm",
+        "build/rea/fragment-windows/6a5b32.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a5948.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/6a5b32.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x6a5948",
+        "0x6a5b32"
+      ],
+      "confidence": "high",
+      "notes": "完整说明由可见前缀、数值/属性名及后缀组成。",
+      "xref_sources": [
+        {
+          "xref": "0x6a5948",
+          "strings": [
+            {
+              "string": "X0-1V1 manipulates the space around you (+",
+              "string_va": "0xbed31c",
+              "xref_evidence": "ev_58190f94122a6ca6ee4bb192182cec175633a2b9025eed3f8d2d00756a5f5ece"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a5948.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x6a5b32",
+          "strings": [
+            {
+              "string": "X0-1V1 manipulates the space around you (+",
+              "string_va": "0xbed35c",
+              "xref_evidence": "ev_e6b011cda2461e4277027bcbbc940473dcbe0d32d75b51c7ef774a06d698bb64"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a5b32.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"See? It buffs right out!\" (+{*} core integrity)",
+      "source": "X0-1V1: \"See? It buffs right out!\" (+{*} core integrity)",
+      "translation": "X0-1V1：“看吧？一下就修好了！”（+{*}核心耐久）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"See? It buffs right out!\" (+"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " core integrity)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a5dba.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a5dba.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a5dba"
+      ],
+      "confidence": "high",
+      "notes": "完整引号与动态耐久数值的后缀均可见。",
+      "xref_sources": [
+        {
+          "xref": "0x6a5dba",
+          "strings": [
+            {
+              "string": "X0-1V1: \"See? It buffs right out!\" (+",
+              "string_va": "0xbed39c",
+              "xref_evidence": "ev_e96ae1f46c04bcfe0aa9e0c77c47ea36cc945938d962b47da2e5e6130ae7088a"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a5dba.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 ensures you are ready for glorious battle (+{*}).",
+      "source": "X0-1V1 ensures you are ready for glorious battle (+{*}).",
+      "translation": "X0-1V1确保你已准备好迎接光荣战斗（+{*}）。",
+      "components": [
+        {
+          "literal": "X0-1V1 ensures you are ready for glorious battle (+"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": ")."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a71be.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a71be.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a71be"
+      ],
+      "confidence": "high",
+      "notes": "单一动态值位于完整前后缀之间。",
+      "xref_sources": [
+        {
+          "xref": "0x6a71be",
+          "strings": [
+            {
+              "string": "X0-1V1 ensures you are ready for glorious battle (+",
+              "string_va": "0xbed440",
+              "xref_evidence": "ev_7219cf23f9885b385a0a006b064348a92d5a9c95322f33a123a705e30b6e0c24"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a71be.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "A marvel of modern technology appears at your location ({*}).",
+      "source": "A marvel of modern technology appears at your location ({*}).",
+      "translation": "一项现代科技奇迹出现在你的位置（{*}）。",
+      "components": [
+        {
+          "literal": "A marvel of modern technology appears at your location ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": ")."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6a739e.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a739e.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6a739e"
+      ],
+      "confidence": "high",
+      "notes": "括号内动态实体名称和关闭括号均由汇编链可见。",
+      "xref_sources": [
+        {
+          "xref": "0x6a739e",
+          "strings": [
+            {
+              "string": "A marvel of modern technology appears at your location (",
+              "string_va": "0xbed478",
+              "xref_evidence": "ev_1df531c463bbec3b38fe64223b4aee1f17a66a5ae52a9921cbc998a236ce3471"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6a739e.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 lends a hand with your twisted circuits (-{*}% system corruption).",
+      "source": "X0-1V1 lends a hand with your twisted circuits (-{*}% system corruption).",
+      "translation": "X0-1V1帮你修复扭曲的电路（-{*}%系统损坏）。",
+      "components": [
+        {
+          "literal": "X0-1V1 lends a hand with your twisted circuits (-"
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": "% system corruption)."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6aca7f.asm",
+        "build/rea/fragment-windows/6acaa9.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6aca7f.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/6acaa9.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6aca7f",
+        "0x6acaa9"
+      ],
+      "confidence": "high",
+      "notes": "句尾系统损坏单位由相邻字面尾串补全。",
+      "xref_sources": [
+        {
+          "xref": "0x6aca7f",
+          "strings": [
+            {
+              "string": "X0-1V1 lends a hand with your twisted circuits (-",
+              "string_va": "0xbeda70",
+              "xref_evidence": "ev_d93a788bc1f02aee01443853e429d01f14a6af31bdd3241b2d648edf7357c094"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6aca7f.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x6acaa9",
+          "strings": [
+            {
+              "string": " system corruption).",
+              "string_va": "0xbeda58",
+              "xref_evidence": "ev_f5e5df7b7af3d344fda0dac0df42e45a8bd8486785d149e814904fadd0f7d90d"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6acaa9.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"Watch where you're going!\" ({*} sight range)",
+      "source": "X0-1V1: \"Watch where you're going!\" ({*} sight range)",
+      "translation": "X0-1V1：“看着点路！”（{*}视野范围）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"Watch where you're going!\" ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " sight range)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6acdde.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6acdde.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6acdde"
+      ],
+      "confidence": "high",
+      "notes": "数值与完整单位后缀由同一串接链构成。",
+      "xref_sources": [
+        {
+          "xref": "0x6acdde",
+          "strings": [
+            {
+              "string": "X0-1V1: \"Watch where you're going!\" (",
+              "string_va": "0xbedaf4",
+              "xref_evidence": "ev_8f159084d7878db6ea6dd74f3cdf9df516941be3b0d6f5b1f0c3ab7f101a503e"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6acdde.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 makes important surrounding features appear closer to you ({*} sight range).",
+      "source": "X0-1V1 makes important surrounding features appear closer to you ({*} sight range).",
+      "translation": "X0-1V1让周围的重要地形显得更近（{*}视野范围）。",
+      "components": [
+        {
+          "literal": "X0-1V1 makes important surrounding features appear closer to you ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " sight range)."
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6acf16.asm",
+        "build/rea/fragment-windows/6acf40.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6acf16.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/6acf40.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6acf16",
+        "0x6acf40"
+      ],
+      "confidence": "high",
+      "notes": "含相邻引用的完整消息与结束标点。",
+      "xref_sources": [
+        {
+          "xref": "0x6acf16",
+          "strings": [
+            {
+              "string": "X0-1V1 makes important surrounding features appear closer to you (",
+              "string_va": "0xbedb40",
+              "xref_evidence": "ev_3f8658a3a8331217d41ad96308cfbe047a7c1f303d771d02569d7bb79bf5dd8c"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6acf16.asm",
+          "xref_local_line": 101
+        },
+        {
+          "xref": "0x6acf40",
+          "strings": [
+            {
+              "string": " sight range).",
+              "string_va": "0xbedb1c",
+              "xref_evidence": "ev_e0decd0193980c1bd00117abad9ecb43c02171e89cf42aaccaef241b36164218"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6acf40.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"Let the electrons flow!\" ({*} energy capacity)",
+      "source": "X0-1V1: \"Let the electrons flow!\" ({*} energy capacity)",
+      "translation": "X0-1V1：“让电子流动起来！”（{*}能量容量）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"Let the electrons flow!\" ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " energy capacity)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6ad0a3.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6ad0a3.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6ad0a3"
+      ],
+      "confidence": "high",
+      "notes": "完整引号对白与参数单位后缀均有调用证据。",
+      "xref_sources": [
+        {
+          "xref": "0x6ad0a3",
+          "strings": [
+            {
+              "string": "X0-1V1: \"Let the electrons flow!\" (",
+              "string_va": "0xbedb84",
+              "xref_evidence": "ev_76e1ef01440946543d5799a439fbb72ef92df6e5ef75908aa330dcdbe16d1959"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6ad0a3.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1 causes your matter storage to temporarily balloon in size. ({*} matter capacity)",
+      "source": "X0-1V1 causes your matter storage to temporarily balloon in size. ({*} matter capacity)",
+      "translation": "X0-1V1让你的物质储量暂时大幅扩容（{*}物质容量）。",
+      "components": [
+        {
+          "literal": "X0-1V1 causes your matter storage to temporarily balloon in size. ("
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " matter capacity)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6ad21c.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6ad21c.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6ad21c"
+      ],
+      "confidence": "high",
+      "notes": "描述句及括号说明两段字面串均可见。",
+      "xref_sources": [
+        {
+          "xref": "0x6ad21c",
+          "strings": [
+            {
+              "string": "X0-1V1 causes your matter storage to temporarily balloon in size. (",
+              "string_va": "0xbedbd0",
+              "xref_evidence": "ev_1e8a8abc98f2afa6b05a7c0b32515496931728df1957bdbb53deefa95641e682"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6ad21c.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent {*} core integrity, {*}% ranged accuracy)",
+      "source": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent {*} core integrity, {*}% ranged accuracy)",
+      "translation": "X0-1V1：“有尊严的神明都会索取应得的代价。”（永久提高{*}核心耐久、{*}%远程命中率）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " core integrity, "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": "% ranged accuracy)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6ad875.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6ad875.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6ad875"
+      ],
+      "confidence": "high",
+      "notes": "两项动态数值分别由两个串接支路添加到可见标签。",
+      "xref_sources": [
+        {
+          "xref": "0x6ad875",
+          "strings": [
+            {
+              "string": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent ",
+              "string_va": "0xbedc28",
+              "xref_evidence": "ev_6c7a3505e193aff1d594e13f913cf1872689bd1de500d29b607a97ca199ad0bb"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6ad875.asm",
+          "xref_local_line": 101
+        }
+      ]
+    },
+    {
+      "raw_template": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 {*} slot)",
+      "source": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 {*} slot)",
+      "translation": "X0-1V1：“玩 roguelike 教会我一件事：肢体越多越好玩。”（永久+1个{*}槽）",
+      "components": [
+        {
+          "literal": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 "
+        },
+        {
+          "capture": "{*}",
+          "source": "调用点附近的动态格式化/名称参数；详见assembly_lines与calls。"
+        },
+        {
+          "literal": " slot)"
+        }
+      ],
+      "assembly_file": [
+        "build/rea/fragment-windows/6af080.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6af080.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x6af080"
+      ],
+      "confidence": "high",
+      "notes": "保留+1；动态部件槽名称和静态slot后缀可见。",
+      "xref_sources": [
+        {
+          "xref": "0x6af080",
+          "strings": [
+            {
+              "string": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 ",
+              "string_va": "0xbede80",
+              "xref_evidence": "ev_a957fb7622569a46e5b28f0196fce47caf3985e6b378257640b22b7f05189015"
+            }
+          ],
+          "assembly_file": "build/rea/fragment-windows/6af080.asm",
+          "xref_local_line": 101
+        }
+      ]
+    }
+  ]
+}

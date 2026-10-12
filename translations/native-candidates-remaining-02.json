@@ -1,0 +1,3447 @@
+{
+  "source": "translations/native-worklists/remaining_02.json",
+  "description": "逐xref审计：仅在字面/捕获组成可从指定xref直接证明时重建模板；sink证据独立记录。diagnostic_only 条目会明确标注不进入玩家译表。",
+  "entries": [
+    {
+      "raw_template": "{*} reconstitutes self from the rubble and scrap.",
+      "source": "{*} reconstitutes self from the rubble and scrap.",
+      "translation": "{*}从瓦砾与废料中重组自身。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " reconstitutes self from the rubble and scrap.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/69b44a.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/69b44a.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ceaa0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x69b44a"
+      ],
+      "covers_string_vas": [
+        "0xbec838"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x69b44a",
+          "sink": {
+            "address": "0x49c9f0",
+            "line": 213,
+            "instruction": "69b63f: e8 ac 13 e0 ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9b7f10",
+              "line": 104,
+              "instruction": "69b45b: e8 b0 ca 31 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x417090",
+              "line": 106,
+              "instruction": "69b462: e8 29 bc d7 ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+            },
+            {
+              "address": "0x9ceaa0",
+              "line": 110,
+              "instruction": "69b46c: e8 2f 36 33 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+            },
+            {
+              "address": "0x9ceaa0",
+              "line": 127,
+              "instruction": "69b4ba: e8 e1 35 33 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 138,
+              "instruction": "69b4f6: e8 15 ca 31 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x417090",
+              "line": 140,
+              "instruction": "69b4fd: e8 8e bb d7 ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+            },
+            {
+              "address": "0x9ceb60",
+              "line": 146,
+              "instruction": "69b50e: e8 4d 36 33 00               \tcall\t0x9ceb60 <PHYSFSRWOPS_openAppend+0x5cb0d0>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 160,
+              "instruction": "69b54e: e8 9d 33 33 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0a70",
+              "line": 176,
+              "instruction": "69b5a3: e8 c8 54 31 00               \tcall\t0x9b0a70 <PHYSFSRWOPS_openAppend+0x5acfe0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 183,
+              "instruction": "69b5c4: e8 67 55 31 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 190,
+              "instruction": "69b5e2: e8 49 55 31 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 197,
+              "instruction": "69b600: e8 2b 55 31 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 204,
+              "instruction": "69b61e: e8 0d 55 31 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x407290",
+              "line": 209,
+              "instruction": "69b632: e8 59 bc d6 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x49c9f0",
+              "line": 213,
+              "instruction": "69b63f: e8 ac 13 e0 ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x69b44a",
+          "string_va": "0xbec838",
+          "raw": " reconstitutes self from the rubble and scrap.",
+          "xref_evidence": "ev_b7f937084d8afe2b463cac291b19a737252c5d1ce949f42b67c8f67ea60f6ecb",
+          "assembly_file": "build/rea/fragment-windows/69b44a.asm",
+          "line": 101
+        }
+      ],
+      "notes": "名称和字面后缀直接由9ce8f0拼接。"
+    },
+    {
+      "raw_template": "{*} reconstitutes true form from the rubble and scrap.",
+      "source": "{*} reconstitutes true form from the rubble and scrap.",
+      "translation": "{*}从瓦砾与废料中重组成真正形态。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " reconstitutes true form from the rubble and scrap.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/69b874.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/69b874.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x417090",
+        "0x9b7f10",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x69b874"
+      ],
+      "covers_string_vas": [
+        "0xbec8a0"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x69b874",
+          "sink": {
+            "address": "0x49c9f0",
+            "line": 166,
+            "instruction": "69b990: e8 5b 10 e0 ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9b7f10",
+              "line": 104,
+              "instruction": "69b882: e8 89 c6 31 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x417090",
+              "line": 106,
+              "instruction": "69b889: e8 02 b8 d7 ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+            },
+            {
+              "address": "0x9ceaa0",
+              "line": 110,
+              "instruction": "69b893: e8 08 32 33 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+            },
+            {
+              "address": "0x9ceaa0",
+              "line": 127,
+              "instruction": "69b8db: e8 c0 31 33 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+            },
+            {
+              "address": "0x9b0a70",
+              "line": 143,
+              "instruction": "69b930: e8 3b 51 31 00               \tcall\t0x9b0a70 <PHYSFSRWOPS_openAppend+0x5acfe0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 150,
+              "instruction": "69b951: e8 da 51 31 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 157,
+              "instruction": "69b96f: e8 bc 51 31 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x407290",
+              "line": 162,
+              "instruction": "69b983: e8 08 b9 d6 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x49c9f0",
+              "line": 166,
+              "instruction": "69b990: e8 5b 10 e0 ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x69b874",
+          "string_va": "0xbec8a0",
+          "raw": " reconstitutes true form from the rubble and scrap.",
+          "xref_evidence": "ev_186c3ce856f9502ca865b46dae943a6a56f466f149a0962eb73375e49245b05c",
+          "assembly_file": "build/rea/fragment-windows/69b874.asm",
+          "line": 101
+        }
+      ],
+      "notes": "名称和字面后缀直接由9ce8f0拼接。"
+    },
+    {
+      "raw_template": "X0-1V1 manipulates the space around you (+{*}% {*} resistance).",
+      "source": "X0-1V1 manipulates the space around you (+{*}% {*} resistance).",
+      "translation": "X0-1V1操纵你周围的空间（+{*}%{*}抗性）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 manipulates the space around you (+",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "0xbed31c prefix + formatted value + 0xbed318 “% ” + indexed resistance name + 0xbed308 suffix; appended to [ebp-0x2a4c], then common sink 0x5122d0 at 0x6bd978."
+        },
+        {
+          "type": "literal",
+          "text": "% ",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "0xbed31c prefix + formatted value + 0xbed318 “% ” + indexed resistance name + 0xbed308 suffix; appended to [ebp-0x2a4c], then common sink 0x5122d0 at 0x6bd978."
+        },
+        {
+          "type": "literal",
+          "text": " resistance).",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6a5948.asm",
+        "build/rea/fragment-windows/6a5b32.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6a5948.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/6a5b32.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x6a5948",
+        "0x6a5b32"
+      ],
+      "covers_string_vas": [
+        "0xbed31c",
+        "0xbed35c"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "common_player_display_sink",
+          "xref": "0x6a5948",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 792526,
+            "instruction": "6bd978: call 0x5122d0"
+          },
+          "reason": "该函数将描述追加到[ebp-0x2a4c]，经0x6bd8d2共用路径送入0x5122d0。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6a5948",
+          "string_va": "0xbed31c",
+          "raw": "X0-1V1 manipulates the space around you (+",
+          "xref_evidence": "ev_58190f94122a6ca6ee4bb192182cec175633a2b9025eed3f8d2d00756a5f5ece",
+          "assembly_file": "build/rea/fragment-windows/6a5948.asm",
+          "line": 101
+        },
+        {
+          "xref": "0x6a5b32",
+          "string_va": "0xbed35c",
+          "raw": "X0-1V1 manipulates the space around you (+",
+          "xref_evidence": "ev_e6b011cda2461e4277027bcbbc940473dcbe0d32d75b51c7ef774a06d698bb64",
+          "assembly_file": "build/rea/fragment-windows/6a5b32.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0xbed31c prefix + formatted value + 0xbed318 “% ” + indexed resistance name + 0xbed308 suffix; appended to [ebp-0x2a4c], then common sink 0x5122d0 at 0x6bd978."
+    },
+    {
+      "raw_template": "X0-1V1 lends a hand with your twisted circuits (-{*} system corruption).",
+      "source": "X0-1V1 lends a hand with your twisted circuits (-{*} system corruption).",
+      "translation": "X0-1V1帮你修复扭曲的电路（系统损坏-{*}）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 lends a hand with your twisted circuits (-",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "405350格式化的整数差值；上游字面量0xbeda58为“ system corruption).”且无百分号"
+        },
+        {
+          "type": "literal",
+          "text": " system corruption).",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6aca7f.asm",
+        "build/rea/fragment-windows/6acaa9.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6aca7f.asm",
+          "line": 101
+        },
+        {
+          "file": "build/rea/fragment-windows/6acaa9.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6aca7f"
+      ],
+      "covers_string_vas": [
+        "0xbeda70"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "unknown",
+      "sink_evidence": [
+        {
+          "kind": "xref_call_trace_no_player_sink",
+          "xref": "0x6aca7f",
+          "sink": null,
+          "observed_calls": [
+            {
+              "address": "0x9ce7b0",
+              "line": 104,
+              "instruction": "6aca8b: e8 20 1d 32 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 115,
+              "instruction": "6acabc: e8 2f 1e 32 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 124,
+              "instruction": "6acae7: e8 14 40 30 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 127,
+              "instruction": "6acaf6: e8 35 40 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 130,
+              "instruction": "6acb05: e8 26 40 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 133,
+              "instruction": "6acb14: e8 17 40 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x6bec70",
+              "line": 139,
+              "instruction": "6acb2a: e8 41 21 01 00               \tcall\t0x6bec70 <PHYSFSRWOPS_openAppend+0x2bb1e0>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 149,
+              "instruction": "6acb66: e8 a5 b3 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x45ae10",
+              "line": 151,
+              "instruction": "6acb6d: e8 9e e2 da ff               \tcall\t0x45ae10 <PHYSFSRWOPS_openAppend+0x57380>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 153,
+              "instruction": "6acb74: e8 a7 ed 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 159,
+              "instruction": "6acb8e: e8 7d b3 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x45ae10",
+              "line": 161,
+              "instruction": "6acb95: e8 76 e2 da ff               \tcall\t0x45ae10 <PHYSFSRWOPS_openAppend+0x57380>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 163,
+              "instruction": "6acb9c: e8 8f be 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b7f50",
+              "line": 165,
+              "instruction": "6acba3: e8 a8 b3 30 00               \tcall\t0x9b7f50 <PHYSFSRWOPS_openAppend+0x5b44c0>"
+            },
+            {
+              "address": "0x44a930",
+              "line": 167,
+              "instruction": "6acbaa: e8 81 dd d9 ff               \tcall\t0x44a930 <PHYSFSRWOPS_openAppend+0x46ea0>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 173,
+              "instruction": "6acbc0: e8 4b b3 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x45ae10",
+              "line": 175,
+              "instruction": "6acbc7: e8 44 e2 da ff               \tcall\t0x45ae10 <PHYSFSRWOPS_openAppend+0x57380>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 177,
+              "instruction": "6acbce: e8 5d be 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b7f50",
+              "line": 179,
+              "instruction": "6acbd5: e8 76 b3 30 00               \tcall\t0x9b7f50 <PHYSFSRWOPS_openAppend+0x5b44c0>"
+            },
+            {
+              "address": "0x458680",
+              "line": 181,
+              "instruction": "6acbdc: e8 9f ba da ff               \tcall\t0x458680 <PHYSFSRWOPS_openAppend+0x54bf0>"
+            },
+            {
+              "address": "0x407290",
+              "line": 189,
+              "instruction": "6acc08: e8 83 a6 d5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x8a4250",
+              "line": 194,
+              "instruction": "6acc18: e8 33 76 1f 00               \tcall\t0x8a4250 <PHYSFSRWOPS_openAppend+0x4a07c0>"
+            },
+            {
+              "address": "0x405350",
+              "line": 199,
+              "instruction": "6acc2b: e8 20 87 d5 ff               \tcall\t0x405350 <PHYSFSRWOPS_openAppend+0x18c0>"
+            },
+            {
+              "address": "0x9ce7b0",
+              "line": 210,
+              "instruction": "6acc5c: e8 4f 1b 32 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 221,
+              "instruction": "6acc8d: e8 5e 1c 32 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 230,
+              "instruction": "6accb8: e8 43 3e 30 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 233,
+              "instruction": "6accc7: e8 64 3e 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 236,
+              "instruction": "6accd6: e8 55 3e 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 239,
+              "instruction": "6acce5: e8 46 3e 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x6bec70",
+              "line": 245,
+              "instruction": "6accfb: e8 70 1f 01 00               \tcall\t0x6bec70 <PHYSFSRWOPS_openAppend+0x2bb1e0>"
+            },
+            {
+              "address": "0x406e20",
+              "line": 254,
+              "instruction": "6acd2b: e8 f0 a0 d5 ff               \tcall\t0x406e20 <PHYSFSRWOPS_openAppend+0x3390>"
+            },
+            {
+              "address": "0x406f00",
+              "line": 266,
+              "instruction": "6acd5e: e8 9d a1 d5 ff               \tcall\t0x406f00 <PHYSFSRWOPS_openAppend+0x3470>"
+            },
+            {
+              "address": "0x406f00",
+              "line": 276,
+              "instruction": "6acd88: e8 73 a1 d5 ff               \tcall\t0x406f00 <PHYSFSRWOPS_openAppend+0x3470>"
+            },
+            {
+              "address": "0x4056f0",
+              "line": 286,
+              "instruction": "6acdb9: e8 32 89 d5 ff               \tcall\t0x4056f0 <PHYSFSRWOPS_openAppend+0x1c60>"
+            },
+            {
+              "address": "0x9ce7b0",
+              "line": 297,
+              "instruction": "6acdea: e8 c1 19 32 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 308,
+              "instruction": "6ace1b: e8 d0 1a 32 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 317,
+              "instruction": "6ace46: e8 b5 3c 30 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 320,
+              "instruction": "6ace55: e8 d6 3c 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 323,
+              "instruction": "6ace64: e8 c7 3c 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 326,
+              "instruction": "6ace73: e8 b8 3c 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x406f00",
+              "line": 335,
+              "instruction": "6ace96: e8 65 a0 d5 ff               \tcall\t0x406f00 <PHYSFSRWOPS_openAppend+0x3470>"
+            },
+            {
+              "address": "0x406f00",
+              "line": 345,
+              "instruction": "6acec0: e8 3b a0 d5 ff               \tcall\t0x406f00 <PHYSFSRWOPS_openAppend+0x3470>"
+            },
+            {
+              "address": "0x4056f0",
+              "line": 355,
+              "instruction": "6acef1: e8 fa 87 d5 ff               \tcall\t0x4056f0 <PHYSFSRWOPS_openAppend+0x1c60>"
+            },
+            {
+              "address": "0x9ce7b0",
+              "line": 366,
+              "instruction": "6acf22: e8 89 18 32 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 377,
+              "instruction": "6acf53: e8 98 19 32 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 386,
+              "instruction": "6acf7e: e8 7d 3b 30 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 389,
+              "instruction": "6acf8d: e8 9e 3b 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 392,
+              "instruction": "6acf9c: e8 8f 3b 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 395,
+              "instruction": "6acfab: e8 80 3b 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            }
+          ],
+          "reason": "审计所列调用链未建立到已知玩家显示 sink；保留原始调用观察，不把它误记为 sink。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6aca7f",
+          "string_va": "0xbeda70",
+          "raw": "X0-1V1 lends a hand with your twisted circuits (-",
+          "xref_evidence": "ev_d93a788bc1f02aee01443853e429d01f14a6af31bdd3241b2d648edf7357c094",
+          "assembly_file": "build/rea/fragment-windows/6aca7f.asm",
+          "line": 101
+        }
+      ],
+      "notes": "按原EXE与父审阅核实：该整数差值后无百分号，0xbeda58 精确字面量为“ system corruption).”。"
+    },
+    {
+      "raw_template": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent {*} core integrity, {*}% ranged accuracy)",
+      "source": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent {*} core integrity, {*}% ranged accuracy)",
+      "translation": "X0-1V1：“任何有自尊的神明都会拿走应得的一磅血肉。”（核心耐久永久变化{*}，远程命中率变化{*}%）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent ",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": " core integrity, ",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": "% ranged accuracy)",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6ad875.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6ad875.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6ad875"
+      ],
+      "covers_string_vas": [
+        "0xbedc28"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "common_player_display_sink",
+          "xref": "0x6ad875",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 792526,
+            "instruction": "6bd978: call 0x5122d0"
+          },
+          "reason": "该函数将描述追加到[ebp-0x2a4c]，经0x6bd8d2共用路径送入0x5122d0。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6ad875",
+          "string_va": "0xbedc28",
+          "raw": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent ",
+          "xref_evidence": "ev_6c7a3505e193aff1d594e13f913cf1872689bd1de500d29b607a97ca199ad0bb",
+          "assembly_file": "build/rea/fragment-windows/6ad875.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0xbedc28 prefix + formatted core-integrity value + 0xbedbbc “ core integrity, ” + formatted accuracy value + 0xbedc14 suffix; appended to [ebp-0x2a4c], then common sink 0x5122d0 at 0x6bd978. 原文字面量未含加号；保持数值捕获自身的符号，不人为添加+。"
+    },
+    {
+      "raw_template": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 {*} slot)",
+      "source": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 {*} slot)",
+      "translation": "X0-1V1：“如果我从Roguelike中学到了什么，那就是附肢越多越有趣。”（永久+1个{*}槽）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 ",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "0xbede80 prefix + table-derived slot name + 0xbede6c “ slot)”; appended to [ebp-0x2a4c], then common sink 0x5122d0 at 0x6bd978."
+        },
+        {
+          "type": "literal",
+          "text": " slot)",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6af080.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/fragment-windows/6af080.asm",
+          "line": 101
+        }
+      ],
+      "calls": [
+        "0x9b0b00",
+        "0x9b7f10",
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x6af080"
+      ],
+      "covers_string_vas": [
+        "0xbede80"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "common_player_display_sink",
+          "xref": "0x6af080",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 792526,
+            "instruction": "6bd978: call 0x5122d0"
+          },
+          "reason": "该函数将描述追加到[ebp-0x2a4c]，经0x6bd8d2共用路径送入0x5122d0。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6af080",
+          "string_va": "0xbede80",
+          "raw": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 ",
+          "xref_evidence": "ev_a957fb7622569a46e5b28f0196fce47caf3985e6b378257640b22b7f05189015",
+          "assembly_file": "build/rea/fragment-windows/6af080.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0xbede80 prefix + table-derived slot name + 0xbede6c “ slot)”; appended to [ebp-0x2a4c], then common sink 0x5122d0 at 0x6bd978."
+    },
+    {
+      "raw_template": "X0-1V1 smiles upon you. (Received {*})",
+      "source": "X0-1V1 smiles upon you. (Received {*})",
+      "translation": "X0-1V1向你微笑。（获得{*}）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 smiles upon you. (Received ",
+          "origin": "该xref已审核的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": ")",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6b0509.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b0509: 68 e0 df be 00               \tpush\t0xbedfe0 ; TEXT 0xbedfe0=\"X0-1V1 smiles upon you. (Received \""
+        },
+        {
+          "line": 104,
+          "instruction": "6b0515: e8 96 e2 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 113,
+          "instruction": "6b0540: e8 bb 05 30 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+        },
+        {
+          "line": 116,
+          "instruction": "6b054f: e8 dc 05 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x572ea0",
+        "0x9ce7b0",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6b0509"
+      ],
+      "covers_string_vas": [
+        "0xbedfe0"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "unknown",
+      "sink_evidence": [
+        {
+          "kind": "xref_call_trace_no_player_sink",
+          "xref": "0x6b0509",
+          "sink": null,
+          "observed_calls": [
+            {
+              "address": "0x9ce7b0",
+              "line": 104,
+              "instruction": "6b0515: e8 96 e2 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 113,
+              "instruction": "6b0540: e8 bb 05 30 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 116,
+              "instruction": "6b054f: e8 dc 05 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 119,
+              "instruction": "6b055e: e8 cd 05 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 121,
+              "instruction": "6b0569: e8 b2 b3 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 125,
+              "instruction": "6b057d: e8 9e b3 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            },
+            {
+              "address": "0x405350",
+              "line": 129,
+              "instruction": "6b058a: e8 c1 4d d5 ff               \tcall\t0x405350 <PHYSFSRWOPS_openAppend+0x18c0>"
+            },
+            {
+              "address": "0x9ce7b0",
+              "line": 140,
+              "instruction": "6b05bb: e8 f0 e1 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 151,
+              "instruction": "6b05ec: e8 ff e2 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0bb0",
+              "line": 160,
+              "instruction": "6b0617: e8 94 05 30 00               \tcall\t0x9b0bb0 <PHYSFSRWOPS_openAppend+0x5ad120>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 163,
+              "instruction": "6b0626: e8 05 05 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 166,
+              "instruction": "6b0635: e8 f6 04 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 169,
+              "instruction": "6b0644: e8 e7 04 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0bd0",
+              "line": 173,
+              "instruction": "6b0656: e8 75 05 30 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+            },
+            {
+              "address": "0x6bec70",
+              "line": 182,
+              "instruction": "6b0677: e8 f4 e5 00 00               \tcall\t0x6bec70 <PHYSFSRWOPS_openAppend+0x2bb1e0>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 185,
+              "instruction": "6b0684: e8 87 78 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x45a720",
+              "line": 187,
+              "instruction": "6b068b: e8 90 a0 da ff               \tcall\t0x45a720 <PHYSFSRWOPS_openAppend+0x56c90>"
+            },
+            {
+              "address": "0x407290",
+              "line": 190,
+              "instruction": "6b0697: e8 f4 6b d5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x6bec70",
+              "line": 195,
+              "instruction": "6b06a7: e8 c4 e5 00 00               \tcall\t0x6bec70 <PHYSFSRWOPS_openAppend+0x2bb1e0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 199,
+              "instruction": "6b06bd: e8 6e 04 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b9720",
+              "line": 202,
+              "instruction": "6b06cc: e8 4f 90 30 00               \tcall\t0x9b9720 <PHYSFSRWOPS_openAppend+0x5b5c90>"
+            },
+            {
+              "address": "0x689f40",
+              "line": 205,
+              "instruction": "6b06db: e8 60 98 fd ff               \tcall\t0x689f40 <PHYSFSRWOPS_openAppend+0x2864b0>"
+            },
+            {
+              "address": "0x9b6060",
+              "line": 208,
+              "instruction": "6b06ea: e8 71 59 30 00               \tcall\t0x9b6060 <PHYSFSRWOPS_openAppend+0x5b25d0>"
+            },
+            {
+              "address": "0x689f40",
+              "line": 211,
+              "instruction": "6b06fc: e8 3f 98 fd ff               \tcall\t0x689f40 <PHYSFSRWOPS_openAppend+0x2864b0>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 215,
+              "instruction": "6b0711: e8 fa 77 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x5d3690",
+              "line": 217,
+              "instruction": "6b0718: e8 73 2f f2 ff               \tcall\t0x5d3690 <PHYSFSRWOPS_openAppend+0x1cfc00>"
+            },
+            {
+              "address": "0x46f800",
+              "line": 225,
+              "instruction": "6b073a: e8 c1 f0 db ff               \tcall\t0x46f800 <PHYSFSRWOPS_openAppend+0x6bd70>"
+            },
+            {
+              "address": "0x46f800",
+              "line": 229,
+              "instruction": "6b0748: e8 b3 f0 db ff               \tcall\t0x46f800 <PHYSFSRWOPS_openAppend+0x6bd70>"
+            },
+            {
+              "address": "0x461a70",
+              "line": 233,
+              "instruction": "6b0757: e8 14 13 db ff               \tcall\t0x461a70 <PHYSFSRWOPS_openAppend+0x5dfe0>"
+            },
+            {
+              "address": "0x9d1130",
+              "line": 237,
+              "instruction": "6b0765: e8 c6 09 32 00               \tcall\t0x9d1130 <PHYSFSRWOPS_openAppend+0x5cd6a0>"
+            },
+            {
+              "address": "0x9d1130",
+              "line": 242,
+              "instruction": "6b0776: e8 b5 09 32 00               \tcall\t0x9d1130 <PHYSFSRWOPS_openAppend+0x5cd6a0>"
+            },
+            {
+              "address": "0xaa287f",
+              "line": 250,
+              "instruction": "6b0793: e8 e7 20 3f 00               \tcall\t0xaa287f <PHYSFSRWOPS_openAppend+0x69edef>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 258,
+              "instruction": "6b07bf: e8 5c b1 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 264,
+              "instruction": "6b07dc: e8 4f 82 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 272,
+              "instruction": "6b07fe: e8 2d 82 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 279,
+              "instruction": "6b081b: e8 10 82 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x40c310",
+              "line": 284,
+              "instruction": "6b082c: e8 df ba d5 ff               \tcall\t0x40c310 <PHYSFSRWOPS_openAppend+0x8880>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 291,
+              "instruction": "6b0848: e8 e3 81 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 300,
+              "instruction": "6b086d: e8 be 81 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 313,
+              "instruction": "6b089d: e8 8e 81 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 319,
+              "instruction": "6b08b1: e8 7a 81 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9bc730",
+              "line": 324,
+              "instruction": "6b08c5: e8 66 be 30 00               \tcall\t0x9bc730 <PHYSFSRWOPS_openAppend+0x5b8ca0>"
+            },
+            {
+              "address": "0x9b95d0",
+              "line": 336,
+              "instruction": "6b0907: e8 c4 8c 30 00               \tcall\t0x9b95d0 <PHYSFSRWOPS_openAppend+0x5b5b40>"
+            },
+            {
+              "address": "0x9b8580",
+              "line": 344,
+              "instruction": "6b0921: e8 5a 7c 30 00               \tcall\t0x9b8580 <PHYSFSRWOPS_openAppend+0x5b4af0>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 346,
+              "instruction": "6b0928: e8 f3 af 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            },
+            {
+              "address": "0x9b8580",
+              "line": 352,
+              "instruction": "6b093d: e8 3e 7c 30 00               \tcall\t0x9b8580 <PHYSFSRWOPS_openAppend+0x5b4af0>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 354,
+              "instruction": "6b0944: e8 d7 af 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            },
+            {
+              "address": "0x9bc320",
+              "line": 371,
+              "instruction": "6b099d: e8 7e b9 30 00               \tcall\t0x9bc320 <PHYSFSRWOPS_openAppend+0x5b8890>"
+            },
+            {
+              "address": "0x9b8580",
+              "line": 379,
+              "instruction": "6b09bd: e8 be 7b 30 00               \tcall\t0x9b8580 <PHYSFSRWOPS_openAppend+0x5b4af0>"
+            },
+            {
+              "address": "0x9ea880",
+              "line": 381,
+              "instruction": "6b09c4: e8 b7 9e 33 00               \tcall\t0x9ea880 <PHYSFSRWOPS_openAppend+0x5e6df0>"
+            },
+            {
+              "address": "0x9b8580",
+              "line": 385,
+              "instruction": "6b09d5: e8 a6 7b 30 00               \tcall\t0x9b8580 <PHYSFSRWOPS_openAppend+0x5b4af0>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 387,
+              "instruction": "6b09dc: e8 3f af 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            },
+            {
+              "address": "0x9b8580",
+              "line": 395,
+              "instruction": "6b09fe: e8 7d 7b 30 00               \tcall\t0x9b8580 <PHYSFSRWOPS_openAppend+0x5b4af0>"
+            },
+            {
+              "address": "0x9e4150",
+              "line": 397,
+              "instruction": "6b0a04: e8 47 37 33 00               \tcall\t0x9e4150 <PHYSFSRWOPS_openAppend+0x5e06c0>"
+            }
+          ],
+          "reason": "审计所列调用链未建立到已知玩家显示 sink；保留原始调用观察，不把它误记为 sink。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6b0509",
+          "string_va": "0xbedfe0",
+          "raw": "X0-1V1 smiles upon you. (Received ",
+          "xref_evidence": "ev_11f0c8b6e34cb21e664fe9c2a289c809250e610234bee5ac4f72eb5c3615e66d",
+          "assembly_file": "build/rea/fragment-windows/6b0509.asm",
+          "line": 101
+        }
+      ],
+      "notes": "模板前缀、动态物品名、可选数量分支及闭括号均有明确拼接；分支完成后将累积缓冲 [ebp-0x2a4c] 送入 0x5122d0。捕获覆盖物品文字及可选的“ xN”。"
+    },
+    {
+      "raw_template": "X0-1V1: \"I told that {*} to go sit in the corner.\"",
+      "source": "X0-1V1: \"I told that {*} to go sit in the corner.\"",
+      "translation": "X0-1V1：“我让{*}去角落里坐着。”",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"I told that ",
+          "origin": "该xref已审核的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " to go sit in the corner.\"",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6b21f4.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b21f4: 68 94 e2 be 00               \tpush\t0xbee294 ; TEXT 0xbee294=\" to go sit in the corner.\\\"\""
+        },
+        {
+          "line": 106,
+          "instruction": "6b2207: e8 e4 c6 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "6b2232: e8 c9 e8 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+        },
+        {
+          "line": 118,
+          "instruction": "6b2241: e8 ea e8 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6b21f4"
+      ],
+      "covers_string_vas": [
+        "0xbee294"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "unknown",
+      "sink_evidence": [
+        {
+          "kind": "xref_call_trace_no_player_sink",
+          "xref": "0x6b21f4",
+          "sink": null,
+          "observed_calls": [
+            {
+              "address": "0x9ce8f0",
+              "line": 106,
+              "instruction": "6b2207: e8 e4 c6 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 115,
+              "instruction": "6b2232: e8 c9 e8 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 118,
+              "instruction": "6b2241: e8 ea e8 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 121,
+              "instruction": "6b2253: e8 d8 e8 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9baec0",
+              "line": 125,
+              "instruction": "6b226a: e8 51 8c 30 00               \tcall\t0x9baec0 <PHYSFSRWOPS_openAppend+0x5b7430>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 133,
+              "instruction": "6b2296: e8 85 96 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 140,
+              "instruction": "6b22b5: e8 76 67 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9e4b10",
+              "line": 145,
+              "instruction": "6b22c1: e8 4a 28 33 00               \tcall\t0x9e4b10 <PHYSFSRWOPS_openAppend+0x5e1080>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 153,
+              "instruction": "6b22dc: e8 4f 67 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x45eb50",
+              "line": 155,
+              "instruction": "6b22e3: e8 68 c8 da ff               \tcall\t0x45eb50 <PHYSFSRWOPS_openAppend+0x5b0c0>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 164,
+              "instruction": "6b2302: e8 29 67 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 167,
+              "instruction": "6b230c: e8 ff 5b 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x45b840",
+              "line": 169,
+              "instruction": "6b2313: e8 28 95 da ff               \tcall\t0x45b840 <PHYSFSRWOPS_openAppend+0x57db0>"
+            },
+            {
+              "address": "0x4591d0",
+              "line": 171,
+              "instruction": "6b231a: e8 b1 6e da ff               \tcall\t0x4591d0 <PHYSFSRWOPS_openAppend+0x55740>"
+            },
+            {
+              "address": "0x9ea880",
+              "line": 178,
+              "instruction": "6b2333: e8 48 85 33 00               \tcall\t0x9ea880 <PHYSFSRWOPS_openAppend+0x5e6df0>"
+            },
+            {
+              "address": "0x9b93e0",
+              "line": 181,
+              "instruction": "6b2343: e8 98 70 30 00               \tcall\t0x9b93e0 <PHYSFSRWOPS_openAppend+0x5b5950>"
+            },
+            {
+              "address": "0x9b6060",
+              "line": 187,
+              "instruction": "6b235c: e8 ff 3c 30 00               \tcall\t0x9b6060 <PHYSFSRWOPS_openAppend+0x5b25d0>"
+            },
+            {
+              "address": "0x9dd450",
+              "line": 191,
+              "instruction": "6b236d: e8 de b0 32 00               \tcall\t0x9dd450 <PHYSFSRWOPS_openAppend+0x5d99c0>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 195,
+              "instruction": "6b237b: e8 b0 66 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x68dea0",
+              "line": 201,
+              "instruction": "6b2394: e8 07 bb fd ff               \tcall\t0x68dea0 <PHYSFSRWOPS_openAppend+0x28a410>"
+            },
+            {
+              "address": "0x9b0b70",
+              "line": 214,
+              "instruction": "6b23d7: e8 94 e7 2f 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+            },
+            {
+              "address": "0x9b0b70",
+              "line": 218,
+              "instruction": "6b23e9: e8 82 e7 2f 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+            },
+            {
+              "address": "0x9b0b70",
+              "line": 222,
+              "instruction": "6b23fb: e8 70 e7 2f 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+            },
+            {
+              "address": "0x9b0b70",
+              "line": 226,
+              "instruction": "6b240d: e8 5e e7 2f 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+            },
+            {
+              "address": "0x9ce830",
+              "line": 235,
+              "instruction": "6b2430: e8 fb c3 31 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 246,
+              "instruction": "6b2461: e8 8a c4 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0bb0",
+              "line": 255,
+              "instruction": "6b248c: e8 1f e7 2f 00               \tcall\t0x9b0bb0 <PHYSFSRWOPS_openAppend+0x5ad120>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 258,
+              "instruction": "6b249b: e8 90 e6 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 261,
+              "instruction": "6b24aa: e8 81 e6 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b6060",
+              "line": 265,
+              "instruction": "6b24c3: e8 98 3b 30 00               \tcall\t0x9b6060 <PHYSFSRWOPS_openAppend+0x5b25d0>"
+            },
+            {
+              "address": "0x463e90",
+              "line": 268,
+              "instruction": "6b24d3: e8 b8 19 db ff               \tcall\t0x463e90 <PHYSFSRWOPS_openAppend+0x60400>"
+            },
+            {
+              "address": "0x463eb0",
+              "line": 271,
+              "instruction": "6b24e4: e8 c7 19 db ff               \tcall\t0x463eb0 <PHYSFSRWOPS_openAppend+0x60420>"
+            },
+            {
+              "address": "0x407290",
+              "line": 274,
+              "instruction": "6b24f5: e8 96 4d d5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x9bb120",
+              "line": 282,
+              "instruction": "6b2525: e8 f6 8b 30 00               \tcall\t0x9bb120 <PHYSFSRWOPS_openAppend+0x5b7690>"
+            },
+            {
+              "address": "0x9bb140",
+              "line": 288,
+              "instruction": "6b2543: e8 f8 8b 30 00               \tcall\t0x9bb140 <PHYSFSRWOPS_openAppend+0x5b76b0>"
+            },
+            {
+              "address": "0x463560",
+              "line": 291,
+              "instruction": "6b254f: e8 0c 10 db ff               \tcall\t0x463560 <PHYSFSRWOPS_openAppend+0x5fad0>"
+            },
+            {
+              "address": "0x9bb140",
+              "line": 300,
+              "instruction": "6b2573: e8 c8 8b 30 00               \tcall\t0x9bb140 <PHYSFSRWOPS_openAppend+0x5b76b0>"
+            },
+            {
+              "address": "0x9d02e0",
+              "line": 303,
+              "instruction": "6b257e: e8 5d dd 31 00               \tcall\t0x9d02e0 <PHYSFSRWOPS_openAppend+0x5cc850>"
+            },
+            {
+              "address": "0x45d7a0",
+              "line": 305,
+              "instruction": "6b2585: e8 16 b2 da ff               \tcall\t0x45d7a0 <PHYSFSRWOPS_openAppend+0x59d10>"
+            },
+            {
+              "address": "0x9b9110",
+              "line": 310,
+              "instruction": "6b259f: e8 6c 6b 30 00               \tcall\t0x9b9110 <PHYSFSRWOPS_openAppend+0x5b5680>"
+            },
+            {
+              "address": "0x9b7e90",
+              "line": 315,
+              "instruction": "6b25b1: e8 da 58 30 00               \tcall\t0x9b7e90 <PHYSFSRWOPS_openAppend+0x5b4400>"
+            },
+            {
+              "address": "0x4582a0",
+              "line": 317,
+              "instruction": "6b25b8: e8 e3 5c da ff               \tcall\t0x4582a0 <PHYSFSRWOPS_openAppend+0x54810>"
+            },
+            {
+              "address": "0x9b7e90",
+              "line": 321,
+              "instruction": "6b25c7: e8 c4 58 30 00               \tcall\t0x9b7e90 <PHYSFSRWOPS_openAppend+0x5b4400>"
+            },
+            {
+              "address": "0x44a9d0",
+              "line": 323,
+              "instruction": "6b25ce: e8 fd 83 d9 ff               \tcall\t0x44a9d0 <PHYSFSRWOPS_openAppend+0x46f40>"
+            },
+            {
+              "address": "0x9b7e90",
+              "line": 330,
+              "instruction": "6b25eb: e8 a0 58 30 00               \tcall\t0x9b7e90 <PHYSFSRWOPS_openAppend+0x5b4400>"
+            },
+            {
+              "address": "0x4582a0",
+              "line": 332,
+              "instruction": "6b25f2: e8 a9 5c da ff               \tcall\t0x4582a0 <PHYSFSRWOPS_openAppend+0x54810>"
+            },
+            {
+              "address": "0x45c470",
+              "line": 334,
+              "instruction": "6b25f9: e8 72 9e da ff               \tcall\t0x45c470 <PHYSFSRWOPS_openAppend+0x589e0>"
+            },
+            {
+              "address": "0x9b8a30",
+              "line": 341,
+              "instruction": "6b261a: e8 11 64 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9baec0",
+              "line": 347,
+              "instruction": "6b2636: e8 85 88 30 00               \tcall\t0x9baec0 <PHYSFSRWOPS_openAppend+0x5b7430>"
+            },
+            {
+              "address": "0x9b7e90",
+              "line": 355,
+              "instruction": "6b2655: e8 36 58 30 00               \tcall\t0x9b7e90 <PHYSFSRWOPS_openAppend+0x5b4400>"
+            },
+            {
+              "address": "0x457cd0",
+              "line": 357,
+              "instruction": "6b265c: e8 6f 56 da ff               \tcall\t0x457cd0 <PHYSFSRWOPS_openAppend+0x54240>"
+            },
+            {
+              "address": "0x518bd0",
+              "line": 359,
+              "instruction": "6b2662: e8 69 65 e6 ff               \tcall\t0x518bd0 <PHYSFSRWOPS_openAppend+0x115140>"
+            },
+            {
+              "address": "0x9bad40",
+              "line": 373,
+              "instruction": "6b269d: e8 9e 86 30 00               \tcall\t0x9bad40 <PHYSFSRWOPS_openAppend+0x5b72b0>"
+            },
+            {
+              "address": "0x9d02e0",
+              "line": 376,
+              "instruction": "6b26a8: e8 33 dc 31 00               \tcall\t0x9d02e0 <PHYSFSRWOPS_openAppend+0x5cc850>"
+            },
+            {
+              "address": "0x45d7a0",
+              "line": 378,
+              "instruction": "6b26af: e8 ec b0 da ff               \tcall\t0x45d7a0 <PHYSFSRWOPS_openAppend+0x59d10>"
+            },
+            {
+              "address": "0x9b7e90",
+              "line": 380,
+              "instruction": "6b26b6: e8 d5 57 30 00               \tcall\t0x9b7e90 <PHYSFSRWOPS_openAppend+0x5b4400>"
+            },
+            {
+              "address": "0x45c880",
+              "line": 382,
+              "instruction": "6b26bd: e8 be a1 da ff               \tcall\t0x45c880 <PHYSFSRWOPS_openAppend+0x58df0>"
+            },
+            {
+              "address": "0x9ce830",
+              "line": 387,
+              "instruction": "6b26cf: e8 5c c1 31 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 398,
+              "instruction": "6b2700: e8 eb c1 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            }
+          ],
+          "reason": "审计所列调用链未建立到已知玩家显示 sink；保留原始调用观察，不把它误记为 sink。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6b21f4",
+          "string_va": "0xbee294",
+          "raw": " to go sit in the corner.\"",
+          "xref_evidence": "ev_7171d67646c0b88cac00716513fc8fdc7d00f82dd21208c4e5a77535ecc800f9",
+          "assembly_file": "build/rea/fragment-windows/6b21f4.asm",
+          "line": 101
+        }
+      ],
+      "notes": "捕获对象名与前缀、固定尾句的拼接清晰；合成句被追加到 [ebp-0x2a4c]，分支随后到 0x6bd8d2 并由 0x6bd978 的 0x5122d0 显示。"
+    },
+    {
+      "raw_template": "{*} caught in stasis.",
+      "source": "{*} caught in stasis.",
+      "translation": "{*}陷入停滞状态。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " caught in stasis.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6b55f1.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 98,
+          "instruction": "6b55e4: e8 c7 0c 10 00               \tcall\t0x7b62b0 <PHYSFSRWOPS_openAppend+0x3b2820>"
+        },
+        {
+          "line": 101,
+          "instruction": "6b55f1: 68 c8 e8 be 00               \tpush\t0xbee8c8 ; TEXT 0xbee8c8=\" caught in stasis.\""
+        },
+        {
+          "line": 105,
+          "instruction": "6b5603: e8 28 34 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+        },
+        {
+          "line": 107,
+          "instruction": "6b560a: e8 01 29 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+        },
+        {
+          "line": 109,
+          "instruction": "6b5611: e8 7a 1a d6 ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+        },
+        {
+          "line": 113,
+          "instruction": "6b561e: e8 7d 94 31 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        }
+      ],
+      "calls": [
+        "0x876eb0",
+        "0x7b62b0",
+        "0x9b8a30",
+        "0x9b7f10",
+        "0x417090",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x6b55f1"
+      ],
+      "covers_string_vas": [
+        "0xbee8c8"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x6b55f1",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 131,
+            "instruction": "6b565a: e8 71 cc e5 ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9b8a30",
+              "line": 105,
+              "instruction": "6b5603: e8 28 34 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 107,
+              "instruction": "6b560a: e8 01 29 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x417090",
+              "line": 109,
+              "instruction": "6b5611: e8 7a 1a d6 ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+            },
+            {
+              "address": "0x9ceaa0",
+              "line": 113,
+              "instruction": "6b561e: e8 7d 94 31 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+            },
+            {
+              "address": "0x407290",
+              "line": 119,
+              "instruction": "6b5634: e8 57 1c d5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x407290",
+              "line": 123,
+              "instruction": "6b5642: e8 49 1c d5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x5122d0",
+              "line": 131,
+              "instruction": "6b565a: e8 71 cc e5 ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6b55f1",
+          "string_va": "0xbee8c8",
+          "raw": " caught in stasis.",
+          "xref_evidence": "ev_52056ec16261760f8fdc5bb935be99e3436a84ac7a6affbe6443cdb020d3fb1f",
+          "assembly_file": "build/rea/fragment-windows/6b55f1.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0x9ceaa0 将返回的动态文本与该字面后缀拼入 [ebp-0x394c]；sink 0x5122d0 接收同一缓冲区。"
+    },
+    {
+      "raw_template": "X0-1V1 curses {*} of your inventory parts (corrupted).",
+      "source": "X0-1V1 curses {*} of your inventory parts (corrupted).",
+      "translation": "X0-1V1诅咒了你库存中的{*}件部件（已发生系统损坏）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 curses ",
+          "origin": "该xref处已验证的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/格式化数字，见assembly_lines与calls"
+        },
+        {
+          "type": "literal",
+          "text": " of your inventory parts (corrupted).",
+          "origin": "该xref处已验证的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6b77b1.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b77b1: 68 7c eb be 00               \tpush\t0xbeeb7c ; TEXT 0xbeeb7c=\" of your inventory parts (corrupted).\""
+        },
+        {
+          "line": 106,
+          "instruction": "6b77c4: e8 27 71 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "6b77ef: e8 0c 93 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+        },
+        {
+          "line": 118,
+          "instruction": "6b77fe: e8 2d 93 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6b77b1"
+      ],
+      "covers_string_vas": [
+        "0xbeeb7c"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "unknown",
+      "sink_evidence": [
+        {
+          "kind": "xref_call_trace_no_player_sink",
+          "xref": "0x6b77b1",
+          "sink": null,
+          "observed_calls": [
+            {
+              "address": "0x9ce8f0",
+              "line": 106,
+              "instruction": "6b77c4: e8 27 71 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 115,
+              "instruction": "6b77ef: e8 0c 93 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 118,
+              "instruction": "6b77fe: e8 2d 93 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 121,
+              "instruction": "6b780d: e8 1e 93 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 124,
+              "instruction": "6b781c: e8 0f 93 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x6bec70",
+              "line": 130,
+              "instruction": "6b7832: e8 39 74 00 00               \tcall\t0x6bec70 <PHYSFSRWOPS_openAppend+0x2bb1e0>"
+            },
+            {
+              "address": "0x9b9720",
+              "line": 134,
+              "instruction": "6b784b: e8 d0 1e 30 00               \tcall\t0x9b9720 <PHYSFSRWOPS_openAppend+0x5b5c90>"
+            },
+            {
+              "address": "0x406e20",
+              "line": 142,
+              "instruction": "6b7874: e8 a7 f5 d4 ff               \tcall\t0x406e20 <PHYSFSRWOPS_openAppend+0x3390>"
+            },
+            {
+              "address": "0x406f00",
+              "line": 154,
+              "instruction": "6b78a7: e8 54 f6 d4 ff               \tcall\t0x406f00 <PHYSFSRWOPS_openAppend+0x3470>"
+            },
+            {
+              "address": "0x406f00",
+              "line": 165,
+              "instruction": "6b78d3: e8 28 f6 d4 ff               \tcall\t0x406f00 <PHYSFSRWOPS_openAppend+0x3470>"
+            },
+            {
+              "address": "0x4056f0",
+              "line": 175,
+              "instruction": "6b7904: e8 e7 dd d4 ff               \tcall\t0x4056f0 <PHYSFSRWOPS_openAppend+0x1c60>"
+            },
+            {
+              "address": "0x9ce7b0",
+              "line": 186,
+              "instruction": "6b7938: e8 73 6e 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 197,
+              "instruction": "6b7969: e8 82 6f 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 206,
+              "instruction": "6b7994: e8 67 91 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 209,
+              "instruction": "6b79a3: e8 88 91 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 212,
+              "instruction": "6b79b2: e8 79 91 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 215,
+              "instruction": "6b79c4: e8 67 91 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x406f00",
+              "line": 224,
+              "instruction": "6b79e7: e8 14 f5 d4 ff               \tcall\t0x406f00 <PHYSFSRWOPS_openAppend+0x3470>"
+            },
+            {
+              "address": "0x406f00",
+              "line": 235,
+              "instruction": "6b7a13: e8 e8 f4 d4 ff               \tcall\t0x406f00 <PHYSFSRWOPS_openAppend+0x3470>"
+            },
+            {
+              "address": "0x4056f0",
+              "line": 245,
+              "instruction": "6b7a44: e8 a7 dc d4 ff               \tcall\t0x4056f0 <PHYSFSRWOPS_openAppend+0x1c60>"
+            },
+            {
+              "address": "0x9ce7b0",
+              "line": 256,
+              "instruction": "6b7a78: e8 33 6d 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 267,
+              "instruction": "6b7aa9: e8 42 6e 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 276,
+              "instruction": "6b7ad4: e8 27 90 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 279,
+              "instruction": "6b7ae3: e8 48 90 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 282,
+              "instruction": "6b7af2: e8 39 90 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 285,
+              "instruction": "6b7b04: e8 27 90 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x72f580",
+              "line": 294,
+              "instruction": "6b7b30: e8 4b 7a 07 00               \tcall\t0x72f580 <PHYSFSRWOPS_openAppend+0x32baf0>"
+            },
+            {
+              "address": "0x6bec70",
+              "line": 300,
+              "instruction": "6b7b46: e8 25 71 00 00               \tcall\t0x6bec70 <PHYSFSRWOPS_openAppend+0x2bb1e0>"
+            },
+            {
+              "address": "0x4056f0",
+              "line": 324,
+              "instruction": "6b7bbb: e8 30 db d4 ff               \tcall\t0x4056f0 <PHYSFSRWOPS_openAppend+0x1c60>"
+            },
+            {
+              "address": "0x9ce7b0",
+              "line": 335,
+              "instruction": "6b7bef: e8 bc 6b 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 346,
+              "instruction": "6b7c23: e8 c8 6c 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b00",
+              "line": 355,
+              "instruction": "6b7c4e: e8 ad 8e 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 358,
+              "instruction": "6b7c5d: e8 ce 8e 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 361,
+              "instruction": "6b7c6f: e8 bc 8e 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 364,
+              "instruction": "6b7c81: e8 aa 8e 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 370,
+              "instruction": "6b7ca4: e8 67 02 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x5e3bb0",
+              "line": 372,
+              "instruction": "6b7cab: e8 00 bf f2 ff               \tcall\t0x5e3bb0 <PHYSFSRWOPS_openAppend+0x1e0120>"
+            },
+            {
+              "address": "0x6bec70",
+              "line": 378,
+              "instruction": "6b7cc1: e8 aa 6f 00 00               \tcall\t0x6bec70 <PHYSFSRWOPS_openAppend+0x2bb1e0>"
+            },
+            {
+              "address": "0x9baec0",
+              "line": 382,
+              "instruction": "6b7cd8: e8 e3 31 30 00               \tcall\t0x9baec0 <PHYSFSRWOPS_openAppend+0x5b7430>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 387,
+              "instruction": "6b7cf1: e8 1a 02 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x5cc9a0",
+              "line": 389,
+              "instruction": "6b7cf8: e8 a3 4c f1 ff               \tcall\t0x5cc9a0 <PHYSFSRWOPS_openAppend+0x1c8f10>"
+            },
+            {
+              "address": "0x9bb920",
+              "line": 399,
+              "instruction": "6b7d30: e8 eb 3b 30 00               \tcall\t0x9bb920 <PHYSFSRWOPS_openAppend+0x5b7e90>"
+            }
+          ],
+          "reason": "审计所列调用链未建立到已知玩家显示 sink；保留原始调用观察，不把它误记为 sink。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6b77b1",
+          "string_va": "0xbeeb7c",
+          "raw": " of your inventory parts (corrupted).",
+          "xref_evidence": "ev_94a3ba994bf5673101b4f79a10e459f7fb932970dc433b86ca3ebf314c4e506c",
+          "assembly_file": "build/rea/fragment-windows/6b77b1.asm",
+          "line": 101
+        }
+      ],
+      "notes": "数量由405350格式化，9ce7b0/9ce8f0构造句子；完整消息进入共用输出路径。"
+    },
+    {
+      "raw_template": "X0-1V1: \"Evolution hits right when you least expect it.\" ({*} slot mutated into {*} slot)",
+      "source": "X0-1V1: \"Evolution hits right when you least expect it.\" ({*} slot mutated into {*} slot)",
+      "translation": "X0-1V1：“进化总在你意想不到时降临。”（{*}槽已变为{*}槽）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+          "origin": "该xref已审核的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " slot mutated into ",
+          "origin": "该xref已审核的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " slot)",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6b8a52.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b8a52: 68 c8 ec be 00               \tpush\t0xbeecc8 ; TEXT 0xbeecc8=\"X0-1V1: \\\"Evolution hits right when you least expect it.\\\" (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b8a5e: e8 cd 5d 31 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b8a7c: 68 b4 ec be 00               \tpush\t0xbeecb4 ; TEXT 0xbeecb4=\" slot mutated into \""
+        },
+        {
+          "line": 115,
+          "instruction": "6b8a8f: e8 5c 5e 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b8a52"
+      ],
+      "covers_string_vas": [
+        "0xbeecc8"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "unknown",
+      "sink_evidence": [
+        {
+          "kind": "xref_call_trace_no_player_sink",
+          "xref": "0x6b8a52",
+          "sink": null,
+          "observed_calls": [],
+          "reason": "审计所列调用链未建立到已知玩家显示 sink；保留原始调用观察，不把它误记为 sink。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6b8a52",
+          "string_va": "0xbeecc8",
+          "raw": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+          "xref_evidence": "ev_2ff052d6ddaabe45be43c7204eab9bb9b2d2e6102eb2e94c404a0b18430cb1d9",
+          "assembly_file": "build/rea/fragment-windows/6b8a52.asm",
+          "line": 101
+        }
+      ],
+      "notes": "完整句由两个部件槽名和固定尾串组成，9ceb60按 arg1+arg2 将第二个槽名接入；文本追加到 [ebp-0x2a4c]，路径从 0x6b8c2f 跳至公共显示块。"
+    },
+    {
+      "raw_template": "X0-1V1: \"I may have passed a hint to a nearby {*}.\"",
+      "source": "X0-1V1: \"I may have passed a hint to a nearby {*}.\"",
+      "translation": "X0-1V1：“我可能给附近的{*}留下了提示。”",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"I may have passed a hint to a nearby ",
+          "origin": "该xref已审核的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": ".\"",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6baafa.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "6baaed: e8 1e d4 2f 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+        },
+        {
+          "line": 99,
+          "instruction": "6baaf4: e8 97 c5 d5 ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+        },
+        {
+          "line": 101,
+          "instruction": "6baafa: 68 d8 ee be 00               \tpush\t0xbeeed8 ; TEXT 0xbeeed8=\"X0-1V1: \\\"I may have passed a hint to a nearby \""
+        },
+        {
+          "line": 104,
+          "instruction": "6bab06: e8 25 3d 31 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 110,
+          "instruction": "6bab27: 68 d4 ee be 00               \tpush\t0xbeeed4 ; TEXT 0xbeeed4=\".\\\"\""
+        },
+        {
+          "line": 115,
+          "instruction": "6bab3a: e8 b1 3d 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9b7f10",
+        "0x417090",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6baafa"
+      ],
+      "covers_string_vas": [
+        "0xbeeed8"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "unknown",
+      "sink_evidence": [
+        {
+          "kind": "xref_call_trace_no_player_sink",
+          "xref": "0x6baafa",
+          "sink": null,
+          "observed_calls": [],
+          "reason": "审计所列调用链未建立到已知玩家显示 sink；保留原始调用观察，不把它误记为 sink。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6baafa",
+          "string_va": "0xbeeed8",
+          "raw": "X0-1V1: \"I may have passed a hint to a nearby ",
+          "xref_evidence": "ev_71a4cd86e8837286ad3baabe06b5ec71bf37717c28e0f10325a04b45b5d0fab7",
+          "assembly_file": "build/rea/fragment-windows/6baafa.asm",
+          "line": 101
+        }
+      ],
+      "notes": "动态对象文字夹在固定前后缀之间并以 0x9ce8f0 闭合；完整句追加到 [ebp-0x2a4c]，0x6bab92 跳转公共输出路径。"
+    },
+    {
+      "raw_template": "X0-1V1 pokes a wall.",
+      "source": "X0-1V1 pokes a wall.",
+      "translation": "X0-1V1戳了戳墙。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 pokes a wall.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/6bf1f8.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "6bf1e7: e8 74 20 31 00               \tcall\t0x9d1260 <PHYSFSRWOPS_openAppend+0x5cd7d0>"
+        },
+        {
+          "line": 99,
+          "instruction": "6bf1ee: e8 ad f1 d9 ff               \tcall\t0x45e3a0 <PHYSFSRWOPS_openAppend+0x5a910>"
+        },
+        {
+          "line": 101,
+          "instruction": "6bf1f8: 68 5c f6 be 00               \tpush\t0xbef65c ; TEXT 0xbef65c=\"X0-1V1 pokes a wall.\""
+        },
+        {
+          "line": 103,
+          "instruction": "6bf200: e8 cb 16 2f 00               \tcall\t0x9b08d0 <PHYSFSRWOPS_openAppend+0x5ace40>"
+        },
+        {
+          "line": 112,
+          "instruction": "6bf221: e8 6a 42 da ff               \tcall\t0x463490 <PHYSFSRWOPS_openAppend+0x5fa00>"
+        },
+        {
+          "line": 114,
+          "instruction": "6bf228: e8 e3 8c 2f 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+        },
+        {
+          "line": 116,
+          "instruction": "6bf22f: e8 ec b4 d9 ff               \tcall\t0x45a720 <PHYSFSRWOPS_openAppend+0x56c90>"
+        }
+      ],
+      "calls": [
+        "0x9d1260",
+        "0x45e3a0",
+        "0x9b08d0",
+        "0x463490",
+        "0x9b7f10",
+        "0x45a720"
+      ],
+      "covers_xrefs": [
+        "0x6bf1f8"
+      ],
+      "covers_string_vas": [
+        "0xbef65c"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x6bf1f8",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 131,
+            "instruction": "6bf258: e8 73 30 e5 ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9b08d0",
+              "line": 103,
+              "instruction": "6bf200: e8 cb 16 2f 00               \tcall\t0x9b08d0 <PHYSFSRWOPS_openAppend+0x5ace40>"
+            },
+            {
+              "address": "0x463490",
+              "line": 112,
+              "instruction": "6bf221: e8 6a 42 da ff               \tcall\t0x463490 <PHYSFSRWOPS_openAppend+0x5fa00>"
+            },
+            {
+              "address": "0x9b7f10",
+              "line": 114,
+              "instruction": "6bf228: e8 e3 8c 2f 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+            },
+            {
+              "address": "0x45a720",
+              "line": 116,
+              "instruction": "6bf22f: e8 ec b4 d9 ff               \tcall\t0x45a720 <PHYSFSRWOPS_openAppend+0x56c90>"
+            },
+            {
+              "address": "0x407290",
+              "line": 119,
+              "instruction": "6bf238: e8 53 80 d4 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x407290",
+              "line": 123,
+              "instruction": "6bf243: e8 48 80 d4 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x5122d0",
+              "line": 131,
+              "instruction": "6bf258: e8 73 30 e5 ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x6bf1f8",
+          "string_va": "0xbef65c",
+          "raw": "X0-1V1 pokes a wall.",
+          "xref_evidence": "ev_ebfb43c7d8d6367926b9169434e098a9fe894ec3fe5db757123755fe39ced31c",
+          "assembly_file": "build/rea/fragment-windows/6bf1f8.asm",
+          "line": 101
+        }
+      ],
+      "notes": "Self-contained complete literal at this xref."
+    },
+    {
+      "raw_template": "{*} hacked open.",
+      "source": "{*} hacked open.",
+      "translation": "{*}被黑入开启。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " hacked open.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/743b0c.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "743afc: e8 2f d0 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 101,
+          "instruction": "743b0c: 68 70 33 bf 00               \tpush\t0xbf3370 ; TEXT 0xbf3370=\" hacked open.\""
+        },
+        {
+          "line": 103,
+          "instruction": "743b17: e8 b4 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 106,
+          "instruction": "743b23: e8 28 56 27 00               \tcall\t0x9b9150 <PHYSFSRWOPS_openAppend+0x5b56c0>"
+        },
+        {
+          "line": 109,
+          "instruction": "743b2e: 68 80 33 bf 00               \tpush\t0xbf3380 ; TEXT 0xbf3380=\" opened remotely.\""
+        },
+        {
+          "line": 111,
+          "instruction": "743b39: e8 92 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 113,
+          "instruction": "743b40: 68 94 33 bf 00               \tpush\t0xbf3394 ; TEXT 0xbf3394=\" activated.\""
+        },
+        {
+          "line": 115,
+          "instruction": "743b4b: e8 80 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b0b30",
+        "0x9b0bd0",
+        "0x9b9150"
+      ],
+      "covers_xrefs": [
+        "0x743b0c"
+      ],
+      "covers_string_vas": [
+        "0xbf3370"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x743b0c",
+          "sink": {
+            "address": "0x49c9f0",
+            "line": 124,
+            "instruction": "743b6c: e8 7f 8e d5 ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9b0bd0",
+              "line": 103,
+              "instruction": "743b17: e8 b4 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+            },
+            {
+              "address": "0x9b9150",
+              "line": 106,
+              "instruction": "743b23: e8 28 56 27 00               \tcall\t0x9b9150 <PHYSFSRWOPS_openAppend+0x5b56c0>"
+            },
+            {
+              "address": "0x9b0bd0",
+              "line": 111,
+              "instruction": "743b39: e8 92 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+            },
+            {
+              "address": "0x9b0bd0",
+              "line": 115,
+              "instruction": "743b4b: e8 80 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+            },
+            {
+              "address": "0x407290",
+              "line": 120,
+              "instruction": "743b5f: e8 2c 37 cc ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x49c9f0",
+              "line": 124,
+              "instruction": "743b6c: e8 7f 8e d5 ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x743b0c",
+          "string_va": "0xbf3370",
+          "raw": " hacked open.",
+          "xref_evidence": "ev_76c53c2ec6da10f8cb333dee90f7f25592ab37ffdf260d86fb71d26e01631e33",
+          "assembly_file": "build/rea/fragment-windows/743b0c.asm",
+          "line": 101
+        }
+      ],
+      "notes": "前缀捕获为分支前已构造的整个 [ebp-0xac] 文本；该分支追加 hacked open 后，同一缓冲区进入 0x49c9f0。"
+    },
+    {
+      "raw_template": "0bP_NET: {*} inbound, all units not involved in other operations escort to target.",
+      "source": "0bP_NET: {*} inbound, all units not involved in other operations escort to target.",
+      "translation": "0bP网络：{*}正在赶来，所有未参与其他行动的单位护送至目标。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "0bP_NET: ",
+          "origin": "该xref已审核的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " inbound, all units not involved in other operations escort to target.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/744695.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "744695: 68 f0 33 bf 00               \tpush\t0xbf33f0 ; TEXT 0xbf33f0=\" inbound, all units not involved in other operations escort to target.\""
+        },
+        {
+          "line": 106,
+          "instruction": "7446a8: e8 43 a2 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "7446b7: e8 74 c4 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 113,
+          "instruction": "7446c3: e8 38 a8 d0 ff               \tcall\t0x44ef00 <PHYSFSRWOPS_openAppend+0x4b470>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x44ef00"
+      ],
+      "covers_xrefs": [
+        "0x744695"
+      ],
+      "covers_string_vas": [
+        "0xbf33f0"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x744695",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 136,
+            "instruction": "74470a: e8 c1 db dc ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9ce8f0",
+              "line": 106,
+              "instruction": "7446a8: e8 43 a2 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 110,
+              "instruction": "7446b7: e8 74 c4 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x44ef00",
+              "line": 113,
+              "instruction": "7446c3: e8 38 a8 d0 ff               \tcall\t0x44ef00 <PHYSFSRWOPS_openAppend+0x4b470>"
+            },
+            {
+              "address": "0x4543d0",
+              "line": 119,
+              "instruction": "7446d2: e8 f9 fc d0 ff               \tcall\t0x4543d0 <PHYSFSRWOPS_openAppend+0x50940>"
+            },
+            {
+              "address": "0x407290",
+              "line": 124,
+              "instruction": "7446e4: e8 a7 2b cc ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x407290",
+              "line": 128,
+              "instruction": "7446f2: e8 99 2b cc ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x5122d0",
+              "line": 136,
+              "instruction": "74470a: e8 c1 db dc ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x744695",
+          "string_va": "0xbf33f0",
+          "raw": " inbound, all units not involved in other operations escort to target.",
+          "xref_evidence": "ev_37ae053878b9c506daeea50945ae9c351fbfd35cccb606d936d63ca23d9367f5",
+          "assembly_file": "build/rea/fragment-windows/744695.asm",
+          "line": 101
+        }
+      ],
+      "notes": "先以 0x9ce830 构造前缀与动态对象文字，再由 0x9ce8f0 添加固定尾句；0x5122d0 接收 [ebp-0x1d0]。"
+    },
+    {
+      "raw_template": "{*} buries itself in the floor.",
+      "source": "{*} buries itself in the floor.",
+      "translation": "{*}钻入地板。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " buries itself in the floor.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/7460e8.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "7460e8: 68 90 35 bf 00               \tpush\t0xbf3590 ; TEXT 0xbf3590=\" buries itself in the floor.\""
+        },
+        {
+          "line": 106,
+          "instruction": "7460fb: e8 f0 87 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "74610d: e8 1e aa 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 115,
+          "instruction": "746121: e8 6a 11 cc ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b7f50",
+        "0x572ea0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x7460e8"
+      ],
+      "covers_string_vas": [
+        "0xbf3590"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x7460e8",
+          "sink": {
+            "address": "0x49c9f0",
+            "line": 119,
+            "instruction": "74612e: e8 bd 68 d5 ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9ce8f0",
+              "line": 106,
+              "instruction": "7460fb: e8 f0 87 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 110,
+              "instruction": "74610d: e8 1e aa 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x407290",
+              "line": 115,
+              "instruction": "746121: e8 6a 11 cc ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x49c9f0",
+              "line": 119,
+              "instruction": "74612e: e8 bd 68 d5 ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x7460e8",
+          "string_va": "0xbf3590",
+          "raw": " buries itself in the floor.",
+          "xref_evidence": "ev_20f90fd3dd98354828733c30398a561c4f2439ca923d9a07633291a5b8f087bb",
+          "assembly_file": "build/rea/fragment-windows/7460e8.asm",
+          "line": 101
+        }
+      ],
+      "notes": "后缀拼入动态对象文字形成 [ebp-0x1c0]，后续事件 sink 0x49c9f0 使用该文本。"
+    },
+    {
+      "raw_template": "0bP_NET: Important update! {*} targets ready for detonation.",
+      "source": "0bP_NET: Important update! {*} targets ready for detonation.",
+      "translation": "0bP网络：重要更新！{*}个目标已准备引爆。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "0bP_NET: Important update! ",
+          "origin": "该xref已审核的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " targets ready for detonation.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/746366.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "746366: 68 b0 35 bf 00               \tpush\t0xbf35b0 ; TEXT 0xbf35b0=\" targets ready for detonation.\""
+        },
+        {
+          "line": 106,
+          "instruction": "746379: e8 72 85 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "74638b: e8 a0 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 113,
+          "instruction": "74639a: e8 91 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 116,
+          "instruction": "7463a9: e8 82 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x746366"
+      ],
+      "covers_string_vas": [
+        "0xbf35b0"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x746366",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 148,
+            "instruction": "74641a: e8 b1 be dc ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9ce8f0",
+              "line": 106,
+              "instruction": "746379: e8 72 85 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 110,
+              "instruction": "74638b: e8 a0 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 113,
+              "instruction": "74639a: e8 91 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 116,
+              "instruction": "7463a9: e8 82 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 119,
+              "instruction": "7463b8: e8 73 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 122,
+              "instruction": "7463c7: e8 64 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x44ef00",
+              "line": 125,
+              "instruction": "7463d3: e8 28 8b d0 ff               \tcall\t0x44ef00 <PHYSFSRWOPS_openAppend+0x4b470>"
+            },
+            {
+              "address": "0x4543d0",
+              "line": 131,
+              "instruction": "7463e2: e8 e9 df d0 ff               \tcall\t0x4543d0 <PHYSFSRWOPS_openAppend+0x50940>"
+            },
+            {
+              "address": "0x407290",
+              "line": 136,
+              "instruction": "7463f4: e8 97 0e cc ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x407290",
+              "line": 140,
+              "instruction": "746402: e8 89 0e cc ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x5122d0",
+              "line": 148,
+              "instruction": "74641a: e8 b1 be dc ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x746366",
+          "string_va": "0xbf35b0",
+          "raw": " targets ready for detonation.",
+          "xref_evidence": "ev_03c40f73ed0e035caff6b7537bd749f9778f6396ff6f65d5c26638cc965c7397",
+          "assembly_file": "build/rea/fragment-windows/746366.asm",
+          "line": 101
+        }
+      ],
+      "notes": "中间部分由两个数值、斜线和前缀通过 0x9ce7b0/0x9ce8f0/0x9ce930 组合；此处作为整体捕获，避免误判参数顺序。最终 sink 0x5122d0 使用 [ebp-0x1e0]。"
+    },
+    {
+      "raw_template": "ANNOUNCEMENT: Dispatching distinguished {*} to Cogmind's location.",
+      "source": "ANNOUNCEMENT: Dispatching distinguished {*} to Cogmind's location.",
+      "translation": "公告：正派遣精锐部队{*}前往Cogmind所在位置。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ANNOUNCEMENT: Dispatching distinguished ",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "中间完整列表是运行时逐项拼接的动态字符串，按不透明捕获保留"
+        },
+        {
+          "type": "literal",
+          "text": " to Cogmind's location.",
+          "origin": "PE字节与调用点已核实的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/76b6fe.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "76b6fe: 68 c8 61 bf 00               \tpush\t0xbf61c8 ; TEXT 0xbf61c8=\" to Cogmind's location.\""
+        },
+        {
+          "line": 103,
+          "instruction": "76b709: e8 c2 54 24 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 106,
+          "instruction": "76b718: e8 93 65 24 00               \tcall\t0x9b1cb0 <PHYSFSRWOPS_openAppend+0x5ae220>"
+        },
+        {
+          "line": 108,
+          "instruction": "76b722: 68 e0 61 bf 00               \tpush\t0xbf61e0 ; TEXT 0xbf61e0=\"ANNOUNCEMENT: Trap arrays successfully disabled.\""
+        },
+        {
+          "line": 110,
+          "instruction": "76b72d: e8 3e 54 24 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 117,
+          "instruction": "76b752: e8 29 a3 24 00               \tcall\t0x9b5a80 <PHYSFSRWOPS_openAppend+0x5b1ff0>"
+        }
+      ],
+      "calls": [
+        "0x9b1ef0",
+        "0x5152a0",
+        "0x9b0bd0",
+        "0x9b1cb0",
+        "0x9b0b70",
+        "0x9b5a80"
+      ],
+      "covers_xrefs": [
+        "0x76b6fe"
+      ],
+      "covers_string_vas": [
+        "0xbf61c8"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x76b6fe",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 976942,
+            "instruction": "76b8d4: call 0x5122d0"
+          },
+          "reason": "0xbf6190 固定前缀“ANNOUNCEMENT: Dispatching distinguished ”；中间列表由循环逐项构造并加入逗号/空格；0xbf61c8 固定后缀“ to Cogmind's location.”；完成后于0x76b8d4调用玩家消息sink 0x5122d0。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x76b6fe",
+          "string_va": "0xbf61c8",
+          "raw": " to Cogmind's location.",
+          "xref_evidence": "ev_98a67ee65257f50805392acf0f21b7d731ecaac3ab62b2c778ae3c19ad93988a",
+          "assembly_file": "build/rea/fragment-windows/76b6fe.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0xbf6190 固定前缀“ANNOUNCEMENT: Dispatching distinguished ”；中间列表由循环逐项构造并加入逗号/空格；0xbf61c8 固定后缀“ to Cogmind's location.”；完成后于0x76b8d4调用玩家消息sink 0x5122d0。"
+    },
+    {
+      "raw_template": "{*} ({*}): +{*} effective code value to all Relay Couplers.",
+      "source": "{*} ({*}): +{*} effective code value to all Relay Couplers.",
+      "translation": "{*}（{*}）：所有中继耦合器的有效代码值+{*}。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": " (",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": "): +",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": " effective code value to all Relay Couplers.",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/exe-text.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/exe-text.asm",
+          "line": 1001462
+        }
+      ],
+      "calls": [
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x9b0bb0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x783073"
+      ],
+      "covers_string_vas": [
+        "0xbf7338"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "ui_page_buffer_setter",
+          "xref": "0x783073",
+          "sink": {
+            "address": "0x9b0a70",
+            "instruction": "784201 call 0x9b0a70; ECX=[ebp+8], stack argument=[ebp-0x678]"
+          },
+          "reason": "候选段落拼入[ebp-0x678]，页面组装完成后该buffer作为对象文本参数传入setter；相关段落用字面量“\\n\\n”分隔。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x783073",
+          "string_va": "0xbf7338",
+          "raw": " effective code value to all Relay Couplers.",
+          "xref_evidence": "ev_db67c28e237a53e229986e9fc427ab0be2b7bafe4ee8f3ce235b96862063a236",
+          "assembly_file": "build/rea/fragment-windows/783073.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0x782f54先追加全局能力名称0xd2b40c；0x782f64和0x782fa3分别取等级3对应的有效代码值、等级数值并经405350格式化。0x782fe5起按“ (”+等级+“): +”+代码值+后缀构造，0x7830b1追加至页面。捕获不能吞掉已知标点或等级字段。 完整页面0x784201进入对象文本setter；静态构造证据，尚未实机验证。"
+    },
+    {
+      "raw_template": "{*} ({*}): Extermination squads require an average {*} more turns before they can pinpoint your position for dispatching.",
+      "source": "{*} ({*}): Extermination squads require an average {*} more turns before they can pinpoint your position for dispatching.",
+      "translation": "{*}（{*}）：消灭小队锁定你的位置并出动前，平均还需多花{*}回合。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": " (",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": "): Extermination squads require an average ",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": " more turns before they can pinpoint your position for dispatching.",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/exe-text.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/exe-text.asm",
+          "line": 1001966
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0bb0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x783953"
+      ],
+      "covers_string_vas": [
+        "0xbf7760"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "ui_page_buffer_setter",
+          "xref": "0x783953",
+          "sink": {
+            "address": "0x9b0a70",
+            "instruction": "784201 call 0x9b0a70; ECX=[ebp+8], stack argument=[ebp-0x678]"
+          },
+          "reason": "候选段落拼入[ebp-0x678]，页面组装完成后该buffer作为对象文本参数传入setter；相关段落用字面量“\\n\\n”分隔。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x783953",
+          "string_va": "0xbf7760",
+          "raw": " more turns before they can pinpoint your position for dispatching.",
+          "xref_evidence": "ev_576f35020f3900293b012bd3eb618cd3ba3008c393067ac58203f45259ec110b",
+          "assembly_file": "build/rea/fragment-windows/783953.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0x783831首先将全局能力名称0xd2b4b4追加页面；0x783841、0x783883取等级9相关平均额外回合值与等级并格式化。0x7838c5拼接“ (”+等级，0x7838ef追加“): Extermination squads require an average ”，0x783935追加平均回合值，0x783966追加尾句，0x783991追加页面。 完整页面0x784201进入对象文本setter；静态构造证据，尚未实机验证。"
+    },
+    {
+      "raw_template": "{*}: Tap into visual feed data of all 0b10 Watchers within a range of {*} while at least one Relay Coupler [NC] attached.",
+      "source": "{*}: Tap into visual feed data of all 0b10 Watchers within a range of {*} while at least one Relay Coupler [NC] attached.",
+      "translation": "{*}：连接至少一个[NC]中继耦合器时，可接入范围{*}内所有0b10观察者的视觉数据。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": ": Tap into visual feed data of all 0b10 Watchers within a range of ",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        },
+        {
+          "type": "literal",
+          "text": " while at least one Relay Coupler [NC] attached.",
+          "origin": "root-reviewed native construction; see analysis/native-remaining-reviewed.json"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/exe-text.asm"
+      ],
+      "assembly_lines": [
+        {
+          "file": "build/rea/exe-text.asm",
+          "line": 1002087
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0bb0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x783b7e"
+      ],
+      "covers_string_vas": [
+        "0xbf782c"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "ui_page_buffer_setter",
+          "xref": "0x783b7e",
+          "sink": {
+            "address": "0x9b0a70",
+            "instruction": "784201 call 0x9b0a70; ECX=[ebp+8], stack argument=[ebp-0x678]"
+          },
+          "reason": "候选段落拼入[ebp-0x678]，页面组装完成后该buffer作为对象文本参数传入setter；相关段落用字面量“\\n\\n”分隔。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x783b7e",
+          "string_va": "0xbf782c",
+          "raw": " while at least one Relay Coupler [NC] attached.",
+          "xref_evidence": "ev_1b7fc6614dcdba39b76a5cc83fcc4e27228c141d37f2c50f0a98255ab9282a2c",
+          "assembly_file": "build/rea/fragment-windows/783b7e.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0x783b16先将全局能力名称0xd2b4ec追加页面。0x783b26将常数22经405350格式化，0x783b54固定前缀与该范围数值通过9ce7b0组合，0x783b7e追加后缀，0x783bbc追加页面。9ce7b0没有在此加入能力名称；名称是前一步独立追加。 完整页面0x784201进入对象文本setter；静态构造证据，尚未实机验证。"
+    },
+    {
+      "raw_template": "ANNOUNCEMENT: Welcome to our newest member, {*}! Open the gate!",
+      "source": "ANNOUNCEMENT: Welcome to our newest member, {*}! Open the gate!",
+      "translation": "公告：欢迎新成员{*}！快开门！",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ANNOUNCEMENT: Welcome to our newest member, ",
+          "origin": "该xref已审核的固定字面量"
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": "! Open the gate!",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/784438.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "784427: e8 a4 ea ce ff               \tcall\t0x472ed0 <PHYSFSRWOPS_openAppend+0x6f440>"
+        },
+        {
+          "line": 101,
+          "instruction": "784438: 68 c4 7d bf 00               \tpush\t0xbf7dc4 ; TEXT 0xbf7dc4=\"ANNOUNCEMENT: Welcome to our newest member, \""
+        },
+        {
+          "line": 104,
+          "instruction": "784444: e8 e7 a3 24 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 110,
+          "instruction": "784465: 68 b0 7d bf 00               \tpush\t0xbf7db0 ; TEXT 0xbf7db0=\"! Open the gate!\""
+        },
+        {
+          "line": 115,
+          "instruction": "784478: e8 73 a4 24 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x472ed0",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x784438"
+      ],
+      "covers_string_vas": [
+        "0xbf7dc4"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x784438",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 145,
+            "instruction": "7844dd: e8 ee dd d8 ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9ce830",
+              "line": 104,
+              "instruction": "784444: e8 e7 a3 24 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+            },
+            {
+              "address": "0x9ce8f0",
+              "line": 115,
+              "instruction": "784478: e8 73 a4 24 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 119,
+              "instruction": "78448a: e8 a1 c6 22 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x44ef00",
+              "line": 122,
+              "instruction": "784496: e8 65 aa cc ff               \tcall\t0x44ef00 <PHYSFSRWOPS_openAppend+0x4b470>"
+            },
+            {
+              "address": "0x4543d0",
+              "line": 128,
+              "instruction": "7844a5: e8 26 ff cc ff               \tcall\t0x4543d0 <PHYSFSRWOPS_openAppend+0x50940>"
+            },
+            {
+              "address": "0x407290",
+              "line": 133,
+              "instruction": "7844b7: e8 d4 2d c8 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x407290",
+              "line": 137,
+              "instruction": "7844c5: e8 c6 2d c8 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x5122d0",
+              "line": 145,
+              "instruction": "7844dd: e8 ee dd d8 ff               \tcall\t0x5122d0 <PHYSFSRWOPS_openAppend+0x10e840>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x784438",
+          "string_va": "0xbf7dc4",
+          "raw": "ANNOUNCEMENT: Welcome to our newest member, ",
+          "xref_evidence": "ev_3bdfea7f4eca31c43b5544fb7cb1c850e390de7c2a1fcc4fc5d9e8c441e753be",
+          "assembly_file": "build/rea/fragment-windows/784438.asm",
+          "line": 101
+        }
+      ],
+      "notes": "两个固定字面串分别与成员名和中间缓冲拼接；0x5122d0 收到包含完整句子的 [ebp-0xd8]。"
+    },
+    {
+      "raw_template": "{*} stockpile data.",
+      "source": "{*} stockpile data.",
+      "translation": "{*}库存数据。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "0x9d0610生成并存入[ebp-0x930]的动态文本"
+        },
+        {
+          "type": "literal",
+          "text": " stockpile data.",
+          "origin": "0xbf981c精确固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/79acb1.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "79acb1: 68 1c 98 bf 00               \tpush\t0xbf981c ; TEXT 0xbf981c=\" stockpile data.\""
+        },
+        {
+          "line": 106,
+          "instruction": "79acc4: e8 27 3c 23 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "79acd6: e8 55 5e 21 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 115,
+          "instruction": "79ace7: e8 f4 b2 ff ff               \tcall\t0x795fe0 <PHYSFSRWOPS_openAppend+0x392550>"
+        }
+      ],
+      "calls": [
+        "0x9d0610",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x795fe0"
+      ],
+      "covers_xrefs": [
+        "0x79acb1"
+      ],
+      "covers_string_vas": [
+        "0xbf981c"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x79acb1",
+          "sink": {
+            "address": "0x5122d0",
+            "line": 1021100,
+            "instruction": "7960c5: call 0x5122d0"
+          },
+          "reason": "0xbf981c为精确后缀“ stockpile data.”；9ce8f0将其与9d0610生成的动态文本拼入[ebp-0x5c8]；随后0x795fe0处理此文本，并在0x7960c5调用玩家显示sink 0x5122d0。仅将未知动态前文整体捕获，不补造含义。"
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x79acb1",
+          "string_va": "0xbf981c",
+          "raw": " stockpile data.",
+          "xref_evidence": "ev_db2cebac082535f356716babf1c12b35a7b7ced2a22b820d961b06ea22597458",
+          "assembly_file": "build/rea/fragment-windows/79acb1.asm",
+          "line": 101
+        }
+      ],
+      "notes": "0xbf981c为精确后缀“ stockpile data.”；9ce8f0将其与9d0610生成的动态文本拼入[ebp-0x5c8]；随后0x795fe0处理此文本，并在0x7960c5调用玩家显示sink 0x5122d0。仅将未知动态前文整体捕获，不补造含义。"
+    },
+    {
+      "raw_template": "{*} materializes via a weapon slot.",
+      "source": "{*} materializes via a weapon slot.",
+      "translation": "{*}经武器槽具现。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " materializes via a weapon slot.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/7ac1a9.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "7ac1a9: 68 84 9f bf 00               \tpush\t0xbf9f84 ; TEXT 0xbf9f84=\" materializes via a weapon slot.\""
+        },
+        {
+          "line": 106,
+          "instruction": "7ac1bc: e8 2f 27 22 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "7ac1cb: e8 60 49 20 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 115,
+          "instruction": "7ac1df: e8 ac b0 c5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b7f50",
+        "0x572ea0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x7ac1a9"
+      ],
+      "covers_string_vas": [
+        "0xbf9f84"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x7ac1a9",
+          "sink": {
+            "address": "0x49c9f0",
+            "line": 119,
+            "instruction": "7ac1ec: e8 ff 07 cf ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9ce8f0",
+              "line": 106,
+              "instruction": "7ac1bc: e8 2f 27 22 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 110,
+              "instruction": "7ac1cb: e8 60 49 20 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x407290",
+              "line": 115,
+              "instruction": "7ac1df: e8 ac b0 c5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x49c9f0",
+              "line": 119,
+              "instruction": "7ac1ec: e8 ff 07 cf ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x7ac1a9",
+          "string_va": "0xbf9f84",
+          "raw": " materializes via a weapon slot.",
+          "xref_evidence": "ev_5f03b34dc8edd69bfd6a90b0fff2aef6b3e6d4f4bf3e267ca7245ff21d52e42f",
+          "assembly_file": "build/rea/fragment-windows/7ac1a9.asm",
+          "line": 101
+        }
+      ],
+      "notes": "动态对象输出经 0x9ce8f0 加上字面后缀，缓冲随后直接送至 0x49c9f0。"
+    },
+    {
+      "raw_template": "{*} blips out of existence for a moment, then partially fades back in.",
+      "source": "{*} blips out of existence for a moment, then partially fades back in.",
+      "translation": "{*}瞬间消失，随后部分重现。",
+      "components": [
+        {
+          "type": "capture",
+          "text": "{*}",
+          "origin": "动态字符串/数值捕获；依据该xref已审核的完整构造与sink证据"
+        },
+        {
+          "type": "literal",
+          "text": " blips out of existence for a moment, then partially fades back in.",
+          "origin": "该xref已审核的固定字面量"
+        }
+      ],
+      "assembly_files": [
+        "build/rea/fragment-windows/7acedd.asm"
+      ],
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "7acedd: 68 e8 9f bf 00               \tpush\t0xbf9fe8 ; TEXT 0xbf9fe8=\" blips out of existence for a moment, then partially fades back in.\""
+        },
+        {
+          "line": 106,
+          "instruction": "7acef0: e8 fb 19 22 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "7aceff: e8 2c 3c 20 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 115,
+          "instruction": "7acf13: e8 78 a3 c5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b7f50",
+        "0x572ea0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x7acedd"
+      ],
+      "covers_string_vas": [
+        "0xbf9fe8"
+      ],
+      "confidence": "high",
+      "status": "verified",
+      "classification": "player_visible_confirmed",
+      "sink_evidence": [
+        {
+          "kind": "xref_specific_trace",
+          "xref": "0x7acedd",
+          "sink": {
+            "address": "0x49c9f0",
+            "line": 119,
+            "instruction": "7acf20: e8 cb fa ce ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+          },
+          "observed_calls": [
+            {
+              "address": "0x9ce8f0",
+              "line": 106,
+              "instruction": "7acef0: e8 fb 19 22 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+            },
+            {
+              "address": "0x9b0b30",
+              "line": 110,
+              "instruction": "7aceff: e8 2c 3c 20 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+            },
+            {
+              "address": "0x407290",
+              "line": 115,
+              "instruction": "7acf13: e8 78 a3 c5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+            },
+            {
+              "address": "0x49c9f0",
+              "line": 119,
+              "instruction": "7acf20: e8 cb fa ce ff               \tcall\t0x49c9f0 <PHYSFSRWOPS_openAppend+0x98f60>"
+            }
+          ]
+        }
+      ],
+      "xref_sources": [
+        {
+          "xref": "0x7acedd",
+          "string_va": "0xbf9fe8",
+          "raw": " blips out of existence for a moment, then partially fades back in.",
+          "xref_evidence": "ev_59f53491547b2bf2cad9d9caccad8db7a922101ffd905a7780cd7a6c77c7ef5c",
+          "assembly_file": "build/rea/fragment-windows/7acedd.asm",
+          "line": 101
+        }
+      ],
+      "notes": "此前缺少动态名称前缀。0x7acef0 将 [ebp-0xdc] 的动态字符串与固定后缀合并至 [ebp-0x84]；sink 0x49c9f0 使用该合并文本。"
+    }
+  ]
+}

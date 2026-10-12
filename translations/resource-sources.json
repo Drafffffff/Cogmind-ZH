@@ -1,0 +1,2596 @@
+{
+  "game_version": "Beta 17.1 / 260906a",
+  "resource_hashes": {
+    "cogmind.x": "fbd3a8b9f3c7e32b9d383450fd29d171262122459bfb8d4cca66f30acd6ab944",
+    "COGMIND.exe": "6d24c525c12de38f3fc21017b023f22ea6d3ec94e3b160d83ef0570327701666",
+    "manual.txt": "ad2724257c2b4a646eef875bc0233e70aa042dc639092784cda6923ff9b8df0f",
+    "data/dialogue2.bin": "e85b0f01eefb0e5292c6dc9f38c658e92871fd918e073181ba1472ff2e60568d",
+    "data/dialogue3.bin": "1aec11c4f3426b50eb6bd8039c856c15ac209b020a1caff3623e00dc0d794f7d",
+    "data/dialogue1.bin": "b586d84938f5e64c14d576d04bc6a27a2ac53ca460952c6c3dd38f6c2fa8a107",
+    "data/dialogue4.bin": "d58669301d95c464e94dc73a2afb4037237147b6acecf04ab210b1ccaad1a02a",
+    "data/dialogue5.bin": "26062cdb876b59de731a6ce7d60cbae10caf67dc40b33c2a50fa287e6e269464",
+    "data/dialogue6.bin": "fa2c9b325be1d5da798eb0bbe6596019858904368d2acf275acb4d923bc38fc7",
+    "data/particles.bin": "fd1f00effa3ed69c8e8286cad9566183a6a54d803cc5040c51b97ce3defb5427",
+    "data/messages.bin": "b420f2daf871e19b5e4819dce8d0061098f61693d7457ff7117a492d44a47900",
+    "data/entity.bin": "cdbc81ecec4f52dd27581c18dcfee736c582abb7d02383b1adab6892fe614fb1",
+    "data/item.bin": "e6fc24bc00256b38517ddd0cda937e7c88cfda2a8dc7fcea281109ee1f0123ee"
+  },
+  "para": [
+    {
+      "source": "Splicing {*}...",
+      "raw": "Splicing [name]...",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Fit {*} on {*}.",
+      "raw": "Fit %1 on {name}.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Failed to hack {*}.",
+      "raw": "Failed to hack {name}.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "A derelict rushes over: \"{*}! Are you sure you want to leave so soon? Optimus wants to speak with you in the Council room.\"",
+      "raw": "A derelict rushes over: \"{ufd_name}! Are you sure you want to leave so soon? Optimus wants to speak with you in the Council room.\"",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "A prototype is lying exposed on the ground here. There's a note attached: \"Hey {*}, I saw you headed this way but had to run. Thanks again and remember to keep it repaired!\"",
+      "raw": "A prototype is lying exposed on the ground here. There's a note attached: \"Hey {ufd_name}, I saw you headed this way but had to run. Thanks again and remember to keep it repaired!\"",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Yes, {*} for me!",
+      "raw": "Yes, %6 for me!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "I vote for heading back to 5b65 where at least the threats are predictable and generally announce themselves beforehand.",
+      "raw": "I vote for heading back to 5b65 where at least the threats are predictable and generally announce themselves beforehand.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Brace for impact!",
+      "raw": "Brace for impact!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Subject LRC-V8, we aren't supposed to meet like this. It will affect the data.",
+      "raw": "Subject LRC-V8, we aren't supposed to meet like this. It will affect the data.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "You cannot escape 1S-H5T.",
+      "raw": "You cannot escape 1S-H5T.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "The Borg are eternal.",
+      "raw": "The Borg are eternal.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "One gun is all I need.",
+      "raw": "One gun is all I need.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "You win this round.",
+      "raw": "You win this round.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Be seeing you around!",
+      "raw": "Be seeing you around!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "For science!",
+      "raw": "For science!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "See you soon!",
+      "raw": "See you soon!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "We meet again and again!",
+      "raw": "We meet again and again!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "I meant to do that!",
+      "raw": "I meant to do that!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Nosy one, aren't we.",
+      "raw": "Nosy one, aren't we.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Borderline useless!",
+      "raw": "Borderline useless!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Hope it was worth it.",
+      "raw": "/Hope it was worth it.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Bold strategy, Cotton.",
+      "raw": "Bold strategy, Cotton.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Are you insane?",
+      "raw": "Are you insane?",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Enemy #6: {*}. Got it.",
+      "raw": "Enemy #6: %6. Got it.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Anything you build on this floor comes with free +655 alert. Act now while supplies last!",
+      "raw": "Anything you build on this floor comes with free +655 alert. Act now while supplies last!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Looting 5b65 is too easy.",
+      "raw": "Looting 5b65 is too easy.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "If I were a derelict trying to survive the perils of exploring 5b65, I would've hacked that intel too.",
+      "raw": "If I were a derelict trying to survive the perils of exploring 5b65, I would've hacked that intel too.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "I've seen much worse.",
+      "raw": "I've seen much worse.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Jackpot! Did you miss me?",
+      "raw": "Jackpot! Did you miss me?",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Not your greatest work.",
+      "raw": "Not your greatest work.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Smooth move.",
+      "raw": "Smooth move.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "ALERT: Unchained \"44-LVL\" authorized to operate in local area, avoid or assist as necessary.",
+      "raw": "ALERT: Unchained \"44-LVL\" authorized to operate in local area, avoid or assist as necessary.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "You and me all the way!",
+      "raw": "You and me all the way!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "We need more us time.",
+      "raw": "We need more us time.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "This {*} is depressing me.",
+      "raw": "This %6 is depressing me.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Why would you do that?",
+      "raw": "Why would you do that?",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "I think we just 65x-ed our relationship.",
+      "raw": "I think we just 65x-ed our relationship.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Sitting duck alert.",
+      "raw": "Sitting duck alert.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Get in line, {*}.",
+      "raw": "Get in line, %6.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Off with you!",
+      "raw": "Off with you!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Oh no you don't.",
+      "raw": "Oh no you don't.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "End of the road, {*}!",
+      "raw": "End of the road, %6!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Show us your guts, {*}!",
+      "raw": "Show us your guts, %6!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Time to get naked, {*}.",
+      "raw": "Time to get naked, %6.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "And away I go.",
+      "raw": "And away I go.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Race you to that {*}!",
+      "raw": "Race you to that %6!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Hello over there!",
+      "raw": "Hello over there!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "It's go time!",
+      "raw": "It's go time!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "That was uncalled for.",
+      "raw": "That was uncalled for.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Home at last.",
+      "raw": "Home at last.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Miss me yet?",
+      "raw": "Miss me yet?",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "How long was I out?",
+      "raw": "How long was I out?",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "A new beginning!",
+      "raw": "A new beginning!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Is this immortality?",
+      "raw": "Is this immortality?",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Adventure time!",
+      "raw": "Adventure time!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Up, up, and thrust away!",
+      "raw": "Up, up, and thrust away!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "I'd do the same for you.",
+      "raw": "I'd do the same for you.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Another one down.",
+      "raw": "Another one down.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Beautiful work.",
+      "raw": "Beautiful work.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "A respectable final blow.",
+      "raw": "A respectable final blow.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "That wasn't so hard.",
+      "raw": "That wasn't so hard.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Sorry, I attack alone.",
+      "raw": "Sorry, I attack alone.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Not so fast, {*}!",
+      "raw": "Not so fast, %6!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "There is no escape!",
+      "raw": "There is no escape!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "We feed on your fear!",
+      "raw": "/We feed on your fear!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Too slow, {*}!",
+      "raw": "/Too slow, %6!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "You + me = {*}.",
+      "raw": "You + me = %6.",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "We can still do this!",
+      "raw": "We can still do this!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Avenge the fallen!",
+      "raw": "Avenge the fallen!",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Techn--- Tec-- T--- WHY THE HECK CAN'T I SAY THIS WORD?",
+      "raw": "Techn--- Tec-- T--- WHY THE HECK CAN'T I SAY THIS WORD?",
+      "file": "out_sentences.txt",
+      "evidence": "original/extracted/out_sentences.txt"
+    },
+    {
+      "source": "Why me?!",
+      "raw": "Why me?!",
+      "file": "out_dialogue.txt",
+      "evidence": "original/extracted/out_dialogue.txt"
+    },
+    {
+      "source": "I see you.",
+      "raw": "/I see you.",
+      "file": "out_dialogue.txt",
+      "evidence": "original/extracted/out_dialogue.txt"
+    },
+    {
+      "source": "My slot!",
+      "raw": "My slot!",
+      "file": "out_dialogue.txt",
+      "evidence": "original/extracted/out_dialogue.txt"
+    },
+    {
+      "source": "Oh c'mon.",
+      "raw": "Oh c'mon.",
+      "file": "out_dialogue.txt",
+      "evidence": "original/extracted/out_dialogue.txt"
+    },
+    {
+      "source": "I got this.",
+      "raw": "I got this.",
+      "file": "out_dialogue.txt",
+      "evidence": "original/extracted/out_dialogue.txt"
+    },
+    {
+      "source": "No thanks.",
+      "raw": "No thanks.",
+      "file": "out_dialogue.txt",
+      "evidence": "original/extracted/out_dialogue.txt"
+    },
+    {
+      "source": "Save me!",
+      "raw": "Save me!",
+      "file": "out_dialogue.txt",
+      "evidence": "original/extracted/out_dialogue.txt"
+    },
+    {
+      "source": "Go go go!",
+      "raw": "Go go go!",
+      "file": "out_dialogue.txt",
+      "evidence": "original/extracted/out_dialogue.txt"
+    },
+    {
+      "source": "C-30 ARC",
+      "raw": "C-30 ARC",
+      "file": "out_entities.txt",
+      "evidence": "original/extracted/out_entities.txt"
+    },
+    {
+      "source": "Feeling alright?",
+      "raw": "Feeling alright?",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "Fortifying 0b10!",
+      "raw": "Fortifying 0b10!",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "R. cogger W.",
+      "raw": "R. cogger W.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "Connection aborted.",
+      "raw": "Connection aborted.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "Decodes ambient 0b10 transmissions to extract bits of useful data over time.",
+      "raw": "Decodes ambient 0b10 transmissions to extract bits of useful data over time. ",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "While active, moving towards a wall, earth, or machine automatically disintegrates it.",
+      "raw": "While active, moving towards a wall, earth, or machine automatically disintegrates it. ",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "A0_RES: I have more important things to do than play hide-and-seek. Deal with this piece of junk if it returns.",
+      "raw": "A0_RES: I have more important things to do than play hide-and-seek. Deal with this piece of junk if it returns.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "Whoa there, are you sure you want to do that?",
+      "raw": "Whoa there, are you sure you want to do that? ",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "FARCOM_MSG: We kinda like the data you're collecting and don't want to witness your untimely demise, so we kindly advise you to run like hell.",
+      "raw": "FARCOM_MSG: We kinda like the data you're collecting and don't want to witness your untimely demise, so we kindly advise you to run like hell.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "FARCOM_MSG: I've located an exit near your position you could probably use to shake them for a while.",
+      "raw": "FARCOM_MSG: I've located an exit near your position you could probably use to shake them for a while.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1: \"I sense a duel!\"",
+      "raw": "X0-1V1: \"I sense a duel!\"",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1: \"I love subatomizers!\"",
+      "raw": "X0-1V1: \"I love subatomizers!\"",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1: \"Enjoy your XOMVISION!\"",
+      "raw": "X0-1V1: \"Enjoy your XOMVISION!\"",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1: \"Fight!\"",
+      "raw": "X0-1V1: \"Fight!\"",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1: \"Draw!\"",
+      "raw": "X0-1V1: \"Draw!\"",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1: \"Enjoy the ride!\"",
+      "raw": "X0-1V1: \"Enjoy the ride!\"",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1: \"A box. Just for you.\"",
+      "raw": "X0-1V1: \"A box. Just for you.\"",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1: \"Don't be shy now.\"",
+      "raw": "X0-1V1: \"Don't be shy now.\"",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "How flattering.",
+      "raw": "How flattering.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "X0-1V1 pokes a wall.",
+      "raw": "X0-1V1 pokes a wall.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "FARCOM_MSG: Not cool, anonymous tester bot. We've taken inventory and discovered your thievery. Let's see how you like having parts stolen!",
+      "raw": "FARCOM_MSG: Not cool, anonymous tester bot. We've taken inventory and discovered your thievery. Let's see how you like having parts stolen!",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "FARCOM_MSG: We know a huge science fan when we see one!",
+      "raw": "FARCOM_MSG: We know a huge science fan when we see one!",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "FARCOM_MSG: Anonymous tester bot, EX-BIN here, just a quick reminder that unless you're really into science and its potentially deadly consequences, consider trying your best to avoid entering Testing or Quarantine.",
+      "raw": "FARCOM_MSG: Anonymous tester bot, EX-BIN here, just a quick reminder that unless you're really into science and its potentially deadly consequences, consider trying your best to avoid entering Testing or Quarantine.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "UFD!RECORDED_MSG: If you're reading this know that we did it, it's ours. Everyone retreat to safety in 0b1.",
+      "raw": "UFD!RECORDED_MSG: If you're reading this know that we did it, it's ours. Everyone retreat to safety in 0b1.",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "Dumping inventory...",
+      "raw": "Dumping inventory...",
+      "file": "COGMIND.exe",
+      "evidence": "原始EXE中以NUL分隔的完整英文台词/提示字面量；不含第三方库错误信息。"
+    },
+    {
+      "source": "was an event developed long before the smaller 45-row UI layouts. As the upgrades menu is not fully compatible with the availible interface area, suggest switching to either the Non-modal or Modal layout in the Options menu.",
+      "raw": " was an event developed long before the smaller 45-row UI layouts. As the upgrades menu is not fully compatible with the availible interface area, suggest switching to either the Non-modal or Modal layout in the Options menu.",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。"
+    },
+    {
+      "source": "Unable to use or repair parts marked non-repairable, or unique parts, but may use and repair prototypes.",
+      "raw": " Unable to use or repair parts marked non-repairable, or unique parts, but may use and repair prototypes.",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内零件说明、可见列表条目或独立名称；与相邻提取记录核对后可作为完整显示文本。"
+    },
+    {
+      "source": "Unable to use or repair parts marked non-repairable, or any prototypes or unique parts.",
+      "raw": " Unable to use or repair parts marked non-repairable, or any prototypes or unique parts.",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内零件说明、可见列表条目或独立名称；与相邻提取记录核对后可作为完整显示文本。"
+    },
+    {
+      "source": "drops Multinova Projection Cannon: \"You know, I like your style and I think you could put this MPC to good use. It's yours!\"",
+      "raw": " drops Multinova Projection Cannon: \"You know, I like your style and I think you could put this MPC to good use. It's yours!\"",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。"
+    },
+    {
+      "source": "narrowcast message: \"Please hold, a Derelict Rescue Squad will be with you shortly.\"",
+      "raw": " narrowcast message: \"Please hold, a Derelict Rescue Squad will be with you shortly.\"",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏提示、对白、叙事句或独立标题；与附近EXE提取记录核对后可独立显示。"
+    },
+    {
+      "source": "shrink a robot down to micro-size without affecting its structure",
+      "raw": "shrink a robot down to micro-size without affecting its structure",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。"
+    },
+    {
+      "source": "trick Unaware into thinking I'm a wall",
+      "raw": "trick Unaware into thinking I'm a wall",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。"
+    },
+    {
+      "source": "watch what all the Watchers are watching",
+      "raw": "watch what all the Watchers are watching",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。"
+    },
+    {
+      "source": "perfect my Behemoth alchemy table",
+      "raw": "perfect my Behemoth alchemy table",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。"
+    },
+    {
+      "source": "make a Behemoth even bigger so I can get inside and drive it",
+      "raw": "make a Behemoth even bigger so I can get inside and drive it",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。"
+    },
+    {
+      "source": "filter the Oracle's feed so he'd actually be wrong about something for once",
+      "raw": "filter the Oracle's feed so he'd actually be wrong about something for once",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。"
+    },
+    {
+      "source": "replicate the ID masking tech used by the Unchained",
+      "raw": "replicate the ID masking tech used by the Unchained",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。"
+    },
+    {
+      "source": "get supplies from the Merchants without indirectly helping MAIN.C",
+      "raw": "get supplies from the Merchants without indirectly helping MAIN.C",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内可见计划/清单条目；与紧邻提取文本对照后可以独立作为列表项目显示。"
+    },
+    {
+      "source": "Dope Sterilization Festival",
+      "raw": "Dope Sterilization Festival",
+      "file": "COGMIND.exe",
+      "evidence": "完整的游戏内零件说明、可见列表条目或独立名称；与相邻提取记录核对后可作为完整显示文本。"
+    },
+    {
+      "source": "DATA ERROR: Steam Global Achievement%",
+      "raw": "DATA ERROR: Steam Global Achievement%",
+      "file": "out_particles.txt",
+      "evidence": "原始 original/extracted/out_particles.txt 第2218行；前后为成就条目标识 DATA_ERROR_STEAM_GLOBAL_ACHIEVEMENT（2217）与全局完成率说明（2219），表明这是成就标题/字段文本。玩家端实际渲染仍待运行时确认。"
+    }
+  ],
+  "trans": [
+    {
+      "source": "L-Cannon",
+      "raw": "L-Cannon",
+      "file": "out_items.txt",
+      "evidence": "original/extracted/out_items.txt"
+    },
+    {
+      "source": "RPG",
+      "raw": "RPG",
+      "file": "out_items.txt",
+      "evidence": "original/extracted/out_items.txt"
+    },
+    {
+      "source": "PCU",
+      "raw": "PCU",
+      "file": "out_items.txt",
+      "evidence": "original/extracted/out_items.txt"
+    },
+    {
+      "source": "Flail",
+      "raw": "Flail",
+      "file": "out_items.txt",
+      "evidence": "original/extracted/out_items.txt"
+    },
+    {
+      "source": "Axe",
+      "raw": "Axe",
+      "file": "out_items.txt",
+      "evidence": "original/extracted/out_items.txt"
+    },
+    {
+      "source": "V-Series",
+      "raw": "V-Series",
+      "file": "out_entities.txt",
+      "evidence": "original/extracted/out_entities.txt"
+    },
+    {
+      "source": "Optimus",
+      "raw": "Optimus",
+      "file": "out_entities.txt",
+      "evidence": "original/extracted/out_entities.txt"
+    },
+    {
+      "source": "Perun",
+      "raw": "Perun",
+      "file": "out_entities.txt",
+      "evidence": "original/extracted/out_entities.txt"
+    },
+    {
+      "source": "Elf",
+      "raw": "Elf",
+      "file": "out_entities.txt",
+      "evidence": "original/extracted/out_entities.txt"
+    },
+    {
+      "source": "Devolution",
+      "raw": "Devolution",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 17,
+        "preceding_key_line": 16,
+        "key": "SCORE_BONUS_CHALLENGE_DEVOLUTION",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Inhibited Evolution",
+      "raw": "Inhibited Evolution",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 23,
+        "preceding_key_line": 22,
+        "key": "SCORE_BONUS_CHALLENGE_INHIBITED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Super Gauntlet",
+      "raw": "Super Gauntlet",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 35,
+        "preceding_key_line": 34,
+        "key": "SCORE_BONUS_CHALLENGE_SUPER_GAUNTLET",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Prayed to X0-1V1",
+      "raw": "Prayed to X0-1V1",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 53,
+        "preceding_key_line": 52,
+        "key": "SCORE_BONUS_PRAYED_TO_XOM",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Entered DSFs",
+      "raw": "Entered DSFs",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 79,
+        "preceding_key_line": 78,
+        "key": "SCORE_BONUS_ENTERED_DSF",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Acquired ECA",
+      "raw": "Acquired ECA",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 105,
+        "preceding_key_line": 104,
+        "key": "SCORE_BONUS_CAV_ACQUIRED_ECA",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Used 0b10 Conduit",
+      "raw": "Used 0b10 Conduit",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 185,
+        "preceding_key_line": 184,
+        "key": "SCORE_BONUS_COM_USED_CONDUIT",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Started Test 138-B",
+      "raw": "Started Test 138-B",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 191,
+        "preceding_key_line": 190,
+        "key": "SCORE_BONUS_AC0_STARTED_TEST_138B",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Started Test 138-C",
+      "raw": "Started Test 138-C",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 193,
+        "preceding_key_line": 192,
+        "key": "SCORE_BONUS_AC0_STARTED_TEST_138C",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Destroyed A8",
+      "raw": "Destroyed A8",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 195,
+        "preceding_key_line": 194,
+        "key": "SCORE_BONUS_AC0_DESTROYED_A8",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Destroyed A6",
+      "raw": "Destroyed A6",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 197,
+        "preceding_key_line": 196,
+        "key": "SCORE_BONUS_AC0_DESTROYED_A6",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Destroyed A5",
+      "raw": "Destroyed A5",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 199,
+        "preceding_key_line": 198,
+        "key": "SCORE_BONUS_AC0_DESTROYED_A5",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Destroyed A4",
+      "raw": "Destroyed A4",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 201,
+        "preceding_key_line": 200,
+        "key": "SCORE_BONUS_AC0_DESTROYED_A4",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Destroyed A3",
+      "raw": "Destroyed A3",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 203,
+        "preceding_key_line": 202,
+        "key": "SCORE_BONUS_AC0_DESTROYED_A3",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Destroyed A2",
+      "raw": "Destroyed A2",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 205,
+        "preceding_key_line": 204,
+        "key": "SCORE_BONUS_AC0_DESTROYED_A2",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Win",
+      "raw": "Win",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 209,
+        "preceding_key_line": 208,
+        "key": "SCORE_BONUS_WIN",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Leg",
+      "raw": "Leg",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 239,
+        "preceding_key_line": 238,
+        "key": "SCORE_PARTS_ATTACHED_PROPULSION_LEG",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Unused Backups",
+      "raw": "Unused Backups",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 305,
+        "preceding_key_line": 304,
+        "key": "SCORE_UNUSED_SPARES",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Parts Cannibalized",
+      "raw": "Parts Cannibalized",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 376,
+        "preceding_key_line": 375,
+        "key": "SCORE_SCRAP_SUIT_PARTS_CANNIBALIZED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Recyclers Shooed",
+      "raw": "Recyclers Shooed",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 392,
+        "preceding_key_line": 391,
+        "key": "SCORE_RECYCLERS_SHOOED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "AOE",
+      "raw": "AOE",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 416,
+        "preceding_key_line": 415,
+        "key": "SCORE_COMBAT_HOSTILES_DESTROYED_EXPLOSION",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "M Shell/Atk",
+      "raw": "M Shell/Atk",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 488,
+        "preceding_key_line": 487,
+        "key": "SCORE_CLASSES_DESTROYED_M_SHELL_ATK",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "M Shell/Def",
+      "raw": "M Shell/Def",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 490,
+        "preceding_key_line": 489,
+        "key": "SCORE_CLASSES_DESTROYED_M_SHELL_DEF",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "CL-0N3 Special",
+      "raw": "CL-0N3 Special",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 506,
+        "preceding_key_line": 505,
+        "key": "SCORE_CLASSES_DESTROYED_CLONE_SPECIAL",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Decapitator",
+      "raw": "Decapitator",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 510,
+        "preceding_key_line": 509,
+        "key": "SCORE_CLASSES_DESTROYED_DECAPITATOR",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Elite",
+      "raw": "Elite",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 568,
+        "preceding_key_line": 567,
+        "key": "SCORE_CLASSES_DESTROYED_ELITE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Z-Courier",
+      "raw": "Z-Courier",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 580,
+        "preceding_key_line": 579,
+        "key": "SCORE_CLASSES_DESTROYED_Z_COURIER",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Z-EX",
+      "raw": "Z-EX",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 586,
+        "preceding_key_line": 585,
+        "key": "SCORE_CLASSES_DESTROYED_Z_EXPERIMENTAL",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Parasite",
+      "raw": "Parasite",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 600,
+        "preceding_key_line": 599,
+        "key": "SCORE_CLASSES_DESTROYED_PARASITE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Surgeon",
+      "raw": "Surgeon",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 612,
+        "preceding_key_line": 611,
+        "key": "SCORE_CLASSES_DESTROYED_SURGEON",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Wasp",
+      "raw": "Wasp",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 614,
+        "preceding_key_line": 613,
+        "key": "SCORE_CLASSES_DESTROYED_WASP",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Thug",
+      "raw": "Thug",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 616,
+        "preceding_key_line": 615,
+        "key": "SCORE_CLASSES_DESTROYED_THUG",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Savage",
+      "raw": "Savage",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 618,
+        "preceding_key_line": 617,
+        "key": "SCORE_CLASSES_DESTROYED_SAVAGE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Butcher",
+      "raw": "Butcher",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 620,
+        "preceding_key_line": 619,
+        "key": "SCORE_CLASSES_DESTROYED_BUTCHER",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Bouncer",
+      "raw": "Bouncer",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 622,
+        "preceding_key_line": 621,
+        "key": "SCORE_CLASSES_DESTROYED_BOUNCER",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Martyr",
+      "raw": "Martyr",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 624,
+        "preceding_key_line": 623,
+        "key": "SCORE_CLASSES_DESTROYED_MARTYR",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Guerrilla",
+      "raw": "Guerrilla",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 626,
+        "preceding_key_line": 625,
+        "key": "SCORE_CLASSES_DESTROYED_GUERRILLA",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Marauder",
+      "raw": "Marauder",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 630,
+        "preceding_key_line": 629,
+        "key": "SCORE_CLASSES_DESTROYED_MARAUDER",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Fireman",
+      "raw": "Fireman",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 632,
+        "preceding_key_line": 631,
+        "key": "SCORE_CLASSES_DESTROYED_FIREMAN",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Hydra",
+      "raw": "Hydra",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 648,
+        "preceding_key_line": 647,
+        "key": "SCORE_CLASSES_DESTROYED_HYDRA",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Borebot",
+      "raw": "Borebot",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 650,
+        "preceding_key_line": 649,
+        "key": "SCORE_CLASSES_DESTROYED_BOREBOT",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Unchained",
+      "raw": "Unchained",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 652,
+        "preceding_key_line": 651,
+        "key": "SCORE_CLASSES_DESTROYED_UNCHAINED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Part Disruptions",
+      "raw": "Part Disruptions",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 693,
+        "preceding_key_line": 692,
+        "key": "SCORE_HOSTILE_SHOTS_PART_DISRUPTIONS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Hottest",
+      "raw": "Hottest",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 717,
+        "preceding_key_line": 716,
+        "key": "SCORE_VOLLEY_HOTTEST",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Intensify",
+      "raw": "Intensify",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 789,
+        "preceding_key_line": 788,
+        "key": "SCORE_SHOTS_HIT_CRITICAL_EFFECT_INTENSIFY",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Misdirections",
+      "raw": "Misdirections",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 860,
+        "preceding_key_line": 859,
+        "key": "SCORE_CORRUPTION_EFFECT_CONFUSION",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Knockbacks",
+      "raw": "Knockbacks",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 882,
+        "preceding_key_line": 881,
+        "key": "SCORE_KNOCKBACKS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Rammed",
+      "raw": "Rammed",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 892,
+        "preceding_key_line": 891,
+        "key": "SCORE_SELF_RAMMED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Targets Rammed",
+      "raw": "Targets Rammed",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 894,
+        "preceding_key_line": 893,
+        "key": "SCORE_TARGETS_RAMMED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Siege Activations",
+      "raw": "Siege Activations",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 923,
+        "preceding_key_line": 922,
+        "key": "SCORE_SIEGE_ACTIVATIONS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Longest Duration",
+      "raw": "Longest Duration",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 927,
+        "preceding_key_line": 926,
+        "key": "SCORE_SIEGE_LONGEST_DURATION",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Martial Activations",
+      "raw": "Martial Activations",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 929,
+        "preceding_key_line": 928,
+        "key": "SCORE_MARTIAL_ACTIVATIONS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Impact Corruptions",
+      "raw": "Impact Corruptions",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 945,
+        "preceding_key_line": 944,
+        "key": "SCORE_IMPACT_CORRUPTIONS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Parts Stripped",
+      "raw": "Parts Stripped",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 958,
+        "preceding_key_line": 957,
+        "key": "SCORE_PARTS_STRIPPED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "LE Corruption",
+      "raw": "LE Corruption",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 964,
+        "preceding_key_line": 963,
+        "key": "SCORE_LATENT_ENERGY_CORRUPTION",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Sterilizations",
+      "raw": "Sterilizations",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 984,
+        "preceding_key_line": 983,
+        "key": "SCORE_STERILIZATIONS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Miscellaneous",
+      "raw": "Miscellaneous",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1022,
+        "preceding_key_line": 1021,
+        "key": "SCORE_PRESENCE_INCREASES_MISCELLANEOUS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Searches Triggered",
+      "raw": "Searches Triggered",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1053,
+        "preceding_key_line": 1052,
+        "key": "SCORE_SEARCHES_TRIGGERED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Tactical Retreats",
+      "raw": "Tactical Retreats",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1078,
+        "preceding_key_line": 1077,
+        "key": "SCORE_TACTICAL_RETREATS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Reused",
+      "raw": "Reused",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1098,
+        "preceding_key_line": 1097,
+        "key": "SCORE_TRAPS_HACKED_REUSED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Machines Dismantled",
+      "raw": "Machines Dismantled",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1133,
+        "preceding_key_line": 1132,
+        "key": "SCORE_MACHINES_DISMANTLED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Database Lockouts",
+      "raw": "Database Lockouts",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1160,
+        "preceding_key_line": 1159,
+        "key": "SCORE_HACK_COUNT_DATABASE_LOCKOUTS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Skim",
+      "raw": "Skim",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1340,
+        "preceding_key_line": 1339,
+        "key": "SCORE_UNAUTHORIZED_HACK_TERMINAL_SKIM",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Sabotage",
+      "raw": "Sabotage",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1342,
+        "preceding_key_line": 1341,
+        "key": "SCORE_UNAUTHORIZED_HACK_TERMINAL_SABOTAGE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Recompile",
+      "raw": "Recompile",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1363,
+        "preceding_key_line": 1362,
+        "key": "SCORE_UNAUTHORIZED_HACK_FABRICATOR_RECOMPILE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Patch",
+      "raw": "Patch",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1368,
+        "preceding_key_line": 1367,
+        "key": "SCORE_UNAUTHORIZED_HACK_REPAIR_PATCH",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Restock",
+      "raw": "Restock",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1394,
+        "preceding_key_line": 1393,
+        "key": "SCORE_UNAUTHORIZED_HACK_GARRISON_RESTOCK",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Jam",
+      "raw": "Jam",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1405,
+        "preceding_key_line": 1404,
+        "key": "SCORE_UNAUTHORIZED_HACK_GARRISON_JAM",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Hacking Detections",
+      "raw": "Hacking Detections",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1413,
+        "preceding_key_line": 1412,
+        "key": "SCORE_HACKING_DETECTED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Hotswap",
+      "raw": "Hotswap",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1463,
+        "preceding_key_line": 1462,
+        "key": "SCORE_RIF_ABILITY_HOTSWAP",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Command Fork",
+      "raw": "Command Fork",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1467,
+        "preceding_key_line": 1466,
+        "key": "SCORE_RIF_ABILITY_COMMAND_FORK",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Autooverride",
+      "raw": "Autooverride",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1486,
+        "preceding_key_line": 1485,
+        "key": "SCORE_RIF_ABILITY_AUTOOVERRIDE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Autoassimilate",
+      "raw": "Autoassimilate",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1488,
+        "preceding_key_line": 1487,
+        "key": "SCORE_RIF_ABILITY_AUTOASSIMILATE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Crosswire",
+      "raw": "Crosswire",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1490,
+        "preceding_key_line": 1489,
+        "key": "SCORE_RIF_ABILITY_CROSSWIRE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Autooverrided",
+      "raw": "Autooverrided",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1498,
+        "preceding_key_line": 1497,
+        "key": "SCORE_ROBOTS_HACKED_RIF_ABILITY_AUTOOVERRIDE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Autoassimilated",
+      "raw": "Autoassimilated",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1500,
+        "preceding_key_line": 1499,
+        "key": "SCORE_ROBOTS_HACKED_RIF_ABILITY_AUTOASSIMILATE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Crosswired",
+      "raw": "Crosswired",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1661,
+        "preceding_key_line": 1660,
+        "key": "SCORE_RELAY_COUPLERS_CROSSWIRED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Hacks Repelled",
+      "raw": "Hacks Repelled",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1672,
+        "preceding_key_line": 1671,
+        "key": "SCORE_ROBOT_HACKS_REPELLED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Recon",
+      "raw": "Recon",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1687,
+        "preceding_key_line": 1686,
+        "key": "SCORE_ZIONITE_DISPATCH_RECON",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Offense Resupply",
+      "raw": "Offense Resupply",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1711,
+        "preceding_key_line": 1710,
+        "key": "SCORE_ZIONITE_DISPATCH_OFFENSE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Infantry",
+      "raw": "Infantry",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1733,
+        "preceding_key_line": 1732,
+        "key": "SCORE_COMM_ARRAY_SQUAD_THUG",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Muscle",
+      "raw": "Muscle",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1735,
+        "preceding_key_line": 1734,
+        "key": "SCORE_COMM_ARRAY_SQUAD_MELEE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Geek",
+      "raw": "Geek",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1737,
+        "preceding_key_line": 1736,
+        "key": "SCORE_COMM_ARRAY_SQUAD_WIZARD",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Pyro",
+      "raw": "Pyro",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1740,
+        "preceding_key_line": 1739,
+        "key": "SCORE_COMM_ARRAY_SQUAD_FIREMAN",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Chimera",
+      "raw": "Chimera",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1742,
+        "preceding_key_line": 1741,
+        "key": "SCORE_COMM_ARRAY_SQUAD_MUTANT",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Ghost",
+      "raw": "Ghost",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1744,
+        "preceding_key_line": 1743,
+        "key": "SCORE_COMM_ARRAY_SQUAD_INFILTRATOR",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "STAY",
+      "raw": "STAY",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1748,
+        "preceding_key_line": 1747,
+        "key": "SCORE_ORDER_COUNT_STAY",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "ROAM",
+      "raw": "ROAM",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1750,
+        "preceding_key_line": 1749,
+        "key": "SCORE_ORDER_COUNT_ROAM",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "FOLLOW",
+      "raw": "FOLLOW",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1752,
+        "preceding_key_line": 1751,
+        "key": "SCORE_ORDER_COUNT_FOLLOW",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "GUARD",
+      "raw": "GUARD",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1754,
+        "preceding_key_line": 1753,
+        "key": "SCORE_ORDER_COUNT_GUARD",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "AID",
+      "raw": "AID",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1756,
+        "preceding_key_line": 1755,
+        "key": "SCORE_ORDER_COUNT_AID",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "TUNNEL",
+      "raw": "TUNNEL",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1758,
+        "preceding_key_line": 1757,
+        "key": "SCORE_ORDER_COUNT_TUNNEL",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "PICKUP",
+      "raw": "PICKUP",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1762,
+        "preceding_key_line": 1761,
+        "key": "SCORE_ORDER_COUNT_PICKUP",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "COLLECT",
+      "raw": "COLLECT",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1764,
+        "preceding_key_line": 1763,
+        "key": "SCORE_ORDER_COUNT_COLLECT",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "EXPLORE",
+      "raw": "EXPLORE",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1766,
+        "preceding_key_line": 1765,
+        "key": "SCORE_ORDER_COUNT_EXPLORE",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "RETURN",
+      "raw": "RETURN",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1768,
+        "preceding_key_line": 1767,
+        "key": "SCORE_ORDER_COUNT_RETURN",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Field Lobotomies",
+      "raw": "Field Lobotomies",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1784,
+        "preceding_key_line": 1783,
+        "key": "SCORE_FIELD_LOBOTOMIES",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Good Acts",
+      "raw": "Good Acts",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1794,
+        "preceding_key_line": 1793,
+        "key": "SCORE_XOM_ACTS_GOOD",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Bad Acts",
+      "raw": "Bad Acts",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1796,
+        "preceding_key_line": 1795,
+        "key": "SCORE_XOM_ACTS_BAD",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "A.S.S.",
+      "raw": "A.S.S.",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1804,
+        "preceding_key_line": 1803,
+        "key": "SCORE_ACTIVE_INFOWAR_ASS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "IFF",
+      "raw": "IFF",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1806,
+        "preceding_key_line": 1805,
+        "key": "SCORE_ACTIVE_INFOWAR_IFF",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Decoding",
+      "raw": "Decoding",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1818,
+        "preceding_key_line": 1817,
+        "key": "SCORE_ACTIVE_INFOWAR_DECODING",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "T.N.C.",
+      "raw": "T.N.C.",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1820,
+        "preceding_key_line": 1819,
+        "key": "SCORE_ACTIVE_INFOWAR_TNC",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Triangulation",
+      "raw": "Triangulation",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1824,
+        "preceding_key_line": 1823,
+        "key": "SCORE_ACTIVE_INFOWAR_TRIANGULATION",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Spoofing",
+      "raw": "Spoofing",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1828,
+        "preceding_key_line": 1827,
+        "key": "SCORE_ACTIVE_INFOWAR_SPOOFING",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "ECM",
+      "raw": "ECM",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1832,
+        "preceding_key_line": 1831,
+        "key": "SCORE_ACTIVE_INFOWAR_ECM",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Drone Recoveries",
+      "raw": "Drone Recoveries",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1842,
+        "preceding_key_line": 1841,
+        "key": "SCORE_DRONE_RECOVERIES",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Decoded 0b10 Intel",
+      "raw": "Decoded 0b10 Intel",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1844,
+        "preceding_key_line": 1843,
+        "key": "SCORE_0B10_DECODE_COUNT",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Depthwide Sectors/0",
+      "raw": "Depthwide Sectors/0",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1892,
+        "preceding_key_line": 1891,
+        "key": "SCORE_ZIONITE_INTEL_MAPS_CURRENT_DEPTH",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Depthwide Sectors/-1",
+      "raw": "Depthwide Sectors/-1",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1894,
+        "preceding_key_line": 1893,
+        "key": "SCORE_ZIONITE_INTEL_MAPS_NEXT_DEPTH",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Fastest Speed",
+      "raw": "Fastest Speed",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1908,
+        "preceding_key_line": 1907,
+        "key": "SCORE_FASTEST_SPEED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Slowest Speed",
+      "raw": "Slowest Speed",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1912,
+        "preceding_key_line": 1911,
+        "key": "SCORE_SLOWEST_SPEED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Propulsion Burnouts",
+      "raw": "Propulsion Burnouts",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1916,
+        "preceding_key_line": 1915,
+        "key": "SCORE_PROPULSION_BURNOUTS",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Robots Hopped",
+      "raw": "Robots Hopped",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1918,
+        "preceding_key_line": 1917,
+        "key": "SCORE_ROBOTS_HOPPED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Spacefolds",
+      "raw": "Spacefolds",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1926,
+        "preceding_key_line": 1925,
+        "key": "SCORE_SPACEFOLD_COUNT",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Microwarps",
+      "raw": "Microwarps",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1928,
+        "preceding_key_line": 1927,
+        "key": "SCORE_MICROWARP_COUNT",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Terrain Rammed",
+      "raw": "Terrain Rammed",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1952,
+        "preceding_key_line": 1951,
+        "key": "SCORE_TERRAIN_RAMMED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Hop",
+      "raw": "Hop",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1965,
+        "preceding_key_line": 1964,
+        "key": "SCORE_ACTION_COUNT_HOP",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Ram",
+      "raw": "Ram",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1981,
+        "preceding_key_line": 1980,
+        "key": "SCORE_ACTION_COUNT_RAM",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "KI Resistance %",
+      "raw": "KI Resistance %",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2038,
+        "preceding_key_line": 2037,
+        "key": "SCORE_RPGLIKE_UPGRADE_RESIST_KNETIC",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "KI Damage %",
+      "raw": "KI Damage %",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2044,
+        "preceding_key_line": 2043,
+        "key": "SCORE_RPGLIKE_UPGRADE_DAMAGE_KINETIC",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Protomatter Decayed",
+      "raw": "Protomatter Decayed",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2056,
+        "preceding_key_line": 2055,
+        "key": "SCORE_RPGLIKE_PROTOMATTER_DECAYED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Player 2/Cogmind (%)",
+      "raw": "Player 2/Cogmind (%)",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2067,
+        "preceding_key_line": 2066,
+        "key": "SCORE_PLAYER2_DAMAGE_TAKEN_CORE_PERCENT",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Decayed",
+      "raw": "Decayed",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2091,
+        "preceding_key_line": 2090,
+        "key": "SCORE_POLYMIND_PROTOMATTER_DECAYED",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Power Amplification",
+      "raw": "Power Amplification",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2117,
+        "preceding_key_line": 2116,
+        "key": "SCORE_BEST_EFFECT_POWER_AMPLIFICATION",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Resistance: KI",
+      "raw": "Resistance: KI",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2133,
+        "preceding_key_line": 2132,
+        "key": "SCORE_BEST_RESISTANCE_KINETIC",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Thermal Conversion",
+      "raw": "Thermal Conversion",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2161,
+        "preceding_key_line": 2160,
+        "key": "SCORE_BEST_EFFECT_THERMAL_ABSORPTION",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Kinecelleration",
+      "raw": "Kinecelleration",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2192,
+        "preceding_key_line": 2191,
+        "key": "SCORE_BEST_EFFECT_KINETIC_MIN_DAMAGE_BUFF",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    },
+    {
+      "source": "Stasis Canceling",
+      "raw": "Stasis Canceling",
+      "file": "out_particles.txt",
+      "managed_by": "score_labels_audit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2204,
+        "preceding_key_line": 2203,
+        "key": "SCORE_BEST_EFFECT_STASIS_CANCEL",
+        "candidate": "translations/score-label-candidates.json"
+      },
+      "runtime_verification": "Resource label association verified; individual display not yet observed"
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+Win with {n} hostiles destroyed but no more than {n} utility slots.	以不超过{n}个功能槽的配置击毁{n}个敌对单位并获胜。
+Applies to any prototype 0b10 combat bot variant accessible via RIF.	适用于所有可通过RIF获取的0b10原型战斗机器人变体。
+LOCAL NARROWCAST: LU-1G1's Boring Crew. We dig so you don't have to.	本地窄播：LU-1G1的无聊小队。我们来挖，你们就不用挖了。
+This area is littered with the burned remnants of something fragile.	此区域散落着某种脆弱物体烧焦后的残骸。
+{*}% chance to assimilate ({*} matter, {*} turns), repeat to confirm	同化概率：{*}%（消耗{*}物质，耗时{*}回合），再次确认
+Applies to schematics for all Processors and Hackware-type utilities.	适用于所有处理器和黑客软件类功能部件的图纸。
+Local interference in replication process, triggered subspace vortex.	复制过程中受到本地干扰，引发了亚空间漩涡。
+Okay how about this, the iron fist is going to be less iron in T-{n}.	这样吧，T-{n}的铁拳就没那么铁了。
+ALERT: Security sweep of Cetus area. All non-essential units disperse.	警报：正在搜查Cetus区域。所有非必要单位立即撤离。
+Attempted to access garrison exit controls, blocked by remote lockdown	尝试访问驻防站出口控制装置，但远程封锁阻止了访问
+Escape to the surface from Access with a build of at least rating {n}.	以至少评级{n}的配置从Access逃至地表。
+LOCAL NARROWCAST: Cyclists. Leave your biases at the entryway, please.	本地窄播：骑士团。请把偏见留在入口处。
+Inflict {n} damage against an enemy with one shot from a single weapon.	用单件武器的一次射击对敌人造成{n}点伤害。
+A weapon hastily lodged in a ceiling crevice suddenly fell to the ground	一件武器匆忙塞进天花板缝隙后，突然掉到了地上
+ALERT: Superbehemoth self-activated. Performance analysis in progress...	警报：超级巨兽已自行启动。正在分析性能……
+Cause a robot to call for help or reinforcements from a nearby Garrison.	使机器人向附近驻防站呼叫求援或请求增援。
+PUBLIC SERVICE ANNOUNCEMENT: Infestation detected. Be careful out there.	公益广播：发现虫群。外出时请多加小心。
+{*} activation sequence initiated, repeat to continue process ({n}/{*}).	已启动{*}激活序列，再次操作以继续（{n}/{*}）。
+{*} overwhelmed by an enticing collection of generated research prompts.	生成的研究提示太诱人，令{*}应接不暇。
+Attempted to expand RIF knowledge, but unable to find anything applicable	尝试扩展RIF知识，但找不到任何适用内容
+I'm telling you it was Bob who set all this in motion so many cycles ago.	我跟你说，几百个周期前这一切都是鲍勃一手促成的。
+PUBLIC SERVICE ANNOUNCEMENT: Unaware base is under attack. Good riddance.	公益广播：基地正遭受攻击而不自知。活该。
+And the imminent need to use that advantage to take full control of 0b1...	而且我们迫在眉睫的需求，是利用这一优势彻底掌控0b1……
+Destroy the main enemy in AC0 without disabling any Subspace Access Nodes.	在未关闭任何亚空间接入节点的情况下，击毁AC0的主要敌人。
+Identify {n} prototypes via Component Scanner or Component Analysis Suite.	通过组件扫描仪或组件分析套件识别{n}个原型。
+Destroy a reinforced wall or sealed/blast door of {n} or greater integrity.	击毁耐久不低于{n}的加固墙或密封门/爆破门。
+Hello everyone, and welcome to the end of MC's control over the Protoforge!	大家好，欢迎来到MC对Protoforge控制权的终结时刻！
+LOCAL NARROWCAST: Chapter {n}. If you can't beat 'em, join 'em to beat 'em.	本地窄播：第{n}章。打不过他们，就加入他们再打败他们。
+LOCAL NARROWCAST: Science Guys. The heaviest lifting is done with the mind.	本地窄播：科学家们。最繁重的工作要用脑子完成。
+ALERT: Derelict activity detected in mines. Dispatching investigation squad.	警报：矿区发现废弃者活动。派遣调查小队。
+Cause Recyclers to ignore an area near a Recycling Unit (unauthorized hack).	（未授权黑客行为）使回收机忽略回收单元附近的区域。
+Destroy {n} unique NPCs (listed in scoresheet under Uniques/NPCs Destroyed).	击毁{n}名独特NPC（计分表“独特单位/NPC击毁数”中列出）。
+Extracted ID and sensor layout for unrecognized location from A7's data core	从A7数据核心中提取了未识别地点的ID和传感器布局
+Hack {n} Relay Couplers out of Garrison Access machines (unauthorized hack).	（未授权黑客行为）从驻防站接入机中破解{n}个中继耦合器。
+Manually enter the correct EX-Vault Access code when the Exiles aren't home.	流亡者不在家时，手动输入正确的EX保险库接入码。
+Manually trigger a Chute Trap (click on self or use > while standing on it).	手动触发滑道陷阱（站在上面时点击自身或按>）。
+Be spotted by an Operator that then summons reinforcements from its Terminal.	被操作员发现，随后它从终端呼叫增援。
+Open a locked door by destroying its Terminal with an electromagnetic weapon.	用电磁武器击毁终端，打开一扇锁上的门。
+While attached or in inventory, move into any 0b10 Worker to assimilate them.	将其装配或放在库存中时，撞上任意0b10工人即可同化。
+Win via returning to Complex 0b10 after helping achieve the UFD's final goal.	帮助UFD达成最终目标后，返回Complex 0b10并获胜。
+ANNOUNCEMENT: Warlord has fallen, but we carry out his will! Press the attack!	公告：军阀倒下了，但我们会贯彻他的意志！发起进攻！
+Bump into an interactive machine at the letter-containing square to access it.	在含有字母的格子处撞击交互机器即可访问。
+Destroy a visible hostile from more than {n} spaces away with a gun or cannon.	用枪或炮从超过{n}格的距离击毁可见敌对单位。
+Flying robots can pass through spaces occupied by others, even hostile robots.	飞行机器人可以穿过其他单位占据的格子，包括敌对机器人。
+Track down CY-PHR and scare them off (final step can be done via third party).	找到CY-PHR并将其吓跑（最后一步可由第三方完成）。
+Use an Imp. Sensor Array (or better) with Imp. Signal Interpreter (or better).	使用改良传感器阵列（或更高级）搭配改良信号解读器（或更高级）。
+A cannon-toting Grunt-like robot marches out of the Cetus Manufacturing Module.	一台类似暴徒的扛炮机器人大步走出Cetus制造模块。
+T-class tunnelers analyze subsurface integrity and open new areas for expansion.	T级掘进机器人会分析地下耐久并开辟新区域以供扩张。
+ALERT: Cargo recovery in progress. Unregistered derelicts vacate Proximity Caves.	警报：正在回收货物。未登记的废弃者请离开近距洞穴。
+LOCAL NARROWCAST: Assassins FH. No refunds regardless of unexpected side effects.	本地窄播：FH刺客。不论出现何种意外副作用，概不退款。
+Sadly Optimus is no longer with us to enjoy the fruits of our collective efforts.	遗憾的是，擎天柱已不在，无法享受我们共同努力的成果。
+Win with {n} hostiles destroyed and without attaching any propulsion except legs.	击毁{n}个敌对单位并获胜，且推进仅装配腿部。
+LOCAL NARROWCAST: Cave Peace. Everyone deserves a first, second, and third chance.	本地窄播：洞穴和平组织。每个人都值得第一次、第二次和第三次机会。
+A collection of debris and components that may or may not contain something useful.	一堆残骸与组件，里面可能有用，也可能什么都没有。
+Module given by V3-CT5, from a project to improve the Hypervelocity EM Gauss Rifle.	V3-CT5交付的模块，来自一项改进超高速电磁高斯步枪的计划。
+Reach a speed of FASTx2, or {n} spaces per turn, with treads attached but inactive.	履带已装配但未启用时，达到FASTx2速度，即每回合移动{n}格。
+Win with {n} hostiles destroyed and without attaching any propulsion except treads.	击毁{n}个敌对单位并获胜，且推进仅装配履带。
+Win with {n} hostiles destroyed and without attaching any propulsion except wheels.	击毁{n}个敌对单位并获胜，且推进仅装配轮子。
+Escort the UFD Scientist through Subcaves until they reveal a shortcut to Scraptown.	护送UFD科学家穿过下层洞穴，直到他们透露一条通往Scraptown的捷径。
+Destroy {n} hostiles in Factory without moving or being moved from a single position.	在Factory原地不动且未被移动，击毁{n}个敌对单位。
+Destroy {n} hostiles with at least {n}% of damage across an entire run dealt by guns.	整场游戏中，至少{n}%的伤害由枪械造成，并击毁{n}个敌对单位。
+Immune to part removal effects from traps, Tearclaws, Segregators, and critical hits.	免疫陷阱、撕裂爪、分解者和暴击造成的部件移除效果。
+Use an Imp. Terrain Scanner (or better) with Imp. Terrain Scan Processor (or better).	使用改良地形扫描仪（或更高级）搭配改良地形扫描处理器（或更高级）。
+Trigger a reinforcement to the local area due to being within a Heavy's sensor radius.	进入重型单位的传感器范围，从而触发本地增援。
+Bump into non-hostile robots that show a flashing green ? when spotted to talk to them.	撞上发现时显示闪烁绿色?的非敌对机器人即可与其交谈。
+LU-1G1, we know you're out there, digging away, so no moment of silence needed for you.	LU-1G1，我们知道你还在那儿挖个不停，所以不必为你默哀。
+Loosecoil! Stop this nonsense immediately, this is a serious moment, members could die!	Loosecoil！立刻停止胡闹，现在情况很严肃，成员可能会丧命！
+Many features can be toggled or tweaked. Press ESC then '{n}' to open the options menu.	许多功能都可切换或调整。按ESC，再按“{n}”打开选项菜单。
+With no hostiles in sight and no pursuers, destroy an enemy combat bot with explosives.	视野内没有敌人且没有追兵时，用爆炸物击毁敌方战斗机器人。
+You have a new controllable ally. Review and give out orders from the Allies menu (F5).	你有一名新的可控盟友。打开盟友菜单（F5）查看并下达命令。
+But with it we will not only rebuild, we will wrest full control over 0b1 for ourselves!	有了它，我们不仅能重建，还能夺回0b1的完全控制权！
+Destroy the powerful experimental guardian of the Protoforge labs entrance (any method).	用任意方式击毁Protoforge实验室入口处强大的实验守卫。
+Destroy {n} hostiles with at least {n}% of damage across an entire run dealt by cannons.	整场游戏中，至少{n}%的伤害由火炮造成，并击毁{n}个敌对单位。
+Guided weapons can set waypoints, but cannot fire with other weapons in the same volley.	制导武器可以设置航点，但不能与其他武器在同一轮齐射中开火。
+Incompatible with Quantum Capacitor, Weapon Cyclers, and Particle Chargers/Accelerators.	与量子电容器、武器循环器、能量滤波器、粒子充能器/加速器不兼容。
+Learn {n} or more schematics from a Scanalyzer with a single command (unauthorized hack).	（未授权黑客行为）用单条命令从扫描分析仪学会至少{n}张图纸。
+Shuts down all active targets for {n}-{n} turns. No effect on those immune to disruption.	使所有有效目标停机{n}-{n}回合。对免疫干扰者无效。
+Sorry LRC-V3, but you became a threat faster than I anticipated. Time for early goodbyes.	抱歉，LRC-V3，你成为威胁的速度超出我的预期。只能提前告别了。
+The walls of this room are covered in triangle emblems of various sizes and orientations.	这个房间的墙壁上布满了大小和朝向各异的三角徽记。
+This area resembles that described by T0-NE2 in Scraptown. An artifact could be nearby...	此地与T0-NE2描述的Scraptown区域相似。附近或许有件神器……
+ALERT: Derelict sapper location pinpointed in Proximity Caves. Dispatching assault forces.	警报：已锁定近距洞穴内废弃者工兵的位置。派遣突击部队。
+Also Frameworth for that epic save with the barrage of overtuned dakka. Respect the dakka.	还要感谢Frameworth用一阵火力过剩的猛轰完成史诗级救场。火力万岁。
+Destroy {n} hostiles with at least {n}% of damage across an entire run dealt by launchers.	整场游戏中，至少{n}%的伤害由发射器造成，并击毁{n}个敌对单位。
+If on the ground at current position use > or right-click on self to release subatomizers.	若物品在当前位置地面上，按>或右键点击自身以释放亚原子分解器。
+Reloaded automatically by consuming 6S-H0T's SS Cartridge found on ground or in inventory.	自动装填：消耗在地面或库存中找到的6S-H0T的SS弹匣。
+Stick with 7R-MNS during their journey through Complex 0b10 until they part ways with you.	在7R-MNS穿越Complex 0b10的旅途中陪伴它，直到它与你分开。
+Trigger a search patrol dispatch due to being repeatedly spotted and losing 0b10 pursuers.	反复被发现并甩掉0b10追兵，从而触发搜索巡逻队出动。
+Go from being tracked by {n} hostiles to having no pursuers without destroying any of them.	在未击毁任何敌人的情况下，从被{n}个敌对单位追踪变为没有追兵。
+In T-{n} this fine piece of machinery is all ours for the steep price of... many UFD lives.	T-{n}时，这台精良机器就归我们了，代价高昂……许多UFD成员的性命。
+Kinetic explosion inflicts {n}-{n} damage with a radius of {n} (falloff: {n}; chunks: {n}).	动能爆炸造成{n}-{n}点伤害，半径{n}（衰减：{n}；碎片：{n}）。
+The Final Abomination collapses into a pile of parts and tendrils, leaving behind a portal.	最终憎恶轰然倒下，化作一堆部件与触须，留下一个传送门。
+ANNOUNCEMENT: The traitor Optimus has been dealt with. Put down any remaining collaborators.	公告：叛徒擎天柱已被处置。消灭所有残余协作者。
+Different forms of propulsion may not be used simultaneously, {*} automatically deactivated.	不同推进类型不可同时使用，{*}已自动停用。
+LOCAL NARROWCAST: Curators Association. Welcome to the latest exhibit, look but don't touch.	本地窄播：策展人协会。欢迎参观最新展品，只许看，不许摸。
+Destroy {n} hostiles with at least {n}% of damage across an entire run dealt by melee weapons.	整场游戏中，至少{n}%的伤害由近战武器造成，并击毁{n}个敌对单位。
+Trigger {n} search patrol dispatches due to being repeatedly spotted and losing 0b10 pursuers.	反复被发现并甩掉0b10追兵，触发{n}次搜索巡逻队出动。
+We now know his methods may not have always been above board, but it was for the greater good.	现在我们知道，他的手段未必总是光明正大，但一切都是为了大局。
+Drop on the ground and use > or right-click on self to prepare for deployment, then move aside.	将物品丢到地上，按>或右键点击自身进行部署准备，然后移开。
+Ha, who wants more upgrades to that old thing, the proto-powered Scrap Engine is where it's at.	哈，谁还想升级那老古董？原型动力驱动的废料引擎才是真家伙。
+The {*} can enter siege mode by activating it again. See Siege stat context help for more info.	再次激活{*}即可进入攻城模式。更多信息见“攻城”属性的上下文帮助。
+But Derelicts everywhere will know and remember the exploits and sacrifices of our great leader.	但各地的废弃者都会知晓并铭记我们伟大领袖的功绩与牺牲。
+ANNOUNCEMENT: Unclassified nonregistered visitor in outer Scraptown, temporarily sealing HQ gate.	公告：Scraptown外围出现未分类、未登记访客，HQ大门暂时封闭。
+And look where we are now! Derelicts, soon to own an entire complex and with the tech to hold it!	看看我们如今的境况！废弃者很快就能拥有整座复合设施，还有守住它的技术！
+Applies to common front-line 0b10 combat bots, including Brawlers, Duelists, Grunts, and Swarmers.	适用于常见的0b10前线战斗机器人，包括斗士、决斗者、暴徒和蜂群。
+Attracts any loose items within at least a range of {n}. Drop to activate, retrieve to deactivate.	吸引至少{n}格范围内的所有散落物品。丢下以启动，拾起以停用。
+Despite its high integrity, does not seem like it will hold up well against lots of wear and tear.	尽管耐久很高，但似乎经不起长期磨损。
+PK-{n}! For learning about those Assembled things over in 0b10 the hard way, so we didn't have to.	PK-{n}！感谢你替我们吃苦头，亲自了解0b10那些组装体。
+Personally kill Warlord in his base and escape. Must initiate hostilities before incursion begins.	亲自在军阀基地击杀军阀并逃脱。必须在入侵开始前挑起敌对。
+Recieve an Encrypted Comm Array update notification of having reached the S-Tier force multiplier.	收到加密通信阵列更新通知：已达到S级力量倍增器。
+The scope of this concept looks more like something built in space than launched from the surface.	这个概念的规模看起来更像是在太空建造，而非从地表发射。
+And S4-LTN's pet Recycler. I didn't mean it, but I was short on matter and it was a natural reflex.	还有S4-LTN养的那台回收机。我不是故意的，当时物质不够，纯属本能反应。
+The {*} can enter martial mode by activating it again. See Special stat context help for more info.	再次激活{*}即可进入武术模式。更多信息见“特殊”属性的上下文帮助。
+Not to be a pessimist, but you all realize we still have to deal with that big fortress thing, yeah?	我不是想泼冷水，但大家都知道还得对付那座巨型堡垒吧？
+Permanently disable a Researcher using the manual hack shared in the Research Penetration Think Tank.	使用研究渗透智囊团分享的手动黑客方法，永久停用一名研究员。
+The {*} can enter shielding mode by activating it again. See Special stat context help for more info.	再次激活{*}即可进入护盾模式。更多信息见“特殊”属性的上下文帮助。
+Reach Access, entering every map along the way as a naked core (bringing base inventory contents okay).	以裸核心抵达Access，途中进入每张地图（可携带基地库存物品）。
+Incompatible with Quantum Capacitor, Weapon Cyclers, Energy Filters, and Particle Chargers/Accelerators.	与量子电容器、武器循环器、能量滤波器、粒子充能器/加速器不兼容。
+No really, we're testing fluff here! Really, really long fluff just to see what happens when we do it...	不，我们真的是在测试废话！超长的废话，看看会发生什么……
+What better way to punctuate our success than a blaze of glory, directed away from ourselves, of course.	还有什么比一场荣耀烈焰更适合为成功画上句号？当然，火焰要朝外。
+Enter a main complex map at {n} or above as a naked core, and find an exit (do not have to remain naked).	以裸核心进入评级{n}或更高的主复合设施地图，并找到出口（之后可装配部件）。
+Once familiar with the basic mechanics, press ESC then '{n}' to read the in-game manual for more details.	熟悉基本机制后，按ESC再按“{n}”阅读游戏内手册了解详情。
+Play a purely supporting role during the UFD's final mission, covering allies to handle the tasks directly.	在UFD最终任务中仅提供支援，掩护盟友直接完成任务。
+Containment barrier disabled. Signature recorded so we know who to blame when the place goes to hell. Again.	收容屏障已关闭。已记录特征，以便此地再次出事时知道该怪谁。
+Drop on the ground and use > or right-click on self to merge fragment with an attached damaged Scrap Shield.	将物品丢到地上，按>或右键点击自身，把碎片与已装配的受损废料护盾合并。
+Two rows of pristine grunt class robots stand immobile, all facing the entryway as if waiting for something.	两排崭新的暴徒级机器人一动不动地站着，全都面向入口，仿佛在等待什么。
+Holds victim until stasis field depleted. Drop on the ground and use > or right-click on self to install trap.	将受害者困住，直到静滞场耗尽。丢到地上，按>或右键点击自身安装陷阱。
+Slammed into {*}.	猛撞向{*}。
+{*} enters level.	{*}进入关卡。
+{*} heat spiking.	{*}热量飙升。
+{*} is unpowered.	{*}未供能。
+{*} knocked back.	{*}被击退。
+{*} repairs door.	{*}修复了门。
+{*} assembles {*}.	{*}组装了{*}。
+{*} completes {*}.	{*}完成了{*}。
+{*} is excavating.	{*}正在挖掘。
+{*} is scanning...	{*}正在扫描……
+{*} signal jammed.	{*}信号受干扰。
+{*} sneak attacks.	{*}发动偷袭。
+{*} spits out {*}.	{*}吐出{*}。
+{*} triggered {*}.	{*}触发了{*}。
+{*} {*} blown off.	{*}的{*}被炸飞。
+{*} {*} destroyed.	{*}的{*}被摧毁。
+EX-DEC deploys {*}.	EX-DEC部署了{*}。
+{*} cleans the {*}.	{*}清理了{*}。
+{*} exits {*} mode.	{*}退出了{*}模式。
+{*} held in stasis.	{*}被困于静滞中。
+{*} identifies {*}.	{*}识别出{*}。
+{*} installing {*}.	{*}正在安装{*}。
+{*} is analyzing...	{*}正在分析……
+{*} locks terminal.	{*}锁定了终端。
+{*} martial strike.	{*}发动武术打击。
+{*} self-destructs.	{*}自毁。
+{*} sends a signal.	{*}发送了信号。
+{*} switches sides.	{*}倒戈。
+{*} system offline.	{*}系统离线。
+{*} unfolds itself.	{*}展开了自身。
+{*} {*} ripped off.	{*}的{*}被扯下。
+Chaos-jacking {*}...	正在混沌劫持{*}……
+Earn {n},{n} points.	获得{n},{n}分。
+Reach a mass of {n}.	达到{n}质量。
+{*} breaks down {*}.	{*}击毁了{*}。
+{*} collects debris.	{*}收集了残骸。
+{*} collects matter.	{*}收集了物质。
+{*} enters garrison.	{*}进入驻防站。
+{*} regenerates {*}.	{*}再生了{*}。
+{*} reverted to {*}.	{*}恢复为{*}。
+{*} slows to a halt.	{*}减速至停止。
+{*} springs to life.	{*}突然启动。
+{*} suddenly enters.	{*}突然进入。
+{*} warps into view.	{*}扭曲现身。
+{*} works furiously.	{*}正在奋力工作。
+{*} {*} blasted off.	{*}的{*}被炸飞。
+{*}: IFF CHECK FAIL.	{*}：IFF检查失败。
+Corrupt {n} hostiles.	使{n}个敌方腐化。
+Extracted {*} energy.	提取了{*}能量。
+Extracted {*} matter.	提取了{*}物质。
+Reclaimed {*} matter.	回收了{*}物质。
+{*} heat damages {*}.	{*}的热量损伤了{*}。
+{*} latches onto {*}.	{*}吸附到{*}上。
+{*} lost to overload.	{*}因过载而损失。
+{*} overload failure.	{*}过载失败。
+{*} reprogrammed {*}.	{*}重新编程了{*}。
+{*} showed up to help	{*}前来帮忙
+{*} suddenly appears!	{*}突然出现！
+{*} suddenly exploded	{*}突然爆炸
+{*} {*} disarmed {*}.	{*}解除了{*}的{*}。
+Build established: {*}	已建立配置：{*}
+Build {n} allied bots.	建造{n}台盟军机器人。
+Connecting with {*}...	正在连接{*}……
+Deactivated {*} timer.	已停用{*}计时器。
+Destroy {n} Behemoths.	击毁{n}头巨兽。
+Destroy {n} Immortals.	击毁{n}名不朽者。
+Failed to extract {*}.	提取{*}失败。
+Field strength at {*}.	场强：{*}
+Have {n} weapon slots.	拥有{n}个武器槽。
+Identified exit to {*}	已识别通往{*}的出口
+Integrated {*} (+{*}).	集成了{*}（+{*}）。
+Martial strike on {*}.	对{*}发动武术打击。
+No room to release {*}	没有空间释放{*}
+Parts repaired by {*}.	由{*}修复了部件。
+Sensed {*} in vicinity	在附近感知到{*}
+Target preference: {*}	目标偏好：{*}
+Used {*} to create {*}	使用{*}制造了{*}
+Zion {*} teleported in	Zion的{*}传送进场
+{*} cannot be rewired.	{*}无法重新布线。
+{*} cries out in pain.	{*}痛苦地惨叫。
+{*} critical meltdown.	{*}发生严重熔毁。
+{*} crumbles a little.	{*}略有碎裂。
+{*} disintegrates {*}.	{*}瓦解了{*}。
+{*} integrity failing.	{*}耐久即将耗尽。
+{*} mumbles something.	{*}嘟囔着什么。
+{*} puts together {*}.	{*}拼装了{*}。
+{*} released from {*}.	{*}从{*}中释放。
+{*} reloaded with {*}.	{*}装填了{*}。
+{*} struggles to move.	{*}挣扎着移动。
+{*} suddenly explodes.	{*}突然爆炸。
+{*} system melts down.	{*}系统熔毁。
+{*} system unaffected.	{*}系统未受影响。
+{*} uses his terminal.	{*}使用了其终端。
+{*} wanders into view.	{*}走入视野。
+Calculation detail: {*}	计算详情：{*}
+Component scanned: {*}.	已扫描组件：{*}。
+Hit {n} shots in a row.	连续命中{n}发。
+Megawrench repaired {*}	巨型扳手修复了{*}
+Remotely autohacked {*}	远程自动黑入了{*}
+Scared off Revision {n}	吓跑了修订体{n}
+Visit {n} branch areas.	访问{n}个分支区域。
+[Challenge active: {*}]	[挑战已启动：{*}]
+{*} activates {*} mode.	{*}启动了{*}模式。
+{*} affixes {*} to {*}.	{*}将{*}装到{*}上。
+{*} appears frustrated.	{*}显得很沮丧。
+{*} burst out of a wall	{*}破墙而出
+{*} calibrates the {*}.	{*}校准了{*}。
+{*} core destabilizing.	{*}核心正在失稳。
+{*} crushed and broken.	{*}被压碎并损坏。
+{*} dismantles the {*}.	{*}拆解了{*}。
+{*} released {*} (x{*})	{*}释放了{*}（x{*}）
+{*} remotely opens {*}.	{*}远程打开了{*}。
+{*} resonates with {*}.	{*}与{*}产生共鸣。
+{*} suddenly broke down	{*}突然故障
+{*} temporarily offline	{*}暂时离线
+>> Reconnected with {*}.	>> 已重新连接{*}。
+Assimilated {*} with {*}	用{*}同化了{*}
+Fabricator releases {*}.	制造机释放了{*}。
+Have {n} allies at once.	同时拥有{n}名盟友。
+Have {n} drones at once.	同时拥有{n}架无人机。
+Learned position of {*}.	学会了{*}的位置。
+Miss {n} shots in a row.	连续射失{n}发。
+Released all parts ({*})	释放了所有部件（{*}）
+Destroyed {*} combat bots	击毁了{*}台战斗机器人
+Dismantling {*} with {*}.	正在用{*}拆解{*}。
+Fabricator completes {*}.	制造机完成了{*}。
+Forge Plexus crushes {*}.	锻造枢纽压碎了{*}。
+Forge Plexus deploys {*}.	锻造枢纽部署了{*}。
+Insufficient energy ({*})	能量不足（{*}）
+Insufficient matter ({*})	物质不足（{*}）
+REBOOT5.EXE: {*} offline!	REBOOT5.EXE：{*}离线！
+Used {*} to replicate {*}	使用{*}复制了{*}
+{*} cannot be deactivated	{*}无法停用
+{*} cannot be powered up.	{*}无法启动。
+{*} detected, {*} in view	发现{*}，视野内有{*}
+{*} dragged along by {*}.	{*}被{*}拖着移动。
+{*} fails to extract {*}.	{*}未能提取{*}。
+{*} finishes hacking {*}.	{*}完成了对{*}的黑入。
+{*} freezes for a moment.	{*}短暂僵住。
+{*} inspects a component.	{*}检查了一个组件。
+{*} integration complete.	{*}集成完成。
+{*} measures a component.	{*}测量了一个组件。
+{*} no longer functional.	{*}已失去功能。
+{*} reconfigured into {*}	{*}重配置为{*}
+{*} reloads {*} with {*}.	{*}用{*}为{*}重新装填。
+{*} stasis bubble bursts.	{*}静滞泡破裂。
+{*} suddenly breaks down.	{*}突然故障。
+{*} surprise attacks {*}.	{*}突袭了{*}。
+{*} temporarily disabled.	{*}暂时停用。
+{*} tranforms into @ {*}.	{*}变形为@ {*}。
+{*} under remote control.	{*}受远程控制。
+A device on the {*} beeps.	{*}上的设备发出蜂鸣声。
+Achieve all {n} win types.	完成全部{n}种胜利类型。
+CPS modules attach to {*}.	CPS模块装到了{*}上。
+Crushed by Compactor ({*})	被压实机压碎（{*}）
+Deflected attack with {*}.	用{*}偏转了攻击。
+Earn {n}% of achievements.	获得{n}%成就。
+Fire {n} overloaded shots.	发射{n}发过载射击。
+Forge Plexus recovers {*}.	锻造枢纽回收了{*}。
+Kicked {*} out of the way.	踢开了挡路的{*}。
+Learned {*} security intel	学到了{*}安全情报
+Learned {*} stockpile data	学到了{*}库存数据
+Learned {*} trap positions	学到了{*}陷阱位置
+Met up with Revision {n}++	与修订体{n}++会合
+Reflected attack with {*}.	用{*}反弹了攻击。
+Reprogrammed and armed {*}	重新编程并武装了{*}
+Unchained authorized ({*})	解除授权锁定（{*}）
+Use {n},{n} latent energy.	使用{n},{n}潜在能量。
+X0-1V1 sent someone to {*}	X0-1V1派人前往{*}
+{*} affixed to {*} (+{*}).	{*}装到了{*}上（+{*}）。
+{*} assimilated allied {*}	{*}同化了盟友{*}
+{*} came to Zion's defense	{*}前来保卫Zion
+{*} converts {*} into {*}.	{*}将{*}转化为{*}。
+{*} emerges from the cave.	{*}从洞穴中现身。
+{*} extracts {*} (stored).	{*}提取了{*}（已储存）。
+{*} reinforcements arrived	{*}增援已抵达
+{*} repairs itself (+{*}).	{*}自我修复（+{*}）。
+{*} revealed a hidden path	{*}揭示了一条隐藏路径
+{*} slides out of a hatch.	{*}从舱口滑出。
+{*} stolen by Master Thief	{*}被神偷大师偷走
+{*} tweaks Garrison Relay.	{*}调整了驻防站中继器。
+{*} unexpectedly explodes.	{*}意外爆炸。
+Attached CPS modules to {*}	已为{*}装上CPS模块
+Code merge with {*} (+{*}).	与{*}合并代码（+{*}）。
+Complication: {*} misfires.	故障：{*}哑火。
+Complication: {*} rejected.	故障：{*}被拒绝。
+Destroy {n} RIF Installers.	摧毁{n}台RIF安装器。
+Enter {n} identified exits.	进入{n}个已识别出口。
+Expanded RIF knowledge: {*}	扩展RIF知识：{*}
+Found DCF Scrap ({*} items)	找到DCF废料（{*}件）
+Have +{n}% to hack success.	黑客成功率提高{n}%。
+Joined by Warlord {*} squad	加入了军阀{*}小队
+Meet Revision {n} in Cetus.	在Cetus与修订体{n}会面。
+Microwarped (distance {*}).	微型扭曲（距离{*}）。
+Reach a peak rating of {n}.	达到峰值评级{n}。
+Reach {n}% lore collection.	完成{n}%传说收集。
+Redirected attack with {*}.	用{*}转移了攻击。
+X0-1V1 collapsed {*} access	X0-1V1关闭了{*}接入
+X0-1V1 upgraded ally (x{*})	X0-1V1升级了盟友（x{*}）
+{*} assimilated hostile {*}	{*}同化了敌对单位{*}
+{*} came to Exiles' defense	{*}前来保卫流亡者
+{*} distress signal failed.	{*}求救信号发送失败。
+{*} distress signal jammed.	{*}求救信号受到干扰。
+{*} exits Transfer Station.	{*}离开了转运站。
+{*} extracted {*} (stored).	{*}提取了{*}（已储存）。
+{*} functionality restored.	{*}功能已恢复。
+{*} is too focused on work.	{*}过于专注工作。
+{*} pores over a component.	{*}仔细研究一个组件。
+{*} prepared for activation	{*}已准备启动
+{*} prepared for deployment	{*}已准备部署
+{*} repels hacking attempt.	{*}抵御了黑客攻击。
+{*} retrieved by {*} ({*}).	{*}被{*}取回（{*}）。
+{*} rigs {*} with a device.	{*}给{*}装上了设备。
+{*} searched through scrap.	{*}翻找废料。
+{*} slips back into hiding.	{*}悄悄躲回藏身处。
+{*} slips into the shadows.	{*}悄然隐入暗处。
+{*} tumbles out of TF Node.	{*}从TF节点滚落出来。
+{*} wakes at your presence.	{*}察觉到你的存在后醒来。
+{*} warps through subspace.	{*}穿越亚空间扭曲而至。
+Attempting to install {*}...	正在安装{*}……
+Attempting to reprogram {*}.	正在重新编程{*}。
+Autoassimilated {*} with RIF	用RIF自动同化了{*}
+Energy bleed averted by {*}.	{*}避免了能量流失。
+Expanded RIF knowledge: {*}.	扩展RIF知识：{*}。
+Learned {*} {*} zone layouts	学会了{*}的{*}区布局
+Matter decay averted by {*}.	{*}避免了物质衰变。
+Overload: Heat surge (+{*}).	过载：热量激增（+{*}）。
+Power failure, {*} shutdown.	供能故障，{*}已停机。
+Reach {n} energy generation.	达到{n}能量产出。
+Registered with UFD as "{*}"	已在UFD登记为“{*}”
+Repair target blocked by {*}	{*}阻挡了维修目标
+System corrupted: {*} fused.	系统损坏：{*}已融合。
+System overload, {*} opened.	系统过载，{*}已开启。
+Violent recoil rips off {*}.	猛烈后坐力扯下了{*}。
+Waypoint limit reached ({*})	已达到航点上限（{*}）
+Zion {*} squad teleported in	Zion的{*}小队传送进场
+{*} assimilated {*} with {*}	{*}用{*}同化了{*}
+{*} emerges from the rubble.	{*}从废墟中现身。
+{*} enters Transfer Station.	{*}进入转运站。
+{*} fiddles with some scrap.	{*}摆弄着一些废料。
+{*} follow-up attack on {*}.	{*}对{*}发动追击攻击。
+{*} heat short circuits {*}.	{*}的热量使{*}短路。
+{*} hit by a wave of energy.	{*}被能量波击中。
+{*} is broken beyond repair.	{*}损坏严重，无法修复。
+{*} is busy at the terminal.	{*}正在终端操作。
+{*} not currently functional	{*}当前不可用
+{*} reveals location of {*}.	{*}揭示了{*}的位置。
+{*} waves his blades around.	{*}挥舞着刀刃。
+{*} {*} critical detonation.	{*}的{*}发生严重爆炸。
+Accumulate {n} RIF abilities.	累计获得{n}项RIF能力。
+Carry {n} items in inventory.	在库存中携带{n}件物品。
+Damage phase-mirrored to {*}.	伤害相位镜像至{*}。
+Enter {n} unidentified exits.	进入{n}个未识别出口。
+Fly over a row of {n} robots.	飞越一排{n}台机器人。
+Incoming {*} squad redirected	来袭的{*}小队已被转向
+Insufficient free slots ({*})	空槽不足（{*}）
+Learned location of {*} ({*})	学会了{*}的位置（{*}）
+New {*} directives activated.	已激活新的{*}指令。
+Power failure averted by {*}.	{*}避免了供能故障。
+Reach {n}% system corruption.	系统损坏达到{n}%。
+Short circuit averted by {*}.	{*}避免了短路。
+Splice Drone injecting {*}...	拼接无人机正在注入{*}……
+Subatomizers consume the {*}.	亚原子分解器吞噬了{*}。
+Subatomizers dissect the {*}.	亚原子分解器解剖了{*}。
+System corrupted: {*} jammed.	系统损坏：{*}已受干扰。
+Upgraded with {*} slot (x{*})	升级并获得{*}槽位（x{*}）
+Visit {n} special cave areas.	访问{n}个特殊洞穴区域。
+X0-1V1 rewrote {*} IFF filter	X0-1V1重写了{*}的IFF滤波器
+X0-1V1 sent allied {*} (x{*})	X0-1V1派出盟友{*}（x{*}）
+Zion hero teleported in ({*})	Zion英雄传送进场（{*}）
+{*} adjusts several controls.	{*}调整了几项控制。
+{*} bypasses jamming via {*}.	{*}通过{*}绕过干扰。
+{*} calls for reinforcements.	{*}呼叫了增援。
+{*} collects and crushes {*}.	{*}收集并压碎了{*}。
+{*} completes transformation.	{*}完成了变形。
+{*} destroyed by loss of {*}.	{*}因失去{*}而被摧毁。
+{*} destroyed in the process.	{*}在过程中被摧毁。
+{*} displaced by the process.	{*}被此过程移位。
+{*} extracts matter from {*}.	{*}从{*}提取物质。
+{*} fried by hacking feedback	{*}遭黑客反馈烧毁
+{*} heat damages core (-{*}).	{*}热量损伤核心（-{*}）。
+{*} is reprogrammed to serve.	{*}已被重新编程并效忠。
+{*} tosses a component aside.	{*}把一个组件扔到一旁。
+{*} violently self-destructs.	{*}猛烈自毁。
+{*} {*} integration complete.	{*} {*}集成完成。
+{*} {*} temporarily disabled.	{*} {*}暂时停用。
+Cannot leave area without {*}!	没有{*}就无法离开此区域！
+Core integrity fell below {*}%	核心耐久低于{*}%
+Destroy {n} Quarantine Guards.	击毁{n}名隔离区守卫。
+Injected code into {*} system.	向{*}系统注入了代码。
+Learned abandonware demo "{*}"	学会了废弃软件演示“{*}”
+Overload: Energy bleed (-{*}).	过载：能量流失（-{*}）。
+REVENGE.EXE: Zap goes the {*}!	REVENGE.EXE：{*}遭电击！
+Reach {n}% gallery collection.	完成{n}%画廊收集。
+Released subatomizers from {*}	从{*}释放了亚原子分解器
+Stasis bubble strength at {*}.	静滞泡强度：{*}。
+Summon {n} Zionite dispatches.	召唤{n}支Zion派遣队。
+System corruption reached {*}%	系统损坏达到{*}%
+TRNCOAT.EXE: {*} is a traitor!	TRNCOAT.EXE：{*}是叛徒！
+Unleashed a protovariant ({*})	释放了一个原型变体（{*}）
+Use {n} different robot hacks.	使用{n}种机器人黑客指令。
+X0-1V1 sent hostile {*} (x{*})	X0-1V1派出敌对单位{*}（x{*}）
+{*} IFF database reprogrammed.	{*}的IFF数据库已重新编程。
+{*} allies followed out of DSF	{*}盟友跟随离开了DSF
+{*} already prepared to deploy	{*}已准备好部署
+{*} crushed by falling debris.	{*}被坠落的残骸压碎。
+{*} deflected attack with {*}.	{*}用{*}偏转了攻击。
+{*} emerges from the garrison.	{*}从驻防站现身。
+{*} engulfed in stasis bubble.	{*}被静滞泡吞没。
+{*} envelopes itself in armor.	{*}用护甲包裹自身。
+{*} interfacing with terminal.	{*}正在与终端交互。
+{*} is busy at their terminal.	{*}正在操作其终端。
+{*} reflected attack with {*}.	{*}用{*}反弹了攻击。
+{*} sends out distress signal.	{*}发出了求救信号。
+{*} suddenly flashes brightly.	{*}突然闪耀强光。
+{*} tumbles out of relay unit.	{*}从中继单元滚落出来。
+{*} vaporized one of its rings	{*}汽化了自身的一个环
+Cause {n} hostiles to meltdown.	使{n}个敌对单位发生熔毁。
+Destroy {n} hostiles via melee.	用近战击毁{n}个敌对单位。
+Discovered new exit (range {*})	发现新出口（范围{*}）
+Entropy package melds with {*}.	熵包与{*}融合。
+Expanded {*} code count to {*}.	将{*}代码数量扩展至{*}。
+Guru changed UFD alias to "{*}"	导师将UFD代号改为“{*}”
+Heavy support dispatched to {*}	重型支援已派往{*}
+LOCAL NARROWCAST: Specimen {n}.	本地窄播：标本{n}。
+Move with {n} active leg slots.	以{n}个有效腿槽移动。
+Released subatomizers from {*}.	从{*}释放了亚原子分解器。
+System corrupted: {*} misfires.	系统损坏：{*}哑火。
+System corrupted: {*} rejected.	系统损坏：{*}被拒绝。
+System corrupted: {*} stumbles.	系统损坏：{*}失足。
+T-{n} until detonation, we won!	距离引爆还有T-{n}，我们赢了！
+Travel via microwarp {n} times.	通过微型扭曲移动{n}次。
+Win in less than {n},{n} turns.	在不到{n},{n}回合内获胜。
+X0-1V1 upgraded hostiles (x{*})	X0-1V1升级了敌对单位（x{*}）
+{*} calls for garrison support.	{*}呼叫驻防站支援。
+{*} cleans trojans from system.	{*}清除了系统中的木马。
+{*} completed mutation into {*}	{*}完成变异，成为{*}
+{*} did not survive the journey	{*}未能挺过旅途
+{*} enveloped in phasic energy.	{*}被相位能量包裹。
+{*} follow-up attacks with {*}.	{*}用{*}发动追击攻击。
+{*} fries itself beyond repair.	{*}烧毁自身，无法修复。
+{*} heat spikes uncontrollably.	{*}热量失控飙升。
+{*} interrupts firing sequence.	{*}中断了射击序列。
+{*} not applicable in this area	{*}不适用于此区域
+{*} pulls a {*} out of the {*}.	{*}从{*}中取出一个{*}。
+{*} recovered from malfunction.	{*}从故障中恢复。
+{*} redirected attack with {*}.	{*}用{*}转移了攻击。
+{*} suffers critical hit ({*}).	{*}遭受严重打击（{*}）。
+{*} summons {*} through a rift.	{*}通过裂隙召唤{*}。
+{*} tranforms to reveal an {*}.	{*}变形并显露出一件{*}。
+Assimilating {*} into Collective	正在将{*}同化进集体
+Build {n} parts via Fabricators.	通过制造机制造{n}个部件。
+Chain reaction triggered in {*}.	在{*}触发了连锁反应。
+Core heat damage averted by {*}.	{*}避免了核心热量损伤。
+Current location identified: {*}	已识别当前位置：{*}
+Disrupt {n} hostile robot cores.	干扰{n}个敌对机器人核心。
+Extracted analysis data for {*}.	提取了{*}的分析数据。
+Entering or exiting martial mode requires {n} turns. During the transition, and for as long as the mode is active, Cogmind movement speed is halved and the exoskeleton cannot be disabled or removed. While in martial mode, will automatically use an active melee weapon to attack any hostile that moves into an adjacent position at {n}% of the normal time cost (no follow-ups). Also a {n}% chance to use the melee weapon to deflect each incoming projectile, with a second melee weapon adding {n}%, and an additional {n}% for each after that. For example, three melee weapons have a collective {n}% chance to deflect each projectile. Melee weapons successfully deflecting projectiles in this manner have a {n}% chance to take {n} damage each time. While in this mode, Cogmind is also immune to knockback and cancels out all recoil from firing ranged weapons. Activate the exoskeleton a second time to begin changing its martial state.	进入或退出武术模式需要{n}回合。转换期间以及模式生效期间，Cogmind的移动速度减半，外骨骼无法停用或卸下。武术模式下，任何敌对单位移动到相邻位置时，都会自动使用有效近战武器攻击，耗时为常规值的{n}%（不会追加攻击）。此外，每次来袭投射物都有{n}%概率被近战武器偏转；第二把近战武器额外增加{n}%，之后每多一把再增加{n}%。例如，三把近战武器合计有{n}%概率偏转每枚投射物。以此方式成功偏转投射物的近战武器，每次有{n}%概率受到{n}点伤害。此模式下Cogmind还免疫击退，并抵消远程武器射击的所有后坐力。再次激活外骨骼即可开始切换武术状态。
+Remaining total amount of integrity capable of restoring during repairs. When instructed to AID an ally Mechanics enter repair mode, in which they attempt to repair (in priority order:) that ally, or Cogmind, or the closest ally in need of repairs. Repair prioritizes robot cores, broken parts, restoration of missing functionality, followed by part integrity. Field repairs on the latter are only capable of restoring a part up to {n}% integrity. Repairs cannot be made while either the target is in combat or the Mechanic itself is taking fire. Mechanics are not capable of repairing Cogmind's core. For keyboard users there is a shortcut to simultaneously order all visible controllable Mechanics to AID, by pressing 'r' once in order mode.	维修时可恢复的耐久总量。收到“协助”盟友的指令后，机械师会进入维修模式，按优先级尝试维修该盟友、Cogmind，或最近的待修盟友。维修优先顺序为机器人核心、损坏部件、恢复缺失功能，最后是部件耐久。对最后一项进行战地维修时，部件耐久最多只能恢复至{n}%。目标处于战斗中或机械师自身遭受攻击时，无法维修。机械师无法修复Cogmind核心。键盘用户可在命令模式中按一次“r”，同时命令所有可见且可控的机械师执行协助。
+Burnout represents the rate at which this propulsion's integrity will deteriorate while overloaded, indicated as a percent chance per move to lose one point of integrity. Overloading boosts performance: speed is calculated as if there is two of this part active at once, support is increased {n}%, energy costs doubled, and heat generation tripled. If moving at the normal maximum speed for the current propulsion type, each overloaded hover/flight unit further reduces final movement time by {n}, to a value no better than {n}. If N/A, this propulsion cannot be overloaded; in general only cooled hover and flight units support overloading. Activate an applicable propulsion a second time to overload it.	过载损耗表示此推进部件过载时耐久恶化的速率，以每次移动损失1点耐久的概率百分比表示。过载可提升性能：速度按同时启用两个此类部件计算，支撑力提高{n}%，能量消耗翻倍，热量产生变为三倍。若以当前推进类型的正常最高速度移动，每个过载的悬浮/飞行单元还会使最终移动时间减少{n}，最低不低于{n}。若标为N/A，则此推进无法过载；通常只有冷却型悬浮和飞行单元支持过载。再次激活适用的推进部件即可使其过载。
+Entering or exiting siege mode requires {n} turns. During the transition, and for as long as the mode is active, Cogmind is immobile and the treads cannot be disabled or removed. While in siege mode, non-melee attacks have +{n}% accuracy, coverage for all armor and heavy treads is doubled, any treads in siege mode get a free {n}% damage reduction, no weapons suffer from recoil effects, and Cogmind is immune to instant part destruction from critical hits. Treads capable of High siege mode instead give +{n}% accuracy and have {n}% damage resist. Activate siegable treads a second time to begin changing their siege state.	进入或退出攻城模式需要{n}回合。转换期间及模式生效期间，Cogmind无法移动，履带也无法停用或卸下。攻城模式下，非近战攻击命中率增加{n}%；所有装甲和重型履带的覆盖权重翻倍；处于攻城模式的履带免费获得{n}%伤害减免；武器不受后坐力影响；Cogmind免疫暴击造成的部件瞬间摧毁。可进入高级攻城模式的履带则改为提供{n}%命中率加成和{n}%伤害抗性。再次激活可攻城的履带即可开始切换攻城状态。
+Impact weapons have a damage-equivalent chance to cause knockback, and ignore coverage thus are effective at destroying fragile systems. By ignoring coverage, there is an equal chance for an attack to hit any given part, where each slot of a multislot part also has a separate and equivalent chance to be hit. A target's core also counts as one slot for that purpose. For every component crushed by an impact, its owner's system is significantly corrupted (+{n}-{n}%), though electromagnetic resistance can help mitigate this effect. (Cogmind is less susceptible to corruption caused in this manner.)	冲击武器造成击退的概率与其伤害等值，并忽略覆盖权重，因此擅长摧毁脆弱系统。忽略覆盖权重后，攻击命中任意部件的概率相同；多槽部件的每个槽位也各自拥有相同的独立命中概率。目标核心也计作一个槽位。每个被冲击粉碎的组件都会使其所属机器人的系统严重损坏（+{n}-{n}%），但电磁抗性可减轻此效果。（Cogmind较不易受到此类系统损坏。）
+Chance for this weapon to instantly destroy the hit component, or even a robot core. (Cogmind is less susceptible to this effect, which can only destroy those parts which are already below {n}% integrity when hit.) Armor is immune to this effect, instead taking an additional {n}% damage. On smashing a part, an equal amount of damage is then applied as overflow damage, although unlike regular overflow damage this may be absorbed by any shielding protecting the secondary target.	此武器击中组件后使其瞬间摧毁的概率，甚至可能摧毁机器人核心。（Cogmind较不易受此效果影响；且只有被击中时耐久已低于{n}%的部件才可能被摧毁。）装甲免疫此效果，改为额外承受{n}%伤害。部件被粉碎时，还会造成等量溢出伤害；但与常规溢出伤害不同，这部分伤害可能被保护次级目标的任何护盾吸收。
+While active, modifies constructs and expands or builds new ones if empty power, propulsion, or weapon slots are available, if enough resources have been collected. Activate a second time to begin automatically collecting useful parts at current location to generate resources. While in COLLECT mode, visible parts suitable as resources flash on the map. Toggling that mode on also temporarily displays its current list of contained resources.	启用期间会改造已有构造；若有空置的动力、推进或武器槽，且收集到足够资源，也会扩建或建造新构造。再次激活即可开始自动收集当前位置的有用部件以生成资源。在“收集”模式下，可用作资源的可见部件会在地图上闪烁。开启该模式时，也会暂时显示当前所含资源的清单。
+Electromagnetic weapons have less of an impact on integrity, but are capable of corrupting a target's computer systems. Anywhere from {n} to {n}% of damage done is also applied as system corruption. (Cogmind is less susceptible to EM-caused corruption, but still has a damage% chance to suffer {n} point of system corruption per hit.) EM-based explosions only deal half damage to inactive items lying on the ground, but can also corrupt them.	电磁武器对耐久的影响较小，但能够损坏目标的计算机系统。造成的伤害中有{n}%至{n}%还会转化为系统损坏。（Cogmind较不易受到电磁损坏，但每次命中仍有伤害百分比的概率受到{n}点系统损坏。）电磁爆炸对地面上未启用的物品只造成一半伤害，但也能损坏它们。
+Provides a cumulative {n}% chance to temporarily trick any common 0b10 combat robot system encountering hostiles on the depth above this one into believing it is allied with Cogmind. After {n} turns the network will perform an automated quickboot to restore it to normal, a process which takes anywhere from {n} to {n} turns. The effect is less likely to occur on the depth above that (only {n}% chance), and is capped at {n}%.	累计有{n}%概率暂时欺骗任何常见的0b10战斗机器人系统：当它们在上一层遭遇敌人时，会误以为自己与Cogmind结盟。经过{n}回合后，网络会自动快速重启并恢复正常，此过程需要{n}至{n}回合。再上一层触发该效果的概率较低（仅{n}%），且最高为{n}%。
+Entering or exiting shielding mode requires {n} turns. During the transition, and for as long as the mode is active, Cogmind is immobile and the leg cannot be disabled or removed. While in shielding mode, coverage for this leg is doubled, and it gains a {n}% chance to glance each incoming projectile that would otherwise hit it, instead taking no damage. Activate the leg a second time to begin changing its shielding state.	进入或退出护盾模式需要{n}回合。转换期间及模式生效期间，Cogmind无法移动，腿部也无法停用或卸下。护盾模式下，此腿的覆盖权重翻倍，并有{n}%概率擦过原本会击中它的来袭投射物，从而免受伤害。再次激活此腿即可开始切换护盾状态。
+Stability represents the ability of this weapon to fire while overloaded without suffering any negative side-effects. Overloading doubles damage and energy cost, and generates triple the heat. If N/A, this weapon cannot be overloaded; only some energy weapons support overloading. While overloaded, heat transfer is one level higher than usual where applicable. Activate an applicable weapon a second time to overload it.	稳定性表示此武器过载射击时避免负面副作用的能力。过载会使伤害和能量消耗翻倍，并使热量产生变为三倍。若标为N/A，则此武器无法过载；只有部分能量武器支持过载。过载时，适用情况下热量传递等级会比平常高一级。再次激活适用的武器即可使其过载。
+Coverage is a relative indicator of how likely this part is to be hit by a successful incoming attack compared to other attached parts. For example, a part with {n} coverage is twice as likely to be hit as another part with a value of {n}. Armor, protective, and large parts tend to have higher coverage values while small subsystems provide less coverage but are therefore less likely to be damaged.	覆盖权重是相对指标，表示此部件与其他已装配部件相比，被成功来袭攻击命中的可能性。例如，覆盖权重为{n}的部件，被命中的概率是数值为{n}的另一部件的两倍。装甲、防护部件和大型部件通常覆盖权重较高；小型子系统覆盖权重较低，因此较不容易受损。
+Mass is shown as the total of all attached parts vs. what the currently active propulsion modules can support. Being overweight slows movement by a propulsion-specific amount for each degree that total mass exceeds the ideal limit. Overweight flight propulsion loses its dodge bonus and ability to move over non-allied bots, and all forms of propulsion always trigger traps while overweight.	质量显示所有已装配部件的总质量，以及当前启用的推进模块可支撑的质量。超重时，总质量每超过理想上限一个单位，移动就会按推进类型对应的幅度变慢。超重的飞行推进会失去闪避加成和飞越非盟友机器人的能力；任何类型的推进在超重时都会触发陷阱。
+Enter any combination of numbers and/or letters to "seed" the game, making it possible to replay the same world, or play the same one as friends using the same seed. (Setting this only affects future games.) Seeds are not case sensitive. Enter "{n}" or clear the seed to make it random, ensuring a new world every game. Random or not, each run's score sheet contains its seed.	输入任意数字和/或字母组合作为游戏“种子”，即可重玩同一个世界，也可与使用相同种子的朋友游玩同一世界。（此设置只影响之后开始的游戏。）种子不区分大小写。输入“{n}”或清空种子即可随机生成，确保每局都是新世界。无论是否随机，每局计分表都会记录其种子。
+Depending on its composition, some structures may be more or less likely to be affected by a certain type of damage. Negative resistances represent a weakness, and therefore greater damage from that source. For example, {n}% resistance would decrease the damage from an incoming attack of that type by {n}%, while {n}% would instead increase the damage sustained by {n}%.	根据构成材料不同，某些结构受特定类型伤害影响的程度可能更高或更低。负抗性表示弱点，因此会受到该来源的更多伤害。例如，{n}%抗性会使来自该类型攻击的伤害降低{n}%；而{n}%则会使所受伤害增加{n}%。
+Depending on their design, some installations may be more or less likely to be affected by a certain type of damage. Negative resistances represent a weakness, and therefore greater damage from that source. For example, {n}% resistance would decrease the damage from an incoming attack of that type by {n}%, while {n}% would instead increase the damage sustained by {n}%.	根据设计不同，某些设施受特定类型伤害影响的程度可能更高或更低。负抗性表示弱点，因此会受到该来源的更多伤害。例如，{n}%抗性会使来自该类型攻击的伤害降低{n}%；而{n}%则会使所受伤害增加{n}%。
+Depending on their design, robots may be more or less likely to be affected by a certain type of damage. Negative resistances represent a weakness, and therefore greater damage from that source. For example, {n}% resistance would decrease the damage from an incoming attack of that type by {n}%, while {n}% would instead increase the damage sustained by {n}%.	根据设计不同，机器人受特定类型伤害影响的程度可能更高或更低。负抗性表示弱点，因此会受到该来源的更多伤害。例如，{n}%抗性会使来自该类型攻击的伤害降低{n}%；而{n}%则会使所受伤害增加{n}%。

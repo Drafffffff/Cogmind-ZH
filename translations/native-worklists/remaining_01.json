@@ -1,0 +1,476 @@
+[
+  {
+    "raw": "The earth collapses behind ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x53e175",
+        "assembly_file": "build/rea/fragment-windows/53e175.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "The earth collapses behind ",
+            "string_va": "0xbd82a4",
+            "xref_evidence": "ev_5b28572d5c401d9b5b011630264feb0407611a462bb6111b50eb35947a8e4cad"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " route. See that they get there.",
+    "classification": "unknown",
+    "references": [],
+    "reference_note": "Use native-dynamic-strings.json addresses and full exe-text.asm; fragment may differ by source formatting."
+  },
+  {
+    "raw": " twisted beyond recognition.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x5583c0",
+        "assembly_file": "build/rea/fragment-windows/5583c0.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " twisted beyond recognition.",
+            "string_va": "0xbda4cc",
+            "xref_evidence": "ev_3af02dd33b9b6c2b7c438b810e2a5cfcec57ec2859b48dfe29ef1a171d9377dc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " containment failure.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x5583d2",
+        "assembly_file": "build/rea/fragment-windows/5583d2.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " containment failure.",
+            "string_va": "0xbda4ec",
+            "xref_evidence": "ev_d7f5afbe0efd176a9f05d5d8f3a55a417aecd5620136cabc61fff49376dcc7a1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "Access unavailable below ",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x5706c8",
+        "assembly_file": "build/rea/fragment-windows/5706c8.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "Access unavailable below ",
+            "string_va": "0xbe2eec",
+            "xref_evidence": "ev_db69d3dab202b24144a33307702666c4305ed12410201a8fc89a2d8947e0155b"
+          }
+        ]
+      },
+      {
+        "xref": "0x5709c2",
+        "assembly_file": "build/rea/fragment-windows/5709c2.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "Access unavailable below ",
+            "string_va": "0xbe3524",
+            "xref_evidence": "ev_b03a5503dfb20f02fa58bf655d031715337922de0247dd98304b9ddd31e4dc7a"
+          }
+        ]
+      },
+      {
+        "xref": "0x5c4472",
+        "assembly_file": "build/rea/fragment-windows/5c4472.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "Access unavailable below ",
+            "string_va": "0xbe5390",
+            "xref_evidence": "ev_16a128df377553d20ec43257194d415ebaed4527c1200fea9150071e35642887"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " already has a count value before even starting to exit",
+    "classification": "diagnostic_only",
+    "references": [
+      {
+        "xref": "0x57a43e",
+        "assembly_file": "build/rea/fragment-windows/57a43e.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " already has a count value before even starting to exit",
+            "string_va": "0xbe3970",
+            "xref_evidence": "ev_e8aa96d6574a00fff8f9a280a31baa3390e11c5b26db206eb47a39bff075c3dd"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "cannot break an overloaded part currently in special mode",
+    "classification": "diagnostic_only",
+    "references": [
+      {
+        "xref": "0x57a75f",
+        "assembly_file": "build/rea/fragment-windows/57a75f.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "cannot break an overloaded part currently in special mode",
+            "string_va": "0xbe3a30",
+            "xref_evidence": "ev_630ae0d6d59b22ff228fe5cc755612c272db45e4aff50d37a2223ad2407ef49c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " already has a count value before mode even started",
+    "classification": "diagnostic_only",
+    "references": [
+      {
+        "xref": "0x57aadf",
+        "assembly_file": "build/rea/fragment-windows/57aadf.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " already has a count value before mode even started",
+            "string_va": "0xbe3a80",
+            "xref_evidence": "ev_e0e86c156c08f525500764104bdf6180a697b8561668d9e6b36df1b45b73c212"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " releases a shadow of itself that zips off towards ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x57e983",
+        "assembly_file": "build/rea/fragment-windows/57e983.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " releases a shadow of itself that zips off towards ",
+            "string_va": "0xbe3c20",
+            "xref_evidence": "ev_44fc9e21f443144fb6fb510c3c457757941cdcb84514af0651f5e8e72cc0f3f5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "Shadow retroactively draws in ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x57eb23",
+        "assembly_file": "build/rea/fragment-windows/57eb23.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "Shadow retroactively draws in ",
+            "string_va": "0xbe3c58",
+            "xref_evidence": "ev_c8d9d3210a375f028d893a064ea61e785069e76a144cb908c5e13676bd31b862"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+    "classification": "diagnostic_only",
+    "references": [
+      {
+        "xref": "0x5990eb",
+        "assembly_file": "build/rea/fragment-windows/5990eb.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+            "string_va": "0xbe42f8",
+            "xref_evidence": "ev_e7877ac76922fbd703cef5897c28e7e5254fa09f078afd2cd37f9dcd0dd950fb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " no longer operational.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x5a98f8",
+        "assembly_file": "build/rea/fragment-windows/5a98f8.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " no longer operational.",
+            "string_va": "0xbe4510",
+            "xref_evidence": "ev_9555d7f9656cbf92c2f956afc45199ee46ccdf66e476869d5a8bc2fedfc00a7d"
+          }
+        ]
+      },
+      {
+        "xref": "0x63626d",
+        "assembly_file": "build/rea/fragment-windows/63626d.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " no longer operational.",
+            "string_va": "0xbe8008",
+            "xref_evidence": "ev_69c23807e07c46e08ecbffed803213e7c98c4436c47c4fd050d509242120f5bb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " attempting to follow self at ",
+    "classification": "diagnostic_only",
+    "references": [
+      {
+        "xref": "0x5b40f5",
+        "assembly_file": "build/rea/fragment-windows/5b40f5.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " attempting to follow self at ",
+            "string_va": "0xbe4880",
+            "xref_evidence": "ev_e1996c4eb7f9a22af51d4b4f2f41b9527d179020963aec56552d696080ac6657"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+    "classification": "diagnostic_only",
+    "references": [
+      {
+        "xref": "0x5b46db",
+        "assembly_file": "build/rea/fragment-windows/5b46db.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+            "string_va": "0xbe4930",
+            "xref_evidence": "ev_fb7d1103b6fe5c5e5f755c3130d76d80470f6e1d8a8baad6643414edae215da1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " is not an interactive terminal",
+    "classification": "diagnostic_only",
+    "references": [
+      {
+        "xref": "0x5b48c3",
+        "assembly_file": "build/rea/fragment-windows/5b48c3.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " is not an interactive terminal",
+            "string_va": "0xbe4980",
+            "xref_evidence": "ev_b08a36383cb7f4494d61f306df8263d2d7b2579334c538a9f4a07eed15d3ee27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " unable to find more targets on ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x5bfa1b",
+        "assembly_file": "build/rea/fragment-windows/5bfa1b.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " unable to find more targets on ",
+            "string_va": "0xbe4d04",
+            "xref_evidence": "ev_f2d42161d38256504fb98ff2908602fbdf16944296548a02442145a58d00b3df"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " no longer safe.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x5c32cb",
+        "assembly_file": "build/rea/fragment-windows/5c32cb.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " no longer safe.",
+            "string_va": "0xbe52ec",
+            "xref_evidence": "ev_e7c21a268c5b5dff129db4cea3f9cc7ef2b7b77f113af5c4cf01ad84ebf6308d"
+          }
+        ]
+      },
+      {
+        "xref": "0x5c3437",
+        "assembly_file": "build/rea/fragment-windows/5c3437.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " no longer safe.",
+            "string_va": "0xbe5318",
+            "xref_evidence": "ev_e49271a1c9d7539fdceae361e45ad4439a831c4e8c50012a3cefd0ba473a7ef3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "A concussive blast radiates from ",
+    "classification": "unknown",
+    "references": [],
+    "reference_note": "Use native-dynamic-strings.json addresses and full exe-text.asm; fragment may differ by source formatting."
+  },
+  {
+    "raw": " ripped apart by quantum tension.",
+    "classification": "unknown",
+    "references": [],
+    "reference_note": "Use native-dynamic-strings.json addresses and full exe-text.asm; fragment may differ by source formatting."
+  },
+  {
+    "raw": "  Damage insufficient to overcome ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x666282",
+        "assembly_file": "build/rea/fragment-windows/666282.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "  Damage insufficient to overcome ",
+            "string_va": "0xbe9ed8",
+            "xref_evidence": "ev_c58fe840f8219b657ee49b670f05a1f7ede76a4ca5d02a4f349c04e77c3dc6f9"
+          }
+        ]
+      },
+      {
+        "xref": "0x66fd90",
+        "assembly_file": "build/rea/fragment-windows/66fd90.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "  Damage insufficient to overcome ",
+            "string_va": "0xbea524",
+            "xref_evidence": "ev_e05a6b1d4e13ab856841fdc9b1eccdf8d0b4f9d74d8ec1536471e3ac9fc5e3c9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "ALERT: Unidentified disturbance in Zone ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x6799d2",
+        "assembly_file": "build/rea/fragment-windows/6799d2.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "ALERT: Unidentified disturbance in Zone ",
+            "string_va": "0xbeab5c",
+            "xref_evidence": "ev_d4eb8f3030a1e001e003ee0fdf9dd37e5a2093c32c33c467db173dffd87c9998"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "ALERT: Significant disruption in Zone ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x679a48",
+        "assembly_file": "build/rea/fragment-windows/679a48.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "ALERT: Significant disruption in Zone ",
+            "string_va": "0xbeab88",
+            "xref_evidence": "ev_afc6c0f11b90635b5fc15693d245771e434d57efff78e3162c60d47244d85240"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "ALERT: Active scanning activity reported from Zone ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x67a8c7",
+        "assembly_file": "build/rea/fragment-windows/67a8c7.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "ALERT: Active scanning activity reported from Zone ",
+            "string_va": "0xbeaca8",
+            "xref_evidence": "ev_2eb701bd2d502887072042d2491962be1b6b50249bddf5b3f69486e468c82dcc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "ALERT: Unscheduled coupler replacement inbound for ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x67b8aa",
+        "assembly_file": "build/rea/fragment-windows/67b8aa.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "ALERT: Unscheduled coupler replacement inbound for ",
+            "string_va": "0xbead90",
+            "xref_evidence": "ev_f130ee6fbe980303eeab482f7b92d36ae2f77cd9d9df0c24e3e539a25b5cc6f9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x6955eb",
+        "assembly_file": "build/rea/fragment-windows/6955eb.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of ",
+            "string_va": "0xbec348",
+            "xref_evidence": "ev_a73ef95bfbdda4f161c81336a10d76683cd1f4060dc57278d99d8d75354e9032"
+          }
+        ]
+      }
+    ]
+  }
+]

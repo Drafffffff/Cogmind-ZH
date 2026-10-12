@@ -1,0 +1,18 @@
+[
+  {
+    "source": "Wmd",
+    "reason": "常用武器类别缩写WMD，保留缩写以供识别。"
+  },
+  {
+    "source": "void main()",
+    "reason": "代码函数标识，需保留原始拼写。"
+  },
+  {
+    "source": "MAIN.CPP",
+    "reason": "源文件名/代码标识，保留原始拼写。"
+  },
+  {
+    "source": "Cqb",
+    "reason": "常用近距离战斗缩写CQB，保留标准缩写。"
+  }
+]

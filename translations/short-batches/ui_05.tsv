@@ -1,0 +1,300 @@
+IMP. HOVER UNIT [	改进悬浮单元[
+Imp. Ion Engine [	改进离子引擎[
+Imp. KE Penetrator [	改进动能贯穿器[
+Imp. Kinecellerator [	改进动能加速器[
+Imp. Launcher Guidance Computer [	改进发射器制导计算机[
+IMP. LIGHT ARMOR PLATING [	改进轻型装甲板[
+Imp. Light Cannon [	改进轻炮[
+Imp. Lightning Gun [	改进闪电枪[
+IMP. LINEAR GRAVJET [	改进线性重力喷射器[
+Imp. Matter Compressor [	改进物质压缩器[
+IMP. MATTER NEUTRALIZER [	改进物质中和器[
+Imp. Medium Armor Plating [	改进中型装甲板[
+Imp. Medium Laser [	改进中型激光[
+IMP. MEDIUM TREADS [	改进中型履带[
+Imp. Melee Analysis Suite [	改进近战分析套件[
+IMP. PARTICLE ACCELERATOR [	改进粒子加速器[
+IMP. PARTICLE CHARGER [	改进粒子充能器[
+IMP. PHASE SHIFTER [	改进相位转移器[
+IMP. PLASMA CUTTER [	改进等离子切割器[
+Imp. Point Defense System [	改进点防御系统[
+Imp. Potential Cannon [	改进势能炮[
+Imp. Power Shielding [	改进动力护盾[
+Imp. Powered Armor [	改进动力装甲[
+Imp. Propulsion Shielding [	改进推进护盾[
+IMP. PROTON MISSILE LAUNCHER [	改进质子导弹发射器[
+IMP. Q-THRUSTER [	改进Q推进器[
+IMP. QUANTUM REACTOR [	改进量子反应堆[
+Imp. Reaction Control System [	改进反应控制系统[
+IMP. RECALIBRATOR [	改进校准器[
+IMP. REMOTE DATAJACK [	改进远程数据接口[
+Imp. Remote Force Field [	改进远程力场[
+Imp. Remote Shield [	改进远程护盾[
+IMP. SALVAGE TARGETING COMPUTER [	改进回收瞄准计算机[
+Imp. Sensor Array [	改进传感器阵列[
+IMP. SHIELD GENERATOR [	改进护盾发生器[
+Imp. Shock Absorption System [	改进减震系统[
+IMP. SIGNAL INTERPRETER [	改进信号分析器[
+Imp. Spread Laser [	改进散射激光[
+IMP. SURGE THRUSTER [	改进脉冲推进器[
+IMP. SYSTEM GUARD [	改进系统守卫器[
+IMP. SYSTEM RESTORATION MODULE [	改进系统恢复模块[
+IMP. SYSTEM SHIELD [	改进系统护盾[
+IMP. TARGET ANALYZER [	改进目标分析仪[
+IMP. TARGETING COMPUTER [	改进瞄准计算机[
+IMP. TERRAIN SCAN PROCESSOR [	改进地形扫描处理器[
+Imp. Terrain Scanner [	改进地形扫描仪[
+IMP. THERMAL DEFENSE SUITE [	改进热能防御套件[
+Imp. Thermal Generator [	改进热能发生器[
+IMP. THERMAL SHIELD [	改进热能护盾[
+IMP. THUNDER LEG [	改进雷霆腿[
+Imp. Titanium Leg [	改进钛腿[
+IMP. TRANSMISSION JAMMER [	改进通信干扰器[
+IMP. TRAP EXTRACTOR [	改进陷阱取出器[
+IMP. TRAP SCANNER [	改进陷阱扫描仪[
+IMP. TREADS [	改进履带[
+Imp. Utility Shielding [	改进功能护盾[
+Imp. VSS Leg [	改进VSS腿[
+Imp. VTOL Module [	改进垂直起降模块[
+IMP. WEAPON CYCLER [	改进武器循环器[
+Imp. Weapon Shielding [	改进武器护盾[
+KN-7UR! [{*}]	KN-7UR! [{*}]
+[{*}] KN-7UR!	[{*}] KN-7UR!
+L-Cannon! [{*}]	L炮! [{*}]
+[{*}] L-Cannon!	[{*}] L炮!
+LRC-V4! [{*}]	LRC-V4! [{*}]
+[{*}] LRC-V4!	[{*}] LRC-V4!
+LRC-V5! [{*}]	LRC-V5! [{*}]
+[{*}] LRC-V5!	[{*}] LRC-V5!
+LRC-V6! [{*}]	LRC-V6! [{*}]
+[{*}] LRC-V6!	[{*}] LRC-V6!
+LV-01A! [{*}]	LV-01A! [{*}]
+[{*}] LV-01A!	[{*}] LV-01A!
+Lgt. Angular Momentum Engine [	轻型角动量引擎[
+Lgt. Antimatter Cannon [	轻型反物质炮[
+Lgt. Antimatter Reactor [	轻型反物质反应堆[
+LGT. ARMOR PLATING [	轻型装甲板[
+LGT. ARMORED EXOSKELETON [	轻型装甲外骨骼[
+LGT. ASSAULT RIFLE [	轻型突击步枪[
+LGT. CANNON [	轻型火炮[
+Lgt. Deuterium Engine [	轻型氘引擎[
+LGT. EM PULSE CANNON [	轻型电磁脉冲炮[
+Lgt. Fission Core [	轻型裂变核心[
+LGT. HUMPBACK [	轻型座头鲸[
+LGT. ION ENGINE [	轻型离子引擎[
+Lgt. Neutrino Core [	轻型中微子核心[
+LGT. NUCLEAR CORE [	轻型核能核心[
+LGT. PARTICLE REACTOR [	轻型粒子反应堆[
+Lgt. Quantum Reactor [	轻型量子反应堆[
+Lgt. Regenerative Plating [	轻型再生装甲板[
+LGT. TREADS [	轻型履带[
+LRG. BATTERY [	大型电池[
+Lrg. Botcube [	大型机器人块[
+Lrg. Matter Pod [	大型物质舱[
+Lrg. Storage Unit [	大型储存单元[
+Lrn. Gatling Laser [	学习型加特林激光[
+Lrn. IFF Parser [	学习敌我识别器[
+Lrn. Missile Launcher [	学习型导弹发射器[
+LRN. MISSILE [	学习型导弹[
+Lrn. Phase Cannon [	学习型相位炮[
+LRN. PROTON CANNON [	学习型质子炮[
+Lrn. Sensor Array [	学习型传感器阵列[
+LRN. TERRAIN SCANNER [	学习型地形扫描仪[
+Lrn. Tractor Beam [	学习型牵引光束[
+Lyr. Heavy Armor Plating [	层叠重型装甲板[
+LYR. LIGHT ARMOR PLATING [	层叠轻型装甲板[
+Lyr. Medium Armor Plating [	层叠中型装甲板[
+Mak. Ablative Armor [	Mak.消能装甲[
+Mak. Axe [	Mak.斧
+Mak. Cloaking Device [	Mak.隐形装置[
+Mak. Coolant Network [	Mak.冷却网络[
+MAK. CORE SHIELDING [	Mak.核心护盾[
+Mak. ECM Suite [	Mak.电抗套件[
+MAK. FLIGHT UNIT [	Mak.飞行单元[
+MAK. HACKING SUITE [	Mak.入侵套件[
+MAK. HAMMER [	Mak.锤
+MAK. HEAT SINK [	Mak.散热器[
+MAK. HEAVY ARMOR PLATING [	Mak.重型装甲板[
+MAK. HOVER UNIT [	Mak.悬浮单元[
+Mak. Kinetic Plating [	Mak.动能装甲板[
+MAK. LASER SHOVEL [	Mak.激光铲[
+MAK. LASER [	Mak.激光[
+MAK. LEG [	Mak.腿[
+Mak. Light Armor Plating [	Mak.轻型装甲板[
+MAK. MEDIUM ARMOR PLATING [	Mak.中型装甲板[
+MAK. MICRODISSIPATOR NETWORK [	Mak.微型散热网络[
+MAK. MICROTHRUSTER [	Mak.微型推进器[
+Mak. Power Shielding [	Mak.动力护盾[
+Mak. Power Source [	Mak.动力源[
+MAK. PROPULSION SHIELDING [	Mak.推进护盾[
+Mak. Salvage Targeting Computer [	Mak.回收瞄准计算机[
+MAK. SENSOR ARRAY [	Mak.传感器阵列[
+Mak. Shrapnel Gun [	Mak.碎片枪[
+Mak. Spear [	Mak.长矛[
+MAK. SWORD [	Mak.剑[
+MAK. SYSTEM RESTORATION MODULE [	Mak.系统恢复模块[
+MAK. SYSTEM SHIELD [	Mak.系统护盾[
+Mak. Targeting Computer [	Mak.瞄准计算机[
+Mak. Terrain Scan Processor [	Mak.地形扫描处理器[
+Mak. Terrain Scanner [	Mak.地形扫描仪[
+Mak. Thermal Plating [	Mak.热能装甲板[
+MAK. TRANSMISSION JAMMER [	Mak.通信干扰器[
+MAK. TRAP SCANNER [	Mak.陷阱扫描仪[
+Mak. Utility Shielding [	Mak.功能护盾[
+Mak. Weapon Shielding [	Mak.武器护盾[
+MED. ARMOR PLATING [	中型装甲板[
+MED. ARMORED EXOSKELETON [	中型装甲外骨骼[
+MED. BATTERY [	中型电池[
+MED. INSULATED PLATING [	中型绝缘装甲板[
+MED. LASER [	中型激光[
+Med. Matter Pod [	中型物质舱[
+MED. REACTIVE PLATING [	中型反应装甲板[
+Med. Reflective Plating [	中型反射装甲板[
+MED. REGENERATIVE PLATING [	中型再生装甲板[
+MED. STORAGE UNIT [	中型储存单元[
+Med. Treads [	中型履带[
+Mic. Antimatter Reactor [	微型反物质反应堆[
+MIC. FISSION CORE [	微型裂变核心[
+MIC. NEUTRINO CORE [	微型中微子核心[
+Mic. Nuclear Core [	微型核能核心[
+Mni. Assault Cannon [	迷你突击炮[
+Mni. Drone Bay [	迷你无人机舱[
+MNI. FUSION REACTOR [	迷你聚变反应堆[
+Mni. Grenade Launcher [	迷你榴弹发射器[
+Mni. Nuclear Pulse Thruster [	迷你核脉冲推进器[
+Mni. Quantum Capacitor [	迷你量子电容器[
+MNI. SMARTBOMB LAUNCHER [	迷你智能炸弹发射器[
+MNI. TEARCLAWS [	迷你撕裂爪[
+Optimus! [{*}]	擎天柱! [{*}]
+[{*}] Optimus!	[{*}] 擎天柱
+OVR. ANTIMATTER REACTOR [	超载反物质反应堆[
+OVR. ARMORED EXOSKELETON [	超载装甲外骨骼[
+OVR. BARRAGE GUN [	超载弹幕枪[
+OVR. BEAMCASTER [	超载光束炮[
+Ovr. Bore Cannon [	超载钻孔炮[
+OVR. COIL GUN [	超载线圈枪[
+Ovr. Flexi-carbon Leg [	超载柔性碳纤腿[
+OVR. HUGE SCRAPSPHERE [	超载巨型废铁球[
+OVR. LINEAR ACCELERATOR [	超载线性加速器[
+OVR. MEDIUM TREADS [	超载中型履带[
+Ovr. Nova Cannon [	超载新星炮[
+Ovr. Phase Cannon [	超载相位炮[
+Ovr. Pulse Rifle [	超载脉冲步枪[
+OVR. QUANTUM RIFLE [	超载量子步枪[
+Ovr. Railgun [	超载轨道炮[
+Ovr. Scrapsphere [	超载废铁球[
+OVR. TITANIUM LEG [	超载钛腿[
+OVR. TREADS [	超载履带[
+PCU! [{*}]	PCU! [{*}]
+[{*}] PCU!	[{*}] PCU!
+Perun! [{*}]	佩伦! [{*}]
+[{*}] Perun!	[{*}] 佩伦
+Prc. Assault Rifle [	精准突击步枪[
+Prc. Beam Rifle [	精准光束步枪[
+PRC. ENERGY FILTER [	精准能量滤波器[
+Prc. Grenade Launcher [	精准榴弹发射器[
+Prc. Matter Filter [	精准物质滤波器[
+PRC. PHASE GUN [	精准相位枪[
+PRC. ROCKET LAUNCHER [	精准火箭发射器[
+PRC. SHOCK RIFLE [	精准震击步枪[
+RPG! [{*}]	RPG! [{*}]
+[{*}] RPG!	[{*}] RPG!
+RNF. ANTIMATTER REACTOR [	加固反物质反应堆[
+Rnf. Deuterium Engine [	加固氘引擎[
+RNF. FISSION CORE [	加固裂变核心[
+RNF. ION ENGINE [	加固离子引擎[
+Rnf. Quantum Reactor [	加固量子反应堆[
+Sfc. Absorption Layer [	表面吸收层[
+Sfc. Autominer [	表面采矿机[
+SFC. BORG BLADE [	表面Borg之刃[
+SFC. BORG CHAINCANNON [	表面Borg链炮[
+SFC. BORG CHAINGUN [	表面Borg链枪[
+SFC. BORG FIST [	表面Borg铁拳[
+SFC. BORG GUTPUNCHER [	表面Borg腹击器[
+SFC. BORG JOLTSTRIKER [	表面Borg震击器[
+SFC. BORG LASER [	表面Borg激光[
+Sfc. Borg Power [	表面Borg动力源[
+SFC. BORG PULSAR LAUNCHER [	表面Borg脉冲发射器[
+Sfc. Borg Pulseblaster [	表面Borg脉冲爆能枪[
+SFC. BORG REGENERATOR [	表面Borg再生器[
+Sfc. Cooling Unit [	表面冷却单元[
+Sfc. Door Spiker [	表面门钉枪[
+SFC. IMPELLER [	表面叶轮[
+SFC. INTERDICTION FIELD [	表面封锁力场[
+SFC. MATERIALIZER [	表面物质化器[
+Sfc. Personal Shield [	表面个人护盾[
+SFC. SIGHTFINDER [	表面视线寻踪器[
+SFC. TARGET TRACKER [	表面目标追踪器[
+SFC. TARGETING OBFUSCATOR [	表面瞄准混淆器[
+SFC. TRANSMOGRIFIER [	表面变形器[
+Sfc. X0-Cannon [	地表X0炮[
+Sfc. X0-Gun [	地表X0枪[
+Sfc. X0-Launcher [	地表X0发射器[
+SML. BATTERY [	小型电池[
+Sml. Laser [	小型激光[
+Sml. Matter Pod [	小型物质舱[
+Sml. Storage Unit [	小型储存单元[
+SPK. HEAVY TREADS [	尖刺重型履带[
+SPK. MEDIUM TREADS [	尖刺中型履带[
+Spk. Treads [	尖刺履带[
+SUB. BEAM CANNON [	潜艇光束炮[
+SUB. LASER [	潜艇激光[
+Sub. Machine Gun [	潜艇机枪[
+SUB. MONOWHEEL [	潜艇独轮[
+SUB. OPTICS [	潜望镜[
+Sub. Power Source [	潜艇动力源[
+Sub. Shrapnel Launcher [	潜艇碎片发射器[
+V-Series! [{*}]	V系列! [{*}]
+[{*}] V-Series!	[{*}] V系列!
+V2! [{*}]	V2! [{*}]
+[{*}] V2!	[{*}] V2!
+VL-GR5! [{*}]	VL-GR5! [{*}]
+[{*}] VL-GR5!	[{*}] VL-GR5!
+VMP. BRACE PLATING [	VMP支撑装甲板[
+Vmp. Broadsword [	VMP阔刃剑[
+Vmp. Heavy Siege Treads [	VMP重型攻城履带[
+VMP. HUMPBACK [	VMP座头鲸[
+ZIO. ALPHA CANNON MK. II [	锡安阿尔法炮Mk.II[
+Zio. Alpha Cannon [	锡安阿尔法炮[
+Zio. Biocell Array [	锡安生物电池阵列[
+Zio. Biocell [	锡安生物电池[
+Zio. Composite Leg I [	锡安复合腿I[
+ZIO. COMPOSITE LEG II [	锡安复合腿II[
+ZIO. GLIDESYS I [	锡安滑翔系统I[
+ZIO. GLIDESYS II [	锡安滑翔系统II[
+ZIO. HEAVY CARAPACE [	锡安重型甲壳[
+ZIO. HEAVY DM REACTOR [	锡安重型DM反应堆[
+ZIO. LASER [	锡安激光[
+ZIO. LASER-H [	锡安激光-H[
+ZIO. LASER-M [	锡安激光-M[
+Zio. Laser-S [	锡安激光-S[
+Zio. Light Carapace [	锡安轻型甲壳[
+ZIO. LIGHT DM REACTOR [	锡安轻型DM反应堆[
+Zio. Metafield Generator [	锡安超维场发生器[
+Zio. Phaser [	锡安相位枪[
+ZIO. PHASER-H [	锡安相位枪-H[
+Zio. Phaser-M [	锡安相位枪-M[
+ZIO. PHASER-S [	锡安相位枪-S[
+Zio. Shade Armor [	锡安遮蔽装甲[
+ZIO. SHADE CARAPACE [	锡安遮蔽甲壳[
+Zio. Supercomposite Leg [	锡安超复合腿[
+ZIO. WEAPON CASING [	锡安武器外壳[
+- Hostile	- 敌对
+- Friendly	- 友军
+- Parts	- 部件
+- Exits	- 出口
+FASTx2	疾速x2
+FASTx3	疾速x3
+A-01 Mover	A-01移动者
+B-36 Bruiser	B-36斗殴者
+B-60 Warrior	B-60战士
+B-69 Cerberus	B-69恶犬
+B-74 Champion	B-74冠军
+B-86 Titan	B-86泰坦
+B-90 Cyclops	B-90独眼巨人
+C-35 Carver	C-35刻刀
+C-35 Scientist	C-35科学家
+C-45 Inventor	C-45发明家
+C-57 Dissector	C-57解剖者
+D-04 Tanker	D-04油罐车
+D-20 Stockpiler	D-20囤积者

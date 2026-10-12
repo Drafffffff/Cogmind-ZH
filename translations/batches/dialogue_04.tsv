@@ -1,0 +1,500 @@
+Hey, That's Mine!	那是我的！
+Destroy a Hauler.	摧毁一台搬运者。
+Destroy {n} Haulers.	摧毁{n}台搬运者。
+Use The Force	原力与你同在
+Alien Tech	异星科技
+System Compromised	系统遭入侵
+Reach {n} system corruption.	达到{n}系统损坏。
+Gain system corruption from attaching a corrupted part.	装配受损部件后获得系统损坏。
+Maybe Next Time I'll Detach My Launcher	下次我会先卸下发射器
+Do Not Disturb	请勿打扰
+Let Me Out Of Here	放我出去
+Release The Drones!	释放无人机！
+Storm Trooper	风暴兵
+Please Form A Line	请排好队
+Quick And Dirty	简单粗暴
+It's Just You	只有你
+Fist Fight	拳头对决
+Hammer Time	锤子时间
+Knock a hostile robot into an explosive machine via melee impact damage.	用近战冲击伤害将敌方机器人撞进爆炸机器。
+Watch This!	看好了！
+Deadly Force	致命武力
+Oh No You Don't!	休想得逞！
+Ride The Lightning	驾驭闪电
+Fire a launcher at an enemy at point blank range.	近距离向敌人发射一枚发射器弹体。
+Drive-By	飞车攻击
+Have an autonomous weapon fire at a target.	让自主武器向目标开火。
+Fire a guided weapon using at least one waypoint.	使用至少一个航点发射制导武器。
+Party Time	派对时间
+Cause {n} active investigation squads at once.	同时引发{n}支主动调查小队。
+Heavy Suspicion	高度可疑
+Please No, Not That	不，别来这个
+Just What I Needed	正是我需要的
+Official Business	公务在身
+Part-time Mechanic	兼职维修工
+Safety First	安全第一
+Dynamic Key	动态密钥
+Hack {n} machines.	入侵{n}台机器。
+Lower alert using a Terminal's Purge Threat hack.	使用终端的清除威胁入侵指令降低警戒等级。
+Get new parts by refitting via a Repair Station.	通过维修站重新装配以获得新部件。
+Throw Away The Key	把钥匙扔掉
+Brute Force	蛮力破解
+Use a Force() hack.	执行Force()入侵。
+True Hacker	真正的黑客
+Install a Trojan().	安装Trojan()。
+Quantum Hacking	量子黑客
+Set up a three-Terminal botnet (unauthorized hack).	组建由三台终端构成的僵尸网络（未经授权的入侵）。
+Express Service	快速服务
+Speed up a fabrication job (unauthorized hack).	加速一项制造任务（未经授权的入侵）。
+Bending The Rules	打破常规
+Acquire an Authchip from a Fabricator (unauthorized hack).	从制造机取得一枚认证芯片（未经授权的入侵）。
+May I Have Another?	再来一个！
+Trigger a coupler replacement dispatch (unauthorized hack).	触发一次耦合器替换派遣（未经授权的入侵）。
+A New Friend	新朋友
+Rewire a robot.	重接线路。
+Use the non-RIF find_chute hack on a Worker in Factory.	在工厂对工人使用非RIF的find_chute入侵指令。
+Join The Dark Side	加入黑暗面
+Powerful Protocols	强力协议
+Factory Defaults	出厂设置
+Reset a hostile robot using the reboot_system hack.	用reboot_system入侵指令重置一台敌对机器人。
+Cause a hostile robot's power to go critical with an overload_power or amplify_resonance hack.	用overload_power或amplify_resonance入侵指令使敌方动力临界失控。
+Assimilate a hostile robot using the format_system hack or autoassimilation.	用format_system入侵指令或自动同化同化敌方机器人。
+Deep Understanding	深入理解
+Use the formatsys_deep coupler hack on an ARC.	对ARC使用formatsys_deep耦合器入侵指令。
+Use a Datajack to identify an unidentified part on a robot via parse_system.	用数据劫持器通过parse_system识别机器人身上的未识别部件。
+Spot Them First	先发制人
+No Signal	没有信号
+Total Silence	彻底静默
+Can't Catch Me	抓不到我
+Have {n} allies.	拥有{n}名盟友。
+My Bad	我的错
+Not So Scrappy	不太寒酸
+No Room For Error	不容有失
+Have {n} or less core exposure.	核心暴露不超过{n}。
+Can't Touch This	休想碰到我
+Absorb {n} damage using shields.	用护盾吸收{n}点伤害。
+Perfect Aim	百发百中
+Have +{n} targeting accuracy for ranged weapons via utilities.	通过功能部件使远程武器瞄准精度提高{n}%。
+More Dakka Please	火力还不够！
+Like A Rock	坚如磐石
+Gun Specialist	枪械专家
+Destroy {n} hostiles with at least {n} of damage across an entire run dealt by guns.	一局中用枪械造成至少{n}点伤害并摧毁{n}个敌人。
+Cannon Specialist	火炮专家
+Destroy {n} hostiles with at least {n} of damage across an entire run dealt by cannons.	一局中用火炮造成至少{n}点伤害并摧毁{n}个敌人。
+Launcher Specialist	发射器专家
+Destroy {n} hostiles with at least {n} of damage across an entire run dealt by launchers.	一局中用发射器造成至少{n}点伤害并摧毁{n}个敌人。
+Melee Specialist	近战专家
+Destroy {n} hostiles with at least {n} of damage across an entire run dealt by melee weapons.	一局中用近战武器造成至少{n}点伤害并摧毁{n}个敌人。
+Hot Stuff	烫手货
+Deadly Precision	致命精准
+Reach a mass of {n}	达到{n}质量。
+Tank Life	坦克生活
+Use siege mode across {n} different maps.	在{n}张不同地图上使用攻城模式。
+Trigger {n} search patrol dispatches due to being repeatedly spotted and losing {n}b10 pursuers.	反复被发现并甩掉{n}b10追兵，从而触发{n}次搜索巡逻派遣。
+Unwanted Attention	引来不速之客
+We Love MA	我们爱MA
+Reveal {n} interactive machines via Machine Analyzer.	用机器分析仪揭示{n}台交互机器。
+Decoder Ring	解码戒指
+Obtain {n} pieces of intel from one or more {n}b10 Decoder Chips.	从一枚或多枚{n}b10解码芯片获得{n}条情报。
+Reach {n} evasion.	达到{n}闪避。
+Have +{n} to hack success.	黑客成功率提高{n}。
+Maximum Efficiency	最高效率
+Have a Hacking Drone successfully pull off {n} Terminal hacks.	让黑客无人机成功入侵终端{n}次。
+Production Line	生产线
+Repair {n} parts individually via Repair Station.	通过维修站逐件修复{n}个部件。
+Network Effect	网络效应
+Succeed at hacking world layout data from Recycling Units {n} times (unauthorized hack).	从回收机成功入侵世界布局数据{n}次（未经授权的入侵）。
+Rewrite {n} hostile robot IFF filters via fabnet algorithm.	通过制造网络算法改写{n}台敌方机器人的IFF过滤器。
+Hack {n} hostiles.	入侵{n}个敌人。
+Lower alert {n} times by using the purge_threat coupler hack on an Operator.	对操作员使用purge_threat耦合器入侵指令降低警戒等级{n}次。
+Use the map_route coupler hack on three different Watchers.	对三台不同的观察者使用map_route耦合器入侵指令。
+Use the ignore_targets coupler hack on all {n} Crushers in a single Waste area.	在同一片废料区对全部{n}台粉碎者使用ignore_targets耦合器入侵指令。
+Use the amplify_resonance coupler hack to destroy {n} robots at once.	使用amplify_resonance耦合器入侵指令一次摧毁{n}台机器人。
+Install RIF at a depth of -{n} or above.	在深度-{n}或更深处安装RIF。
+War Machine	战争机器
+We Are Legion	我们人数众多
+Acquire {n} allies across an entire run.	一局中招募{n}名盟友。
+Oversee {n} ally kills across an entire run.	一局中监督盟友击杀{n}个敌人。
+Collateral Damage	附带损害
+Lose {n} points to friendly fire.	因误伤盟友损失{n}分。
+Plot Armor	主角光环
+Friend Of Zion	锡安之友
+Squad Leader	小队队长
+Activate {n} support squads via Encrypted Comm Array.	通过加密通讯阵列启动{n}支支援小队。
+Help And Harvest	助收两全
+Summon UFD help via Recycling Units {n} times.	通过回收机召来UFD支援{n}次。
+Bring an allied Operator into a Garrison.	带一名盟友操作员进入驻防站。
+Use {n} latent energy.	使用{n}点潜在能量。
+Yes I Work Here	我在这儿上班
+Block {n} IFF responses via ID Mask.	用身份面具阻挡{n}次IFF响应。
+Destroy {n} hostiles using RU-N14's Throwing Claymores (any version).	使用RU-N14的投掷阔刃剑（任意版本）摧毁{n}个敌人。
+Bigger Is Better	越大越好
+Let Wardrone reach {n} kills (multiple releases okay).	让战斗无人机达到{n}次击杀（可多次部署）。
+Max Potential	潜能极限
+Spacefold {n} times.	进行{n}次空间折叠。
+Power Plant	发电厂
+Create {n} total energy via any thermoelectric network technology.	通过任意热电网络技术累计产生{n}点能量。
+Worth The Wait	等待值得
+This Is My Hole	这是我的地盘
+Fancy Inventory	豪华库存
+More Power To You	动力越强越好
+Reach {n} energy capacity while any force field in use.	任一力场启用时使能量容量达到{n}。
+Extract {n} traps.	提取{n}个陷阱。
+Bullet Installation	子弹装置
+Get terminated.	被终结。
+Back For More	再来一回
+Complete {n} runs.	完成{n}局。
+Reach {n} lore collection.	收集{n}条背景故事。
+I Was Wrong!	我错了！
+Just Browsing	只是看看
+Reach {n} gallery collection.	画廊收集达到{n}。
+Made in Tau Ceti IV	诞生于Tau Ceti IV
+Enter Factory.	进入工厂区。
+Dangerous Findings	危险发现
+Enter Research.	进入研究区。
+Enter Access.	进入入口区。
+I'm Back, Baby!	我回来啦！
+Exit a DSF.	退出DSF。
+Great Explorer	伟大探索者
+Visit {n} areas.	访问{n}个区域。
+Serviceable Loadout	够用的配置
+Reach a peak rating of {n}	最高评级达到{n}。
+Respectable Loadout	像样的配置
+Ultimate Loadout	终极配置
+Earn {n} of achievements.	获得{n}项成就。
+Explore at least {n} of Subcaves, destroying {n} hostile Subdwellers without any allies, then escape the area.	探索至少{n}%下层洞窟，在无盟友协助下摧毁{n}个敌对洞居者，然后撤离。
+Low-level Research	低级研究
+Brother of Steel	钢铁兄弟
+Scientist At Large	云游科学家
+Learn a schematic only available via Tech Extrapolator.	学会一张只能通过科技推演器获得的图纸。
+We Are The Borg	我们是博格
+Left-hand Path	左道
+Destroy all Cetus Guards without any help from allies.	不借助盟友帮助摧毁所有鲸鱼卫兵。
+Fight Me IRL	现实中来打！
+Enter a main complex map at -{n} or above as a naked core, and find an exit (do not have to remain naked).	以裸核心状态进入深度-{n}或更深的主复合体地图并找到出口（之后不必保持裸装）。
+Use at least {n} Transdimensional Reconstructors (any variant).	至少使用{n}个跨维重构器（任意变种）。
+Attach the BFG.	装配BFG。
+Inflict {n} thermal damage across an entire run.	一局中造成{n}点热能伤害。
+Inflict {n} electromagnetic damage across an entire run.	一局中造成{n}点电磁伤害。
+Inflict {n} kinetic damage across an entire run.	一局中造成{n}点动能伤害。
+Enter a main complex map at -{n} or above as a naked core with no inventory items, and find an exit (do not have to remain naked).	以裸核心且不带库存物品的状态进入深度-{n}或更深的主复合体地图并找到出口（之后不必保持裸装）。
+Into The Furnace	深入熔炉
+Bigger And Badder	更大更凶
+Out Of My Way	给我让路
+Destroy {n} Heavies.	击毁{n}台重型。
+Giant Slayer	巨人杀手
+Cool Guys	酷家伙
+Be The Sidekick	当个跟班
+Have an allied former {n}b10 bot reach {n} kills (includes fabricated {n}b10 allies).	让一台曾属{n}b10的盟友机器人达到{n}次击杀（包括制造出的{n}b10盟友）。
+Intercept {n} cargo convoys (interceptions by others count as well).	拦截{n}支货运车队（他人拦截也计入）。
+Friends Forever	永远的朋友
+Weapon Of Power	力量之武
+Escorted To Danger	护送你走向危险
+Special Forces	特种部队
+Artifact Hunter	神器猎人
+For Science!	为了科学！
+Alien Attack	异星来袭
+Blink Of An Eye	转眼之间
+Enter a Garrison with below {n} core integrity and survive it.	核心耐久低于{n}时进入驻防站并幸存。
+Earn {n} bonus points for high alert combat kills.	高警戒战斗击杀获得{n}奖励分。
+Most Wanted	头号通缉犯
+Trigger floorwide sterilization {n} times (excludes DSF rapid sterilization).	触发全层净化{n}次（不计DSF快速净化）。
+Full Golem	完全魔像
+Greater Chaos	更大混沌
+I Am Starship Now	我现在是星舰了
+Red Leader	红色领队
+Triple Plus	三倍加成
+You Again	又是你
+Follow The Leader	追随领队
+Install FarCom.	安装FarCom。
+Chaos Is Inevitable	混沌不可避免
+Strength In Numbers	人多力量大
+Travel with {n}-MTF to meet KN-{n}UR.	与{n}-MTF同行去见KN-{n}UR。
+Find Scraptown.	找到废料镇。
+Link The Feds	联络联邦
+Join {n}bPrime.	加入{n}bPrime。
+The Oracle	预言家
+Find Data Miner.	找到数据矿工。
+Unlimited Data	无限数据
+The One	唯一
+Get imprinted.	接受印刻。
+Signs Are For Wimps	标志都是弱者用的
+Enter Deep Caves.	进入深层洞窟。
+Are We The Baddies?	我们才是坏人？
+Kill Z-Imprinter.	击杀Z型印刻者。
+Use the A8 code.	使用A8密码。
+The Science Guy	科学家
+A Powerful Ally?	强力盟友？
+Find Warlord.	找到Warlord。
+I Like You, Cogmind	我喜欢你，Cogmind
+Revising The Future	修订未来
+Main Advantage	主场优势
+All-out Warlord	军阀全力出击
+Hack God Mode using code from Data Miner.	使用数据矿工提供的密码入侵神模式。
+Spot a Fortress.	发现一座堡垒。
+Ponder That!	好好想想！
+Signature Confirmed	身份已确认
+Get scanned by a Researcher in Section {n}	被第{n}区段的研究员扫描。
+Coming In Hot	高速来袭
+Anyone Home?	有人在家吗？
+Everyone Must Die	一个都不能留
+Super-what Now?	超级什么来着？
+Inventory(Loot)	库存（战利品）
+We Are One	同为一体
+Special Delivery	特别快递
+Corridor Of Doom	死亡走廊
+Meet Your Maker	见到造物主
+Find MAIN.C.	找到MAIN.C。
+Poison In The Code	代码中的毒
+Destroy MAIN.C.	摧毁MAIN.C。
+Sorry Old Pal	抱歉，老朋友
+Off Switch	关闭开关
+See Warlord shut down by MAIN.C.	目睹Warlord被MAIN.C关停。
+Behind The Curtain	幕后之事
+Find The Architect.	找到建筑师。
+The Bigger They Are	个头越大
+Epsilon Run	Epsilon之局
+Home At Last?	终于回家？
+Warlord Forever!	永远的Warlord！
+Derelict Escape	遗民逃亡
+Data Run	数据行动
+Win after being scanned by a Researcher in Section {n}	被第{n}区段的研究员扫描后获胜。
+Win while only evolving utility slots. Gaining non-utility slots through other means also disqualifies.	只进化功能槽位并获胜。通过其他方式获得非功能槽位也不合格。
+Win without visiting any branches (Garrisons/Waste/DSF okay).	不访问任何分支并获胜（驻防站/废料区/DSF除外）。
+I'm Coming For You	我来找你了
+Win in less than {n} turns.	在少于{n}回合内获胜。
+Win with less than {n} of core integrity.	获胜时核心耐久低于{n}。
+Travel Light	轻装上阵
+On My Own Terms	按我自己的方式
+Escape to the surface from Access with a build of at least rating {n}	从入口区逃至地表，配置评级至少为{n}。
+Win without ever using any interactive machine (also no allied hacking help).	从未使用交互机器且获胜（也不得借助盟友黑客）。
+Chaotic Teddy Bear	混乱泰迪熊
+Force of Scrap	废料之力
+Win without attaching any propulsion except flight.	只装配飞行推进并获胜。
+Leg Day	练腿日
+Victory By Combat	战斗获胜
+Death Machine	死亡机器
+One Last FU	最后一骂
+Win after entering an Access garrison.	进入入口区驻防站后获胜。
+Unfinished Business	未竟之事
+True Cogmind	真Cogmind
+Win {n} times.	获胜{n}次。
+Garrison Door	驻防站门
+DSF Access	DSF入口
+UFD HQ Gate	UFD总部大门
+ARC Deployed	ARC已部署
+Trap Triggered	陷阱触发
+Alarm Trap	警报陷阱
+Ambush Trap	伏击陷阱
+Chute Trap	落穴陷阱
+Chute Arrival	落穴抵达
+Compactor Hit	被压缩机击中
+Master Link Release	主控链路释放
+Master Drone	主控无人机
+Cave-in	塌方
+Zionite Teleport	锡安人传送
+Drone Launch	无人机发射
+Drone Recovery	无人机回收
+Deployed Turret	炮塔已部署
+Trap Extracted	陷阱已提取
+Trap Collected	陷阱已收集
+Trap Installed	陷阱已安装
+Door Hack Complete	门禁入侵完成
+Borg Assimilation	博格同化
+Siege Mode Active	攻城模式启动
+Siege Mode Exited	已退出攻城模式
+Martial Mode Active	武斗模式启动
+Martial Mode Exited	已退出武斗模式
+Assembled Appear	组装体现身
+Assembled Unpowered	组装体断电
+Drillbomb Installed	钻地弹已安装
+Spotter Scan	观察员扫描
+Quarantine Scan	隔离区扫描
+Lab Scan	实验扫描
+Checkpoint Scan	检查站扫描
+Phase Wall Opened	相位墙开启
+Phase Wall Closed	相位墙关闭
+Robot Destroyed	机器人被摧毁
+Piercing Trap	穿刺陷阱
+Assault Rifle	突击步枪
+Barrage Gun	弹幕枪
+Flak Gun	高射炮
+Borg Chaingun	博格链式机枪
+Gauss Rifle	高斯步枪
+KE Penetrator	动能贯穿器
+Helical Railgun	螺旋导轨炮
+Borg Chaincannon	博格链炮
+Slug Cannon	弹丸炮
+Mass Driver	质量驱动器
+Linear Accelerator	线性加速器
+Hardcell Cannon	硬芯炮
+Helical Railcannon	螺旋导轨炮
+Heavy Helical	重型螺旋炮
+Spread Laser	散射激光
+Borg Laser	博格激光
+Field Laser	力场激光
+Thermic Laser	热能激光
+Plasma Rifle	等离子步枪
+Disintegration Ray	瓦解射线
+Thermal Shotgun	热能霰弹枪
+Wave Gun	波动枪
+Pulse Rifle	脉冲步枪
+Makeshift Laser	简易激光
+Warp Gun	曲跃枪
+Dispersion Rifle	分散步枪
+Stealth Gun	隐形枪
+Borg Pulseblaster	博格脉冲炮
+Nova Cannon	新星炮
+Powered Cannon	动力炮
+Thermic Cannon	热能炮
+Potential Cannon	势能炮
+Matter Neutralizer	物质中和器
+Warp Cannon	曲跃炮
+Plasma Driver	等离子驱动器
+Null Cannon	抑制炮
+Antisys Shotgun	反系统霰弹枪
+Riot Gun	暴乱枪
+Shock Rifle	电击步枪
+Arc Projector	电弧投射器
+Arc Thrower	电弧发射器
+Proton Cannon	质子炮
+Borg Joltstriker	博格电击锤
+Vortex Rifle	漩涡步枪
+Vortex Shotgun	漩涡霰弹枪
+Vortex Driver	漩涡驱动器
+Grenade Launcher	榴弹发射器
+Rocket Array	火箭阵列
+Missile Launcher	导弹发射器
+Tiamat Rocket Array	提亚马特火箭阵列
+Micro-nuke Launcher	微型核弹发射器
+EMP Blaster	EMP爆能炮
+Shockbomb Launcher	震荡弹发射器
+Gamma Bomb Array	伽马炸弹阵列
+Thrown Weapon	投掷武器
+Explosion (TH)	爆炸（热）
+Explosion (EX)	爆炸（爆）
+Explosion (EM)	爆炸（电磁）
+Explosion (Unique)	爆炸（独特）
+Explosion (EN)	爆炸（熵）
+EM Pulse	电磁脉冲
+Mining Laser	采矿激光
+Laser Shovel	激光铲
+Plasma Cutter	等离子切割器
+Thrown Object	投掷物
+Plasma Flamer	等离子喷火器
+Warlord Statue	Warlord雕像
+Kinetic Spear	动能长矛
+Plasma Lance	等离子长枪
+Force Lance	力场长枪
+Thermal Lance	热能长枪
+Shock Maul	震荡大槌
+Gravity Flail	重力连枷
+Core Stripper	核心剥离器
+Phasing Sabre	相位军刀
+Deflector Sword	偏转剑
+Abomination Scream	怪物尖啸
+No item to retrieve	没有可取回物品
+Cannot remove {*}, blocked by Sticky Parts challenge	无法移除{*}，黏性部件挑战禁止操作
+No parts to detach	没有可卸下的部件
+Cannot remove {*}	无法移除{*}
+Item not attachable	该物品无法装配
+No free slot	没有空槽位
+{n} already inactive	{n}已停用
+{n} already active	{n}已启用
+{n} not functional	{n}功能失效
+Cannot target self	不能以自身为目标
+No melee target	没有近战目标
+Enemy in sight	视野内有敌人
+Threat in sight	视野内有威胁
+Enemy detected	已发现敌人
+Threat detected	已发现威胁
+Held in stasis	处于静滞状态
+Cannot extract {*}	无法提取{*}
+No {*} to cycle	没有可循环的{*}
+{n} already tweaked	{n}已调整
+Invalid target ({*})	无效目标（{*}）
+ALERT: Energy low	警报：能量不足
+ALERT: Matter low	警报：物质不足
+No {*} to label	没有可标记的{*}
+No known exits	没有已知出口
+No Haulers detected	未发现搬运者
+No visible enemies	没有可见敌人
+No adjacent enemies	附近没有敌人
+No visible items	没有可见物品
+Enter swap target	选择交换目标
+Swap cancelled	已取消交换
+Invalid slot type	无效槽位类型
+Large parts cannot occupy temporary slots	大型部件不能放入临时槽位
+Command only applies during modal inventory layout	该指令仅适用于模态库存布局
+Undo drop invalid	撤销丢弃无效
+Position occupied	位置已被占据
+Will melee a neutral target! Confirm direction	将近战攻击中立目标！确认方向
+Will melee while flying! Confirm direction	飞行中将进行近战！确认方向
+Will melee an inactive target! Confirm direction	将近战攻击失能目标！确认方向
+Movement speed very slow! Confirm move	移动速度极慢！确认移动
+MOVEMENT SPEED EXTREMELY SLOW! Confirm move	移动速度极其缓慢！确认移动
+No suitable spacefold destination found within range	范围内找不到合适的空间折叠目的地
+Attacking will invalidate ID Mask! Confirm attack	攻击将使身份面具失效！确认攻击
+No path found	找不到路径
+{n} ready to repair	{n}已准备修理
+Exit blocked ({*})	出口被挡住（{*}）
+Command not applicable outside keyboard mode, use LMB	该指令仅适用于键盘模式，请用鼠标左键
+Map output to {*}	地图输出至{*}
+Stats dumped to {*}	属性已导出至{*}
+Sound off	声音关闭
+Sound on	声音开启
+Data loaded	数据已载入
+No data to load	无数据可载
+Font Set: {*}	字体组：{*}
+Font size {n} only supports ASCII, not tilesets	字体大小{n}仅支持ASCII，不支持图块
+Cannot attach parts	无法装配部件
+Acquired {*} matter.	获得{*}物质。
+Acquired data core, extracted dynamic key.	获得数据核心，提取动态密钥。
+Decrypted {*} local trap positions from data.	从数据中解密{*}处本地陷阱位置。
+Acquired data core, dynamic key expired.	获得数据核心，动态密钥已过期。
+Searching scrap...	正在搜寻废料……
+{*} self-destruct mechanism shorted by {*}.	{*}的自毁机制被{*}短路。
+{*} destroyed.	{*}已摧毁。
+{*} explodes.	{*}爆炸。
+{n} blasted off.	{n}被炸飞。
+{n} ripped off.	{n}被扯下。
+Held in stasis.	陷入静滞。
+Hit by CPS modules.	被CPS模块击中。
+{n} purges {n} system corruption ({*}%).	{n}净化{n}系统损坏（{*}%）。
+{n} fully charged.	{n}已充满能量。
+Lost connection to {*}.	与{*}失去连接。
+{*} shuts down.	{*}关闭。
+Reactivated {*}.	{*}已重新启动。
+{*} rewired.	{*}重接完成
+{*} overheating.	{*}过热。
+Activated {*} mode.	已启用{*}模式。
+Ended {*} mode.	已退出{*}模式。
+Kicked {*}.	踢飞{*}。
+Crushed {*}.	压碎{*}。
+Knocked back.	被击退。
+{*} system corrupted by crushing effect.	{*}系统因压碎效果而损坏。
+Sneak attack on {*}.	偷袭{*}。
+{n} no longer valid.	{n}已失效。
+{n} locks onto door control terminal, ETC: {*}.	{n}锁定门控终端，预计完成时间：{*}。
+{*} starts remote hacking door controls.	{*}开始远程入侵门禁控制。
+{n} suddenly shrinks, drawing all nearby mass into a quantum tunnel.	{n}突然缩小，将附近所有质量吸入量子隧道。
+Force manipulation found no suitable objects.	强制操控未找到合适物体。
+Emergency decomposition triggered (matter +{*}, max core -{*}).	触发紧急分解（物质+{*}，核心上限-{*}）。
+CORE RESET	核心重置
+{n} temporarily destabilized by failed replication attempt, a second attempt will likely cause a devastating explosion.	{n}因复制失败暂时失稳；再次尝试很可能引发毁灭性爆炸。
+Navigation matrix triggers involuntary quantum shift.	导航矩阵触发非自愿量子偏移。
+Drawn through space via semi-controlled quantum shift.	通过半控制量子偏移穿越空间。
+System corrupted: Substantial component data lost.	系统损坏：大量部件数据丢失。
+System corrupted: IFF burst signal emitted.	系统损坏：已发出IFF爆发信号。
+Overload: Meltdown.	过载：熔毁。
+{n} melts away.	{n}融化消失。
+{n} access sealed.	{n}门禁封锁
+Door malfunctions.	门发生故障。
+Recycling unit begins matter transfer process.	回收机开始物质转移流程。
+{*} reports {n}b10 security level has risen to {*}.	{*}报告{n}b10安全等级已升至{*}。
+{*} reports {n}b10 security level has lowered to {*}.	{*}报告{n}b10安全等级已降至{*}。
+{*} wipes disruption trojan via remote access.	{*}通过远程接入清除了干扰特洛伊程序。
+{*} assimilated.	{*}已同化。
+{*} powers down.	{*}断电。
+Subsystem restored.	子系统已修复。
+{*} evaded trap.	{*}躲过陷阱。

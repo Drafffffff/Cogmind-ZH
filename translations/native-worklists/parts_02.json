@@ -1,0 +1,250 @@
+[
+  {
+    "string": "Permanently increases matter storage capacity by ",
+    "string_va": "0xbe0358",
+    "xref": "0x56a2fc",
+    "assembly_line": 8998,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_4a5652e828eab66eaa3496d5a9220ba1cd832c0ce4901233b425f537565cb7f6"
+  },
+  {
+    "string": "Permanently increases mass support by ",
+    "string_va": "0xbe03b8",
+    "xref": "0x56a3d7",
+    "assembly_line": 9045,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_b429aa94cf42768d4c578f6cccba14ed9551c63f41741f8d86adf95282fe0865"
+  },
+  {
+    "string": " integrity each time the effect is applied.\n <parallel_ok>",
+    "string_va": "0xbe043c",
+    "xref": "0x56a8cd",
+    "assembly_line": 9323,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_3ccdfb41a3f576a8f7eeea071207cddee3c67c88696fd979561941c23b93e0e9"
+  },
+  {
+    "string": "Converts energy to matter at a ratio of ",
+    "string_va": "0xbe08d8",
+    "xref": "0x56ab76",
+    "assembly_line": 9464,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_f1794ac4913d5e833c281cfded0fa905eca7d8dc87470d21d9de264dc8c0b80d"
+  },
+  {
+    "string": " every turn, in other words consuming ",
+    "string_va": "0xbe08b0",
+    "xref": "0x56ac04",
+    "assembly_line": 9496,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_e9c54a3683e7a66887d0412714da7f0ef25900b46d372bb10883da09bea7d77b"
+  },
+  {
+    "string": "Converts matter to energy at a ratio of 1:",
+    "string_va": "0xbe0958",
+    "xref": "0x56ae36",
+    "assembly_line": 9618,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_3ba54a446216c3c9d9a0de72cc25ce4b668230a6c38d81a09745ced5fb933346"
+  },
+  {
+    "string": " every turn, in other words consuming 1 matter to create ",
+    "string_va": "0xbe091c",
+    "xref": "0x56ae60",
+    "assembly_line": 9627,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_c87e00d2bec2083744c17d88e69d7bdb1cd388399895020fd5563906b35bd275"
+  },
+  {
+    "string": "Automatically collects matter within a range of ",
+    "string_va": "0xbe09cc",
+    "xref": "0x56b07d",
+    "assembly_line": 9744,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_89d5cc79fe32b131481cc94fd25bc4ba97de28acd799a9ac045beed4977fdfdd"
+  },
+  {
+    "string": "Attracts any debris within at least a range of ",
+    "string_va": "0xbe0a64",
+    "xref": "0x56b177",
+    "assembly_line": 9798,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_667eae5f8d9055df9957e1648ce65d1d5b633d1ad637f60da9e9e898d070c3ea"
+  },
+  {
+    "string": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+    "string_va": "0xbe0b78",
+    "xref": "0x56b39e",
+    "assembly_line": 9919,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_1a130752ebaf0ace8888c3b961d21dee2a68d6832e016c0adc18774e821caa61"
+  },
+  {
+    "string": " per turn. Can hold no more than ",
+    "string_va": "0xbe0afc",
+    "xref": "0x56b42c",
+    "assembly_line": 9951,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_634d1c4de94208e368b9b3d38bde915142a01a826d05e886b0305ad8b8b3ec99"
+  },
+  {
+    "string": " scrap at a time.\n <parallel_ok, resume_ok>",
+    "string_va": "0xbe0ad0",
+    "xref": "0x56b490",
+    "assembly_line": 9974,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_fd479624f0289da652d252bddb65baaa7641676d5ae1f8e0076e0db1712c09aa"
+  },
+  {
+    "string": "Automatically cannibalizes a part on the ground to restore ",
+    "string_va": "0xbe0b3c",
+    "xref": "0x56b5ec",
+    "assembly_line": 10046,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_4e2a96232608d491e07b9f488703bbf2dae3baf467fd223fa048f5cf9daaa26d"
+  },
+  {
+    "string": " integrity to the most damaged attached part of the same subtype, up to no more than ",
+    "string_va": "0xbe0e60",
+    "xref": "0x56b616",
+    "assembly_line": 10055,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_3255c56d8ed5869f5297ea395cfa7f4c8d40e2700c4d9957994ad89a6685c330"
+  },
+  {
+    "string": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes ",
+    "string_va": "0xbe12a0",
+    "xref": "0x56bb0f",
+    "assembly_line": 10334,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_14ca7a93f92ada877e3030254ded57ab3311b9cb2011b839d9851961664eb667"
+  },
+  {
+    "string": " turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+    "string_va": "0xbe11f0",
+    "xref": "0x56bb39",
+    "assembly_line": 10343,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_571dfaa5d592936139b42953a0ac7f0264dda08eff3bc4f0be71a1a1df7f3c87"
+  },
+  {
+    "string": " traps of the same type, but cannot store stasis traps. Each extraction attempt requires ",
+    "string_va": "0xbe1420",
+    "xref": "0x56bcd4",
+    "assembly_line": 10435,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_42d9483690e6d9c20908912690fa632ea3250b195e0d9bd1da741834cf5c2810"
+  },
+  {
+    "string": " matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+    "string_va": "0xbe1348",
+    "xref": "0x56bd38",
+    "assembly_line": 10458,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_cdad075e7e9c53a710f09d808fd0e134325bc99b4ee17835c32debd3e89d8ee2"
+  },
+  {
+    "string": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of ",
+    "string_va": "0xbe1580",
+    "xref": "0x56c0b2",
+    "assembly_line": 10641,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_ee98223b784b333a679cbc032ec10a2833a8228c39825032fcbcd5196c2fc569"
+  },
+  {
+    "string": " to repair any core damage and ",
+    "string_va": "0xbe0e3c",
+    "xref": "0x56c116",
+    "assembly_line": 10664,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_c7d604d5d5850d79be281e7274d7e9f219a1d9394b6b7d8ebc3b9d76b92c1161"
+  },
+  {
+    "string": " for each damaged or missing part. Repairs cannot drop bay integrity below ",
+    "string_va": "0xbe1518",
+    "xref": "0x56c17a",
+    "assembly_line": 10687,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_67645abca6c29fb3e86c58db2aa04ed350f07392f9833441cd62f5d8d65ee4ce"
+  },
+  {
+    "string": "Fabricates a random derelict part at a rate of 1 per ",
+    "string_va": "0xbe1700",
+    "xref": "0x56c4d2",
+    "assembly_line": 10855,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_666d0c26bad6df04331f73fa1dc86e0e2f7a9496a477ed01f17b1799d44ea286"
+  },
+  {
+    "string": "Fabricates a random Assembled at a rate of 1 per ",
+    "string_va": "0xbe179c",
+    "xref": "0x56c983",
+    "assembly_line": 11089,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_e415d1c53cdaf923d198743b6e53e7f85f1c25addbfab8955cf48bcae8ef2731"
+  },
+  {
+    "string": "Fabricates a random drone at a rate of 1 per ",
+    "string_va": "0xbe1844",
+    "xref": "0x56cbc2",
+    "assembly_line": 11200,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_94e5fe520ecd2cce6075bf83fbe6b69e72066588908ae17eb37875b505ae6ead"
+  },
+  {
+    "string": "Fabricates a random turret at a rate of 1 per ",
+    "string_va": "0xbe1948",
+    "xref": "0x56ce63",
+    "assembly_line": 11334,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_b75b31ebd14a87d031e2c48de1642eb24ea21d89872117b0492b4c31fa62974c"
+  },
+  {
+    "string": " after remaining active for ",
+    "string_va": "0xbe19b8",
+    "xref": "0x56d173",
+    "assembly_line": 11490,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_414fa3863eea1b3bc1e8dad189627d2f1c1bd5e19847176806fe25c5d4927a82"
+  },
+  {
+    "string": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately ",
+    "string_va": "0xbe19e0",
+    "xref": "0x56d246",
+    "assembly_line": 11535,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_ec4462839507ced1ce1a359d537b74bcf0777289d7300ffe7ad90e08d3737689"
+  },
+  {
+    "string": " turns emits a powerful signal tuned to power down all Assembled within a range of ",
+    "string_va": "0xbe1b40",
+    "xref": "0x56d450",
+    "assembly_line": 11648,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_abf7b333efa386df283af67d8c5d8e5aee0e1374eb53ef565fc48f44bcef1d11"
+  },
+  {
+    "string": " turns emits a powerful signal that befriends all visible Subdwellers within a range of ",
+    "string_va": "0xbe1ba0",
+    "xref": "0x56d5e3",
+    "assembly_line": 11736,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_9301aa737e1f0002fcf8b643433c177c15c64e32eaed9a3d1e403ab1394e5a48"
+  },
+  {
+    "string": "Regenerates integrity at a rate of 1 per ",
+    "string_va": "0xbe1c50",
+    "xref": "0x56d763",
+    "assembly_line": 11818,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_bf9038d07fb91b907fd222d95a7652f78b095d29311262685871ba5d7f796c37"
+  },
+  {
+    "string": "Regenerates integrity at a rate of ",
+    "string_va": "0xbe1cc0",
+    "xref": "0x56d8b9",
+    "assembly_line": 11887,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_d2b312c4a9b12297898ee1a5d5c9ad804337690f50fa14a76378436c413804c8"
+  }
+]

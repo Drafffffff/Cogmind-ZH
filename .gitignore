@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+original/*
+!original/.gitkeep
+upstream/*
+!upstream/.gitkeep
+output/*
+!output/.gitkeep
+build/
+*.exe
+*.dll
+*.zip
+*.sav

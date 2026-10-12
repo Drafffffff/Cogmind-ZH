@@ -1,0 +1,668 @@
+[
+  {
+    "source": "disappears into a concealed tunnel.",
+    "raw": " disappears into a concealed tunnel.",
+    "translation": "消失在一条隐秘隧道中。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "falls loose from the Twisted Machinery.",
+    "raw": " falls loose from the Twisted Machinery.",
+    "translation": "从扭曲机械中脱落。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "vanishes into the earth.",
+    "raw": " vanishes into the earth.",
+    "translation": "消失在土层中。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "The earth collapses behind",
+    "raw": "The earth collapses behind ",
+    "translation": "身后的土层塌陷",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "bursts out of the Twisted Machinery.",
+    "raw": " bursts out of the Twisted Machinery.",
+    "translation": "从扭曲机械中冲出。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "route. See that they get there.",
+    "raw": " route. See that they get there.",
+    "translation": "路线。确保他们抵达。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "twisted beyond recognition.",
+    "raw": " twisted beyond recognition.",
+    "translation": "被扭曲得面目全非。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "containment failure.",
+    "raw": " containment failure.",
+    "translation": "收容失效。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least",
+    "raw": " integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least ",
+    "translation": "过程中会损失耐久，但在标准散热之后才生效，且仅当热量升至至少",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+    "raw": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+    "translation": "抵消对该部件50%的伤害，能量损失比为1:",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "in a random direction.",
+    "raw": " in a random direction.",
+    "translation": "朝随机方向。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "back in the direction of the attack.",
+    "raw": " back in the direction of the attack.",
+    "translation": "沿攻击方向返回。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Example: All weapons in a three-weapon volley would have +",
+    "raw": "Example: All weapons in a three-weapon volley would have +",
+    "translation": "例如：三武器齐射中的所有武器将获得+",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "modifier. Compatible only with gun-type weapons that fire a single projectile.",
+    "raw": " modifier. Compatible only with gun-type weapons that fire a single projectile.",
+    "translation": "修正值。仅兼容发射单发弹丸的枪械类武器。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.",
+    "raw": " modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.",
+    "translation": "修正值。仅兼容发射单发弹丸的枪械或炮械类武器。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Holds target in place. Beam strength:",
+    "raw": "Holds target in place. Beam strength: ",
+    "translation": "将目标定在原地。光束强度：",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Penetrates target robot just enough to enable system access for hacking. Also a base",
+    "raw": "Penetrates target robot just enough to enable system access for hacking. Also a base ",
+    "translation": "穿透目标机器人以便入侵其系统。此外还提供基础",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "While hacking machines, reduces both chance of detection and rate of detection chance increases by",
+    "raw": "While hacking machines, reduces both chance of detection and rate of detection chance increases by ",
+    "translation": "破解机器时，同时降低被发现概率及该概率的增长速度，降低幅度为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Teleports the user to an approximate distance of",
+    "raw": "Teleports the user to an approximate distance of ",
+    "translation": "将使用者传送至约",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "from current position, traveling along dimensional pathways of least resistance.",
+    "raw": " from current position, traveling along dimensional pathways of least resistance.",
+    "translation": "从当前位置出发，沿阻力最小的维度路径行进。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Simultaneously teleports all visible robots within a range of",
+    "raw": " Simultaneously teleports all visible robots within a range of ",
+    "translation": "同时传送范围内所有可见机器人，范围为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "part integrity is capable of repairing 100 core integrity.",
+    "raw": " part integrity is capable of repairing 100 core integrity.",
+    "translation": "部件耐久可修复100点核心耐久。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "part integrity. A drain of",
+    "raw": " part integrity. A drain of ",
+    "translation": "部件耐久。消耗",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Examples: A drain of 100 core integrity is capable of repairing",
+    "raw": "Examples: A drain of 100 core integrity is capable of repairing ",
+    "translation": "例如：消耗100点核心耐久可修复",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Permanently increases core heat dissipation by",
+    "raw": "Permanently increases core heat dissipation by ",
+    "translation": "永久提高核心散热能力，提升",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Permanently increases core energy generation by",
+    "raw": "Permanently increases core energy generation by ",
+    "translation": "永久提高核心能量生成，提升",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below",
+    "raw": " ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below ",
+    "translation": "比率。核心耐久低于一半时过程反转。核心或部件的耐久都不会降到",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+    "raw": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+    "translation": "从耐久至少过半的核心抽取能量，以1:",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Energy and matter required for part attachment permanently reduced by",
+    "raw": "Energy and matter required for part attachment permanently reduced by ",
+    "translation": "永久降低安装部件所需的能量和物质，降低",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below",
+    "raw": " max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below ",
+    "translation": "核心最大耐久。此功能不考虑未安装的容器，且若核心最大耐久在任何时候低于",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Permanently adds automated ability which converts core to matter. If matter capacity is at least",
+    "raw": "Permanently adds automated ability which converts core to matter. If matter capacity is at least ",
+    "translation": "永久增加自动将核心转换为物质的能力。若物质容量至少为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "heat would be used to generate",
+    "raw": " heat would be used to generate ",
+    "translation": "将使用热量生成",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Example: At 400 heat precisely",
+    "raw": "Example: At 400 heat precisely ",
+    "translation": "例如：热量恰为400时",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "to energy every turn at a",
+    "raw": " to energy every turn at a ",
+    "translation": "每回合转化为能量，转化速率为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Destroys all walls and earth up to a distance of",
+    "raw": "Destroys all walls and earth up to a distance of ",
+    "translation": "摧毁一定距离内的所有墙壁和土层，距离为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Permanently increases maximum core integrity by",
+    "raw": "Permanently increases maximum core integrity by ",
+    "translation": "永久提高核心最大耐久，提升",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Permanently increases inventory capacity by",
+    "raw": "Permanently increases inventory capacity by ",
+    "translation": "永久提高库存容量，提升",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Permanently increases energy capacity by",
+    "raw": "Permanently increases energy capacity by ",
+    "translation": "永久提高能量容量，提升",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Permanently increases matter storage capacity by",
+    "raw": "Permanently increases matter storage capacity by ",
+    "translation": "永久提高物质储存容量，提升",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Permanently increases mass support by",
+    "raw": "Permanently increases mass support by ",
+    "translation": "永久提高质量承载力，提升",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "integrity each time the effect is applied.",
+    "raw": " integrity each time the effect is applied.",
+    "translation": "效果每次生效时的耐久。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "every turn, in other words consuming",
+    "raw": " every turn, in other words consuming ",
+    "translation": "每回合，也就是消耗",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Converts energy to matter at a ratio of",
+    "raw": "Converts energy to matter at a ratio of ",
+    "translation": "能量转化为物质的比率为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "every turn, in other words consuming 1 matter to create",
+    "raw": " every turn, in other words consuming 1 matter to create ",
+    "translation": "每回合，也就是消耗1单位物质以生成",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Converts matter to energy at a ratio of 1:",
+    "raw": "Converts matter to energy at a ratio of 1:",
+    "translation": "物质转化为能量的比率为1:",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Automatically collects matter within a range of",
+    "raw": "Automatically collects matter within a range of ",
+    "translation": "自动收集范围内的物质，作用范围为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Attracts any debris within at least a range of",
+    "raw": "Attracts any debris within at least a range of ",
+    "translation": "吸引至少在作用范围内的所有残骸",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "scrap at a time.",
+    "raw": " scrap at a time.",
+    "translation": "废料。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "per turn. Can hold no more than",
+    "raw": " per turn. Can hold no more than ",
+    "translation": "每回合。最多可容纳",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Automatically cannibalizes a part on the ground to restore",
+    "raw": "Automatically cannibalizes a part on the ground to restore ",
+    "translation": "自动拆解地面上的一个部件以恢复",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+    "raw": "Activate a second time to begin automatically collecting parts at current location to recycle them into matter (",
+    "translation": "再次激活即可开始自动收集当前位置的部件，并将其回收为物质（",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "to repair any core damage and",
+    "raw": " to repair any core damage and ",
+    "translation": "用于修复核心损伤，并",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "integrity to the most damaged attached part of the same subtype, up to no more than",
+    "raw": " integrity to the most damaged attached part of the same subtype, up to no more than ",
+    "translation": "为同一子类型中受损最严重的已安装部件恢复耐久，但最多不超过",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+    "raw": " turns, and progress is reported as the number of turns remaining to complete dismantling. Dismantling an explosive machine takes it apart without triggering an explosion.",
+    "translation": "回合；进度以拆解所需的剩余回合数显示。拆解爆炸性机器不会引发爆炸。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes",
+    "raw": "While active, repeatedly move into a machine or blast door to dismantle it, where targets with higher armor take longer to dismantle. Each step of the process takes ",
+    "translation": "启用时，反复撞向机器或爆破门即可拆解；目标护甲越高，拆解所需时间越长。此过程每步需要",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+    "raw": " matter. Activate a second time to begin dropping stored traps to the ground at a rate of one per turn. Also prevents user system corruption from accidentally triggering a trap at current location due to movement.",
+    "translation": "单位物质。再次激活即可开始每回合向地面投放一个已储存陷阱。也可防止使用者因移动造成系统损坏而意外触发当前位置的陷阱。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "traps of the same type, but cannot store stasis traps. Each extraction attempt requires",
+    "raw": " traps of the same type, but cannot store stasis traps. Each extraction attempt requires ",
+    "translation": "同类型陷阱，但无法储存停滞陷阱。每次取出都需要",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "for each damaged or missing part. Repairs cannot drop bay integrity below",
+    "raw": " for each damaged or missing part. Repairs cannot drop bay integrity below ",
+    "translation": "每个受损或缺失的部件。修理不会使舱体耐久低于",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of",
+    "raw": "Launched when bay is activated. Matching drones operate as long as this bay is functional and attached, though it does not have to remain active. Additional available bays in inventory can also receive returning drones as long as one already attached. Damaged drones are repaired on retrieval by using the bay's integrity as a resource, at a cost of ",
+    "translation": "舱体激活时发射。只要舱体功能正常且已安装，匹配的无人机便会持续运作，但舱体不必保持激活。只要已有一个舱体安装，库存中的其他可用舱体也能接收返航无人机。回收时会消耗舱体耐久修复受损无人机，代价为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Fabricates a random derelict part at a rate of 1 per",
+    "raw": "Fabricates a random derelict part at a rate of 1 per ",
+    "translation": "随机遗民部件的制造速率为每1个",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Fabricates a random Assembled at a rate of 1 per",
+    "raw": "Fabricates a random Assembled at a rate of 1 per ",
+    "translation": "随机组装体的制造速率为每1个",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Fabricates a random drone at a rate of 1 per",
+    "raw": "Fabricates a random drone at a rate of 1 per ",
+    "translation": "随机无人机的制造速率为每1个",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Fabricates a random turret at a rate of 1 per",
+    "raw": "Fabricates a random turret at a rate of 1 per ",
+    "translation": "随机炮塔的制造速率为每1个",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "after remaining active for",
+    "raw": " after remaining active for ",
+    "translation": "持续启用后",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately",
+    "raw": "Autonomous self-powered unit capable of building and maintaining a complete Golem. Construction requires approximately ",
+    "translation": "可自主供能、建造并维护完整魔像的单元。建造约需",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "turns emits a powerful signal tuned to power down all Assembled within a range of",
+    "raw": " turns emits a powerful signal tuned to power down all Assembled within a range of ",
+    "translation": "回合后释放强力信号，使范围内所有组装体停机，范围为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "turns emits a powerful signal that befriends all visible Subdwellers within a range of",
+    "raw": " turns emits a powerful signal that befriends all visible Subdwellers within a range of ",
+    "translation": "回合后释放强力信号，使范围内所有可见地底居民成为盟友，范围为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Regenerates integrity at a rate of 1 per",
+    "raw": "Regenerates integrity at a rate of 1 per ",
+    "translation": "耐久恢复速率为1点，每",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "per turn. Must be active, and requires",
+    "raw": " per turn. Must be active, and requires ",
+    "translation": "每回合。必须启用，并需要",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Regenerates integrity at a rate of",
+    "raw": "Regenerates integrity at a rate of ",
+    "translation": "耐久恢复速率为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by",
+    "raw": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by ",
+    "translation": "拆解当前位置地面的任意部件来修复自身，恢复耐久",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Converts each adjacent wall, earth, and door to",
+    "raw": "Converts each adjacent wall, earth, and door to ",
+    "translation": "将每面相邻墙壁、土层和门转换为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+    "raw": " integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+    "translation": "耐久/回合。耐久自然耗尽后，你会被迫回到那个时间点。若提前遭摧毁，则不会发生回退。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Sets a temporal reversion point when attached, then loses",
+    "raw": "Sets a temporal reversion point when attached, then loses ",
+    "translation": "安装时设定时间回退点，随后损失",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Automatically hacks visible door terminals within a range of",
+    "raw": "Automatically hacks visible door terminals within a range of ",
+    "translation": "自动破解范围内可见的门终端，范围为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Automatically and instantly reprograms visible hostile traps within a range of",
+    "raw": "Automatically and instantly reprograms visible hostile traps within a range of ",
+    "translation": "自动即时重编程范围内可见的敌方陷阱，范围为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover",
+    "raw": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover ",
+    "translation": "间歇性地将已安装部件变为其他部件。新部件保留原部件相同的耐久百分比，并额外恢复",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Prevents core/hover/flight speed of all hostiles in view within a range of",
+    "raw": "Prevents core/hover/flight speed of all hostiles in view within a range of ",
+    "translation": "阻止范围内所有可见敌方单位的核心/悬浮/飞行移动，范围为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "damage to core integrity for each space traveled.",
+    "raw": " damage to core integrity for each space traveled.",
+    "translation": "每移动一格，对核心耐久造成伤害。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+    "raw": " consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+    "translation": "连续穿过多个实心物体，直至另一侧第一个空格；每移动一格，核心耐久会受到相当于最大值1%的伤害。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Warp across any number of open spaces nearly instantly, taking",
+    "raw": "Warp across any number of open spaces nearly instantly, taking ",
+    "translation": "几乎瞬间穿越任意数量的空地，同时承受",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "integrity with each discharge.",
+    "raw": " integrity with each discharge.",
+    "translation": "每次放电损失耐久。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "matter. Repeat the process to manually start a timer to detonate the power source after",
+    "raw": " matter. Repeat the process to manually start a timer to detonate the power source after ",
+    "translation": "物质。重复操作可手动启动动力源的引爆计时器",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires",
+    "raw": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires ",
+    "translation": "站在动力源上，按>或右键点击自身，将其改造成近接地雷；任何敌人靠近时都会引爆。布设需要",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires",
+    "raw": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires ",
+    "translation": "启用时撞向爆炸性机器，即可将其布设为有0b10战斗机器人经过时引爆。布设需要",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+    "raw": " is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+    "translation": "则改为遭到摧毁。移除或以其他方式失去此部件，会使所有博格盟友各自建立集体。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core,",
+    "raw": " regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, ",
+    "translation": "会以相同原理随时间自行再生。失去博格盟友会使自身核心受损，损伤量取决于机器人等级。若剩余核心不足，",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "nearby objects to attack it.",
+    "raw": " nearby objects to attack it. ",
+    "translation": "附近物体来攻击它。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly,",
+    "raw": " turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, ",
+    "translation": "回合。同化所需物质会随当前博格盟友数量显著增加。博格核心和部件的再生速度也会随盟友数量增加。同样，",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a",
+    "raw": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a ",
+    "translation": "启用时撞向相邻机器人即可同化并将其转化为博格形态。启动该过程需要",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "When attached, gives access to additional temporary",
+    "raw": "When attached, gives access to additional temporary ",
+    "translation": "安装后可使用额外的临时",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Access unavailable below",
+    "raw": "Access unavailable below ",
+    "translation": "低于要求时无法访问",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+    "raw": " matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+    "translation": "物质/1点耐久。若所有者的物质储量尚未满，最多只消耗可用物质的一半。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "If active while moving over free matter, repairs itself at a cost of",
+    "raw": "If active while moving over free matter, repairs itself at a cost of ",
+    "translation": "启用时经过地面散落物质即可修复自身，代价为",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "momentum. Energy upkeep: 8.",
+    "raw": " momentum. Energy upkeep: 8.",
+    "translation": "动量。能量维护消耗：8。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "from current position. May not arrive at destination entirely in one piece.",
+    "raw": " from current position. May not arrive at destination entirely in one piece.",
+    "translation": "从当前位置出发。抵达目的地时可能无法保持完整。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "While active and charged, move to teleport in a general direction to an approximate distance of",
+    "raw": "While active and charged, move to teleport in a general direction to an approximate distance of ",
+    "translation": "启用且充能后，朝大致方向移动即可传送约",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "from current position. Will not arrive at destination entirely in one piece.",
+    "raw": " from current position. Will not arrive at destination entirely in one piece.",
+    "translation": "从当前位置出发。抵达目的地时无法保持完整。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "While active, move to teleport in a general direction to an approximate distance of",
+    "raw": "While active, move to teleport in a general direction to an approximate distance of ",
+    "translation": "启用时，朝大致方向移动即可传送约",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "While active, intermittently and automatically attempts to teleport user a distance of approximately",
+    "raw": "While active, intermittently and automatically attempts to teleport user a distance of approximately ",
+    "translation": "启用时，会间歇性自动尝试将使用者传送约",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "already has a count value before even starting to exit",
+    "raw": " already has a count value before even starting to exit",
+    "translation": "尚未开始退出就已有计数值",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "cannot break an overloaded part currently in special mode",
+    "raw": "cannot break an overloaded part currently in special mode",
+    "translation": "无法破坏当前处于特殊模式的过载部件",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "already has a count value before mode even started",
+    "raw": " already has a count value before mode even started",
+    "translation": "模式尚未开始就已有计数值",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "releases a shadow of itself that zips off towards",
+    "raw": " releases a shadow of itself that zips off towards ",
+    "translation": "释放自身的影子，使其迅速冲向",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Shadow retroactively draws in",
+    "raw": "Shadow retroactively draws in ",
+    "translation": "影子追溯性地拉回",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+    "raw": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+    "translation": "非FACTION_COGMIND阵营的AI不能设为EXPLORE！",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "no longer operational.",
+    "raw": " no longer operational.",
+    "translation": "已无法运作。",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "attempting to follow self at",
+    "raw": " attempting to follow self at ",
+    "translation": "正试图在某处跟随自身",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+    "raw": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+    "translation": "无法寻路至有效目标：AI_MOVE_PATROL（",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "is not an interactive terminal",
+    "raw": " is not an interactive terminal",
+    "translation": "不是交互式终端",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  },
+  {
+    "source": "unable to find more targets on",
+    "raw": " unable to find more targets on ",
+    "translation": "无法在其上找到更多目标",
+    "notes": "片段预译，仅译出当前文本可确定的含义；未补造参数、占位符、上下文或句尾。"
+  }
+]

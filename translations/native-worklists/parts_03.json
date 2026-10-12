@@ -1,0 +1,250 @@
+[
+  {
+    "string": " per turn. Must be active, and requires ",
+    "string_va": "0xbe1c94",
+    "xref": "0x56d8f5",
+    "assembly_line": 11899,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_00e132d6f37dd810e68250d32ad3d454986f05599d4a86d28a24e39cc2d9d779"
+  },
+  {
+    "string": "Regenerates integrity at a rate of ",
+    "string_va": "0xbe1d00",
+    "xref": "0x56da1f",
+    "assembly_line": 11962,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_5f0fcf6dd4c6c1c252c4ec0e1237693225cfa876ebc774942471c3a35fccf63b"
+  },
+  {
+    "string": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by ",
+    "string_va": "0xbe1d60",
+    "xref": "0x56ddab",
+    "assembly_line": 12135,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_5eae282945dc1944e93eef9fd789202c8835da09ead0093c294cfa19f52f5dd9"
+  },
+  {
+    "string": "Converts each adjacent wall, earth, and door to ",
+    "string_va": "0xbe1dfc",
+    "xref": "0x56df71",
+    "assembly_line": 12233,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_58f968a1e50fc858b90605de2b977a464d9d3a3620e86ea158b639b911dbcda4"
+  },
+  {
+    "string": "Sets a temporal reversion point when attached, then loses ",
+    "string_va": "0xbe1ed0",
+    "xref": "0x56e0dd",
+    "assembly_line": 12312,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_f62ca9d90f748969099156a420c0b3ef0147917a5f07c7ff143063281b7e869e"
+  },
+  {
+    "string": " integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+    "string_va": "0xbe1e30",
+    "xref": "0x56e107",
+    "assembly_line": 12321,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_f7e90a1bd07de3c9367af77de2ff143645d183af8af770aa97586a8283120904"
+  },
+  {
+    "string": "Automatically hacks visible door terminals within a range of ",
+    "string_va": "0xbe1fa4",
+    "xref": "0x56e20f",
+    "assembly_line": 12378,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_9187dd3766576b11cb95617a473047f0bdfc98f36e3d5309ab6b24142c66eb79"
+  },
+  {
+    "string": "Automatically and instantly reprograms visible hostile traps within a range of ",
+    "string_va": "0xbe1fe8",
+    "xref": "0x56e38d",
+    "assembly_line": 12460,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_6d0b602dee8aac93c95d2e0b5c50b3a916616056312b01c023f823c77036e775"
+  },
+  {
+    "string": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover ",
+    "string_va": "0xbe2110",
+    "xref": "0x56e47a",
+    "assembly_line": 12511,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_09a41b8410e2cfe16ff1c37d1d74aef1f284bef09e2a4c4c9ee3399302694b34"
+  },
+  {
+    "string": "Prevents core/hover/flight speed of all hostiles in view within a range of ",
+    "string_va": "0xbe2220",
+    "xref": "0x56e724",
+    "assembly_line": 12653,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_49194b83cd28077864559510ff01319ee394b880b827d2af6738a30bff4eb7b0"
+  },
+  {
+    "string": " consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+    "string_va": "0xbe2318",
+    "xref": "0x56e937",
+    "assembly_line": 12763,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_40dcee3a63f84161455da97d60760ff8fa276536fdaaefa1539c0c2b224931e3"
+  },
+  {
+    "string": "Warp across any number of open spaces nearly instantly, taking ",
+    "string_va": "0xbe23c0",
+    "xref": "0x56e9e8",
+    "assembly_line": 12801,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_1424b9300e306838401501ab20581c0416438d6706aff6a15f4e4888de769709"
+  },
+  {
+    "string": " damage to core integrity for each space traveled.",
+    "string_va": "0xbe226c",
+    "xref": "0x56ea12",
+    "assembly_line": 12810,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_b9cf1c617159bb0453f16164430739327fbb65a3b9761fe622bb7e22edb5f001"
+  },
+  {
+    "string": " integrity with each discharge.",
+    "string_va": "0xbe2400",
+    "xref": "0x56eb99",
+    "assembly_line": 12895,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_c408d9749b8595226f7be1291c7867277f5f5e6e8f47805c9cdf94769406babb"
+  },
+  {
+    "string": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires ",
+    "string_va": "0xbe2598",
+    "xref": "0x56ed8b",
+    "assembly_line": 13002,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_dac7bb0ac7bde969e53236fb19b30419eef27b82d3aa20e5a4377533ee0cf908"
+  },
+  {
+    "string": " matter. Repeat the process to manually start a timer to detonate the power source after ",
+    "string_va": "0xbe2500",
+    "xref": "0x56edb5",
+    "assembly_line": 13011,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_f2a5a877bbe39cb2a61067e0c4249fa98137947e84ea72e9540e47528b325547"
+  },
+  {
+    "string": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires ",
+    "string_va": "0xbe2660",
+    "xref": "0x56eef7",
+    "assembly_line": 13081,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_79b9ee94e25d37e8f2585be3354a2665577d57ed237b441a33ebf4644fa06173"
+  },
+  {
+    "string": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a ",
+    "string_va": "0xbe29d0",
+    "xref": "0x56efee",
+    "assembly_line": 13135,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_35481b68da9deeffacbf2d5d8a9d88bb7b8b903920cf1cb4363c40ca90ea17e0"
+  },
+  {
+    "string": " turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, ",
+    "string_va": "0xbe2838",
+    "xref": "0x56f07c",
+    "assembly_line": 13167,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_3dc8d84e3e8e0e221b34e2827428e5d51309a2069439a87215439a200690ec2f"
+  },
+  {
+    "string": " regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, ",
+    "string_va": "0xbe2768",
+    "xref": "0x56f0e3",
+    "assembly_line": 13191,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_b4ccd8f5a50a452d5e5ae4e04a2d29364a8627e711d0c91eed044940c168986f"
+  },
+  {
+    "string": " is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+    "string_va": "0xbe26e8",
+    "xref": "0x56f14a",
+    "assembly_line": 13215,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_fb0e2194c87e98e0b6174f39685045bb9ef5d010ca6622875db8046adfa40a88"
+  },
+  {
+    "string": " nearby objects to attack it. ",
+    "string_va": "0xbe2814",
+    "xref": "0x56f2e8",
+    "assembly_line": 13304,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_3d6871c3ef9ad70fcd6c67d8a7bf6bb5fdbb81d5a96c90a08ef2ed6b2f0c1db7"
+  },
+  {
+    "string": "When attached, gives access to additional temporary ",
+    "string_va": "0xbe2eb4",
+    "xref": "0x56f740",
+    "assembly_line": 13548,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_057975a243863ad8c8ec77763c9ff99da763f7d059fc5eef1d2af2222c7c262b"
+  },
+  {
+    "string": "If active while moving over free matter, repairs itself at a cost of ",
+    "string_va": "0xbe3088",
+    "xref": "0x56f981",
+    "assembly_line": 13673,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_362cd07f4fec54b0d9d34cb36a84b3ca250532e0a7f00aa83e82866db2b37132"
+  },
+  {
+    "string": " matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+    "string_va": "0xbe3000",
+    "xref": "0x56f9ab",
+    "assembly_line": 13682,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_450de7914c40d0f79070128dbbd3bf7a85c649f3273ff501c679f6b0b7d6aec2"
+  },
+  {
+    "string": " momentum. Energy upkeep: 8.",
+    "string_va": "0xbe30d0",
+    "xref": "0x56fac5",
+    "assembly_line": 13739,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_41c4131fb7b496456c850d494c5f103e49d46e63adeee513751e7dfb38c301d3"
+  },
+  {
+    "string": "While active and charged, move to teleport in a general direction to an approximate distance of ",
+    "string_va": "0xbe3198",
+    "xref": "0x56fcd1",
+    "assembly_line": 13841,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_200f046ee37daa1d2b0f277fd57daf58b9555b96e06174a1a48adcc52dc403e1"
+  },
+  {
+    "string": " from current position. May not arrive at destination entirely in one piece.",
+    "string_va": "0xbe3148",
+    "xref": "0x56fd0f",
+    "assembly_line": 13853,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_71d40e958e9c4b4bf3bffb1e9870d98b202d98543dd14866def6c3ebd70924dc"
+  },
+  {
+    "string": "While active, move to teleport in a general direction to an approximate distance of ",
+    "string_va": "0xbe3268",
+    "xref": "0x56fdb8",
+    "assembly_line": 13889,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_aa9e95b9244e1b1cdebc1c89a921ac7e4ee82d9928755e40bc1432e87b7cdfec"
+  },
+  {
+    "string": " from current position. Will not arrive at destination entirely in one piece.\n <consumed>",
+    "string_va": "0xbe3208",
+    "xref": "0x56fdf7",
+    "assembly_line": 13901,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_79714a03e38a36aa2c61e7b6958f024e33d7690dcfd93dfe6e0454e9f3deda31"
+  },
+  {
+    "string": "While active, intermittently and automatically attempts to teleport user a distance of approximately ",
+    "string_va": "0xbe33e8",
+    "xref": "0x56ffd1",
+    "assembly_line": 13990,
+    "assembly_file": "build/rea/part-description-annotated.asm",
+    "xref_evidence": "ev_a60e72695931d84ecf891531c3c771a2cd16607daebde34380368dc0c89a301c"
+  }
+]

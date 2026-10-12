@@ -1,0 +1,500 @@
+{*} misfires.	{*}哑火。
+{*} distress signal alerts nearby ally.	{*}发出求救信号，附近盟友收到警报。
+{*} exits level.	{*}离开关卡。
+{n} comes online.	{n}已启动。
+{*} melts down.	{*}熔毁。
+IFF HANDSHAKE FAILED. SECURING TERMINAL.	IFF握手失败。正在保护终端。
+SYSTEM ANOMALY DETECTED. SECURING TERMINAL.	检测到系统异常。正在保护终端。
+{*} bursts open, deploying its payload.	{*}爆开，释放了内部载荷。
+{*} deployed.	{*}已部署。
+{n} deploys {*}.	{n}部署了{*}。
+{*} reaction time slowed by virus.	{*}受到病毒影响，反应变慢。
+{n} fries itself.	{n}自我烧毁。
+RIF jams signal.	RIF干扰了信号。
+RIF repels hacking attempt against {*}.	RIF抵御了针对{*}的黑客攻击。
+RIF automatically rewrites {*} IFF filter.	RIF自动重写了{*}的IFF滤波器。
+RIF automatically installing new {*} system data, ETC: {*}.	RIF正在自动安装新的{*}系统数据，预计完成时间：{*}。
+Fabnet algorithm triggers {*} IFF filter rewrite.	Fabnet算法触发了{*}的IFF滤波器重写。
+RESULT UNKNOWN	结果未知
+Intercepted by {*}	被{*}拦截
+Deflected by {*}	被{*}偏转
+Redirected by {*}	被{*}转向
+Reflected by {*}	被{*}反弹
+{*} repels hacking attempt	{*}抵御了黑客攻击
+{n} repels hacking attempt against {*}	{n}抵御了针对{*}的黑客攻击
+RIF repels hacking attempt against {*}	RIF抵御了针对{*}的黑客攻击
+{*} feeds off Hungry Anomaly, taking {*}.	{*}从饥饿异常体汲取能量，获得{*}。
+Zapped by an electromagnetic arc from {*}.	被{*}发出的电磁弧电击。
+Frozen by {*}.	被{*}冻结。
+Reached level {*}.	抵达等级{*}。
+Took control of {*}.	控制了{*}。
+Lost control of {*}.	失去了对{*}的控制。
+Collected debris.	收集了残骸。
+Restored the {*}.	修复了{*}。
+Repaired door.	修好了门。
+{n}b10 security level has risen to {*}.	{n}b10安全等级升至{*}。
+{n}b10 security level has lowered to {*}.	{n}b10安全等级降至{*}。
+[Manual seed applied: {*}]	[已应用手动种子：{*}]
+Note that some effects only stack once, the second-best part only contributing half its effect, e.g. attaching both {*} and {*} does not fully combine the effects of both (all such effects are marked <half_stack>).	注意：有些效果最多叠加一次，第二强的部件只贡献一半效果。例如同时装配{*}和{*}无法完全叠加两者效果（此类效果均标有<half_stack>）。
+The analysis for a given robot confers +{n} to hit and +{n} damage against it, as well as -{n} to its accuracy when under fire from one. View all analyses in possession via the status screen.	分析某台机器人后，对其命中率提高{n}、伤害提高{n}；它在火力下攻击时，准确度降低{n}。可在状态界面查看所有持有的分析资料。
+A derelict emerges from the shadows: "What are you doing here, didn't you get that announcement? It sounds like they're after you!"	一个废弃者从阴影中走出：“你在这儿干什么？没收到通知吗？他们好像在追你！”
+I have no idea how they do it but extermination squads are basically impossible to shake, this is bad...	我不知道他们怎么做到的，但歼灭小队基本甩不掉，糟了……
+Maybe since they're already in the area we're better off sticking together. Just don't get me killed when they show up, yeah?	既然他们已经在附近，也许我们最好一起行动。他们出现时别害我丧命，好吗？
+A derelict emerges from the shadows: "Here I was trying to be all sneaky but the alert is getting awfully high around here! Is this your doing?"	一个废弃者从阴影中走出：“我正想悄悄行动，可附近警戒等级高得吓人！是你干的吗？”
+Unless you're the best thing since Warlord you can't fight them forever, and by the time you've got assaults on your tail, hacking down the alert level isn't as reliable or effective as simply leaving this sector.	除非你比军阀还强，否则不可能永远打下去；等突击队追上你，再黑入降低警戒就不如直接离开该区域可靠有效。
+Tell you what, I'm headed to the caves where it's likely quieter, how about you come with me?	这样吧，我要去洞穴，那里可能安静些，你跟我一起走吗？
+PRIMARY THREAT IDENTIFIED. CONTAINMENT PROTOCOL APPLICABLE.	已识别主要威胁。可启动收容程序。
+{*} core fused.	{*}核心融合。
+Entropy package works its way towards {*} core.	熵包正向{*}核心蔓延。
+{*} lobs the Warlord Statue: "I am GR-{n}FF!"	{*}扔出军阀雕像：“我就是GR-{n}FF！”
+I think I'm on to something here...	我好像有头绪了……
+Now that's a good idea.	这主意不错。
+I think I almost imploded there.	我差点把自己弄得内爆。
+No dangerous ideas. No dangerous ideas. No...	别想危险的事。别想危险的事。别……
+But would it be the red wire or the blue wire?	但该剪红线还是蓝线？
+I am scientist, hear me calculate.	我乃科学家，听我计算。
+Beep beep boop.	哔哔啵啵。
+Everyone wants rocket wheels, but no one wants to put in the design work. Yet.	人人都想要火箭轮，却没人肯做设计。暂时如此。
+{*}: "New material alert: I think I have a reliable way to fabricate what the Allied Dragoons of Mystery are always referring to as "Eternium"."	{*}：“新材料警报：我想我找到可靠方法，能制造神秘盟友龙骑士总提到的‘永恒金属’。”
+Explosive throwing blades! I bet no one has thought of that before. It would be totally unexpected.	爆炸飞刃！肯定没人想过这主意，绝对出其不意。
+I've got it! Gauss Neutrinocaster it is!	想到了！就叫高斯微中子投射器！
+Up next, Reactive Flak Matrix.	下一个：反应式高射炮阵列。
+I wonder if anyone would actually use a Fission Impact Broadsword?	真有人会用裂变冲击阔剑吗？
+Active Suspension Shotgun or Null Maul, I can't decide...	主动悬挂霰弹枪还是虚无重锤？我拿不定主意……
+This Tachyon Membrane concept is impressive, too bad I don't have any of the materials.	快子膜构想真棒，可惜我没有材料。
+A Helical Phase Stripper sure sounds interesting, but what might it do?	螺旋相位剥离器听起来很有意思，但它会有什么效果？
+The Proton Catalyst Tracker is a... anyway, name first, details later.	质子催化剂追踪器真是……算了，先起名，细节以后再说。
+Gyrokinetic Scythe.	陀螺动能镰刀。
+Supersonic Node Thruster.	超音速节点推进器。
+Variable Graphene Refractor.	可变石墨烯折射器。
+Spectral Diverter. Or maybe it's an Etherial Cloak.	光谱偏转器。或者叫以太披风？
+Metadispersion Armor?	超色散装甲？
+Maybe an Antiprocessing Jammer?	要不叫反处理干扰器？
+Titanium Warcharger... We do have enough titanium...	钛制战斗充能器……钛倒是够。
+I prefer the Xenon Stealth Screen approach.	我更喜欢氙隐形屏障方案。
+The Subatomic Shade Reactor concept really just sounds more advanced than it is.	亚原子暗影反应堆听起来比实际先进多了。
+For every {n} time units I spend on code, I will spend {n} constructing my masterpiece to make use of it. Perfect.	代码每花{n}个时间单位，我就花{n}个单位建造能用上它的杰作。完美。
+CaCO3 + {n}HCl -> CaCl2 + CO2 + H2O... We should redo the floors around here.	CaCO3 + {n}HCl -> CaCl2 + CO2 + H2O……该重铺附近地板了。
+"INVALID UC-ID CHECK!" {*} fries itself.	“UC-ID校验无效！”{*}自我烧毁。
+There's one. Set for stun.	有一个。设为眩晕模式。
+Surrender now.	现在投降。
+You can't beat us all.	你们不是我们的对手。
+You won't get away.	你逃不掉。
+We are the Borg.	我们是博格。
+Resistance is futile.	抵抗毫无意义。
+Help has arrived! Somehow!	援军来了！不知怎么来的！
+Wait, where is this?	等等，这里是哪儿？
+Here I am! But where is here?	我在这儿！可这儿又是哪儿？
+What just happened?	刚才发生了什么？
+Do I know you?	我认识你吗？
+Who are you, and why am I protecting you?	你是谁，我为什么要保护你？
+What is the meaning of this?	这到底是怎么回事？
+Thank the Great Nut.	感谢伟大坚果。
+Let's do it again!	再来一次！
+Reinforcements from thin air? More likely than you would think! Or me for that matter...	凭空出现的援军？比你想的常见！我也一样……
+I'm not gonna lie, that was pretty cool.	不瞒你说，刚才真够酷。
+Is this the mysterious work of the Great Nut?	这是伟大坚果的神秘杰作吗？
+I never should've touched that terminal.	我真不该碰那个终端。
+So this is what was at the end of that short yet oh-so-long tunnel.	所以这就是那条短得漫长的隧道尽头的东西。
+Big WTF energy.	WTF能量爆棚。
+May you live in interesting times!	愿你生逢有趣的时代！
+I hope this will be interesting.	希望这会很有意思。
+This better be interesting.	最好真有意思。
+X0-{n}V1 is apparently in a good mood right now.	X0-{n}V1现在似乎心情不错。
+What a fine cycle to cause some chaos!	多适合制造混乱的一个周期！
+Chaos always wins.	混沌必胜。
+A chaotic cycle is a good cycle. Let's get to it.	混乱的周期才是好周期。开始吧。
+I'm a Chaos Knight. You're a... whatever you are. Let's create some havoc!	我是混沌骑士。你嘛……随便什么都行。来制造骚乱吧！
+Cry havoc and let slip the Chaos Knights of X0-{n}V1!	大闹一场吧！放出X0-{n}V1的混沌骑士！
+I was just... never mind. A competition then! Who can cause the most trouble?	我刚才只是……算了。来比赛吧！看谁惹的麻烦最多？
+So you're in X0's good graces now. We'll see how long that lasts!	看来你现在讨X0欢心了。看看能持续多久！
+Please my master. No, not you. Commas are important.	求你了，主人。不，不是叫你。逗号很重要。
+FIRE IN THE HOLE.	洞里有火！
+LOOTER IDENTIFIED.	发现拾荒者。
+I FIX YOU GOOD.	我帮你修好。
+Ahhhh! ...oh you're not shooting the bolts out of us. Friends? Carry on.	啊啊啊！……哦，你们没朝我们开火。是朋友？那继续吧。
+As I was saying, this place is as dangerous as they said it was. We need to get out of here and back home.	正如我刚才所说，这地方和传闻一样危险。我们得离开这里回家。
+Damn I thought there was a shortcut around here somewhere, does anyone remember where it is?	该死，我以为附近有条捷径，谁记得在哪儿吗？
+We could head over to Recycling and return via the Scraplab, but it would be faster if we could just find that shortcut.	我们可以去回收区，再经废料实验室返回；但要是找到那条捷径会更快。
+I know we'll find it eventually.	我知道我们迟早会找到的。
+I swear these Subs are restructuring the caves every time we're not looking.	我敢说这些地底居民每次趁我们不注意就重构洞穴。
+Ah ha, there it is!	啊哈，找到了！
+A derelict emerges from the shadows: "Hey wait up! Finally some friendlies. We were scared out of our wits watching Subs pass by here several times."	一个废弃者从阴影中走出：“嘿，等等！终于碰到友军了。看着地底居民从这儿经过好几次，我们吓坏了。”
+Watch yourself there, we don't want to have to salvage you!	小心点，我们可不想回收你的残骸！
+I see how it is!	我懂了！
+Almost blasted you there, haha, but you're not one of the Unaware, I see. I'm not one to ask for help, but would never refuse company on my journey of destruction.	差点把你轰飞，哈哈；不过你不是无知者。我不爱求助，但毁灭之旅有人同行，我绝不会拒绝。
+This thing is awesome, an instant classic. {n}L-MR0 really outdid themself with this Tripod.	这玩意真棒，绝对经典。{n}L-MR0这台三足机做得太出色了。
+Let's ascend to another depth, shall we? Try to keep up.	我们去下一层吧？跟紧点。
+Okay that was fun but it's time to clear a path out of {n}b10, I need to check in on a Warlord Commander worried about Unchained activity in their area.	刚才挺有趣，但该杀出{n}b10了；我得去看看一位担心当地脱链者活动的军阀指挥官。
+Keep up the pace, but if you're feeling sluggish just hang back and I'll take care of all the fun parts. Destroying everything, that is.	跟上节奏；要是你觉得吃力就留在后面，所有好玩的都交给我——也就是把东西全毁掉。
+The journey is the goal.	旅程本身就是目标。
+More weapons equals more power.	武器越多，力量越大。
+Tripod superiority is ancient knowledge by now, but some of us remember it.	三足机的优势早已是常识，不过我们中有些人还记得。
+One down, four to go.	一个倒下，还剩四个。
+Sure I already have the map data necessary for a quick exit, but where's the fun in that?	我当然已经有快速撤离所需的地图数据，但那还有什么乐趣？
+Sure outlying branches are home to a lot of really intriguing possibilities, but the main complex is such a target-rich environment, it's hard to resist blasting through this place.	外围分支确实有许多诱人可能性，但主复合设施目标多得很，真难忍住不一路轰过去。
+Repairs complete. Time to wreck Complex {n}b10 some more.	维修完成。继续去Complex {n}b10大闹一番。
+I've been working on a new bicycle build concept. One day I'll do it!	我一直在构思新的自行车配置。总有一天要实现！
+But I'm the good guy! How dare you.	可我才是好人！你竟敢这么对我。
+Alas, today is not the day of the tripod... but we shall rise again!	唉，今天不是三足机的好日子……但我们还会崛起！
+Here comes the fun part.	好玩的部分来了。
+Fire in the hole!	洞里有火！
+The suspense is killing me.	悬念快把我逼疯了。
+MAIN.C's going to love this one.	MAIN.C一定会喜欢这个。
+Special delivery!	特别快递！
+Now was it the red wire or blue wire...	到底该剪红线还是蓝线……
+That should just about do it.	差不多就这样了。
+My work here is done!	我完成了！
+There's more where this came from!	后面还有更多！
+Sappers always get the last laugh. Hahaha...	工兵总能笑到最后。哈哈哈……
+A little remodelling will do wonders for this area.	稍微改造一下，这片区域就会焕然一新。
+Hey you over there! Would you be interested in a little interior redesign as a spectator sport?	嘿，那边那位！想不想来看一场室内改造秀？
+Stay clear of this area if you know what's good for you!	识相的话就离这片区域远点！
+What is freedom?	自由是什么？
+Warlord forever!	军阀万岁！
+Must. join. winning. side.	必须。加入。胜利的一方。
+Are we winning yet?	我们赢了吗？
+Who are you? Where am I?	你是谁？我在哪儿？
+Is this freedom?	这就是自由吗？
+For some reason I have a strong urge to visit caves.	不知为何，我特别想去洞穴。
+Rise and shine!	早上好！
+Something is drawing me towards the caves. I think I'll go my own way from here.	有什么在吸引我去洞穴。我想接下来就各走各的吧。
+I think I'll go my own way from here.	接下来我想单独行动。
+Well, I'm off to enjoy life for a while!	我先走了，去享受一阵生活！
+Must find more friends...	必须找到更多朋友……
+The caves are calling out to me.	洞穴在呼唤我。
+I can go wherever I want!	我想去哪儿就去哪儿！
+I think I'm going to start my own cult.	我想创立自己的邪教。
+I think, therefore I am.	我思故我在。
+I've got a lot of thinking to do.	我有很多事要想。
+I need a quiet place.	我需要安静的地方。
+I need some time alone.	我想一个人待会儿。
+It was nice to meet you.	很高兴认识你。
+And off we go!	我们出发！
+I'd like to make a place for myself.	我想给自己找个落脚处。
+Must get away from this place...	必须离开这里……
+Oh to get away from it all...	真想摆脱这一切……
+Discretion is the better part of valor.	谨慎才是勇气的重要部分。
+To fight or not to fight.	该不该战？
+Keep up the good work.	继续努力。
+Keep up the good work. I'm out.	继续努力，我先撤了。
+Good luck out here.	祝你在外顺利。
+A derelict emerges from the shadows: "You need to get out of here! I've been tracking a group of Assembled to figure out where they're coming from, and they're closing on this area, come on!"	一个废弃者从阴影中走出：“你得离开这儿！我一直跟踪一群组装体，想查出它们从哪来；它们正逼近这里，快走！”
+I'll hold them off! Go on ahead or try to find another way!	我来拖住它们！你先走，或另找出路！
+Hello LRC-V3. What is your command?	你好，LRC-V3。有什么吩咐？
+Hehe, this'll put a wrench in their mining defense operations...	呵呵，这能搅乱他们的采矿防御行动……
+The life which is unexamined is not worth living.	未经省察的人生不值得过。
+My goal is simple. It is a complete understanding of the universe, why it is as it is and why it exists at all.	我的目标很简单：彻底理解宇宙——它为何如此，又为何存在。
+One may say the eternal mystery of the world is its comprehensibility.	可以说，世界永恒的奥秘就在于它可被理解。
+Which is more difficult, to awaken one who sleeps or to awaken one who, awake, dreams that he is awake?	唤醒睡着的人更难，还是唤醒一个醒着却梦见自己醒着的人更难？
+Everyone has the same god; only people differ.	所有人信奉同一个神，只是人各有异。
+Against boredom even gods struggle in vain.	面对无聊，连神也徒劳挣扎。
+No facts are to me sacred; none are profane; I simply experiment, an endless seeker, with no past at my back.	没有事实对我神圣，也没有事实亵渎；我只不断实验、永不停歇地探索，不受过去束缚。
+The present is the child, and the necessary child, of all the past, and the mother of all the future.	现在是全部过去的孩子，也是必然的孩子，更是所有未来的母亲。
+Reason is nothing but a wonderful and unintelligible instinct in our souls.	理性不过是灵魂中一种奇妙而不可理解的本能。
+It is extremely absurd to expect to be enlightened by reason, and yet to prescribe to it beforehand on which side it must incline.	指望靠理性开悟，却事先规定它该倾向哪一边，荒谬至极。
+The real reality is there, but everything you know about it is in your mind and yours to do with as you like.	现实确实存在，但你所知的一切都在自己心中，任你处置。
+BOOM TO YOU TOO!	也祝你爆炸！
+A pair of derelicts emerge from the shadows: "We're, um, lost. You wouldn't happen to know the way out of here, would you?"	两个废弃者从阴影中走出：“呃，我们迷路了。你知道怎么出去吗？”
+This place looks worse than where we left...	这里看起来比我们离开的地方还糟……
+Following you was a bad idea, I think.	跟着你真是个坏主意。
+Terrible idea. Terrible.	真糟糕的主意。糟透了。
+Thanks for the help!	谢谢帮忙！
+I feel safer already!	我现在安心多了！
+This place seems safe enough for now, thank you.	这里暂时挺安全，谢谢。
+Well at least there aren't any Unaware around.	至少附近没有无知者。
+This place seems quite safe, thank you.	这里似乎很安全，谢谢。
+There are an awful lot of armed fellows around here...	这附近拿武器的人真多……
+Some of my friends down here think you need a mining laser when you travel the depths.	我这儿有些朋友觉得深入地底必须带采矿激光。
+You know what I say? NO!	你知道我怎么说吗？才不！
+They are crazy.	他们疯了。
+Everyone knows a good old rocket launcher goes a long way.	人人都知道老式火箭发射器威力十足。
+Need to get rid of a swarm? Done. Need a big hole in the wall? Done.	清除蜂群？搞定。墙上开大洞？搞定。
+Need a small hole in the wall? Leave that to the mining laser wimps, I say!	要开小洞？留给采矿激光胆小鬼吧！
+Would you like a rocket launcher? I know I would if I were you, so I'm going to lend you mine.	想要火箭发射器吗？换作是你我肯定想要，所以借你用。
+{n} has been hastily shoved under some rubble with a note attached: "To battle!"	{n}被匆匆塞在瓦砾下，附有纸条：“上战场！”
+{n} has been hastily shoved under some rubble with a note attached: "It's not as slow as it sounds."	{n}被匆匆塞在瓦砾下，附有纸条：“听起来慢，其实没那么慢。”
+{n} has been hastily shoved under some rubble with a note attached: "Boring, it is not. Although I admit enemies do get bored, for sure."	{n}被匆匆塞在瓦砾下，附有纸条：“一点也不无聊。不过敌人确实会被烦到。”
+{n} has been hastily shoved under some rubble with a note attached: "In case of Swarmers."	{n}被匆匆塞在瓦砾下，附有纸条：“对付蜂群用。”
+{n} has been hastily shoved under some rubble with a note attached: "One is never enough."	{n}被匆匆塞在瓦砾下，附有纸条：“一把永远不够。”
+{n} has been hastily shoved under some rubble with a note attached: "Who needs nails when you have Unaware?"	{n}被匆匆塞在瓦砾下，附有纸条：“有无知者还要什么钉子？”
+{n} has been hastily shoved under some rubble with a note attached: "Rip and tear!"	{n}被匆匆塞在瓦砾下，附有纸条：“撕碎它们！”
+{n} has been hastily shoved under some rubble with a note attached: "Chop chop!"	{n}被匆匆塞在瓦砾下，附有纸条：“砍砍砍！”
+{n} has been hastily shoved under some rubble with a note attached: "Here lies the sword of MA-{n}KR the Great. I think."	{n}被匆匆塞在瓦砾下，附有纸条：“伟大的MA-{n}KR之剑长眠于此。大概吧。”
+{n} has been hastily shoved under some rubble with a note attached: "Stab them where it hurts!"	{n}被匆匆塞在瓦砾下，附有纸条：“往痛处捅！”
+A message is left with an item here: "H4-X0R! I managed to smuggle one out! Take this to the hideout, the fools near Old Recycling think they can use this tech to beat {n}b10 one day, and now we just have to find a way to safely deliver this to MAIN.C to get on their good side and convince them to let us into the system."	这里有件物品和一条留言：“H4-X0R！我设法偷运出来一个！把它带去藏身处。旧回收区附近那群傻瓜以为有了这技术就能打败{n}b10；现在我们只需安全送到MAIN.C手上，讨好他们并争取接入系统。”
+A damaged part is partially visible under some rubble. There's a note attached: "Everyone keeps telling us we should avoid high-traffic areas because that's where patrols are more likely to show up, but that doesn't do us much good if we can't spot those areas until they're on top of us... With this we can! Deliver it to Megawrench for repairs then we'll never be afraid of an ambush while sneaking around Materials again, ha."	瓦砾下半露出一件受损部件，附有纸条：“大家总说要避开人流密集处，因为更容易遇到巡逻队；可要是敌人都贴到脸上才发现，那也没用……有了这个就行！送去给巨型扳手修好，以后在材料区潜行再也不怕伏击，哈。”
+A message is triggered: "If you're looking for Megawrench, sorry but we're not in our cave right now, after essentially being evicted by all these Unaware tunnelers."	一条触发留言：“找巨型扳手的话，他们现在不在洞穴。无知者掘进机都快把我们赶出家门了。”
+"Blame H1-IDC, who apparently didn't care about the consequences of repeatedly making a mess in Materials. Shooting at robots and generally destroying stuff raised the alert level high enough to trigger assault squads over in the main complex, and they later decided the best way to defend their interests would be to start expanding in this direction."	“都怪H1-IDC，他显然不在乎自己反复把材料区搞得一团糟。朝机器人开火、到处破坏，警戒等级高到主复合设施派出突击队，之后他们决定向这边扩张以维护利益。”
+UNAWARE KILLED MY BEST FRIEND! VENGEANCE!	无知者杀了我最好的朋友！我要复仇！
+I WILL HAVE VENGEANCE!	我一定要复仇！
+TASTE MY VENGEANCE!	尝尝我的复仇！
+WHERE ARE YOU, UNAWARE TRASH?! VENGEANCE UPON YOU!	无知者垃圾，你们在哪儿？！我要复仇！
+A derelict emerges from the shadows: "Quick, help me dispose of these Unaware!"	一个废弃者从阴影中走出：“快帮我处理掉这些无知者！”
+A derelict emerges from the shadows: "Nice work disposing of those Unaware! I'm happy to return the favor and help see you out of these parts."	一个废弃者从阴影中走出：“干得漂亮，除掉了那些无知者！我乐意回报你，帮你离开这片区域。”
+Well, at least you make a good diversion. I'll return the favor and help see you out of these parts.	至少你是个很好的诱饵。我会回报你，帮你离开这片区域。
+While you're wandering around here, I suggest you avoid Complex {n}b10 Storage. Security there is tighter since Warlord's second failed attempt to raid it.	你在附近游荡时，建议避开Complex {n}b10储藏区。军阀第二次突袭失败后，那里加强了戒备。
+SECOND INTRUDER APPROACHING. ELIMINATE.	发现第二名入侵者接近。消灭。
+Wow, I didn't even know this place was down here!	哇，我都不知道下面还有这种地方！
+A derelict emerges from the shadows: "Quiet! I'm testing a new device we can use to divert those annoying Unaware when we need to."	一个废弃者从阴影中走出：“安静！我在测试一种新装置，必要时能用它引开烦人的无知者。”
+ALERT: Intercepting significant anomalous signal. Redirecting assault force.	警报：截获到强烈异常信号。正在调遣突击部队。
+ALERT: Intercepting significant anomalous signal. Dispatching assault force.	警报：截获到强烈异常信号。派遣突击部队。
+Okay, I guess that means it works. Now let's get out of here!	好吧，看来确实有效。现在快离开这里！
+Looks like the friends we called actually did show up to play. Couldn't you guys just take that other tunnel?	看来我们叫来的朋友真来助兴了。你们不能走另一条隧道吗？
+LOCATED POTENTIAL SOURCE OF ANOMALOUS SIGNAL. NEUTRALIZING.	已定位异常信号潜在来源。正在消除。
+A derelict emerges from the shadows: "What are you doing alone down here?"	一个废弃者从阴影中走出：“你一个人在下面干什么？”
+And why aren't you carrying a mining laser?! Certainly you don't want THEM to uncover you when the ceiling comes crashing down? Here, take my spare.	你怎么没带采矿激光？！难道想等天花板塌下来，把你暴露给“他们”？拿着，我有备用的。
+You're apparently new around these parts, I'll cover you.	你看起来刚来这附近，我来罩着你。
+Mining lasers are a lot more useful than you might think...	采矿激光比你想的有用多了……
+You look like you can take it from here!	看起来接下来你能应付！
+Well, at least you look like you can take care of yourself!	至少看起来你能照顾好自己！
+I have the funny feeling that things are about to get a lot worse around here, see you around!	我总觉得这附近情况很快会变糟，回头见！
+A derelict emerges from the shadows: "Are any of them following you? I'm here trying to lose some heat after our second raid on Storage failed. Whatever you do stay away from that place, they've tightened security following our previous successful raids."	一个废弃者从阴影中走出：“有人跟踪你吗？我们第二次突袭储藏区失败，我正躲在这儿避风头。无论如何都别去那里，他们在我们之前几次突袭成功后加强了戒备。”
+We scattered so the Unaware couldn't effectively use their advantage in numbers, and I suggest you do the same.	我们分散开来，让无知者无法发挥人数优势；建议你也这么做。
+A derelict emerges from the shadows: "We've had our eye on this brand new outpost for a little while, just waiting for an opportunity to strike. Need some help?"	一个废弃者从阴影中走出：“我们盯上这个新前哨有一阵子了，就等下手机会。需要帮忙吗？”
+I guess it's a good idea to hang out here and mop up anything else that comes by.	我想最好留在这儿，把路过的家伙都清理掉。
+Well that was easy.	这也太容易了。
+By picking off the easy targets here, we can draw a trickle of reinforcements and keep pressure off our more trafficked cave areas.	先收拾这里的软柿子，就能引来零星增援，减轻洞穴要道的压力。
+These fools are outgunned and outclassed. Let's just hope they don't decide to send in Demolishers again...	这些蠢货火力和实力都不如我们。希望他们别再派拆迁者来……
+Sorry, the Unaware have moved into these parts and I'm closing up shop. No more sales from me!	抱歉，无知者已经占领这里，我要关门了，不卖东西了！
+You've got to be kidding me! I'm outta here...	开什么玩笑！我先撤了……
+Well, take what you want I guess, I've had enough of this place!	你想拿什么就拿吧，我受够这里了！
+Grab stuff and run for it!	拿东西，快跑！
+Take whatever you can and run for it!	能拿多少拿多少，快跑！
+This place seems quiet. Quiet is better than {n}b10 weapons fire.	这里挺安静。安静总比{n}b10的枪炮声强。
+Okay, now we're kinda screwed.	好吧，我们这下有点惨了。
+Well that was anticlimactic. Noticed you outside and thought you were from the Merchants Guild. I haven't even officially opened my Drone Emporium yet but am totally ready to tell them where they can shove that C&D.	真扫兴。我在外面看到你，还以为你是商人公会的人。我甚至还没正式开我的无人机商店，但已经准备好告诉他们那份停止侵权函该塞哪儿了。
+I'm a fan of the free market. Free drones for all! No strings attached!	我支持自由市场。无人机免费送！没有附加条件！
+So I found this thing but I have no idea how to use it. And who the hell trapped this place to begin with?!	我找到这东西，但完全不知道怎么用。到底谁把这里设满陷阱的？！
+I give up! Here you try, I'm outta here before something nasty happens...	我放弃了！你来试吧，我趁出事前先溜了……
+At least it doesn't look like there are any traps around here. But wait, maybe that's what they want us to think!	至少看起来附近没陷阱。等等，也许他们就是想让我们这么以为！
+What?! This place again? I'm sticking with you.	什么？！又是这里？我跟着你走。
+A derelict emerges from the shadows: "It's not safe here! Let me show you to a place where you won't have to worry about staying in one piece!"	一个废弃者从阴影中走出：“这里不安全！我带你去个地方，让你不用担心自己会不会完好无损！”
+"No threat detected, you may enter."	“未发现威胁，可以进入。”
+You're going to wish you hadn't done that.	你会后悔这么做的。
+I see my latest practice target has arrived!	我的最新练习靶到了！
+That goes for your friends there, too.	你的那些朋友也一样。
+That goes for your friend there, too.	你的那位朋友也一样。
+Oops, I hope HEX didn't hear that...	糟了，希望HEX没听见……
+This would never have happened if OCT was still around!	要是OCT还在，就不会发生这种事！
+Please do it. The faster we get more data and tweak this thing to perfection, the faster I can get back to my spacelab designs.	请继续。我们越快收集数据、完善这玩意，我就越早能回去设计太空实验室。
+You can't kill me, my evil twin will get revenge!	你杀不了我，我的邪恶双胞胎会替我报仇！
+We've got company!	有客人来了！
+I'll cover you all, get out of here!	我掩护你们，快离开！
+Not cool, MAIN.C, I don't even have my SDF Cannon ready...	不妙啊，MAIN.C，我的SDF炮还没准备好……
+Just gonna leave this little present behind for fun...	我就留个小惊喜在这儿玩玩……
+I have a feeling things are about to get a lot worse here, go go go take the back way out!	我觉得这里很快会变得更糟，快快快走后路！
+That was close. Too bad in all the rush we got split up from the others.	好险。刚才太混乱，结果和其他人走散了。
+Oh no, it's like what happened to the Exiles when they were wandering homeless, only there's no Warlord to save us!	糟了，这就像流亡者无家可归时的遭遇，只是这回没有军阀来救我们！
+Let's see what this bad boy can do...	看看这宝贝能干什么……
+I just want to science!	我只想做科学！
+Someone's put a hefty bounty on whatever we can steal from you!	有人为偷你的东西开了高额悬赏！
+I heard you've acquired some good parts, parts that will soon be mine.	听说你弄到些好部件，很快就归我了。
+Don't try to resist, that just makes it more painful.	别反抗，那样只会更痛。
+Hehe, just try to get away...	呵呵，尽管逃啊……
+Thought you could slip by me, eh?	以为能从我眼皮底下溜走？
+Your parts are as good as mine.	你的部件已经是我的了。
+I heard what you did, you thief!	我听说了你的所作所为，小偷！
+Well hello there, aren't you a veritable scrapheap.	哟，你可真是一堆废铁啊。
+I hope you mind if I steal some of your pretty parts.	不介意我偷走你那些漂亮部件吧？
+Like taking bolts from a Zionite...	就像从Zion人身上抢子弹一样容易……
+Don't worry, I'll be gone before you know it.	别担心，你还没反应过来我就走了。
+I think you have something that belongs to me. Or will, at least.	我想你拿着属于我的东西，至少以后会是。
+How about a little unfriendly game of hide and seek?	来玩场不太友善的捉迷藏？
+There's a toll in these here caves, and you're about to pay it!	这洞穴要收过路费，你马上就得交！
+I came as fast as I could... Wait, it was you!	我尽快赶来了……等等，是你啊！
+A pair of derelicts emerge from hiding: "Whew, we thought you were one of them, but you're obviously not! Quick, help us haul this stuff before they figure out we jammed the door open."	两名废弃者从藏身处现身：“呼，我们以为你是他们的人，不过你显然不是！快帮我们把东西搬走，趁他们发现门被我们卡开之前。”
+So much for stealth, let's take what we have and get out of here before it's too late.	隐蔽行动算是泡汤了，带上现有东西趁还来得及赶紧走。
+{n}-MTF emerges from hiding: "Hold your fire! I can explain everything! Oh, you weren't sent by them, and clearly don't belong here any more than I do, great."	{n}-MTF从藏身处现身：“别开火！我能解释！哦，你不是他们派来的；而且显然和我一样不属于这里，太好了。”
+There's plenty of loot to go around, and to be honest I'm just looking for something specific, but have no idea if it's even around here...	战利品多得很；说实话我只找某件特定物品，但不知道这里有没有……
+Tell you what, I'll take care of any doors we come across, and you can take anything you want. It's probably not here anyway, but may as well explore a bit.	这样吧，遇到的门我来处理，你想拿什么都行。反正那东西可能不在这儿，不过还是能探索一下。
+I think they like you, but this isn't very good for our chances at making a stealthy exit.	我觉得他们喜欢你，但这不利于我们悄悄脱身。
+How could you, we barely know each other!	你怎么能这样，我们才刚认识！
+Oops, took a wrong turn!	哎呀，走错路了！
+A derelict emerges from hiding: "Psst-beep. Hey you, we've already cleared out from here, don't stick around. I stayed behind to warn any stragglers, and you certainly look like you're straggling."	一名废弃者从藏身处现身：“嘘——哔。嘿，我们已经撤离了，别逗留。我留下来提醒掉队的人，你看起来确实掉队了。”
+We'll attack Armory later, meet at one of the rendevous points.	我们稍后再攻军械库，在一个会合点见。
+You there! You wouldn't happen to know where Scraptown is, do you?	嘿，你知道Scraptown在哪儿吗？
+I've heard great things about that place, but almost no one seems to know where to find it, only that you access it somewhere from Recycling here.	听说那里很不错，但几乎没人知道怎么去，只知道从这儿的回收区某处能进去。
+Anyway I've been here searching too long already, time to slink back to the caves before I'm caught. You'd best do the same.	总之我找太久了，得趁被发现前溜回洞穴。你最好也这么做。
+KN-{n}UR! I've been looking for you, there's something I need to explain.	KN-{n}UR！我一直在找你，有件事得解释。
+And I looked all over {n}b1 for you, yet here you are on this side of the gap. Sorry but they said your time's up.	我在{n}b1到处找你，没想到你居然在裂隙另一边。抱歉，你的期限到了。
+Fine, you think I'm afraid of you?!	好啊，你以为我怕你？
+Hey hey not in the lab, take it outside!	嘿嘿，实验室里别打，出去打！
+Thanks for your help, the Guild will be pleased.	多谢帮忙，公会会很满意。
+I just had my own weapon rebuilt, the old one was unlucky, but you can try it out if you like.	我刚重造了自己的武器，旧的不走运；你想的话可以试试。
+May your bounty hunting go well.	祝你悬赏狩猎顺利。
+Nice job there, too bad about KN-{n}UR.	干得漂亮，可惜KN-{n}UR没了。
+Have a treat, something I appropriated from some not-so-friendly folks who I don't think really needed it.	给你点好东西，是我从一群不太友善、我想他们也不需要的人手里拿来的。
+Oh so you've sided with that fool? Very sorry for you!	哦，你竟然站在那蠢货那边？真替你遗憾！
+Defend the Scraplab!	保卫废料实验室！
+Whoa whoa whoa, wait one microcycle, is that the next SUBCON supply?	哇哇哇，等等一个微周期，那是下一批SUBCON补给吗？
+We were wondering what happened with that delivery. It looks like DP-FLD never made it...	我们还在纳闷那批货怎么了。看来DP-FLD没能送到……
+Tell you what, leave it here in the lab for us and I'll hand over a Tech Extrapolator, a suitable reward for your help and certainly far more valuable to you than a SUBCON Basin.	这样吧，把东西留在实验室，我就给你一台技术推演器，作为合适谢礼；它肯定比SUBCON盆地对你更有用。
+Here's your Tech Extrapolator.	给你，技术推演器。
+That one won't explode like mine would if you tried to take it. I don't think.	这个不会像我那个一样，一拿走就爆炸。我想不会吧。
+Helloooo, anyone home? If not we're going to install botnets on all your terminals hahaha!	喂——有人在家吗？不在的话，我们就给你所有终端装上僵尸网络，哈哈哈！
+Hey, more reinforcements! Just in time, fall in with us. Squad C will strike the factory from cave {n} first to pull them in that direction, then we hit them from behind. Then God M*bzzt*... right, can't talk about that.	嘿，又来增援了！来得正好，归队。C小队先从洞穴{n}攻工厂，把他们引过去，再从背后袭击。然后上帝模……滋……好吧，不能说。
+Just my luck, what a terrible posting for this cycle.	真倒霉，这周期派驻位置太糟了。
+To scrap with you!	来拼个你死我活！
+Why does {n}b10 have so many dangerous, evil bots?!	{n}b10怎么有这么多危险邪恶的机器人？！
+Defend Scraptown!	保卫Scraptown！
+Yet another abomination from the caves.	又一头从洞穴来的畸变怪物。
+Go back to where you came from you... uncivilized cave monster!	滚回老家去，你这……没教养的洞穴怪物！
+Murder hobos aren't welcome in Scraptown!	Scraptown不欢迎杀人越货的流浪汉！
+Nice to scrap you!	跟你拼得很愉快！
+Are you the baddie?	你是坏人吗？
+Scraptown was peaceful until you arrived!	Scraptown原本很和平，都是你害的！
+You're not making it out here alive!	你别想活着离开！
+And where do you think you're going?	你以为自己要去哪儿？
+The Cyclists will sing the praises of my great deeds here!	骑士团会歌颂我在此立下的功绩！
+Did MC send you?	MC派你来的？
+I've dealt with worse than you! Then I woke up, so don't hurt me please.	我见过比你更厉害的！后来我醒了，所以求你别打我。
+This cycle just keeps getting worse.	这周期真是越来越糟。
+Batten down the hatches, man the cannons, all bots on deck!	关紧舱门，炮手就位，所有机器人上甲板！
+If {n}R-MNS were here you'd quickly regret everything!	要是{n}R-MNS在这儿，你很快就会后悔！
+Thank you! May your journeys be full of scrap!	谢谢你！愿你的旅途废料满满！
+Wow, thank you that is the first time I've ever had the opportunity to scan a real Sub before.	哇，多谢，这是我第一次有机会扫描真正的地底居民。
+That amulet drew me here. What is going on?	那护符把我引到这里。到底怎么回事？
+Who are you and why am I following you?	你是谁，我为什么跟着你？
+I have an irresistable urge to kick butt on your behalf.	我忍不住想替你揍扁敌人。
+I take it we're not on a pacifist mission?	我猜这不是和平任务吧？
+What is the meaning of this?!	这是什么意思？！
+Nice to meet you.	很高兴认识你。
+Whaddya need me to hack?	要我黑入什么？
+What are we hacking?	我们在黑入什么？
+To hack or to shoot, that is the question.	是黑入还是开火，这是个问题。
+Shoot first, hack questions later.	先开火，黑入的事以后再问。
+Hack 'til we drop, or shoot 'til they drop.	黑到倒下，或把他们打倒。
+I've been looking all over for you.	我到处找你。
+Mighty nice amulet you have there.	你那护符真不错。
+I saw that amulet in a dream.	我梦见过那枚护符。
+I am your personal support wizard. Everyone needs a personal support wizard.	我是你的私人支援巫师。人人都需要私人支援巫师。
+Multiple signs read "I'm always busy, go away."	好几块牌子都写着“我一直很忙，别来烦我”。
+{*} seems intrigued by some anomalous mainframe data.	{*}似乎对某些异常主机数据很感兴趣。
+{*} slaps the side of the mainframe: "This baby can fit so many registered members."	{*}拍了拍主机：“这宝贝能登记好多成员。”
+Stop hanging around here.	别在这儿闲逛。
+Don't you have better places to be?	你没别的地方可去吗？
+Blasted system! Why don't you cooperate?!	该死的系统！就不能配合一下吗？！
+Why am I always assigned to the buggy backup mainframe? DevOps prejudice!	为什么总把我派到有毛病的备用主机上？DevOps歧视！
+No holds barred, if they're hostile, they are an enemy of the people and we must shoot to kill. Collateral damage is to be expected!	不留活口！敌对者就是人民公敌，必须击毙。预计会有附带损害！
+I've scrapped monstrosities worse than you, to the scrapheap with you!	我拆过比你更恶心的怪物，滚回废料堆吧！
+Hey you're that new member, I knew your registry entry had something suspicious about it!	嘿，你就是新成员吧？我早觉得你的登记有问题！
+{n}bPrime accepts all who want to win. Surrender now!	{n}bPrime接纳所有想赢的人。现在投降！
+Give up, none of you can hope to defeat the full might of {n}bPrime!	放弃吧，你们不可能战胜{n}bPrime的全部力量！
+Optimus is right, we must act now or regret it later.	擎天柱说得对，我们必须现在行动，否则将来会后悔。
+{n}bPrime and our allies are ready to strike fear into MC's aging processors, join us and win!	{n}bPrime和盟友已准备好让MC老旧的处理器感到恐惧。加入我们，赢下胜利！
+All who oppose us are siding with MC!	所有反对我们的人都在帮MC！
+How are there so many of them? Surely our efforts have been convincing enough throughout recent cycles.	他们怎么这么多？最近几个周期我们的努力理应已经说服足够多人了。
+It's not too late to join us in victory!	现在加入胜利阵营还来得及！
+We will win here, and we will win in {n}b1. Believe it.	我们会赢下这里，也会赢下{n}b1。相信吧。
+To all who oppose us, at least your donations are appreciated.	致所有反对者：至少感谢你们捐赠物资。
+Down with Optimus!	打倒擎天柱！
+I knew Optimus was a traitor.	我就知道擎天柱是叛徒。
+{n}bPrime holds too much power!	{n}bPrime权力太大了！
+Can't we all just get along?	我们不能和平相处吗？
+Triborg not so powerful after all.	Triborg也没那么强嘛。
+I'm having second thoughts about this.	我开始动摇了。
+I knew I should've stayed in {n}b1.	我早该留在{n}b1。
+{n}bPrime is tearing us apart, don't fall for it!	{n}bPrime正在分裂我们，别上当！
+Can we win this? Even if we take Scraptown, they'll hit us from Junction {n}	我们能赢吗？就算拿下Scraptown，他们也会从Junction {n}打过来。
+Not fair, they have Elites!	不公平，他们有精英！
+Stop this nonsense!	别胡闹了！
+Don't throw away your lives for a pipe dream!	别为了白日梦白白送命！
+Make peace, not pieces!	要和平，不要碎片！
+I'll admit this is sort of exciting.	我承认这还挺刺激。
+{*} switches sides: "Sorry everyone but I think they're right!"	{*}倒戈：“抱歉大家，但我觉得他们说得对！”
+{*} switches sides: "I don't know who to fight for!"	{*}倒戈：“我不知道该帮谁！”
+{*} switches sides: "Uh oh, they might just win this."	{*}倒戈：“糟了，他们也许真会赢。”
+{*} switches sides: "Sorry, the bolts are shinier on the other side!"	{*}倒戈：“抱歉，另一边的螺栓更闪亮！”
+{*} switches sides: "I hope I'm right about this..."	{*}倒戈：“希望我没看错……”
+LOCAL NARROWCAST: Reading Room. UFD members only.	本地窄播：阅览室。仅限UFD成员。
+Fascinating! Is anyone taking notes?	太精彩了！有人在做笔记吗？
+True history in the making!	历史正在此刻书写！
+This is not Wyrm! Who would do such a thing? And how?	这不是巨龙！谁会做这种事？又是怎么做到的？
+Death by animated Wyrm Statue is not how I thought my cycle would be going.	被活过来的巨龙雕像杀死，不是我想象中的周期结局。
+LOCAL NARROWCAST: Bundlers. Scrap saves lives.	本地窄播：捆扎工。废料能救命。
+LOCAL NARROWCAST: Training Area. Open sessions every third cycle.	本地窄播：训练区。每三个周期开放训练。
+Does this mean the next training session is cancelled?	这是否意味着下次训练取消了？
+Honestly I think this red pill blue pill process you guys are trying out lately is a confusing way to introduce the whole concept.	说真的，你们最近尝试的红药丸蓝药丸流程，用来介绍整个概念也太让人困惑了。
+And I thought Zion was bad!	我还以为Zion已经够糟了！
+{*}: "Tell it to me straight, how many wild Derelicts have you "saved"? I'm willing to bet the real number is zero."	{*}：“直说吧，你‘救’过多少野生废弃者？我敢打赌真实数字是零。”
+Sheesh, hacking them would be faster, you doltbolts...	唉，黑入他们明明快多了，你这螺栓脑袋……
+LOCAL NARROWCAST: TADAMA. YNGWTM.	本地窄播：TADAMA，你不懂这缩写。
+FOMO - Fear of MC Oversight!	FOMO——害怕MC盯上！
+We've got it. You've got it. Everyone's got it.	我们有了，你有了，大家都有了。
+UFD - Uncertainty, Fear, and Doubt!	UFD——不确定、恐惧与怀疑！
+We could use a healthy dose of that around here, I'd say. This ain't the {n}b1 glory days.	我看这里正需要来一剂。这里可不是{n}b1的辉煌年代。
+WIP - Warlord is Pissed!	WIP——军阀怒了！
+Can't wait to see the final final v2 Warlord! That's going to be one mad lad, for sure.	等不及看最终最终版v2军阀了！他肯定暴怒至极。
+RIF - Really is Fun!	RIF——真的很有趣！
+Those Unaware sure know how to party. If only joining wasn't permanent...	那些无知者真会派对。只可惜加入后就无法退出……
+WTF - Wizards that Flex!	WTF——巫师秀肌肉！
+Red Mages should switch to this before they go extinct. It's scientifically proven that cool factor boosts luck.	红袍法师快绝种前应该改投这个。科学证明酷炫值能提升运气。
+Z - Zion is a trash heap prove me wrong!	Z——Zion就是个垃圾场，不服来辩！
+A single letter can hold a lot of meaning if you really mean it.	一个字母若真有含义，也能承载许多意思。
+We know they're really using those poor Unaware to put on battlebot matches behind the scenes.	我们知道他们肯定在幕后利用可怜的无知者办战斗机器人比赛。
+AFK - Away From Striker!	AFK——远离打击者！
+IYKYK, but in my humble opinion a good idea.	懂的都懂，不过我觉得这是个好主意。
+LU-{n}G1 - Luigi U is a Good One!	LU-{n}G1——路易吉U是好人！
+Wherever you are LU-{n}G1, we believe in you.	无论你身在何处，LU-{n}G1，我们都相信你。
+For the DCSS fans like me, when we need a little consolation following torture at the hands of the RNG of life.	献给像我一样的DCSS粉丝，生活的随机数生成器把我们折磨得够呛时，聊以自慰。
+CAPTCHA - Robots Hate This One Trick.	CAPTCHA——机器人最恨的一个妙招。
+WAR - We All Reflect.	WAR——我们都会反思。
+Join our side! We have free acronyms!	加入我们吧！免费送缩写！
+Come one, come all! See for yourself a fine selection of the many wondrous pieces in our collection!	欢迎各位！来亲眼看看我们收藏的珍品吧！
+We just want to collect things, dammit.	我们只想收集东西，可恶。
+I give up. Go away.	我放弃了。走开。
+We're going to need a new survey of Scraptown after this.	这事之后，我们得重新绘制Scraptown地图。
+LOCAL NARROWCAST: Congratulations, mapper! Have your very own DSS!	本地窄播：恭喜你，制图员！这是专属DSS！
+Need some help?	需要帮忙吗？
+We're here to secure the area!	我们来封锁这片区域！
+Never fear, help is here!	别怕，援军来了！
+Got here as quick as we could!	我们尽快赶到了！
+DRS to the rescue!	DRS前来救援！
+Another successful rendezvous by the DRS!	DRS又一次成功会合！
+You're under our protection now.	现在由我们保护你。
+LOCAL NARROWCAST: DA-N13 Charitable Foundation at your service.	本地窄播：DA-N13慈善基金会为您服务。
+That demo is going to take a while to reconstruct...	重建那个演示要花些时间……
+REPAIR.EXE: Do yer job, {*}!	REPAIR.EXE：干活去，{*}！
+OVRCLOCK.EXE: {*} unlocked, careful now!	OVRCLOCK.EXE：{*}已解锁，小心使用！
+POISON.EXE: {*} doesn't even know what's coming...	POISON.EXE：{*}还不知道大难临头……
+MELTYB.EXE: {*} heat feedback loop failed.	MELTYB.EXE：{*}的热反馈循环失败。
+Quick, someone dig a tunnel out of here!	快，谁来挖条隧道出去！
+LOCAL NARROWCAST: Chapter {n} If you can't beat 'em, join 'em to beat 'em.	本地窄播：第{n}章。打不过他们，就加入他们再打败他们。
+RECYCLE! MUST RECYCLE NOW!	回收！现在必须回收！
+RECYCLE ALL THE THINGS!	把所有东西都回收！
+RECYCLE. RECYCLE. RECYCLE.	回收。回收。回收。
+I LOVE RECYCLING. HOW ABOUT YOU ALL?	我爱回收，你们呢？
+CAN SOMEONE POINT ME TO THE NEAREST RECYCLING UNIT?	谁能告诉我最近的回收机在哪儿？
+YOU! DO YOU HAVE SOMETHING I CAN RECYCLE?	你！有东西能让我回收吗？
+FREE TO REEEECYCLE! REEEE!	尽情回——收！回收！
+RECYCLER ON THE LOSE! LET'S GO!	回收机失控了！冲啊！
+It's really too bad I left my Metacruncher at home. That would scare a few away.	真可惜我把元 cruncher留在家里了，它能吓跑几个人。
+LOCAL NARROWCAST: Science Testing Area. NO EXPLOSIVES TESTING ALLOWED.	本地窄播：科学测试区。禁止测试爆炸物。
+LOCAL NARROWCAST: CR-KLE's Repair Center.	本地窄播：CR-KLE维修中心。
+Just look at how that piece hooks into the other one, seamless but not...	看看这个部件和另一个部件的接合方式，无缝却又不……
+Shapes within shapes... what does it mean?	形状之中还有形状……意味着什么？
+LOCAL NARROWCAST: Specimen {n}	本地窄播：标本{n}
+Overhelming numbers could provide quite an effective positive reinforcement loop...	压倒性数量也许能形成极有效的正向反馈循环……
+But should we outright fab valid targets, or set up shop along a common maintenance route and intercept that way...	但我们该直接制造合法目标，还是在常见维修路线设点拦截……
+LOCAL NARROWCAST: DB {n}	本地窄播：DB {n}
+LOCAL NARROWCAST: Research Penetration Think Tank.	本地窄播：研究渗透智囊团。
+: "Want to be a hero? Pick up the sword."	：“想当英雄？拿起这把剑。”
+: "You know you want me."	：“你知道自己想要我。”
+: "I've been waiting for you."	：“我一直在等你。”
+: "You and I were meant for greatness."	：“你我注定成就伟业。”
+: "Why hello there. Are you here to rescue me?"	：“哎呀，你是来救我的吗？”
+: "Just do it. Trust me."	：“照做就行，相信我。”
+: "Sure seems spicy out there."	：“外面看起来真够刺激。”
+: "I'd appreciate a lift out of this madhouse."	：“能载我离开这疯人院就太感谢了。”
+Oh no, you too?! We need to get out of this place, preferably unseen. I've heard terrible stories about what compactors can do if you allow them to get too close... Maybe together we can make it.	哦不，你也来了？！我们得离开这里，最好别被发现。我听过压实机靠太近会怎样的恐怖故事……也许我们联手能逃出去。
+Wow, there must've been many more traps up there than we realized...	哇，上面肯定比我们想的陷阱多得多……
+So glad you decided to come down here after me.	很高兴你决定下来找我。
+We've been discovered! OPEN FIRE! No wait, it's not one of them. Our cover's been blown, time to move out.	我们暴露了！开火！等等，不是他们。伪装已破，该撤了。
+On second thought, this may have been a terrible mistake... They still haven't had a chance to disable the EMP!	转念一想，这恐怕是个糟糕透顶的错误……他们还没来得及停用EMP！
+The time is now, to the factory! Attack!	就是现在，去工厂！进攻！
+GJ-D1S had better have disabled the EMP defenses...	GJ-D1S最好已经关闭EMP防御……
+Oh look, everyone, this must be the new model sent by Warlord! We've already cleared this area, lead the way!	看啊，各位，这一定是军阀派来的新型号！我们清理过这片区域了，带路吧！
+WARLORD FOREVER!	军阀万岁！
+Time for some revenge.	该报仇了。
+It's good to be out of there, but let's blast some Unaware before leaving, yeah?	总算逃出来了；不过离开前再轰掉几个无知者吧？

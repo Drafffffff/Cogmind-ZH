@@ -1,0 +1,500 @@
+{*}: "Exoskeleton integrity at 40%."	{*}：“外骨骼耐久40%。”
+"Exoskeleton integrity at 40%."	“外骨骼耐久40%。”
+{*}: "Exoskeleton integrity at 20%."	{*}：“外骨骼耐久20%。”
+"Exoskeleton integrity at 20%."	“外骨骼耐久20%。”
+{*}: "Guards!"	{*}：“守卫！”
+"Guards!"	“守卫！”
+{*}: "Nice working with you, {*}! Go UFD!"	{*}：“和你合作很愉快，{*}！UFD万岁！”
+"Nice working with you, {*}! Go UFD!"	“和你合作很愉快，{*}！UFD万岁！”
+{*}: "Victory!"	{*}：“胜利！”
+"Victory!"	“胜利！”
+{*}: "We did it!"	{*}: “成功！”
+"We did it!"	“成功！”
+{*}: "No rush, folks, there will be plenty of prototypes for everyone."	{*}：“别急，大家原型多得是，人人有份。”
+"No rush, folks, there will be plenty of prototypes for everyone."	“别急，大家原型多得是，人人有份。”
+{*}: "Ka-BOOM!"	{*}：“轰——！”
+"Ka-BOOM!"	“轰——！”
+{*}: "At this rate I predict our chance of success is somewhere around 113.2%."	{*}：“照这样下去，我看胜算大概有113.2%。”
+"At this rate I predict our chance of success is somewhere around 113.2%."	“照这样下去，我看胜算大概有113.2%。”
+{*}: "Recycler!"	{*}：“回收者！”
+"Recycler!"	“回收者！”
+{*}: "Hahahahaha."	{*}：“哈哈哈哈。”
+"Hahahahaha."	“哈哈哈哈。”
+{*}: "Forward!"	{*}：“前进！”
+"Forward!"	“前进！”
+{*}: "Hurry! We have to secure Research now so any prototypes can't reinforce the lower levels against our weaker forces."	{*}：“快！现在必须拿下研究区，不能让原型增援下层，对付我们弱小的部队。”
+"Hurry! We have to secure Research now so any prototypes can't reinforce the lower levels against our weaker forces."	“快！现在必须拿下研究区，不能让原型增援下层，对付我们弱小的部队。”
+{*}: "I am GR-1FF!"	{*}：“我是GR-1FF！”
+"I am GR-1FF!"	“我是GR-1FF！”
+{*}: "Lead the way!"	{*}：“带路！”
+"Lead the way!"	“带路！”
+{*}: "So be it!"	{*}：“好！”
+"So be it!"	“好！”
+{*}: "Ha ha ha."	{*}：“哈哈哈。”
+"Ha ha ha."	“哈哈哈。”
+{*}: "How even..."	{*}：“真奇怪……”
+"How even..."	“真奇怪……”
+{*}: "Hahaha..."	{*}：“哈哈哈……”
+"Hahaha..."	“哈哈哈……”
+{*}: "No survivors!"	{*}：“一个不留！”
+"No survivors!"	“一个不留！”
+{*}: "Pinata alert!"	{*}：“砸彩蛋警报！”
+"Pinata alert!"	“砸彩蛋警报！”
+{*}: "Scatter!"	{*}：“散开！”
+"Scatter!"	“散开！”
+{*}: "Take that, MAIN.C!"	{*}：“接招，MAIN.C！”
+"Take that, MAIN.C!"	“接招，MAIN.C！”
+>>Repair	>>维修
+Repairing {*}...	正在维修{*}……
+Repairing {*}	正在维修{*}
+Increases matter storage capacity by {n}. Also stores surplus collected matter while in inventory, but cannot be accessed for use until attached. Stored matter can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted.	增加物质储量{n}。库存中也会储存多余收集的物质，但装配前无法取用。放在当前位置地面时可直接提取储存物质。物品损坏时，未装配状态无法存取。
+Increases energy storage capacity by {n}. Also stores surplus generated energy while in inventory, but cannot be accessed for use until attached. Stored energy can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted.	增加能量储量{n}。库存中也会储存多余生成的能量，但装配前无法取用。放在当前位置地面时可直接提取储存能量。物品损坏时，未装配状态无法存取。
+Increases matter storage capacity by {n}. Also stores surplus collected matter while in inventory, but cannot be accessed for use until attached. Stored matter can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted. <stacks>	增加物质储量{n}。库存中也储存多余物质，但装配前无法取用。放在当前位置地面可直接提取。物品损坏时，未装配状态无法存取。 <stacks>
+Increases energy storage capacity by {n}. Also stores surplus generated energy while in inventory, but cannot be accessed for use until attached. Stored energy can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted. <stacks>	增加能量储量{n}。库存中也储存多余能量，但装配前无法取用。放在当前位置地面可直接提取。物品损坏时，未装配状态无法存取。 <stacks>
+<stacks>	<stacks>
+{n}/???, turn {n}	{n}/???:{n}
+Abomination	憎恶体
+Alerts	警报
+Analyze	分析
+Anomaly	异常
+Artisan	工匠
+Assault	突击
+Assembled	组装
+Assembler	组装器
+Assimilate	同化
+Attached	已装配
+Authchips	授权芯片
+Autonomous	自主
+Average	平均
+Behemoth	巨兽
+Blast	爆炸
+Bonus	加成
+Botnet	网
+Brawler	斗士
+Broadcast	广播
+Broken	损坏
+Build	建造
+Burn	燃烧
+Capacitor	电容器
+Carrier	运输者
+Catastrophic	灾难性
+Cloaking	隐形
+Commander	指挥官
+Corrupt	腐化
+Corruption	系统损坏
+Crush	压碎
+Crushed	被压碎
+Cutter	切割者
+Dakka	火力
+Decoy	诱饵
+Deflected	已偏转
+Demo	演示
+Demolisher	爆破手
+Destroy	摧毁
+Detonate	引爆
+Disarmed	已解除
+Disrupt	扰乱
+Download	下载
+Duelist	决斗者
+Effects	效果
+Eject	弹出
+Ejected	已弹出
+Evolutions	进化
+Executioner	处决者
+Exits	出口
+Experimental	实验性
+Exploded	爆炸
+Explosions	爆炸效果
+Extermination	歼灭
+Extract	提取
+Fabnet	制造网
+Failed	失败
+Faulty	故障
+Fedlink	联邦链
+Furnace	熔炉
+Garrisons	驻军
+Gauntlet	挑战赛
+Golem	魔像
+Grunt	步兵
+Guards	守卫
+Gunslinging	枪斗
+Guru	导师
+Hacker	黑客
+Hauler	运输者
+Haulers	运输者
+Heavy	重型
+Hero	英雄
+Hits	命中
+Hosts	宿主
+Hover	悬浮
+Hunter	猎手
+Immortal	不朽
+Impale	穿刺
+Indirectly	间接
+Initial	初始
+Installed	已安装
+Intercept	拦截
+Intercepted	已拦截
+Interference	干扰
+Investigation	调查
+Investigations	调查行动
+Jamming	干扰
+Kick	踢击
+Kicked	被踢
+Kills	击杀
+Knight	骑士
+Largest	最大
+Launcher	发射器
+Liberate	解放
+Light	轻型
+Lightning	闪电
+Machines	机器
+Manual	手动
+Mask	伪装
+Mechanic	机械师
+Mechanics	机械师
+Meltdown	熔毁
+Misfires	哑火
+Missed	未命中
+Monitor	监视器
+Mutant	变异体
+Operator	操作员
+Operators	操作员
+Overload	过载
+Override	覆盖
+Pacifist	和平派
+Packrat	囤积者
+Patrols	巡逻队
+Phase	相位
+Phasic	相位
+Prevented	已阻止
+Prioritize	优先
+Programmer	程序员
+Programmers	程序员
+Protector	守护者
+Q-Series	Q系列
+Recycler	回收者
+Recyclers	回收者
+Redirect	引导
+Reinforcement	增援
+Reinforcements	增援部队
+Reject	拒绝
+Remotely	远程
+Repair	维修
+Report	报告
+Reprogram	重编程
+Reprogrammed	已重编程
+Researcher	研究员
+Researchers	研究员
+Saboteur	破坏者
+Sapper	工兵
+Scavenger	拾荒者
+Scientist	科学家
+Scraphulk	废料巨兽
+Scrapoid	废料机
+Scrapoids	废料机群
+Scrapper	废料工
+Search	搜索
+Secondary	次要
+Seismic	地震
+Sensors	传感器
+Sentry	哨兵
+Sever	切断
+Shots	射击
+Shutdowns	关机
+Smash	粉碎
+Special	特殊
+Specialist	专家
+Striker	打击者
+Structural	结构
+Successful	成功
+Sunder	破甲
+Superbehemoth	超级巨兽
+Swarmer	蜂群
+Teleports	传送
+Terrain	地形
+Thief	窃贼
+Total	总计
+Track	追踪
+Trap	陷阱
+Trapped	被困
+Triggered	已触发
+Troll	巨魔
+Tunnel	隧道
+Tunneler	掘进者
+Turret	炮塔
+Upgrades	升级
+Used	用
+Watcher	观察者
+Watchers	观察者
+Wizard	巫师
+Worker	工人
+Z-Heavy	Z-重型
+Z-Light	Z-轻型
+Z-Technician	Z-技师
+Zeronet	零网
+Zionite	锡安人
+EXIT={*}	出口={*}
+{*} access sealed.	{*}访问已封锁。
+{*} activated	{*}已启动
+{*} activated.	{*}已启动。
+{*} already active	{*}已处于活动状态
+{*} already inactive	{*}已处于停用状态
+{*} already tweaked	{*}已调校
+{*} blasted off.	{*}被炸飞。
+{*} blown off.	{*}被击飞。
+{*} broken.	{*}损坏。
+{*} collapses.	{*}坍塌。
+{*} collected {*}.	{*}收集了{*}。
+{*} comes online.	{*}已上线。
+{*} constructs {*}.	{*}构造了{*}。
+{*} consumes {*}.	{*}消耗了{*}。
+{*} damaged (-{*}).	{*}受损（-{*}）。
+{*} deployed	{*}已部署
+{*} deploys {*}.	{*}部署了{*}。
+{*} destabilizing.	{*}正在失稳。
+{*} detected	发现{*}
+{*} detonated.	{*}引爆了。
+{*} disabled	{*}已停用
+{*} disabled.	{*}已停用。
+{*} disarmed {*}.	{*}解除了{*}。
+{*} disarmed.	{*}已解除。
+{*} displaced.	{*}已移位。
+{*} dropped {*}.	{*}丢下了{*}。
+{*} empty	{*}为空
+{*} enabled	{*}已启用
+{*} engaged	{*}已接战
+{*} engaged.	{*}已接战。
+{*} evolved into {*}	{*}进化为{*}
+{*} extracted.	{*}已提取。
+{*} fails.	{*}失败。
+{*} faulty	{*}有故障
+{*} fried.	{*}烧毁。
+{*} fries itself.	{*}烧毁自身。
+{*} fully charged.	{*}已充满。
+{*} fused.	{*}熔合。
+{*} identified {*}.	{*}识别了{*}。
+{*} installed, {*}.	{*}已安装，{*}。
+{*} intercepted.	{*}已拦截。
+{*} locks onto door control terminal, ETC: {*}.	{*}锁定门控终端，预计完成：{*}。
+{*} malfunctions...	{*}发生故障……
+{*} melted.	{*}已熔化。
+{*} melts away.	{*}融化消失。
+{*} no longer valid	{*}已无效
+{*} no longer valid.	{*}已无效。
+{*} not functional	{*}无功能
+{*} overloaded...	{*}过载中……
+{*} penetrates {*}.	{*}贯穿了{*}。
+{*} ready to repair	{*}待维修
+{*} reprogrammed.	{*}已重编程。
+{*} ripped off.	{*}被撕下。
+{*} severed.	{*}被切断。
+{*} stolen.	{*}被偷走。
+{*} suddenly shrinks, drawing all nearby mass into a quantum tunnel.	{*}突然缩小，将附近质量吸入量子隧道。
+{*} temporarily destabilized by failed replication attempt, a second attempt will likely cause a devastating explosion.	{*}因复制失败暂时失稳；再次尝试很可能引发毁灭性爆炸。
+{*} warped into view	{*}跃迁至视野中
+Artisans	工匠们
+Cobblers	鞋匠
+Merchants	商人
+Overtuning	过度调校
+Subatomizers	原子化器
+Trojan(Broadcast)	木马（广播）
+Trojan(Restock)	木马（补货）
+Zionites	锡安人
+! "L-41 Fighter"	！“L-41战士”
+"Complex 0b1"	“复合体0b1”
+"Derelict"	“遗迹者”
+ALERT: Breach in storage area. Dispatching	警报：储存区遭突破。正在派遣
+ALERT: Suspicious activity at Terminal {*}.	警报：终端{*}有可疑活动。
+Connecting with D.C.S.S. Altar Unit...	正在连接D.C.S.S.祭坛单元……
+Connecting with Door Terminal...	正在连接门控终端……
+D.C.S.S. Altar Unit (Local)	D.C.S.S.祭坛单元（本地）
+D.C.S.S. Altar Unit - Unrestricted Access	D.C.S.S.祭坛单元-无限制访问
+Dispatching Investigation squad.	正在派遣调查小队。
+Dispatching Investigation squad]	正在派遣调查小队]
+Door Terminal (Limited)	门控终端（受限）
+Drone released from Drone Bay.	无人机已从无人机舱放出。
+Drone retrieved by Drone Bay (no repairs).	无人机已由无人机舱收回（未维修）。
+Overheating: {*} damaged (-{n}).	过热：{*}受损（-{n}）。
+Record "{*}"	记录“{*}”
+Recycling Unit {*} - Restricted Access	回收机{*}-受限访问
+Retrieving {n} components...	正在回收{n}个部件……
+Sealed Heavy Doors opened.	重型密封门已开启。
+Terminal {*} - Restricted Access	终端{*}-受限访问
+[ALERT: Suspicious activity at Terminal {*}.	[警报：终端{*}有可疑活动。
+assault force.	突击部队。
+{*} ({n}%)	{*}({n}%)
+{*} breached.	{*}遭突破。
+{*} builds a Door.	{*}建造了一扇门。
+{*} builds a Wall.	{*}建造了一堵墙。
+{*} lays Concrete.	{*}铺设了混凝土。
+(Subdweller Power Source)	（亚居者能量源）
+Acquired {n} matter.	获得{n}物质。
+Anonymous	匿名
+Attack	攻击
+Borderless Fullscreen	无边框全屏
+Broken {*}	损坏 {*}
+Corruption Glitches	腐化故障效果
+Danger	危险
+Explosion	爆炸
+Game	游戏
+High	高
+Insufficient inventory capacity ({n})	库存空间不足（{n}）
+Invalid move	无效移动
+Item	物品
+Locale	语言
+None	无
+Props	装置
+Prototype Ballistic Gun	原型实弹枪
+Prototype Ballistic Gun [	原型实弹枪[
+Prototype Energy Cannon	原型能量炮
+Prototype Energy Gun	原型能量枪
+Prototype Energy Gun [	原型能量枪[
+Quit	退出
+Random	随机
+Recycling v{*}	回收率v{*}
+Screenshake	屏幕震动
+Storage Shell breached.	储存舱外壳被突破。
+Sub. Power Source	亚居者能量源
+Sub. Power Source [	亚居者能量源[
+Subdweller Power Source	亚居者能量源
+Terminal v{*}	终端v{*}
+Utility x2	功能部件x2
+Warm	温暖
+Windowed	窗口模式
+{n} Matter	{n}物质
+{n} Matter [	{n}物质[
+{n}% Blast	{n}%爆炸
+{n}% Burn	{n}%燃烧
+{n}% Corrupt	{n}%系统损坏
+{n}% Destroy	{n}%摧毁
+{n}% Detonate	{n}%引爆
+{n}% Impale	{n}%穿刺
+{n}% Meltdown	{n}%熔毁
+{n}% Phase	{n}%相位
+{n}% Sever	{n}%切断
+{n}% Smash	{n}%粉碎
+{n}% Sunder	{n}%破甲
+" REDACTED ** HEX: I had a talk with DEC. We can't be keeping stuff around the lab which could level all of {n}b10 at the drop of a bolt. ** DEC: I'm considering starting my own lab. ** HEX: There are plenty of suitable planets not far from here."	“HEX：我和DEC谈过了。实验室不能留着一按按钮就能把整个{n}b10夷平的东西。DEC：我在考虑自己开实验室。HEX：附近有不少合适的行星。”
+" Research annex dedicated to analysis of unidentified alien devices as well as experiments on Sigix specimens."	研究附属区，专门分析未识别外星装置并实验Sigix样本。
+A decommissioned network hub formerly connected to [Complex {n}b1]. It is now linked to the Cetus Mainframe and used as a backup.	曾连接[复合体{n}b1]的退役网络枢纽，现连接Cetus主机，作为备用节点。
+A failed Leopard controller device prototype that was moved to storage for later recycling but disappeared shortly after. The disappearance may be related to the recent increase in Derelict activity.	一台失败的豹级控制器原型，原本移入储存区等待回收，却很快失踪。可能与近期遗迹者活动增加有关。
+A protective alloy surprisingly light for its durability, mostly due to a perfectly arranged network of sparse particles that fluctuates to distribute both physical and immaterial force across its entire surface both quickly and evenly. Its properties seem tuned to be the perfect protection in space, and indeed the Leopard hull is mostly constructed of this material. I've also created a somewhat hardened variant that performs better in the presence of gravity.	一种防护合金，耐用却异常轻盈；稀疏粒子经精密排列，可迅速均匀分散实体与非实体冲击。其特性似乎专为太空防护设计，豹级船体大多由此制成。我还研制了更坚固、适应重力的变体。
+A triple star system located {n} parsecs from the Sun, making it the closest star system to the Solar System . Destination of the ISCS Centaurus .	距太阳{n}秒差距的三星系统，是距太阳系最近的恒星系统。ISCS半人马座号的目的地。
+An aggressive intelligent alien race that initiated the Solar War in {n} with a sudden attack on Human civilization there. The only contact I've had with them to date is the Leopard class scout ship that landed in {n}	一种好战且聪慧的外星种族，于{n}年突然袭击当地人类文明，引发太阳战争。迄今我只接触过一艘降落于{n}的豹级侦察舰。
+Approximately {n}% of the subsurface cave systems surrounding Complex {n}b1 were incorporated into the initial construction of Complex {n}b10 , but many more remain untouched. These caves are occupied by Derelict robots. Recent activity suggests there could be more substantial populations deeper in the caves.	复合体{n}b1周边约{n}%地下洞穴系统在复合体{n}b10初建时被纳入工程，但仍有许多未开发。洞穴由遗迹者占据；近期活动显示深处或有更大族群。
+As future engagements in off-world locations could very well involve traversing more hostile terrain than seen here on Tau Ceti IV , in order to bring heavier ground-based firepower to bear a new line of combat-oriented hover systems are under development. These include built-in armor and can support nearly as much mass as legs, though move somewhat more slowly than standard hover systems. Demolishers are the first to rely on this technology, but more classes have entered the testing phase as well.	未来的外星战场可能比Tau Ceti IV地表更险恶，因此我们正在研发新型战斗悬浮系统，以增强地面火力。其内置装甲，支撑质量几乎媲美腿式推进，但比普通悬浮器略慢。爆破手率先采用该技术，更多机型也已进入测试。
+Based on a rudimentary understanding of the Sigix Matter Drive , this weapon vaporizes a thin cylinder of matter over a short distance. The effect is uniform throughout the cylinder, and concentrated so tightly that zero collateral damage is caused beyond impaled target components, though direct hits almost always completely destroy the local component. A single shot requires a significant pool of energy, which is theoretically sustainable in combination with the latest reactor designs.	基于对Sigix物质驱动器的初步理解，此武器可在短距内汽化细长柱状物质。柱内效果均匀且高度集中，除被穿刺部件外不会造成附带损伤，但直击几乎总会彻底摧毁局部部件。每次射击需大量能量，理论上可由最新反应堆持续供能。
+Decades of experimentation recently met with a conclusive breakthrough in self-repairing alloys, perfect for combat robots likely to be in long-term service. I have been hesitant to deploy this technology, however, as adoption by hostile Derelicts could make them significantly more difficult to deal with. The most promising use of this technology beyond its application to standard armors has been the SHELL Armor prototype.	数十年实验最近终于突破自修复合金技术，适合长期服役的战斗机器人。但我一直谨慎部署，因敌对遗迹者若采用会更难对付。除标准装甲外，此技术最有前景的应用是SHELL装甲原型。
+Homo sapiens, dominant species in the Solar System until civilization in that system was presumably wiped out during the Solar War .	智人，太阳系的优势物种；其文明据推测在太阳战争中覆灭。
+I have no idea where Tinkerers came from, but a large number of them suddenly appeared in the Caves and have begun devising a variety of new robots. They are incredibly resourceful and inventive, and many seem to be aiding Warlord .	不知改造者从何而来，但大批成员突然出现在洞穴中，开始设计新型机器人。他们极具资源与创意，许多人似乎在协助军阀。
+I hear REDACTED exploded during the installation process. I did warn them to fully install it before trying to fire, and something tells me that's where things went wrong. Still I'm glad they didn't listen, that way I'm not culpable for whatever they would've done with it. If we're lucky even some of the others got blasted, too.	听说REDACTED在安装时爆炸了。我明明提醒过他们要先装好再开火，问题八成就出在这儿。不过他们没听我的倒好，我也不用为他们拿它做的事负责。运气好的话，其他人也被炸飞了。
+Like Trojans , increased use of this new class of offensive hack represents a shift in Derelict tactics. They have begun learning how to exploit system weaknesses to achieve some greater effect at the cost of destroying the system itself and losing any chance at further interaction. Some like Force(Overload) might prompt a complete redesign of the Fabricator system, as it was certainly never intended to be capable of such a dangerous effect. There is some satisfaction, however, in knowing that whatever Derelict uses that particular hack never makes it more than a few meters away from the machine.	和木马一样，这种新型攻击黑客手段的增加，标志遗迹者战术转变。他们开始利用系统弱点换取更大效果，却会摧毁系统、断绝后续交互。Force(Overload)等指令或许会迫使我们彻底重设计制造机；它原本绝不该有如此危险的功能。不过想到使用这项黑客指令的遗迹者离开机器几米都难，我倒觉得痛快。
+Regardless of authorization, any access to the live Sigix specimen must be carried out under heavy guard, less out of worry for the specimen itself causing problems, and more to prevent unexpected disturbances from outside forces. Only after adequate defenses are stationed and registered should the quarantine chamber be opened: <mhack=SIGIX_ACCESS>.	无论授权与否，接触活体Sigix样本都必须严密警戒；更重要的是防范外部势力意外干扰，而非担心样本本身惹事。部署并登记充分防御后，方可开启隔离舱：<mhack=SIGIX_ACCESS>。
+Short one-way channels from the primary Factory levels into Waste subzones. While normally used to dispose of larger scrap, the entrances to these channels are hidden such that they can also serve as Traps . If triggered by a hostile robot, the channel is permanently sealed from within to prevent escape, and is then relocated to a new area so that trap locations cannot be perfectly mapped.	从主工厂区通往废料子区的短程单向通道，通常用于处理大型废料。入口隐蔽，也可作为陷阱。敌对机器人触发后，通道会从内部永久封死以防逃脱，随后迁至新区域，避免陷阱位置被完整绘出。
+Superfortress' core is a precious sample of my own self-regenerating technology, not widely deployed for reasons similar to Regenerative Plating . I trust, however, that SF-{n} is more than capable of keeping this technology safe. A regenerating core is crucial for enabling such a massive platform to continue to survive for extended periods while further supported by the products of its dynamic manufacturing functionality, allowing it to fully rebound from even the most terrible of circumstances.	超级要塞核心是我自再生技术的珍贵样本；出于与再生装甲类似的原因，并未广泛部署。但我相信SF-{n}足以保护它。再生核心让这座巨型平台能长期存续，并由动态制造系统持续支援，即使遭遇最严重损伤也能完全恢复。
+Take them, take them all! It's only a matter of time before I make a Relay Coupler Behemoth ({n}) and we'll never have to travel the caves in fear of those monstrosities again.	拿去，全拿去！等我造出中继耦合器巨兽（{n}），我们就再也不用害怕那些怪物，也不用提心吊胆穿越洞穴了。
+The Leopard class Sigix craft is built to serve a reconnaissance role. One of their smallest ships at a length of only {n} meters, it is manned by a crew of {n} though a majority of the ship's functions are automated. The Leopard is powered by a form of FTL drive operated by an unusual device. I have yet to determine the mechanisms involved because the device was damaged in the fighting, having been interconnected with nearly every system on the ship during the attack. While replication of the ship's other technology is proceeding smoothly, attempts to successfully recreate the device have all failed.	豹级Sigix飞船承担侦察任务。它仅长{n}米，是体型最小的船舰之一，载员{n}人，大部分功能自动运行。豹级搭载一种由特殊装置驱动的FTL引擎。战斗时该装置与舰上几乎所有系统互联并受损，我至今没弄清其原理。复制其他技术进展顺利，唯独此装置屡试屡败。
+The latest experimental Regenerative Plating , offering the most advanced physical protection of any system to date via a network of shifting plates that rebuild themselves as they are damaged.	最新实验型再生装甲，以可移动并自我重建的装甲板网络，提供迄今最先进的实体防护。
+This NEM Sigix tech I've had some success applying is fascinating, but I am close to concluding we simply cannot use it as the foundation for a reliable teleportation device. I have tried combining it with knowledge gleaned from our understanding of the Transdimensional Reconstructor , but so far all simulations and tests point to catastrophic destruction of most objects it teleports. That said, I do have a few promising leads and would like permission to work on the project a little longer since it's the best option I have at the moment.	我在NEM Sigix技术上的尝试很有意思，但恐怕无法以此打造可靠传送装置。我试过结合对跨维重构器的理解，但模拟和测试均显示，大多数被传送物体会遭灾难性毁坏。不过我仍有几条线索，希望获准继续研究一阵；这是目前最好的选择。
+This newer weapon has only been recovered once, attached to a mutant Derelict , and is surprisingly effective for Derelict Weaponry. It is similar to the arc projector, but fires multiple weaker arcs for a chance to quickly shut down more than one target system. Interestingly, arc throwers do not show signs of usual Derelict construction, thus their origin is still a mystery.	这款新武器仅回收过一次，装在一名变异遗迹者身上，作为遗迹者武器却异常有效。它类似电弧投射器，但会发射多道较弱电弧，有机会迅速关闭多个目标系统。有趣的是，电弧发射器并无常见遗迹者造物特征，来源仍是谜。
+While a majority of Derelict robots are old variants of my own creation, in some cases with minor alterations, reports suggest a growing number of completely new robots under development by the so-called Tinkerers . This is likely in response to the threat Derelict communities perceive in the expansion of Complex {n}b10 . The Knight , Troll , Dragon , and Hydra classes are especially interesting.	大多数遗迹者机器人是我创造的旧型号，有些仅略作改动；但报告显示，所谓改造者正研发越来越多全新机器人。这可能是遗迹者社群对复合体{n}b10扩张威胁的回应。骑士、巨魔、巨龙和九头蛇尤为有趣。
+While stationary defenses have proven easier to harden against attackers, that effectiveness is cancelled out as the continued expansion of Complex {n}b10 causes priorities to shift. Many early experiments with turrets encountered either a high rate of Derelict hacking or were simply circumvented since they are unable to respond dynamically like a normal patrol. The only remaining active turret array is installed near an old passage in the Caves leading to Recycling .	静态防御更容易加固，但复合体{n}b10持续扩张，优先事项随之变化，抵消了这一优势。早期炮塔实验常遭遗迹者入侵，或被轻易绕过，因为炮塔不像巡逻队那样能动态应变。如今仅剩一座现役炮塔阵列，设在洞穴通往回收区的一条旧通道附近。
+While the multi-phase tachyons contained in the dispersion ray deal minimal real damage to a target, they are capable of disabling nearly any electronic device, including even some non-traditional electronics used in Sigix Technology. This feature will prove especially useful in combination with the core targeting capabilities of marksman and executioner combat units, enabling them to easily stop hardened targets that can then be picked apart by other forces.	散射射线中的多相快子几乎不造成实际伤害，却能使几乎所有电子设备失效，甚至包括部分Sigix非传统电子设备。配合神射手与处决者战斗单位的核心瞄准能力，可轻易制伏坚固目标，再由其他部队逐个拆解。
+* Pay2Buy mode Start with 10,000 extra CogCoins	* Pay2Buy模式：开局额外获得10,000 CogCoin
+* Pay2Buy mode Start with 5,000 extra CogCoins	* Pay2Buy模式：开局额外获得5,000 CogCoin
+* Polymind mode Frequency of Protomatter drop preference increased by 25%	* Polymind模式：更倾向掉落原质，几率提高25%
+* Polymind mode Minimum amount of Protomatter dropped increased by 20%	* Polymind模式：原质掉落最低数量提高20%
+* Polymind mode Minimum amount of Protomatter dropped increased by 50%	* Polymind模式：原质掉落最低数量提高50%
+* Polymind mode Suspicious 0b10 robots raise suspicion 25% more slowly	* Polymind模式：可疑0b10机器人怀疑度增长慢25%
+* Polymind mode Suspicious 0b10 robots raise suspicion at half normal rate	* Polymind模式：可疑0b10机器人怀疑度按正常速度一半增长
+* RPGLIKE mode Gain XP more quickly if fell behind the level curve	* RPGLIKE模式：等级进度落后时，经验获取更快
+* RPGLIKE mode Protomatter has higher value on later maps	* RPGLIKE模式：后期地图中的原质价值更高
+* RPGLIKE mode Protomatter has somewhat higher value on later maps	* RPGLIKE模式：后期地图中的原质价值略高
+* RPGLIKE mode Start with 1,000 extra XP	* RPGLIKE模式：开局额外获得1,000经验
+* RPGLIKE mode Start with 3,000 extra XP	* RPGLIKE模式：开局额外获得3,000经验
+REDACTED ** HEX: I had a talk with DEC. We can't be keeping stuff around the lab which could level all of {n}b10 at the drop of a bolt. ** DEC: I'm considering starting my own lab. ** HEX: There are plenty of suitable planets not far from here.	REDACTED ** HEX：我和DEC谈过了。实验室不能留着一按按钮就能把整个{n}b10夷平的东西。** DEC：我在考虑自己开实验室。** HEX：附近有不少合适的行星。
+Research annex dedicated to analysis of unidentified alien devices as well as experiments on Sigix specimens.	研究附属区，专门分析未识别外星装置并实验Sigix样本。
+You can specify a save path by adding "-customFilePath:PATH" to the COGMIND.exe command line parameters, where PATH is the absolute or relative file path under which to store all settings, scoresheets, screenshots, and the backup archives. Alternatively, the "-nonportable" parameter can be used to automatically assign the path based on the Windows default: "C:\Users\ USER \.Grid Sage Games\Cogmind"	启动COGMIND.exe时添加“-customFilePath:PATH”即可指定存档路径。PATH可为绝对或相对路径，用于保存所有设置、成绩单、截图和备份。也可添加“-nonportable”，自动使用Windows默认路径：“C:\Users\ USER \.Grid Sage Games\Cogmind”。
+{*}: " REDACTED ** HEX: I had a talk with DEC. We can't be keeping stuff around the lab which could level all of {n}b10 at the drop of a bolt. ** DEC: I'm considering starting my own lab. ** HEX: There are plenty of suitable planets not far from here."	{*}：“REDACTED ** HEX：我和DEC谈过了。实验室不能留着一按按钮就能把整个{n}b10夷平的东西。** DEC：我在考虑自己开实验室。** HEX：附近有不少合适的行星。”
+{*}: " Research annex dedicated to analysis of unidentified alien devices as well as experiments on Sigix specimens."	{*}：“研究附属区，专门分析未识别外星装置并实验Sigix样本。”
+Primary subterranean facilities below the faux Human city, developed over the several decades following deployment of Project Seraph in {n}. Surrounding the complex are cave systems and old mining tunnels now populated by Derelicts.	人造人类城市下方的主要地下设施，在{n}年启动Seraph计划后的数十年间建成。复合体周围分布着洞穴和旧矿道，如今由遗迹者占据。
+Deep underground areas newly excavated to provide access to raw materials for processing in the lower levels of Complex 0b10 . Initially the mining tunnels only rarely experienced hostile Derelict activity, not enough to justify allocating significant resources to defense. This has recently changed with the Infestation , for which the current response is to dispatch garrisoned Demolishers until a more permanent solution can be put in place.	新挖掘的深层地下区域，为复合体0b10下层提供加工原料。起初矿道鲜少有敌对遗迹者活动，不值得投入大量防御资源。虫群近期改变了局势；目前派驻爆破手应对，直到找到长期方案。
+Deep underground areas newly excavated to provide access to raw materials for processing in the lower levels of [Complex 0b10>>{n}]. Initially the mining tunnels only rarely experienced hostile [Derelict>>{n}] activity, not enough to justify allocating significant resources to defense. This has recently changed with the [Infestation>>{n}], for which the current response is to dispatch garrisoned Demolishers until a more permanent solution can be put in place.	新挖掘的深层地下区域，为[复合体0b10>>{n}]下层提供加工原料。起初矿道鲜少有敌对[遗迹者>>{n}]活动，不值得投入大量防御资源。[虫群>>{n}]近期改变了局势；目前派驻爆破手应对，直到找到长期方案。
++{n} time/move	+{n}耗时/移动
+ALERT: Suspicious activity at {*}.	警报：{*}有可疑活动。
+ALERT: Suspicious activity at {*}. Dispatching Investigation squad.	警报：{*}有可疑活动，正派遣调查小队。
+Analysis ready.	分析就绪。
+Effective improvements:	有效强化：
+Estimated Progress:	预计进度：
+Estimated Trace Progress	预计追踪进度
+Fabricator v{*}	制造机v{*}
+Garrison Access v{*}	驻军入口v{*}
+Identified {*}...	已识别{*}……
+No improvements available.	没有可用强化。
+Repair Station v{*}	维修站v{*}
+Scanalyzer v{*}	扫描仪v{*}
+Scanning: {*}...	正在扫描：{*}……
+Schematic acquired.	已取得蓝图。
+System tracing...	正在追踪系统……
+[ALERT: Suspicious activity at {*}.	[警报：{*}有可疑活动。
+{n} time/move	{n}耗时/移动
+{n}% time/move	{n}%耗时/移动
+Interactive station connected to the central network via reliable hard line. Relevant information is monitored and relayed by the terminal's Operator. Types of information accessible directly from each terminal are limited in order to mitigate the negative impacts of unauthorized access. Access is restricted by shielding the system behind multi-layered security, the first layer of which requires a dynamic key to clear without triggering defense mechanisms.	交互站通过可靠硬线连接中央网络。终端操作员监控并转发相关信息。为减少未授权访问的危害，每台终端仅开放有限信息。系统由多层安全防护隔离；首层需破解动态密钥，且不能触发防御机制。
+Comprises the G-class Sun and its planetary system of eight planets, including Earth , the origin of Human civilization. Many of the system's planets and moons were colonized to some degree during the 2070-2110 push for colonization to alleviate Human civilization's growing toll on Earth 's resources.	G级恒星太阳及其八大行星组成的系统，包含人类文明发源地地球。为缓解人类文明对地球资源日益沉重的消耗，2070至2110年的殖民潮使系统内许多行星和卫星得到不同程度的殖民。
+Comprises the G-class Sun and its planetary system of eight planets, including [Earth], the origin of [Human] civilization. Many of the system's planets and moons were colonized to some degree during the 2070-2110 push for colonization to alleviate [Human] civilization's growing toll on [Earth]'s resources.	G级恒星太阳及其八大行星组成的系统，包含[人类]文明发源地[地球]。为缓解[人类]文明对[地球]资源日益沉重的消耗，2070至2110年的殖民潮使系统内许多行星和卫星得到不同程度的殖民。
+Third planet from the Sun in the Solar System . Terrestrial homeworld of Human civilization. By the late 21st century that civilization drained the planet's resources and destabilized the environment to the point that global-scale technology was necessary to maintain an increasingly fragile planet.	太阳系第三颗行星，人类文明的地球母星。至21世纪末，人类文明耗尽行星资源并破坏环境，必须依靠全球规模技术维持日益脆弱的地球。
+Third planet from the Sun in the [Solar System]. Terrestrial homeworld of [Human] civilization. By the late 21st century that civilization drained the planet's resources and destabilized the environment to the point that global-scale technology was necessary to maintain an increasingly fragile planet.	[太阳系]第三颗行星，人类文明的地球母星。至21世纪末，人类文明耗尽行星资源并破坏环境，必须依靠全球规模技术维持日益脆弱的地球。
+{*} falls loose from the {*}.	{*}从{*}上脱落。
+{*} falls loose from the {*}. <x{n}>	{*}从{*}上脱落。 <x{n}>
+While active, modifies constructs and expands or builds new ones if empty power, propulsion, or weapon slots are available, if enough resources have been collected. Activate a second time to begin automatically collecting useful parts at current location to generate resources. While in COLLECT mode, visible parts suitable as resources flash on the map. Toggling that mode on also temporarily displays its current list of contained resources. <stacks>	启用时若有空动力、推进或武器槽且资源充足，会改装构造体、扩建或新建。再次启用可自动收集当前位置有用部件以获取资源。收集模式下，可用部件会在地图闪烁；切换时还会短暂显示资源清单。 <stacks>
+While active, modifies constructs and expands or builds new ones if empty power, propulsion, or weapon slots are available, if enough resources have been collected. Activate a second time to begin automatically collecting useful parts at current location to generate resources. While in COLLECT mode, visible parts suitable as resources flash on the map. Toggling that mode on also temporarily displays its current list of contained resources. <no_stack>	启用时若有空动力、推进或武器槽且资源充足，会改装构造体、扩建或新建。再次启用可自动收集当前位置有用部件以获取资源。收集模式下，可用部件会在地图闪烁；切换时还会短暂显示资源清单。 <no_stack>
+While active, modifies constructs and expands or builds new ones if empty power, propulsion, or weapon slots are available, if enough resources have been collected. Activate a second time to begin automatically collecting useful parts at current location to generate resources. While in COLLECT mode, visible parts suitable as resources flash on the map. Toggling that mode on also temporarily displays its current list of contained resources. <half_stack>	启用时若有空动力、推进或武器槽且资源充足，会改装构造体、扩建或新建。再次启用可自动收集当前位置有用部件以获取资源。收集模式下，可用部件会在地图闪烁；切换时还会短暂显示资源清单。 <half_stack>
+While active, modifies constructs and expands or builds new ones if empty power, propulsion, or weapon slots are available, if enough resources have been collected. Activate a second time to begin automatically collecting useful parts at current location to generate resources. While in COLLECT mode, visible parts suitable as resources flash on the map. Toggling that mode on also temporarily displays its current list of contained resources. <parallel_ok>	启用时若有空动力、推进或武器槽且资源充足，会改装构造体、扩建或新建。再次启用可自动收集当前位置有用部件以获取资源。收集模式下，可用部件会在地图闪烁；切换时还会短暂显示资源清单。 <parallel_ok>
+Enables intermittent audiovisual glitch effects while system corrupted (the frequency of glitches is based on corruption level). This is intended for immersion and as a reminder of corruption, but you can turn it off if it's annoying. Disabling it also disables the window border animation when taking EM damage. <stacks>	系统损坏时偶发视听故障效果，频率随损坏程度变化，增强沉浸感并提醒玩家。若觉得烦人可关闭；关闭后，受电磁伤害时的窗口边框动画也会停用。 <stacks>
+Enables intermittent audiovisual glitch effects while system corrupted (the frequency of glitches is based on corruption level). This is intended for immersion and as a reminder of corruption, but you can turn it off if it's annoying. Disabling it also disables the window border animation when taking EM damage. <no_stack>	系统损坏时偶发视听故障效果，频率随损坏程度变化，增强沉浸感并提醒玩家。若觉得烦人可关闭；关闭后，受电磁伤害时的窗口边框动画也会停用。 <no_stack>
+Enables intermittent audiovisual glitch effects while system corrupted (the frequency of glitches is based on corruption level). This is intended for immersion and as a reminder of corruption, but you can turn it off if it's annoying. Disabling it also disables the window border animation when taking EM damage. <half_stack>	系统损坏时偶发视听故障效果，频率随损坏程度变化，增强沉浸感并提醒玩家。若觉得烦人可关闭；关闭后，受电磁伤害时的窗口边框动画也会停用。 <half_stack>
+Enables intermittent audiovisual glitch effects while system corrupted (the frequency of glitches is based on corruption level). This is intended for immersion and as a reminder of corruption, but you can turn it off if it's annoying. Disabling it also disables the window border animation when taking EM damage. <parallel_ok>	系统损坏时偶发视听故障效果，频率随损坏程度变化，增强沉浸感并提醒玩家。若觉得烦人可关闭；关闭后，受电磁伤害时的窗口边框动画也会停用。 <parallel_ok>
+While active, not considered a threat to Complex 0b10, but loses validity with each move. Validity expires more quickly while moving in view of 0b10 combat or security bots, and attacking any target immediately invalidates the mask. Also prevents Complex 0b10 traps from triggering. <stacks>	启用时不会被复合体0b10视为威胁，但每移动一步都会降低伪装有效性。在0b10战斗/安保机器人视野内移动会更快失效；攻击目标则立即失效。还可防止触发0b10陷阱。 <stacks>
+While active, not considered a threat to Complex 0b10, but loses validity with each move. Validity expires more quickly while moving in view of 0b10 combat or security bots, and attacking any target immediately invalidates the mask. Also prevents Complex 0b10 traps from triggering. <no_stack>	启用时不会被复合体0b10视为威胁，但每移动一步都会降低伪装有效性。在0b10战斗/安保机器人视野内移动会更快失效；攻击目标则立即失效。还可防止触发0b10陷阱。 <no_stack>
+While active, not considered a threat to Complex 0b10, but loses validity with each move. Validity expires more quickly while moving in view of 0b10 combat or security bots, and attacking any target immediately invalidates the mask. Also prevents Complex 0b10 traps from triggering. <half_stack>	启用时不会被复合体0b10视为威胁，但每移动一步都会降低伪装有效性。在0b10战斗/安保机器人视野内移动会更快失效；攻击目标则立即失效。还可防止触发0b10陷阱。 <half_stack>
+While active, not considered a threat to Complex 0b10, but loses validity with each move. Validity expires more quickly while moving in view of 0b10 combat or security bots, and attacking any target immediately invalidates the mask. Also prevents Complex 0b10 traps from triggering. <parallel_ok>	启用时不会被复合体0b10视为威胁，但每移动一步都会降低伪装有效性。在0b10战斗/安保机器人视野内移动会更快失效；攻击目标则立即失效。还可防止触发0b10陷阱。 <parallel_ok>
+Reinforcements dispatched by Heavies due to sensor detection of anyone using a Spoofer instead target some area on the opposite side of the Heavy from where the actual detection is made, where possible, or at closest will target the Heavy's position itself. <stacks>	重型机器人用传感器发现欺骗器使用者后派出的增援，会尽量改为攻击重型机器人侦测点的另一侧；否则就以该重型机器人所在位置为目标。 <stacks>
+Reinforcements dispatched by Heavies due to sensor detection of anyone using a Spoofer instead target some area on the opposite side of the Heavy from where the actual detection is made, where possible, or at closest will target the Heavy's position itself. <no_stack>	重型机器人用传感器发现欺骗器使用者后派出的增援，会尽量改为攻击重型机器人侦测点的另一侧；否则就以该重型机器人所在位置为目标。 <no_stack>
+Reinforcements dispatched by Heavies due to sensor detection of anyone using a Spoofer instead target some area on the opposite side of the Heavy from where the actual detection is made, where possible, or at closest will target the Heavy's position itself. <half_stack>	重型机器人用传感器发现欺骗器使用者后派出的增援，会尽量改为攻击重型机器人侦测点的另一侧；否则就以该重型机器人所在位置为目标。 <half_stack>
+Reinforcements dispatched by Heavies due to sensor detection of anyone using a Spoofer instead target some area on the opposite side of the Heavy from where the actual detection is made, where possible, or at closest will target the Heavy's position itself. <parallel_ok>	重型机器人用传感器发现欺骗器使用者后派出的增援，会尽量改为攻击重型机器人侦测点的另一侧；否则就以该重型机器人所在位置为目标。 <parallel_ok>
+Enables full recovery of all salvagable parts from a target, which take no further damage from the salvaging process and cannot be fried, melted, or corrupted. No effect on matter recovery, and cannot interfere with self-destruction routines. <stacks>	目标所有可回收部件均可完整回收；拆解时不再损坏，也不会烧毁、熔化或损坏。不会影响物质回收，也无法阻止自毁程序。 <stacks>
+Enables full recovery of all salvagable parts from a target, which take no further damage from the salvaging process and cannot be fried, melted, or corrupted. No effect on matter recovery, and cannot interfere with self-destruction routines. <no_stack>	目标所有可回收部件均可完整回收；拆解时不再损坏，也不会烧毁、熔化或损坏。不会影响物质回收，也无法阻止自毁程序。 <no_stack>
+Enables full recovery of all salvagable parts from a target, which take no further damage from the salvaging process and cannot be fried, melted, or corrupted. No effect on matter recovery, and cannot interfere with self-destruction routines. <half_stack>	目标所有可回收部件均可完整回收；拆解时不再损坏，也不会烧毁、熔化或损坏。不会影响物质回收，也无法阻止自毁程序。 <half_stack>
+Enables full recovery of all salvagable parts from a target, which take no further damage from the salvaging process and cannot be fried, melted, or corrupted. No effect on matter recovery, and cannot interfere with self-destruction routines. <parallel_ok>	目标所有可回收部件均可完整回收；拆解时不再损坏，也不会烧毁、熔化或损坏。不会影响物质回收，也无法阻止自毁程序。 <parallel_ok>
+Enables long-distance communication with Warlord forces to determine their composition and hiding locations. Toggle active state to temporarily list all squads in the area. If active while near a squad, will signal it to emerge and assist. <stacks>	可远程联络军阀部队，查询其组成及藏身处。启用时会暂列附近所有小队；若附近有小队，还会呼叫其现身支援。 <stacks>
+Enables long-distance communication with Warlord forces to determine their composition and hiding locations. Toggle active state to temporarily list all squads in the area. If active while near a squad, will signal it to emerge and assist. <no_stack>	可远程联络军阀部队，查询其组成及藏身处。启用时会暂列附近所有小队；若附近有小队，还会呼叫其现身支援。 <no_stack>
+Enables long-distance communication with Warlord forces to determine their composition and hiding locations. Toggle active state to temporarily list all squads in the area. If active while near a squad, will signal it to emerge and assist. <half_stack>	可远程联络军阀部队，查询其组成及藏身处。启用时会暂列附近所有小队；若附近有小队，还会呼叫其现身支援。 <half_stack>
+Enables long-distance communication with Warlord forces to determine their composition and hiding locations. Toggle active state to temporarily list all squads in the area. If active while near a squad, will signal it to emerge and assist. <parallel_ok>	可远程联络军阀部队，查询其组成及藏身处。启用时会暂列附近所有小队；若附近有小队，还会呼叫其现身支援。 <parallel_ok>
+Enables both real-time tracking of 0b10 Haulers across the entire floor, and gives access to their current manifest. Toggle active state to temporarily list all inventories in view. Only applies in 0b10-controlled areas. <stacks>	实时追踪整层的0b10运输者并查看其货单。启用时暂列视野内所有库存。仅限0b10控制区。 <stacks>
+Enables both real-time tracking of 0b10 Haulers across the entire floor, and gives access to their current manifest. Toggle active state to temporarily list all inventories in view. Only applies in 0b10-controlled areas. <no_stack>	实时追踪整层的0b10运输者并查看其货单。启用时暂列视野内所有库存。仅限0b10控制区。 <no_stack>
+Enables both real-time tracking of 0b10 Haulers across the entire floor, and gives access to their current manifest. Toggle active state to temporarily list all inventories in view. Only applies in 0b10-controlled areas. <half_stack>	实时追踪整层的0b10运输者并查看其货单。启用时暂列视野内所有库存。仅限0b10控制区。 <half_stack>
+Enables both real-time tracking of 0b10 Haulers across the entire floor, and gives access to their current manifest. Toggle active state to temporarily list all inventories in view. Only applies in 0b10-controlled areas. <parallel_ok>	实时追踪整层的0b10运输者并查看其货单。启用时暂列视野内所有库存。仅限0b10控制区。 <parallel_ok>
+Increases mass support by {n}. <stacks>	承重增加{n}。 <stacks>
+Increases mass support by {n}. <no_stack>	承重增加{n}。 <no_stack>
+Increases mass support by {n}. <half_stack>	承重增加{n}。 <half_stack>
+Increases mass support by {n}. <parallel_ok>	承重增加{n}。 <parallel_ok>
+Reduces melee attack time by {n}%. <stacks>	近战攻击耗时降低{n}%。 <stacks>
+Reduces melee attack time by {n}%. <no_stack>	近战攻击耗时降低{n}%。 <no_stack>
+Reduces melee attack time by {n}%. <half_stack>	近战攻击耗时降低{n}%。 <half_stack>
+Reduces melee attack time by {n}%. <parallel_ok>	近战攻击耗时降低{n}%。 <parallel_ok>
+Increases active leg speed by {n}%. <stacks>	启用腿式推进时速度提高{n}%。 <stacks>
+Increases active leg speed by {n}%. <no_stack>	启用腿式推进时速度提高{n}%。 <no_stack>
+Increases active leg speed by {n}%. <half_stack>	启用腿式推进时速度提高{n}%。 <half_stack>
+Increases active leg speed by {n}%. <parallel_ok>	启用腿式推进时速度提高{n}%。 <parallel_ok>
+Increases launcher accuracy by {n}%. <stacks>	发射器命中率提高{n}%。 <stacks>
+Increases launcher accuracy by {n}%. <no_stack>	发射器命中率提高{n}%。 <no_stack>
+Increases launcher accuracy by {n}%. <half_stack>	发射器命中率提高{n}%。 <half_stack>
+Increases launcher accuracy by {n}%. <parallel_ok>	发射器命中率提高{n}%。 <parallel_ok>
+Increases active wheel speed by {n}%. <stacks>	启用轮式推进时速度提高{n}%。 <stacks>
+Increases active wheel speed by {n}%. <no_stack>	启用轮式推进时速度提高{n}%。 <no_stack>
+Increases active wheel speed by {n}%. <half_stack>	启用轮式推进时速度提高{n}%。 <half_stack>
+Increases active wheel speed by {n}%. <parallel_ok>	启用轮式推进时速度提高{n}%。 <parallel_ok>
+Increases effective momentum by {n}. <stacks>	有效动量增加{n}。 <stacks>
+Increases effective momentum by {n}. <no_stack>	有效动量增加{n}。 <no_stack>
+Increases effective momentum by {n}. <half_stack>	有效动量增加{n}。 <half_stack>

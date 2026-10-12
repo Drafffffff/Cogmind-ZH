@@ -1,0 +1,131 @@
+{
+  "version": "v102-zh-pixel.34-log-scroll-preview",
+  "files": {
+    "WININET.dll": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4",
+    "zh_trans.tsv": "38b222d5ad7b48e75cab2c988dda56b217cad9eee61e78ebb56ac3386f4cc871",
+    "zh_para.tsv": "ed5b509f0f734e4c3742f1c9c07692b767919e3bceb75fb6f932c15ddd9e81ec",
+    "FONT-LICENSE.txt": "ba5c8c77b09a01fbcc3e707b377d956980582840a7cb82de1c7639c100b670cc",
+    "manual.txt": "69eb1eea83595e9500900dcb59a32ac9cfe2444e125212e555ccf493c9448bf3"
+  },
+  "host_tests": {
+    "decode-state": {
+      "status": "passed",
+      "report_sha256": "da48061724d6b79efa644d194f6dd1a86ecc44bc9eb54fb4d4641a6643ce6486",
+      "helper_sha256": "c7dd8239ff9ab35cdb00f24e4a8814eda0a2e68198ecce5acf153f1132297c05"
+    },
+    "child-text-draw": {
+      "status": "passed",
+      "report_sha256": "6be966715a93b2c549de4436559ab9efb36d69505788deb4cbb563793e6f12f7",
+      "helper_sha256": "39c645431bd1b2026fb1b54b84310fe73eb4f1d0f8de705736d48c9725969929",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "short-reveal": {
+      "status": "passed",
+      "report_sha256": "2ec9d3a9c672cfb7290ca6fab47df56c10d38eb161355edf6cf75244e880b076",
+      "helper_sha256": "e4aa5cb94128df6329714301f576c723af9af1b3d1c2233f8cfadea65113abf5",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "options-label-draw": {
+      "status": "passed",
+      "report_sha256": "beae43622ceb44b22c84883f8b920097f485f7351f4ac7cb0676248958be8d25",
+      "helper_sha256": "77ccdc0edd1f51322501546b8173c7ee13da4913ded213c1d3ef29b86f6fba0f",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "log-layout": {
+      "status": "passed",
+      "report_sha256": "8573764aa7493e97cfddc8a993e9abfd9f192ac532a5a8004fd2495c584fd963",
+      "helper_sha256": "6ef547893a6e95f644e40e3844d9083da960f22db56998d7a0d9e0ee3157c005",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "menu-op-draw": {
+      "status": "passed",
+      "report_sha256": "3babfdae84aabc7769f573242581f4433dae6c4e82231117dc5560a6442cc5b5",
+      "helper_sha256": "77ccdc0edd1f51322501546b8173c7ee13da4913ded213c1d3ef29b86f6fba0f",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "records-draw": {
+      "status": "passed",
+      "report_sha256": "1fa82ce0637bad7961e45605fe6444b720655d5f187090f935dc52d64d57396f",
+      "helper_sha256": "e194e27ecf5336d61bce5de6617e0591874c694146aac8e327db5fa2fd37a113",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "manual-animation": {
+      "status": "passed",
+      "report_sha256": "00393b146e16ab95a42da112b437119d77561bb875892ce8a6516eb5c465c5c6",
+      "helper_sha256": "aa95f631e7752ba2f3c2c251db38951a91857d228155f5506fe535c021bf185c",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "advanced-help-draw": {
+      "status": "passed",
+      "report_sha256": "f1767c9046092749243faa20e52bfad139ed5a241eadeddbba72f6209fd5cb49",
+      "helper_sha256": "fb8eef5c11ba468b844b2d1d0ea91e24d4276aa749eb2a48f66b56a8352fdf6c",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "raw-paragraph-draw": {
+      "status": "passed",
+      "report_sha256": "cf4537b48efeb2883dfdfc59dbc156926a9a0241edafe9f092342b36862783c4",
+      "helper_sha256": "13146bd27e5211d65415c39482c2784e92bc167742f0e15bd237bae283185d35",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "raw-paragraph-table": {
+      "status": "passed",
+      "report_sha256": "7ab54a5f8677bee3a3b1ad732b4b1c3ea00b8e25dbfa02b6828585d8b3b5c3ad",
+      "helper_sha256": "13146bd27e5211d65415c39482c2784e92bc167742f0e15bd237bae283185d35",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4",
+      "table_sha256": "ed5b509f0f734e4c3742f1c9c07692b767919e3bceb75fb6f932c15ddd9e81ec"
+    },
+    "robot-reveal-draw": {
+      "status": "passed",
+      "report_sha256": "3b0b9af9b649c5d218232bb35a27b5e50008b4837d5477f19330b59a1e50cd91",
+      "helper_sha256": "3d7da41639c6bcbcca25c7a9bbce662ce83d9b676ac076d58e4eaef522eefc60",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "animation-layout": {
+      "status": "passed",
+      "report_sha256": "49ce9996472e3843d34a812a7cb105f3b2dc3c661bbc7a9449de8eed6673d632",
+      "helper_sha256": "ad89224436fa65df32226fc0311035b33dba554377ca57885f98158a4d018023",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "hud-layout": {
+      "status": "passed",
+      "report_sha256": "c98357949226c2bd4bcbccd74b997b1da4fffecdf7355cb4aac9ec4d6537d040",
+      "helper_sha256": "aa2dab24694a6277e77c02dfcaf79d69e14a9c1c3baea9ff8b262fb4a69a8713",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4"
+    },
+    "manual-layout": {
+      "status": "passed",
+      "report_sha256": "e87f1f86d3626cd669ef9841ce742da9688f18ee380dceb666951d58be91e607"
+    },
+    "border-gap": {
+      "status": "passed",
+      "report_sha256": "88b547ee5a86a2d04e09c40dfe9c8c5b3d9d5218278419008e01bb20fc343f10",
+      "helper_sha256": "f69709461beff3d1f42ba30401ae38d2bc6258c11b67bec05fc022b251a6ba9b"
+    },
+    "capture-names": {
+      "status": "passed",
+      "report_sha256": "1d47a70af4b40ad6ade94b06e7819a6179d4280fa1136321ac6626bc61c85216",
+      "helper_sha256": "247edcd3b33844979a982beaa5c51a14722f8c6b1e0dbcb89fb8a6393f87b959",
+      "dll_sha256": "f660e37a0b14254f2962c0c9fa141e37bd9a1354502e784e0b318cbb8de4a5b4",
+      "table_sha256": "38b222d5ad7b48e75cab2c988dda56b217cad9eee61e78ebb56ac3386f4cc871"
+    },
+    "log-paragraph": {
+      "status": "passed",
+      "report_sha256": "01d7779de65424aeb11ef096695c8b4133c647e07d6839f2a7730d521581b843",
+      "helper_sha256": "0d62e6ab67957c0f1522aed66cd9e40dbab0f70d45084bf543ef45c2fbd84256",
+      "table_sha256": "ed5b509f0f734e4c3742f1c9c07692b767919e3bceb75fb6f932c15ddd9e81ec",
+      "capture_table_sha256": "38b222d5ad7b48e75cab2c988dda56b217cad9eee61e78ebb56ac3386f4cc871"
+    }
+  },
+  "translation_rules": 73156,
+  "full_table_match_test": "passed: 73156 matches/captures; CJK widths; five wrapping widths",
+  "font_test": "passed: seven raster sizes; bounds; binary pixel alpha",
+  "runtime_status": "latest cache deduplication change not yet fully runtime verified; combat scroll views pending",
+  "main_game_installed_version": "pixel.33; pixel.34 not installed to the main game",
+  "source_snapshot_build": {
+    "status": "passed",
+    "generated_c_and_headers": "identical to tested release source",
+    "data_files": "four identical file hashes",
+    "executable_code_section": ".text identical",
+    "dll_byte_identity": "PE build metadata differs; release uses the original tested DLL hash"
+  }
+}

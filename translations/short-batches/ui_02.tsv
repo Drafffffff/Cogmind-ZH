@@ -1,0 +1,300 @@
+Terminals	终端
+Fabricators	制造机
+Repair Stations	维修站
+Recycling Units	回收机
+Scanalyzers	扫描分析仪
+Manual Hacking	手动入侵
+Hacking Robots	入侵机器人
+Requirements	要求
+Cost	消耗
+Rewiring	改写
+Allies	友军
+Types	类型
+Orders	指令
+Benefits	收益
+Intel	情报
+Traps	陷阱
+Triggering	触发
+Detection	探测
+Removal	移除
+Reprogramming	重编程
+Alternative Rules	其他规则
+Challenge Modes	挑战模式
+Special Modes	特殊模式
+Advanced UI	高级界面
+Scan Window	扫描窗口
+Evasion Window	闪避窗口
+Volley Window	齐射窗口
+Parts Window	部件窗口
+Inventory Window	库存窗口
+Combat Log Window	战斗日志窗口
+Info Window	信息窗口
+Targeting Behavior	瞄准行为
+Part Auto-Replacement	部件自动替换
+Item Label Filtering	物品标签筛选
+Item Search	物品搜索
+Lore Collection	背景故事收藏
+Item Gallery	物品画廊
+Achievements	成就
+Alt-Tab Oddity	Alt-Tab异常
+Advanced Options	高级选项
+System Options	系统选项
+File Options	文件选项
+Accessibility	无障碍
+Map Zooming	地图缩放
+Font Styles	字体样式
+Tiles vs ASCII	图块或ASCII
+Difficulty Modes	难度模式
+Custom Cursors	自定义光标
+Colorblind Mode	色盲模式
+Color Customization	自定义颜色
+Advanced Commands	高级指令
+Message Log	消息日志
+Allies (F5)	友军（F5）
+Intel (F6)	情报（F6）
+Extended Log (F7)	扩展日志（F7）
+Combat Log (F8)	战斗日志（F8）
+Text Input	文本输入
+Keyboard Logic	键盘逻辑
+Key Holding	按住按键
+Notes	备注
++3%/cell if range < 6	距离小于6时每格+3%
++15%/25% if attacker in standard/high siege mode (non-melee only)	攻击者处于普通/高级攻城模式时+15%/25%（仅非近战）
++attacker utility bonuses	攻击者功能件加成
++10% if attacker didn't move for the last 2 actions	攻击者前两次行动未移动时+10%
++3% of defender heat (if heat positive)	防御者热量每点+3%（热量为正时）
++10%/+30% for large/huge targets	大型/巨型目标+10%/+30%
++10% if defender immobile	防御者无法移动时+10%
++5% w/robot analysis data	有机器人分析数据时+5%
+-1~15% if defender moved last action, where faster = harder to hit	防御者上回合移动时-1~15%，速度越快越难命中
+-5~15% if defender running on legs (not overweight)	腿部移动时-5~15%（未超重）
+(5% evasion for each level of momentum)	（动量每级闪避+5%）
+-10% if attacker moved last action (ignored in melee combat)	攻击者上回合移动时-10%（近战忽略）
+-5~15% if attacker running on legs (ranged attacks only)	腿部移动时-5~15%（仅远程）
+(5% for each level of momentum)	（动量每级+5%）
+-[attacker system corruption]/X% (X = 4 for Cogmind, 8 for others)	-攻击者系统损坏/X%（Cogmind的X=4，其他为8）
+-3% of attacker heat (if heat positive)	攻击者热量每点-3%（热量为正时）
+-10%/-30% for small/tiny targets	小型/微型目标-10%/-30%
+-10%/-5% if target is flying/hovering (and not overweight or in stasis)	目标飞行/悬浮时-10%/-5%（未超重或静滞）
+-20% for each robot obstructing line of fire	射线每被机器人阻挡一次-20%
+-5% against Cogmind by robots for which have analysis data	有分析数据的机器人对Cogmind命中率-5%
+-defender utility bonuses	防御者功能件加成
++utility bonuses	功能件加成
++10% w/weapon study data	有武器研究数据时+10%
+-recoil (from other weapons)	（受其他武器后坐力影响）
+Ion Engine (60)	离子引擎（60）
+Light Treads (120)	轻型履带（120）
+Medium Laser (60)	中型激光（60）
+Assault Rifle (100)	突击步枪（100）
+Ion Engine: 60/560=10.7%	离子引擎：60/560=10.7%
+Light Treads: 120/560=21.4% (each)	轻型履带：120/560=21.4%（每条）
+Medium Laser: 60/560=10.7%	中型激光：60/560=10.7%
+Assault Rifle: 100/560=17.9%	突击步枪：100/560=17.9%
+Core: 100/560=17.9%	核心：100/560=17.9%
+Base hit% is 70	基础命中率为70
+No range modifier	无射程修正
+No heat modifiers	无热量修正
+Utility modifiers use those applicable to melee combat	功能件修正采用近战适用值
+Lgt/Mic/Mni power sources: +1 supply	轻/微/迷你动力源：供能+1
+Other power sources: +2 supply	其他动力源：供能+2
+Treads: Penalty/2	履带：惩罚减半
+Legs: -15 time/move	腿：每步耗时-15
+Wheels: -10 time/move	轮：每步耗时-10
+Hover/Flight: +1 support/slot	悬浮/飞行：每槽支撑+1
+Weapons: +10% accuracy	武器：命中率+10%
+Stasis Trap trigger chances are inverted (Flight ex: 100 - 20 = 80%)	静滞陷阱触发率反转（飞行例：100-20=80%）
+Chute Traps never trigger on treads movement, even when overweight	履带移动永不触发滑槽陷阱，即使超重
+<stacks>: This effect is combined with those from all active utilities with the same effect.	<stacks>：此效果与所有启用的同效果功能件叠加。
+<no_stack>: Effects from multiple utilities of this type do not stack, only the best available is applied.	<no_stack>：多个此类功能件的效果不叠加，仅应用最佳效果。
+<half_stack>: Effects from multiple utilities of this type will stack, but only the best two, where the second best contributes 50% of its effect.	<half_stack>：多个此类功能件效果叠加，但仅取最佳两项，第二佳效果减半。
+<parallel_ok>: Multiple active utilities with the same long-term effect continuously apply that effect at the same time.	<parallel_ok>：多个相同长期效果的启用功能件会同时持续生效。
+<resume_ok>: If deactivated then later reactivated, this long-term effect will pick up where it left off.	<resume_ok>：关闭后重新启用时，此长期效果会接续先前进度。
+<consumed>: Attaching the utility activates it, using it up permanently.	<consumed>：装配功能件会立即触发效果，并永久消耗它。
+"T_" is Terminus, a thin and readable sans serif font	“T_”是Terminus，纤细易读的无衬线字体
+"VGA_" is IBM VGA, one of the classic DOS fonts	“VGA_”是IBM VGA，经典DOS字体之一
+"V_" is Verite, a fat mostly-serifed font	“V_”是Verite，粗笔画且多为衬线的字体
+"K_" is Kaypro, a thin-stroked stylized techno font	“K_”是Kaypro，细笔画的风格化科技字体
+Ctrl: (Parts) Attachment/activation ("up")	Ctrl：（部件）装配/启用（向上）
+Alt: (Parts) Detach/Drop ("down")	Alt：（部件）卸下/丢弃（向下）
+Shift: Information	Shift：查看信息
+Shift-Alt: Special commands, most also accessible via Spacebar	Shift-Alt：特殊指令，多数也可按空格使用
+F-keys: Interface mode changes	F键：切换界面模式
+Escape: Cancels/exits pretty much anything	Esc：取消/退出几乎所有操作
+Holding a movement key to rewire a robot or trap (1-second block)	按住移动键改写机器人或陷阱（阻塞1秒）
+Holding wait while a visible fabricator or repair station completes its task (2-second block)	等待可见制造机或维修站完成操作（阻塞2秒）
+Holding wait while waiting for a hostile to enter view	等待敌人进入视野
+Holding wait while waiting for a System Backup Module to reduce system corruption to 0%	等待系统备份模块将系统损坏降至0%
+Holding wait while waiting for a Recalibrator to fix a broken part	等待校准器修复损坏部件
+Holding wait while using Protomatter in the RPGLIKE special mode	在Roguelike特殊模式中等待使用原物质
+integrity from 1~100	耐久为1~100
+random drops	随机掉落
+Cogmind Manual	Cogmind手册
+Visual Range	视野范围
+Energy rate	能量速率
+Energy storage	能量储存
+Matter storage	物质储存
+Heat Dissipation	散热量
+250 (+150/evolution)	250（每次进化+150）
+25 (+3/evolution)	25（每次进化+3）
+Pick Up	拾取
+Pick Up+Attach	拾取并装配
+Fire	开火
+Rewire	改写
+Move	移动
+Varies by propulsion and mass	依推进方式和质量而异
+Total Time	总耗时
+Wheels	轮子
+range	射程
+size, target	尺寸、目标
+siege mode	攻城模式
+heat, target	热量、目标
+utilities, target	功能件、目标
+movement, target	移动、目标
+flying, target	飞行、目标
+immobile	无法移动
+obstructing robot	阻挡机器人
+hacked targeting	黑入瞄准
+disruption (from a hack)	干扰（入侵造成）
+tactical coordination suite	战术协调套件
+Orange	橙色
+Yellow	黄色
+Green	绿色
+Brown	棕色
+Combat-related	战斗相关
+Door open/close	门开/关
+Machine destroyed	机器摧毁
+Walls destroyed or cave-in	墙壁摧毁或塌方
+Slots	槽位
+Damage Type	伤害类型
+Other	其他
+.X, where X is the minimum rating	.X，X为最低评级
+Close/Cancel	关闭/取消
+Clear/Previous message	清除/上一条消息
+Save & quit	保存并退出
+Global Volume Up/Down	全局音量增/减
+Toggle FPS display	切换FPS显示
+Toggle cursor forced	切换强制光标
+Toggle auto-waiting	切换自动等待
+Create save point	创建还原点
+Load save point	载入还原点
+Toggle part auto-activation	切换部件自动启用
+Toggle audio	切换音效
+Toggle mouse warping	切换鼠标定位
+Shift map view	平移地图视图
+Center on self	以自身为中心
+Pan map	平移
+Set view centerpoint	设置视野中心
+Toggle mapshift mode	切换地图平移模式
+Toggle ruler overlay	切换尺规叠层
+Label hostiles	标记敌人
+Label friendlies	标记友军
+Label items	标记物品
+Cycle item label category	切换物品标签类别
+Label exits	标记出口
+Find item (search)	查找物品（搜索）
+Go to examine cursor	移至检查光标
+Export known map as a PNG	导出已知地图为PNG
+Get item and attach	拾取并装配
+Force melee attack	强制近战攻击
+Move cursor (KB mode only)	移动光标（仅键盘模式）
+Cycle targets	切换目标
+Cycle items	切换物品
+Center cursor on self	光标移至自身
+Set guided weapon waypoint	设置制导武器航点
+Evasion breakdown (hold)	闪避详情（按住）
+Toggle tactical HUD	切换战术HUD
+Drag to Slot	拖至槽位
+Drag to Inventory	拖至库存
+Drag to Map	拖至地图
+Detach-drop	卸下并丢弃
+Modal remove/drop (KB mode)	弹窗式移除/丢弃（键盘模式）
+Sort by subtype	按子类型排序
+Show all autopairs (hold)	显示所有自动配对（按住）
+Visualization: Coverage	显示：覆盖权重
+Visualization: Energy	显示：能量
+Visualization: Integrity	显示：耐久
+Visualization: Info	显示：信息
+Type Sort (again to reverse)	按类型排序（再次反转）
+Tag item with a custom name	为物品添加自定义名称
+Order mode	指令模式
+Order all repairs	下达全部维修指令
+Cancel order mode	退出指令模式
+Characters	字符
+Enter text	输入文本
+Move caret	移动光标
+Delete character at caret	删除光标处字符
+Delete last character	删除末尾字符
+Clear text	清空文本
+Cycle text (if applicable)	切换文本（若可用）
+Autocomplete (if applicable)	自动补全（若可用）
+Paste from system clipboard	从系统剪贴板粘贴
+Confirm	确认
+Cancel	取消
+NEWS	新闻
+PATRONS	赞助者
+ALPHA SUPPORTERS	Alpha支持者
+[0] PATRONS	[0]赞助者
+[9] ALPHA SUPPORTERS	[9]Alpha支持者
+[1] BASIC	[1]基础
+[2] ADVANCED	[2]进阶
+[3] MANUAL	[3]手动
+[4] OPTIONS	[4]选项
+[6] CREDITS	[6]制作人员
+[7] RECORDS	[7]记录
+Evolutions ({n})	进化({n})
+Regions Visited	访问区域
+Robots Destroyed ({n})	摧毁机器人({n})
+Value Destroyed ({n})	摧毁价值({n})
+Prototype IDs ({n})	原型编号({n})
+Alien Tech Used ({n})	使用外星科技({n})
+Bonus ({n})	奖励({n})
+Total Score: {n}	总分：{n}
+SELF-DESTRUCTED	自毁
+P e r f o r m a n c e	性 能
+S t a t s	统 计
+Full record in /scores/ directory	完整记录见/scores/目录
+Restart	重启
+Rolling	滚动
+Walking	步行
+Treading	履带行进
+Running ({n}%)	奔跑({n}%)
+Weaving ({n}%)	迂回({n}%)
+Walking ({n}%)	步行({n}%)
+Rolling ({n}%)	滚动({n}%)
+Treading ({n}%)	履带行进({n}%)
+Flying ({n}%)	飞行({n}%)
+Hovering ({n}%)	悬浮({n}%)
+Core ({n}%)	核心({n}%)
+{n}/Scrapyard	{n}/废料场
+{n}/Materials	{n}/物资区
+{n}/Factory	{n}/工厂
+{n}/Research	{n}/研究区
+{n}/Access	{n}/入口区
+{n}/Surface	{n}/地表
+{n}/Mines	{n}/矿区
+{n}/Exiles	{n}/流亡者
+{n}/Storage	{n}/仓储区
+{n}/Recycling	{n}/回收区
+{n}/Scraptown	{n}/废料镇
+{n}/Waste	{n}/废料
+{n}/Garrison	{n}/驻防站
+{n}/Subcaves	{n}/地下洞穴
+{n}/Lower Caves	{n}/下层洞穴
+{n}/Upper Caves	{n}/上层洞穴
+{n}/Proximity Caves	{n}/近区洞穴
+{n}/Deep Caves	{n}/深层洞穴
+{n}/Warlord	{n}/军阀
+{n}/Extension	{n}/扩展区
+{n}/Archives	{n}/档案区
+{n}/Armory	{n}/军械库
+{n}/Quarantine	{n}/隔离区
+{n}/Testing	{n}/测试区
+{n}/Section 7	{n}/第7区
+{n}/Protoforge	{n}/原型锻炉
+{n}/Command	{n}/指挥区
+{n}/Lair	{n}/巢穴
+{n}/Wartown	{n}/战争镇
+{n}/Data Miner	{n}/数据矿工
+({n},{n}) Scrapyard	({n},{n})废料场
+({n},{n}) Materials	({n},{n})物资区
+({n},{n}) Factory	({n},{n})工厂

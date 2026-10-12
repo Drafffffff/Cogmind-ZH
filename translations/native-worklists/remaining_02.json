@@ -1,0 +1,464 @@
+[
+  {
+    "raw": " reconstitutes self from the rubble and scrap.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x69b44a",
+        "assembly_file": "build/rea/fragment-windows/69b44a.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " reconstitutes self from the rubble and scrap.",
+            "string_va": "0xbec838",
+            "xref_evidence": "ev_b7f937084d8afe2b463cac291b19a737252c5d1ce949f42b67c8f67ea60f6ecb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " reconstitutes true form from the rubble and scrap.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x69b874",
+        "assembly_file": "build/rea/fragment-windows/69b874.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " reconstitutes true form from the rubble and scrap.",
+            "string_va": "0xbec8a0",
+            "xref_evidence": "ev_186c3ce856f9502ca865b46dae943a6a56f466f149a0962eb73375e49245b05c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "X0-1V1 manipulates the space around you (+",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6a5948",
+        "assembly_file": "build/rea/fragment-windows/6a5948.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1 manipulates the space around you (+",
+            "string_va": "0xbed31c",
+            "xref_evidence": "ev_58190f94122a6ca6ee4bb192182cec175633a2b9025eed3f8d2d00756a5f5ece"
+          }
+        ]
+      },
+      {
+        "xref": "0x6a5b32",
+        "assembly_file": "build/rea/fragment-windows/6a5b32.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1 manipulates the space around you (+",
+            "string_va": "0xbed35c",
+            "xref_evidence": "ev_e6b011cda2461e4277027bcbbc940473dcbe0d32d75b51c7ef774a06d698bb64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "X0-1V1 lends a hand with your twisted circuits (-",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6aca7f",
+        "assembly_file": "build/rea/fragment-windows/6aca7f.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1 lends a hand with your twisted circuits (-",
+            "string_va": "0xbeda70",
+            "xref_evidence": "ev_d93a788bc1f02aee01443853e429d01f14a6af31bdd3241b2d648edf7357c094"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent ",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6ad875",
+        "assembly_file": "build/rea/fragment-windows/6ad875.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent ",
+            "string_va": "0xbedc28",
+            "xref_evidence": "ev_6c7a3505e193aff1d594e13f913cf1872689bd1de500d29b607a97ca199ad0bb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 ",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6af080",
+        "assembly_file": "build/rea/fragment-windows/6af080.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 ",
+            "string_va": "0xbede80",
+            "xref_evidence": "ev_a957fb7622569a46e5b28f0196fce47caf3985e6b378257640b22b7f05189015"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "X0-1V1 smiles upon you. (Received ",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6b0509",
+        "assembly_file": "build/rea/fragment-windows/6b0509.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1 smiles upon you. (Received ",
+            "string_va": "0xbedfe0",
+            "xref_evidence": "ev_11f0c8b6e34cb21e664fe9c2a289c809250e610234bee5ac4f72eb5c3615e66d"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " to go sit in the corner.\"",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6b21f4",
+        "assembly_file": "build/rea/fragment-windows/6b21f4.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " to go sit in the corner.\"",
+            "string_va": "0xbee294",
+            "xref_evidence": "ev_7171d67646c0b88cac00716513fc8fdc7d00f82dd21208c4e5a77535ecc800f9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " caught in stasis.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x6b55f1",
+        "assembly_file": "build/rea/fragment-windows/6b55f1.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " caught in stasis.",
+            "string_va": "0xbee8c8",
+            "xref_evidence": "ev_52056ec16261760f8fdc5bb935be99e3436a84ac7a6affbe6443cdb020d3fb1f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " of your inventory parts (corrupted).",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6b77b1",
+        "assembly_file": "build/rea/fragment-windows/6b77b1.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " of your inventory parts (corrupted).",
+            "string_va": "0xbeeb7c",
+            "xref_evidence": "ev_94a3ba994bf5673101b4f79a10e459f7fb932970dc433b86ca3ebf314c4e506c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6b8a52",
+        "assembly_file": "build/rea/fragment-windows/6b8a52.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+            "string_va": "0xbeecc8",
+            "xref_evidence": "ev_2ff052d6ddaabe45be43c7204eab9bb9b2d2e6102eb2e94c404a0b18430cb1d9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "X0-1V1: \"I may have passed a hint to a nearby ",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x6baafa",
+        "assembly_file": "build/rea/fragment-windows/6baafa.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1: \"I may have passed a hint to a nearby ",
+            "string_va": "0xbeeed8",
+            "xref_evidence": "ev_71a4cd86e8837286ad3baabe06b5ec71bf37717c28e0f10325a04b45b5d0fab7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "X0-1V1 pokes a wall.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x6bf1f8",
+        "assembly_file": "build/rea/fragment-windows/6bf1f8.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "X0-1V1 pokes a wall.",
+            "string_va": "0xbef65c",
+            "xref_evidence": "ev_ebfb43c7d8d6367926b9169434e098a9fe894ec3fe5db757123755fe39ced31c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " hacked open.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x743b0c",
+        "assembly_file": "build/rea/fragment-windows/743b0c.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " hacked open.",
+            "string_va": "0xbf3370",
+            "xref_evidence": "ev_76c53c2ec6da10f8cb333dee90f7f25592ab37ffdf260d86fb71d26e01631e33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " inbound, all units not involved in other operations escort to target.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x744695",
+        "assembly_file": "build/rea/fragment-windows/744695.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " inbound, all units not involved in other operations escort to target.",
+            "string_va": "0xbf33f0",
+            "xref_evidence": "ev_37ae053878b9c506daeea50945ae9c351fbfd35cccb606d936d63ca23d9367f5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " buries itself in the floor.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x7460e8",
+        "assembly_file": "build/rea/fragment-windows/7460e8.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " buries itself in the floor.",
+            "string_va": "0xbf3590",
+            "xref_evidence": "ev_20f90fd3dd98354828733c30398a561c4f2439ca923d9a07633291a5b8f087bb"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " targets ready for detonation.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x746366",
+        "assembly_file": "build/rea/fragment-windows/746366.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " targets ready for detonation.",
+            "string_va": "0xbf35b0",
+            "xref_evidence": "ev_03c40f73ed0e035caff6b7537bd749f9778f6396ff6f65d5c26638cc965c7397"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " to Cogmind's location.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x76b6fe",
+        "assembly_file": "build/rea/fragment-windows/76b6fe.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " to Cogmind's location.",
+            "string_va": "0xbf61c8",
+            "xref_evidence": "ev_98a67ee65257f50805392acf0f21b7d731ecaac3ab62b2c778ae3c19ad93988a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " effective code value to all Relay Couplers.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x783073",
+        "assembly_file": "build/rea/fragment-windows/783073.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " effective code value to all Relay Couplers.",
+            "string_va": "0xbf7338",
+            "xref_evidence": "ev_db67c28e237a53e229986e9fc427ab0be2b7bafe4ee8f3ce235b96862063a236"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " more turns before they can pinpoint your position for dispatching.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x783953",
+        "assembly_file": "build/rea/fragment-windows/783953.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " more turns before they can pinpoint your position for dispatching.",
+            "string_va": "0xbf7760",
+            "xref_evidence": "ev_576f35020f3900293b012bd3eb618cd3ba3008c393067ac58203f45259ec110b"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " while at least one Relay Coupler [NC] attached.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x783b7e",
+        "assembly_file": "build/rea/fragment-windows/783b7e.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " while at least one Relay Coupler [NC] attached.",
+            "string_va": "0xbf782c",
+            "xref_evidence": "ev_1b7fc6614dcdba39b76a5cc83fcc4e27228c141d37f2c50f0a98255ab9282a2c"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": "ANNOUNCEMENT: Welcome to our newest member, ",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x784438",
+        "assembly_file": "build/rea/fragment-windows/784438.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": "ANNOUNCEMENT: Welcome to our newest member, ",
+            "string_va": "0xbf7dc4",
+            "xref_evidence": "ev_3bdfea7f4eca31c43b5544fb7cb1c850e390de7c2a1fcc4fc5d9e8c441e753be"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " stockpile data.",
+    "classification": "unknown",
+    "references": [
+      {
+        "xref": "0x79acb1",
+        "assembly_file": "build/rea/fragment-windows/79acb1.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " stockpile data.",
+            "string_va": "0xbf981c",
+            "xref_evidence": "ev_db2cebac082535f356716babf1c12b35a7b7ced2a22b820d961b06ea22597458"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " materializes via a weapon slot.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x7ac1a9",
+        "assembly_file": "build/rea/fragment-windows/7ac1a9.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " materializes via a weapon slot.",
+            "string_va": "0xbf9f84",
+            "xref_evidence": "ev_5f03b34dc8edd69bfd6a90b0fff2aef6b3e6d4f4bf3e267ca7245ff21d52e42f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "raw": " blips out of existence for a moment, then partially fades back in.",
+    "classification": "player_visible_confirmed",
+    "references": [
+      {
+        "xref": "0x7acedd",
+        "assembly_file": "build/rea/fragment-windows/7acedd.asm",
+        "xref_local_line": 101,
+        "strings": [
+          {
+            "string": " blips out of existence for a moment, then partially fades back in.",
+            "string_va": "0xbf9fe8",
+            "xref_evidence": "ev_59f53491547b2bf2cad9d9caccad8db7a922101ffd905a7780cd7a6c77c7ef5c"
+          }
+        ]
+      }
+    ]
+  }
+]

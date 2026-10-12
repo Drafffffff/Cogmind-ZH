@@ -1,0 +1,1783 @@
+{
+  "source_worklist": "translations/native-worklists/remaining_01.json",
+  "assembly": "build/rea/exe-text.asm",
+  "description": "25个worklist片段均有记录。已重建可证明的完整串接并追踪到提交/日志调用；diagnostic_only项目明确排除，不补译。组件只使用literal/capture，source占位符限{*}/{n}。对不能确证完整边界的提示标为unresolved。",
+  "scope": {
+    "worklist_fragments": 25,
+    "candidate_templates": 30,
+    "diagnostic_only": 7,
+    "player_visible_templates": 23
+  },
+  "candidates": [
+    {
+      "id": "remaining-01-01",
+      "raw_template": "The earth collapses behind {*}: \"They'll never stop me! The dig must go on!\"",
+      "source": "The earth collapses behind {*}: \"They'll never stop me! The dig must go on!\"",
+      "translation": "大地在{*}身后塌陷：“他们休想拦住我！挖掘必须继续！”",
+      "components": [
+        {
+          "literal": "The earth collapses behind ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              391985
+            ],
+            "string_va": "0xbd82a4"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x417090返回的名称字符串，被0x9ce830接在固定前缀后；对象保存在[ebp-0x1660]。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              391985
+            ]
+          },
+          "source_slot": "[ebp-0x1660]"
+        },
+        {
+          "literal": ": \"They'll never stop me! The dig must go on!\"",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              391985
+            ],
+            "string_va": "0xbd8274"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        391985,
+        392012
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x53e175"
+      ],
+      "confidence": "high",
+      "notes": "完整构造在 0x53e175–0x53e1c4；第2句为程序字面量。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message event builder",
+        "call": "0x49c9f0",
+        "address": "0x53e1e5",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-02",
+      "raw_template": "ANNOUNCEMENT: Warlord escort dispatched to {*} route. See that they get there.",
+      "source": "ANNOUNCEMENT: Warlord escort dispatched to {*} route. See that they get there.",
+      "translation": "公告：军阀护卫队已派往{*}路线，确保他们顺利抵达。",
+      "components": [
+        {
+          "literal": "ANNOUNCEMENT: Warlord escort dispatched to ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              399026
+            ],
+            "string_va": "0xbd8b50"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x4633e0获取位置对象，经0x9ce7b0插入前缀后存入[ebp-0xa570]。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              399026
+            ]
+          },
+          "source_slot": "[ebp-0xa570]"
+        },
+        {
+          "literal": " route. See that they get there.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              399035
+            ],
+            "string_va": "0xbd8b2c"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        399035,
+        399073
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x5453ab"
+      ],
+      "confidence": "high",
+      "notes": "前缀通过 PE 数据段 VA 0xbd8b50 核验；0x545432 将完整消息送入消息输出函数。翻译补回 route（路线）。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x545432",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-03",
+      "raw_template": "{*} twisted beyond recognition.",
+      "source": "{*} twisted beyond recognition.",
+      "translation": "{*}扭曲得面目全非。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "0x572ea0生成并存入[ebp-0x6450]的前置完整字符串；此处分支只追加已核实后缀。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              417414
+            ]
+          },
+          "source_slot": "[ebp-0x6450]"
+        },
+        {
+          "literal": " twisted beyond recognition.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              417414
+            ],
+            "string_va": "0xbda4cc"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        417414,
+        417433
+      ],
+      "calls": [
+        "0x9b0bd0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x5583c0"
+      ],
+      "confidence": "high",
+      "notes": "只捕获调用0x9b0bd0前已构造的字符串对象，不推测其内容。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message event builder",
+        "call": "0x49c9f0",
+        "address": "0x55840c",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-04",
+      "raw_template": "{*} containment failure.",
+      "source": "{*} containment failure.",
+      "translation": "{*}发生收容失效。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "0x572ea0生成并存入[ebp-0x6450]的前置完整字符串；此处分支只追加已核实后缀。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              417418
+            ]
+          },
+          "source_slot": "[ebp-0x6450]"
+        },
+        {
+          "literal": " containment failure.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              417418
+            ],
+            "string_va": "0xbda4ec"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        417418,
+        417433
+      ],
+      "calls": [
+        "0x9b0bd0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x5583d2"
+      ],
+      "confidence": "high",
+      "notes": "只捕获调用0x9b0bd0前已构造的字符串对象，不推测其内容。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message event builder",
+        "call": "0x49c9f0",
+        "address": "0x55840c",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-05a",
+      "raw_template": "Access unavailable below {*}.",
+      "source": "Access unavailable below {*}.",
+      "translation": "低于{*}时无法进入。",
+      "components": [
+        {
+          "literal": "Access unavailable below ",
+          "evidence": {
+            "string_vas": [
+              "0xbe2eec",
+              "0xbe3524",
+              "0xbe5390"
+            ],
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              441002,
+              441203,
+              529812
+            ]
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "格式化门槛值的字符串对象，作为9ce7b0第二输入插入固定前缀。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              441002,
+              441203,
+              529812
+            ]
+          },
+          "source_slot": "callsite string argument"
+        },
+        {
+          "literal": ".",
+          "evidence": {
+            "string_vas": [
+              "0xbe2c04",
+              "0xbe3264",
+              "0xbe538c"
+            ],
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              441002,
+              441203,
+              529812
+            ]
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        441002,
+        441125,
+        441203,
+        441326,
+        529812,
+        529935
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x5706c8",
+        "0x5709c2",
+        "0x5c4472"
+      ],
+      "confidence": "high",
+      "notes": "逐字核对0x5706c8、0x5709c2、0x5c4472三处：前缀、句点以及At 0b10/、security level、required.各分支原文完全一致，仅各处VA不同；每个调用均返回完整描述字符串。",
+      "literal_evidence": [
+        "0xbe2eec",
+        "0xbe3524",
+        "0xbe5390"
+      ],
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "returned completed access-description string",
+        "call": "return",
+        "address": "0x5708cc / 0x570bc6 / 0x5c4676",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-05b",
+      "raw_template": "At 0b10/{*}, security level {*} required.",
+      "source": "At 0b10/{*}, security level {*} required.",
+      "translation": "位于0b10/{*}，要求安全等级{*}。",
+      "components": [
+        {
+          "literal": "At 0b10/",
+          "evidence": {
+            "string_vas": [
+              "0xbe31fc",
+              "0xbe3560",
+              "0xbe53cc"
+            ],
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              441002,
+              441203,
+              529812
+            ]
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "位置/坐标字符串对象，由0x9ce7b0构成前半段。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              441002,
+              441203,
+              529812
+            ]
+          },
+          "source_slot": "callsite string argument"
+        },
+        {
+          "literal": ", security level ",
+          "evidence": {
+            "string_vas": [
+              "0xbe3074",
+              "0xbe354c",
+              "0xbe53b8"
+            ],
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              441002,
+              441203,
+              529812
+            ]
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "安全等级格式化字符串对象，由0x9ce930连接到前半段。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              441002,
+              441203,
+              529812
+            ]
+          },
+          "source_slot": "callsite string argument"
+        },
+        {
+          "literal": " required.",
+          "evidence": {
+            "string_vas": [
+              "0xbe2ff4",
+              "0xbe3540",
+              "0xbe53ac"
+            ],
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              441002,
+              441203,
+              529812
+            ]
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        441002,
+        441125,
+        441203,
+        441326,
+        529812,
+        529935
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x5706c8",
+        "0x5709c2",
+        "0x5c4472"
+      ],
+      "confidence": "high",
+      "notes": "逐字核对0x5706c8、0x5709c2、0x5c4472三处：前缀、句点以及At 0b10/、security level、required.各分支原文完全一致，仅各处VA不同；每个调用均返回完整描述字符串。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "returned completed access-description string",
+        "call": "return",
+        "address": "0x5708cc / 0x570bc6 / 0x5c4676",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-06",
+      "classification": "diagnostic_only",
+      "raw_fragment": " already has a count value before even starting to exit",
+      "source": null,
+      "translation": null,
+      "components": [],
+      "assembly_file": "build/rea/fragment-windows/57a43e.asm",
+      "assembly_lines": [
+        451791
+      ],
+      "calls": [
+        "diagnostic/log builder, not player-facing message sink"
+      ],
+      "covers_xrefs": [
+        "0x57a43e"
+      ],
+      "confidence": "excluded",
+      "exclusion_reason": "调用路径用于内部断言/错误日志（函数名、状态校验或无效操作诊断），不是玩家可见文本；明确不进入玩家译表，故不补译。",
+      "integration_status": "exclude_diagnostic",
+      "sink": {
+        "kind": "internal diagnostic/log path",
+        "status": "excluded",
+        "evidence": "调用点附近是状态断言/非法操作错误输出；不属于玩家消息模板。"
+      }
+    },
+    {
+      "id": "remaining-01-07",
+      "classification": "diagnostic_only",
+      "raw_fragment": "cannot break an overloaded part currently in special mode",
+      "source": null,
+      "translation": null,
+      "components": [],
+      "assembly_file": "build/rea/fragment-windows/57a75f.asm",
+      "assembly_lines": [
+        452018
+      ],
+      "calls": [
+        "diagnostic/log builder, not player-facing message sink"
+      ],
+      "covers_xrefs": [
+        "0x57a75f"
+      ],
+      "confidence": "excluded",
+      "exclusion_reason": "调用路径用于内部断言/错误日志（函数名、状态校验或无效操作诊断），不是玩家可见文本；明确不进入玩家译表，故不补译。",
+      "integration_status": "exclude_diagnostic",
+      "sink": {
+        "kind": "internal diagnostic/log path",
+        "status": "excluded",
+        "evidence": "调用点附近是状态断言/非法操作错误输出；不属于玩家消息模板。"
+      }
+    },
+    {
+      "id": "remaining-01-08",
+      "classification": "diagnostic_only",
+      "raw_fragment": " already has a count value before mode even started",
+      "source": null,
+      "translation": null,
+      "components": [],
+      "assembly_file": "build/rea/fragment-windows/57aadf.asm",
+      "assembly_lines": [
+        452332
+      ],
+      "calls": [
+        "diagnostic/log builder, not player-facing message sink"
+      ],
+      "covers_xrefs": [
+        "0x57aadf"
+      ],
+      "confidence": "excluded",
+      "exclusion_reason": "调用路径用于内部断言/错误日志（函数名、状态校验或无效操作诊断），不是玩家可见文本；明确不进入玩家译表，故不补译。",
+      "integration_status": "exclude_diagnostic",
+      "sink": {
+        "kind": "internal diagnostic/log path",
+        "status": "excluded",
+        "evidence": "调用点附近是状态断言/非法操作错误输出；不属于玩家消息模板。"
+      }
+    },
+    {
+      "id": "remaining-01-11",
+      "classification": "diagnostic_only",
+      "raw_fragment": "non-FACTION_COGMIND AIs cannot be set to EXPLORE!",
+      "source": null,
+      "translation": null,
+      "components": [],
+      "assembly_file": "build/rea/fragment-windows/5990eb.asm",
+      "assembly_lines": [
+        484221
+      ],
+      "calls": [
+        "diagnostic/log builder, not player-facing message sink"
+      ],
+      "covers_xrefs": [
+        "0x5990eb"
+      ],
+      "confidence": "excluded",
+      "exclusion_reason": "调用路径用于内部断言/错误日志（函数名、状态校验或无效操作诊断），不是玩家可见文本；明确不进入玩家译表，故不补译。",
+      "integration_status": "exclude_diagnostic",
+      "sink": {
+        "kind": "internal diagnostic/log path",
+        "status": "excluded",
+        "evidence": "调用点附近是状态断言/非法操作错误输出；不属于玩家消息模板。"
+      }
+    },
+    {
+      "id": "remaining-01-13",
+      "classification": "diagnostic_only",
+      "raw_fragment": " attempting to follow self at ",
+      "source": null,
+      "translation": null,
+      "components": [],
+      "assembly_file": "build/rea/fragment-windows/5b40f5.asm",
+      "assembly_lines": [
+        511463
+      ],
+      "calls": [
+        "diagnostic/log builder, not player-facing message sink"
+      ],
+      "covers_xrefs": [
+        "0x5b40f5"
+      ],
+      "confidence": "excluded",
+      "exclusion_reason": "调用路径用于内部断言/错误日志（函数名、状态校验或无效操作诊断），不是玩家可见文本；明确不进入玩家译表，故不补译。",
+      "integration_status": "exclude_diagnostic",
+      "sink": {
+        "kind": "internal diagnostic/log path",
+        "status": "excluded",
+        "evidence": "调用点附近是状态断言/非法操作错误输出；不属于玩家消息模板。"
+      }
+    },
+    {
+      "id": "remaining-01-14",
+      "classification": "diagnostic_only",
+      "raw_fragment": "Unable to path to a valid goal for AI_MOVE_PATROL (",
+      "source": null,
+      "translation": null,
+      "components": [],
+      "assembly_file": "build/rea/fragment-windows/5b46db.asm",
+      "assembly_lines": [
+        511859
+      ],
+      "calls": [
+        "diagnostic/log builder, not player-facing message sink"
+      ],
+      "covers_xrefs": [
+        "0x5b46db"
+      ],
+      "confidence": "excluded",
+      "exclusion_reason": "调用路径用于内部断言/错误日志（函数名、状态校验或无效操作诊断），不是玩家可见文本；明确不进入玩家译表，故不补译。",
+      "integration_status": "exclude_diagnostic",
+      "sink": {
+        "kind": "internal diagnostic/log path",
+        "status": "excluded",
+        "evidence": "调用点附近是状态断言/非法操作错误输出；不属于玩家消息模板。"
+      }
+    },
+    {
+      "id": "remaining-01-15",
+      "classification": "diagnostic_only",
+      "raw_fragment": " is not an interactive terminal",
+      "source": null,
+      "translation": null,
+      "components": [],
+      "assembly_file": "build/rea/fragment-windows/5b48c3.asm",
+      "assembly_lines": [
+        512014
+      ],
+      "calls": [
+        "diagnostic/log builder, not player-facing message sink"
+      ],
+      "covers_xrefs": [
+        "0x5b48c3"
+      ],
+      "confidence": "excluded",
+      "exclusion_reason": "调用路径用于内部断言/错误日志（函数名、状态校验或无效操作诊断），不是玩家可见文本；明确不进入玩家译表，故不补译。",
+      "integration_status": "exclude_diagnostic",
+      "sink": {
+        "kind": "internal diagnostic/log path",
+        "status": "excluded",
+        "evidence": "调用点附近是状态断言/非法操作错误输出；不属于玩家消息模板。"
+      }
+    },
+    {
+      "id": "remaining-01-09",
+      "raw_template": "{*} releases a shadow of itself that zips off towards {*}.",
+      "source": "{*} releases a shadow of itself that zips off towards {*}.",
+      "translation": "{*}释放出自身的影子，疾驰向{*}。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "对象名称字符串，0x9ce8f0拼接到事件固定后缀前。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              456807
+            ]
+          },
+          "source_slot": "[ebp-0x290]"
+        },
+        {
+          "literal": " releases a shadow of itself that zips off towards ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              456807
+            ],
+            "string_va": "0xbe3c20"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "目的地描述字符串，由0x9ceb60附加到前半段。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              456835
+            ]
+          },
+          "source_slot": "[ebp-0x298]"
+        },
+        {
+          "literal": ".",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              456841
+            ],
+            "string_va": "0xbe3c1c"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        456807,
+        456865
+      ],
+      "calls": [
+        "0x9ce8f0",
+        "0x9ceb60",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x57e983"
+      ],
+      "confidence": "high",
+      "notes": "完整构造在0x57e983–0x57ea51，最终句点来自0xbe3c1c。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message event builder",
+        "call": "0x49c9f0",
+        "address": "0x57ea72",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-10",
+      "raw_template": "Shadow retroactively draws in {*}.",
+      "source": "Shadow retroactively draws in {*}.",
+      "translation": "影子回溯性地吸引了{*}。",
+      "components": [
+        {
+          "literal": "Shadow retroactively draws in ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              456910
+            ],
+            "string_va": "0xbe3c58"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "被吸引对象的完整描述字符串，经0x9ce7b0拼入固定前缀。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              456910
+            ]
+          },
+          "source_slot": "[ebp-0x2a8]"
+        },
+        {
+          "literal": ".",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              456919
+            ],
+            "string_va": "0xbe3c54"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        456910,
+        456940
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x57eb23"
+      ],
+      "confidence": "high",
+      "notes": "对象词义由原文固定谓语可知；捕获本身保持不透明。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message event builder",
+        "call": "0x49c9f0",
+        "address": "0x57eba2",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-12",
+      "raw_template": "{*} no longer operational.",
+      "source": "{*} no longer operational.",
+      "translation": "{*}已无法运作。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "在对应xref之前已构造的实体/目标描述字符串，作为9ceb60的首段。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              500875,
+              649321
+            ]
+          },
+          "source_slot": "临时字符串对象"
+        },
+        {
+          "literal": " no longer operational.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              500875,
+              649321
+            ]
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        500875,
+        500919,
+        649321,
+        649365
+      ],
+      "calls": [
+        "0x9ceb60",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x5a98f8",
+        "0x63626d"
+      ],
+      "confidence": "high",
+      "literal_evidence": [
+        "0xbe4510",
+        "0xbe8008"
+      ],
+      "notes": "两处相同后缀；前置完整字符串作为不透明捕获。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x5a999d / 0x636312",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-16a",
+      "raw_template": "{*} unable to find more targets on {*}.",
+      "source": "{*} unable to find more targets on {*}.",
+      "translation": "{*}在{*}找不到更多目标。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "已构造的实体/发言者名称字符串，在0x9b0b00被加入结果。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              525137
+            ]
+          },
+          "source_slot": "[ebp-0xa64]"
+        },
+        {
+          "literal": " unable to find more targets on ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              525137
+            ],
+            "string_va": "0xbe4d04"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x9b7f10/0x417090返回的目标环境描述，由0x9ceaa0插入。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              525137
+            ]
+          },
+          "source_slot": "[ebp-0x2c]"
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        525137,
+        525258
+      ],
+      "calls": [
+        "0x9ceaa0",
+        "0x9ceb60",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5bfa1b"
+      ],
+      "confidence": "high",
+      "notes": "分支于0x5bfa1b开始；该输出提交后才跳往下一个分支。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x5bfc0b",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-16b",
+      "raw_template": "{*} doesn't find the {*} useful.",
+      "source": "{*} doesn't find the {*} useful.",
+      "translation": "{*}认为{*}没什么用。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "已构造的实体/发言者名称字符串，由0x9b0b00接入输出。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              525137
+            ]
+          },
+          "source_slot": "[ebp-0xa64]"
+        },
+        {
+          "literal": " doesn't find the ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              525191
+            ],
+            "string_va": "0xbe4d34"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "目标名称字符串，经0x9ceaa0和0x9ceb60组装。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              525191
+            ]
+          },
+          "source_slot": "[ebp-0xa40]"
+        },
+        {
+          "literal": " useful.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              525220
+            ],
+            "string_va": "0xbe4d28"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        525137,
+        525258
+      ],
+      "calls": [
+        "0x9ceaa0",
+        "0x9ceb60",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5bfa1b"
+      ],
+      "confidence": "high",
+      "notes": "另一真实分支；与“unable to find”模板不可合并。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x5bfc0b",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-17a",
+      "raw_template": "{*} no longer safe.",
+      "source": "{*} no longer safe.",
+      "translation": "{*}已不再安全。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "先前构造的路径/目标说明对象；后缀由0x9ce8f0追加。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              528439
+            ]
+          },
+          "source_slot": "临时字符串对象"
+        },
+        {
+          "literal": " no longer safe.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              528439
+            ],
+            "string_va": "0xbe52ec"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        528439,
+        528477
+      ],
+      "calls": [
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5c32cb"
+      ],
+      "confidence": "high",
+      "notes": "该xref后续直接完成/提交该句。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x5c3366",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-17b",
+      "raw_template": "{*} reports that hacking {*} no longer safe.",
+      "source": "{*} reports that hacking {*} no longer safe.",
+      "translation": "{1}报告称，入侵{2}已不再安全。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "发言实体/目标名称字符串，先于固定报告短语。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              528490
+            ]
+          },
+          "source_slot": "临时字符串对象"
+        },
+        {
+          "literal": " reports that hacking ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              528490
+            ],
+            "string_va": "0xbe532c"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "被入侵对象字符串，经0x9ceb60插入。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              528498
+            ]
+          },
+          "source_slot": "临时字符串对象"
+        },
+        {
+          "literal": " no longer safe.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              528530
+            ],
+            "string_va": "0xbe5318"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        528530
+      ],
+      "calls": [
+        "0x9ceaa0",
+        "0x9ceb60",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5c3437"
+      ],
+      "confidence": "unresolved",
+      "notes": "构造边界已核实，最终消息sink未证实；保留为unresolved待补代码范围。",
+      "integration_status": "integrated_confirmed_player_notify_variant; delayed_dialogue_variant_unverified",
+      "sink": {
+        "kind": "branch-specific player notification",
+        "call": "0x5122d0",
+        "address": "0x5c3366",
+        "evidence": "For xref 0x5c32cb only: the [ebp+8]==0 branch pushes completed buffer [ebp-0xa24] and kind 0x286, then calls player notification sink 0x5122d0. The alternate 0x5c3437 delayed-dialogue branch remains unverified."
+      },
+      "variant_scope": {
+        "integrated_xrefs": [
+          "0x5c32cb"
+        ],
+        "integrated_variant": "[ebp+8]==0 direct player-notification branch",
+        "sink_audit": "analysis/native-remaining-17b-sink-audit.json",
+        "unverified_xrefs": [
+          "0x5c3437"
+        ],
+        "unverified_variant": "[ebp+8]!=0 delayed-dialogue branch; sink not established"
+      }
+    },
+    {
+      "id": "remaining-01-18",
+      "raw_template": "A concussive blast radiates from {*}.",
+      "source": "A concussive blast radiates from {*}.",
+      "translation": "一道震荡冲击波从{*}扩散开来。",
+      "components": [
+        {
+          "literal": "A concussive blast radiates from ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              584098
+            ],
+            "string_va": "0xbe6e88"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "目标/源对象的完整名称字符串，0x9ce830接入前缀。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              584098
+            ]
+          },
+          "source_slot": "[ebp-0x1964]"
+        },
+        {
+          "literal": ".",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              584110
+            ],
+            "string_va": "0xbe6e84"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        584098,
+        584168
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0a70",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x5f53bf"
+      ],
+      "confidence": "high",
+      "notes": "PE数据段核对 0xbe6e84 为精确句点；完整构造在0x5f53bf–0x5f5487。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x5f54fe",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-19",
+      "raw_template": "{*} ripped apart by quantum tension.",
+      "source": "{*} ripped apart by quantum tension.",
+      "translation": "{*}被量子张力撕得粉碎。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "0x572ea0返回的目标完整描述字符串，保存在[ebp-0x3b64]。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              629524
+            ]
+          },
+          "source_slot": "[ebp-0x3b64]"
+        },
+        {
+          "literal": " ripped apart by quantum tension.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              629524
+            ],
+            "string_va": "0xbe7ce0"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        629524,
+        629549
+      ],
+      "calls": [
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6226a0"
+      ],
+      "confidence": "high",
+      "notes": "完整动态字符串对象加固定后缀；前置对象不猜具体名称。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x6226fa",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-20",
+      "raw_template": "  Damage insufficient to overcome {*} armor",
+      "source": "Damage insufficient to overcome {*} armor",
+      "translation": "伤害不足以穿透{*}装甲",
+      "components": [
+        {
+          "literal": "  Damage insufficient to overcome ",
+          "evidence": {
+            "string_vas": [
+              "0xbe9ed8",
+              "0xbea524"
+            ],
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              700288,
+              711514
+            ]
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "装甲数值/描述对应的格式化字符串对象，经0x9ce830与前缀连接。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              700288,
+              711514
+            ]
+          },
+          "source_slot": "callsite string argument"
+        },
+        {
+          "literal": " armor",
+          "evidence": {
+            "string_vas": [
+              "0xbe9ed0",
+              "0xbea51c"
+            ],
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              700288,
+              711514
+            ]
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        700288,
+        700323,
+        711514,
+        711550
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x666282",
+        "0x66fd90"
+      ],
+      "confidence": "high",
+      "literal_evidence": [
+        "0xbe9ed8",
+        "0xbea524",
+        "0xbe9ed0",
+        "0xbea51c"
+      ],
+      "notes": "两处同一模板；调用链继续处理其它部件/结果字段，但此片段最终由0x9b0b30提交。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x666308 / 0x66fe19",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-23",
+      "raw_template": "ALERT: Active scanning activity reported from Zone {*}, dispatching {*} squad.",
+      "source": "ALERT: Active scanning activity reported from Zone {*}, dispatching {*} squad.",
+      "translation": "警报：区域{*}报告有主动扫描活动，正派出{*}小队。",
+      "components": [
+        {
+          "literal": "ALERT: Active scanning activity reported from Zone ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              723853
+            ],
+            "string_va": "0xbeaca8"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "区域格式化标识字符串，由0x9ce7b0接入首段。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              723856
+            ]
+          },
+          "source_slot": "[ebp-0x1898]"
+        },
+        {
+          "literal": ", dispatching ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              723862
+            ],
+            "string_va": "0xbeac98"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "扫描响应小队的完整名称/数量字符串，由0x9ceb60连接。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              723878
+            ]
+          },
+          "source_slot": "[ebp-0x18a8]"
+        },
+        {
+          "literal": " squad.",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              723884
+            ],
+            "string_va": "0xbeac90"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        723853,
+        723938
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ceb60",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x67a8c7"
+      ],
+      "confidence": "high",
+      "notes": "0xcf3728作为0x9ceb60右侧字符串参数拼接；这是小队类型文本，译为“{*}小队”，不是数量。完整消息在0x67aa1d提交。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x67aa1d",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-24",
+      "raw_template": "ALERT: Unscheduled coupler replacement inbound for {*}.",
+      "source": "ALERT: Unscheduled coupler replacement inbound for {*}.",
+      "translation": "警报：有计划外的连接器替换件正送往{*}。",
+      "components": [
+        {
+          "literal": "ALERT: Unscheduled coupler replacement inbound for ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              724831
+            ],
+            "string_va": "0xbead90"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "目标部件/位置对象完整名称，0x9ce830接入前缀。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              724831
+            ]
+          },
+          "source_slot": "callsite returned string"
+        },
+        {
+          "literal": ".",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              724840
+            ],
+            "string_va": "0xbeacdc"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        724831,
+        724875
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x67b8aa"
+      ],
+      "confidence": "high",
+      "notes": "确认此处 coupler 为设备/部件连接器，动态接收对象保持捕获。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x67b94f",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-25",
+      "raw_template": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of {*}.",
+      "source": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of {*}.",
+      "translation": "远联消息：EX-HEX是好意，但我还是希望你留下来，把{*}揍个稀烂。",
+      "components": [
+        {
+          "literal": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of ",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              752659
+            ],
+            "string_va": "0xbec348"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "所指对象/机器人名称字符串，由0x9ce830接入消息前缀。",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              752659
+            ]
+          },
+          "source_slot": "callsite string argument"
+        },
+        {
+          "literal": ".",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              752668
+            ],
+            "string_va": "0xbec330"
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        752659,
+        752703
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6955eb"
+      ],
+      "confidence": "high",
+      "notes": "源标签 FARCOM_MSG 为协议/UI前缀；正文“beat the bolts out of”按语气译为揍个稀烂。",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "message submission",
+        "call": "0x5122d0",
+        "address": "0x695690",
+        "evidence": "通过该地址将已构造的整段字符串提交/返回；末尾常量或动态分支均在此前完成。"
+      }
+    },
+    {
+      "id": "remaining-01-21-multi",
+      "raw_template": "ALERT: Unidentified disturbance in Zone {*}, multiple assault carriers dispatched.",
+      "source": "ALERT: Unidentified disturbance in Zone {*}, multiple assault carriers dispatched.",
+      "translation": "警报：区域{*}发现异常扰动，多台突击运输机已出动。",
+      "components": [
+        {
+          "literal": "ALERT: Unidentified disturbance in Zone ",
+          "evidence": {
+            "string_va": "0xbeab5c",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722937
+            ]
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x46fbb0格式化并返回的区域坐标/标识字符串，随后由0x9b0bb0附加到前缀。",
+          "source_slot": "[ebp-0x1870]",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722979
+            ]
+          }
+        },
+        {
+          "literal": ", ",
+          "evidence": {
+            "string_va": "0xbeabb0",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722984
+            ]
+          }
+        },
+        {
+          "literal": "multiple assault carriers dispatched.",
+          "evidence": {
+            "string_va": "0xbeabb4",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722989
+            ]
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        722937,
+        722980,
+        722984,
+        722989,
+        722991,
+        723031
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b0bb0",
+        "0x9b0bd0",
+        "0x5122d0"
+      ],
+      "covers_xrefs": [
+        "0x6799d2"
+      ],
+      "confidence": "high",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message submission",
+        "call": "0x5122d0",
+        "address": "0x679b54",
+        "evidence": "完整消息串[ebp-0xc64]及参数被传入输出调用；该条结束包含对应静态分支后缀。"
+      },
+      "notes": "静态派遣句按条件分支分开登记，不以{*}吞入英文原文。"
+    },
+    {
+      "id": "remaining-01-21-force",
+      "raw_template": "ALERT: Unidentified disturbance in Zone {*}, assault force dispatched.",
+      "source": "ALERT: Unidentified disturbance in Zone {*}, assault force dispatched.",
+      "translation": "警报：区域{*}发现异常扰动，突击部队已出动。",
+      "components": [
+        {
+          "literal": "ALERT: Unidentified disturbance in Zone ",
+          "evidence": {
+            "string_va": "0xbeab5c",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722937
+            ]
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x46fbb0格式化并返回的区域坐标/标识字符串，随后由0x9b0bb0附加到前缀。",
+          "source_slot": "[ebp-0x1870]",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722979
+            ]
+          }
+        },
+        {
+          "literal": ", ",
+          "evidence": {
+            "string_va": "0xbeabb0",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722984
+            ]
+          }
+        },
+        {
+          "literal": "assault force dispatched.",
+          "evidence": {
+            "string_va": "0xbeabdc",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722991
+            ]
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        722937,
+        722980,
+        722984,
+        722989,
+        722991,
+        723031
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b0bb0",
+        "0x9b0bd0",
+        "0x5122d0"
+      ],
+      "covers_xrefs": [
+        "0x6799d2"
+      ],
+      "confidence": "high",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message submission",
+        "call": "0x5122d0",
+        "address": "0x679b54",
+        "evidence": "完整消息串[ebp-0xc64]及参数被传入输出调用；该条结束包含对应静态分支后缀。"
+      },
+      "notes": "静态派遣句按条件分支分开登记，不以{*}吞入英文原文。"
+    },
+    {
+      "id": "remaining-01-22-multi",
+      "raw_template": "ALERT: Significant disruption in Zone {*}, multiple assault carriers dispatched.",
+      "source": "ALERT: Significant disruption in Zone {*}, multiple assault carriers dispatched.",
+      "translation": "警报：区域{*}发生重大扰乱，多台突击运输机已出动。",
+      "components": [
+        {
+          "literal": "ALERT: Significant disruption in Zone ",
+          "evidence": {
+            "string_va": "0xbeab88",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722966
+            ]
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x46fbb0格式化并返回的区域坐标/标识字符串，随后由0x9b0bb0附加到前缀。",
+          "source_slot": "[ebp-0x1870]",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722979
+            ]
+          }
+        },
+        {
+          "literal": ", ",
+          "evidence": {
+            "string_va": "0xbeabb0",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722984
+            ]
+          }
+        },
+        {
+          "literal": "multiple assault carriers dispatched.",
+          "evidence": {
+            "string_va": "0xbeabb4",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722989
+            ]
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        722966,
+        722980,
+        722984,
+        722989,
+        722991,
+        723031
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b0bb0",
+        "0x9b0bd0",
+        "0x5122d0"
+      ],
+      "covers_xrefs": [
+        "0x679a48"
+      ],
+      "confidence": "high",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message submission",
+        "call": "0x5122d0",
+        "address": "0x679b54",
+        "evidence": "完整消息串[ebp-0xc64]及参数被传入输出调用；该条结束包含对应静态分支后缀。"
+      },
+      "notes": "静态派遣句按条件分支分开登记，不以{*}吞入英文原文。"
+    },
+    {
+      "id": "remaining-01-22-force",
+      "raw_template": "ALERT: Significant disruption in Zone {*}, assault force dispatched.",
+      "source": "ALERT: Significant disruption in Zone {*}, assault force dispatched.",
+      "translation": "警报：区域{*}发生重大扰乱，突击部队已出动。",
+      "components": [
+        {
+          "literal": "ALERT: Significant disruption in Zone ",
+          "evidence": {
+            "string_va": "0xbeab88",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722966
+            ]
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x46fbb0格式化并返回的区域坐标/标识字符串，随后由0x9b0bb0附加到前缀。",
+          "source_slot": "[ebp-0x1870]",
+          "evidence": {
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722979
+            ]
+          }
+        },
+        {
+          "literal": ", ",
+          "evidence": {
+            "string_va": "0xbeabb0",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722984
+            ]
+          }
+        },
+        {
+          "literal": "assault force dispatched.",
+          "evidence": {
+            "string_va": "0xbeabdc",
+            "assembly_file": "build/rea/exe-text.asm",
+            "assembly_lines": [
+              722991
+            ]
+          }
+        }
+      ],
+      "assembly_file": "build/rea/exe-text.asm",
+      "assembly_lines": [
+        722966,
+        722980,
+        722984,
+        722989,
+        722991,
+        723031
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b0bb0",
+        "0x9b0bd0",
+        "0x5122d0"
+      ],
+      "covers_xrefs": [
+        "0x679a48"
+      ],
+      "confidence": "high",
+      "integration_status": "integrable",
+      "sink": {
+        "kind": "player-message submission",
+        "call": "0x5122d0",
+        "address": "0x679b54",
+        "evidence": "完整消息串[ebp-0xc64]及参数被传入输出调用；该条结束包含对应静态分支后缀。"
+      },
+      "notes": "静态派遣句按条件分支分开登记，不以{*}吞入英文原文。"
+    }
+  ],
+  "review": {
+    "integrable_high_count": 22,
+    "excluded_diagnostic_count": 7,
+    "unresolved_sink_count": 1,
+    "audit_note": "diagnostic_only entries use confidence=excluded and cannot be merged; the 17b constructed message is held because final sink was not proven in the cited range."
+  }
+}

@@ -1,0 +1,1996 @@
+{
+  "scope": "Suggested Chinese display labels for the 129 SCORE_* entries from full-coverage-next-gaps.json. Does not modify registries or translation tables.",
+  "entries": [
+    {
+      "key": "SCORE_BONUS_CHALLENGE_DEVOLUTION",
+      "source": "Devolution",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 17,
+        "preceding_key_line": 16
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "退化"
+    },
+    {
+      "key": "SCORE_BONUS_CHALLENGE_INHIBITED",
+      "source": "Inhibited Evolution",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 23,
+        "preceding_key_line": 22
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "抑制进化"
+    },
+    {
+      "key": "SCORE_BONUS_CHALLENGE_SUPER_GAUNTLET",
+      "source": "Super Gauntlet",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 35,
+        "preceding_key_line": 34
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "超级试炼"
+    },
+    {
+      "key": "SCORE_BONUS_PRAYED_TO_XOM",
+      "source": "Prayed to X0-1V1",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 53,
+        "preceding_key_line": 52
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "祈求X0-1V1"
+    },
+    {
+      "key": "SCORE_BONUS_ENTERED_DSF",
+      "source": "Entered DSFs",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 79,
+        "preceding_key_line": 78
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "进入DSF"
+    },
+    {
+      "key": "SCORE_BONUS_CAV_ACQUIRED_ECA",
+      "source": "Acquired ECA",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 105,
+        "preceding_key_line": 104
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "获得ECA"
+    },
+    {
+      "key": "SCORE_BONUS_COM_USED_CONDUIT",
+      "source": "Used 0b10 Conduit",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 185,
+        "preceding_key_line": 184
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "使用0b10通道"
+    },
+    {
+      "key": "SCORE_BONUS_AC0_STARTED_TEST_138B",
+      "source": "Started Test 138-B",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 191,
+        "preceding_key_line": 190
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "启动测试138-B"
+    },
+    {
+      "key": "SCORE_BONUS_AC0_STARTED_TEST_138C",
+      "source": "Started Test 138-C",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 193,
+        "preceding_key_line": 192
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "启动测试138-C"
+    },
+    {
+      "key": "SCORE_BONUS_AC0_DESTROYED_A8",
+      "source": "Destroyed A8",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 195,
+        "preceding_key_line": 194
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "摧毁A8"
+    },
+    {
+      "key": "SCORE_BONUS_AC0_DESTROYED_A6",
+      "source": "Destroyed A6",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 197,
+        "preceding_key_line": 196
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "摧毁A6"
+    },
+    {
+      "key": "SCORE_BONUS_AC0_DESTROYED_A5",
+      "source": "Destroyed A5",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 199,
+        "preceding_key_line": 198
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "摧毁A5"
+    },
+    {
+      "key": "SCORE_BONUS_AC0_DESTROYED_A4",
+      "source": "Destroyed A4",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 201,
+        "preceding_key_line": 200
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "摧毁A4"
+    },
+    {
+      "key": "SCORE_BONUS_AC0_DESTROYED_A3",
+      "source": "Destroyed A3",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 203,
+        "preceding_key_line": 202
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "摧毁A3"
+    },
+    {
+      "key": "SCORE_BONUS_AC0_DESTROYED_A2",
+      "source": "Destroyed A2",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 205,
+        "preceding_key_line": 204
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "摧毁A2"
+    },
+    {
+      "key": "SCORE_BONUS_WIN",
+      "source": "Win",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 209,
+        "preceding_key_line": 208
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "赢"
+    },
+    {
+      "key": "SCORE_PARTS_ATTACHED_PROPULSION_LEG",
+      "source": "Leg",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 239,
+        "preceding_key_line": 238
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "腿"
+    },
+    {
+      "key": "SCORE_UNUSED_SPARES",
+      "source": "Unused Backups",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 305,
+        "preceding_key_line": 304
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "未用备用件"
+    },
+    {
+      "key": "SCORE_SCRAP_SUIT_PARTS_CANNIBALIZED",
+      "source": "Parts Cannibalized",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 376,
+        "preceding_key_line": 375
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "拆用部件"
+    },
+    {
+      "key": "SCORE_RECYCLERS_SHOOED",
+      "source": "Recyclers Shooed",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 392,
+        "preceding_key_line": 391
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "驱离回收者"
+    },
+    {
+      "key": "SCORE_COMBAT_HOSTILES_DESTROYED_EXPLOSION",
+      "source": "AOE",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 416,
+        "preceding_key_line": 415
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "AOE"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_M_SHELL_ATK",
+      "source": "M Shell/Atk",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 488,
+        "preceding_key_line": 487
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "M弹/攻"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_M_SHELL_DEF",
+      "source": "M Shell/Def",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 490,
+        "preceding_key_line": 489
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "M弹/防"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_CLONE_SPECIAL",
+      "source": "CL-0N3 Special",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 506,
+        "preceding_key_line": 505
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "CL-0N3特种机"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_DECAPITATOR",
+      "source": "Decapitator",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 510,
+        "preceding_key_line": 509
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "斩首者"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_ELITE",
+      "source": "Elite",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 568,
+        "preceding_key_line": 567
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "精英"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_Z_COURIER",
+      "source": "Z-Courier",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 580,
+        "preceding_key_line": 579
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "Z-信使"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_Z_EXPERIMENTAL",
+      "source": "Z-EX",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 586,
+        "preceding_key_line": 585
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "Z-EX"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_PARASITE",
+      "source": "Parasite",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 600,
+        "preceding_key_line": 599
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "寄生者"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_SURGEON",
+      "source": "Surgeon",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 612,
+        "preceding_key_line": 611
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "外科医"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_WASP",
+      "source": "Wasp",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 614,
+        "preceding_key_line": 613
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "黄蜂"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_THUG",
+      "source": "Thug",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 616,
+        "preceding_key_line": 615
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "暴徒"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_SAVAGE",
+      "source": "Savage",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 618,
+        "preceding_key_line": 617
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "野蛮人"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_BUTCHER",
+      "source": "Butcher",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 620,
+        "preceding_key_line": 619
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "屠夫"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_BOUNCER",
+      "source": "Bouncer",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 622,
+        "preceding_key_line": 621
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "保镖"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_MARTYR",
+      "source": "Martyr",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 624,
+        "preceding_key_line": 623
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "殉道者"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_GUERRILLA",
+      "source": "Guerrilla",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 626,
+        "preceding_key_line": 625
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "游击兵"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_MARAUDER",
+      "source": "Marauder",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 630,
+        "preceding_key_line": 629
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "掠夺者"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_FIREMAN",
+      "source": "Fireman",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 632,
+        "preceding_key_line": 631
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "消防员"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_HYDRA",
+      "source": "Hydra",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 648,
+        "preceding_key_line": 647
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "九头"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_BOREBOT",
+      "source": "Borebot",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 650,
+        "preceding_key_line": 649
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "钻掘机"
+    },
+    {
+      "key": "SCORE_CLASSES_DESTROYED_UNCHAINED",
+      "source": "Unchained",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 652,
+        "preceding_key_line": 651
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "无拘者"
+    },
+    {
+      "key": "SCORE_HOSTILE_SHOTS_PART_DISRUPTIONS",
+      "source": "Part Disruptions",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 693,
+        "preceding_key_line": 692
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "部件扰乱"
+    },
+    {
+      "key": "SCORE_VOLLEY_HOTTEST",
+      "source": "Hottest",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 717,
+        "preceding_key_line": 716
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "最高热"
+    },
+    {
+      "key": "SCORE_SHOTS_HIT_CRITICAL_EFFECT_INTENSIFY",
+      "source": "Intensify",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 789,
+        "preceding_key_line": 788
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "强化"
+    },
+    {
+      "key": "SCORE_CORRUPTION_EFFECT_CONFUSION",
+      "source": "Misdirections",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 860,
+        "preceding_key_line": 859
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "误导"
+    },
+    {
+      "key": "SCORE_KNOCKBACKS",
+      "source": "Knockbacks",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 882,
+        "preceding_key_line": 881
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "击退次数"
+    },
+    {
+      "key": "SCORE_SELF_RAMMED",
+      "source": "Rammed",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 892,
+        "preceding_key_line": 891
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "自撞"
+    },
+    {
+      "key": "SCORE_TARGETS_RAMMED",
+      "source": "Targets Rammed",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 894,
+        "preceding_key_line": 893
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "撞击目标"
+    },
+    {
+      "key": "SCORE_SIEGE_ACTIVATIONS",
+      "source": "Siege Activations",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 923,
+        "preceding_key_line": 922
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "攻城启动"
+    },
+    {
+      "key": "SCORE_SIEGE_LONGEST_DURATION",
+      "source": "Longest Duration",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 927,
+        "preceding_key_line": 926
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "最长持续"
+    },
+    {
+      "key": "SCORE_MARTIAL_ACTIVATIONS",
+      "source": "Martial Activations",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 929,
+        "preceding_key_line": 928
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "武技启动"
+    },
+    {
+      "key": "SCORE_IMPACT_CORRUPTIONS",
+      "source": "Impact Corruptions",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 945,
+        "preceding_key_line": 944
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "冲击损坏"
+    },
+    {
+      "key": "SCORE_PARTS_STRIPPED",
+      "source": "Parts Stripped",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 958,
+        "preceding_key_line": 957
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "剥离部件"
+    },
+    {
+      "key": "SCORE_LATENT_ENERGY_CORRUPTION",
+      "source": "LE Corruption",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 964,
+        "preceding_key_line": 963
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "潜能量损坏"
+    },
+    {
+      "key": "SCORE_STERILIZATIONS",
+      "source": "Sterilizations",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 984,
+        "preceding_key_line": 983
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "净化次数"
+    },
+    {
+      "key": "SCORE_PRESENCE_INCREASES_MISCELLANEOUS",
+      "source": "Miscellaneous",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1022,
+        "preceding_key_line": 1021
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "其他"
+    },
+    {
+      "key": "SCORE_SEARCHES_TRIGGERED",
+      "source": "Searches Triggered",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1053,
+        "preceding_key_line": 1052
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "触发搜索"
+    },
+    {
+      "key": "SCORE_TACTICAL_RETREATS",
+      "source": "Tactical Retreats",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1078,
+        "preceding_key_line": 1077
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "战术撤退"
+    },
+    {
+      "key": "SCORE_TRAPS_HACKED_REUSED",
+      "source": "Reused",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1098,
+        "preceding_key_line": 1097
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "复用"
+    },
+    {
+      "key": "SCORE_MACHINES_DISMANTLED",
+      "source": "Machines Dismantled",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1133,
+        "preceding_key_line": 1132
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "拆解机器"
+    },
+    {
+      "key": "SCORE_HACK_COUNT_DATABASE_LOCKOUTS",
+      "source": "Database Lockouts",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1160,
+        "preceding_key_line": 1159
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "数据库锁定"
+    },
+    {
+      "key": "SCORE_UNAUTHORIZED_HACK_TERMINAL_SKIM",
+      "source": "Skim",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1340,
+        "preceding_key_line": 1339
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "窃取"
+    },
+    {
+      "key": "SCORE_UNAUTHORIZED_HACK_TERMINAL_SABOTAGE",
+      "source": "Sabotage",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1342,
+        "preceding_key_line": 1341
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "破坏"
+    },
+    {
+      "key": "SCORE_UNAUTHORIZED_HACK_FABRICATOR_RECOMPILE",
+      "source": "Recompile",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1363,
+        "preceding_key_line": 1362
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "重新编译"
+    },
+    {
+      "key": "SCORE_UNAUTHORIZED_HACK_REPAIR_PATCH",
+      "source": "Patch",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1368,
+        "preceding_key_line": 1367
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "修补"
+    },
+    {
+      "key": "SCORE_UNAUTHORIZED_HACK_GARRISON_RESTOCK",
+      "source": "Restock",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1394,
+        "preceding_key_line": 1393
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "补给"
+    },
+    {
+      "key": "SCORE_UNAUTHORIZED_HACK_GARRISON_JAM",
+      "source": "Jam",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1405,
+        "preceding_key_line": 1404
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "扰"
+    },
+    {
+      "key": "SCORE_HACKING_DETECTED",
+      "source": "Hacking Detections",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1413,
+        "preceding_key_line": 1412
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "黑客入侵侦测"
+    },
+    {
+      "key": "SCORE_RIF_ABILITY_HOTSWAP",
+      "source": "Hotswap",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1463,
+        "preceding_key_line": 1462
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "热切换"
+    },
+    {
+      "key": "SCORE_RIF_ABILITY_COMMAND_FORK",
+      "source": "Command Fork",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1467,
+        "preceding_key_line": 1466
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "指令分叉"
+    },
+    {
+      "key": "SCORE_RIF_ABILITY_AUTOOVERRIDE",
+      "source": "Autooverride",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1486,
+        "preceding_key_line": 1485
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "自动接管"
+    },
+    {
+      "key": "SCORE_RIF_ABILITY_AUTOASSIMILATE",
+      "source": "Autoassimilate",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1488,
+        "preceding_key_line": 1487
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "自动同化"
+    },
+    {
+      "key": "SCORE_RIF_ABILITY_CROSSWIRE",
+      "source": "Crosswire",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1490,
+        "preceding_key_line": 1489
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "交叉接线"
+    },
+    {
+      "key": "SCORE_ROBOTS_HACKED_RIF_ABILITY_AUTOOVERRIDE",
+      "source": "Autooverrided",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1498,
+        "preceding_key_line": 1497
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "自动接管数"
+    },
+    {
+      "key": "SCORE_ROBOTS_HACKED_RIF_ABILITY_AUTOASSIMILATE",
+      "source": "Autoassimilated",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1500,
+        "preceding_key_line": 1499
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "自动同化数"
+    },
+    {
+      "key": "SCORE_RELAY_COUPLERS_CROSSWIRED",
+      "source": "Crosswired",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1661,
+        "preceding_key_line": 1660
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "交叉接线数"
+    },
+    {
+      "key": "SCORE_ROBOT_HACKS_REPELLED",
+      "source": "Hacks Repelled",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1672,
+        "preceding_key_line": 1671
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "击退入侵"
+    },
+    {
+      "key": "SCORE_ZIONITE_DISPATCH_RECON",
+      "source": "Recon",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1687,
+        "preceding_key_line": 1686
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "侦察"
+    },
+    {
+      "key": "SCORE_ZIONITE_DISPATCH_OFFENSE",
+      "source": "Offense Resupply",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1711,
+        "preceding_key_line": 1710
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "进攻补给"
+    },
+    {
+      "key": "SCORE_COMM_ARRAY_SQUAD_THUG",
+      "source": "Infantry",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1733,
+        "preceding_key_line": 1732
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "步兵"
+    },
+    {
+      "key": "SCORE_COMM_ARRAY_SQUAD_MELEE",
+      "source": "Muscle",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1735,
+        "preceding_key_line": 1734
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "强攻手"
+    },
+    {
+      "key": "SCORE_COMM_ARRAY_SQUAD_WIZARD",
+      "source": "Geek",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1737,
+        "preceding_key_line": 1736
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "极客"
+    },
+    {
+      "key": "SCORE_COMM_ARRAY_SQUAD_FIREMAN",
+      "source": "Pyro",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1740,
+        "preceding_key_line": 1739
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "火攻"
+    },
+    {
+      "key": "SCORE_COMM_ARRAY_SQUAD_MUTANT",
+      "source": "Chimera",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1742,
+        "preceding_key_line": 1741
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "奇美拉"
+    },
+    {
+      "key": "SCORE_COMM_ARRAY_SQUAD_INFILTRATOR",
+      "source": "Ghost",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1744,
+        "preceding_key_line": 1743
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "幽灵"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_STAY",
+      "source": "STAY",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1748,
+        "preceding_key_line": 1747
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "STAY"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_ROAM",
+      "source": "ROAM",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1750,
+        "preceding_key_line": 1749
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "ROAM"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_FOLLOW",
+      "source": "FOLLOW",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1752,
+        "preceding_key_line": 1751
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "FOLLOW"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_GUARD",
+      "source": "GUARD",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1754,
+        "preceding_key_line": 1753
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "GUARD"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_AID",
+      "source": "AID",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1756,
+        "preceding_key_line": 1755
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "AID"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_TUNNEL",
+      "source": "TUNNEL",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1758,
+        "preceding_key_line": 1757
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "TUNNEL"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_PICKUP",
+      "source": "PICKUP",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1762,
+        "preceding_key_line": 1761
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "PICKUP"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_COLLECT",
+      "source": "COLLECT",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1764,
+        "preceding_key_line": 1763
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "COLLECT"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_EXPLORE",
+      "source": "EXPLORE",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1766,
+        "preceding_key_line": 1765
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "EXPLORE"
+    },
+    {
+      "key": "SCORE_ORDER_COUNT_RETURN",
+      "source": "RETURN",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1768,
+        "preceding_key_line": 1767
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "RETURN"
+    },
+    {
+      "key": "SCORE_FIELD_LOBOTOMIES",
+      "source": "Field Lobotomies",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1784,
+        "preceding_key_line": 1783
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "现场切除脑组织"
+    },
+    {
+      "key": "SCORE_XOM_ACTS_GOOD",
+      "source": "Good Acts",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1794,
+        "preceding_key_line": 1793
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "善行"
+    },
+    {
+      "key": "SCORE_XOM_ACTS_BAD",
+      "source": "Bad Acts",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1796,
+        "preceding_key_line": 1795
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "恶行"
+    },
+    {
+      "key": "SCORE_ACTIVE_INFOWAR_ASS",
+      "source": "A.S.S.",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1804,
+        "preceding_key_line": 1803
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "A.S.S."
+    },
+    {
+      "key": "SCORE_ACTIVE_INFOWAR_IFF",
+      "source": "IFF",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1806,
+        "preceding_key_line": 1805
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "IFF"
+    },
+    {
+      "key": "SCORE_ACTIVE_INFOWAR_DECODING",
+      "source": "Decoding",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1818,
+        "preceding_key_line": 1817
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "解码"
+    },
+    {
+      "key": "SCORE_ACTIVE_INFOWAR_TNC",
+      "source": "T.N.C.",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1820,
+        "preceding_key_line": 1819
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "T.N.C."
+    },
+    {
+      "key": "SCORE_ACTIVE_INFOWAR_TRIANGULATION",
+      "source": "Triangulation",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1824,
+        "preceding_key_line": 1823
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "三角定位"
+    },
+    {
+      "key": "SCORE_ACTIVE_INFOWAR_SPOOFING",
+      "source": "Spoofing",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1828,
+        "preceding_key_line": 1827
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "欺骗"
+    },
+    {
+      "key": "SCORE_ACTIVE_INFOWAR_ECM",
+      "source": "ECM",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1832,
+        "preceding_key_line": 1831
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "ECM"
+    },
+    {
+      "key": "SCORE_DRONE_RECOVERIES",
+      "source": "Drone Recoveries",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1842,
+        "preceding_key_line": 1841
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "回收无人机"
+    },
+    {
+      "key": "SCORE_0B10_DECODE_COUNT",
+      "source": "Decoded 0b10 Intel",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1844,
+        "preceding_key_line": 1843
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "解码0b10情报"
+    },
+    {
+      "key": "SCORE_ZIONITE_INTEL_MAPS_CURRENT_DEPTH",
+      "source": "Depthwide Sectors/0",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1892,
+        "preceding_key_line": 1891
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "全深度区域/0"
+    },
+    {
+      "key": "SCORE_ZIONITE_INTEL_MAPS_NEXT_DEPTH",
+      "source": "Depthwide Sectors/-1",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1894,
+        "preceding_key_line": 1893
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "全深度区域/-1"
+    },
+    {
+      "key": "SCORE_FASTEST_SPEED",
+      "source": "Fastest Speed",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1908,
+        "preceding_key_line": 1907
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "最快速度"
+    },
+    {
+      "key": "SCORE_SLOWEST_SPEED",
+      "source": "Slowest Speed",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1912,
+        "preceding_key_line": 1911
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "最慢速度"
+    },
+    {
+      "key": "SCORE_PROPULSION_BURNOUTS",
+      "source": "Propulsion Burnouts",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1916,
+        "preceding_key_line": 1915
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "推进器烧毁"
+    },
+    {
+      "key": "SCORE_ROBOTS_HOPPED",
+      "source": "Robots Hopped",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1918,
+        "preceding_key_line": 1917
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "跃过机器人"
+    },
+    {
+      "key": "SCORE_SPACEFOLD_COUNT",
+      "source": "Spacefolds",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1926,
+        "preceding_key_line": 1925
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "空间折跃"
+    },
+    {
+      "key": "SCORE_MICROWARP_COUNT",
+      "source": "Microwarps",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1928,
+        "preceding_key_line": 1927
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "微型跃迁"
+    },
+    {
+      "key": "SCORE_TERRAIN_RAMMED",
+      "source": "Terrain Rammed",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1952,
+        "preceding_key_line": 1951
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "撞击地形"
+    },
+    {
+      "key": "SCORE_ACTION_COUNT_HOP",
+      "source": "Hop",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1965,
+        "preceding_key_line": 1964
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "跳"
+    },
+    {
+      "key": "SCORE_ACTION_COUNT_RAM",
+      "source": "Ram",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 1981,
+        "preceding_key_line": 1980
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "撞"
+    },
+    {
+      "key": "SCORE_RPGLIKE_UPGRADE_RESIST_KNETIC",
+      "source": "KI Resistance %",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2038,
+        "preceding_key_line": 2037
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "动能抗性%"
+    },
+    {
+      "key": "SCORE_RPGLIKE_UPGRADE_DAMAGE_KINETIC",
+      "source": "KI Damage %",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2044,
+        "preceding_key_line": 2043
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "动能伤害%"
+    },
+    {
+      "key": "SCORE_RPGLIKE_PROTOMATTER_DECAYED",
+      "source": "Protomatter Decayed",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2056,
+        "preceding_key_line": 2055
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "原质衰变"
+    },
+    {
+      "key": "SCORE_PLAYER2_DAMAGE_TAKEN_CORE_PERCENT",
+      "source": "Player 2/Cogmind (%)",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2067,
+        "preceding_key_line": 2066
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "玩家2/Cogmind（%）"
+    },
+    {
+      "key": "SCORE_POLYMIND_PROTOMATTER_DECAYED",
+      "source": "Decayed",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2091,
+        "preceding_key_line": 2090
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "衰变"
+    },
+    {
+      "key": "SCORE_BEST_EFFECT_POWER_AMPLIFICATION",
+      "source": "Power Amplification",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2117,
+        "preceding_key_line": 2116
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "功率增幅"
+    },
+    {
+      "key": "SCORE_BEST_RESISTANCE_KINETIC",
+      "source": "Resistance: KI",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2133,
+        "preceding_key_line": 2132
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "抗性：动能"
+    },
+    {
+      "key": "SCORE_BEST_EFFECT_THERMAL_ABSORPTION",
+      "source": "Thermal Conversion",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2161,
+        "preceding_key_line": 2160
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "热能转换"
+    },
+    {
+      "key": "SCORE_BEST_EFFECT_KINETIC_MIN_DAMAGE_BUFF",
+      "source": "Kinecelleration",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2192,
+        "preceding_key_line": 2191
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "动能加速"
+    },
+    {
+      "key": "SCORE_BEST_EFFECT_STASIS_CANCEL",
+      "source": "Stasis Canceling",
+      "evidence": {
+        "file": "original/extracted/out_particles.txt",
+        "line": 2204,
+        "preceding_key_line": 2203
+      },
+      "status": "not found as exact source key in zh_para.tsv, zh_trans.tsv, or names.tsv",
+      "classification": "probable score/record display label; SCORE_* association is direct, but no runtime screenshot/render trace was found in this audit",
+      "translation": "解除停滞"
+    }
+  ],
+  "preserved_review": [
+    {
+      "key": "SCORE_RHACK_PARSE_SYSTEM",
+      "source": "parse_system",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_NO_DISTRESS",
+      "source": "no_distress",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_GENERATE_ANOMALY",
+      "source": "generate_anomaly",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_GENERATE_ECHO",
+      "source": "generate_echo",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_START_EVAC",
+      "source": "start_evac",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_CHUTE",
+      "source": "find_chute",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_DECONSTRUCT_MACHINE",
+      "source": "deconstruct_machine",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_HOLD_BOT",
+      "source": "hold_bot",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_START_DISPOSAL",
+      "source": "start_disposal",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_IGNORE_REPAIRS",
+      "source": "ignore_repairs",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_MAP_WALLS",
+      "source": "map_walls",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_RANDOMIZE_CORRIDORS",
+      "source": "randomize_corridors",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_MAP_EARTH",
+      "source": "map_earth",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_FABRICATOR",
+      "source": "find_fabricator",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_DSF",
+      "source": "find_dsf",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_DROP_INVENTORY",
+      "source": "drop_inventory",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_RECALL_REINFORCEMENTS",
+      "source": "recall_reinforcements",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_LOCATE_STOCKPILES",
+      "source": "locate_stockpiles",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_RECYCLING",
+      "source": "find_recycling",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_IGNORE_PARTS",
+      "source": "ignore_parts",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_STATION",
+      "source": "find_station",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_RELEASE_BACKUPS",
+      "source": "release_backups",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_DECONSTRUCT_BOT",
+      "source": "deconstruct_bot",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_CHECK_ALERT",
+      "source": "check_alert",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_PURGE_THREAT",
+      "source": "purge_threat",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_TERMINAL",
+      "source": "find_terminals",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_TRAPS_LOCATE",
+      "source": "locate_traps",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_TRAPS_DISARM",
+      "source": "disarm_traps",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_TRAPS_REPROGRAM",
+      "source": "reprogram_traps",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_BLOCK_REPORTING",
+      "source": "block_reporting",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_SUMMON_HAULERS",
+      "source": "summon_haulers",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_RECALL_INVESTIGATION",
+      "source": "recall_investigation",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_CLEAR_REPAIRS",
+      "source": "clear_repairs",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_CLEAR_RECYCLING",
+      "source": "clear_recycling",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_MAP_ROUTE",
+      "source": "map_route",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_MARK_SECURITY",
+      "source": "mark_security",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_RELAY_FEED",
+      "source": "relay_feed",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_DISABLE_SHIELDS",
+      "source": "disable_shields",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_REDIRECT_SHIELDS",
+      "source": "redirect_shields",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_SCANALYZER",
+      "source": "find_scanalyzer",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_DISABLE_SCANNER",
+      "source": "disable_scanner",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_LOCATE_PROTOTYPES",
+      "source": "locate_prototypes",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_REPORT_PROTOTYPES",
+      "source": "report_prototypes",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_REPORT_SCHEMATICS",
+      "source": "report_schematics",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_REPORT_ANALYSES",
+      "source": "report_analyses",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_IGNORE_TARGETS",
+      "source": "ignore_targets",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_EMERGENCY_DEPLOY",
+      "source": "emergency_deploy",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_SHORTCUTS",
+      "source": "find_shortcuts",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FIND_GARRISON",
+      "source": "find_garrison",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_SHOW_PATHS",
+      "source": "show_paths",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_LINK_FOV",
+      "source": "link_fov",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FOCUS_FIRE",
+      "source": "focus_fire",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_REBOOT_PROPULSION",
+      "source": "reboot_propulsion",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_TWEAK_PROPULSION",
+      "source": "tweak_propulsion",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_SCATTER_TARGETING",
+      "source": "scatter_targeting",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_MARK_SYSTEM",
+      "source": "mark_system",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_LINK_COMPLAN",
+      "source": "link_complan",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_BROADCAST_DATA",
+      "source": "broadcast_data",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_DISRUPT_AREA",
+      "source": "disrupt_area",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_SPIKE_HEAT",
+      "source": "spike_heat",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_OVERLOAD_POWER",
+      "source": "overload_power",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_AMPLIFY_RESONANCE",
+      "source": "amplify_resonance",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_WIPE_RECORD",
+      "source": "wipe_record",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_DISABLE_WEAPONS",
+      "source": "disable_weapons",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_REBOOT_SYSTEM",
+      "source": "reboot_system",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_GO_DORMANT",
+      "source": "go_dormant",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_OVERWRITE_IFF",
+      "source": "overwrite_iff",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_STREAMCTRL_LOW",
+      "source": "streamctrl_low",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_STREAMCTRL_HIGH",
+      "source": "streamctrl_high",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FORMATSYS_LOW",
+      "source": "formatsys_low",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FORMATSYS_HIGH",
+      "source": "formatsys_high",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_FORMATSYS_DEEP",
+      "source": "formatsys_deep",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    },
+    {
+      "key": "SCORE_RHACK_RETRIEVE_PART",
+      "source": "retrieve_part",
+      "decision": "保留",
+      "reason": "小写下划线命令标识；没有证据表明这是普通自然语言标签。"
+    }
+  ],
+  "proposed_additional": [],
+  "preserved_review_note": "73项均为 SCORE_RHACK_* 的小写下划线命令名；它们不是被误保留的普通英语词组。",
+  "width_note": "Chinese cells count as 2, ASCII as 1; preserved commands/model identifiers retain source spelling. Width is a best-effort display target; long preserved identifiers are intentionally unchanged."
+}

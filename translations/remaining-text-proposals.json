@@ -1,0 +1,28 @@
+{
+  "title": "Remaining text proposals requiring native/runtime review",
+  "status": "Direct player-notification variant is integrated into the native remaining batch; build/runtime verification is pending. The alternate dialogue variant remains unverified.",
+  "candidates": [
+    {
+      "source_template": "{*} reports that hacking {*} no longer safe.",
+      "translation_candidate": "{1}报告称，入侵{2}已不再安全。",
+      "captures": {
+        "1": "报告者/来源名（动态捕获）",
+        "2": "被入侵的目标（动态捕获）"
+      },
+      "evidence": {
+        "worklist": "translations/native-candidates-remaining-01.json#remaining-01-17b",
+        "assembly": "analysis/native-evidence/windows/remaining-5c32cb.asm",
+        "xref": "0x5c32cb",
+        "verified_literals": [
+          " reports that hacking ",
+          " no longer safe."
+        ],
+        "sink_audit": "analysis/native-remaining-17b-sink-audit.json"
+      },
+      "confidence": "High for the direct 0x5c32cb player-notification branch; alternate 0x5c3437 delayed-dialogue sink remains unverified.",
+      "integration_status": "registered_in_translations/native-sources.json_and_translations/batches/native_remaining.tsv; build_pending",
+      "integration_gate": "Run normal build and confirm the translation in the relevant player notification; do not claim the alternate delayed-dialogue branch was independently verified."
+    }
+  ],
+  "template_note": "Use the project’s {1}/{2} capture syntax in the translated value; preserve dynamic identity and target captures."
+}

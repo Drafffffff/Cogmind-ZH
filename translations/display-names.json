@@ -1,0 +1,19 @@
+{
+  "names": {
+    "Centrium": "森特里姆",
+    "Cetus": "鲸鱼",
+    "Sigix": "西吉",
+    "Perun": "佩伦",
+    "Optimus": "擎天柱",
+    "Pulsar": "脉冲星",
+    "GOLEM": "魔像",
+    "L-Cannon": "L炮",
+    "V-Series": "V系列",
+    "Zion": "锡安",
+    "Q-Series": "Q系列",
+    "X0-Cannon": "X0炮",
+    "X0-Launcher": "X0发射器"
+  },
+  "review": "translations/name-keep-review.json",
+  "scope": "Reviewed readable names; every replacement has no more display cells than its English source. Models and commands remain outside this map."
+}

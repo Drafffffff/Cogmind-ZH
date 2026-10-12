@@ -1,0 +1,3584 @@
+{
+  "source": "translations/native-worklists/other_02.json",
+  "evidence_basis": "Per-xref bounded fragment-window assembly. Exact existing dynamic translations are reused for unresolved fragments. Composite templates are marked high only when the adjacent literal/value/literal chain is directly evidenced through verified 0x9ce7b0 and 0x9ce8f0 calls. All other incomplete boundaries remain unresolved.",
+  "verified_helpers": {
+    "0x9ce7b0": "destination = literal + string",
+    "0x9ce8f0": "destination = string + literal",
+    "0x9ceaa0": "destination = string + literal",
+    "0x9b0bb0": "append string to ECX string",
+    "0x9ce830": "destination = literal + string"
+  },
+  "entries": [
+    {
+      "raw_template": "X0-1V1: \"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\" (permanent {*} core integrity)",
+      "source": "X0-1V1: \"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\" (permanent {*} core integrity)",
+      "translation": "X0-1V1：“就算你挨了顿揍，周围有这么多备用部件，你那可爱的小核心总有希望浴火重生，完成光荣复仇。”（永久核心完整性{*}）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\" (permanent ",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x4fc4] string passed as EDX to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": " core integrity)",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6af259.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6af259: 68 28 df be 00               \tpush\t0xbedf28 ; TEXT 0xbedf28=\"X0-1V1: \\\"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\\\" (permanent \""
+        },
+        {
+          "line": 104,
+          "instruction": "6af265: e8 46 f5 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6af283: 68 f0 de be 00               \tpush\t0xbedef0 ; TEXT 0xbedef0=\" core integrity)\""
+        },
+        {
+          "line": 115,
+          "instruction": "6af296: e8 55 f6 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6af259"
+      ],
+      "covers_string_vas": [
+        "0xbedf28"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": "X0-1V1 smiles upon you. (Received ",
+      "source": "X0-1V1 smiles upon you. (Received",
+      "translation": "X0-1V1向你微笑。（获得",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 smiles upon you. (Received ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b0509.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b0509: 68 e0 df be 00               \tpush\t0xbedfe0 ; TEXT 0xbedfe0=\"X0-1V1 smiles upon you. (Received \""
+        },
+        {
+          "line": 104,
+          "instruction": "6b0515: e8 96 e2 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 113,
+          "instruction": "6b0540: e8 bb 05 30 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+        },
+        {
+          "line": 116,
+          "instruction": "6b054f: e8 dc 05 30 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x572ea0",
+        "0x9ce7b0",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6b0509"
+      ],
+      "covers_string_vas": [
+        "0xbedfe0"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "X0-1V1 points here and there ({*} revealed).",
+      "source": "X0-1V1 points here and there ({*} revealed).",
+      "translation": "X0-1V1指指点点（揭示了{*}）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 points here and there (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x5050] string value passed to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": " revealed).",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b1880.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b1880: 68 90 e1 be 00               \tpush\t0xbee190 ; TEXT 0xbee190=\"X0-1V1 points here and there (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b188c: e8 1f cf 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b18aa: 68 74 e1 be 00               \tpush\t0xbee174 ; TEXT 0xbee174=\" revealed).\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b18bd: e8 2e d0 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b1880"
+      ],
+      "covers_string_vas": [
+        "0xbee190"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": "X0-1V1: \"I found some blueprints, how convenient!\" ({*} revealed).",
+      "source": "X0-1V1: \"I found some blueprints, how convenient!\" ({*} revealed).",
+      "translation": "X0-1V1：“我找到了一些蓝图，真方便！”（揭示了{*}）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"I found some blueprints, how convenient!\" (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x5068] string value passed to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": " revealed).",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b1bda.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b1bda: 68 d8 e1 be 00               \tpush\t0xbee1d8 ; TEXT 0xbee1d8=\"X0-1V1: \\\"I found some blueprints, how convenient!\\\" (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b1be6: e8 c5 cb 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b1c04: 68 b0 e1 be 00               \tpush\t0xbee1b0 ; TEXT 0xbee1b0=\" revealed).\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b1c17: e8 d4 cc 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b1bda"
+      ],
+      "covers_string_vas": [
+        "0xbee1d8"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": " to go sit in the corner.\"",
+      "source": "to go sit in the corner.\"",
+      "translation": "去角落里坐着。”",
+      "components": [
+        {
+          "type": "literal",
+          "text": " to go sit in the corner.\"",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b21f4.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b21f4: 68 94 e2 be 00               \tpush\t0xbee294 ; TEXT 0xbee294=\" to go sit in the corner.\\\"\""
+        },
+        {
+          "line": 106,
+          "instruction": "6b2207: e8 e4 c6 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "6b2232: e8 c9 e8 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+        },
+        {
+          "line": 118,
+          "instruction": "6b2241: e8 ea e8 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6b21f4"
+      ],
+      "covers_string_vas": [
+        "0xbee294"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "X0-1V1 wants to heat up the action around here (+{*} heat).",
+      "source": "X0-1V1 wants to heat up the action around here (+{*} heat).",
+      "translation": "X0-1V1想让这里的战况升温（+{*}热量）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 wants to heat up the action around here (+",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x50dc] value passed to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": " heat).",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b3f85.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b3f85: 68 4c e6 be 00               \tpush\t0xbee64c ; TEXT 0xbee64c=\"X0-1V1 wants to heat up the action around here (+\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b3f91: e8 1a a8 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b3faf: 68 44 e6 be 00               \tpush\t0xbee644 ; TEXT 0xbee644=\" heat).\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b3fc2: e8 29 a9 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b3f85"
+      ],
+      "covers_string_vas": [
+        "0xbee64c"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": "X0-1V1: \"Your inner air conditioner seems to have fallen into disrepair.\" ({*} heat dissipation)",
+      "source": "X0-1V1: \"Your inner air conditioner seems to have fallen into disrepair.\" ({*} heat dissipation)",
+      "translation": "X0-1V1：“你的内置空调似乎已经失修了。”（热量散失{*}）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"Your inner air conditioner seems to have fallen into disrepair.\" (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x50f4] value passed to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": " heat dissipation)",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b4122.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b4122: 68 a8 e6 be 00               \tpush\t0xbee6a8 ; TEXT 0xbee6a8=\"X0-1V1: \\\"Your inner air conditioner seems to have fallen into disrepair.\\\" (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b412e: e8 7d a6 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b414c: 68 80 e6 be 00               \tpush\t0xbee680 ; TEXT 0xbee680=\" heat dissipation)\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b415f: e8 8c a7 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b4122"
+      ],
+      "covers_string_vas": [
+        "0xbee6a8"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": "X0-1V1: \"There's a penalty for shooting from the hip 'round these parts.\" ({*}% ranged accuracy)",
+      "source": "X0-1V1: \"There's a penalty for shooting from the hip 'round these parts.\" ({*}% ranged accuracy)",
+      "translation": "X0-1V1：“在这地方，盲射可是要受惩罚的。”（远程命中率{*}%）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"There's a penalty for shooting from the hip 'round these parts.\" (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x5124] value passed to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": "% ranged accuracy)",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b443b.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b443b: 68 50 e7 be 00               \tpush\t0xbee750 ; TEXT 0xbee750=\"X0-1V1: \\\"There's a penalty for shooting from the hip 'round these parts.\\\" (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b4447: e8 64 a3 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b4465: 68 28 e7 be 00               \tpush\t0xbee728 ; TEXT 0xbee728=\"% ranged accuracy)\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b4478: e8 73 a4 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b443b"
+      ],
+      "covers_string_vas": [
+        "0xbee750"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": "X0-1V1 projects screaming human faces on all surfaces in the area ({*}% melee accuracy).",
+      "source": "X0-1V1 projects screaming human faces on all surfaces in the area ({*}% melee accuracy).",
+      "translation": "X0-1V1把尖叫的人脸投影到区域内所有表面（近战命中率{*}%）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 projects screaming human faces on all surfaces in the area (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x513c] value passed to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": "% melee accuracy).",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b4612.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b4612: 68 b0 e7 be 00               \tpush\t0xbee7b0 ; TEXT 0xbee7b0=\"X0-1V1 projects screaming human faces on all surfaces in the area (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b461e: e8 8d a1 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b463c: 68 3c e7 be 00               \tpush\t0xbee73c ; TEXT 0xbee73c=\"% melee accuracy).\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b464f: e8 9c a2 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b4612"
+      ],
+      "covers_string_vas": [
+        "0xbee7b0"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": " caught in stasis.",
+      "source": "caught in stasis.",
+      "translation": "被困在停滞状态。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " caught in stasis.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b55f1.asm",
+      "assembly_lines": [
+        {
+          "line": 98,
+          "instruction": "6b55e4: e8 c7 0c 10 00               \tcall\t0x7b62b0 <PHYSFSRWOPS_openAppend+0x3b2820>"
+        },
+        {
+          "line": 101,
+          "instruction": "6b55f1: 68 c8 e8 be 00               \tpush\t0xbee8c8 ; TEXT 0xbee8c8=\" caught in stasis.\""
+        },
+        {
+          "line": 105,
+          "instruction": "6b5603: e8 28 34 30 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+        },
+        {
+          "line": 107,
+          "instruction": "6b560a: e8 01 29 30 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+        },
+        {
+          "line": 109,
+          "instruction": "6b5611: e8 7a 1a d6 ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+        },
+        {
+          "line": 113,
+          "instruction": "6b561e: e8 7d 94 31 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        }
+      ],
+      "calls": [
+        "0x876eb0",
+        "0x7b62b0",
+        "0x9b8a30",
+        "0x9b7f10",
+        "0x417090",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x6b55f1"
+      ],
+      "covers_string_vas": [
+        "0xbee8c8"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "X0-1V1: \"It's not much, but it's the thought that counts. (+{*} system corruption)\"",
+      "source": "X0-1V1: \"It's not much, but it's the thought that counts. (+{*} system corruption)\"",
+      "translation": "X0-1V1：“心意到了就好，不必多。”（+{*}系统腐化）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"It's not much, but it's the thought that counts. (+",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "[ebp-0x5204] value passed to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": " system corruption)\"",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b6ef6.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b6ef6: 68 34 ea be 00               \tpush\t0xbeea34 ; TEXT 0xbeea34=\"X0-1V1: \\\"It's not much, but it's the thought that counts. (+\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b6f02: e8 a9 78 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 113,
+          "instruction": "6b6f32: 68 1c ea be 00               \tpush\t0xbeea1c ; TEXT 0xbeea1c=\" system corruption)\\\"\""
+        },
+        {
+          "line": 118,
+          "instruction": "6b6f45: e8 a6 79 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b6ef6"
+      ],
+      "covers_string_vas": [
+        "0xbeea34"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": " system corruption)\"",
+      "source": "system corruption)\"",
+      "translation": "系统腐化)”",
+      "components": [
+        {
+          "type": "literal",
+          "text": " system corruption)\"",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b6f32.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b6f32: 68 1c ea be 00               \tpush\t0xbeea1c ; TEXT 0xbeea1c=\" system corruption)\\\"\""
+        },
+        {
+          "line": 106,
+          "instruction": "6b6f45: e8 a6 79 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b6f32"
+      ],
+      "covers_string_vas": [
+        "0xbeea1c"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "X0-1V1 brushes you with a corrupting influence (+{*} system corruption).",
+      "source": "X0-1V1 brushes you with a corrupting influence (+{*} system corruption).",
+      "translation": "X0-1V1以腐化影响拂过你（+{*}系统腐化）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 brushes you with a corrupting influence (+",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "dynamic amount passed to 0x9ce7b0"
+        },
+        {
+          "type": "literal",
+          "text": " system corruption).",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b6fe0.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b6fe0: 68 8c ea be 00               \tpush\t0xbeea8c ; TEXT 0xbeea8c=\"X0-1V1 brushes you with a corrupting influence (+\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b6fec: e8 bf 77 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 113,
+          "instruction": "6b701f: 68 74 ea be 00               \tpush\t0xbeea74 ; TEXT 0xbeea74=\" system corruption).\""
+        },
+        {
+          "line": 118,
+          "instruction": "6b7032: e8 b9 78 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b6fe0"
+      ],
+      "covers_string_vas": [
+        "0xbeea8c"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": " system corruption).",
+      "source": "system corruption).",
+      "translation": "系统腐化).",
+      "components": [
+        {
+          "type": "literal",
+          "text": " system corruption).",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b701f.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b701f: 68 74 ea be 00               \tpush\t0xbeea74 ; TEXT 0xbeea74=\" system corruption).\""
+        },
+        {
+          "line": 106,
+          "instruction": "6b7032: e8 b9 78 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b701f"
+      ],
+      "covers_string_vas": [
+        "0xbeea74"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " of your inventory parts (corrupted).",
+      "source": "of your inventory parts (corrupted).",
+      "translation": "你的库存部件 (已腐化).",
+      "components": [
+        {
+          "type": "literal",
+          "text": " of your inventory parts (corrupted).",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b77b1.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b77b1: 68 7c eb be 00               \tpush\t0xbeeb7c ; TEXT 0xbeeb7c=\" of your inventory parts (corrupted).\""
+        },
+        {
+          "line": 106,
+          "instruction": "6b77c4: e8 27 71 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "6b77ef: e8 0c 93 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+        },
+        {
+          "line": 118,
+          "instruction": "6b77fe: e8 2d 93 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6b77b1"
+      ],
+      "covers_string_vas": [
+        "0xbeeb7c"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "X0-1V1: \"In a world full of sensor tech, vision is overrated.\" ({*} sight range)",
+      "source": "X0-1V1: \"In a world full of sensor tech, vision is overrated.\" ({*} sight range)",
+      "translation": "X0-1V1：“在传感器技术遍地的世界里，视力被高估了。”（视野范围{*}）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"In a world full of sensor tech, vision is overrated.\" (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "value passed into visible join call"
+        },
+        {
+          "type": "literal",
+          "text": " sight range)",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b792c.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b792c: 68 f8 eb be 00               \tpush\t0xbeebf8 ; TEXT 0xbeebf8=\"X0-1V1: \\\"In a world full of sensor tech, vision is overrated.\\\" (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b7938: e8 73 6e 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b7956: 68 b4 eb be 00               \tpush\t0xbeebb4 ; TEXT 0xbeebb4=\" sight range)\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b7969: e8 82 6f 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b792c"
+      ],
+      "covers_string_vas": [
+        "0xbeebf8"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": "X0-1V1 blurs the world around you ({*} sight range).",
+      "source": "X0-1V1 blurs the world around you ({*} sight range).",
+      "translation": "X0-1V1令你眼中的世界变得模糊（视野范围{*}）。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 blurs the world around you (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "value passed into visible join call"
+        },
+        {
+          "type": "literal",
+          "text": " sight range).",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b7a6c.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b7a6c: 68 d4 eb be 00               \tpush\t0xbeebd4 ; TEXT 0xbeebd4=\"X0-1V1 blurs the world around you (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b7a78: e8 33 6d 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b7a96: 68 c4 eb be 00               \tpush\t0xbeebc4 ; TEXT 0xbeebc4=\" sight range).\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b7aa9: e8 42 6e 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b7a6c"
+      ],
+      "covers_string_vas": [
+        "0xbeebd4"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": " sight range).",
+      "source": "sight range).",
+      "translation": "视野范围).",
+      "components": [
+        {
+          "type": "literal",
+          "text": " sight range).",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b7a96.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b7a96: 68 c4 eb be 00               \tpush\t0xbeebc4 ; TEXT 0xbeebc4=\" sight range).\""
+        },
+        {
+          "line": 106,
+          "instruction": "6b7aa9: e8 42 6e 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "6b7ad4: e8 27 90 2f 00               \tcall\t0x9b0b00 <PHYSFSRWOPS_openAppend+0x5ad070>"
+        },
+        {
+          "line": 118,
+          "instruction": "6b7ae3: e8 48 90 2f 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x6b7a96"
+      ],
+      "covers_string_vas": [
+        "0xbeebc4"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "X0-1V1: \"Did you know you're leaking matter?\" ({*} matter capacity)",
+      "source": "X0-1V1: \"Did you know you're leaking matter?\" ({*} matter capacity)",
+      "translation": "X0-1V1：“你知道自己正在漏物质吗？”（物质容量{*}）",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"Did you know you're leaking matter?\" (",
+          "source": null
+        },
+        {
+          "type": "capture",
+          "text": "{*}",
+          "source": "value passed into visible join call"
+        },
+        {
+          "type": "literal",
+          "text": " matter capacity)",
+          "source": null
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b7be3.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b7be3: 68 50 ec be 00               \tpush\t0xbeec50 ; TEXT 0xbeec50=\"X0-1V1: \\\"Did you know you're leaking matter?\\\" (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b7bef: e8 bc 6b 31 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b7c10: 68 3c ec be 00               \tpush\t0xbeec3c ; TEXT 0xbeec3c=\" matter capacity)\""
+        },
+        {
+          "line": 115,
+          "instruction": "6b7c23: e8 c8 6c 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b7be3"
+      ],
+      "covers_string_vas": [
+        "0xbeec50"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整模板由该窗口中紧邻的已验证 0x9ce7b0 (literal+value) 和 0x9ce8f0 (value+literal) 数据流确认；捕获来源见 components。"
+    },
+    {
+      "raw_template": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+      "source": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+      "translation": "X0-1V1：“进化总在你意想不到的时候降临。”（",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6b8a52.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "6b8a52: 68 c8 ec be 00               \tpush\t0xbeecc8 ; TEXT 0xbeecc8=\"X0-1V1: \\\"Evolution hits right when you least expect it.\\\" (\""
+        },
+        {
+          "line": 104,
+          "instruction": "6b8a5e: e8 cd 5d 31 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 110,
+          "instruction": "6b8a7c: 68 b4 ec be 00               \tpush\t0xbeecb4 ; TEXT 0xbeecb4=\" slot mutated into \""
+        },
+        {
+          "line": 115,
+          "instruction": "6b8a8f: e8 5c 5e 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6b8a52"
+      ],
+      "covers_string_vas": [
+        "0xbeecc8"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "X0-1V1: \"I may have passed a hint to a nearby ",
+      "source": "X0-1V1: \"I may have passed a hint to a nearby",
+      "translation": "X0-1V1：“我可能给附近的某个",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1: \"I may have passed a hint to a nearby ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6baafa.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "6baaed: e8 1e d4 2f 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+        },
+        {
+          "line": 99,
+          "instruction": "6baaf4: e8 97 c5 d5 ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+        },
+        {
+          "line": 101,
+          "instruction": "6baafa: 68 d8 ee be 00               \tpush\t0xbeeed8 ; TEXT 0xbeeed8=\"X0-1V1: \\\"I may have passed a hint to a nearby \""
+        },
+        {
+          "line": 104,
+          "instruction": "6bab06: e8 25 3d 31 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 110,
+          "instruction": "6bab27: 68 d4 ee be 00               \tpush\t0xbeeed4 ; TEXT 0xbeeed4=\".\\\"\""
+        },
+        {
+          "line": 115,
+          "instruction": "6bab3a: e8 b1 3d 31 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9b7f10",
+        "0x417090",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x6baafa"
+      ],
+      "covers_string_vas": [
+        "0xbeeed8"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "X0-1V1 pokes a wall.",
+      "source": "X0-1V1 pokes a wall.",
+      "translation": "X0-1V1戳了戳墙。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "X0-1V1 pokes a wall.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/6bf1f8.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "6bf1e7: e8 74 20 31 00               \tcall\t0x9d1260 <PHYSFSRWOPS_openAppend+0x5cd7d0>"
+        },
+        {
+          "line": 99,
+          "instruction": "6bf1ee: e8 ad f1 d9 ff               \tcall\t0x45e3a0 <PHYSFSRWOPS_openAppend+0x5a910>"
+        },
+        {
+          "line": 101,
+          "instruction": "6bf1f8: 68 5c f6 be 00               \tpush\t0xbef65c ; TEXT 0xbef65c=\"X0-1V1 pokes a wall.\""
+        },
+        {
+          "line": 103,
+          "instruction": "6bf200: e8 cb 16 2f 00               \tcall\t0x9b08d0 <PHYSFSRWOPS_openAppend+0x5ace40>"
+        },
+        {
+          "line": 112,
+          "instruction": "6bf221: e8 6a 42 da ff               \tcall\t0x463490 <PHYSFSRWOPS_openAppend+0x5fa00>"
+        },
+        {
+          "line": 114,
+          "instruction": "6bf228: e8 e3 8c 2f 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+        },
+        {
+          "line": 116,
+          "instruction": "6bf22f: e8 ec b4 d9 ff               \tcall\t0x45a720 <PHYSFSRWOPS_openAppend+0x56c90>"
+        }
+      ],
+      "calls": [
+        "0x9d1260",
+        "0x45e3a0",
+        "0x9b08d0",
+        "0x463490",
+        "0x9b7f10",
+        "0x45a720"
+      ],
+      "covers_xrefs": [
+        "0x6bf1f8"
+      ],
+      "covers_string_vas": [
+        "0xbef65c"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "Self-contained complete literal at this xref."
+    },
+    {
+      "raw_template": " hacked open.",
+      "source": "hacked open.",
+      "translation": "被黑入并打开。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " hacked open.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/743b0c.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "743afc: e8 2f d0 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 101,
+          "instruction": "743b0c: 68 70 33 bf 00               \tpush\t0xbf3370 ; TEXT 0xbf3370=\" hacked open.\""
+        },
+        {
+          "line": 103,
+          "instruction": "743b17: e8 b4 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 106,
+          "instruction": "743b23: e8 28 56 27 00               \tcall\t0x9b9150 <PHYSFSRWOPS_openAppend+0x5b56c0>"
+        },
+        {
+          "line": 109,
+          "instruction": "743b2e: 68 80 33 bf 00               \tpush\t0xbf3380 ; TEXT 0xbf3380=\" opened remotely.\""
+        },
+        {
+          "line": 111,
+          "instruction": "743b39: e8 92 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 113,
+          "instruction": "743b40: 68 94 33 bf 00               \tpush\t0xbf3394 ; TEXT 0xbf3394=\" activated.\""
+        },
+        {
+          "line": 115,
+          "instruction": "743b4b: e8 80 d0 26 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b0b30",
+        "0x9b0bd0",
+        "0x9b9150"
+      ],
+      "covers_xrefs": [
+        "0x743b0c"
+      ],
+      "covers_string_vas": [
+        "0xbf3370"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " inbound, all units not involved in other operations escort to target.",
+      "source": "inbound, all units not involved in other operations escort to target.",
+      "translation": "正在赶来，所有未参与其他行动的单位立即护送至目标地点。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " inbound, all units not involved in other operations escort to target.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/744695.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "744695: 68 f0 33 bf 00               \tpush\t0xbf33f0 ; TEXT 0xbf33f0=\" inbound, all units not involved in other operations escort to target.\""
+        },
+        {
+          "line": 106,
+          "instruction": "7446a8: e8 43 a2 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "7446b7: e8 74 c4 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 113,
+          "instruction": "7446c3: e8 38 a8 d0 ff               \tcall\t0x44ef00 <PHYSFSRWOPS_openAppend+0x4b470>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x44ef00"
+      ],
+      "covers_xrefs": [
+        "0x744695"
+      ],
+      "covers_string_vas": [
+        "0xbf33f0"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " buries itself in the floor.",
+      "source": "buries itself in the floor.",
+      "translation": "埋入地板。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " buries itself in the floor.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/7460e8.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "7460e8: 68 90 35 bf 00               \tpush\t0xbf3590 ; TEXT 0xbf3590=\" buries itself in the floor.\""
+        },
+        {
+          "line": 106,
+          "instruction": "7460fb: e8 f0 87 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "74610d: e8 1e aa 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 115,
+          "instruction": "746121: e8 6a 11 cc ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b7f50",
+        "0x572ea0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x7460e8"
+      ],
+      "covers_string_vas": [
+        "0xbf3590"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " targets ready for detonation.",
+      "source": "targets ready for detonation.",
+      "translation": "目标已准备引爆。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " targets ready for detonation.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/746366.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "746366: 68 b0 35 bf 00               \tpush\t0xbf35b0 ; TEXT 0xbf35b0=\" targets ready for detonation.\""
+        },
+        {
+          "line": 106,
+          "instruction": "746379: e8 72 85 28 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "74638b: e8 a0 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 113,
+          "instruction": "74639a: e8 91 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 116,
+          "instruction": "7463a9: e8 82 a7 26 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x746366"
+      ],
+      "covers_string_vas": [
+        "0xbf35b0"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "ALERT: Derelict incursion at ",
+      "source": "ALERT: Derelict incursion at",
+      "translation": "ALERT: 遗迹机器人入侵，地点：",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ALERT: Derelict incursion at ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/7532e2.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "7532e2: 68 70 41 bf 00               \tpush\t0xbf4170 ; TEXT 0xbf4170=\"ALERT: Derelict incursion at \""
+        },
+        {
+          "line": 103,
+          "instruction": "7532ed: e8 de d5 25 00               \tcall\t0x9b08d0 <PHYSFSRWOPS_openAppend+0x5ace40>"
+        },
+        {
+          "line": 117,
+          "instruction": "75332f: e8 fc b5 27 00               \tcall\t0x9ce930 <PHYSFSRWOPS_openAppend+0x5caea0>"
+        }
+      ],
+      "calls": [
+        "0x65dd40",
+        "0x9b08d0",
+        "0x9ce930"
+      ],
+      "covers_xrefs": [
+        "0x7532e2"
+      ],
+      "covers_string_vas": [
+        "0xbf4170"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "Established visual feed link with ",
+      "source": "Established visual feed link with",
+      "translation": "已建立与以下目标的视觉信号链路：",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Established visual feed link with ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/758808.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "7587fb: e8 10 f7 25 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+        },
+        {
+          "line": 99,
+          "instruction": "758802: e8 89 e8 cb ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+        },
+        {
+          "line": 101,
+          "instruction": "758808: 68 80 43 bf 00               \tpush\t0xbf4380 ; TEXT 0xbf4380=\"Established visual feed link with \""
+        },
+        {
+          "line": 104,
+          "instruction": "758814: e8 17 60 27 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 109,
+          "instruction": "75882e: e8 5d 7f 25 00               \tcall\t0x9b0790 <PHYSFSRWOPS_openAppend+0x5acd00>"
+        },
+        {
+          "line": 117,
+          "instruction": "758853: e8 38 ea ca ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b8a30",
+        "0x9b7f10",
+        "0x417090",
+        "0x9ce830",
+        "0x9b0790",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x758808"
+      ],
+      "covers_string_vas": [
+        "0xbf4380"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "ANNOUNCEMENT: Warlord currently on ",
+      "source": "ANNOUNCEMENT: Warlord currently on",
+      "translation": "ANNOUNCEMENT: 军阀当前位于",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ANNOUNCEMENT: Warlord currently on ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/76b379.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "76b379: 68 40 61 bf 00               \tpush\t0xbf6140 ; TEXT 0xbf6140=\"ANNOUNCEMENT: Warlord currently on \""
+        },
+        {
+          "line": 104,
+          "instruction": "76b385: e8 26 34 26 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "76b3a3: 68 10 61 bf 00               \tpush\t0xbf6110 ; TEXT 0xbf6110=\" approach. All units hit designated targets.\""
+        },
+        {
+          "line": 115,
+          "instruction": "76b3b6: e8 35 35 26 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x4633e0",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x76b379"
+      ],
+      "covers_string_vas": [
+        "0xbf6140"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " to Cogmind's location.",
+      "source": "to Cogmind's location.",
+      "translation": "前往Cogmind所在位置。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " to Cogmind's location.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/76b6fe.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "76b6fe: 68 c8 61 bf 00               \tpush\t0xbf61c8 ; TEXT 0xbf61c8=\" to Cogmind's location.\""
+        },
+        {
+          "line": 103,
+          "instruction": "76b709: e8 c2 54 24 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 106,
+          "instruction": "76b718: e8 93 65 24 00               \tcall\t0x9b1cb0 <PHYSFSRWOPS_openAppend+0x5ae220>"
+        },
+        {
+          "line": 108,
+          "instruction": "76b722: 68 e0 61 bf 00               \tpush\t0xbf61e0 ; TEXT 0xbf61e0=\"ANNOUNCEMENT: Trap arrays successfully disabled.\""
+        },
+        {
+          "line": 110,
+          "instruction": "76b72d: e8 3e 54 24 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 117,
+          "instruction": "76b752: e8 29 a3 24 00               \tcall\t0x9b5a80 <PHYSFSRWOPS_openAppend+0x5b1ff0>"
+        }
+      ],
+      "calls": [
+        "0x9b1ef0",
+        "0x5152a0",
+        "0x9b0bd0",
+        "0x9b1cb0",
+        "0x9b0b70",
+        "0x9b5a80"
+      ],
+      "covers_xrefs": [
+        "0x76b6fe"
+      ],
+      "covers_string_vas": [
+        "0xbf61c8"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "ANNOUNCEMENT: Unaware assault squad dispatched in ",
+      "source": "ANNOUNCEMENT: Unaware assault squad dispatched in",
+      "translation": "ANNOUNCEMENT: 已派出无觉者突击小队，预计",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ANNOUNCEMENT: Unaware assault squad dispatched in ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/76c7bf.asm",
+      "assembly_lines": [
+        {
+          "line": 98,
+          "instruction": "76c7b3: e8 b8 43 24 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 101,
+          "instruction": "76c7bf: 68 60 63 bf 00               \tpush\t0xbf6360 ; TEXT 0xbf6360=\"ANNOUNCEMENT: Unaware assault squad dispatched in \""
+        },
+        {
+          "line": 104,
+          "instruction": "76c7cb: e8 60 20 26 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 110,
+          "instruction": "76c7e9: 68 54 63 bf 00               \tpush\t0xbf6354 ; TEXT 0xbf6354=\" quadrant.\""
+        },
+        {
+          "line": 115,
+          "instruction": "76c7fc: e8 ef 20 26 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x76c7bf"
+      ],
+      "covers_string_vas": [
+        "0xbf6360"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " turns your loot boxes might contain... ",
+      "source": "turns your loot boxes might contain...",
+      "translation": "你的战利品箱里可能会有……",
+      "components": [
+        {
+          "type": "literal",
+          "text": " turns your loot boxes might contain... ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/76f4cd.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "76f4cd: 68 ec 68 bf 00               \tpush\t0xbf68ec ; TEXT 0xbf68ec=\" turns your loot boxes might contain... \""
+        },
+        {
+          "line": 106,
+          "instruction": "76f4e0: e8 0b f4 25 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 113,
+          "instruction": "76f503: e8 78 a3 24 00               \tcall\t0x9b9880 <PHYSFSRWOPS_openAppend+0x5b5df0>"
+        },
+        {
+          "line": 117,
+          "instruction": "76f510: e8 1b 95 24 00               \tcall\t0x9b8a30 <PHYSFSRWOPS_openAppend+0x5b4fa0>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b9880",
+        "0x9b8a30"
+      ],
+      "covers_xrefs": [
+        "0x76f4cd"
+      ],
+      "covers_string_vas": [
+        "0xbf68ec"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "Unlike other parts in RPGLIKE mode that transfer ",
+      "source": "Unlike other parts in RPGLIKE mode that transfer",
+      "translation": "与RPGLIKE模式下其他会转移的部件不同，",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Unlike other parts in RPGLIKE mode that transfer ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/779df0.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "779df0: 68 88 6d bf 00               \tpush\t0xbf6d88 ; TEXT 0xbf6d88=\"Unlike other parts in RPGLIKE mode that transfer \""
+        },
+        {
+          "line": 104,
+          "instruction": "779df9: e8 b2 49 25 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "779e17: 68 38 6d bf 00               \tpush\t0xbf6d38 ; TEXT 0xbf6d38=\"% of incoming damage to your core, all Armor type parts instead transfer only \""
+        },
+        {
+          "line": 115,
+          "instruction": "779e27: e8 c4 4a 25 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x779df0"
+      ],
+      "covers_string_vas": [
+        "0xbf6d88"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "Unlike other parts in BattleRoyale mode that transfer ",
+      "source": "Unlike other parts in BattleRoyale mode that transfer",
+      "translation": "与BattleRoyale模式下其他会转移的部件不同，",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Unlike other parts in BattleRoyale mode that transfer ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/779fcf.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "779fcf: 68 10 6e bf 00               \tpush\t0xbf6e10 ; TEXT 0xbf6e10=\"Unlike other parts in BattleRoyale mode that transfer \""
+        },
+        {
+          "line": 104,
+          "instruction": "779fdb: e8 d0 47 25 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "779ff9: 68 c0 6d bf 00               \tpush\t0xbf6dc0 ; TEXT 0xbf6dc0=\"% of incoming damage to your core, all Armor type parts instead transfer only \""
+        },
+        {
+          "line": 115,
+          "instruction": "77a00c: e8 df 48 25 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x779fcf"
+      ],
+      "covers_string_vas": [
+        "0xbf6e10"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " effective code value to all Relay Couplers.",
+      "source": "effective code value to all Relay Couplers.",
+      "translation": "向所有中继耦合器提供有效代码值。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " effective code value to all Relay Couplers.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/783073.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "783073: 68 38 73 bf 00               \tpush\t0xbf7338 ; TEXT 0xbf7338=\" effective code value to all Relay Couplers.\""
+        },
+        {
+          "line": 106,
+          "instruction": "783086: e8 65 b8 24 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "7830b1: e8 fa da 22 00               \tcall\t0x9b0bb0 <PHYSFSRWOPS_openAppend+0x5ad120>"
+        },
+        {
+          "line": 118,
+          "instruction": "7830c0: e8 6b da 22 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x9b0bb0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x783073"
+      ],
+      "covers_string_vas": [
+        "0xbf7338"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " more turns before they can pinpoint your position for dispatching.",
+      "source": "more turns before they can pinpoint your position for dispatching.",
+      "translation": "还要再过更多回合，他们才能锁定你的位置并派兵。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " more turns before they can pinpoint your position for dispatching.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/783953.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "783953: 68 60 77 bf 00               \tpush\t0xbf7760 ; TEXT 0xbf7760=\" more turns before they can pinpoint your position for dispatching.\""
+        },
+        {
+          "line": 106,
+          "instruction": "783966: e8 85 af 24 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "783991: e8 1a d2 22 00               \tcall\t0x9b0bb0 <PHYSFSRWOPS_openAppend+0x5ad120>"
+        },
+        {
+          "line": 118,
+          "instruction": "7839a0: e8 8b d1 22 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x9b0bb0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x783953"
+      ],
+      "covers_string_vas": [
+        "0xbf7760"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " while at least one Relay Coupler [NC] attached.",
+      "source": "while at least one Relay Coupler [NC] attached.",
+      "translation": "至少装有一个中继耦合器[NC]时。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " while at least one Relay Coupler [NC] attached.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/783b7e.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "783b7e: 68 2c 78 bf 00               \tpush\t0xbf782c ; TEXT 0xbf782c=\" while at least one Relay Coupler [NC] attached.\""
+        },
+        {
+          "line": 106,
+          "instruction": "783b91: e8 5a ad 24 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "783bbc: e8 ef cf 22 00               \tcall\t0x9b0bb0 <PHYSFSRWOPS_openAppend+0x5ad120>"
+        },
+        {
+          "line": 118,
+          "instruction": "783bcb: e8 60 cf 22 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0bb0",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x783b7e"
+      ],
+      "covers_string_vas": [
+        "0xbf782c"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "ANNOUNCEMENT: Welcome to our newest member, ",
+      "source": "ANNOUNCEMENT: Welcome to our newest member,",
+      "translation": "ANNOUNCEMENT: 欢迎我们的新成员，",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ANNOUNCEMENT: Welcome to our newest member, ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/784438.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "784427: e8 a4 ea ce ff               \tcall\t0x472ed0 <PHYSFSRWOPS_openAppend+0x6f440>"
+        },
+        {
+          "line": 101,
+          "instruction": "784438: 68 c4 7d bf 00               \tpush\t0xbf7dc4 ; TEXT 0xbf7dc4=\"ANNOUNCEMENT: Welcome to our newest member, \""
+        },
+        {
+          "line": 104,
+          "instruction": "784444: e8 e7 a3 24 00               \tcall\t0x9ce830 <PHYSFSRWOPS_openAppend+0x5cada0>"
+        },
+        {
+          "line": 110,
+          "instruction": "784465: 68 b0 7d bf 00               \tpush\t0xbf7db0 ; TEXT 0xbf7db0=\"! Open the gate!\""
+        },
+        {
+          "line": 115,
+          "instruction": "784478: e8 73 a4 24 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x472ed0",
+        "0x9ce830",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x784438"
+      ],
+      "covers_string_vas": [
+        "0xbf7dc4"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " stockpile data.",
+      "source": "stockpile data.",
+      "translation": "储备数据。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " stockpile data.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/79acb1.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "79acb1: 68 1c 98 bf 00               \tpush\t0xbf981c ; TEXT 0xbf981c=\" stockpile data.\""
+        },
+        {
+          "line": 106,
+          "instruction": "79acc4: e8 27 3c 23 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "79acd6: e8 55 5e 21 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 115,
+          "instruction": "79ace7: e8 f4 b2 ff ff               \tcall\t0x795fe0 <PHYSFSRWOPS_openAppend+0x392550>"
+        }
+      ],
+      "calls": [
+        "0x9d0610",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x795fe0"
+      ],
+      "covers_xrefs": [
+        "0x79acb1"
+      ],
+      "covers_string_vas": [
+        "0xbf981c"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " materializes via a weapon slot.",
+      "source": "materializes via a weapon slot.",
+      "translation": "通过武器槽显现。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " materializes via a weapon slot.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/7ac1a9.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "7ac1a9: 68 84 9f bf 00               \tpush\t0xbf9f84 ; TEXT 0xbf9f84=\" materializes via a weapon slot.\""
+        },
+        {
+          "line": 106,
+          "instruction": "7ac1bc: e8 2f 27 22 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "7ac1cb: e8 60 49 20 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 115,
+          "instruction": "7ac1df: e8 ac b0 c5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b7f50",
+        "0x572ea0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x7ac1a9"
+      ],
+      "covers_string_vas": [
+        "0xbf9f84"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " blips out of existence for a moment, then partially fades back in.",
+      "source": "blips out of existence for a moment, then partially fades back in.",
+      "translation": "瞬间消失，又逐渐显现回来。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " blips out of existence for a moment, then partially fades back in.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/7acedd.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "7acedd: 68 e8 9f bf 00               \tpush\t0xbf9fe8 ; TEXT 0xbf9fe8=\" blips out of existence for a moment, then partially fades back in.\""
+        },
+        {
+          "line": 106,
+          "instruction": "7acef0: e8 fb 19 22 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "7aceff: e8 2c 3c 20 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 115,
+          "instruction": "7acf13: e8 78 a3 c5 ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b7f50",
+        "0x572ea0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x7acedd"
+      ],
+      "covers_string_vas": [
+        "0xbf9fe8"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "完整独立句子。"
+    },
+    {
+      "raw_template": " ripped apart by twisting subspace fabric.",
+      "source": "ripped apart by twisting subspace fabric.",
+      "translation": "被扭曲的子空间织构撕碎。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " ripped apart by twisting subspace fabric.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/82f384.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "82f378: e8 e3 41 c3 ff               \tcall\t0x463560 <PHYSFSRWOPS_openAppend+0x5fad0>"
+        },
+        {
+          "line": 101,
+          "instruction": "82f384: 68 7c 0f c0 00               \tpush\t0xc00f7c ; TEXT 0xc00f7c=\" ripped apart by twisting subspace fabric.\""
+        },
+        {
+          "line": 107,
+          "instruction": "82f39c: e8 3f 0f 1a 00               \tcall\t0x9d02e0 <PHYSFSRWOPS_openAppend+0x5cc850>"
+        },
+        {
+          "line": 109,
+          "instruction": "82f3a3: e8 c8 40 c3 ff               \tcall\t0x463470 <PHYSFSRWOPS_openAppend+0x5f9e0>"
+        },
+        {
+          "line": 111,
+          "instruction": "82f3aa: e8 61 8b 18 00               \tcall\t0x9b7f10 <PHYSFSRWOPS_openAppend+0x5b4480>"
+        },
+        {
+          "line": 113,
+          "instruction": "82f3b1: e8 da 7c be ff               \tcall\t0x417090 <PHYSFSRWOPS_openAppend+0x13600>"
+        },
+        {
+          "line": 117,
+          "instruction": "82f3be: e8 dd f6 19 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        }
+      ],
+      "calls": [
+        "0x463560",
+        "0x9d02e0",
+        "0x463470",
+        "0x9b7f10",
+        "0x417090",
+        "0x9ceaa0"
+      ],
+      "covers_xrefs": [
+        "0x82f384"
+      ],
+      "covers_string_vas": [
+        "0xc00f7c"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " sort of build. As for the details...",
+      "source": "sort of build. As for the details...",
+      "translation": "某种配置。至于细节……",
+      "components": [
+        {
+          "type": "literal",
+          "text": " sort of build. As for the details...",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/8f753c.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "8f753c: 68 34 51 c0 00               \tpush\t0xc05134 ; TEXT 0xc05134=\" sort of build. As for the details...\""
+        },
+        {
+          "line": 106,
+          "instruction": "8f754f: e8 9c 73 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "8f757a: e8 11 a6 0b 00               \tcall\t0x9b1b90 <PHYSFSRWOPS_openAppend+0x5ae100>"
+        },
+        {
+          "line": 118,
+          "instruction": "8f7589: e8 a2 95 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce830",
+        "0x9ce8f0",
+        "0x9b1b90",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x8f753c"
+      ],
+      "covers_string_vas": [
+        "0xc05134"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "Impressive surplus mass support. Even if you were to lose some ",
+      "source": "Impressive surplus mass support. Even if you were to lose some",
+      "translation": "充裕的额外质量支撑。即使你失去一些",
+      "components": [
+        {
+          "type": "literal",
+          "text": "Impressive surplus mass support. Even if you were to lose some ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/8f76cd.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "8f76cd: 68 68 52 c0 00               \tpush\t0xc05268 ; TEXT 0xc05268=\"Impressive surplus mass support. Even if you were to lose some \""
+        },
+        {
+          "line": 104,
+          "instruction": "8f76d9: e8 d2 70 0d 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "8f76f7: 68 f0 51 c0 00               \tpush\t0xc051f0 ; TEXT 0xc051f0=\" support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.\""
+        },
+        {
+          "line": 115,
+          "instruction": "8f770a: e8 e1 71 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x408490",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x8f76cd"
+      ],
+      "covers_string_vas": [
+        "0xc05268"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "source": "support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "translation": "有了这些支撑，即使遭遇意外命中、过热或其他异常，你仍能相当从容地撤离。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/8f76f7.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "8f76f7: 68 f0 51 c0 00               \tpush\t0xc051f0 ; TEXT 0xc051f0=\" support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.\""
+        },
+        {
+          "line": 106,
+          "instruction": "8f770a: e8 e1 71 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "8f7735: e8 56 a4 0b 00               \tcall\t0x9b1b90 <PHYSFSRWOPS_openAppend+0x5ae100>"
+        },
+        {
+          "line": 118,
+          "instruction": "8f7744: e8 e7 93 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b1b90",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x8f76f7"
+      ],
+      "covers_string_vas": [
+        "0xc051f0"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "source": "speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "translation": "你的速度已经够快了。足以闪避或甩开步兵之类的敌人。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/8f798a.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "8f798a: 68 b8 53 c0 00               \tpush\t0xc053b8 ; TEXT 0xc053b8=\" speed you've got there. More than enough to dodge or outrun Grunts and the like.\""
+        },
+        {
+          "line": 106,
+          "instruction": "8f799d: e8 4e 6f 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "8f79c8: e8 c3 a1 0b 00               \tcall\t0x9b1b90 <PHYSFSRWOPS_openAppend+0x5ae100>"
+        },
+        {
+          "line": 118,
+          "instruction": "8f79d7: e8 54 91 0b 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b1b90",
+        "0x9b0b30"
+      ],
+      "covers_xrefs": [
+        "0x8f798a"
+      ],
+      "covers_string_vas": [
+        "0xc053b8"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " looks a bit greedy.",
+      "source": "looks a bit greedy.",
+      "translation": "看起来有点贪心。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " looks a bit greedy.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/8f7e02.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "8f7e02: 68 44 55 c0 00               \tpush\t0xc05544 ; TEXT 0xc05544=\" looks a bit greedy.\""
+        },
+        {
+          "line": 106,
+          "instruction": "8f7e15: e8 d6 6a 0d 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 115,
+          "instruction": "8f7e40: e8 cb a0 0b 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 117,
+          "instruction": "8f7e47: e8 64 8d 0b 00               \tcall\t0x9b0bb0 <PHYSFSRWOPS_openAppend+0x5ad120>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b1f10",
+        "0x9b0bb0"
+      ],
+      "covers_xrefs": [
+        "0x8f7e02"
+      ],
+      "covers_string_vas": [
+        "0xc05544"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " rendered useless by plates shifting to reveal entrance.",
+      "source": "rendered useless by plates shifting to reveal entrance.",
+      "translation": "板块移开露出入口后便失去作用。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " rendered useless by plates shifting to reveal entrance.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9216e8.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "9216d8: e8 f3 fd 08 00               \tcall\t0x9b14d0 <PHYSFSRWOPS_openAppend+0x5ada40>"
+        },
+        {
+          "line": 101,
+          "instruction": "9216e8: 68 0c a2 c0 00               \tpush\t0xc0a20c ; TEXT 0xc0a20c=\" rendered useless by plates shifting to reveal entrance.\""
+        },
+        {
+          "line": 106,
+          "instruction": "9216fb: e8 a0 d3 0a 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 113,
+          "instruction": "921716: e8 75 5b ae ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        },
+        {
+          "line": 117,
+          "instruction": "921724: e8 67 5b ae ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x454480",
+        "0x9b14d0",
+        "0x9ceaa0",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x9216e8"
+      ],
+      "covers_string_vas": [
+        "0xc0a20c"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "\n  Acceleration Regulator",
+      "source": "Acceleration Regulator",
+      "translation": "\n  加速度调节器",
+      "components": [
+        {
+          "type": "literal",
+          "text": "\n  Acceleration Regulator",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/928521.asm",
+      "assembly_lines": [
+        {
+          "line": 98,
+          "instruction": "928511: 68 3c ad c0 00               \tpush\t0xc0ad3c ; TEXT 0xc0ad3c=\"\\n  Mindflail\""
+        },
+        {
+          "line": 100,
+          "instruction": "92851c: e8 af 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 101,
+          "instruction": "928521: 68 4c ad c0 00               \tpush\t0xc0ad4c ; TEXT 0xc0ad4c=\"\\n  Acceleration Regulator\""
+        },
+        {
+          "line": 103,
+          "instruction": "92852c: e8 9f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 104,
+          "instruction": "928531: 68 68 ad c0 00               \tpush\t0xc0ad68 ; TEXT 0xc0ad68=\"\\n  Hcp. Trap Extractor\""
+        },
+        {
+          "line": 106,
+          "instruction": "92853c: e8 8f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 107,
+          "instruction": "928541: 68 80 ad c0 00               \tpush\t0xc0ad80 ; TEXT 0xc0ad80=\"\\n  Preattuning Coils\""
+        },
+        {
+          "line": 109,
+          "instruction": "92854c: e8 7f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 110,
+          "instruction": "928551: 68 98 ad c0 00               \tpush\t0xc0ad98 ; TEXT 0xc0ad98=\"\\n  Mak. Powered Armor\""
+        },
+        {
+          "line": 112,
+          "instruction": "92855c: e8 6f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 113,
+          "instruction": "928561: 68 b0 ad c0 00               \tpush\t0xc0adb0 ; TEXT 0xc0adb0=\"\\n  Regenerative Guardplate\""
+        },
+        {
+          "line": 115,
+          "instruction": "92856c: e8 5f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 116,
+          "instruction": "928571: 68 cc ad c0 00               \tpush\t0xc0adcc ; TEXT 0xc0adcc=\"\\n  Interdictor 741C\""
+        },
+        {
+          "line": 118,
+          "instruction": "92857c: e8 4f 86 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x781230",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x928521"
+      ],
+      "covers_string_vas": [
+        "0xc0ad4c"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "\nWARNING: Removing SEP-X without authorization\nis a serious offense. Repeat command to confirm.",
+      "source": "WARNING: Removing SEP-X without authorization is a serious offense. Repeat command to confirm.",
+      "translation": "\n警告：未经授权移除SEP-X\n属于严重违规。请再次执行命令以确认。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "\nWARNING: Removing SEP-X without authorization\nis a serious offense. Repeat command to confirm.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9295b7.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "9295a5: 68 80 b2 c0 00               \tpush\t0xc0b280 ; TEXT 0xc0b280=\"\\nWARNING: Removing SEP-X while under threat of\\nSubdwellers is not advised. Repeat command to confirm.\""
+        },
+        {
+          "line": 99,
+          "instruction": "9295b0: e8 1b 76 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 101,
+          "instruction": "9295b7: 68 e8 b2 c0 00               \tpush\t0xc0b2e8 ; TEXT 0xc0b2e8=\"\\nWARNING: Removing SEP-X without authorization\\nis a serious offense. Repeat command to confirm.\""
+        },
+        {
+          "line": 103,
+          "instruction": "9295c2: e8 09 76 08 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 112,
+          "instruction": "9295e1: e8 9a 54 fe ff               \tcall\t0x90ea80 <PHYSFSRWOPS_openAppend+0x50aff0>"
+        },
+        {
+          "line": 118,
+          "instruction": "9295fc: e8 8f e8 08 00               \tcall\t0x9b7e90 <PHYSFSRWOPS_openAppend+0x5b4400>"
+        }
+      ],
+      "calls": [
+        "0x9b0b30",
+        "0x9b0bd0",
+        "0x90ea80",
+        "0x9b7e90"
+      ],
+      "covers_xrefs": [
+        "0x9295b7"
+      ],
+      "covers_string_vas": [
+        "0xc0b2e8"
+      ],
+      "confidence": "high",
+      "status": "reconstructed_candidate",
+      "notes": "Self-contained complete literal at this xref."
+    },
+    {
+      "raw_template": " Support from the recent Fedlink buildup ",
+      "source": "Support from the recent Fedlink buildup",
+      "translation": "近期远联势力扩张带来的支持",
+      "components": [
+        {
+          "type": "literal",
+          "text": " Support from the recent Fedlink buildup ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9341ca.asm",
+      "assembly_lines": [
+        {
+          "line": 98,
+          "instruction": "9341be: e8 4d dd 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 100,
+          "instruction": "9341c5: e8 06 ca 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 101,
+          "instruction": "9341ca: 68 ec c9 c0 00               \tpush\t0xc0c9ec ; TEXT 0xc0c9ec=\" Support from the recent Fedlink buildup \""
+        },
+        {
+          "line": 103,
+          "instruction": "9341d5: e8 36 dd 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 105,
+          "instruction": "9341dc: e8 ef c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 112,
+          "instruction": "934207: 68 28 cb c0 00               \tpush\t0xc0cb28 ; TEXT 0xc0cb28=\"is limited, but with our capabilities exposed it's now or never.\""
+        },
+        {
+          "line": 114,
+          "instruction": "934212: e8 f9 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 116,
+          "instruction": "934219: e8 b2 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 118,
+          "instruction": "934220: 68 88 cb c0 00               \tpush\t0xc0cb88 ; TEXT 0xc0cb88=\"is lower than I'd prefer, but with our capabilities exposed it's now or never.\""
+        }
+      ],
+      "calls": [
+        "0x9b1f10",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x9341ca"
+      ],
+      "covers_string_vas": [
+        "0xc0c9ec"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "is limited, but with our capabilities exposed it's now or never.",
+      "source": "is limited, but with our capabilities exposed it's now or never.",
+      "translation": "有限，但我们的能力已经暴露，现在只能放手一搏。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "is limited, but with our capabilities exposed it's now or never.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/934207.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "934207: 68 28 cb c0 00               \tpush\t0xc0cb28 ; TEXT 0xc0cb28=\"is limited, but with our capabilities exposed it's now or never.\""
+        },
+        {
+          "line": 103,
+          "instruction": "934212: e8 f9 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 105,
+          "instruction": "934219: e8 b2 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 107,
+          "instruction": "934220: 68 88 cb c0 00               \tpush\t0xc0cb88 ; TEXT 0xc0cb88=\"is lower than I'd prefer, but with our capabilities exposed it's now or never.\""
+        },
+        {
+          "line": 109,
+          "instruction": "93422b: e8 e0 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 111,
+          "instruction": "934232: e8 99 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 113,
+          "instruction": "934239: 68 d8 cb c0 00               \tpush\t0xc0cbd8 ; TEXT 0xc0cbd8=\"is at reasonable levels, I'm fairly confident we can do this if everyone is on board.\""
+        },
+        {
+          "line": 115,
+          "instruction": "934244: e8 c7 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 117,
+          "instruction": "93424b: e8 80 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b0bd0",
+        "0x9b1f10"
+      ],
+      "covers_xrefs": [
+        "0x934207"
+      ],
+      "covers_string_vas": [
+        "0xc0cb28"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "source": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "translation": "比我希望的要低，但我们的能力已经暴露，现在只能放手一搏。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/934220.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "934212: e8 f9 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 99,
+          "instruction": "934219: e8 b2 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 101,
+          "instruction": "934220: 68 88 cb c0 00               \tpush\t0xc0cb88 ; TEXT 0xc0cb88=\"is lower than I'd prefer, but with our capabilities exposed it's now or never.\""
+        },
+        {
+          "line": 103,
+          "instruction": "93422b: e8 e0 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 105,
+          "instruction": "934232: e8 99 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 107,
+          "instruction": "934239: 68 d8 cb c0 00               \tpush\t0xc0cbd8 ; TEXT 0xc0cbd8=\"is at reasonable levels, I'm fairly confident we can do this if everyone is on board.\""
+        },
+        {
+          "line": 109,
+          "instruction": "934244: e8 c7 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 111,
+          "instruction": "93424b: e8 80 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 113,
+          "instruction": "934252: 68 6c cb c0 00               \tpush\t0xc0cb6c ; TEXT 0xc0cb6c=\"seems good, we've got this!\""
+        },
+        {
+          "line": 115,
+          "instruction": "93425d: e8 ae dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 117,
+          "instruction": "934264: e8 67 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b1f10",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x934220"
+      ],
+      "covers_string_vas": [
+        "0xc0cb88"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "source": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "translation": "处于合理水平；只要大家都同意，我有信心能办成。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/934239.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "93422b: e8 e0 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 99,
+          "instruction": "934232: e8 99 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 101,
+          "instruction": "934239: 68 d8 cb c0 00               \tpush\t0xc0cbd8 ; TEXT 0xc0cbd8=\"is at reasonable levels, I'm fairly confident we can do this if everyone is on board.\""
+        },
+        {
+          "line": 103,
+          "instruction": "934244: e8 c7 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 105,
+          "instruction": "93424b: e8 80 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 107,
+          "instruction": "934252: 68 6c cb c0 00               \tpush\t0xc0cb6c ; TEXT 0xc0cb6c=\"seems good, we've got this!\""
+        },
+        {
+          "line": 109,
+          "instruction": "93425d: e8 ae dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 111,
+          "instruction": "934264: e8 67 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 113,
+          "instruction": "93426b: 68 30 cc c0 00               \tpush\t0xc0cc30 ; TEXT 0xc0cc30=\"is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!\""
+        },
+        {
+          "line": 115,
+          "instruction": "934276: e8 95 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 117,
+          "instruction": "93427d: e8 4e c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        }
+      ],
+      "calls": [
+        "0x9b0bd0",
+        "0x9b1f10"
+      ],
+      "covers_xrefs": [
+        "0x934239"
+      ],
+      "covers_string_vas": [
+        "0xc0cbd8"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "source": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "translation": "相当强劲；新建的原型锻炉很快就能生产0bPrime技术！",
+      "components": [
+        {
+          "type": "literal",
+          "text": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/93426b.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "93425d: e8 ae dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 99,
+          "instruction": "934264: e8 67 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 101,
+          "instruction": "93426b: 68 30 cc c0 00               \tpush\t0xc0cc30 ; TEXT 0xc0cc30=\"is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!\""
+        },
+        {
+          "line": 103,
+          "instruction": "934276: e8 95 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 105,
+          "instruction": "93427d: e8 4e c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 107,
+          "instruction": "934284: 68 94 cc c0 00               \tpush\t0xc0cc94 ; TEXT 0xc0cc94=\"is at unprecedented levels, MAIN.C doesn't stand a chance!\""
+        },
+        {
+          "line": 109,
+          "instruction": "93428f: e8 7c dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 111,
+          "instruction": "934296: e8 35 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 112,
+          "instruction": "93429b: 68 d0 cc c0 00               \tpush\t0xc0ccd0 ; TEXT 0xc0ccd0=\"frgUfdAttacked_g\""
+        },
+        {
+          "line": 114,
+          "instruction": "9342a6: e8 25 c6 07 00               \tcall\t0x9b08d0 <PHYSFSRWOPS_openAppend+0x5ace40>"
+        },
+        {
+          "line": 117,
+          "instruction": "9342b5: e8 76 03 b3 ff               \tcall\t0x464630 <PHYSFSRWOPS_openAppend+0x60ba0>"
+        }
+      ],
+      "calls": [
+        "0x9b0bd0",
+        "0x9b1f10",
+        "0x9b08d0",
+        "0x464630"
+      ],
+      "covers_xrefs": [
+        "0x93426b"
+      ],
+      "covers_string_vas": [
+        "0xc0cc30"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "source": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "translation": "达到前所未有的水平，MAIN.C根本不是对手！",
+      "components": [
+        {
+          "type": "literal",
+          "text": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/934284.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "934276: e8 95 dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 99,
+          "instruction": "93427d: e8 4e c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 101,
+          "instruction": "934284: 68 94 cc c0 00               \tpush\t0xc0cc94 ; TEXT 0xc0cc94=\"is at unprecedented levels, MAIN.C doesn't stand a chance!\""
+        },
+        {
+          "line": 103,
+          "instruction": "93428f: e8 7c dc 07 00               \tcall\t0x9b1f10 <PHYSFSRWOPS_openAppend+0x5ae480>"
+        },
+        {
+          "line": 105,
+          "instruction": "934296: e8 35 c9 07 00               \tcall\t0x9b0bd0 <PHYSFSRWOPS_openAppend+0x5ad140>"
+        },
+        {
+          "line": 106,
+          "instruction": "93429b: 68 d0 cc c0 00               \tpush\t0xc0ccd0 ; TEXT 0xc0ccd0=\"frgUfdAttacked_g\""
+        },
+        {
+          "line": 108,
+          "instruction": "9342a6: e8 25 c6 07 00               \tcall\t0x9b08d0 <PHYSFSRWOPS_openAppend+0x5ace40>"
+        },
+        {
+          "line": 111,
+          "instruction": "9342b5: e8 76 03 b3 ff               \tcall\t0x464630 <PHYSFSRWOPS_openAppend+0x60ba0>"
+        },
+        {
+          "line": 115,
+          "instruction": "9342c2: e8 89 10 ad ff               \tcall\t0x405350 <PHYSFSRWOPS_openAppend+0x18c0>"
+        }
+      ],
+      "calls": [
+        "0x9b0bd0",
+        "0x9b1f10",
+        "0x9b08d0",
+        "0x464630",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x934284"
+      ],
+      "covers_string_vas": [
+        "0xc0cc94"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " rendered useless by plates shifting to reveal entrance.",
+      "source": "rendered useless by plates shifting to reveal entrance.",
+      "translation": "板块移开露出入口后便失去作用。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " rendered useless by plates shifting to reveal entrance.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/93738b.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "93738b: c7 85 a4 91 ff ff dc d9 c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0d9dc ; TEXT 0xc0d9dc=\" rendered useless by plates shifting to reveal entrance.\""
+        },
+        {
+          "line": 103,
+          "instruction": "937397: c7 85 a4 91 ff ff 18 da c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0da18 ; TEXT 0xc0da18=\" rendered useless by seal.\""
+        },
+        {
+          "line": 110,
+          "instruction": "9373b6: e8 e5 76 09 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 117,
+          "instruction": "9373d1: e8 ba fe ac ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b0b30",
+        "0x9b14d0",
+        "0x9ceaa0",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x93738b"
+      ],
+      "covers_string_vas": [
+        "0xc0d9dc"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " rendered useless by seal.",
+      "source": "rendered useless by seal.",
+      "translation": "被封印后失去作用。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " rendered useless by seal.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/937397.asm",
+      "assembly_lines": [
+        {
+          "line": 99,
+          "instruction": "93738b: c7 85 a4 91 ff ff dc d9 c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0d9dc ; TEXT 0xc0d9dc=\" rendered useless by plates shifting to reveal entrance.\""
+        },
+        {
+          "line": 101,
+          "instruction": "937397: c7 85 a4 91 ff ff 18 da c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0da18 ; TEXT 0xc0da18=\" rendered useless by seal.\""
+        },
+        {
+          "line": 108,
+          "instruction": "9373b6: e8 e5 76 09 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 115,
+          "instruction": "9373d1: e8 ba fe ac ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9b14d0",
+        "0x9ceaa0",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x937397"
+      ],
+      "covers_string_vas": [
+        "0xc0da18"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " rendered useless by plates shifting to reveal entrance.",
+      "source": "rendered useless by plates shifting to reveal entrance.",
+      "translation": "板块移开露出入口后便失去作用。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " rendered useless by plates shifting to reveal entrance.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9373a7.asm",
+      "assembly_lines": [
+        {
+          "line": 97,
+          "instruction": "93738b: c7 85 a4 91 ff ff dc d9 c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0d9dc ; TEXT 0xc0d9dc=\" rendered useless by plates shifting to reveal entrance.\""
+        },
+        {
+          "line": 99,
+          "instruction": "937397: c7 85 a4 91 ff ff 18 da c0 00\tmov\tdword ptr [ebp - 0x6e5c], 0xc0da18 ; TEXT 0xc0da18=\" rendered useless by seal.\""
+        },
+        {
+          "line": 101,
+          "instruction": "9373a7: 51                           \tpush\tecx"
+        },
+        {
+          "line": 106,
+          "instruction": "9373b6: e8 e5 76 09 00               \tcall\t0x9ceaa0 <PHYSFSRWOPS_openAppend+0x5cb010>"
+        },
+        {
+          "line": 113,
+          "instruction": "9373d1: e8 ba fe ac ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        },
+        {
+          "line": 117,
+          "instruction": "9373df: e8 ac fe ac ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9ceaa0",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x9373a7"
+      ],
+      "covers_string_vas": [
+        "0xc0d9dc",
+        "0xc0da18"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window.",
+      "variants": [
+        {
+          "raw_template": " rendered useless by plates shifting to reveal entrance.",
+          "source": "rendered useless by plates shifting to reveal entrance.",
+          "translation": "板块移开露出入口后便失去作用。",
+          "components": [
+            {
+              "type": "literal",
+              "text": " rendered useless by plates shifting to reveal entrance.",
+              "source": "immediate string reference; full display boundary not established"
+            }
+          ]
+        },
+        {
+          "raw_template": " rendered useless by seal.",
+          "source": "rendered useless by seal.",
+          "translation": "被封印后失去作用。",
+          "components": [
+            {
+              "type": "literal",
+              "text": " rendered useless by seal.",
+              "source": "immediate string reference; full display boundary not established"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "raw_template": "ALERT: Suspicious activity reported at ",
+      "source": "ALERT: Suspicious activity reported at",
+      "translation": "ALERT: 在以下地点报告可疑活动：",
+      "components": [
+        {
+          "type": "literal",
+          "text": "ALERT: Suspicious activity reported at ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9394d9.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9394d9: 68 a0 de c0 00               \tpush\t0xc0dea0 ; TEXT 0xc0dea0=\"ALERT: Suspicious activity reported at \""
+        },
+        {
+          "line": 104,
+          "instruction": "9394e5: e8 c6 52 09 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "939503: 68 70 de c0 00               \tpush\t0xc0de70 ; TEXT 0xc0de70=\". Dispatching Cutter search squad to Garrison.\""
+        },
+        {
+          "line": 115,
+          "instruction": "939516: e8 d5 53 09 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x65dd40",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x9394d9"
+      ],
+      "covers_string_vas": [
+        "0xc0dea0"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " until cutoff.",
+      "source": "until cutoff.",
+      "translation": "直到截止时刻。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " until cutoff.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/951943.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "951943: 68 24 fe c0 00               \tpush\t0xc0fe24 ; TEXT 0xc0fe24=\" until cutoff.\""
+        },
+        {
+          "line": 106,
+          "instruction": "951956: e8 95 cf 07 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "951968: e8 c3 f1 05 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 113,
+          "instruction": "951977: e8 b4 f1 05 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 117,
+          "instruction": "951986: e8 05 59 ab ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x951943"
+      ],
+      "covers_string_vas": [
+        "0xc0fe24"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " until cutoff.",
+      "source": "until cutoff.",
+      "translation": "直到截止时刻。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " until cutoff.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/951a75.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "951a75: 68 58 fe c0 00               \tpush\t0xc0fe58 ; TEXT 0xc0fe58=\" until cutoff.\""
+        },
+        {
+          "line": 106,
+          "instruction": "951a88: e8 63 ce 07 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "951a9a: e8 91 f0 05 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 113,
+          "instruction": "951aa9: e8 82 f0 05 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 117,
+          "instruction": "951ab8: e8 d3 57 ab ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x951a75"
+      ],
+      "covers_string_vas": [
+        "0xc0fe58"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": " to completion.",
+      "source": "to completion.",
+      "translation": "直至完成。",
+      "components": [
+        {
+          "type": "literal",
+          "text": " to completion.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/951e9d.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "951e9d: 68 c4 fe c0 00               \tpush\t0xc0fec4 ; TEXT 0xc0fec4=\" to completion.\""
+        },
+        {
+          "line": 106,
+          "instruction": "951eb0: e8 3b ca 07 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        },
+        {
+          "line": 110,
+          "instruction": "951ec2: e8 69 ec 05 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 113,
+          "instruction": "951ed1: e8 5a ec 05 00               \tcall\t0x9b0b30 <PHYSFSRWOPS_openAppend+0x5ad0a0>"
+        },
+        {
+          "line": 117,
+          "instruction": "951ee0: e8 ab 53 ab ff               \tcall\t0x407290 <PHYSFSRWOPS_openAppend+0x3800>"
+        }
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b30",
+        "0x407290"
+      ],
+      "covers_xrefs": [
+        "0x951e9d"
+      ],
+      "covers_string_vas": [
+        "0xc0fec4"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "If only there was a way to ",
+      "source": "If only there was a way to",
+      "translation": "要是有办法能",
+      "components": [
+        {
+          "type": "literal",
+          "text": "If only there was a way to ",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/956b16.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "956b16: 68 f0 09 c1 00               \tpush\t0xc109f0 ; TEXT 0xc109f0=\"If only there was a way to \""
+        },
+        {
+          "line": 104,
+          "instruction": "956b22: e8 89 7c 07 00               \tcall\t0x9ce7b0 <PHYSFSRWOPS_openAppend+0x5cad20>"
+        },
+        {
+          "line": 110,
+          "instruction": "956b40: 68 ec 09 c1 00               \tpush\t0xc109ec ; TEXT 0xc109ec=\".\""
+        },
+        {
+          "line": 115,
+          "instruction": "956b53: e8 98 7d 07 00               \tcall\t0x9ce8f0 <PHYSFSRWOPS_openAppend+0x5cae60>"
+        }
+      ],
+      "calls": [
+        "0x9d50e0",
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x956b16"
+      ],
+      "covers_string_vas": [
+        "0xc109f0"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "while I steal that schematic before they can even call for help.",
+      "source": "while I steal that schematic before they can even call for help.",
+      "translation": "趁我偷走那份设计图，他们甚至还来不及呼救。",
+      "components": [
+        {
+          "type": "literal",
+          "text": "while I steal that schematic before they can even call for help.",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/957089.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "957089: 68 68 0b c1 00               \tpush\t0xc10b68 ; TEXT 0xc10b68=\"while I steal that schematic before they can even call for help.\""
+        },
+        {
+          "line": 103,
+          "instruction": "957094: e8 d7 9a 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 106,
+          "instruction": "9570a4: e8 c7 9a 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 110,
+          "instruction": "9570b6: e8 85 ae 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        },
+        {
+          "line": 114,
+          "instruction": "9570c8: e8 73 ae 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        }
+      ],
+      "calls": [
+        "0x9b1f40",
+        "0x9b0b70"
+      ],
+      "covers_xrefs": [
+        "0x957089"
+      ],
+      "covers_string_vas": [
+        "0xc10b68"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "source": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "translation": "真会让你大开眼界：试着在这里安装我的Trojan(Skim)",
+      "components": [
+        {
+          "type": "literal",
+          "text": "will really blow your mind: Try installing my Trojan(Skim) at",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9571a1.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9571a1: 68 f4 0b c1 00               \tpush\t0xc10bf4 ; TEXT 0xc10bf4=\"will really blow your mind: Try installing my Trojan(Skim) at\""
+        },
+        {
+          "line": 103,
+          "instruction": "9571ac: e8 bf 99 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 106,
+          "instruction": "9571bc: e8 af 99 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 110,
+          "instruction": "9571ce: e8 6d ad 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        },
+        {
+          "line": 114,
+          "instruction": "9571e0: e8 5b ad 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        }
+      ],
+      "calls": [
+        "0x9b1f40",
+        "0x9b0b70"
+      ],
+      "covers_xrefs": [
+        "0x9571a1"
+      ],
+      "covers_string_vas": [
+        "0xc10bf4"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "intercept whatever it can find, and the data will also feed back",
+      "source": "intercept whatever it can find, and the data will also feed back",
+      "translation": "拦截它能找到的一切，数据也会回传",
+      "components": [
+        {
+          "type": "literal",
+          "text": "intercept whatever it can find, and the data will also feed back",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/957239.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "957239: 68 b8 0c c1 00               \tpush\t0xc10cb8 ; TEXT 0xc10cb8=\"intercept whatever it can find, and the data will also feed back\""
+        },
+        {
+          "line": 103,
+          "instruction": "957244: e8 27 99 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 106,
+          "instruction": "957254: e8 17 99 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 110,
+          "instruction": "957266: e8 d5 ac 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        },
+        {
+          "line": 114,
+          "instruction": "957278: e8 c3 ac 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        }
+      ],
+      "calls": [
+        "0x9b1f40",
+        "0x9b0b70"
+      ],
+      "covers_xrefs": [
+        "0x957239"
+      ],
+      "covers_string_vas": [
+        "0xc10cb8"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "to me here for my wiki so we can all benefit!",
+      "source": "to me here for my wiki so we can all benefit!",
+      "translation": "传给我放进维基，这样大家都能受益！",
+      "components": [
+        {
+          "type": "literal",
+          "text": "to me here for my wiki so we can all benefit!",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/957285.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "957285: 68 fc 0c c1 00               \tpush\t0xc10cfc ; TEXT 0xc10cfc=\"to me here for my wiki so we can all benefit!\""
+        },
+        {
+          "line": 103,
+          "instruction": "957290: e8 db 98 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 106,
+          "instruction": "9572a0: e8 cb 98 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 110,
+          "instruction": "9572b2: e8 89 ac 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        },
+        {
+          "line": 114,
+          "instruction": "9572c4: e8 77 ac 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        }
+      ],
+      "calls": [
+        "0x9b1f40",
+        "0x9b0b70"
+      ],
+      "covers_xrefs": [
+        "0x957285"
+      ],
+      "covers_string_vas": [
+        "0xc10cfc"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    },
+    {
+      "raw_template": "If the Merchants find out I took this prototype before it was finished,",
+      "source": "If the Merchants find out I took this prototype before it was finished,",
+      "translation": "要是商人们发现我在原型机完工前就把它拿走了，",
+      "components": [
+        {
+          "type": "literal",
+          "text": "If the Merchants find out I took this prototype before it was finished,",
+          "source": "immediate string reference; full display boundary not established"
+        }
+      ],
+      "assembly_file": "build/rea/fragment-windows/9574cc.asm",
+      "assembly_lines": [
+        {
+          "line": 101,
+          "instruction": "9574cc: 68 c8 0d c1 00               \tpush\t0xc10dc8 ; TEXT 0xc10dc8=\"If the Merchants find out I took this prototype before it was finished,\""
+        },
+        {
+          "line": 103,
+          "instruction": "9574d7: e8 94 96 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 106,
+          "instruction": "9574e7: e8 84 96 05 00               \tcall\t0x9b0b70 <PHYSFSRWOPS_openAppend+0x5ad0e0>"
+        },
+        {
+          "line": 110,
+          "instruction": "9574f9: e8 42 aa 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        },
+        {
+          "line": 114,
+          "instruction": "95750b: e8 30 aa 05 00               \tcall\t0x9b1f40 <PHYSFSRWOPS_openAppend+0x5ae4b0>"
+        }
+      ],
+      "calls": [
+        "0x457a40",
+        "0x9ce790",
+        "0x9b0b70",
+        "0x9b1f40"
+      ],
+      "covers_xrefs": [
+        "0x9574cc"
+      ],
+      "covers_string_vas": [
+        "0xc10dc8"
+      ],
+      "confidence": "unresolved",
+      "status": "unresolved",
+      "notes": "This xref exposes only a literal fragment. Nearby strings are not joined speculatively; full template boundary/capture dataflow is not established from the cited window."
+    }
+  ]
+}

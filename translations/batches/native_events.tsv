@@ -1,0 +1,11 @@
+ALERT: Derelict incursion at {*}, dispatching Demolisher response squad.	遗民入侵：{*}，派遣拆毁者应对小队。
+Established visual feed link with {*}	已建立与{*}的视觉信号连接
+ANNOUNCEMENT: Warlord currently on {*} approach. All units hit designated targets.	公告：军阀正沿{*}逼近。全体单位攻击指定目标。
+ANNOUNCEMENT: Unaware assault squad dispatched in {*} quadrant.	公告：无觉者突击小队已派往{*}象限。
+SPECIAL: For the next {n} turns your loot boxes might contain... {*}!	特别效果：接下来{n}回合，战利品箱可能开出……{*}！
+Unlike other parts in RPGLIKE mode that transfer {n}% of incoming damage to your core, all Armor type parts instead transfer only {n}%.	与角色扮演模式下其他会将{n}%伤害转移至核心的部件不同，所有装甲类部件只转移{n}%。
+Unlike other parts in BattleRoyale mode that transfer {n}% of incoming damage to your core, all Armor type parts instead transfer only {n}%.	与大逃杀模式下其他会将{n}%伤害转移至核心的部件不同，所有装甲类部件只转移{n}%。
+ALERT: Suspicious activity reported at {*}. Dispatching Cutter search squad to Garrison.	警报：{*}报告可疑活动。派遣切割者搜索小队前往驻防站。
+Re-established visual feed link, T-{n} until cutoff.	已重新建立视觉信号连接，距中断还有T-{n}。
+Established visual feed link, T-{n} until cutoff.	已建立视觉信号连接，距中断还有T-{n}。
+If only there was a way to {*}.	要是有办法能{*}就好了。

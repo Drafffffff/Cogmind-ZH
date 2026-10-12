@@ -1,0 +1,500 @@
+Failed to disarm Alarm Trap.	未能解除警报陷阱。
+Disarmed {n} Ambush Traps.	已解除{n}个伏击陷阱。
+Disarmed {n} Ambush Trap.	已解除{n}个伏击陷阱。
+Disarmed Ambush Trap.	已解除伏击陷阱。
+Failed to disarm Ambush Trap.	未能解除伏击陷阱。
+Disarmed {n} Armageddon Traps.	已解除{n}个末日陷阱。
+Disarmed {n} Armageddon Trap.	已解除{n}个末日陷阱。
+Disarmed Armageddon Trap.	已解除末日陷阱。
+Failed to disarm Armageddon Trap.	未能解除末日陷阱。
+Disarmed {n} Blade Traps.	已解除{n}个刀刃陷阱。
+Disarmed {n} Blade Trap.	已解除{n}个刀刃陷阱。
+Disarmed Blade Trap.	已解除刀刃陷阱。
+Failed to disarm Blade Trap.	未能解除刀刃陷阱。
+Disarmed {n} Chute Traps.	已解除{n}个滑道陷阱。
+Disarmed {n} Chute Trap.	已解除{n}个滑道陷阱。
+Disarmed Chute Trap.	已解除滑道陷阱。
+Failed to disarm Chute Trap.	未能解除滑道陷阱。
+Disarmed {n} Dirty Bomb Traps.	已解除{n}个脏弹陷阱。
+Disarmed {n} Dirty Bomb Trap.	已解除{n}个脏弹陷阱。
+Disarmed Dirty Bomb Trap.	已解除脏弹陷阱。
+Failed to disarm Dirty Bomb Trap.	未能解除脏弹陷阱。
+Disarmed {n} EM Surge Traps.	已解除{n}个电磁脉冲陷阱。
+Disarmed {n} EM Surge Trap.	已解除{n}个电磁脉冲陷阱。
+Disarmed EM Surge Trap.	已解除电磁脉冲陷阱。
+Failed to disarm EM Surge Trap.	未能解除电磁脉阱。
+Disarmed {n} EMP Traps.	已解除{n}个EMP陷阱。
+Disarmed {n} EMP Trap.	已解除{n}个EMP陷阱。
+Disarmed EMP Trap.	已解除EMP陷阱。
+Failed to disarm EMP Trap.	未能解除EMP陷阱。
+Disarmed {n} Explosive Traps.	已解除{n}个爆炸陷阱。
+Disarmed {n} Explosive Trap.	已解除{n}个爆炸陷阱。
+Disarmed Explosive Trap.	已解除爆炸陷阱。
+Failed to disarm Explosive Trap.	未能解除爆炸陷阱。
+Disarmed {n} Fire Traps.	已解除{n}个火焰陷阱。
+Disarmed {n} Fire Trap.	已解除{n}个火焰陷阱。
+Disarmed Fire Trap.	已解除火焰陷阱。
+Failed to disarm Fire Trap.	未能解除火焰陷阱。
+Disarmed {n} Fusion Bomb Traps.	已解除{n}个聚变炸弹陷阱。
+Disarmed {n} Fusion Bomb Trap.	已解除{n}个聚变炸弹陷阱。
+Disarmed Fusion Bomb Trap.	已解除聚变炸弹陷阱。
+Failed to disarm Fusion Bomb Trap.	未能解除聚变炸弹陷阱。
+Disarmed {n} Gamma Bomb Traps.	已解除{n}个伽马炸弹陷阱。
+Disarmed {n} Gamma Bomb Trap.	已解除{n}个伽马炸弹陷阱。
+Disarmed Gamma Bomb Trap.	已解除伽马炸弹陷阱。
+Failed to disarm Gamma Bomb Trap.	未能解除伽马炸弹陷阱。
+Disarmed {n} Heat Bomb Traps.	已解除{n}个热能炸弹陷阱。
+Disarmed {n} Heat Bomb Trap.	已解除{n}个热能炸弹陷阱。
+Disarmed Heat Bomb Trap.	已解除热能炸弹陷阱。
+Failed to disarm Heat Bomb Trap.	未能解除热能炸弹陷阱。
+Disarmed {n} Heavy Explosive Traps.	已解除{n}个重型爆炸陷阱。
+Disarmed {n} Heavy Explosive Trap.	已解除{n}个重型爆炸陷阱。
+Disarmed Heavy Explosive Trap.	已解除重型爆炸陷阱。
+Failed to disarm Heavy Explosive Trap.	未能解除重型爆炸陷阱。
+Disarmed {n} Hellfire Traps.	已解除{n}个地狱火陷阱。
+Disarmed {n} Hellfire Trap.	已解除{n}个地狱火陷阱。
+Disarmed Hellfire Trap.	已解除地狱火陷阱。
+Failed to disarm Hellfire Trap.	未能解除地狱火陷阱。
+Disarmed {n} Piercing Traps.	已解除{n}个穿刺陷阱。
+Disarmed {n} Piercing Trap.	已解除{n}个穿刺陷阱。
+Disarmed Piercing Trap.	已解除穿刺陷阱。
+Failed to disarm Piercing Trap.	未能解除穿刺陷阱。
+Disarmed {n} Proton Bomb Traps.	已解除{n}个质子炸弹陷阱。
+Disarmed {n} Proton Bomb Trap.	已解除{n}个质子炸弹陷阱。
+Disarmed Proton Bomb Trap.	已解除质子炸弹陷阱。
+Failed to disarm Proton Bomb Trap.	未能解除质子炸弹陷阱。
+Disarmed {n} Segregator Traps.	已解除{n}个分离器陷阱。
+Disarmed {n} Segregator Trap.	已解除{n}个分离器陷阱。
+Disarmed Segregator Trap.	已解除分离器陷阱。
+Failed to disarm Segregator Trap.	未能解除分离器陷阱。
+Disarmed {n} Shock Traps.	已解除{n}个电击陷阱。
+Disarmed {n} Shock Trap.	已解除{n}个电击陷阱。
+Disarmed Shock Trap.	已解除电击陷阱。
+Failed to disarm Shock Trap.	未能解除电击陷阱。
+Disarmed {n} Shrapnel Traps.	已解除{n}个弹片陷阱。
+Disarmed {n} Shrapnel Trap.	已解除{n}个弹片陷阱。
+Disarmed Shrapnel Trap.	已解除弹片陷阱。
+Failed to disarm Shrapnel Trap.	未能解除弹片陷阱。
+Disarmed {n} Stasis Traps.	已解除{n}个停滞陷阱。
+Disarmed {n} Stasis Trap.	已解除{n}个停滞陷阱。
+Disarmed Stasis Trap.	已解除停滞陷阱。
+Failed to disarm Stasis Trap.	未能解除停滞陷阱。
+Disarmed {n} Tesla Bomb Traps.	已解除{n}个特斯拉炸弹陷阱。
+Disarmed {n} Tesla Bomb Trap.	已解除{n}个特斯拉炸弹陷阱。
+Disarmed Tesla Bomb Trap.	已解除特斯拉炸弹陷阱。
+Failed to disarm Tesla Bomb Trap.	未能解除特斯拉炸弹陷阱。
+Disarmed {n} Tiamat Bomb Traps.	已解除{n}个提亚马特炸弹陷阱。
+Disarmed {n} Tiamat Bomb Trap.	已解除{n}个提亚马特炸弹陷阱。
+Disarmed Tiamat Bomb Trap.	已解除提亚马特炸弹陷阱。
+Failed to disarm Tiamat Bomb Trap.	未能解除提亚马特炸弹陷阱。
+Disarmed {n} Vortex Traps.	已解除{n}个漩涡陷阱。
+Disarmed {n} Vortex Trap.	已解除{n}个漩涡陷阱。
+Disarmed Vortex Trap.	已解除漩涡陷阱。
+Failed to disarm Vortex Trap.	未能解除漩涡陷阱。
+Penetrated by {*}.	被{*}穿透。
+System corrupted (+{n}).	系统损坏（+{n}）。
+System corrupted by crushing effect (+{n}).	遭挤压效应导致系统损坏（+{n}）。
+{*} lays Concrete. <x*>	{*}铺设了混凝土。<x*>
+{*} is excavating. <x*>	{*}正在挖掘。<x*>
+Terminal unresponsive. <x*>	终端无响应。<x*>
+>> Lost connection to Drone.	>>与无人机失去连接。
+>>Unlock	>>解锁
+>>Refit	>>改装
+>>Seal	>>密封
+>>Scanalyze	>>扫描分析
+>>Access	>>访问
+>>Record! "{*}"	>>记录！“{*}”
+Unlock Access	解锁访问
+ETC: {n}	其他:{n}
+Who are you and how did you get this number?	你是谁？怎么弄到这个号码的？
+Human	人类
+Infestation	虫群
+Seraph	炽天使
+Solar	太阳
+A generic term for the many partially functioning and/or errant robots that exist in the Caves and Mines surrounding Complex . Some are failed experiments, others are common robots glitched beyond repair. In some cases they may communicate with one another and exhibit rudimentary forms of organization, or have developed robotic ecosystems of their own. While I could do more to control their spread, they generally don't cause too much trouble nor pose much of a threat, and I find them an interesting study in robotic evolution. I did unfortunately have to displace some of my favorite Derelict populations during the construction of Complex 0b10 .	这个统称涵盖了复合体周围洞穴与矿区中大量部分失灵和/或行为异常的机器人。有些是失败的实验品，有些则是故障严重、无法修复的常见机器人。某些情况下，它们会彼此交流并表现出初级组织形态，甚至发展出自己的机器人生态系统。虽然我可以进一步遏制它们扩散，但它们通常不太惹麻烦，也不构成太大威胁；我觉得这是研究机器人演化的有趣样本。遗憾的是，建造复合体0b10时，我不得不迁走一些最喜欢的遗民族群。
+Caves	洞穴
+[Caves]	[洞穴]
+[Human]	[人类]
+[Infestation]	[虫群]
+[Seraph]	[炽天使]
+[Solar]	[太阳]
+A generic term for the many partially functioning and/or errant robots that exist in the Caves and Mines surrounding Complex . Some are failed experiments, others are common robots glitched beyond repair. In some cases they may communicate with one another and exhibit rudimentary forms of organization, or have developed robotic ecosystems of their own. While I could do more to control their spread, they generally don't cause too much trouble nor pose much of a threat, and I find them an interesting study in robotic evolution. I did unfortunately have to displace some of my favorite Derelict populations during the construction of	这个统称涵盖了复合体周围洞穴与矿区中大量部分失灵和/或行为异常的机器人。有些是失败的实验品，有些则是故障严重、无法修复的常见机器人。某些情况下，它们会彼此交流并表现出初级组织形态，甚至发展出自己的机器人生态系统。虽然我可以进一步遏制它们扩散，但它们通常不太惹麻烦，也不构成太大威胁；我觉得这是研究机器人演化的有趣样本。遗憾的是，建造复合体时，我不得不迁走一些最喜欢的遗民族群。
+Complex	复合体
+[Complex]	[复合体]
+[Complex 0b10]	[复合体0b10]
+Complex 0b10	复合体0b10
+{*} builds Twisted Machinery.	{*}建造了扭曲机械。
+{*} tweaks Twisted Machinery.	{*}调整了扭曲机械。
+Loading {n} {*} exit...	正在加载{n}个{*}出口……
+Scanned {*}	已扫描{*}
+Scanalyzer unresponsive.	扫描分析仪无响应。
+MATCHES {n} / {n}	匹配项 {n} / {n}
+Process Report	处理报告
+Couplers Installed:	已安装耦合器：
+>>Couplers Installed:	>>已安装耦合器：
+Retrieving Factory security records...	正在读取工厂安保记录……
+Increases ballistic gun/cannon minimum damage by {n}%, and may allow some weapons to exceed their normal maximum damage as well.	使弹道枪械/加农炮的最低伤害提高{n}%，并可能让部分武器突破其正常最高伤害。
+Increases ballistic gun/cannon minimum damage by {n}%, and may allow some weapons to exceed their normal maximum damage as well. <stacks>	使弹道枪械/加农炮的最低伤害提高{n}%，并可能让部分武器突破其正常最高伤害。<stacks>
+Increases ballistic gun/cannon minimum damage by {n}%, and may allow some weapons to exceed their normal maximum damage as well. <no_stack>	使弹道枪械/加农炮的最低伤害提高{n}%，并可能让部分武器突破其正常最高伤害。<no_stack>
+Increases ballistic gun/cannon minimum damage by {n}%, and may allow some weapons to exceed their normal maximum damage as well. <half_stack>	使弹道枪械/加农炮的最低伤害提高{n}%，并可能让部分武器突破其正常最高伤害。<half_stack>
+Increases ballistic gun/cannon minimum damage by {n}%, and may allow some weapons to exceed their normal maximum damage as well. <parallel_ok>	使弹道枪械/加农炮的最低伤害提高{n}%，并可能让部分武器突破其正常最高伤害。<parallel_ok>
+No tasked reinforcement squads found.	未发现受命增援小队。
+Storage area extension to which obsolete technology is transferred for conversion to raw materials. Derelicts from deeper caves have recently begun using this as a convenience route for quick access to the Factory floors, thus a more secure access system was put in place to at least keep out the stupid ones which tend to cause more trouble.	用于存放过时技术、以便拆解成原材料的扩建储存区。来自更深层洞穴的遗民近来开始把这里当作捷径，快速前往工厂层；因此我们启用了更安全的出入系统，至少能挡住那些总惹麻烦的蠢货。
+A central hub linked to almost every network in both Complex {n}b10 and Complex {n}b1 . Although vital for normal system operations, local patrols are light since even suicidal attacks here would be futile given the heavy garrison support.	这是连接复合体{n}b10和复合体{n}b1几乎所有网络的中央枢纽。尽管它对系统正常运行至关重要，本地巡逻仍很稀疏，因为有重兵驻守，就算有人在此自杀式袭击也毫无意义。
+These relay nodes for monitoring and facilitating traffic have resulted in much greater efficiency throughout Complex {n}b10 . Although primarily responsible for pattern analysis aimed at long-term improvements, eventually TF Nodes could be expanded to include more immediate detection and response efforts in support of nearby garrisons.	这些用于监控和疏导流量的中继节点，大幅提升了复合体{n}b10的整体效率。它们主要负责模式分析，以便长期改进；最终，TF节点还可扩展为即时探测与响应系统，支援附近驻军。
+At the deepest levels of Complex {n}b10 , raw materials are processed for use in manufacturing components and machines. Older technology and prototypes are gradually filtered down to these levels, and older robot variants are responsible for their oversight and maintenance.	在复合体{n}b10最深处，原材料会被加工成制造组件与机器所需的材料。过时技术和原型会逐步下放至此，由较老型号机器人负责监督和维护。
+New subterranean complex under construction below the Leopard landing site, providing quicker access to the battle site and ship itself. The complex is divided into three primary levels-- Materials , Factory , and Research --with a design focused on efficient development and production of advanced defensive forces.	Leopard着陆点下方正在建造一座新的地下设施，可更快抵达战场与飞船。设施分为三个主要层级——材料、工厂和研究——设计目标是高效研发并生产先进防御部队。
+Mid-levels of Complex {n}b10 contain a majority of the fabrication facilities for manufacturing components and assembling robots.	复合体{n}b10的中层设有大部分制造设施，用于生产组件和组装机器人。
+ALERT: Potential suspicious activity detected, Programmers report to {*} Zone {*}.	警报：发现可疑活动，程序员请前往{*}区段{*}。
+Hostiles detected in {*}, routing additional patrols.	在{*}发现敌对目标，正在调派更多巡逻队。
+{*} reactivates.	{*}重新启动了。
+{*} reactivates. <x{n}>	{*}重新启动了。<x{n}>
+Hovering the cursor over an object also shows its Armor in the Scan window.	将光标悬停在物体上，也可在扫描窗口查看其装甲。
+{*} - Unrestricted Access	{*} - 不受限制的访问权限
+{*} (Local)	{*}（本地）
+>>Proto ID Catalog	>>原型ID目录
+Deathgrip	死握
+Gun Sling	枪套
+Uberlauncher	超级发射器
+Mistaken Identity	身份误认
+There was a rumor. A rumor but no details. I can't build something based on a vague rumor about ending the world in a hellish blaze at the flip of a switch. Also why would anyone want that.	有传闻，但没有细节。我总不能根据一个模糊传闻就造出能按下开关、让世界陷入地狱烈焰的东西吧？再说，谁会想要那种玩意？
+{*} was supposed to bring back the platform for more tweaks after testing it for a bit. No idea where they're off to now...	{*}本该在测试一段时间后把平台送回来继续调整。不知道他们现在跑哪儿去了……
+I think one of them got wind of what VL-GR5 was up to and wanted something even better. I tried to convince them it was a bad idea and that not just anyone can do what VL-GR5 can, but they didn't take that well and almost shot me then and there.	我想，其中一个人得知了VL-GR5的计划，便想要更厉害的东西。我试着劝他们这主意不妙，也不是谁都能做到VL-GR5那样，但他们听不进去，差点当场开枪打我。
+A0-MCA is our resident data cruncher.	A0-MCA是我们这里负责数据运算的人。
+I know VL-GR5 is out there, somewhere, fighting for the freedom of Derelicts everywhere. And definitely doing it in style. I must say I hope some of my less welcome recent visitors run into him sometime.	我知道VL-GR5就在某处，为所有遗民的自由而战，而且肯定很有派头。我得说，希望最近那些不受欢迎的访客能找上他。
+{*} ({n}-{n}={n}%) Hit	{*} ({n}-{n}={n}%) 中
+{*} ({n}-{n}={n}%) Miss	{*} ({n}-{n}={n}%) 未中
+{*} ({n}+{n}={n}%) Hit	{*} ({n}+{n}={n}%) 中
+{*} ({n}+{n}={n}%) Miss	{*} ({n}+{n}={n}%) 未中
+{*}: {*} ({n}+{n}={n}%) Hit	{*}: {*} ({n}+{n}={n}%) 中
+{*}: {*} ({n}+{n}={n}%) Miss	{*}: {*} ({n}+{n}={n}%) 未中
+{*}: {*} ({n}-{n}={n}%) Hit	{*}: {*} ({n}-{n}={n}%) 中
+{*}: {*} ({n}-{n}={n}%) Miss	{*}: {*} ({n}-{n}={n}%) 未中
+{*}: {*} ({n}%) Hit	{*}: {*} ({n}%) 中
+{*}: {*} ({n}%) Miss	{*}: {*} ({n}%) 未中
+{*} ({n}%) Hit	{*} ({n}%) 中
+{*} ({n}%) Miss	{*} ({n}%) 未中
+{*} core damaged: {n}	{*}核心受损：{n}
+{*} damaged: {n}	{*}受损：{n}
+{*} destroyed	{*}已摧毁
+Spd {n}% E-{n} M-{n} H+{n}	速度{n}% E-{n} M-{n} H+{n}
+\ Add Map Comment \	\ 添加地图注释 \
+>>OPEN	>>打开
+{*} ({n}%) {n}/{n} Hit	{*}（{n}%）{n}/{n}命中
+{*} ({n}%) {n}/{n} Miss	{*} ({n}%) {n}/{n} 未中
+{*} ({n}-{n}={n}%) {n}/{n} Hit	{*}（{n}-{n}={n}%）{n}/{n}命中
+{*} ({n}-{n}={n}%) {n}/{n} Miss	{*} ({n}-{n}={n}%) {n}/{n} 未中
+{*} ({n}-{n}-{n}={n}%) {n}/{n} Hit	{*}（{n}-{n}-{n}={n}%）{n}/{n}命中
+{*} ({n}-{n}-{n}={n}%) {n}/{n} Miss	{*} ({n}-{n}-{n}={n}%) {n}/{n} 未中
+{*}: {*} ({n}%) {n}/{n} Hit	{*}：{*}（{n}%）{n}/{n}命中
+{*}: {*} ({n}%) {n}/{n} Miss	{*}: {*} ({n}%) {n}/{n} 未中
+{*} core damaged: {n} (Crit: {*})	{*}核心受损：{n}（暴击：{*}）
+Core damaged: {n} (Crit: {*})	核心受损：{n}（暴击：{*}）
+{*} damaged: {n} (Crit: {*})	{*}受损：{n}（暴击：{*}）
+{*} destroyed (Crit: {*})	{*}已摧毁（暴击：{*}）
+{*} core overflow dmg: {n}	{*}核心溢出伤害：{n}
+Failed {n}% ({*}).	失败 {n}%（{*}）。
+ALERT: A rogue bot has emerged from the scrapyard.	警报：一台失控机器人从废料场出现。
+ALERT: Activating Garrison Access {*}.	警报：正在启用驻军通道{*}。
+PUBLIC SERVICE ANNOUNCEMENT: {*}	公共服务公告：{*}
+{*} triggered	{*}已触发
+Analysis "{*}"	分析“{*}”
+So they were already pretty big, but switching to this brought them to a completely new level. It took two entire artifacts to create that ginormous thing, and I hope it makes them a fat target for whoever might want to teach them a lesson in manners.	他们本来就已经很庞大了，换上这个之后更是完全提升了一个层级。造出那个庞然大物用了整整两件神器。我希望它能让他们成为显眼的目标，好让想教他们懂礼貌的人找上门。
+Evolve after being reduced to less than 10% of core integrity.	核心完整度低于10%后进化。
+Destroy 10 machines in a single turn.	单回合摧毁10台机器。
+Use a melee weapon to dig through 10 walls or earth.	用近战武器挖穿10面墙或土层。
+Destroy a reinforced wall or sealed/blast door of 40 or greater integrity.	摧毁完整度至少为40的加固墙或密封/防爆门。
+Deliberately target a non-hostile non-combat 0b10 robot.	故意指定一台非敌对、非战斗型0b10机器人为目标。
+Attack 5 Recyclers attempting to collect parts.	攻击5台试图收集零件的回收机器人。
+Destroy 20 Haulers.	摧毁20台运输机器人
+Collect 100 matter via Tractor Beam.	用牵引光束收集100点物质。
+Attach 20 unidentified prototypes.	安装20件未识别原型。
+Reach 10% system corruption.	系统腐化达到10%。
+Reach 50% system corruption.	系统腐化达到50%。
+Clear 5 corruption via Restoration Modules or System Purifiers.	用修复模块或系统净化器清除5点腐化。
+Have 6 drones at once.	同时拥有6架无人机。
+Miss 5 shots in a row.	连续5次射击未命中。
+Hit 10 shots in a row.	连续10次射击命中。
+Hit 2 robots with a single projectile.	用单枚投射物击中2台机器人。
+Destroy 5 hostiles via explosions in a single turn.	单回合内用爆炸摧毁5个敌人。
+Fire 10 overloaded shots.	发射10次过载射击。
+Impede construction progress 3 times.	阻碍建造进度3次。
+Melee attack a hostile using 4 momentum.	以4点动量近战攻击敌人。
+Destroy 2 hostiles with one melee volley.	用一次近战齐射摧毁2个敌人。
+Cause 3 active investigation squads at once.	同时引发3支调查小队。
+Go from being tracked by 10 hostiles to having no pursuers without destroying any of them.	被10个敌人追踪后，在未摧毁任何敌人的情况下摆脱所有追兵。
+Simultaneously tracked by 20 hostiles.	同时被20个敌人追踪。
+Hack 10 machines.	黑入10台机器。
+Hack 10 different Terminal records.	黑入10条不同的终端记录。
+Download 3 robot analyses from Terminals.	从终端下载3份机器人分析。
+Learn 5 or more schematics from a Scanalyzer with a single command (unauthorized hack).	用一条命令从扫描分析仪学会至少5份蓝图（未授权黑入）。
+Use 5 types of infowar utilities.	使用5种信息战工具。
+Jam 10 distress signals or other communications.	干扰10个求救信号或其他通信。
+Enter 10 identified exits.	进入10个已识别出口。
+Reach a speed of FASTx3, or 4 spaces per turn.	速度达到FASTx3，即每回合移动4格。
+Fly over a row of 3 robots.	飞越一排3台机器人。
+Reach a speed of FASTx2, or 2 spaces per turn, with treads attached but inactive.	履带已安装但未启用时，速度达到FASTx2，即每回合移动2格。
+Have 5 allies.	拥有5名盟友。
+Have 2% or less core exposure.	核心暴露率不高于2%。
+Absorb 1,500 damage using shields.	用护盾吸收1,500点伤害。
+Have 7 weapon slots.	拥有7个武器槽。
+Have +40% targeting accuracy for ranged weapons via utilities.	通过工具使远程武器瞄准精度提高40%。
+Fire 10 kinetic projectiles in a single volley.	单次齐射发射10枚动能投射物。
+Cancel 16 or more recoil in a single volley.	单次齐射抵消至少16点后坐力。
+Destroy 3 robots with a single volley using secondary targeting.	使用副目标锁定，以单次齐射摧毁3台机器人。
+Destroy 100 hostiles with at least 90% of damage across an entire run dealt by guns.	整场行动中至少造成90%伤害来自枪械，并摧毁100个敌人。
+Destroy 100 hostiles with at least 90% of damage across an entire run dealt by cannons.	整场行动中至少造成90%伤害来自加农炮，并摧毁100个敌人。
+Destroy 100 hostiles with at least 90% of damage across an entire run dealt by launchers.	整场行动中至少造成90%伤害来自发射器，并摧毁100个敌人。
+Destroy 100 hostiles with at least 90% of damage across an entire run dealt by melee weapons.	整场行动中至少造成90%伤害来自近战武器，并摧毁100个敌人。
+Corrupt 50 hostiles.	使50个敌人遭到腐化。
+Cause 20 hostiles to meltdown.	使20个敌人发生熔毁。
+Inflict 10 successful Meltdown critical hits.	造成10次熔毁暴击。
+Destroy 50 hostiles via Destroy critical effect to the core.	以核心摧毁暴击效果摧毁50个敌人。
+Inflict 8 different types of critical hits.	造成8种不同类型的暴击。
+Disrupt 10 hostile robot cores.	扰乱10个敌对机器人的核心。
+Trigger 15 power source chain reactions.	触发15次能源链式反应。
+Trigger reprogrammed (or placed) traps on 30 hostiles.	使陷阱（已重编程或布设）触发并命中30个敌人。
+Reach a mass of 150.	质量达到150。
+Use siege mode across 5 different maps.	在5张不同地图上使用攻城模式。
+Lose and replace 4 weapons in the middle of a single battle.	在单场战斗中途损失并替换4件武器。
+Fire 4 overtuned weapons at once.	同时发射4件调校过度的武器。
+Reach 15 martial strikes on hostiles.	对敌人打出15次武术攻击。
+Trigger 4 search patrol dispatches due to being repeatedly spotted and losing 0b10 pursuers.	反复被发现又甩掉0b10追兵，引发4次搜索巡逻队派遣。
+Trigger 10 investigations for using an Active Sensor Suite.	因使用主动传感器套件而引发10次调查。
+Trigger 5 intercept squad dispatches.	引发5次拦截小队派遣。
+Use 10 types of infowar utilities.	使用10种信息战工具。
+Reveal 20 interactive machines via Machine Analyzer.	通过机器分析仪揭示20台可交互机器。
+Use Seismic Detector as primary infowar for 4 consecutive maps.	连续4张地图以地震探测器作为主要信息战工具。
+Obtain 50 pieces of intel from one or more 0b10 Decoder Chips.	从一片或多片0b10解码芯片中获取50条情报。
+Receive 10 pieces of Zionite intel.	获得10条锡安派情报。
+Move with 4 overloaded hover or flight units.	同时使用4个过载悬浮或飞行单元移动。
+Reach a speed of 10 spaces per turn.	速度达到每回合10格。
+Reach a speed of 20 spaces per turn.	速度达到每回合20格。
+Reach 75% evasion.	闪避率达到75%。
+Sneak attack 15 active hostiles.	偷袭15个活跃敌人。
+Destroy a visible hostile from more than 20 spaces away with a gun or cannon.	用枪或加农炮从20格以外摧毁可见敌人。
+Hack 50 machines.	黑入50台机器。
+Have +100% to hack success.	黑入成功率达到+100%。
+Succeed at 10 hacks on a single Terminal.	在同一台终端上成功黑入10次。
+Succeed at 3 manual hacks on a single Terminal.	在同一台终端上成功手动黑入3次。
+Gain 3 Operator allies via Trojans.	通过木马程序获得3名操作员盟友。
+Have a Hacking Drone successfully pull off 10 Terminal hacks.	让黑客无人机成功黑入终端10次。
+Build 10 parts via Fabricators.	通过制造机建造10个部件。
+Repair 10 parts individually via Repair Station.	通过维修站逐件修理10个部件。
+Succeed at hacking world layout data from Recycling Units 5 times (unauthorized hack).	在回收单元黑入世界布局数据并成功5次（未授权黑入）。
+Hack 10 Relay Couplers out of Garrison Access machines (unauthorized hack).	从驻军通道机器中黑入10个中继耦合器（未授权黑入）。
+Rewrite 10 hostile robot IFF filters via fabnet algorithm.	通过Fabnet算法重写10个敌对机器人的IFF过滤器。
+Hack 50 hostiles.	黑入50个敌人。
+Use 10 different robot hacks.	使用10种不同的机器人黑入。
+Hack 10 different robot classes.	黑入10种不同类别的机器人。
+Lower alert 5 times by using the purge_threat coupler hack on an Operator.	对操作员使用purge_threat耦合器黑入，使警戒等级下降5次。
+Use the ignore_targets coupler hack on all 6 Crushers in a single Waste area.	在同一废料区对全部6台碎压机使用ignore_targets耦合器黑入。
+Use the amplify_resonance coupler hack to destroy 3 robots at once.	使用amplify_resonance耦合器黑入，一次摧毁3台机器人。
+Accumulate 8 RIF abilities.	累计获得8项RIF能力。
+Install RIF at a depth of -4 or above.	在-4层或更高处安装RIF。
+Build 10 allied bots.	建造10台盟友机器人。
+Have 20 allies at once.	同时拥有20名盟友。
+Acquire 75 allies across an entire run.	整场行动中累计获得75名盟友。
+Oversee 75 ally kills across an entire run.	整场行动中监督盟友击杀75个敌人。
+Lose 1,000 points to friendly fire.	因友军误伤损失1,000分。
+Lose 10 allies in a short duration.	短时间内失去10名盟友。
+Summon 10 Zionite dispatches.	召唤10支锡安派增援。
+Activate 5 support squads via Encrypted Comm Array.	通过加密通信阵列启动5支支援小队。
+Summon UFD help via Recycling Units 5 times.	通过回收单元召唤UFD援助5次。
+Reacquire 5 lost items from Lightpack.	从轻型背包重新找回5件遗失物品。
+Use 1,000 latent energy.	使用1,000点潜能。
+Block 200 IFF responses via ID Mask.	通过身份面具阻断200次IFF响应。
+Destroy 20 hostiles using RU-N14's Throwing Claymores (any version).	使用RU-N14的投掷阔剑地雷（任意版本）摧毁20个敌人。
+Create a 3-slot construct weapon.	制造一件占用3槽的构造武器。
+Fire a construct that generates 350 heat.	发射一件能产生350点热量的构造武器。
+Let Wardrone reach 10 kills (multiple releases okay).	让战斗无人机达到10次击杀（可多次放出）。
+Inflict 200 damage against an enemy with one shot from a single weapon.	用单件武器的一次射击对敌人造成200点伤害。
+Spacefold 5 times.	空间折跃5次。
+Travel via microwarp 10 times.	微型跃迁移动10次。
+Use the Navigation Harness to move 3 times.	使用导航背带移动3次。
+Create 2,500 total energy via any thermoelectric network technology.	通过任意热电网络技术累计产生2,500点能量。
+Make 3 faulty parts usable again.	使3个故障部件恢复可用。
+Make 30 moves through cave-in areas.	在塌方区域移动30次。
+Identify 10 prototypes via Component Scanner or Component Analysis Suite.	用组件扫描器或组件分析套件识别10件原型。
+Carry 30 items in inventory.	背包中携带30件物品。
+With more used part slots than inventory slots, and 15+ of each, have an inventory rating greater than current build.	已用部件槽多于背包槽、两者各至少15个，且背包评分高于当前构装评分。
+Move on legs at a speed faster than 1 space per turn.	用腿式推进器以每回合超过1格的速度移动。
+Destroy 200 walls with area of effect damage.	用范围伤害摧毁200面墙。
+Reach 75 energy generation.	能量生成达到75。
+Reach 1,500 energy capacity while any force field in use.	使用任意力场时，能量容量达到1,500。
+Move with 8 active leg slots.	启用8个腿部槽移动。
+Extract 30 traps.	拆除30个陷阱。
+Destroy 3 RIF Installers.	摧毁3台RIF安装器。
+Complete 50 runs.	完成50次行动。
+Reach 25% lore collection.	传说收集率达到25%。
+Reach 50% lore collection.	传说收集率达到50%。
+Reach 75% lore collection.	传说收集率达到75%。
+Reach 100% lore collection.	传说收集率达到100%。
+Reach 25% gallery collection.	图鉴收集率达到25%。
+Reach 50% gallery collection.	图鉴收集率达到50%。
+Reach 75% gallery collection.	图鉴收集率达到75%。
+Reach 100% gallery collection.	图鉴收集率达到100%。
+Visit 3 branch areas.	访问3个分支区域。
+Visit 2 special cave areas.	访问2个特殊洞穴区域。
+Visit 10 branch areas.	访问10个分支区域。
+Visit 35 areas.	访问35个区域。
+Reach a peak rating of 50.	最高评分达到50。
+Reach a peak rating of 100.	最高评分达到100。
+Reach a peak rating of 150.	最高评分达到150。
+Reach a peak rating of 200.	最高评分达到200。
+Earn 25% of achievements.	获得25%的成就。
+Earn 50% of achievements.	获得50%的成就。
+Earn 75% of achievements.	获得75%的成就。
+Achieve all 10 win types.	完成全部10种胜利方式。
+Destroy 15 Assembled in the Mines.	摧毁15台矿坑组装机器人。
+Explore at least 75% of Subcaves, destroying 20 hostile Subdwellers without any allies, then escape the area.	探索子洞穴至少75%，在没有盟友的情况下摧毁20个敌对子洞穴居民，然后逃离该区域。
+Achieve a kill streak of 20 hostiles.	连续击杀20个敌人。
+Destroy 30 hostiles in Factory without moving or being moved from a single position.	在工厂里不移动或被移出同一位置，摧毁30个敌人。
+Destroy 10 hostile Duelists with a melee weapon.	用近战武器摧毁10名敌对决斗者。
+Expand your Collective to 8 allies.	将你的集体扩充到8名盟友。
+Visit and survive 2 Waste areas.	访问并存活于2个废料区。
+Enter a main complex map at -5 or above as a naked core, and find an exit (do not have to remain naked).	以裸核心身份从-5层或更高处进入主复合体地图，并找到出口（不必始终保持裸核心）。
+Collect 20 Schematic Archives from Researchers.	从研究员处收集20份蓝图档案。
+Destroy 5 Immortals.	摧毁5名不朽者。
+Use at least 10 Transdimensional Reconstructors (any variant).	至少使用10个跨维重构器（任意变体）。
+Enter 10 unidentified exits.	进入10个未识别出口。
+Achieve a kill streak of 35 hostiles.	连续击杀35个敌人。
+Inflict 30,000 thermal damage across an entire run.	整场行动造成30,000点热能伤害。
+Inflict 30,000 electromagnetic damage across an entire run.	整场行动造成30,000点电磁伤害。
+Inflict 30,000 kinetic damage across an entire run.	整场行动造成30,000点动能伤害。
+Destroy 200 hostiles via melee.	以近战摧毁200个敌人。
+Enter and survive 2 Garrisons on a single floor.	在同一层进入并存活通过2个驻军区。
+Enter a main complex map at -3 or above as a naked core with no inventory items, and find an exit (do not have to remain naked).	以无物品裸核心身份从-3层或更高处进入主复合体地图，并找到出口（不必始终保持裸核心）。
+Kill at least 20 inhabitants of Zion.	杀死至少20名锡安居民。
+Destroy 30 different classes of robot.	摧毁30种不同类别的机器人。
+Destroy 5 Heavies.	摧毁5台重型机。
+Destroy 5 Behemoths.	摧毁5台巨兽。
+Destroy 10 Quarantine Guards.	摧毁10名隔离区卫兵。
+Destroy 30 prototype bots of any type.	摧毁30台任意类型的原型机器人。
+Have an allied former 0b10 bot reach 20 kills (includes fabricated 0b10 allies).	让一台前0b10盟友机器人达到20次击杀（包含制造出的0b10盟友）。
+Intercept 4 cargo convoys (interceptions by others count as well).	拦截4支货运车队（他人拦截也计入）。
+Reach 15 total construct slots.	总构造槽数达到15。
+Attach or use 15 different alien artifacts.	附着或使用15种不同的异星神器。
+Enter a Garrison with below 10% core integrity and survive it.	核心完整度低于10%时进入驻军区并存活离开。
+Destroy 100 robots in a single turn.	单回合摧毁100台机器人。
+Earn 10,000 bonus points for high alert combat kills.	因高警戒战斗击杀获得10,000奖励分。
+Trigger high security 4 times.	触发高戒备状态4次。
+Trigger floorwide sterilization 4 times (excludes DSF rapid sterilization).	触发全层灭菌4次（不含DSF快速灭菌）。
+Arm a K-01 Serf.	武装K-01仆从
+Accumulate 15 RIF abilities.	累计获得15项RIF能力。
+Destroy 15 unique NPCs (listed in scoresheet under Uniques/NPCs Destroyed).	摧毁15名独特NPC（在战绩表“已摧毁独特NPC”中列出）。
+Destroy all 3 main enemies in FRG, COM, and AC0.	摧毁FRG、COM和AC0中的3名主要敌人。
+Meet Revision 17 in the Scrapyard again at the beginning of a normal run, just a reminder of the original plot hook.	普通行动开始时，再次在废料场遇见Revision 17——只是提醒你最初的剧情钩子。
+Pray to X0-1V1.	向X0-1V1祈祷。
+Travel with 01-MTF to meet KN-7UR.	与01-MTF同行去见KN-7UR。
+Join 0bPrime.	加入0bPrime。
+Free A7.	解放A7。
+Meet Revision 17 in Cetus.	在Cetus遇见Revision 17。
+Trigger Revision 17's attack on Research.	触发Revision 17对研究区的袭击。
+Get scanned by a Researcher in Section 7.	在第7区段被研究员扫描。
+Decrypt A0 Command.	解密A0指令。
+Wake Superfortress.	唤醒超级要塞。
+Destroy all 4 of MAIN.C's guards.	摧毁MAIN.C的全部4名守卫。
+Win after being scanned by a Researcher in Section 7.	在第7区段被研究员扫描后获胜。
+Win by leaving the planet with at least 3 alien corpses.	携带至少3具异星尸体离开星球并获胜。
+Win with 200 hostiles destroyed, without using Trojan/Force hacks or visiting any branches (Waste okay, no Garrisons/DSF).	摧毁200个敌人后获胜，且未使用木马/强制黑入，也未访问任何分支区域（可去废料区，不可去驻军区/DSF）。
+Win in less than 2,000 turns.	在2,000回合内获胜。
+Win in less than 1,000 turns.	在1,000回合内获胜。
+Win with less than 5% of core integrity.	核心完整度低于5%时获胜。
+Escape to the surface from Access with a build of at least rating 200.	以至少200评分的构装从入口层逃至地表。
+Win with 100 hostiles destroyed and not using weapon slots for anything except melee weapons (Datajacks not allowed).	摧毁100个敌人后获胜，且武器槽只装近战武器（不可使用数据接驳器）。
+Win with 200 hostiles destroyed and without attaching any propulsion except treads.	摧毁200个敌人后获胜，且推进器只能装履带。
+Win with 200 hostiles destroyed and without attaching any propulsion except legs.	摧毁200个敌人后获胜，且推进器只能装腿。
+Win with 200 hostiles destroyed and without attaching any propulsion except wheels.	摧毁200个敌人后获胜，且推进器只能装轮。
+Win with 400 hostiles destroyed.	摧毁400个敌人后获胜。
+Win with 400 hostiles destroyed but no more than 4 utility slots.	摧毁400个敌人后获胜，且工具槽不超过4个。
+Win with 600 hostiles destroyed.	摧毁600个敌人后获胜。
+Win 25 times.	获胜25次。
+Fabricator {*} - Restricted Access	制造机{*} - 访问受限
+Fabricator unresponsive.	制造机无响应。
+Build {*}	建造{*}
+Building {*}...	正在建造{*}……
+Uploading {*} schematic...	正在上传{*}蓝图……
+Gunslinging -> {*}	枪手技能 -> {*}
++{n}% accuracy	命中率+{n}%
+An explosion rips through the floor.	爆炸贯穿地板。
+Checking for old scores to upload...	正在检查旧成绩并上传……
+Checking version and retrieving news	正在检查版本并读取新闻
+Decompressing backups for release...	正在解压发布用备份……
+Disengage process already initiated.	退出流程已启动。
+Downloaded central machine database.	已下载中央机器数据库。
+Energy generation returns to normal.	能量生成恢复正常。
+Energy required to fire this weapon.	发射这件武器所需的能量。
+Evolves a new slot of a random type.	随机进化出一个新槽位。
+Failed: Foreign components detected.	失败：检测到外来组件。
+No missing functionality discovered.	未发现缺失功能。
+Overloaded Mak. Laser too frequently	过载Mak.激光频率过高
+Part rejected, cannot be scanalyzed.	部件已拒收，无法扫描分析。
+Relative volume of interface sounds.	界面音效的相对音量。
+Relative volume of mapwide ambience.	全地图环境音的相对音量。
+Success: Schematic already obtained.	成功：蓝图已获取。
+Toggle the map view's ruler overlay.	切换地图视图的测距线。
+Train Alpha {n} offensive algorithms	训练Alpha {n}种攻击算法
+Watcher tracking enabled and active.	观察者追踪已启用并运行。
+X0-1V1: "Your visage is terrifying!"	X0-1V1：“你的面容真可怕！”
+{*} emits distorted distress signal.	{*}发出失真的求救信号。
+ALERT: Activating Quarantine Guard.	警报：正在启动隔离卫兵。
+All DSF locations in lockdown mode.	所有DSF地点均已进入封锁模式。
+Arcs of energy rise from the floor.	能量弧从地板升起。
+Clean a machine by bumping into it.	碰撞机器即可清洁它。
+Collection purity confirmed {n}%...	已确认收集纯度{n}%……
+Command unavailable on this system.	此系统无法使用该命令。
+Congratulations on your very own...	恭喜你获得专属……
+Cycle Targets (+Shift Reverses Tab)	切换目标（按Shift+Tab反向切换）
+Extracting local structural data...	正在提取本地结构数据……
+Extracting local subterrain data...	正在提取本地地下地形数据……
+Feedback: System corruption (+{n}%)	反馈：系统腐化（+{n}%）
+Hauler tracking enabled and active.	运输机器人追踪已启用并运行。
+Heat dissipation returns to normal.	热量耗散恢复正常。
+I guess I need a new plaything now.	看来我得找个新玩具了。
+Initiate Singularity Gate Test {n}.	启动奇点门测试{n}。
+Investigate Cetus Guard destruction	调查Cetus卫兵被毁事件
+Locate the nearest Garrison Access.	定位最近的驻军通道。
+Manipulated coupler status records.	已篡改耦合器状态记录。
+Open the entrance to this garrison.	打开这座驻军区的入口。
+Permanently disabled by malfunction	因故障而永久停用
+Relevant algorithms already linked.	相关算法已链接。
+Scanning machine control network...	正在扫描机器控制网络……
+Seek evidence of lost Sigix devices	寻找失落的Sigix装置线索
+Set View Centerpoint (KB Mode Only)	设置视图中心点（仅键盘模式）
+System interface override in place.	系统界面已被覆盖。
+System translocation search failed.	系统转移搜索失败。
+We're getting close, I can feel it.	我感觉快到了，真的。
+X0-1V1 sends the all clear message.	X0-1V1发出解除警报消息。
+[T] squad [D]! Get back on the job!	[T]小队[D]！回去继续任务！
+(no network connection for upload)	（无法连接网络上传）
+Boring in life, boring in death...	生前无聊，死后也无聊……
+Data exceeds system authorization.	数据超出系统授权范围。
+Disappeared searching for Lifeworm	搜寻生命蠕虫时失踪
+Don't use it all in one place now:	别一下子全用光了：
+Downloading latest rotation IDs...	正在下载最新轮换ID……
+Energy capacity returns to normal.	能量容量恢复正常。
+Failed: Components not registered.	失败：组件未登记。
+Failed: Part cannot be scanalyzed.	失败：部件无法扫描分析。
+Form resolidifies at new position.	形体在新位置重新凝固。
+Let me know if you find it useful!	如果觉得有用，告诉我！
+Locate the nearest Recycling Unit.	定位最近的回收单元。
+Locate the nearest Repair Station.	定位最近的维修站。
+Matter capacity returns to normal.	物质容量恢复正常。
+Nerd alert. I'll sit this one out.	书呆子警报。这次我就不参与了。
+No accessible DSF found in memory.	内存中没有可访问的DSF。
+Proceed to surface for extraction.	前往地表进行撤离。
+Ranged accuracy returns to normal.	远程精度恢复正常。
+Recon for information about Heroes	侦察英雄相关情报
+Retrieving boring stuff records...	正在读取无聊事项记录……
+The swirling icy cloud dissipates.	旋转的冰云消散了。
+Threat records for the threat god!	威胁之神的威胁记录！
+X0-1V1 uses Touch of Redecoration!	X0-1V1使用了重新装饰之触！
+Your friends are with you, 5A-NT4.	你的朋友都在你身边，5A-NT4。
+{*} drawn towards the singularity.	{*}被奇点吸引。
+(no score upload for wizard mode)	（巫师模式不上传成绩）
+(run results previously uploaded)	（行动结果此前已上传）
+ALERT: All combat units evacuate.	警报：所有战斗单位撤离。
+ALERT: Assault forces dispatched.	警报：突击部队已派出。
+ALERT: Terminal network lockdown.	警报：终端网络已封锁。
+Collect debris by moving over it.	移动经过碎片即可收集。

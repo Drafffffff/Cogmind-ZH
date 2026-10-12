@@ -1,0 +1,51 @@
+# Cogmind 首批教程与属性说明，直接依据英文翻译。
+When the line of fire is red, you are attempting to shoot through an object at another target, which incurs significant penalties.	射击线变红，表示弹道需穿过障碍才能命中目标，这会带来严重惩罚。
+When attempting to attach a part directly from the ground, if there is no auto-replacement effect you can quickly repeat the command a second time to attempt a manual swap.	直接装配地面部件时，若未自动替换，可快速重复同一指令，尝试手动替换。
+Right-click on a listed part, or a part, robot, or self on the map to get information.	右键点击列表中的部件，或地图上的部件、机器人及自身，可查看信息。
+Right-click on available options for more info. Keyboard players can use Shift-a~z.	右键点击选项可查看详情。键盘操作可用Shift-a~z。
+Press '.', 'keypad 5' or scroll the mouse wheel to wait a turn.	按'.'、小键盘5或滚动鼠标滚轮，可等待一回合。
+Press '3' to manually label all known items. The number next to each name is its rating. Higher ratings are better.	按'3'标注所有已知物品。名称旁的数字为评级，越高越好。
+Pressing F3 toggles ASCII mode. Be the Cogmind! (Don't worry, everything will be labeled.)	按F3切换ASCII模式。成为Cogmind吧！别担心，物体都有标签。
+Use the buttons at the bottom right of the parts list, or press c/e/w/q, to visualize various stats related to parts and inventory items.	点击部件栏右下角按钮，或按c/e/w/q，可显示部件及库存物品的各项属性。
+Your per-turn energy upkeep is currently significantly in the negative, which may be okay for now but be prepared to manage it more closely.	目前每回合能量收支严重为负。暂时或许能维持，但需准备更仔细地管理能量。
+When deployed, Decoy Drones immediately draw hostiles to a distant location then self-destruct.	诱饵无人机放出后，会立即将敌人引向远处，随后自毁。
+If on the ground at current position use > or right-click on self to release all drones without attaching. Must already have another matching functional bay attached to do this.	若无人机舱在脚下，可按>或右键点击自身，不经装配直接释放全部无人机。需已装配另一套同型且正常的机舱。
+If triggered by chain reaction or rigged proximity response, explodes for {*}. High heat transfer.	由连锁反应或设定的近距感应触发时，爆炸造成{1}。热传递高。
+Matter is used to attach parts, and is consumed by ballistic weapons, which convert it to the appropriate type of ammunition.	物质用于装配部件。实弹武器也会消耗物质，将其转化为所需弹药。
+Action is turn-based, and time only advances when you perform an action. See the manual for how the passage of time is calculated.	游戏采用回合制，只有执行行动时才会推进时间。具体时间计算方式见手册。
+Ramming works as a last resort when unarmed or blocked, but can have serious negative consequences.	没有武器或被堵住时，可将撞击作为最后手段，但可能付出严重代价。
+Click on target or press 'f' to aim active weapons, then again to fire.	点击目标或按'f'，用已启用武器瞄准；再次操作即可开火。
+Pick up a part by standing on it and pressing 'g' or clicking on self.	站在部件上，按'g'或点击自身，即可拾取。
+Press F1 or click on the '?' in the bottom right corner to access the full command list. Ascend the stairs to the next level when ready.	按F1或点击右下角'?'查看完整指令列表。准备好后，经楼梯前往下一层。
+Hold RMB on a map location to designate it as a relative view centerpoint. This is especially useful while zoomed, in order to see further in your current direction of exploration. Try it now.	在地图某处按住鼠标右键，可将其设为相对视野中心。放大地图时，这能让你看清探索方向更远处的情况。现在试试。
+Note that some effects don't stack, e.g. attaching both {*} and {*} does not combine the two effects (all such effects are marked <no_stack>).	部分效果不叠加。例如，同时装配{1}和{2}不会合并效果。此类效果均标有<no_stack>。
+Remember there are three different ways to zoom the map: Scroll the mouse wheel while panning the map with Shift, or toggle via 'z' or the ZOOM button over the map.	地图有三种缩放方式：按住Shift平移地图时滚动滚轮，按'z'，或点击地图上方ZOOM按钮。
+It is strongly recommended to check out the spoiler-free Survival Tips section of the manual to learn some important basic strategies.	强烈建议阅读手册中不含剧透的“生存技巧”，了解重要的基础策略。
+Click on any data entry to learn more about it. Keyboard players can use Up/Down arrows and Enter.	点击数据条目可查看详情。键盘操作可用上下方向键和Enter。
+ALERT: A rogue bot has emerged from the scrapyard. Terminate on contact.	警报: 废料场出现失控机器人。接触后立即消灭。
+Integrity reflects the amount of damage a part can sustain before it is destroyed or rendered useless. Maximum integrity for a part type that cannot be repaired is preceded by a *.	耐久表示部件被摧毁或失效前能承受的伤害量。不可维修的部件，其最大耐久前标有*。
+Coverage reflects how likely this part is to be hit by an attack, relative to other parts.	覆盖权重表示，相对于其他部件，该部件被攻击命中的可能性。
+Oops, please delete that sentence from your memory. I really shouldn't be revealing my identity to complete strangers. From the confused gleam of your metallic surface I take it you weren't able to deduce any important information from my name anyway.	哎呀，请把刚才那句话从记忆里删掉。我真不该向陌生人透露自己的身份。看你金属表面那副困惑的光泽，你应该也没从我的名字里推断出什么重要信息。
+{*}: "R0-DNY!"	{*}: "R0-DNY!"
+"R0-DNY!"	"R0-DNY!"
+{*}: "STR18!"	{*}: "STR18!"
+"STR18!"	"STR18!"
+DATA ERROR: Steam Global Achievement%	数据错误：Steam全球成就%
+Initiate Singularity Gate Test {n}.	启动奇点之门测试{n}。
+Initiate Singularity Gate Test {n}	启动奇点之门测试{n}
+Forge Plexus crushes {*}.	锻炉中枢压碎了{*}。
+Forge Plexus deploys {*}.	锻炉中枢部署了{*}。
+Forge Plexus recovers {*}.	锻炉中枢回收了{*}。
+ALERT: Unauthorized access to Forge Plexus network, source area identified.	警报：未经授权访问锻炉中枢网络，已定位源区域。
+{*} inserts {*} into Forge Plexus.	{*}将{*}插入锻炉中枢。
+Forge Plexus Regeneration	锻炉中枢再生
+Forge Plexus network access discovered	发现锻炉中枢网络访问权限
+Links to the Forge Plexus, every {n} turns receiving positions and IDs of all 0b10-recognized parts through the entire Protoforge area.	连接锻炉中枢，每{n}回合获取整个原型锻炉区域内所有0b10识别部件的位置与ID。
+Links to the Forge Plexus, every {n} turns receiving positions and IDs of all 0b10-recognized parts through the entire Protoforge area. <stacks>	连接锻炉中枢，每{n}回合获取整个原型锻炉区域内所有0b10识别部件的位置与ID。 <可叠加>
+Links to the Forge Plexus, every {n} turns receiving positions and IDs of all 0b10-recognized parts through the entire Protoforge area. <no_stack>	连接锻炉中枢，每{n}回合获取整个原型锻炉区域内所有0b10识别部件的位置与ID。 <不叠加>
+Links to the Forge Plexus, every {n} turns receiving positions and IDs of all 0b10-recognized parts through the entire Protoforge area. <half_stack>	连接锻炉中枢，每{n}回合获取整个原型锻炉区域内所有0b10识别部件的位置与ID。 <半效叠加>
+Links to the Forge Plexus, every {n} turns receiving positions and IDs of all 0b10-recognized parts through the entire Protoforge area. <parallel_ok>	连接锻炉中枢，每{n}回合获取整个原型锻炉区域内所有0b10识别部件的位置与ID。 <可并行>
+Forge Plexus	锻炉中枢
+Shift Map View (vi requires +Shift	平移地图（地图平移模式外，
+{n}% chance to crush robots when ramming them. Cannot crush targets of large or greater size, or those with more than {n} core integrity.	冲撞时有{1}%几率压碎机器人。无法压碎大型及以上目标，或核心耐久超过{2}的目标。
+{*}: {n} recoil from each weapon, and immunity to knockback.	{1}：每件武器后坐力{2}，并免疫击退。

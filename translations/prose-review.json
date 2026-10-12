@@ -1,0 +1,79 @@
+{
+  "scope": "只读审校 build/tables/zh_para.tsv；此报告不直接改动译文表或批次文件。行号为审校时文件中的1-based行号。",
+  "translate": [
+    {
+      "line": 39,
+      "source": "I have minimal data on their capabilities, but the tinkerer design seems to be an evolution of C-series researchers.",
+      "current": "我对它们能力所知甚少，但 tinkerer 的设计似乎是C系列研究员的进化型。",
+      "phrase": "tinkerer",
+      "suggested": "改装者",
+      "reason": "普通角色/类别名仍以英文留在中文句中；本表其他位置已将 Tinkerer 译为工匠或改造者。建议统一为“改装者”。"
+    },
+    {
+      "line": 7769,
+      "source": "One of them suddenly speaks: \"Hello LRC-V3. What is your command?\"",
+      "current": "One of them suddenly speaks: \"你好，LRC-V3。有什么吩咐？\"",
+      "phrase": "One of them suddenly speaks:",
+      "suggested": "其中一个突然开口：",
+      "reason": "整句叙述部分未译；LRC-V3 是型号，应保留。"
+    },
+    {
+      "line": 8380,
+      "source": "Sigix Containment Pod: \"We're going to do a full diagnostic on you back on the Tor.\"",
+      "current": "Sigix Containment Pod: \"回到Tor后我们会给你做全面诊断。\"",
+      "phrase": "Sigix Containment Pod",
+      "suggested": "西吉收容舱",
+      "reason": "发言者/设备名称仍全为英文；prose-glossary.json 已规定 Sigix→西吉，Containment Pod 是可译普通名词。Tor 若为专名可按项目其他用例统一处理。"
+    }
+  ],
+  "preserve": [
+    {
+      "term": "R. cogger W.",
+      "line": 16383,
+      "reason": "已结合本地EXE上下文核对，位于贡献者署名区，是署名/句柄，不是对话短语。"
+    },
+    {
+      "term": "Irony.or.Death",
+      "line": 9507,
+      "reason": "点号分隔的专名/账号形式，原文与译文一致；无普通英文句意。"
+    },
+    {
+      "term": "R0-DNY!; STR18!",
+      "lines": [14074, 14075, 14236, 14237],
+      "reason": "机器人呼号/型号式称呼，译文中用于角色呼喊，保留字面形式。"
+    },
+    {
+      "term": "C-30 ARC",
+      "line": 16380,
+      "reason": "机器人/物品型号名称，非普通散文。"
+    },
+    {
+      "term": "{*}, {n}, {stacks}, 百分比和计数格式",
+      "lines": [13564, 13760, 14365, 14366, 14642, 15759, 15760],
+      "reason": "全为格式占位符、标签或数值模板；应原样保留。"
+    },
+    {
+      "term": "FieldDescriptorProto.extendee",
+      "lines": [9168, 9169],
+      "reason": "protobuf 字段/属性标识符，属于技术标识符而非可翻译散文；句子周围已有中文。"
+    },
+    {
+      "term": "vGa.{n}a; VGA_; IBM VGA; DOS",
+      "lines": [8623, 13846],
+      "reason": "前者为资源标识符，后者为字体/标准名称及缩写，保留其专名拼写。"
+    },
+    {
+      "term": "LRC-V3",
+      "line": 7769,
+      "reason": "型号，应保留；该行其余未译英文已列入 translate。"
+    },
+    {
+      "term": "EXILES_VAULT; SIGIX_ACCESS; FARCOM_MSG",
+      "reason": "出现在 mhack 命令/消息类型标记中，属机器可读标识符，不应翻译。"
+    }
+  ],
+  "notes": [
+    "全表目的语无汉字的16行均为占位符/格式模板、机器人呼号或专名，没有发现遗漏的完整普通英文句子。",
+    "Cetus 按 prose-glossary.json 应译作“鲸鱼”；逐行检查到的命令标记和专名用法不应强行替换。"
+  ]
+}

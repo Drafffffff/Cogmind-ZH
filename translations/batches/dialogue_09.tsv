@@ -1,0 +1,500 @@
+Enumerate(Surveillance)	枚举（监视）
+Enumerate(Guards)	枚举（守卫）
+Enumerate(Maintenance)	枚举（维护）
+Enumerate(Squads)	枚举（小队）
+Traps(Reprogram)	陷阱（改写）
+Traps(Disarm)	陷阱（解除）
+Traps(Locate)	陷阱（定位）
+Alert(Purge)	警报（清除）
+Alert(Check)	警报（检查）
+Index(Garrisons)	索引（驻军）
+Index(Scanalyzers)	索引（扫描仪）
+Index(Recycling Units)	索引（回收站）
+Index(Repair Stations)	索引（维修站）
+Index(Fabricators)	索引（制造机）
+Index(Terminals)	索引（终端）
+Index(Machines)	索引（机器）
+Access(Emergency)	访问（紧急）
+Access(Branch)	访问（分支）
+Access(Main)	访问（主干）
+Open(DSF)	开DSF
+Open(Door)	开门
+Hypermatrix Ping	超矩阵脉冲
+Warlord Support	军阀支援
+Borg Destroyed	机器人被毁
+Drone Destroyed	无人机被毁
+Power Core	能量核心
+Self-contained	自给式
+Long-range	远程
+High-density	高密度
+High-powered	高功率
+High-capacity	大容量
+High Siege	高攻城
+EXPLORER MODE	探索模式
+ADVENTURER MODE	冒险模式
+ROGUE MODE	盗贼模式
+WIZARD MODE	巫师模式
+WARNING=UNSTABLE	警告=不稳定
+Locked Only	仅锁定
+Unlocked Only	仅解锁
+Oldest First	最旧优先
+Newest First	最新优先
+Fade In	淡入
+By MAIN.C's Side	与MAIN.C并肩
+Free Derelict Territories	自由遗迹领地
+Near Former Tau Ceti IV	前往昔日Tau Ceti IV附近
+Tau Ceti IV Orbit	Tau Ceti IV轨道
+To Fleet Rendezvous	前往舰队会合点
+To Epsilon Eridani	前往波江座ε
+Former TC4	昔日TC4
+EXOSKELETON DESTROYED	外骨骼被毁
+SMASHED BY CAVE-IN	被塌方砸碎
+SYSTEM CORRUPTED	系统遭腐化
+OVERWHELMED BY UFD FORCES	被UFD部队击溃
+BURIED IN PROTOFORGE COLLAPSE	埋于原型锻炉坍塌中
+CRUSHED BY SINGULARITY	被奇点碾碎
+DEFENDING {n}BPRIME	正在防守{n}BPRIME
+ESCAPED SINGULARITY	逃离奇点
+DESTROYED TAU CETI IV	摧毁Tau Ceti IV
+DESTINATION: FLEET RENDEZVOUS	目的地：舰队会合点
+DESTINATION: EPSILON ERIDANI	目的地：波江座ε
+Core destroyed	核心被毁
+Exoskeleton Destroyed	外骨骼被毁
+Smashed by cave-in	被塌方砸碎
+Core melted	核心熔毁
+System corrupted	系统遭腐化
+Buried in Protoforge collapse!	埋于原型锻炉坍塌中！
+Crushed by singularity!	被奇点碾碎！
+Defending {n}bPrime!	正在防守{n}bPrime！
+Escaped singularity!	逃离奇点！
+Destroyed Tau Ceti IV!	摧毁Tau Ceti IV！
+Heading to fleet!	正前往舰队！
+SPECIAL MODE ACTIVATED: XXX	特殊模式已启动：XXX
+Waiting at an {n}b10-designated guard post reduces suspicion.	在{n}b10指定岗哨等待可降低嫌疑。
+Bump a Recycling Unit's interactive piece to deliver inventory items.	撞击回收站交互部件以交付库存物品。
+Thundershock Coil= MK621	雷霆线圈=MK621
+Deep Wide Ruffle	深宽褶皱
+Assembled Type L	L型组装体
+A Lost Engineer	迷失的工程师
+The EMC Device	EMC装置
+Crawling Chaos	蠕动混沌
+NAME REDACTED	姓名已删
+Irony.or.Death	Irony.or.Death
+Satan Loves You	撒旦爱你
+Dr. C. Bell, a Lost Engineer	C. Bell博士，迷失的工程师
+Resetting core system.cfg values to AUTO/{n}/{n}	将核心system.cfg值重置为AUTO/{n}/{n}
+No fonts fit in desktop	桌面模式无适配字体
+Quitting while network threads still active due to suspected timeout	网络线程仍运行，疑似超时，正在退出
+Unable to start thread	无法启动线程
+BELOVED TOY OF X0-{n}V1	X0-{n}V1的宠物
+FAVORITE TOY OF X0-{n}V1	X0-{n}V1的玩物
+PLAYTHING OF X0-{n}V1	X0-{n}V1的玩具
+SPECIAL PLAYTHING	特殊玩物
+VERY SPECIAL PLAYTHING	非常特别的玩物
+CHAOS IS INEVITABLE	混沌不可避免
+A BORING THING	无聊的东西
+This toy is broken.	这玩具坏了。
+It was about time.	早该如此。
+What?! That's it?	什么？！就这样？
+Big yawn energy here.	困得直打哈欠。
+Unable to open object data	无法打开对象数据
+(upload quota exceeded)	（上传额度已满）
+Data serialization failed!	数据序列化失败！
+Response unserialization failed!	响应反序列化失败！
+Unable to open "	无法打开"
+Upload succeeded	上传成功
+Upload failed, quitting	上传失败，正在退出
+Reveal and label all hidden doors within a range of {n}	揭示并标记半径{n}内所有隐藏门
+Actively interfere with the local combat network's offensive coordination calculations, reducing the accuracy of this bot by {n}, and that of all {n}b10 combat bots within a range of {n} Effect stacks when installed on multiple bots.	干扰本地战斗网的攻击协同计算，使本机命中率降低{n}，并降低半径{n}内所有{n}b10战斗机器人的命中率。多个机器人安装时效果叠加。
+Openly share the local combat network's defensive coordination values, giving yourself and all allies {n} better accuracy against this and all {n}b10 combat bots within a range of {n} Effect stacks when installed on multiple bots.	公开共享本地战斗网防御协同值，使你和所有盟友对本机及半径{n}内{n}b10战斗机器人的命中率提高{n}。多个机器人安装时效果叠加。
+Tap into system's combat decision-making processes in real time, increasing your accuracy and damage against this bot by {n} while also impairing its accuracy against you by {n}.	实时接入系统战斗决策，使你对本机命中率和伤害提高{n}，并使本机对你的命中率降低{n}。
+Mark all active security positions within a range of {n}	标记半径{n}内所有现役安保岗位
+Mark this bot to make it the most attractive target to all allies, as well as improve accuracy against it by {n}.	标记本机，使所有盟友优先攻击，并提高对其命中率{n}。
+Disarm the nearest trap array within a range of {n}	解除半径{n}内最近的陷阱阵列
+Reveal and mark all traps within a range of {n}	揭示并标记半径{n}内所有陷阱
+Lower the alert level.	降低警戒等级。
+Locate the nearest DSF.	定位最近的DSF。
+Force system's call for reinforcements to instead redirect any Haulers within a range of {n}	劫持系统增援呼叫，改为引导半径{n}内的运输机器人前来
+Reveal and reprogram the nearest trap array within a range of {n}	揭示并改写半径{n}内最近的陷阱阵列
+Reveal all earth within a range of {n}	揭示半径{n}内所有地面
+Reveal all walls and emergency access points within a range of {n}	揭示半径{n}内所有墙壁和紧急入口
+Induce an energy anomaly resembling a long-range distress signal that will attract nearby patrols and Sentries/Heavies to investigate. Anomaly detectable up to a range of {n}	制造类似远程求救信号的能量异常，吸引附近巡逻队及哨兵/重型机器人调查。探测范围：{n}
+Deactivate Singularity Gate.	关闭奇点之门。
+Initiate Singularity Gate Test {n}	启动奇点之门测试{n}
+Activate Singularity Gate.	启动奇点之门。
+Locate all nearby traps.	定位附近所有陷阱。
+Download Complex {n}b10 records about the given robot variant, conferring +{n} to hit and +{n} damage against it, as well as -{n} to its accuracy when under fire from one. When manually hacking for analyses, a general robot class name can be entered instead of a specific variant in order to automatically choose a variant relevant at the current depth.	下载关于指定机器人变体的复合体{n}b10档案：对其命中+{n}、伤害+{n}，并使其受攻击时命中率-{n}。手动分析时可输入通用机器人类别，自动选择当前深度适用的变体。
+Depending on its composition, some structures may be more or less likely to be affected by a certain type of damage. Negative resistances represent a weakness, and therefore greater damage from that source. For example, {n} resistance would decrease the damage from an incoming attack of that type by {n}, while -{n} would instead increase the damage sustained by {n}.	结构受不同伤害类型影响各异；负抗性代表弱点，会受到更多该类伤害。例如，{n}抗性可使该类攻击伤害降低{n}；-{n}则使所受伤害增加{n}。
+Depending on their design, some installations may be more or less likely to be affected by a certain type of damage. Negative resistances represent a weakness, and therefore greater damage from that source. For example, {n} resistance would decrease the damage from an incoming attack of that type by {n}, while -{n} would instead increase the damage sustained by {n}.	设施受不同伤害类型影响各异；负抗性代表弱点，会受到更多该类伤害。例如，{n}抗性可使该类攻击伤害降低{n}；-{n}则使所受伤害增加{n}。
+MAP SPRITES	地图精灵
+Intercepts tactical planning and coordination transmissions, providing self and all controllable allies with a +{n} accuracy bonus against hostile Complex {n}b10 combat robots within a range of {n}	截获战术规划与协同信号，使自身及所有可控盟友对半径{n}内敌对复合体{n}b10战斗机器人的命中率+{n}
+Provides a cumulative {n} chance to temporarily trick any common {n}b10 combat robot system encountering hostiles on the depth above this one into believing it is allied with Cogmind. After {n} turns the network will perform an automated quickboot to restore it to normal, a process which takes anywhere from {n} to {n} turns. The effect is less likely to occur on the depth above that (only {n} chance), and is capped at {n}.	累积有{n}几率暂时欺骗常见{n}b10战斗机器人系统：使其误认本机为盟友。{n}回合后网络将自动快速重启恢复，耗时{n}至{n}回合。上一层触发几率较低（仅{n}），上限为{n}。
+Accelerates fabrication speed to {n} by forcing the network to allocate matter to this system first. (Effect also applies to builds already in progress.)	强制网络优先为此系统分配物质，将制造速度提升至{n}。（也影响已在制造的物品。）
+Disrupts targeting coordination signals among hostile Complex {n}b10 combat robots, reducing their chance to hit targets by {n} while within a range of {n}	扰乱敌对复合体{n}b10战斗机器人的瞄准协同信号，使其在半径{n}内命中率降低{n}
+Co-opts this terminal to aid in hacking other machines. Confers a +{n} to hacks, while the benefit of each additional botnet terminal is halved (+{n}, +{n}), with each terminal providing no less than +{n}.	接管此终端以协助入侵其他机器。黑客加值+{n}；每增加一个僵尸网络终端，收益减半（+{n}、+{n}），但每台至少提供+{n}。
+Reports in real time the position and type of all robots near this terminal. The range of this effect is dependent on terminal level: {n} for Security Level {n} {n} on level {n} terminals, and {n} on all other terminals.	实时报告终端附近机器人的位置和类型。范围依终端等级而异：安全等级{n}下，{n}级的{n}终端为{n}，其他为{n}。
+Piercing weapons inflict less collateral damage, but get double the melee momentum damage bonus and are more likely to hit a robot's core (+{n} to exposure, a <half_stack> effect when factored alongside Core Analyzers).	穿刺武器附带损伤较低，但近战动量伤害加倍，且更易命中核心（暴露率+{n}；与核心分析器合算时效果减半叠加）。 <half_stack>
+Impact weapons have a damage-equivalent chance to cause knockback, and ignore coverage thus are effective at destroying fragile systems. By ignoring coverage, there is an equal chance for an attack to hit any given part, where each slot of a multislot part also has a separate and equivalent chance to be hit. A target's core also counts as one slot for that purpose. For every component crushed by an impact, its owner's system is significantly corrupted (+{n}-{n}), though electromagnetic resistance can help mitigate this effect. (Cogmind is less susceptible to corruption caused in this manner.)	冲击武器有等同伤害的几率造成击退，并无视覆盖率，擅长摧毁脆弱系统。无视覆盖率后，各部件被击中几率相同；多槽部件的每个槽位几率也相同，核心也算一槽。每压碎一个部件，其所属机器系统即遭严重腐化（+{n}-{n}），电磁抗性可减轻影响。（Cogmind较不易因此腐化。）
+Electromagnetic weapons have less of an impact on integrity, but are capable of corrupting a target's computer systems. Anywhere from {n} to {n} of damage done is also applied as system corruption. (Cogmind is less susceptible to EM-caused corruption, but still has a damage% chance to suffer {n} point of system corruption per hit.) EM-based explosions only deal half damage to inactive items lying on the ground, but can also corrupt them.	电磁武器对完整度影响较小，但能腐化目标电脑系统。造成的伤害中有{n}至{n}会转为系统腐化。（Cogmind较不易受电磁腐化，但每次命中仍有伤害值%的几率遭受{n}点腐化。）电磁爆炸对地面未激活物品仅造成一半伤害，但也能腐化它们。
+Chance this projectile may penetrate each consecutive object it hits, e.g. {n} / {n} / {n} may pass through up to three objects, with a {n} chance for the first, followed by {n} and {n} for the remaining two. Huge robots count as a single object for penetration purposes.	此弹体穿透每个连续目标的几率。例如{n}/{n}/{n}表示最多穿透三件物体，几率依次为{n}、{n}、{n}。巨型机器人视作一件物体。
+Chance for this weapon to instantly destroy the hit component, or even a robot core. (Cogmind is less susceptible to this effect, which can only destroy those parts which are already below {n} integrity when hit.) Armor is immune to this effect, instead taking an additional {n} damage. On smashing a part, an equal amount of damage is then applied as overflow damage, although unlike regular overflow damage this may be absorbed by any shielding protecting the secondary target.	此武器瞬间摧毁命中部件乃至机器人核心的几率。（Cogmind较不易受此效果影响；仅能摧毁命中时完整度低于{n}的部件。）装甲免疫此效果，改为额外承受{n}点伤害。部件粉碎时，同等伤害会溢出；与普通溢出不同，此伤害可被保护次级目标的护盾吸收。
+Chance for this weapon to automatically maximize the amount of system corruption inflicted on the target. If target is Cogmind, the amount of corruption is randomized from {n}-{n} of the damage.	此武器将目标系统腐化提升至最大值的几率。若目标为Cogmind，腐化量随机为伤害的{n}-{n}。
+Chance for this weapon to instantly destroy the hit component, or even a robot core. (Cogmind is less susceptible to this effect, which can only destroy those parts which are already below {n} integrity when hit.) Armor is immune to this effect, instead taking an additional {n} damage.	此武器瞬间摧毁命中部件乃至机器人核心的几率。（Cogmind较不易受此效果影响；仅能摧毁命中时完整度低于{n}的部件。）装甲免疫此效果，改为额外承受{n}点伤害。
+This is a direct modifier to the time it takes to fire the weapon. Some weapons are inherently faster or slower to fire. Multiple negative-delay weapons cannot contribute more than -{n} to the volley firing time, but positive values have no such cap.	此值直接调整武器开火耗时；部分武器天生更快或更慢。多件负延迟武器对齐射时间的总减免最多为-{n}，正值则无上限。
+Entering or exiting shielding mode requires {n} turns. During the transition, and for as long as the mode is active, Cogmind is immobile and the leg cannot be disabled or removed. While in shielding mode, coverage for this leg is doubled, and it gains a {n} chance to glance each incoming projectile that would otherwise hit it, instead taking no damage. Activate the leg a second time to begin changing its shielding state.	进入或退出护盾模式需{n}回合。切换期间及模式持续时，Cogmind无法移动，腿部不可停用或拆除。模式下腿部覆盖率翻倍，并有{n}几率使原本命中的来袭弹体擦过而不造成伤害。再次激活腿部以切换护盾状态。
+Entering or exiting martial mode requires {n} turns. During the transition, and for as long as the mode is active, Cogmind movement speed is halved and the exoskeleton cannot be disabled or removed. While in martial mode, will automatically use an active melee weapon to attack any hostile that moves into an adjacent position at {n} of the normal time cost (no follow-ups). Also a {n} chance to use the melee weapon to deflect each incoming projectile, with a second melee weapon adding {n}, and an additional {n} for each after that. For example, three melee weapons have a collective {n} chance to deflect each projectile. Melee weapons successfully deflecting projectiles in this manner have a {n} chance to take {n} damage each time. While in this mode, Cogmind is also immune to knockback and cancels out all recoil from firing ranged weapons. Activate the exoskeleton a second time to begin changing its martial state.	进入或退出武技模式需{n}回合。切换期间及模式持续时，Cogmind移动速度减半，外骨骼不可停用或拆除。模式下，敌人移至相邻格时会自动用启用的近战武器攻击，耗时为通常的{n}（不追击）。每枚来袭弹体有{n}几率被近战武器拨开；第二把武器再加{n}，之后每把再加{n}。例如三把武器合计几率为{n}。成功拨弹的武器每次有{n}几率承受{n}点伤害。此模式还免疫击退，并抵消远程武器后坐力。再次激活外骨骼以切换武技状态。
+Entering or exiting siege mode requires {n} turns. During the transition, and for as long as the mode is active, Cogmind is immobile and the treads cannot be disabled or removed. While in siege mode, non-melee attacks have +{n} accuracy, coverage for all armor and heavy treads is doubled, any treads in siege mode get a free {n} damage reduction, no weapons suffer from recoil effects, and Cogmind is immune to instant part destruction from critical hits. Treads capable of High siege mode instead give +{n} accuracy and have {n} damage resist. Activate siegable treads a second time to begin changing their siege state.	进入或退出攻城模式需{n}回合。切换期间及模式持续时，Cogmind无法移动，履带不可停用或拆除。模式下非近战命中率+{n}，所有装甲和重型履带覆盖率翻倍，攻城履带减伤{n}，武器不受后坐力影响，Cogmind免疫暴击造成的部件瞬毁。可高攻城的履带改为命中率+{n}且抗伤{n}。再次激活可攻城履带以切换状态。
+Burnout represents the rate at which this propulsion's integrity will deteriorate while overloaded, indicated as a percent chance per move to lose one point of integrity. Overloading boosts performance: speed is calculated as if there is two of this part active at once, support is increased {n}, energy costs doubled, and heat generation tripled. If moving at the normal maximum speed for the current propulsion type, each overloaded hover/flight unit further reduces final movement time by {n} to a value no better than {n} If N/A, this propulsion cannot be overloaded; in general only cooled hover and flight units support overloading. Activate an applicable propulsion a second time to overload it.	过载损耗表示推进器超载时每次移动损失1点完整度的百分比几率。过载会提升性能：速度按同时启用两件计算，支撑增加{n}，能耗翻倍，产热三倍。以当前推进类型正常最高速度移动时，每个超载悬浮/飞行单元还会使最终移动耗时降低{n}，最低不低于{n}。若为N/A则不可过载；通常只有带冷却的悬浮和飞行单元支持过载。再次激活适用推进器即可过载。
+Chargeable parts automatically recharge while attached, draining your energy at their charge rate for as many turns as necessary to fully recharge, but will never reduce your energy below {n} capacity.	可充能部件装载时会自动充电，按充能速率耗能直至充满，但不会使能量低于容量的{n}。
+Coverage is a relative indicator of how likely this part is to be hit by a successful incoming attack compared to other attached parts. For example, a part with {n} coverage is twice as likely to be hit as another part with a value of {n} Armor, protective, and large parts tend to have higher coverage values while small subsystems provide less coverage but are therefore less likely to be damaged.	覆盖率表示此部件相较其他已装部件被成功攻击命中的概率。例如覆盖率{n}的部件被击中概率是覆盖率{n}部件的两倍。装甲、防护件和大型部件覆盖率较高；小型子系统覆盖率较低，因此较不易受损。
+True Fullscreen	真正全屏
+Floor Gamma	地板伽马
+Color Item Labels	物品标签着色
+Depending on their design, robots may be more or less likely to be affected by a certain type of damage. Negative resistances represent a weakness, and therefore greater damage from that source. For example, {n} resistance would decrease the damage from an incoming attack of that type by {n}, while -{n} would instead increase the damage sustained by {n}.	机器人受不同伤害类型影响各异；负抗性代表弱点，会受到更多该类伤害。例如，{n}抗性可使该类攻击伤害降低{n}；-{n}则使所受伤害增加{n}。
+Remaining total amount of integrity capable of restoring during repairs. When instructed to AID an ally Mechanics enter repair mode, in which they attempt to repair (in priority order:) that ally, or Cogmind, or the closest ally in need of repairs. Repair prioritizes robot cores, broken parts, restoration of missing functionality, followed by part integrity. Field repairs on the latter are only capable of restoring a part up to {n} integrity. Repairs cannot be made while either the target is in combat or the Mechanic itself is taking fire. Mechanics are not capable of repairing Cogmind's core. For keyboard users there is a shortcut to simultaneously order all visible controllable Mechanics to AID, by pressing 'r' once in order mode.	维修时尚可恢复的完整度总量。机械师受命援助盟友时会进入维修模式，依次尝试维修该盟友、Cogmind，或最近待修盟友。维修优先顺序：机器人核心、损坏部件、恢复缺失功能、部件完整度。野外维修最多将部件恢复至{n}完整度。目标处于战斗或机械师遭受攻击时无法维修。机械师不能维修Cogmind核心。键盘玩家可在命令模式中按一次“r”，命令所有可见且可控的机械师援助。
+Indicates the current propulsion type, and speed as a percentage of "average" speed ({n}). In tactical HUD mode, an additional value represents the actual time cost to move one space (thus higher values are slower).	显示当前推进类型及速度相对“平均”速度（{n}）的百分比。战术HUD还会显示移动一格的实际耗时（数值越高越慢）。
+Robot variants for which currently have a Complex {n}b10 record, conferring +{n} to hit and +{n} damage against it, a -{n} to its accuracy when under fire from one.	已有复合体{n}b10档案的机器人变体；对其命中+{n}、伤害+{n}，且其受攻击时命中率-{n}。
+Speed is represented as a percentage of "average" speed ({n}). In tactical HUD mode, the actual time cost to move one space is shown in parenthesis (thus higher values are slower).	速度以相对“平均”速度（{n}）的百分比表示。战术HUD会在括号中显示移动一格的实际耗时（数值越高越慢）。
+Color item labels by their respective integrity. Labels for items currently out of view appear slightly darker. Note that even while this option is inactive, the gray scheme's colors are darkened for those items with less than {n} integrity remaining.	按物品完整度为标签着色。视野外物品标签颜色较暗。即使关闭此选项，灰色方案中剩余完整度低于{n}的物品也会变暗。
+[Quit, Delete Save]	[退出并删除存档]
+[Self-destruct]	[自毁]
+Sprites? What sprites? Cogmind was designed from the ground up for full ASCII play. (Note that at the smallest font size, {n} only ASCII is supported.)	精灵？什么精灵？Cogmind自设计之初便支持纯ASCII游玩。（注意：最小字体仅支持ASCII，{n}。）
+Dump Stats	导出统计
+Overall volume level.	总音量。
+Gallery Collection	画廊收藏
+[Save & Quit]	[保存并退出]
+Current font set, which indirectly determines the default dimensions of the window/interface. (Note: The smallest size, {n} does not support tilesets and is therefore only available in ASCII mode. Also in modal UI layouts, the minimum size is {n})	当前字体集会间接决定窗口/界面默认尺寸。（注意：最小尺寸{n}不支持图块，仅能使用ASCII模式。模态界面布局下最小尺寸为{n}。）
+Collect Protomatter and bump robots to take control of them.	收集原质并撞击机器人以控制它们。
+ALPHA ACCESS AVAILABLE NOW	现可进行ALPHA测试
+YOU ARE	你在
+SOMEWHERE IN THE GALAXY	银河某处
+Enter - [Confirm]	回车-[确认]
+[ FREE DERELICT TERRITORIES ]	[ 自由遗迹领地 ]
+LRC-V3 PRIORITY DISPATCH SYSTEM	LRC-V3优先调度系统
+Recruit derelict Exiles	招募遗迹放逐者
+Oversee Research reconstruction	监督研究重建
+Reinforce forward base	增援前线基地
+Intercept Warlord convoy	拦截军阀车队
+Engage derelict incursion	应对遗迹入侵
+Trace Protoforge attack to source	追查原型锻炉袭击源头
+L2 integration testing	L2集成测试
+Clear base facilities	清理基地设施
+Debrief and analysis	汇报与分析
+Lower Systems	下层系统
+POWER CELLS	能量电池
+Uploading data	正在上传数据
+Unable to connect.	无法连接。
+Sending content...	正在发送内容……
+Waiting for ACK...	等待确认……
+Too few bytes received	收到字节过少
+Wrong HTTP version	HTTP版本错误
+POST failed	POST失败
+POST succeeded	POST成功
+Invalid news format	新闻格式无效
+Invalid news syntax, missing closing tag	新闻语法无效，缺少结束标签
+User not logged on, unable to request	用户未登录，无法请求
+Preparing to start	准备启动
+GUID error detected	检测到GUID错误
+Difficulty selection	选择难度
+Title screen	标题画面
+Intro sequence	开场序列
+Unable to add screenshot tag	无法添加截图标签
+" not followed by a word	"后面未接单词
+CORE=UNSTABLE	核心=不稳定
+[Starting new run with alternate parameters...]*	[以替代参数开始新一局……]*
+SE fail	SE失败
+All I Could Find	我能找到的一切
+Please Let Me Get Close	请让我靠近
+Be With You Shortly	马上回来陪你
+Run 'n Gun	边跑边打
+Warm Welcome	热烈欢迎
+Flee or Die	逃跑或死
+Face Your Regrets	面对悔恨
+Angry About Something	因某事愤怒
+"They'll never stop me! The dig must go on!"	“他们休想拦我！挖掘必须继续！”
+Initiating installation procedure...	开始安装程序……
+Time for a live test!	来场实战测试！
+Project G-{n} loaded.	项目G-{n}已载入。
+ALERT: Protoforge research compromised, high security lockdown imminent, T-{n}	警报：原型锻炉研究遭泄露，高级安全封锁即将启动，T-{n}
+Accessing seal controls...	正在访问密封控制……
+Wild derelicts	野生遗迹者
+Warlord shuts down.	军阀关闭。
+GAR item not registered	GAR物品未注册
+Unable to make room for special items	无法腾出空间存放特殊物品
+Carrier spawn failed	运输者生成失败
+If multiple similar parts attached, heat is distributed among them equally where possible.	若装有多个相似部件，热量会尽可能平均分配。
+Also reduces effect of incoming heat transfer by one level.	也会降低一级传入热量传递效果。
+Also stores surplus generated energy while in inventory, but cannot be accessed for use until attached. Stored energy can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted.	在库存中时也会储存多余生成能量，但装上后才能取用。若放在当前位置地面，也可直接提取储能。物品损坏时，未装载状态无法存取。
+Also stores surplus collected matter while in inventory, but cannot be accessed for use until attached. Stored matter can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted.	在库存中时也会储存多余收集物质，但装上后才能取用。若放在当前位置地面，也可直接提取储存物质。物品损坏时，未装载状态无法存取。
+(Requires data from a Sensor Array.) Also enables deciphering of signals emitted from adjacent exits, revealing where they lead, and at garrisons know the time until the next response dispatch, if any. When multiple exits lead to the same destination, after having identified the first, subsequent ones will be identified on sight even without an interpreter.	（需传感器阵列数据。）还能解读相邻出口信号，揭示其去向；在驻军区则可获知下次增援派遣时间（若有）。多个出口通往同一地点时，识别首个后，其余会在视野中自动识别，无需解码器。
+(Requires data from a Terrain Scanner.)	（需地形扫描仪数据。）
+Also identifies hidden doorways and highlights areas that will soon cave in due to instability even without further stimulation.	还能识别隐藏通道，并标出即使没有进一步扰动也即将因不稳定而塌陷的区域。
+External sources include attacks and trap effects, whereas inapplicable internal sources include impact-based destruction and attaching corrupted parts.	外部来源包括攻击和陷阱效果；不适用的内部来源包括冲击摧毁和装上损坏部件。
+Takes precedence over effect of treads siege mode on armor coverage.	优先于履带攻城模式对装甲覆盖率的效果。
+Example, {n} damage inflicted on this part would be reduced to {n} draining {n} energy to prevent the rest.	例如，此部件承受{n}伤害时会降至{n}，并消耗{n}能量抵消其余伤害。
+(only usable if no active force fields, shield generators, remote shields, or energy mantles).	（仅在没有启用力场、护盾发生器、远程护盾或能量护罩时可用。）
+Unable to affect guided projectiles, or any that succesfully penetrate.	无法影响制导弹体或成功穿透的弹体。
+Incompatible with Quantum Capacitor, Launcher Loader, and autonomous weapons.	与量子电容器、发射器装弹器及自主武器不兼容。
+(cannot exceed weapon's maximum damage).	（不会超过武器伤害上限。）
+Automatically use active melee weapon to attack any hostile that moves into an adjacent position at {n} of the normal time cost (no follow-ups).	敌人移至相邻格时，自动用启用的近战武器攻击，耗时为通常的{n}（不追击）。
+{n} chance to use a melee weapon to deflect each incoming projectile, with a second melee weapon adding {n}, and an additional {n} for each after that. For example, three melee weapons have a collective {n} chance to deflect each projectile. Melee weapons successfully deflecting projectiles in this manner have a {n} chance to take {n} damage each time.	每枚来袭弹体有{n}几率被近战武器拨开；第二把武器再加{n}，之后每把再加{n}。例如三把武器合计几率为{n}。成功拨弹的武器每次有{n}几率承受{n}点伤害。
+Also prevents launcher misfires caused by system corruption.	也能防止系统腐化导致发射器哑火。
+Only affects weapons that are already capable of critical hits, and not applicable for the Meltdown critical.	仅影响本可造成暴击的武器，不适用于熔毁暴击。
+Applies only to gun, cannon, and melee attacks.	仅适用于枪械、炮和近战攻击。
+If this part is destroyed, so is its user, and if used by Cogmind, for every {n} damage taken also does {n} damage to Cogmind's core integrity.	若此部件被摧毁，使用者也会死亡；若由Cogmind使用，每受{n}伤害，核心完整度也会损失{n}。
+Also cancels a flying/hovering target's {n}/{n} bonus to dodge for the duration.	目标飞行/悬浮时，期间也会抵消其{n}/{n}闪避加成。
+Holds targets in place. Also cancels a flying/hovering target's {n}/{n} bonus to dodge for the duration.	将目标定在原地。期间也会抵消飞行/悬浮目标的{n}/{n}闪避加成。
+Alternatively may instead randomly cause other chaotic effects of mysterious origin.	也可能随机引发其他神秘来源的混沌效果。
+Any pursuers at the time lose tracking on the user.	当时所有追踪者都会失去对使用者的追踪。
+(regardless of propulsion).	（无视推进类型。）
+Ignores all obstacles and does not require line of sight.	无视所有障碍，无需视线。
+Also provides active maintenance of attached Overtuned parts to prevent malfunctions (function available even if powered off). If part on the ground is an identified gun/cannon/melee weapon and currently have an empty weapon slot, instead attaches it at no cost.	还会主动维护已装的过度调校部件以防故障（断电时仍有效）。若地面部件是已识别的枪/炮/近战武器，且有空武器槽，则免费装上。
+Requires sufficient space to deploy, where if no suitable location is available the build will be temporarily halted just before deployment.	部署需要足够空间；若无合适位置，建造会在部署前暂时停止。
+Energy upkeep: {n}	能量维护：{n}
+Temporary slots disappear if this part is removed, or if their contents are removed. Under some circumstances, it is normal for temporary slots to take an extra moment to fully disappear. Large parts may not occupy temporary slots.	移除此部件或其内容后，临时槽位就会消失。某些情况下，临时槽位完全消失需要额外片刻。大型部件不能占用临时槽位。
+(Missing effect description)	（缺少效果说明）
+L?encountered overload propulsionMode without trait	L?检测到未带特性的超载propulsionMode
+NO HAULERS IN RANGE.	范围内没有运输者。
+DSF access unlocked.	已解锁DSF访问权限。
+Awaiting botnet instructions.	等待僵尸网络指令。
+Downloaded map data.	已下载地图数据。
+Also drains an equivalent amount of heat.	也会消耗等量热量。
+Each turn drains [	每回合消耗[
+Each turn transfers [	每回合转移[
+Bad things will happen to you.	你要倒霉了。
+Only the best science in there, but if you head that way our totally scientific relationship with you will likely come to an end.	里面全是最尖端科学；不过你若往那边去，我们这段科学关系恐怕就到头了。
+You stay out.	别靠近。
+EX-BIN: Is laughing hysterically on the table?	EX-BIN：它在桌上歇斯底里大笑吗？
+Acquired data core, extracted CY-PHR backdoor node locations to facilitate hacking {n}b10 systems (permanent +{n}).	取得数据核心，提取CY-PHR后门节点位置，以便入侵{n}b10系统（永久+{n}）。
+Combat Log: "Combat Recyclers are real!"	战斗日志：“战斗回收者果然存在！”
+Handle already invalid! quitting early during knockback	句柄已失效！击退中提前退出
+Handle already invalid! quitting early	句柄已失效！提前退出
+Destroyed self	自我毁灭
+{*} {*} breaks down.	{*} {*}损坏。
+Deleted hostile record.	已删除敌对记录。
+Rewriting IFF filter.	正在重写IFF过滤器。
+Hijacking control node.	正在劫持控制节点。
+Rerouting network defenses.	正在重路由网络防御。
+Erasing system data.	正在擦除系统数据。
+Form shifts and blurs.	形态变幻模糊。
+Transposition failed.	转置失败。
+Emergency access location	紧急入口位置
+Sneak attack	偷袭
+ALERT: LUIGI IS DIGGING AGAIN.	警报：LUIGI又在挖了。
+"What is this? Where are we now?"	“这是什么？我们现在在哪？”
+Navigation Harness	导航背带
+No squad identifiers	无小队标识
+Dispatching hub defense squads. All non-combat units evacuate.	正在派遣枢纽防御小队。所有非战斗单位撤离。
+An alarm sounds.	警报响起。
+Item does not exist (null), crashing to produce trace...	物品不存在（null），即将崩溃并生成追踪信息……
+Hostiles detected in DSF	在DSF发现敌对单位
+DSF alarm triggered	DSF警报触发
+No valid access point for spawning assault party	无有效入口可生成突击队
+No valid access point for spawning	无有效生成入口
+Transmitting hostile system tracking data.	正在传送敌方系统追踪数据。
+ALERT: High security lockdown imminent, T-{n}	警报：高级安全封锁即将启动，T-{n}
+ALERT: Unchained "	警报：Unchained "
+Structural anomaly detected.	发现结构异常。
+ALERT: Ambient heat levels +{n}	警报：环境热度+{n}
+The Shining One	闪耀者
+X0-{n}V1 explosive smite attack ({n}) Hit	X0-{n}V1爆炸惩戒攻击（{n}）命中
+IFF filter.	IFF识别
+Ranged accuracy	远程命中率
+Melee accuracy	近战命中率
+Sight range	视野范围
+Energy capacity	能量容量
+Matter capacity	物质容量
+Inventory capacity	库存容量
+Mass support	承重
+Energy generation	能量生成
+Heat dissipation	散热
+Core integrity	核心完整度
+X0-{n}V1: "I guarantee there's even more fun over that way.	X0-{n}V1：“那边肯定还有更多乐子。”
+Space? A sequel? Who knows!	空间？续作？谁知道呢！
+X0-{n}V1: "I bet that was expensive."	X0-{n}V1：“我看那一定很贵。”
+X0-{n}V1: "I think they like you."	X0-{n}V1：“看来它们喜欢你。”
+C'mon, do something!"	来嘛，做点什么！”
+Some new friends to play with."	又有新朋友陪玩了。”
+Surrounding terrain vaporized.	周围地形已汽化。
+Machine placement blocked by existing machine/prop, skipping section (crash likely)	机器位置被现存机器/装置阻挡，跳过该区块（可能导致崩溃）
+UC room fail	UC失败
+CY fail	CY失败
+Unable to locate oldest relevant save	无法定位最旧的相关存档
+Found relevant data record, DESTROY_	找到相关数据记录：DESTROY_
+Found matching pausedShootState already set...	发现pausedShootState已匹配且已设置……
+(data not valid!)	（数据无效！）
+(found in dynamicObjects, removed)	（在dynamicObjects中找到，已移除）
+(not found in dynamicObjects)	（dynamicObjects中未找到）
+ANNOUNCEMENT: Detected	公告：已发现
+Death Star	死星
+Magnificent Bastards	了不起的混蛋
+Lucky Slug	幸运弹丸
+Golden Rifle	黄金步枪
+Scanners sweep the area.	扫描器扫过此区域。
+"I'm all too familiar with what that does."	“我太清楚那东西的效果了。”
+"I'm aware you stole the capacitor, you know..."	“我知道你偷了电容器，别装了……”
+"You actually fired it without the capacitor?!"	“你没装电容器就开火了？！”
+An Elf is summoned!	召唤出一只精灵！
+"So the Derelict weapon is whole again..."	“遗迹武器终于完整了……”
+Ignored existing achievement "	忽略已有成就"
+Data seek routine purged	数据搜索程序已清除
+Removing old path data	正在移除旧路径数据
+Central east	东偏北
+WAR infiltration seek attempts high, attempting force	WAR渗透搜索次数过多，尝试强行突破
+The door opens.	门开了。
+ALERT: Protoforge perimeter breached, systems compromised. Routing heavy suppression forces.	警报：原型锻炉外围遭突破，系统已被攻陷。正在调派重型镇压部队。
+ALERT: Derelict att	警报：遗迹者攻击
+No valid route for spawning Sauler	无有效路线可生成Sauler
+ALERT: Ho ho beep!	警报：嗬嗬哔！
+Know the ambient influence level while in {n}b10-controlled areas.	在{n}b10控制区内查看环境影响等级。
+Use Relay Couplers to interface with their respective robots.	使用中继耦合器连接对应机器人。
+Automatically swap in additional matching Couplers in sequence from inventory when effective code value of current attached Couplers insufficient for desired hack.	当前耦合器代码不足以执行目标入侵时，自动按库存顺序换上其他匹配耦合器。
+Blocks local transmissions from visible hostiles while matching Coupler attached, making it impossible for them to share information about your current position. Also prevents calls for reinforcements, and suppresses alarm traps.	装有匹配耦合器时，阻断可见敌人的本地传输，使其无法共享你的位置；同时阻止呼叫增援并压制警报陷阱。
+Block the influence of kills by allied former {n}b10 combat bots while matching Coupler attached.	装有匹配耦合器时，阻止盟军前{n}b10战斗机器人击杀所带来的影响。
+Reveal any hidden door or phasewall on sight, and pass through phasewalls normally.	看见时揭示隐藏门和相位墙，并可正常穿越相位墙。
+Fully prevent Programmers from hacking allied former {n}b10 combat bots while matching Coupler attached (no range or sight limitations).	装有匹配耦合器时，完全阻止程序员入侵盟军前{n}b10战斗机器人（无距离或视线限制）。
+Convert Swarmer, Grunt, Brawler, and Duelist Couplers to Relay Coupler [C], usable on any common {n}b10 bots of these types.	将蜂群、步兵、斗士和决斗者耦合器转换为中继耦合器[C]，可用于这些类型的任意常见{n}b10机器人。
+Open the gate!	打开闸门！
+Creating game consoles	正在创建游戏控制台
+Mapping characters	正在映射角色
+Tutorial records	教程记录
+Loading tutorial records	正在载入教程记录
+Loading game meta data	正在载入游戏元数据
+Preparing game	正在准备游戏
+Starting particle engine	正在启动粒子引擎
+Resuming wizard mode run	正在恢复巫师模式游戏
+Building new world	正在构建新世界
+Preparing player data	正在准备玩家数据
+Saving game	保存游戏
+Saving game meta data	正在保存游戏元数据
+Copying to regular save file, since one doesn't yet exist	尚无常规存档，正在复制为常规存档
+Loading saved game	正在载入存档
+Data missing for object "	缺少对象数据"
+Copying to regular save file	正在复制为常规存档
+Ending game	结束游戏
+Skipping sound channel creation	跳过音频通道创建
+Skipping sound file loading	跳过音频文件载入
+Manual Content	手册内容
+Loading Manual Notes...	正在载入手册注释……
+Critical fail {n}	严重失败{n}
+File error	文件错误
+Loading static objects	正在载入静态对象
+Exit location confirmed.	已确认出口位置。
+Armament,Components	武装，部件
+Fabrication Count,Fabrication Time	制造数量，制造时间
+Kinetic,Thermal,Explosive,Electromagnetic,Impact,Slashing,Piercing	动能，热能，爆炸，电磁，冲击，劈砍，穿刺
+Power Slots,Propulsion Slots,Utility Slots,Weapon Slots	电源槽，推进槽，功能槽，武器槽
+Hacking Availability,Hacking Difficulty	黑客可用性，黑客难度
+Accuracy,Melee Accuracy	命中率，近战命中率
+Sight Range,Energy Generation,Heat Dissipation	视野范围，能量生成，散热
+Size Class,Size,Profile	尺寸级别，尺寸，轮廓
+Core Integrity,Core Exposure,Core Exposure %,Salvage Potential	核心完整度，核心暴露，核心暴露率，回收潜力
+Innate Energy Storage,Innate Energy Generation,Innate Heat Dissipation,Innate Matter Storage	固有能量储量，固有能量生成，固有散热，固有物质储量
+Movement,Speed,Speed %	移动，速度，速度百分比
+Memory,Spot %	内存，发现率
+Name,Class,Tier,Threat,Rating,Value	名称，类别，等级，威胁，评级，价值
+Full record in /	完整记录位于/
+(stat upload inapplicable)	（不适用数据上传）
+New Achievements	新成就
+[ WALL OF MARTYRS ]	[ 烈士墙 ]
+Unknown Weapon	未知武器
+Crushed by blast door	被防爆门压碎
+Corrupted by P-{n} Guru	被P-{n}导师腐化
+Cored by CP-WKY misfire	被CP-WKY哑火击穿核心
+Cored by T0-N31 misfire	被T0-N31哑火击穿核心
+Called twice!	被叫了两次！
+Shift Map View (vi requires +Shift	切换地图视图（vi需按住Shift）
+Shift-Move Cursor	Shift+移动光标
+Pan Map	平移
+Shift-Alt-o (Hold)	按住Shift-Alt-o
+Ctrl-Alt (Hold)	按住Ctrl-Alt
+Movement Keys	移动键
+( target range, weapons,	（目标范围、武器，
+( modified avoidance rate,	（修正闪避率，
+KP = Keypad/Numpad	KP=小键盘
+Wheel = Mouse Wheel	Wheel=鼠标滚轮
+(c) All Rights Reserved by Josh Ge and Grid Sage Games {n}-{n}	版权所有(c) Josh Ge与Grid Sage Games {n}-{n}
+Export successful!	导出成功！
+You have not yet discovered your item...	你尚未发现该物品……
+You have not yet discovered any of your items...	你尚未发现任何物品……
+Mod/Extra	改装/额外
+Heat Transfer	热传递
+Effect/Description	效果/说明
+Fabrication Number,Fabrication Time,Fabrication Components	制造编号，制造时间，制造部件
+Energy Generation,Energy Storage,Power Stability	能量生成，能量储量，电力稳定性
+Explosion Radius,Explosion Arc,Explosion Damage Min,Explosion Damage Max,Falloff,Chunks,Explosion Type,Explosion Heat Transfer,Explosion Spectrum,Explosion Disruption,Explosion Salvage	爆炸半径，爆炸弧度，爆炸伤害下限，爆炸伤害上限，衰减，碎片，爆炸类型，爆炸传热，爆炸频谱，爆炸扰乱，爆炸回收
+Projectile Count,Damage Min,Damage Max,Damage Type,Critical,Penetration,Heat Transfer,Spectrum,Disruption,Salvage	弹体数，伤害下限，伤害上限，伤害类型，暴击，穿透，热传递，频谱，扰乱，回收
+Range,Shot Energy,Shot Matter,Shot Heat,Recoil,Targeting,Delay,Overload Stability,Waypoints,Arc,Wide	射程，单发能耗，单发物耗，单发产热，后坐力，瞄准，延迟，过载稳定性，航点，弧度，宽度
+Time/Move,Mod/Extra,Drag,Energy/Move,Heat/Move,Support,Penalty,Burnout,Special	耗时/移动，改装/额外，阻力，能耗/移动，产热/移动，支撑，惩罚，过载损耗，特殊
+Energy Upkeep,Matter Upkeep,Heat Generation	能量维护，物质维护，产热
+Name,Type,Slot,Size,Mass,Rating,Category,Integrity,No Repairs,Coverage,Special Trait	名称，类型，槽位，尺寸，质量，评级，类别，完整度，不可维修，覆盖率，特性
+Type,Category,Name/Number,Content	类型，类别，名称/编号，内容
+Category,Name,Date,Time,Game Number,Difficulty,Description	类别，名称，日期，时间，游戏编号，难度，说明
+Order Mode (o)	命令模式(o)
+Map Intel Mode (m)	地图情报模式(m)
+Swap Mode (/)	切换模式(/)
+Drop Mode (d)	丢弃模式(d)
+Toggle Mode, select a~z	切换模式，选择a~z
+Attach Mode, select {n}~{n}	装载模式，选择{n}~{n}
+Remove Mode, select a~z	拆卸模式，选择a~z
+Mapshift Mode (accent)	地图位移模式（重音键）
+Tag Mode	标记模式
+Log Note Mode	日志备注模式
+Possible invalid target, aborting	目标可能无效，取消操作
+HIDDEN DOOR	隐藏门
+PHASE WALL	相位墙
+SEALED ACCESS	封闭入口
+RESTRICTED ACCESS	限制入口
+BLOCKED ACCESS	堵塞入口
+Invalid hauler	无效运输者
+X0-{n}V1 incompatible with this command	X0-{n}V1不兼容此指令
+UC already active	UC已启动
+Remote lockdown override.	远程解除封锁。
+RIF authorized.	RIF已授权。
+Part auto-activation	部件自动激活
+Mouse warping	鼠标定位
+Cursor forced centering	强制光标居中
+Auto-Waiting	自动等待
+Confirm decision	确认决定
+ALERT: BETA {n} TESTING...	警报：BETA {n}测试中……
+Storage Unit capacity increased, plus two new types	储物单元容量提升，并新增两种类型
+Flight/hover support reduction	飞行/悬浮支撑降低
+New propulsion overweight mechanics (single penalty + mass-based modifier)	新增推进器超重机制（单一惩罚+质量修正）
+Numerous robot loadouts updated to fit new mechanics	大量机器人配置已更新以适配新机制
+Leg momentum translates to increased evasion and decreased ranged accuracy	腿部动量提升闪避并降低远程命中率
+Kicking no longer damages self, regardless of leg count	踢击不再造成自身伤害，无论腿部数量
+Item filtering/searching	物品筛选/搜索
+(this is just the beginning of B11, lots more to come)	（这只是B11的开始，后续还有很多）
+(new experimental build coming to Patreon later today)	（新的实验版本将于今日晚些时候在Patreon推出）
+(no SA/traits)	(无SA/特性)
+WE HAVE A WINNER!	我们赢了！
+It's empty?!	空的？！
+Loot Box	战利品箱
+What's inside?	里面有什么？
+Negative core integrity!	核心完整度为负！
+Negative energy!	能量为负！
+Negative matter!	物质为负！
+Negative corruption!	腐化值为负！
+Multi-line level access cell name, unable to fit destination text	多行关卡入口名称过长，无法容纳目的地文本
+(held in stasis)	（处于停滞状态）
+Theoretical Avoidance Rate {n}	理论闪避率{n}
+Modified Avoidance	修正闪避
+(no autopair found)	（未找到自动配对）
+No corresponding CInventoryItem	没有对应的CInventoryItem
+No matches found	未找到匹配项
+No known items	没有已知物品
+"rifle,.{n}" (see manual for full filter list)	"rifle,.{n}"（完整筛选列表见手册）
+Core Exposure	核心暴露
+Parts Database	部件数据库
+Core Temp	核心温度
+No Image Data	无图像数据
+No Analysis Data	无分析数据
+Field Strength	场强
+Explosive Potential	爆炸潜能
+" outside map view even after centering	居中后仍在地图视野之外的"
+No matching decision found for "	未找到对应决策："
+Great for groups, and collateral damage is fine so long as it happens in {n}b10... and you have an escape route hehe.	最适合组队；只要发生在{n}b10……且你能逃掉，附带伤害无所谓，嘿嘿。
+No Schematic Loaded	未载入蓝图
+No Component Scanned	未扫描部件
+No Component Inserted	未插入部件
+Restricted Access	限制访问

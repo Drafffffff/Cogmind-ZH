@@ -1,0 +1,2441 @@
+{
+  "source_worklist": "translations/native-worklists/parts_01.json",
+  "assembly": "build/rea/part-description-annotated.asm",
+  "description": "22项候选逐一核对对应分支的 TEXT VA/行、捕获字符串槽和实际调用点；9ce930/9ceb60/9b0bd0 顺序按已验证 helper 证据应用。仅反射/偏转的动态表项保留 unresolved，不应注册/集成。每个字面片段附 TEXT 地址证据，每个捕获附实际字符串槽，call_sites 记录调用地址。",
+  "candidates": [
+    {
+      "raw_template": "Dissipates {*} heat per turn, losing {*} integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least {*}.\n <stacks>",
+      "source": "Dissipates {*} heat per turn, losing {*} integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least {*}. <stacks>",
+      "translation": "每回合耗散{*}点热量，同时损失{*}点耐久；此效果在常规散热后生效，且仅在热量升至至少{*}时触发。\n <stacks>",
+      "components": [
+        {
+          "literal": "Dissipates ",
+          "evidence": {
+            "string_va": "0xbdaa0c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 112
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x5e80] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 90-172。",
+          "source_slot": "[ebp-0x5e80]"
+        },
+        {
+          "literal": " heat per turn, losing ",
+          "evidence": {
+            "string_va": "0xbdaa94",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 121
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x5e78] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 90-172。",
+          "source_slot": "[ebp-0x5e78]"
+        },
+        {
+          "literal": " integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least ",
+          "evidence": {
+            "string_va": "0xbdaa18",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 144
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x5e70] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 90-172。",
+          "source_slot": "[ebp-0x5e70]"
+        },
+        {
+          "literal": ".\n <stacks>",
+          "evidence": {
+            "string_va": "0xbdaa00",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 167
+          }
+        }
+      ],
+      "assembly_lines": [
+        90,
+        172
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x5603d1"
+      ],
+      "confidence": "high",
+      "notes": "逐项核对本调用分支的三次数值转字符串与拼接顺序；0x9ce930 已证明为 arg1+arg2。",
+      "xref_sources": [
+        {
+          "xref": "0x5603d1",
+          "string_va": "0xbdaa18",
+          "raw_fragment": " integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise to at least ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 144,
+          "xref_evidence": "ev_ced14ea90bca3d65d26cd8bc5c161596bbc6b56e6126ee19cc02815bca34b5d0"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x5602ec",
+          "target": "0x405350",
+          "assembly_line": 93
+        },
+        {
+          "address": "0x56031e",
+          "target": "0x405350",
+          "assembly_line": 104
+        },
+        {
+          "address": "0x56034f",
+          "target": "0x9ce7b0",
+          "assembly_line": 115
+        },
+        {
+          "address": "0x560380",
+          "target": "0x9ce8f0",
+          "assembly_line": 126
+        },
+        {
+          "address": "0x5603b3",
+          "target": "0x9ce930",
+          "assembly_line": 138
+        },
+        {
+          "address": "0x5603e4",
+          "target": "0x9ce8f0",
+          "assembly_line": 149
+        },
+        {
+          "address": "0x560417",
+          "target": "0x9ce930",
+          "assembly_line": 161
+        },
+        {
+          "address": "0x560448",
+          "target": "0x9ce8f0",
+          "assembly_line": 172
+        }
+      ],
+      "assembly_intervals": [
+        [
+          90,
+          172
+        ]
+      ]
+    },
+    {
+      "raw_template": "Blocks 50% of damage to this part in exchange for energy loss at a 1:{*} ratio (no effect if insufficient energy).\n\nExample, 20 damage inflicted on this part would be reduced to 10, draining 10 energy to prevent the rest.",
+      "source": "Blocks 50% of damage to this part in exchange for energy loss at a 1:{*} ratio (no effect if insufficient energy). Example, 20 damage inflicted on this part would be reduced to 10, draining 10 energy to prevent the rest.",
+      "translation": "抵消对该部件50%的伤害，能量损失比为1:{*}（能量不足时无效）。\n\n例如，对该部件造成20点伤害时，伤害会减至10点，并消耗10点能量抵消其余伤害。",
+      "components": [
+        {
+          "literal": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+          "evidence": {
+            "string_va": "0xbdd308",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 3177
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x64a4] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 3164-3200。",
+          "source_slot": "[ebp-0x64a4]"
+        },
+        {
+          "literal": " ratio (no effect if insufficient energy).\n\nExample, 20 damage inflicted on this part would be reduced to 10, draining 10 energy to prevent the rest.",
+          "evidence": {
+            "string_va": "0xbdd270",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 3186
+          }
+        }
+      ],
+      "assembly_lines": [
+        3164,
+        3200
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x563aa1"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x563aa1",
+          "string_va": "0xbdd308",
+          "raw_fragment": "Blocks 50% of damage to this part in exchange for energy loss at a 1:",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 3177,
+          "xref_evidence": "ev_26b270d037a99f1fac5b353f84e67f16507ec353583545f1f663360bded25c78"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x563a79",
+          "target": "0x405350",
+          "assembly_line": 3169
+        },
+        {
+          "address": "0x563aad",
+          "target": "0x9ce7b0",
+          "assembly_line": 3180
+        },
+        {
+          "address": "0x563ade",
+          "target": "0x9ce8f0",
+          "assembly_line": 3191
+        },
+        {
+          "address": "0x563b06",
+          "target": "0x9b0b00",
+          "assembly_line": 3200
+        }
+      ],
+      "assembly_intervals": [
+        [
+          3164,
+          3200
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "{*}% chance to reflect {*} back in the direction of the attack.",
+      "source": "{*}% chance to reflect {*} back in the direction of the attack.",
+      "translation": "以{*}%的几率将{*}沿攻击方向反弹。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6738] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 4400-4456。",
+          "source_slot": "[ebp-0x6738]"
+        },
+        {
+          "literal": "% chance to reflect ",
+          "evidence": {
+            "string_va": "0xbdd9b4",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 4414
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "索引 abs([ebp-0x5d60]) 乘 0x1c 后访问 0xcf51a8 表项，地址计算见汇编行 4429；该动态表项作为整段字符串传入 0x9ceb60，表项具体字符串边界/内容未由本审计确认。",
+          "source_slot": "0xcf51a8 + abs([ebp-0x5d60])*0x1c table entry"
+        },
+        {
+          "literal": " back in the direction of the attack.",
+          "evidence": {
+            "string_va": "0xbdd98c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 4442
+          }
+        }
+      ],
+      "assembly_lines": [
+        4400,
+        4456
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce8f0",
+        "0x9ceb60",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x565127"
+      ],
+      "confidence": "unresolved",
+      "notes": "0x9ceb60 的拼接顺序虽已核实，但第二捕获是由 abs([ebp-0x5d60])*0x1c 索引 0xcf51a8 表后传入的动态字符串；表项实际内容/可能包含的复合词边界未由该引用窗口证明，暂不标 high。",
+      "xref_sources": [
+        {
+          "xref": "0x565127",
+          "string_va": "0xbdd98c",
+          "raw_fragment": " back in the direction of the attack.",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 4442,
+          "xref_evidence": "ev_cd8b6026ce0f6a54546b0165fcf757175475d20474b317d2f2bbad71f04b9390"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x565095",
+          "target": "0x405350",
+          "assembly_line": 4408
+        },
+        {
+          "address": "0x5650c9",
+          "target": "0x9ce8f0",
+          "assembly_line": 4419
+        },
+        {
+          "address": "0x565109",
+          "target": "0x9ceb60",
+          "assembly_line": 4436
+        },
+        {
+          "address": "0x56513a",
+          "target": "0x9ce8f0",
+          "assembly_line": 4447
+        },
+        {
+          "address": "0x565162",
+          "target": "0x9b0b00",
+          "assembly_line": 4456
+        }
+      ],
+      "assembly_intervals": [
+        [
+          4400,
+          4456
+        ]
+      ]
+    },
+    {
+      "raw_template": "{*}% chance to deflect {*} in a random direction.",
+      "source": "{*}% chance to deflect {*} in a random direction.",
+      "translation": "以{*}%的几率将{*}朝随机方向偏转。",
+      "components": [
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6758] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 4470-4530。",
+          "source_slot": "[ebp-0x6758]"
+        },
+        {
+          "literal": "% chance to deflect ",
+          "evidence": {
+            "string_va": "0xbdd9cc",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 4483
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "索引 abs([ebp-0x5d60]) 乘 0x1c 后访问 0xcf51a8 表项，地址计算见汇编行 4498；该动态表项作为整段字符串传入 0x9ceb60，表项具体字符串边界/内容未由本审计确认。",
+          "source_slot": "0xcf51a8 + abs([ebp-0x5d60])*0x1c table entry"
+        },
+        {
+          "literal": " in a random direction.",
+          "evidence": {
+            "string_va": "0xbdd91c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 4511
+          }
+        }
+      ],
+      "assembly_lines": [
+        4470,
+        4530
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce8f0",
+        "0x9ceb60",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x565261"
+      ],
+      "confidence": "unresolved",
+      "notes": "0x9ceb60 的拼接顺序虽已核实，但第二捕获是由 abs([ebp-0x5d60])*0x1c 索引 0xcf51a8 表后传入的动态字符串；表项实际内容/可能包含的复合词边界未由该引用窗口证明，暂不标 high。",
+      "xref_sources": [
+        {
+          "xref": "0x565261",
+          "string_va": "0xbdd91c",
+          "raw_fragment": " in a random direction.",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 4511,
+          "xref_evidence": "ev_929973b54d8c056e1d2acd55c390a1cb0babb4973948e24de4a6cc4f695c5a53"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x5651cf",
+          "target": "0x405350",
+          "assembly_line": 4477
+        },
+        {
+          "address": "0x565203",
+          "target": "0x9ce8f0",
+          "assembly_line": 4488
+        },
+        {
+          "address": "0x565243",
+          "target": "0x9ceb60",
+          "assembly_line": 4505
+        },
+        {
+          "address": "0x565274",
+          "target": "0x9ce8f0",
+          "assembly_line": 4516
+        },
+        {
+          "address": "0x56529c",
+          "target": "0x9b0b00",
+          "assembly_line": 4525
+        }
+      ],
+      "assembly_intervals": [
+        [
+          4470,
+          4530
+        ]
+      ]
+    },
+    {
+      "raw_template": "Increases non-melee weapon accuracy by {*}% for each weapon fired in a multi-weapon volley, minus one.\n <stacks>\n\nExample: All weapons in a three-weapon volley would have +{*}% accuracy ((3-1)*{*}%={*}%).",
+      "source": "Increases non-melee weapon accuracy by {*}% for each weapon fired in a multi-weapon volley, minus one. <stacks> Example: All weapons in a three-weapon volley would have +{*}% accuracy ((3-1)*{*}%={*}%).",
+      "translation": "提高非近战武器的命中率：多武器齐射中每发射一件武器，命中率增加{*}%，首件不计。\n <stacks>\n\n例如：三武器齐射时，所有武器的命中率均增加{*}%（(3-1)*{*}%={*}%）。",
+      "components": [
+        {
+          "literal": "Increases non-melee weapon accuracy by ",
+          "evidence": {
+            "string_va": "0xbde104",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 5389
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6920] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 5380-5485。",
+          "source_slot": "[ebp-0x6920]"
+        },
+        {
+          "literal": "% for each weapon fired in a multi-weapon volley, minus one.\n <stacks>\n\nExample: All weapons in a three-weapon volley would have +",
+          "evidence": {
+            "string_va": "0xbde138",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 5398
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6918] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 5380-5485。",
+          "source_slot": "[ebp-0x6918]"
+        },
+        {
+          "literal": "% accuracy ((3-1)*",
+          "evidence": {
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "line_range": [
+              5380,
+              5485
+            ],
+            "match": "exact TEXT literal not uniquely resolved"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6910] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 5380-5485。",
+          "source_slot": "[ebp-0x6910]"
+        },
+        {
+          "literal": "%=",
+          "evidence": {
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "line_range": [
+              5380,
+              5485
+            ],
+            "match": "exact TEXT literal not uniquely resolved"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6908] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 5380-5485。",
+          "source_slot": "[ebp-0x6908]"
+        },
+        {
+          "literal": "%).",
+          "evidence": {
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "line_range": [
+              5380,
+              5485
+            ],
+            "match": "exact TEXT literal not uniquely resolved"
+          }
+        }
+      ],
+      "assembly_lines": [
+        5380,
+        5403,
+        5450,
+        5485
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930"
+      ],
+      "covers_xrefs": [
+        "0x56624d"
+      ],
+      "confidence": "high",
+      "notes": "逐项核对四个格式化数值字符串及其调用顺序；公式捕获依次对应四个独立数值输出槽，0x9ce930 已证明为 arg1+arg2。",
+      "xref_sources": [
+        {
+          "xref": "0x56624d",
+          "string_va": "0xbde138",
+          "raw_fragment": "% for each weapon fired in a multi-weapon volley, minus one.\n <stacks>\n\nExample: All weapons in a three-weapon volley would have +",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 5398,
+          "xref_evidence": "ev_43062f580d24bde25e4aa85f1073afc011fa3005099d10a59644f6bbe91a6596"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x5661fe",
+          "target": "0x405350",
+          "assembly_line": 5381
+        },
+        {
+          "address": "0x56622f",
+          "target": "0x9ce7b0",
+          "assembly_line": 5392
+        },
+        {
+          "address": "0x566260",
+          "target": "0x9ce8f0",
+          "assembly_line": 5403
+        },
+        {
+          "address": "0x56635b",
+          "target": "0x9ce930",
+          "assembly_line": 5461
+        },
+        {
+          "address": "0x56638c",
+          "target": "0x9ce8f0",
+          "assembly_line": 5472
+        }
+      ],
+      "assembly_intervals": [
+        [
+          5380,
+          5403
+        ],
+        [
+          5450,
+          5485
+        ]
+      ]
+    },
+    {
+      "raw_template": "Increases salvage recovered from targets, +{*} modifier. Compatible only with gun-type weapons that fire a single projectile.\n <stacks>",
+      "source": "Increases salvage recovered from targets, +{*} modifier. Compatible only with gun-type weapons that fire a single projectile. <stacks>",
+      "translation": "提高从目标回收的废料量，修正值+{*}。仅兼容发射单发弹丸的枪械类武器。\n <stacks>",
+      "components": [
+        {
+          "literal": "Increases salvage recovered from targets, +",
+          "evidence": {
+            "string_va": "0xbdee5c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 6884
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6c20] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 6823-6908。",
+          "source_slot": "[ebp-0x6c20]"
+        },
+        {
+          "literal": " modifier. Compatible only with gun-type weapons that fire a single projectile.\n <stacks>",
+          "evidence": {
+            "string_va": "0xbdee88",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 6893
+          }
+        }
+      ],
+      "assembly_lines": [
+        6823,
+        6908
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x567d34"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x567d34",
+          "string_va": "0xbdee88",
+          "raw_fragment": " modifier. Compatible only with gun-type weapons that fire a single projectile.\n <stacks>",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 6893,
+          "xref_evidence": "ev_818d3aca4d0a88e9e45d41d494373b585f3bc68887dbd5e514e72031dabeee99"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x567c07",
+          "target": "0x405350",
+          "assembly_line": 6829
+        },
+        {
+          "address": "0x567c3b",
+          "target": "0x9ce7b0",
+          "assembly_line": 6840
+        },
+        {
+          "address": "0x567c6c",
+          "target": "0x9ce8f0",
+          "assembly_line": 6851
+        },
+        {
+          "address": "0x567c94",
+          "target": "0x9b0b00",
+          "assembly_line": 6860
+        },
+        {
+          "address": "0x567ce2",
+          "target": "0x405350",
+          "assembly_line": 6876
+        },
+        {
+          "address": "0x567d16",
+          "target": "0x9ce7b0",
+          "assembly_line": 6887
+        },
+        {
+          "address": "0x567d47",
+          "target": "0x9ce8f0",
+          "assembly_line": 6898
+        },
+        {
+          "address": "0x567d6f",
+          "target": "0x9b0b00",
+          "assembly_line": 6907
+        }
+      ],
+      "assembly_intervals": [
+        [
+          6823,
+          6908
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "Increases salvage recovered from targets, +{*} modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.\n <stacks>",
+      "source": "Increases salvage recovered from targets, +{*} modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile. <stacks>",
+      "translation": "提高从目标回收的废料量，修正值+{*}。仅兼容发射单发弹丸的枪械或炮械类武器。\n <stacks>",
+      "components": [
+        {
+          "literal": "Increases salvage recovered from targets, +",
+          "evidence": {
+            "string_va": "0xbdeee4",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 6931
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6c38] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 6920-6955。",
+          "source_slot": "[ebp-0x6c38]"
+        },
+        {
+          "literal": " modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.\n <stacks>",
+          "evidence": {
+            "string_va": "0xbdef10",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 6940
+          }
+        }
+      ],
+      "assembly_lines": [
+        6920,
+        6955
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x567e0f"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x567e0f",
+          "string_va": "0xbdef10",
+          "raw_fragment": " modifier. Compatible only with gun- or cannon-type weapons that fire a single projectile.\n <stacks>",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 6940,
+          "xref_evidence": "ev_fe87c3438b3c30851f20129b8693c708bbfab716a024e6a93b8463bdf11418e3"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x567dbd",
+          "target": "0x405350",
+          "assembly_line": 6923
+        },
+        {
+          "address": "0x567df1",
+          "target": "0x9ce7b0",
+          "assembly_line": 6934
+        },
+        {
+          "address": "0x567e22",
+          "target": "0x9ce8f0",
+          "assembly_line": 6945
+        },
+        {
+          "address": "0x567e4a",
+          "target": "0x9b0b00",
+          "assembly_line": 6954
+        }
+      ],
+      "assembly_intervals": [
+        [
+          6920,
+          6955
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "Holds target in place. Beam strength: {*}. Also cancels a flying/hovering target's 10%/5% bonus to dodge for the duration.",
+      "source": "Holds target in place. Beam strength: {*}. Also cancels a flying/hovering target's 10%/5% bonus to dodge for the duration.",
+      "translation": "将目标定在原地。光束强度：{*}。持续期间还会取消飞行/悬浮目标的10%/5%闪避加成。",
+      "components": [
+        {
+          "literal": "Holds target in place. Beam strength: ",
+          "evidence": {
+            "string_va": "0xbdf0c4",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 6982
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6c50] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 6968-7005。",
+          "source_slot": "[ebp-0x6c50]"
+        },
+        {
+          "literal": ". Also cancels a flying/hovering target's 10%/5% bonus to dodge for the duration.",
+          "evidence": {
+            "string_va": "0xbdf070",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 6991
+          }
+        }
+      ],
+      "assembly_lines": [
+        6968,
+        7005
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x567ed2"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x567ed2",
+          "string_va": "0xbdf0c4",
+          "raw_fragment": "Holds target in place. Beam strength: ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 6982,
+          "xref_evidence": "ev_4c5316e1fe13a68dc2f1524ef2487b42f533d4454e81833d98b3b0e7d6ed867e"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x567eaa",
+          "target": "0x405350",
+          "assembly_line": 6974
+        },
+        {
+          "address": "0x567ede",
+          "target": "0x9ce7b0",
+          "assembly_line": 6985
+        },
+        {
+          "address": "0x567f0f",
+          "target": "0x9ce8f0",
+          "assembly_line": 6996
+        },
+        {
+          "address": "0x567f37",
+          "target": "0x9b0b00",
+          "assembly_line": 7005
+        }
+      ],
+      "assembly_intervals": [
+        [
+          6968,
+          7005
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "Penetrates target robot just enough to enable system access for hacking. Also a base {*}% chance to rewire temporarily disabled hostiles, further modified by any offensive hackware. Can be used to parse almost any robot system. Many more hacking options available after using a RIF Installer inside a Garrison, and with Relay Couplers.",
+      "source": "Penetrates target robot just enough to enable system access for hacking. Also a base {*}% chance to rewire temporarily disabled hostiles, further modified by any offensive hackware. Can be used to parse almost any robot system. Many more hacking options available after using a RIF Installer inside a Garrison, and with Relay Couplers.",
+      "translation": "穿透目标机器人，使其系统可被入侵。此外，基础上有{*}%的概率可重接暂时失能的敌方单位，实际概率还受攻击型入侵软件影响。可解析几乎所有机器人系统。在驻防区内使用RIF安装器并搭配中继耦合器后，还可获得更多入侵选项。",
+      "components": [
+        {
+          "literal": "Penetrates target robot just enough to enable system access for hacking. Also a base ",
+          "evidence": {
+            "string_va": "0xbdf368",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7156
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6ca8] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7145-7182。",
+          "source_slot": "[ebp-0x6ca8]"
+        },
+        {
+          "literal": "% chance to rewire temporarily disabled hostiles, further modified by any offensive hackware. Can be used to parse almost any robot system. Many more hacking options available after using a RIF Installer inside a Garrison, and with Relay Couplers.",
+          "evidence": {
+            "string_va": "0xbdf270",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7165
+          }
+        }
+      ],
+      "assembly_lines": [
+        7145,
+        7182
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5681e6"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x5681e6",
+          "string_va": "0xbdf368",
+          "raw_fragment": "Penetrates target robot just enough to enable system access for hacking. Also a base ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7156,
+          "xref_evidence": "ev_7123efdb3ee0b1dc2a9f1f23d6512b34d6f3f82097a3a7ec5389ccf0794f2aef"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x5681be",
+          "target": "0x405350",
+          "assembly_line": 7148
+        },
+        {
+          "address": "0x5681f2",
+          "target": "0x9ce7b0",
+          "assembly_line": 7159
+        },
+        {
+          "address": "0x568223",
+          "target": "0x9ce8f0",
+          "assembly_line": 7170
+        },
+        {
+          "address": "0x56824b",
+          "target": "0x9b0b00",
+          "assembly_line": 7179
+        }
+      ],
+      "assembly_intervals": [
+        [
+          7145,
+          7182
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "While hacking machines, reduces both chance of detection and rate of detection chance increases by {*}%. Reduces tracing progress advances by the same amount. Also a lower chance that hacking machines will be considered serious enough to trigger an increase in security level, and reduces central database lockout chance by {*}%. Blocks hacking feedback side effects {*}% of the time, and repels {*}% of hacking attempts against allies within a range of {*}.\n <stacks>",
+      "source": "While hacking machines, reduces both chance of detection and rate of detection chance increases by {*}%. Reduces tracing progress advances by the same amount. Also a lower chance that hacking machines will be considered serious enough to trigger an increase in security level, and reduces central database lockout chance by {*}%. Blocks hacking feedback side effects {*}% of the time, and repels {*}% of hacking attempts against allies within a range of {*}. <stacks>",
+      "translation": "入侵机器时，被发现的概率及其增长速度均降低{*}%。追踪进度的增长幅度也同样降低。此外，入侵被判定为严重并提升安全等级的概率更低，中央数据库锁定概率降低{*}%。{*}%的入侵反馈副作用会被阻断，并以{*}%的概率抵御对范围{*}内盟友的入侵。\n <stacks>",
+      "components": [
+        {
+          "literal": "While hacking machines, reduces both chance of detection and rate of detection chance increases by ",
+          "evidence": {
+            "string_va": "0xbdf6e8",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7408
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6d28] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7395-7510。",
+          "source_slot": "[ebp-0x6d28]"
+        },
+        {
+          "literal": "%. Reduces tracing progress advances by the same amount. Also a lower chance that hacking machines will be considered serious enough to trigger an increase in security level, and reduces central database lockout chance by ",
+          "evidence": {
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "line_range": [
+              7395,
+              7510
+            ],
+            "match": "exact TEXT literal not uniquely resolved"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6d20] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7395-7510。",
+          "source_slot": "[ebp-0x6d20]"
+        },
+        {
+          "literal": "%. Blocks hacking feedback side effects ",
+          "evidence": {
+            "string_va": "0xbdf5dc",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7440
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6d18] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7395-7510。",
+          "source_slot": "[ebp-0x6d18]"
+        },
+        {
+          "literal": "% of the time, and repels ",
+          "evidence": {
+            "string_va": "0xbdf5c0",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7463
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6d10] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7395-7510。",
+          "source_slot": "[ebp-0x6d10]"
+        },
+        {
+          "literal": "% of hacking attempts against allies within a range of ",
+          "evidence": {
+            "string_va": "0xbdf588",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7486
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6d08] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7395-7510。",
+          "source_slot": "[ebp-0x6d08]"
+        },
+        {
+          "literal": ".\n <stacks>",
+          "evidence": {
+            "string_va": "0xbdf524",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7509
+          }
+        }
+      ],
+      "assembly_lines": [
+        7395,
+        7510
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x56864f"
+      ],
+      "confidence": "high",
+      "notes": "逐项核对五个数值/范围字符串及调用顺序；0x9ce930 已证明为 arg1+arg2，尾部 <stacks> 来自 0xbdf524。",
+      "xref_sources": [
+        {
+          "xref": "0x56864f",
+          "string_va": "0xbdf6e8",
+          "raw_fragment": "While hacking machines, reduces both chance of detection and rate of detection chance increases by ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7408,
+          "xref_evidence": "ev_ba2bc220cae7dd90df3bcbfbb3d780294119408cee0fb93e7d552836bfa34283"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x56862a",
+          "target": "0x405350",
+          "assembly_line": 7400
+        },
+        {
+          "address": "0x56865b",
+          "target": "0x9ce7b0",
+          "assembly_line": 7411
+        },
+        {
+          "address": "0x56868c",
+          "target": "0x9ce8f0",
+          "assembly_line": 7422
+        },
+        {
+          "address": "0x5686bf",
+          "target": "0x9ce930",
+          "assembly_line": 7434
+        },
+        {
+          "address": "0x5686f0",
+          "target": "0x9ce8f0",
+          "assembly_line": 7445
+        },
+        {
+          "address": "0x568723",
+          "target": "0x9ce930",
+          "assembly_line": 7457
+        },
+        {
+          "address": "0x568754",
+          "target": "0x9ce8f0",
+          "assembly_line": 7468
+        },
+        {
+          "address": "0x568787",
+          "target": "0x9ce930",
+          "assembly_line": 7480
+        },
+        {
+          "address": "0x5687b8",
+          "target": "0x9ce8f0",
+          "assembly_line": 7491
+        },
+        {
+          "address": "0x5687eb",
+          "target": "0x9ce930",
+          "assembly_line": 7503
+        }
+      ],
+      "assembly_intervals": [
+        [
+          7395,
+          7510
+        ]
+      ]
+    },
+    {
+      "raw_template": "Teleports the user to an approximate distance of {*} from current position, traveling along dimensional pathways of least resistance.",
+      "source": "Teleports the user to an approximate distance of {*} from current position, traveling along dimensional pathways of least resistance.",
+      "translation": "将使用者传送至距当前位置约{*}的地点，沿阻力最小的维度路径行进。",
+      "components": [
+        {
+          "literal": "Teleports the user to an approximate distance of ",
+          "evidence": {
+            "string_va": "0xbdf74c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7631
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6d90] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7618-7655。",
+          "source_slot": "[ebp-0x6d90]"
+        },
+        {
+          "literal": " from current position, traveling along dimensional pathways of least resistance.",
+          "evidence": {
+            "string_va": "0xbdf9c0",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7640
+          }
+        }
+      ],
+      "assembly_lines": [
+        7618,
+        7655
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x568a44",
+        "0x568a6e"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x568a44",
+          "string_va": "0xbdf74c",
+          "raw_fragment": "Teleports the user to an approximate distance of ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7631,
+          "xref_evidence": "ev_66d8b0c8a02d633c26c6b8ee5c223239639c9f796ace145966638070b10dab6d"
+        },
+        {
+          "xref": "0x568a6e",
+          "string_va": "0xbdf9c0",
+          "raw_fragment": " from current position, traveling along dimensional pathways of least resistance.",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7640,
+          "xref_evidence": "ev_0b0f5f401b2a314960ea92f57cab8f5994111fb0df6ec9626528f4101bc8d5bb"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x568a1c",
+          "target": "0x405350",
+          "assembly_line": 7623
+        },
+        {
+          "address": "0x568a50",
+          "target": "0x9ce7b0",
+          "assembly_line": 7634
+        },
+        {
+          "address": "0x568a81",
+          "target": "0x9ce8f0",
+          "assembly_line": 7645
+        },
+        {
+          "address": "0x568aa9",
+          "target": "0x9b0b00",
+          "assembly_line": 7654
+        }
+      ],
+      "assembly_intervals": [
+        [
+          7618,
+          7655
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "Simultaneously teleports all visible robots within a range of {*} from the origin, and ignores any form of teleport-inhibiting technology. Any pursuers at the time lose tracking on the user.\n <consumed>",
+      "source": "Simultaneously teleports all visible robots within a range of {*} from the origin, and ignores any form of teleport-inhibiting technology. Any pursuers at the time lose tracking on the user. <consumed>",
+      "translation": "同时传送原点范围{*}内所有可见机器人，并无视任何形式的传送抑制技术。当时的追踪者会失去对使用者的追踪。\n <consumed>",
+      "components": [
+        {
+          "literal": "Simultaneously teleports all visible robots within a range of ",
+          "evidence": {
+            "string_va": "0xbdfab8",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7678,
+            "match": "component is a substring of this TEXT literal"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6da8] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7667-7722。",
+          "source_slot": "[ebp-0x6da8]"
+        },
+        {
+          "literal": " from the origin, and ignores any form of teleport-inhibiting technology. Any pursuers at the time lose tracking on the user.\n <consumed>",
+          "evidence": {
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "line_range": [
+              7667,
+              7722
+            ],
+            "match": "exact TEXT literal not uniquely resolved"
+          }
+        }
+      ],
+      "assembly_lines": [
+        7667,
+        7722
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0bb0",
+        "0x9b0bd0"
+      ],
+      "covers_xrefs": [
+        "0x568b22"
+      ],
+      "confidence": "high",
+      "notes": "半径字符串先进入说明；0x9b0bb0 的内容被追加到该串，随后 0x9b0bd0 追加带 <consumed> 的完整尾句，顺序均已核实。",
+      "xref_sources": [
+        {
+          "xref": "0x568b22",
+          "string_va": "0xbdfab8",
+          "raw_fragment": " Simultaneously teleports all visible robots within a range of ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7678,
+          "xref_evidence": "ev_d8650da2c5fc9e296e705cfe573cdb401928d101934b325cdc1ffa5da9526d3b"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x568afa",
+          "target": "0x405350",
+          "assembly_line": 7670
+        },
+        {
+          "address": "0x568b2e",
+          "target": "0x9ce7b0",
+          "assembly_line": 7681
+        },
+        {
+          "address": "0x568b5f",
+          "target": "0x9ce8f0",
+          "assembly_line": 7692
+        },
+        {
+          "address": "0x568b87",
+          "target": "0x9b0bb0",
+          "assembly_line": 7701
+        },
+        {
+          "address": "0x568bc4",
+          "target": "0x9b0bd0",
+          "assembly_line": 7713
+        }
+      ],
+      "assembly_intervals": [
+        [
+          7667,
+          7722
+        ]
+      ]
+    },
+    {
+      "raw_template": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:{*} ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below {*}% integrity by this process.\n <consumed>\n\nExamples: A drain of 100 core integrity is capable of repairing {*} part integrity. A drain of {*} part integrity is capable of repairing 100 core integrity.",
+      "source": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:{*} ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below {*}% integrity by this process. <consumed> Examples: A drain of 100 core integrity is capable of repairing {*} part integrity. A drain of {*} part integrity is capable of repairing 100 core integrity.",
+      "translation": "核心耐久至少过半时，可按1:{*}的比例抽取核心耐久，修复所有已安装部件。核心耐久低于一半时则反向进行。此过程不会使核心或部件耐久低于{*}%。\n <consumed>\n\n例如：抽取100点核心耐久可修复{*}点部件耐久；抽取{*}点部件耐久可修复100点核心耐久。",
+      "components": [
+        {
+          "literal": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+          "evidence": {
+            "string_va": "0xbdfd20",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7906
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6e14] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7884-8000。",
+          "source_slot": "[ebp-0x6e14]"
+        },
+        {
+          "literal": " ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below ",
+          "evidence": {
+            "string_va": "0xbdfc90",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7915
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6e0c] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7884-8000。",
+          "source_slot": "[ebp-0x6e0c]"
+        },
+        {
+          "literal": "% integrity by this process.\n <consumed>\n\nExamples: A drain of 100 core integrity is capable of repairing ",
+          "evidence": {
+            "string_va": "0xbdfbc0",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7938
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6e04] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7884-8000。",
+          "source_slot": "[ebp-0x6e04]"
+        },
+        {
+          "literal": " part integrity. A drain of ",
+          "evidence": {
+            "string_va": "0xbdfba0",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7961
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6dfc] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 7884-8000。",
+          "source_slot": "[ebp-0x6dfc]"
+        },
+        {
+          "literal": " part integrity is capable of repairing 100 core integrity.",
+          "evidence": {
+            "string_va": "0xbdfb64",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 7984
+          }
+        }
+      ],
+      "assembly_lines": [
+        7884,
+        8000
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x568f64",
+        "0x568f8e",
+        "0x568ff2",
+        "0x569056",
+        "0x5690ba"
+      ],
+      "confidence": "high",
+      "notes": "五个引用所见 TEXT 按此顺序由四个捕获数值串接；0x9ce930 已证明为 arg1+arg2。",
+      "xref_sources": [
+        {
+          "xref": "0x568f64",
+          "string_va": "0xbdfd20",
+          "raw_fragment": "Drains a core at or above half integrity to restore integrity of all attached parts at a 1:",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7906,
+          "xref_evidence": "ev_bd680e231ea55d5d6ccdf612137cdb8a1c70ec0ef32eb58266f0ffff8da2301e"
+        },
+        {
+          "xref": "0x568f8e",
+          "string_va": "0xbdfc90",
+          "raw_fragment": " ratio. Process is reversed for cores below half integrity. Neither core nor parts can be dropped below ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7915,
+          "xref_evidence": "ev_413f2c144c36c86baf02e53ce3340bc0789ed1325552c50f8e74f6aba03b4bd1"
+        },
+        {
+          "xref": "0x568ff2",
+          "string_va": "0xbdfbc0",
+          "raw_fragment": "% integrity by this process.\n <consumed>\n\nExamples: A drain of 100 core integrity is capable of repairing ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7938,
+          "xref_evidence": "ev_79ceaee0634f49a2036ef3c31fad2502defa1546e4b48b1bdf8642b35a042bda"
+        },
+        {
+          "xref": "0x569056",
+          "string_va": "0xbdfba0",
+          "raw_fragment": " part integrity. A drain of ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7961,
+          "xref_evidence": "ev_0e50b469be29a996061e841a5031d6a9312d34561a7dc404519c1475d2b831ed"
+        },
+        {
+          "xref": "0x5690ba",
+          "string_va": "0xbdfb64",
+          "raw_fragment": " part integrity is capable of repairing 100 core integrity.",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 7984,
+          "xref_evidence": "ev_a05627d89d9fce01d379e54b84b8daa58c32d5124e85a4def48c7484cbc59d8a"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x568f0d",
+          "target": "0x405350",
+          "assembly_line": 7887
+        },
+        {
+          "address": "0x568f3f",
+          "target": "0x405350",
+          "assembly_line": 7898
+        },
+        {
+          "address": "0x568f70",
+          "target": "0x9ce7b0",
+          "assembly_line": 7909
+        },
+        {
+          "address": "0x568fa1",
+          "target": "0x9ce8f0",
+          "assembly_line": 7920
+        },
+        {
+          "address": "0x568fd4",
+          "target": "0x9ce930",
+          "assembly_line": 7932
+        },
+        {
+          "address": "0x569005",
+          "target": "0x9ce8f0",
+          "assembly_line": 7943
+        },
+        {
+          "address": "0x569038",
+          "target": "0x9ce930",
+          "assembly_line": 7955
+        },
+        {
+          "address": "0x569069",
+          "target": "0x9ce8f0",
+          "assembly_line": 7966
+        },
+        {
+          "address": "0x56909c",
+          "target": "0x9ce930",
+          "assembly_line": 7978
+        },
+        {
+          "address": "0x5690cd",
+          "target": "0x9ce8f0",
+          "assembly_line": 7989
+        },
+        {
+          "address": "0x5690f5",
+          "target": "0x9b0b00",
+          "assembly_line": 7998
+        }
+      ],
+      "assembly_intervals": [
+        [
+          7884,
+          8000
+        ]
+      ]
+    },
+    {
+      "raw_template": "Permanently increases core heat dissipation by {*}.\n <consumed>",
+      "source": "Permanently increases core heat dissipation by {*}. <consumed>",
+      "translation": "永久提高核心散热能力{*}。\n <consumed>",
+      "components": [
+        {
+          "literal": "Permanently increases core heat dissipation by ",
+          "evidence": {
+            "string_va": "0xbdfc2c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8049
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6e5c] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8038-8070。",
+          "source_slot": "[ebp-0x6e5c]"
+        },
+        {
+          "literal": ".\n <consumed>",
+          "evidence": {
+            "string_va": "0xbdfcfc",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8058
+          }
+        }
+      ],
+      "assembly_lines": [
+        8038,
+        8070
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5691f2"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x5691f2",
+          "string_va": "0xbdfc2c",
+          "raw_fragment": "Permanently increases core heat dissipation by ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8049,
+          "xref_evidence": "ev_bc2cfec3c59e8a8e2b83e0010ec3d7f567264f475ee0e5e63a48b698cdc07fac"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x5691ca",
+          "target": "0x405350",
+          "assembly_line": 8041
+        },
+        {
+          "address": "0x5691fe",
+          "target": "0x9ce7b0",
+          "assembly_line": 8052
+        },
+        {
+          "address": "0x56922f",
+          "target": "0x9ce8f0",
+          "assembly_line": 8063
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8038,
+          8070
+        ]
+      ],
+      "notes": "数值转字符串后按“前缀+数值+字面后缀”拼接；TEXT 后缀仅为句点、换行和 <consumed>，不含百分号。"
+    },
+    {
+      "raw_template": "Permanently increases core energy generation by {*}.\n <consumed>",
+      "source": "Permanently increases core energy generation by {*}. <consumed>",
+      "translation": "永久提高核心能量生成量{*}。\n <consumed>",
+      "components": [
+        {
+          "literal": "Permanently increases core energy generation by ",
+          "evidence": {
+            "string_va": "0xbdfc5c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8096
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6e74] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8087-8120。",
+          "source_slot": "[ebp-0x6e74]"
+        },
+        {
+          "literal": ".\n <consumed>",
+          "evidence": {
+            "string_va": "0xbdfd7c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8105
+          }
+        }
+      ],
+      "assembly_lines": [
+        8087,
+        8120
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5692d3"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x5692d3",
+          "string_va": "0xbdfc5c",
+          "raw_fragment": "Permanently increases core energy generation by ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8096,
+          "xref_evidence": "ev_64d016f57847195357805517b7248494002d76472850eff06642a5304a5099a6"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x5692ab",
+          "target": "0x405350",
+          "assembly_line": 8088
+        },
+        {
+          "address": "0x5692df",
+          "target": "0x9ce7b0",
+          "assembly_line": 8099
+        },
+        {
+          "address": "0x569310",
+          "target": "0x9ce8f0",
+          "assembly_line": 8110
+        },
+        {
+          "address": "0x569338",
+          "target": "0x9b0b00",
+          "assembly_line": 8119
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8087,
+          8120
+        ]
+      ],
+      "notes": "数值转字符串后按“前缀+数值+字面后缀”拼接；TEXT 后缀仅为句点、换行和 <consumed>，不含百分号。"
+    },
+    {
+      "raw_template": "Energy and matter required for part attachment permanently reduced by {*}%. Also enables {*}% chance to avoid negative effects of attaching a faulty prototype or corrupted part, but this feature requires 20 matter to take effect.\n <no_stack>",
+      "source": "Energy and matter required for part attachment permanently reduced by {*}%. Also enables {*}% chance to avoid negative effects of attaching a faulty prototype or corrupted part, but this feature requires 20 matter to take effect. <no_stack>",
+      "translation": "安装部件所需的能量和物质永久降低{*}%。此外，还有{*}%的概率避免安装故障原型或损坏部件带来的负面效果；此功能需要20点物质才能生效。\n <no_stack>",
+      "components": [
+        {
+          "literal": "Energy and matter required for part attachment permanently reduced by ",
+          "evidence": {
+            "string_va": "0xbdfe40",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8152
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6e94] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8136-8190。",
+          "source_slot": "[ebp-0x6e94]"
+        },
+        {
+          "literal": "%. Also enables ",
+          "evidence": {
+            "string_va": "0xbdfd0c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8161
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6e8c] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8136-8190。",
+          "source_slot": "[ebp-0x6e8c]"
+        },
+        {
+          "literal": "% chance to avoid negative effects of attaching a faulty prototype or corrupted part, but this feature requires 20 matter to take effect.\n <no_stack>",
+          "evidence": {
+            "string_va": "0xbdfda8",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8184
+          }
+        }
+      ],
+      "assembly_lines": [
+        8136,
+        8190
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5693d5"
+      ],
+      "confidence": "high",
+      "notes": "两个百分比数值依序格式化并连接到字面片段；0x9ce930 已证明为 arg1+arg2。",
+      "xref_sources": [
+        {
+          "xref": "0x5693d5",
+          "string_va": "0xbdfe40",
+          "raw_fragment": "Energy and matter required for part attachment permanently reduced by ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8152,
+          "xref_evidence": "ev_31cb696b589171c85ec62b05fd6c1a4b02fdb5a370d5895573f6c41b692eb9f3"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x5693b0",
+          "target": "0x405350",
+          "assembly_line": 8144
+        },
+        {
+          "address": "0x5693e1",
+          "target": "0x9ce7b0",
+          "assembly_line": 8155
+        },
+        {
+          "address": "0x569412",
+          "target": "0x9ce8f0",
+          "assembly_line": 8166
+        },
+        {
+          "address": "0x569445",
+          "target": "0x9ce930",
+          "assembly_line": 8178
+        },
+        {
+          "address": "0x569476",
+          "target": "0x9ce8f0",
+          "assembly_line": 8189
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8136,
+          8190
+        ]
+      ]
+    },
+    {
+      "raw_template": "Permanently adds automated ability which converts core to matter. If matter capacity is at least {*}, in any turn during which current matter falls below {*}, gain {*} matter at the cost of {*} max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below {*}.\n <consumed>",
+      "source": "Permanently adds automated ability which converts core to matter. If matter capacity is at least {*}, in any turn during which current matter falls below {*}, gain {*} matter at the cost of {*} max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below {*}. <consumed>",
+      "translation": "永久获得自动将核心转化为物质的能力。若物质容量至少为{*}，且任一回合当前物质量低于{*}，则消耗{*}点最大核心耐久来获得{*}点物质。此功能不计入未安装的容器；若最大核心耐久任何时候低于{*}，功能即停止。\n <consumed>",
+      "components": [
+        {
+          "literal": "Permanently adds automated ability which converts core to matter. If matter capacity is at least ",
+          "evidence": {
+            "string_va": "0xbdff58",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8265
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6edc] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8240-8390。",
+          "source_slot": "[ebp-0x6edc]"
+        },
+        {
+          "literal": ", in any turn during which current matter falls below ",
+          "evidence": {
+            "string_va": "0xbdff20",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8274
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6ed4] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8240-8390。",
+          "source_slot": "[ebp-0x6ed4]"
+        },
+        {
+          "literal": ", gain ",
+          "evidence": {
+            "string_va": "0xbdff18",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8297
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6ecc] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8240-8390。",
+          "source_slot": "[ebp-0x6ecc]"
+        },
+        {
+          "literal": " matter at the cost of ",
+          "evidence": {
+            "string_va": "0xbdfd8c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8320
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6ec4] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8240-8390。",
+          "source_slot": "[ebp-0x6ec4]"
+        },
+        {
+          "literal": " max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below ",
+          "evidence": {
+            "string_va": "0xbdfe98",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8343
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6ebc] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8240-8390。",
+          "source_slot": "[ebp-0x6ebc]"
+        },
+        {
+          "literal": ".\n <consumed>",
+          "evidence": {
+            "string_va": "0xbdfe88",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8366
+          }
+        }
+      ],
+      "assembly_lines": [
+        8240,
+        8390
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x5695db",
+        "0x569731"
+      ],
+      "confidence": "high",
+      "notes": "五个数值字符串按调用分支顺序拼入模板；所有 0x9ce930 均为 arg1+arg2，附 <consumed> 尾标。",
+      "xref_sources": [
+        {
+          "xref": "0x5695db",
+          "string_va": "0xbdff58",
+          "raw_fragment": "Permanently adds automated ability which converts core to matter. If matter capacity is at least ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8265,
+          "xref_evidence": "ev_b95aed405af5a356090e58dfbda805ef86c0d5db0feb760f1fa92505d84957c1"
+        },
+        {
+          "xref": "0x569731",
+          "string_va": "0xbdfe98",
+          "raw_fragment": " max core integrity. Functionality does not consider non-attached containers, and ceases if at any point max core falls below ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8343,
+          "xref_evidence": "ev_558c1681dd76f8ed7cb881ebd9086e0377095cdcfd114b6c6dd1d9dc39fc95a6"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x56958c",
+          "target": "0x405350",
+          "assembly_line": 8248
+        },
+        {
+          "address": "0x5695b6",
+          "target": "0x405350",
+          "assembly_line": 8257
+        },
+        {
+          "address": "0x5695e7",
+          "target": "0x9ce7b0",
+          "assembly_line": 8268
+        },
+        {
+          "address": "0x569618",
+          "target": "0x9ce8f0",
+          "assembly_line": 8279
+        },
+        {
+          "address": "0x56964b",
+          "target": "0x9ce930",
+          "assembly_line": 8291
+        },
+        {
+          "address": "0x56967c",
+          "target": "0x9ce8f0",
+          "assembly_line": 8302
+        },
+        {
+          "address": "0x5696af",
+          "target": "0x9ce930",
+          "assembly_line": 8314
+        },
+        {
+          "address": "0x5696e0",
+          "target": "0x9ce8f0",
+          "assembly_line": 8325
+        },
+        {
+          "address": "0x569713",
+          "target": "0x9ce930",
+          "assembly_line": 8337
+        },
+        {
+          "address": "0x569744",
+          "target": "0x9ce8f0",
+          "assembly_line": 8348
+        },
+        {
+          "address": "0x569777",
+          "target": "0x9ce930",
+          "assembly_line": 8360
+        },
+        {
+          "address": "0x5697a8",
+          "target": "0x9ce8f0",
+          "assembly_line": 8371
+        },
+        {
+          "address": "0x5697d0",
+          "target": "0x9b0b00",
+          "assembly_line": 8380
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8240,
+          8390
+        ]
+      ]
+    },
+    {
+      "raw_template": "Converts all heat above {*} to energy every turn at a {*}:1 ratio.\n\nExample: At 400 heat precisely {*} heat would be used to generate {*} energy ((400-{*})/{*}={*}).",
+      "source": "Converts all heat above {*} to energy every turn at a {*}:1 ratio. Example: At 400 heat precisely {*} heat would be used to generate {*} energy ((400-{*})/{*}={*}).",
+      "translation": "将超过{*}的热量每回合按{*}:1的比例转化为能量。\n\n例如：热量恰为400时，会使用{*}点热量生成{*}点能量（(400-{*})/{*}={*}）。",
+      "components": [
+        {
+          "literal": "Converts all heat above ",
+          "evidence": {
+            "string_va": "0xbe00a0",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8526
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6f68] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8490-8710。",
+          "source_slot": "[ebp-0x6f68]"
+        },
+        {
+          "literal": " to energy every turn at a ",
+          "evidence": {
+            "string_va": "0xbe0084",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8535
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6f60] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8490-8710。",
+          "source_slot": "[ebp-0x6f60]"
+        },
+        {
+          "literal": ":1 ratio.\n\nExample: At 400 heat precisely ",
+          "evidence": {
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "line_range": [
+              8490,
+              8710
+            ],
+            "match": "exact TEXT literal not uniquely resolved"
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6f58] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8490-8710。",
+          "source_slot": "[ebp-0x6f58]"
+        },
+        {
+          "literal": " heat would be used to generate ",
+          "evidence": {
+            "string_va": "0xbe0018",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8604
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6f50] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8490-8710。",
+          "source_slot": "[ebp-0x6f50]"
+        },
+        {
+          "literal": " energy ((400-",
+          "evidence": {
+            "string_va": "0xbe0008",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8627
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6f48] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8490-8710。",
+          "source_slot": "[ebp-0x6f48]"
+        },
+        {
+          "literal": ")/",
+          "evidence": {
+            "string_va": "0xbe0004",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8650
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6f40] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8490-8710。",
+          "source_slot": "[ebp-0x6f40]"
+        },
+        {
+          "literal": "=",
+          "evidence": {
+            "string_va": "0xbdffbc",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8673
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6f38] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8490-8710。",
+          "source_slot": "[ebp-0x6f38]"
+        },
+        {
+          "literal": ").",
+          "evidence": {
+            "string_va": "0xbdfda4",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8696
+          }
+        }
+      ],
+      "assembly_lines": [
+        8490,
+        8710
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x569aaf",
+        "0x569b77",
+        "0x569bdb"
+      ],
+      "confidence": "high",
+      "notes": "七个数值字符串依次进入模板，公式与示例字面片段逐个核对；0x9ce930 已证明为 arg1+arg2。",
+      "xref_sources": [
+        {
+          "xref": "0x569aaf",
+          "string_va": "0xbe0084",
+          "raw_fragment": " to energy every turn at a ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8535,
+          "xref_evidence": "ev_187fbd778a1bb708b5f7d0e38b397a1d143e06e9e7d028639aa62ff507e10f7d"
+        },
+        {
+          "xref": "0x569b77",
+          "string_va": "0xbe003c",
+          "raw_fragment": "\n\nExample: At 400 heat precisely ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8581,
+          "xref_evidence": "ev_f69a48b5f6a6776deb8ab33036bffebf6b3b2b30665bc8f2812244aa9f2461e4"
+        },
+        {
+          "xref": "0x569bdb",
+          "string_va": "0xbe0018",
+          "raw_fragment": " heat would be used to generate ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8604,
+          "xref_evidence": "ev_c945b1e6b5bdf3fc4224aa3562693919e4a51b6a106711e2606b10a0e48f4625"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x5699fc",
+          "target": "0x405350",
+          "assembly_line": 8496
+        },
+        {
+          "address": "0x569a2e",
+          "target": "0x405350",
+          "assembly_line": 8507
+        },
+        {
+          "address": "0x569a60",
+          "target": "0x405350",
+          "assembly_line": 8518
+        },
+        {
+          "address": "0x569a91",
+          "target": "0x9ce7b0",
+          "assembly_line": 8529
+        },
+        {
+          "address": "0x569ac2",
+          "target": "0x9ce8f0",
+          "assembly_line": 8540
+        },
+        {
+          "address": "0x569af5",
+          "target": "0x9ce930",
+          "assembly_line": 8552
+        },
+        {
+          "address": "0x569b26",
+          "target": "0x9ce8f0",
+          "assembly_line": 8563
+        },
+        {
+          "address": "0x569b59",
+          "target": "0x9ce8f0",
+          "assembly_line": 8575
+        },
+        {
+          "address": "0x569b8a",
+          "target": "0x9ce8f0",
+          "assembly_line": 8586
+        },
+        {
+          "address": "0x569bbd",
+          "target": "0x9ce930",
+          "assembly_line": 8598
+        },
+        {
+          "address": "0x569bee",
+          "target": "0x9ce8f0",
+          "assembly_line": 8609
+        },
+        {
+          "address": "0x569c21",
+          "target": "0x9ce930",
+          "assembly_line": 8621
+        },
+        {
+          "address": "0x569c52",
+          "target": "0x9ce8f0",
+          "assembly_line": 8632
+        },
+        {
+          "address": "0x569c85",
+          "target": "0x9ce930",
+          "assembly_line": 8644
+        },
+        {
+          "address": "0x569cb6",
+          "target": "0x9ce8f0",
+          "assembly_line": 8655
+        },
+        {
+          "address": "0x569ce9",
+          "target": "0x9ce930",
+          "assembly_line": 8667
+        },
+        {
+          "address": "0x569d1a",
+          "target": "0x9ce8f0",
+          "assembly_line": 8678
+        },
+        {
+          "address": "0x569d4d",
+          "target": "0x9ce930",
+          "assembly_line": 8690
+        },
+        {
+          "address": "0x569d7e",
+          "target": "0x9ce8f0",
+          "assembly_line": 8701
+        },
+        {
+          "address": "0x569da6",
+          "target": "0x9b0b00",
+          "assembly_line": 8710
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8490,
+          8710
+        ]
+      ]
+    },
+    {
+      "raw_template": "Destroys all walls and earth up to a distance of {*} without affecting other materials.\n <consumed>",
+      "source": "Destroys all walls and earth up to a distance of {*} without affecting other materials. <consumed>",
+      "translation": "摧毁距离{*}以内的所有墙壁和土层，不影响其他材料。\n <consumed>",
+      "components": [
+        {
+          "literal": "Destroys all walls and earth up to a distance of ",
+          "evidence": {
+            "string_va": "0xbe01d0",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8802
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x6ff0] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8790-8832。",
+          "source_slot": "[ebp-0x6ff0]"
+        },
+        {
+          "literal": " without affecting other materials.\n <consumed>",
+          "evidence": {
+            "string_va": "0xbe01a0",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8811
+          }
+        }
+      ],
+      "assembly_lines": [
+        8790,
+        8832
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x569f6c"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x569f6c",
+          "string_va": "0xbe01d0",
+          "raw_fragment": "Destroys all walls and earth up to a distance of ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8802,
+          "xref_evidence": "ev_233acf8c96efd7689b698700ca0f410817cd5a23a59675789c17e9011ea7b631"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x569f44",
+          "target": "0x405350",
+          "assembly_line": 8794
+        },
+        {
+          "address": "0x569f78",
+          "target": "0x9ce7b0",
+          "assembly_line": 8805
+        },
+        {
+          "address": "0x569fa9",
+          "target": "0x9ce8f0",
+          "assembly_line": 8816
+        },
+        {
+          "address": "0x569fd1",
+          "target": "0x9b0b00",
+          "assembly_line": 8825
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8790,
+          8832
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "Permanently increases maximum core integrity by {*}.\n <consumed>",
+      "source": "Permanently increases maximum core integrity by {*}. <consumed>",
+      "translation": "永久提高核心最大耐久{*}。\n <consumed>",
+      "components": [
+        {
+          "literal": "Permanently increases maximum core integrity by ",
+          "evidence": {
+            "string_va": "0xbe0298",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8857
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x7008] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8848-8885。",
+          "source_slot": "[ebp-0x7008]"
+        },
+        {
+          "literal": ".\n <consumed>",
+          "evidence": {
+            "string_va": "0xbe0288",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8866
+          }
+        }
+      ],
+      "assembly_lines": [
+        8848,
+        8885
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x56a06b"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x56a06b",
+          "string_va": "0xbe0298",
+          "raw_fragment": "Permanently increases maximum core integrity by ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8857,
+          "xref_evidence": "ev_732207be1571127618c586812efe179ae594e170ee743e2b864282c407d3808e"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x56a043",
+          "target": "0x405350",
+          "assembly_line": 8849
+        },
+        {
+          "address": "0x56a077",
+          "target": "0x9ce7b0",
+          "assembly_line": 8860
+        },
+        {
+          "address": "0x56a0a8",
+          "target": "0x9ce8f0",
+          "assembly_line": 8871
+        },
+        {
+          "address": "0x56a0d0",
+          "target": "0x9b0b00",
+          "assembly_line": 8880
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8848,
+          8885
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "Permanently increases inventory capacity by {*}.\n <consumed>",
+      "source": "Permanently increases inventory capacity by {*}. <consumed>",
+      "translation": "永久提高库存容量{*}。\n <consumed>",
+      "components": [
+        {
+          "literal": "Permanently increases inventory capacity by ",
+          "evidence": {
+            "string_va": "0xbe02dc",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8904
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x7020] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8898-8933。",
+          "source_slot": "[ebp-0x7020]"
+        },
+        {
+          "literal": ".\n <consumed>",
+          "evidence": {
+            "string_va": "0xbe02cc",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8913
+          }
+        }
+      ],
+      "assembly_lines": [
+        8898,
+        8933
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x56a146"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x56a146",
+          "string_va": "0xbe02dc",
+          "raw_fragment": "Permanently increases inventory capacity by ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8904,
+          "xref_evidence": "ev_e24b46668ef24684c64a7d2f510719782578e2b553c3be97ae67476f04ddd5b2"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x56a152",
+          "target": "0x9ce7b0",
+          "assembly_line": 8907
+        },
+        {
+          "address": "0x56a183",
+          "target": "0x9ce8f0",
+          "assembly_line": 8918
+        },
+        {
+          "address": "0x56a1ab",
+          "target": "0x9b0b00",
+          "assembly_line": 8927
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8898,
+          8933
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    },
+    {
+      "raw_template": "Permanently increases energy capacity by {*}.\n <consumed>",
+      "source": "Permanently increases energy capacity by {*}. <consumed>",
+      "translation": "永久提高能量容量{*}。\n <consumed>",
+      "components": [
+        {
+          "literal": "Permanently increases energy capacity by ",
+          "evidence": {
+            "string_va": "0xbe031c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8951
+          }
+        },
+        {
+          "capture": "{*}",
+          "origin": "0x405350 数值转字符串结果，作为 [ebp-0x7038] 的字符串对象被后续拼接；对应构造和消费在 assembly_lines 8944-8984。",
+          "source_slot": "[ebp-0x7038]"
+        },
+        {
+          "literal": ".\n <consumed>",
+          "evidence": {
+            "string_va": "0xbe030c",
+            "assembly_file": "build/rea/part-description-annotated.asm",
+            "assembly_line": 8960
+          }
+        }
+      ],
+      "assembly_lines": [
+        8944,
+        8984
+      ],
+      "calls": [
+        "0x405350",
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9b0b00"
+      ],
+      "covers_xrefs": [
+        "0x56a221"
+      ],
+      "confidence": "high",
+      "xref_sources": [
+        {
+          "xref": "0x56a221",
+          "string_va": "0xbe031c",
+          "raw_fragment": "Permanently increases energy capacity by ",
+          "assembly_file": "build/rea/part-description-annotated.asm",
+          "assembly_line": 8951,
+          "xref_evidence": "ev_857bcb97bb440d78271aa2e0441226cd38aeadd43a3dd0c507cb4796a68022a4"
+        }
+      ],
+      "call_sites": [
+        {
+          "address": "0x56a22d",
+          "target": "0x9ce7b0",
+          "assembly_line": 8954
+        },
+        {
+          "address": "0x56a25e",
+          "target": "0x9ce8f0",
+          "assembly_line": 8965
+        },
+        {
+          "address": "0x56a286",
+          "target": "0x9b0b00",
+          "assembly_line": 8974
+        }
+      ],
+      "assembly_intervals": [
+        [
+          8944,
+          8984
+        ]
+      ],
+      "notes": "已逐项核对本引用的 TEXT 片段、数值字符串槽与拼接调用顺序。"
+    }
+  ]
+}

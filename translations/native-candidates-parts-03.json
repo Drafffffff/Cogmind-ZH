@@ -1,0 +1,775 @@
+{
+  "source_file": "build/rea/part-description-annotated.asm",
+  "worklist": "translations/native-worklists/parts_03.json",
+  "basis": "Templates reconstructed from visible literals and stack/register flow. Verified helpers applied as directed; unverified 9ce930 or dynamic list boundaries are explicitly unresolved in confidence/components.",
+  "entries": [
+    {
+      "xref": "0x56d8f5",
+      "string_va": "0xbe1c94",
+      "worklist_string": " per turn. Must be active, and requires ",
+      "raw_template": "Regenerates integrity at a rate of {n} per turn. Must be active, and requires {n} energy.\n <parallel_ok>",
+      "source": "Regenerates integrity at a rate of {n} per turn. Must be active, and requires {n} energy. <parallel_ok>",
+      "translation": "每回合恢复{n}完整性。必须启用，并消耗{n}能量。\n <parallel_ok>",
+      "components": [
+        "literal: 'Regenerates integrity at a rate of ' (0xbe1cc0)",
+        "capture {n}: 405350 formatted value from [ebp-0x75b0], derived from [ecx+0xf4]-9 via 56d877-56d887",
+        "literal: ' per turn. Must be active, and requires ' (0xbe1c94)",
+        "capture {n}: 405350 formatted value from [ebp-0x75a8], derived from [ecx+0xf4]-9 via 56d83a-56d840",
+        "literal: ' energy.\\n <parallel_ok>' (0xbe1c7c)"
+      ],
+      "assembly_lines": [
+        11899
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56d8f5"
+      ],
+      "confidence": "unresolved: 9ce930 ordering/formatting for energy capture not verified"
+    },
+    {
+      "xref": "0x56da1f",
+      "string_va": "0xbe1d00",
+      "worklist_string": "Regenerates integrity at a rate of ",
+      "raw_template": "Regenerates integrity at a rate of {n} per turn.\n <parallel_ok>",
+      "source": "Regenerates integrity at a rate of {n} per turn. <parallel_ok>",
+      "translation": "每回合恢复{n}完整性。\n <parallel_ok>",
+      "components": [
+        "literal 0xbe1d00",
+        "capture {n}: 405350 from [ecx+0xf4]-9 at 56d9d1-56d9e8",
+        "literal 0xbe1ce4"
+      ],
+      "assembly_lines": [
+        11962
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56da1f"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56ddab",
+      "string_va": "0xbe1d60",
+      "worklist_string": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by ",
+      "raw_template": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by {n}% of that of the source, or {n}% if the source is armor.",
+      "source": "Repairs itself by cannibalizing any part on the ground at current position, restoring integrity by {n}% of that of the source, or {n}% if the source is armor.",
+      "translation": "吞噬当前位置地面上的部件来自我修复：若目标为普通部件，恢复其完整性的{n}%；若为装甲，则恢复{n}%。",
+      "components": [
+        "literal 0xbe1d60",
+        "capture {n}: integer-to-string at 56dd44-56dd4b from division result [ebp-0x75f8]",
+        "literal 0xbe1d40",
+        "capture {n}: integer-to-string at 56dd3e-56dd4b from calculation [ebp-0x7600]",
+        "literal 0xbe1d24"
+      ],
+      "assembly_lines": [
+        12135
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930"
+      ],
+      "covers_xrefs": [
+        "0x56ddab"
+      ],
+      "confidence": "unresolved: 9ce930 joins the two capture-bearing strings; operand order not proven"
+    },
+    {
+      "xref": "0x56df71",
+      "string_va": "0xbe1dfc",
+      "worklist_string": "Converts each adjacent wall, earth, and door to ",
+      "raw_template": "Converts each adjacent wall, earth, and door to {n}-{n} energy.",
+      "source": "Converts each adjacent wall, earth, and door to {n}-{n} energy.",
+      "translation": "将每面相邻墙壁、土层和门转化为{n}-{n}能量。",
+      "components": [
+        "literal 0xbe1dfc",
+        "capture {n}: formatted calculated value at 56def3-56df0c",
+        "literal '-' 0xbe1df8",
+        "capture {n}: formatted calculated value at 56df33-56df4c",
+        "literal 0xbe1dec"
+      ],
+      "assembly_lines": [
+        12233
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930"
+      ],
+      "covers_xrefs": [
+        "0x56df71"
+      ],
+      "confidence": "unresolved: 9ce930 joins energy range; operand order not verified"
+    },
+    {
+      "xref": "0x56e0dd",
+      "string_va": "0xbe1ed0",
+      "worklist_string": "Sets a temporal reversion point when attached, then loses ",
+      "raw_template": "Sets a temporal reversion point when attached, then loses {n} integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+      "source": "Sets a temporal reversion point when attached, then loses {n} integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+      "translation": "装上后设定时间回溯点，随后每回合损失{n}完整性。完整性自然耗尽时，你会被强制送回该时间点。若提前被摧毁，则不会触发回溯。",
+      "components": [
+        "literal 0xbe1ed0",
+        "capture {n}: dword [ebp-0x5e4c]+0xf4 formatted by 405350; value passed via [ebp-0x7660] at 56e0dc",
+        "literal 0xbe1e30"
+      ],
+      "assembly_lines": [
+        12312
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56e0dd"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56e107",
+      "string_va": "0xbe1e30",
+      "worklist_string": " integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+      "raw_template": "Sets a temporal reversion point when attached, then loses {n} integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+      "source": "Sets a temporal reversion point when attached, then loses {n} integrity per turn. Once integrity is depleted naturally, you are forced back to that point in time. If destroyed prematurely the reversion will not occur.",
+      "translation": "装上后设定时间回溯点，随后每回合损失{n}完整性。完整性自然耗尽时，你会被强制送回该时间点。若提前被摧毁，则不会触发回溯。",
+      "components": [
+        "literal 0xbe1ed0",
+        "capture {n}: dword [ebp-0x5e4c]+0xf4 formatted by 405350; value passed via [ebp-0x7660] at 56e0dc",
+        "literal 0xbe1e30"
+      ],
+      "assembly_lines": [
+        12321
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56e107"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56e20f",
+      "string_va": "0xbe1fa4",
+      "worklist_string": "Automatically hacks visible door terminals within a range of ",
+      "raw_template": "Automatically hacks visible door terminals within a range of {n}. Requires being within that range for {n} turn(s).",
+      "source": "Automatically hacks visible door terminals within a range of {n}. Requires being within that range for {n} turn(s).",
+      "translation": "自动黑入视野范围内距离不超过{n}的门终端。须在此范围内持续{n}回合。",
+      "components": [
+        "literal 0xbe1fa4",
+        "capture {n}: 405350 from calculation before 56e20f",
+        "literal 0xbe1f7c",
+        "capture {n}: 405350 formatted duration before 56e27f",
+        "literal 'turn' 0xbe1f74, plural suffix selected by branch; exact branch join uses unverified 9ce930",
+        "literal '.' 0xbe1f0c"
+      ],
+      "assembly_lines": [
+        12378
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56e20f"
+      ],
+      "confidence": "unresolved: pluralization/second capture join uses unverified 9ce930"
+    },
+    {
+      "xref": "0x56e38d",
+      "string_va": "0xbe1fe8",
+      "worklist_string": "Automatically and instantly reprograms visible hostile traps within a range of ",
+      "raw_template": "Automatically and instantly reprograms visible hostile traps within a range of {n}.",
+      "source": "Automatically and instantly reprograms visible hostile traps within a range of {n}.",
+      "translation": "自动即时重编程视野范围内距离不超过{n}的敌对陷阱。",
+      "components": [
+        "literal 0xbe1fe8",
+        "capture {n}: 405350-formatted value before 56e38d",
+        "literal '.' 0xbe1fe4"
+      ],
+      "assembly_lines": [
+        12460
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56e38d"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56e47a",
+      "string_va": "0xbe2110",
+      "worklist_string": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover ",
+      "raw_template": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover {n}% of any missing amount.\n <parallel_ok>",
+      "source": "Intermittently transforms attached parts into different parts. Resulting parts retain the same percentage integrity as the former part, but also recover {n}% of any missing amount. <parallel_ok>",
+      "translation": "间歇性地将已装部件变为其他部件。新部件保留原部件的完整性百分比，并额外恢复缺失部分的{n}%。\n <parallel_ok>",
+      "components": [
+        "literal 0xbe2110",
+        "capture {n}: 405350 formatted value before 56e47a",
+        "literal 0xbe20e8"
+      ],
+      "assembly_lines": [
+        12511
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56e47a"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56e724",
+      "string_va": "0xbe2220",
+      "worklist_string": "Prevents core/hover/flight speed of all hostiles in view within a range of ",
+      "raw_template": "Prevents core/hover/flight speed of all hostiles in view within a range of {n} from exceeding {n}%.\n <no_stack>",
+      "source": "Prevents core/hover/flight speed of all hostiles in view within a range of {n} from exceeding {n}%. <no_stack>",
+      "translation": "使视野内{n}范围内所有敌人的核心/悬浮/飞行速度不超过{n}%。\n <no_stack>",
+      "components": [
+        "literal 0xbe2220",
+        "capture {n}: formatted range before 56e724",
+        "literal 0xbe21f8",
+        "capture {n}: formatted speed cap before 56e74e",
+        "literal 0xbe21e4"
+      ],
+      "assembly_lines": [
+        12653
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56e724"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56e937",
+      "string_va": "0xbe2318",
+      "worklist_string": " consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+      "raw_template": "Move through up to {n} consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+      "source": "Move through up to {n} consecutive solid objects to the first open space on the other side, in the process taking core integrity damage equivalent to 1% of maximum for each space traveled.",
+      "translation": "穿过最多{n}个连续实体障碍，抵达另一侧首个空格；每穿过一格，核心完整性承受相当于最大值1%的伤害。",
+      "components": [
+        "capture {n}: preceding literal prefix at 56e919 assembled with formatted value",
+        "literal 0xbe2318"
+      ],
+      "assembly_lines": [
+        12763
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56e937"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56e9e8",
+      "string_va": "0xbe23c0",
+      "worklist_string": "Warp across any number of open spaces nearly instantly, taking ",
+      "raw_template": "Warp across any number of open spaces nearly instantly, taking {n} damage to core integrity for each space traveled.",
+      "source": "Warp across any number of open spaces nearly instantly, taking {n} damage to core integrity for each space traveled.",
+      "translation": "几乎瞬间跃迁任意数量的空格，每移动一格，核心完整性受到{n}点伤害。",
+      "components": [
+        "literal 0xbe23c0",
+        "capture {n}: formatted value before 56e9e8",
+        "literal 0xbe226c"
+      ],
+      "assembly_lines": [
+        12801
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56e9e8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56ea12",
+      "string_va": "0xbe226c",
+      "worklist_string": " damage to core integrity for each space traveled.",
+      "raw_template": "Warp across any number of open spaces nearly instantly, taking {n} damage to core integrity for each space traveled.",
+      "source": "Warp across any number of open spaces nearly instantly, taking {n} damage to core integrity for each space traveled.",
+      "translation": "几乎瞬间跃迁任意数量的空格，每移动一格，核心完整性受到{n}点伤害。",
+      "components": [
+        "assembled suffix literal 0xbe226c; xref is trailing segment"
+      ],
+      "assembly_lines": [
+        12810
+      ],
+      "calls": [
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56ea12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56eb99",
+      "string_va": "0xbe2400",
+      "worklist_string": " integrity with each discharge.",
+      "raw_template": "Core loses {n}-{n} integrity with each discharge.",
+      "source": "Core loses {n}-{n} integrity with each discharge.",
+      "translation": "每次放电都会使核心损失{n}-{n}点完整性。",
+      "components": [
+        "literal 0xbe2424 'Core loses ', literal '-' 0xbe2420, dynamic captures formatted before 56eb7b; suffix 0xbe2400"
+      ],
+      "assembly_lines": [
+        12895
+      ],
+      "calls": [
+        "0x9ce930",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56eb99"
+      ],
+      "confidence": "unresolved: 9ce930 range concatenation ordering not verified"
+    },
+    {
+      "xref": "0x56ed8b",
+      "string_va": "0xbe2598",
+      "worklist_string": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires ",
+      "raw_template": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires {n} matter. Repeat the process to manually start a timer to detonate the power source after {n} turns.",
+      "source": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires {n} matter. Repeat the process to manually start a timer to detonate the power source after {n} turns.",
+      "translation": "站在能量源上按>或右键点击自身，将其改造成近接地雷；任一敌人移至相邻处时引爆。布设需消耗{n}点物质。再次操作可手动启动计时器，于{n}回合后引爆能量源。",
+      "components": [
+        "literal 0xbe2598",
+        "capture {n}: integer-to-string before 56ed8b",
+        "literal 0xbe2500",
+        "capture {n}: integer-to-string before 56edb5",
+        "literal turns 0xbe2474"
+      ],
+      "assembly_lines": [
+        13002
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56ed8b"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56edb5",
+      "string_va": "0xbe2500",
+      "worklist_string": " matter. Repeat the process to manually start a timer to detonate the power source after ",
+      "raw_template": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires {n} matter. Repeat the process to manually start a timer to detonate the power source after {n} turns.",
+      "source": "Stand on a power source and use > or right-click on self to convert it into a proximity mine that detonates when any enemy moves adjacent to it. Rigging requires {n} matter. Repeat the process to manually start a timer to detonate the power source after {n} turns.",
+      "translation": "站在能量源上按>或右键点击自身，将其改造成近接地雷；任一敌人移至相邻处时引爆。布设需消耗{n}点物质。再次操作可手动启动计时器，于{n}回合后引爆能量源。",
+      "components": [
+        "continuation literal 0xbe2500; second capture {n} from preceding formatter; following literal 0xbe2474 ' turns.'"
+      ],
+      "assembly_lines": [
+        13011
+      ],
+      "calls": [
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56edb5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56eef7",
+      "string_va": "0xbe2660",
+      "worklist_string": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires ",
+      "raw_template": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires {n} matter.",
+      "source": "While active, move into explosive machines to rig them to detonate whenever any 0b10 combat robot passes. Rigging requires {n} matter.",
+      "translation": "启用时，移入爆炸机器即可布设，使任意0b10战斗机器人经过时引爆。布设需消耗{n}点物质。",
+      "components": [
+        "literal 0xbe2660",
+        "capture {n}: integer-to-string before 56eef7",
+        "literal 0xbe247c"
+      ],
+      "assembly_lines": [
+        13081
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56eef7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56efee",
+      "string_va": "0xbe29d0",
+      "worklist_string": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a ",
+      "raw_template": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a {n}-turn action, unaffected by any melee attack time modifiers. Higher-rated targets are harder to assimilate, and the conversion takes longer, but always at least {n} turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, {n} regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, {n} is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "source": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a {n}-turn action, unaffected by any melee attack time modifiers. Higher-rated targets are harder to assimilate, and the conversion takes longer, but always at least {n} turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, {n} regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, {n} is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "translation": "启用时，移入相邻机器人即可同化并将其转化为博格形态。启动需耗时{n}回合，不受近战攻击时间修正影响。目标等级越高越难同化，转化耗时也越长，但至少需要{n}回合。同化的物质消耗会随博格盟友数量大幅增加。博格盟友的核心与部件再生速度也会随数量提升。同理，{n}也会依此原理随时间自我再生。失去一名博格盟友会对自身核心造成伤害，数值取决于机器人等级。若剩余核心完整性不足，则改为摧毁{n}。移除或以其他方式失去此部件后，所有博格盟友将形成各自的集体。",
+      "components": [
+        "literal 0xbe29d0",
+        "capture {n} preceding 56efee",
+        "literal 0xbe2910",
+        "capture {n} before 56f05e (minimum conversion turns)",
+        "literal 0xbe2838",
+        "dynamic Borg component name returned through calls around 56f0b6-56f0c5",
+        "literal 0xbe2768",
+        "dynamic component name",
+        "literal 0xbe26e8"
+      ],
+      "assembly_lines": [
+        13135
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x56efee"
+      ],
+      "confidence": "unresolved: multiple 9ce930/9ceb60 boundaries and dynamic Borg component identity are not proven"
+    },
+    {
+      "xref": "0x56f07c",
+      "string_va": "0xbe2838",
+      "worklist_string": " turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, ",
+      "raw_template": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a {n}-turn action, unaffected by any melee attack time modifiers. Higher-rated targets are harder to assimilate, and the conversion takes longer, but always at least {n} turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, {n} regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, {n} is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "source": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a {n}-turn action, unaffected by any melee attack time modifiers. Higher-rated targets are harder to assimilate, and the conversion takes longer, but always at least {n} turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, {n} regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, {n} is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "translation": "启用时，移入相邻机器人即可同化并将其转化为博格形态。启动需耗时{n}回合，不受近战攻击时间修正影响。目标等级越高越难同化，转化耗时也越长，但至少需要{n}回合。同化的物质消耗会随博格盟友数量大幅增加。博格盟友的核心与部件再生速度也会随数量提升。同理，{n}也会依此原理随时间自我再生。失去一名博格盟友会对自身核心造成伤害，数值取决于机器人等级。若剩余核心完整性不足，则改为摧毁{n}。移除或以其他方式失去此部件后，所有博格盟友将形成各自的集体。",
+      "components": [
+        "literal 0xbe2838 introduces continuation",
+        "dynamic captures/components same as 0x56efee"
+      ],
+      "assembly_lines": [
+        13167
+      ],
+      "calls": [
+        "0x9ce930",
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x56f07c"
+      ],
+      "confidence": "unresolved: see combined Borg description; helper and dynamic parts unidentified"
+    },
+    {
+      "xref": "0x56f0e3",
+      "string_va": "0xbe2768",
+      "worklist_string": " regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, ",
+      "raw_template": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a {n}-turn action, unaffected by any melee attack time modifiers. Higher-rated targets are harder to assimilate, and the conversion takes longer, but always at least {n} turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, {n} regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, {n} is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "source": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a {n}-turn action, unaffected by any melee attack time modifiers. Higher-rated targets are harder to assimilate, and the conversion takes longer, but always at least {n} turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, {n} regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, {n} is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "translation": "启用时，移入相邻机器人即可同化并将其转化为博格形态。启动需耗时{n}回合，不受近战攻击时间修正影响。目标等级越高越难同化，转化耗时也越长，但至少需要{n}回合。同化的物质消耗会随博格盟友数量大幅增加。博格盟友的核心与部件再生速度也会随数量提升。同理，{n}也会依此原理随时间自我再生。失去一名博格盟友会对自身核心造成伤害，数值取决于机器人等级。若剩余核心完整性不足，则改为摧毁{n}。移除或以其他方式失去此部件后，所有博格盟友将形成各自的集体。",
+      "components": [
+        "literal 0xbe2768, dynamic component identity captured from 9ceb60 result"
+      ],
+      "assembly_lines": [
+        13191
+      ],
+      "calls": [
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x56f0e3"
+      ],
+      "confidence": "unresolved: 9ceb60 component insertion meaning unknown"
+    },
+    {
+      "xref": "0x56f14a",
+      "string_va": "0xbe26e8",
+      "worklist_string": " is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "raw_template": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a {n}-turn action, unaffected by any melee attack time modifiers. Higher-rated targets are harder to assimilate, and the conversion takes longer, but always at least {n} turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, {n} regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, {n} is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "source": "While active, move into adjacent robots to assimilate and convert them to Borg form. Starting the process is a {n}-turn action, unaffected by any melee attack time modifiers. Higher-rated targets are harder to assimilate, and the conversion takes longer, but always at least {n} turns. The matter cost to assimilate increases significantly with the current number of Borg allies. Borg regenerate both core and parts at a rate that also increases with the number of Borg allies. Similarly, {n} regenerates itself over time via the same principle. Losing a Borg ally causes core damage to self, the amount dependent on robot tier. If insufficient remaining core, {n} is destroyed instead. Removing or otherwise losing this part causes all Borg allies to form their own collective.",
+      "translation": "启用时，移入相邻机器人即可同化并将其转化为博格形态。启动需耗时{n}回合，不受近战攻击时间修正影响。目标等级越高越难同化，转化耗时也越长，但至少需要{n}回合。同化的物质消耗会随博格盟友数量大幅增加。博格盟友的核心与部件再生速度也会随数量提升。同理，{n}也会依此原理随时间自我再生。失去一名博格盟友会对自身核心造成伤害，数值取决于机器人等级。若剩余核心完整性不足，则改为摧毁{n}。移除或以其他方式失去此部件后，所有博格盟友将形成各自的集体。",
+      "components": [
+        "literal 0xbe26e8 is suffix after second dynamic component capture"
+      ],
+      "assembly_lines": [
+        13215
+      ],
+      "calls": [
+        "0x9ce8f0",
+        "0x9ceb60"
+      ],
+      "covers_xrefs": [
+        "0x56f14a"
+      ],
+      "confidence": "unresolved: 9ceb60 component insertion meaning unknown"
+    },
+    {
+      "xref": "0x56f2e8",
+      "string_va": "0xbe2814",
+      "worklist_string": " nearby objects to attack it. ",
+      "raw_template": "On hitting a robot, draws up to {n} nearby objects to attack it. {n}% chance to instead pull target to self if path is clear, then immediately allowed to act again. Also a separate {n}% chance to instantly crush targets of medium size and below which have no more than 50 remaining core integrity.",
+      "source": "On hitting a robot, draws up to {n} nearby objects to attack it. {n}% chance to instead pull target to self if path is clear, then immediately allowed to act again. Also a separate {n}% chance to instantly crush targets of medium size and below which have no more than 50 remaining core integrity.",
+      "translation": "击中机器人时，最多牵引{n}个附近物体攻击目标。若路径畅通，有{n}%几率改为将目标拉至自身面前，并立即获得一次行动机会；另有{n}%几率直接压碎中型及以下、核心完整性不高于50的目标。",
+      "components": [
+        "literal preceding 0xbe263c",
+        "capture {n} before 56f2ca",
+        "literal 0xbe2814",
+        "further captures and chance strings in 9ce930 sequence; exact component association pending"
+      ],
+      "assembly_lines": [
+        13304
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930"
+      ],
+      "covers_xrefs": [
+        "0x56f2e8"
+      ],
+      "confidence": "unresolved: 9ce930 composes percent/range captures and suffix"
+    },
+    {
+      "xref": "0x56f740",
+      "string_va": "0xbe2eb4",
+      "worklist_string": "When attached, gives access to additional temporary ",
+      "raw_template": "When attached, gives access to additional temporary {n} slots: {n}slot: {n}, {n} x{n}. Temporary slots disappear if this part is removed, or if their contents are removed. Under some circumstances, it is normal for temporary slots to take an extra moment to fully disappear. Large parts may not occupy temporary slots.",
+      "source": "When attached, gives access to additional temporary {n} slots: {n}slot: {n}, {n} x{n}. Temporary slots disappear if this part is removed, or if their contents are removed. Under some circumstances, it is normal for temporary slots to take an extra moment to fully disappear. Large parts may not occupy temporary slots.",
+      "translation": "装上后可额外使用临时{n}槽位：{n}槽位：{n}，{n}×{n}。移除此部件或移除槽内物品后，临时槽位会消失。有时临时槽位完全消失会稍有延迟。大型部件无法占用临时槽位。",
+      "components": [
+        "literal 0xbe2eb4",
+        "loop-generated slot count and slot names, 9b0bd0 calls at 56f781/56f7ee; list cardinality and values dynamic",
+        "literal 0xbe2834 ' x' and 0xbe290c '.'",
+        "0xbe2f08 final prose"
+      ],
+      "assembly_lines": [
+        13548
+      ],
+      "calls": [
+        "0x9b0b70",
+        "0x9b0bd0",
+        "0x9ceaa0",
+        "0x9ce930",
+        "0x9b0bb0"
+      ],
+      "covers_xrefs": [
+        "0x56f740"
+      ],
+      "confidence": "unresolved: slot list is runtime-generated; helper 9ce930 and enumeration not resolved"
+    },
+    {
+      "xref": "0x56f981",
+      "string_va": "0xbe3088",
+      "worklist_string": "If active while moving over free matter, repairs itself at a cost of ",
+      "raw_template": "If active while moving over free matter, repairs itself at a cost of {n} matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+      "source": "If active while moving over free matter, repairs itself at a cost of {n} matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+      "translation": "启用时，经过可拾取物质会消耗{n}点物质恢复1点完整性。若所有者的物质储量未满，只会消耗至多一半可用物质。",
+      "components": [
+        "literal 0xbe3088",
+        "capture {n}: 405350 formatted value before 56f981",
+        "literal 0xbe3000"
+      ],
+      "assembly_lines": [
+        13673
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x405350"
+      ],
+      "covers_xrefs": [
+        "0x56f981"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56f9ab",
+      "string_va": "0xbe3000",
+      "worklist_string": " matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+      "raw_template": "If active while moving over free matter, repairs itself at a cost of {n} matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+      "source": "If active while moving over free matter, repairs itself at a cost of {n} matter per 1 integrity. Will only consume up to half available matter if owner's matter stores not currently full.",
+      "translation": "启用时，经过可拾取物质会消耗{n}点物质恢复1点完整性。若所有者的物质储量未满，只会消耗至多一半可用物质。",
+      "components": [
+        "suffix literal 0xbe3000"
+      ],
+      "assembly_lines": [
+        13682
+      ],
+      "calls": [
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56f9ab"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56fac5",
+      "string_va": "0xbe30d0",
+      "worklist_string": " momentum. Energy upkeep: 8.",
+      "raw_template": "Requires at least {n} momentum. Energy upkeep: 8.",
+      "source": "Requires at least {n} momentum. Energy upkeep: 8.",
+      "translation": "至少需要{n}动量。能量维护消耗：8。",
+      "components": [
+        "literal 0xbe29bc",
+        "capture {n} formatted before 56fa86",
+        "literal 0xbe30d0"
+      ],
+      "assembly_lines": [
+        13739
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56fac5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56fcd1",
+      "string_va": "0xbe3198",
+      "worklist_string": "While active and charged, move to teleport in a general direction to an approximate distance of ",
+      "raw_template": "While active and charged, move to teleport in a general direction to an approximate distance of {n} from current position. May not arrive at destination entirely in one piece.",
+      "source": "While active and charged, move to teleport in a general direction to an approximate distance of {n} from current position. May not arrive at destination entirely in one piece.",
+      "translation": "启用且充能时，移动即可朝大致方向传送约{n}格。抵达时可能无法全身而退。",
+      "components": [
+        "literal 0xbe3198",
+        "capture {n} formatted immediately before 56fcd1",
+        "literal 0xbe3148"
+      ],
+      "assembly_lines": [
+        13841
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56fcd1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56fd0f",
+      "string_va": "0xbe3148",
+      "worklist_string": " from current position. May not arrive at destination entirely in one piece.",
+      "raw_template": "While active and charged, move to teleport in a general direction to an approximate distance of {n} from current position. May not arrive at destination entirely in one piece.",
+      "source": "While active and charged, move to teleport in a general direction to an approximate distance of {n} from current position. May not arrive at destination entirely in one piece.",
+      "translation": "启用且充能时，移动即可朝大致方向传送约{n}格。抵达时可能无法全身而退。",
+      "components": [
+        "suffix literal 0xbe3148"
+      ],
+      "assembly_lines": [
+        13853
+      ],
+      "calls": [
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56fd0f"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56fdb8",
+      "string_va": "0xbe3268",
+      "worklist_string": "While active, move to teleport in a general direction to an approximate distance of ",
+      "raw_template": "While active, move to teleport in a general direction to an approximate distance of {n} from current position. Will not arrive at destination entirely in one piece.\n <consumed>",
+      "source": "While active, move to teleport in a general direction to an approximate distance of {n} from current position. Will not arrive at destination entirely in one piece. <consumed>",
+      "translation": "启用时，移动即可朝大致方向传送约{n}格。抵达时必然无法全身而退。\n <consumed>",
+      "components": [
+        "literal 0xbe3268",
+        "capture {n} formatted before 56fdb8",
+        "literal 0xbe3208"
+      ],
+      "assembly_lines": [
+        13889
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56fdb8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56fdf7",
+      "string_va": "0xbe3208",
+      "worklist_string": " from current position. Will not arrive at destination entirely in one piece.\n <consumed>",
+      "raw_template": "While active, move to teleport in a general direction to an approximate distance of {n} from current position. Will not arrive at destination entirely in one piece.\n <consumed>",
+      "source": "While active, move to teleport in a general direction to an approximate distance of {n} from current position. Will not arrive at destination entirely in one piece. <consumed>",
+      "translation": "启用时，移动即可朝大致方向传送约{n}格。抵达时必然无法全身而退。\n <consumed>",
+      "components": [
+        "suffix literal 0xbe3208"
+      ],
+      "assembly_lines": [
+        13901
+      ],
+      "calls": [
+        "0x9ce8f0"
+      ],
+      "covers_xrefs": [
+        "0x56fdf7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "xref": "0x56ffd1",
+      "string_va": "0xbe33e8",
+      "worklist_string": "While active, intermittently and automatically attempts to teleport user a distance of approximately ",
+      "raw_template": "While active, intermittently and automatically attempts to teleport user a distance of approximately {n}-{n}, where direction is influenced by relative position across short but random intervals in time. Any pursuers at the time lose tracking on the user, but subspace disturbance upon arriving at destination alerts nearby robots to investigate. If inactive while attached, loses 1 integrity per turn.",
+      "source": "While active, intermittently and automatically attempts to teleport user a distance of approximately {n}-{n}, where direction is influenced by relative position across short but random intervals in time. Any pursuers at the time lose tracking on the user, but subspace disturbance upon arriving at destination alerts nearby robots to investigate. If inactive while attached, loses 1 integrity per turn.",
+      "translation": "启用时，会间歇性自动尝试将使用者传送约{n}-{n}格；传送方向受短暂且随机间隔内的相对位置影响。追踪者会丢失目标，但抵达时的亚空间扰动会引来附近机器人调查。装上但未启用时，每回合损失1点完整性。",
+      "components": [
+        "literal 0xbe33e8",
+        "two formatted captures before 56ffd1",
+        "literal '-' 0xbe2b3c",
+        "literal 0xbe32c0 suffix",
+        "9ce930 joins range before suffix"
+      ],
+      "assembly_lines": [
+        13990
+      ],
+      "calls": [
+        "0x9ce7b0",
+        "0x9ce8f0",
+        "0x9ce930"
+      ],
+      "covers_xrefs": [
+        "0x56ffd1"
+      ],
+      "confidence": "unresolved: 9ce930 range concatenation argument order not proven"
+    }
+  ]
+}

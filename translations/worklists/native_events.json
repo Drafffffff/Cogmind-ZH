@@ -1,0 +1,13 @@
+[
+  "ALERT: Derelict incursion at {*}, dispatching Demolisher response squad.",
+  "Established visual feed link with {*}",
+  "ANNOUNCEMENT: Warlord currently on {*} approach. All units hit designated targets.",
+  "ANNOUNCEMENT: Unaware assault squad dispatched in {*} quadrant.",
+  "SPECIAL: For the next {n} turns your loot boxes might contain... {*}!",
+  "Unlike other parts in RPGLIKE mode that transfer {n}% of incoming damage to your core, all Armor type parts instead transfer only {n}%.",
+  "Unlike other parts in BattleRoyale mode that transfer {n}% of incoming damage to your core, all Armor type parts instead transfer only {n}%.",
+  "ALERT: Suspicious activity reported at {*}. Dispatching Cutter search squad to Garrison.",
+  "Re-established visual feed link, T-{n} until cutoff.",
+  "Established visual feed link, T-{n} until cutoff.",
+  "If only there was a way to {*}."
+]

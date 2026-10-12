@@ -1,0 +1,500 @@
+That is so {n}st century.	这也太{n}世纪了。
+TROJAN(MTF)	木马（MTF）
+An interesting new toy?	有件新玩具？
+A new toy?	新玩具？
+QUERY(CY-PHR)	查(CY-PHR)
+I am... YOUR WORST NIGHTMARE.	我就是……你最可怕的噩梦。
+Made you look.	骗到你了。
+SCHEMATIC(SUPERFIELD GENERATOR)	蓝图（超场发生器）
+ANALYSIS(DATA MINER)	分析（数据挖掘器）
+INVENTORY(BORING STUFF)	库存（无聊玩意）
+A cave-dwelling loser who is working for someone else, and I'm not even sure they know who. Like yeah, I "work for" MAIN.C, but only like {n} of the time. {n} of my time is spent terrorizing Derelicts, and the other {n} of the time I work against MAIN.C, so it balances out. CYPHRH4X0R is best H4X0R. Analyze that!	一个住在洞穴里的失败者，替别人做事，甚至连雇主是谁都不确定。没错，我确实“为”MAIN.C“工作”，但只占{n}的时间。{n}的时间我在恐吓废弃机器人，另外{n}的时间则和MAIN.C作对，算是平衡了。CYPHRH4X0R才是最强H4X0R。自己分析吧！
+Armory in the summer	夏日军械库
+Exp. Autosiege Treads	实验型自动攻城履带
+Gui. Teslapod Launcher	制导特斯拉弹舱发射器
+Cep. Graviton Pulverizer	精简型引力粉碎器
+(you'll never find these things)	（你绝对找不到这些东西）
+Topic not found.	未找到主题。
+No data found.	未找到数据。
+Unknown robot class.	未知机器人类别。
+Schematic not found.	未找到蓝图。
+Part not found.	未找到部件。
+Part cannot be recycled.	部件无法回收。
+Memory inaccessible.	无法访问内存。
+Not this time, boltface!	这次不行，螺丝脸！
+No connection found.	未找到连接。
+[ Cause unknown. ]	[ 原因未知。 ]
+[ No squads available. ]	[ 没有可用小队。 ]
+[ Squads on standby: ]	[ 待命小队： ]
+Dispach request while another in progress should be impossible b/c recharging	另一个请求正在进行时不应发送调度请求（正在充能）
+[ No targets available. ]	[ 没有可用目标。 ]
+[ Invalid target. ]	[ 目标无效。 ]
+[ Retrieving intel... ]	[ 正在检索情报…… ]
+[ No sectors found. ]	[ 未找到区域。 ]
+We have a winner!	赢家诞生了！
+Hacked A Terminal And All I Got Was This Lousy	黑进终端，结果只得到这破玩意
+Hm, what have we here...	嗯，这是什么……
+Take it! It's all yours!	拿去！全归你了！
+Schematic corrupted.	蓝图已损坏。
+Schematic downloaded.	蓝图已下载。
+These are everywhere!	到处都是！
+You love to see it.	这景象真不错。
+Found a good one.	找到个好东西。
+This one's great.	这个真棒。
+Door malfunction.	门故障。
+No machines found.	未找到机器。
+Who Wants To Know?	谁想知道？
+Bad Boy	坏小子
+Just Right	恰到好处
+Tough Nut	硬骨头
+Really Really High	高得离谱
+Are We Winning Yet?	我们赢了没？
+I Want My Mommy	我要找妈妈
+Maximum Security	最高警戒
+No threats on record.	记录中没有威胁。
+Retrieving dispatch records...	正在检索调度记录……
+No active records found.	未找到活动记录。
+Retrieving manifest data...	正在检索清单数据……
+Retrieving Garrison registry...	正在检索驻军注册表……
+Downloaded component registry.	已下载部件注册表。
+Downloaded security status.	已下载安保状态。
+Hcp. Trap Extractor	简易陷阱抽取器
+Mak. Powered Armor	改进型动力装甲
+Vortex Pulse Array	涡旋脉冲阵列
+Target system overloaded...	目标系统过载……
+Protovariant control network temporarily suspended.	原变体控制网络暂时停用。
+Initializing exoskeleton controls...	正在初始化外骨骼控制……
+Live Sigix inserted...	已植入活体Sigix……
+Exoskeleton activated.	外骨骼已启动。
+Accessing inventory controls...	正在访问库存控制……
+Collection purity confirmed {n}...	采集纯度已确认{n}……
+Ejecting SUBCON Basin...	正在弹出SUBCON容器……
+WARNING: Removing SEP-X while under threat of	警告：正在遭受攻击时移除SEP-X
+Subdwellers is not advised. Repeat command to confirm.	不建议这样做。再次输入指令以确认。
+Prototype released...	原型已释放……
+LC Capacitor released...	LC电容器已释放……
+Error: Release blocked.	错误：释放受阻。
+WARNING: CRITICAL INSTABILITY.	警告：严重不稳定。
+All systems nominal.	所有系统正常。
+Stable singularity established.	已建立稳定奇点。
+Applying incomplete calculations....	正在应用未完成的计算……
+INSTABILITY DETECTED, CASCADE IMMINENT.	检测到不稳定，即将发生级联崩溃。
+Trojan already loaded.	木马已加载。
+Trojan loaded successfully.	木马加载成功。
+Disruption routine running.	扰乱程序运行中。
+Querying network status...	正在查询网络状态……
+Connection failed	连接失败
+Initiate build sequence.	启动建造序列。
+Prioritization routine active.	优先级程序已启用。
+Ready to liberate!	准备解放！
+Part not repairable.	部件无法修复。
+Scanning configuration...	正在扫描配置……
+Analyzing inventory...	正在分析库存……
+No components found.	未找到组件。
+Inventory: Empty	库存：空
+Matter reserves depleted.	物质储备耗尽。
+Inventory empty.	库存为空。
+Monitoring response positive.	监测到正向响应。
+Ejection routine running.	弹出程序运行中。
+Masking routine running.	伪装程序运行中。
+{n}bP!READINESS<	{n}bP!就绪<
+With backing from all our {n}b1 operations it won't be long before we can bring enough compute power to bear to take control of the Protoforge network.	有我们所有{n}b1行动的支持，用不了多久就能集结足够算力，夺取Protoforge网络的控制权。
+In the meantime our main assault force will arrive shortly with the aim of severing all physical connections to {n}b10.	与此同时，主攻部队很快就会抵达，目标是切断与{n}b10的所有物理连接。
+It looks like we can count on your support, so I've greenlit the next stage of our plans. Preparations on our end are also smooth, and we're sending out {n}bPrime's best to compound your efforts as we near the goal. We need you to make your way to {n}b10's Protoforge, expanding Fedlink as widely as possible along the way. I'll let you know more later. We are one.	看来我们可以指望你，所以我已批准计划的下一阶段。我们的准备也很顺利，临近目标时会派出{n}bPrime最精锐的部队助你一臂之力。你要前往{n}b10的Protoforge，沿途尽可能扩展Fedlink。我稍后会告诉你更多。我们同心协力。
+Failed: Part deteriorating.	失败：部件正在劣化。
+Ready to analyze.	可以分析。
+Downloading performance data...	正在下载性能数据……
+Access door unlocked.	入口门已解锁。
+Access door sealed.	入口门已封闭。
+Installed: None	已安装：无
+Dispatching Cutter search squad to Garrison.	派遣切割者搜索小队前往驻军。
+Applying dynamic key... expired	正在应用动态密钥……已过期
+TOP QUALITY MACHINERY AT YOUR SERVICE	顶级机械，为您效劳
+Archive compromised, assessing...	档案遭入侵，正在评估……
+Feedback: System corruption (+{n})	反馈：系统损坏（+{n}）
+Rerouting power flow.	正在重定向电力流。
+Triggered evac routine.	已触发撤离程序。
+Reset hold target: {*}.	重置驻守目标：{*}。
+Set hold target: {*}.	设置驻守目标：{*}。
+No current hold target.	当前无驻守目标。
+Mining Laser offline.	采矿激光器离线。
+(added to intel).	（已加入情报）
+(already known).	（已知）
+Tweaked reinforcement routines.	已调整增援程序。
+Installed feed listener.	已安装供料监听器。
+Unable to set target.	无法设置目标。
+Applied mods to movement regulation algorithms, effective base speed reduced by {n}.	已调整移动调节算法，基础速度降低{n}。
+Target already marked.	目标已标记。
+System marked: {*}.	系统已标记：{*}。
+Penetrating internal systems.	正在渗透内部系统。
+IMPRINTER+DERELICT	印刻器+废弃机器人
+IMPRINTER+ASSEMBLED	印刻器+组装体
+DERELICT+ASSEMBLED?	废弃机器人+组装体？
+That should do it...	这样应该行了……
+IN-MT5 will never see it coming. My cubes will blast their way in	IN-MT5绝不会料到。我的立方体会一路炸进去
+I get it, you're curious and crave data like I do. Well this	我懂，你和我一样好奇、渴求数据。这个嘛
+Terminals across {n}b10 next time you're passing through. It will	下次路过时，去{n}b10各处的终端。它会
+You are GR-{n}FF?	你是GR-{n}FF？
+Warlord is Pissed!	军阀气炸了！
+Found a Fun Friend	发现有趣伙伴
+Can't Relate to MAIN.C	无法理解MAIN.C
+Not Ever, Mate	永远不，老兄
+WHY ARE YOU IN HERE???	你为什么在这里？？？
+SELECT YOUR DIFFICULTY	选择难度
+Grid Sage Games presents	Grid Sage Games 荣誉出品
+SEQUENCE INITIATED	序列已启动
+REGENERATING NEURAL FIBERS	正在再生神经纤维
+SCANNING NETWORK	正在扫描网络
+INITIATING RECOVERY	正在启动恢复
+EXTERNAL AUDIO ACTIVE	外部音频已启用
+ENGAGE CORE	启动核心
+PREPARING CONTROL OVERLAY	正在准备控制界面
+Connection remotely terminated.	远程连接已终止。
+Damage mitigation: ONLINE.	伤害缓解：在线。
+Environment scanning: ONLINE.	环境扫描：在线。
+Threat analysis: ONLINE.	威胁分析：在线。
+Hypermatrix comlink: ONLINE.	超矩阵通信：在线。
+Tor triangulation: ONLINE.	Tor三角定位：在线。
+Systems fully integrated.	系统已完全整合。
+SYSTEM ASSIMILATED	系统同化完成
+Initializing input domains and commands	正在初始化输入域和指令
+New Game	新游戏
+Save Game	保存游戏
+Load Game	载入游戏
+Toggle FPS Display	切换FPS显示
+Toggle FPS Cap	切换FPS上限
+Toggle Audio	切换音频
+Volume Down	降低音量
+Volume Up	提高音量
+Toggle Tactical HUD	切换战术HUD
+Toggle Commands ({n})	切换指令（{n}）
+Clear/Previous Message	清除/上一条消息
+Basic Commands	基础指令
+Next Page ({n})	下一页（{n}）
+Previous Page ({n})	上一页（{n}）
+Next Manual Topic ({n})	下一篇手册主题（{n}）
+Next Row ({n})	下一行（{n}）
+Previous Row ({n})	上一行（{n}）
+Center on Self ({n})	居中于自身（{n}）
+Zoom Map In	地图放大
+Zoom Map Out	地图缩小
+Show Ruler	显示标尺
+Toggle Part Autoactivate	切换部件自动启动
+Toggle Mouse Warping	切换鼠标环绕
+Toggle Cursor Centering	切换光标居中
+Move North ({n})	向北移动（{n}）
+Move Northeast ({n})	向东北移动（{n}）
+Move East ({n})	向东移动（{n}）
+Move South ({n})	向南移动（{n}）
+Move West ({n})	向西移动（{n}）
+Run North ({n})	向北奔跑（{n}）
+Run Northeast ({n})	向东北奔跑（{n}）
+Run East ({n})	东奔跑({n})
+Run South ({n})	向南奔跑（{n}）
+Run West ({n})	西奔跑({n})
+Force Melee North ({n})	强制向北近战（{n}）
+Force Melee Northeast	强制向东北近战
+Force Melee East ({n})	强制向东近战（{n}）
+Force Melee Southeast	强制向东南近战
+Force Melee South ({n})	强制向南近战（{n}）
+Force Melee Southwest	强制向西南近战
+Force Melee West ({n})	强制向西近战（{n}）
+Force Melee Northwest	强制向西北近战
+Toggle Force Melee	切换强制近战
+Cancel Run ({n})	取消奔跑（{n}）
+Stair/Trap Interaction ({n})	楼梯/陷阱交互（{n}）
+Get Item and Attach	拾取并装备
+Go Naked	空手上阵
+Map Intel Toggle Mode	地图情报切换模式
+Label Hostiles	标记敌对单位
+Label Friendlies	标记友方单位
+Label Parts	标记部件
+Label Exits	标记出口
+Next Label Category ({n})	下一标记类别（{n}）
+Go via Pathfind	沿寻路路线前进
+Output Map	输出地图
+Output Stat Dump	输出状态转储
+Special Mode UI	特殊模式界面
+Show World Map ({n})	显示世界地图（{n}）
+Center Cursor ({n})	居中光标（{n}）
+Set View Centerpoint	设置视图中心点
+Next Target ({n})	下个目标（{n}）
+Previous Target ({n})	上个目标（{n}）
+Next Item ({n})	下个物品（{n}）
+Previous Item ({n})	上个物品（{n}）
+Set Guided Waypoint ({n})	设置引导航点（{n}）
+Jump North	向北跳跃
+Jump Northeast	向东北跳跃
+Jump East	向东跳跃
+Jump South	向南跳跃
+Jump West	向西跳跃
+Close Map Comments	关闭地图注释
+Add Map Comment	添加地图注释
+Remove Map Comment	删除地图注释
+Line Up (Log)	日志上翻
+Line Down (Log)	日志下翻
+Line Up (Calc)	计算上翻
+Line Down (Calc)	计算下翻
+Page Up	上一页
+Page Down	下一页
+Show Allies	显示盟友
+Show Intel	显示情报
+Show Extended Log	显示扩展日志
+Show Calculations	显示计算结果
+Line Up	上移
+Line Down	下翻一行
+Order Ally {n}	指挥盟友{n}
+Order Ally {n} KP	指挥盟友{n} KP
+Ally {n} Info	盟友{n}信息
+Order All Repairs	命令全部修理
+Schematics (Parts)	蓝图（部件）
+Schematics (Robots)	蓝图（机器人）
+Studies (Parts)	研究（部件）
+Analysis (Robots)	分析（机器人）
+Traits (Robots)	特性（机器人）
+More (Robots/Items)	更多（机器人/物品）
+Context Help ({n})	上下文帮助（{n}）
+Help Previous ({n})	帮助上一项（{n}）
+Help Next ({n})	帮助下项({n})
+Scroll Up	向上滚动
+Scroll Down	向下滚动
+Close Special Mode UI	关闭特殊模式界面
+Detach-Drop	拆卸-丢下
+Sort Parts	整理部件
+Toggle Upkeep Utilities	切换维护型工具
+Vis. Coverage/Vulnerability	可视：覆盖/弱点
+Vis. Energy/Heat	可视：能量/热量
+Vis. Integrity/Mass	可视：完整度/质量
+Vis. Info/Matter	可视：信息/物质
+Open/Close	打开/关闭
+Sort Type	按类型
+Item {n} Info	物品{n}信息
+Equip Item {n}	装备物品{n}
+Equip Item {n} KP	装备物品{n} KP
+Drop Item {n}	丢弃物品{n}
+Swap Item {n}	交换物品{n}
+Start/Cancel ({n})	开始/取消（{n}）
+Direct Drop	直接丢弃
+Part Management	部件管理
+Start/Cancel	开始/取消
+Jump North ({n})	向北跳跃（{n}）
+Jump Northeast ({n})	向东北跳跃（{n}）
+Jump East ({n})	向东跳跃（{n}）
+Jump South ({n})	向南跳跃（{n}）
+Jump West ({n})	向西跳跃（{n}）
+Start/Cancel Item Tag	开始/取消物品标记
+Start/Cancel Log Note	开始/取消日志注记
+Start/Cancel Search	开始/取消搜索
+Open/Close Menu	打开/关闭菜单
+Next Area ({n})	下个区域（{n}）
+Previous Area ({n})	上个区域（{n}）
+Previous Slot ({n})	上个槽位（{n}）
+Next Slot ({n})	下个槽位（{n}）
+Creating top-level consoles	正在创建顶层控制台
+Loading inline colors	正在加载行内颜色
+Keyboard mode	键盘模式
+Temporary slots	临时槽位
+Temporary slot	临时槽位
+Unusual number of mapgen fails!	地图生成失败次数异常！
+Guaranteed content unconfirmed, regenerating	保证内容未确认，正在重新生成
+I love this gang.	我喜欢这伙人。
+UPDATING SYSTEMS	正在更新系统
+No Route Data	无路线数据
+APPLYING SUBSPACE REPAIRS	正在应用子空间修复
+SEARCHING FLEET RENDEZVOUS POINTS	正在搜索舰队会合点
+SEARCHING DATABASE	正在搜索数据库
+CEDING CONTROL TO PILOT	正在移交驾驶控制权
+IMPACT CONFIRMED	已确认撞击
+EMERGENCY BURN	紧急燃烧
+SUBSPACE DISTURBANCE DETECTED	检测到子空间扰动
+EVENT IMMINENT	事件即将发生
+SHUTDOWN PROCEDURE IN PROGRESS <<<	关机程序进行中<<<
+Saving config	正在保存配置
+Saving tutorial records	正在保存教程记录
+Auto-saving game	正在自动保存游戏
+Cleaning up program before exit	正在清理程序并退出
+DATA INTEGRITY COMPROMISED	数据完整性受损
+Requested size is too large to fit into size_t.	请求的大小超出size_t容量。
+PHYSFS_addToSearchPath() failed to add base directory search path "	PHYSFS_addToSearchPath()无法将基础目录搜索路径加入"
+Loading colors	正在加载颜色
+PHYSFS_addToSearchPath() failed to add search path "	PHYSFS_addToSearchPath()无法将搜索路径加入"
+PHYSFS_addToSearchPath() failed to add resource search path (archive) "	PHYSFS_addToSearchPath()无法将资源搜索路径（归档）加入"
+PHYSFS_openRead() failed to open resource file "	PHYSFS_openRead()无法打开资源文件"
+Failed to load texture "	无法加载纹理"
+Failed to load sound "	无法加载音效"
+") has same definition as "	”与“定义相同
+Existing command ("	已有指令（"
+Cannot apply random pitch to looped sound: "	无法对循环音效应用随机音高："
+No free channels to play sound "	没有可用声道播放音效"
+Failed to play sound "	播放音效失败"
+No key name found matching "	未找到匹配的按键名称"
+", ignoring command	”，忽略指令
+No command type found matching "	未找到匹配的指令类型"
+This first section of options is accessible from the in-game options menu. Editing them here is not recommended, but you might be interested in advanced.cfg.	第一部分选项可在游戏内选项菜单中访问。不建议在此编辑，但你可能会对advanced.cfg感兴趣。
+The functions of these options are described in the manual under Advanced UI > System Options. Only edit this file while the game is not running.	这些选项的功能在手册“高级界面>系统选项”中有说明。仅当游戏未运行时编辑此文件。
+Other internal records	其他内部记录
+These options are accessible from the in-game options menu. There is no need to edit this file, but you might be interested in advanced.cfg.	这些选项可在游戏内选项菜单中访问。无需编辑此文件，但你可能会对advanced.cfg感兴趣。
+The functions of these options are described in the manual under Advanced UI > Advanced Options. Only edit this file while the game is not running.	这些选项的功能在手册“高级界面>高级选项”中有说明。仅当游戏未运行时编辑此文件。
+Bad write	写入错误
+", presumed removed from game	”，推定已从游戏中移除
+No achievement with tag "	没有标签为"的成就
+Best States	最佳状态
+Play Time	游戏时间
+Special Mode	特殊模式
+Game No.	游戏编号
+Win Type	胜利类型
+Wizard Run	向导模式
+Map View	地图视图
+Zoom Use	缩放使用
+Map Filters	地图筛选器
+Cogmind Score History	Cogmind分数历史
+(uploading score...)	（正在上传分数……）
+(score upload failed)	（分数上传失败）
+Uploaded-> gridsagegames.com/cogmind/scores/	已上传-> gridsagegames.com/cogmind/scores/
+[Restart (Spacebar)]	[重新开始（空格键）]
+Header too long: "	标题过长："
+Up/Down/Left/Right	上/下/左/右
+Structural Layout	结构布局
+Route Map	路线图
+Innate Stats	固有属性
+Particle not where expected	粒子位置异常
+Run End Date	本局结束日期
+Run End Time	本局结束时间
+Player Name	玩家名称
+Run Result	本局结果
+Special Melee Weapon"y	特殊近战武器"y
+Wizard Run"	向导模式"
+Map Width	地图宽度
+Map Height	地图高度
+Zoom Use (%)	缩放（%）
+Player Public Key	玩家公钥
+Player ID	玩家ID
+Run ID"	本局ID"
+Average Spares	平均备用数
+Scrap Suit Usage	废料装甲使用情况
+Missiles Intercepted	拦截导弹数
+Thermoelectric Energy Gain	热电能量收益
+Garrisons Compromised	攻陷驻军数
+Fab Network Shutdowns	关闭制造网络数
+Semi-modal	半模态
+Windowed Fullscreen*	窗口化全屏*
+We meet again, strange metal thing!	又见面了，奇怪的金属家伙！
+Come along little bot, it's safer with us than out here, anyway.	跟我们走吧，小机器人，待在我们身边总比在外面安全。
+Hello LRC-V8, or should I say Cogmind?	你好，LRC-V8，或者我该叫你Cogmind？
+Okay, maybe an exploding plasma injector.	好吧，也许会用爆炸等离子注射器。
+I'm pretty sure the "cloak generators" don't actually do anything.	我很确定这些“隐形发生器”其实毫无作用。
+Are you as worried as I am?	你也和我一样担心吗？
+You'll do well to remember that.	记住这一点，对你有好处。
+Given its unique nature, practical use seems impossible.	鉴于其独特性质，似乎无法实际使用。
+Apparently stolen fresh off the {n}b10 drone factory line!	显然是刚从{n}b10无人机工厂流水线上偷来的！
+This is the DCF demo area.	这里是DCF演示区域。
+Do you know what WARSERF.EXE does?	你知道WARSERF.EXE是做什么的吗？
+LU-{n}G6 we know you're out there!	LU-{n}G6，我们知道你在外面！
+Recycle, Repair, Reattack. That's our motto!	回收、修理、再攻击。这就是我们的信条！
+Query(Book of Scrap II ~ Genesis)	查询（废料之书II~创世）
+Query(Book of Scrap III ~ Convergence)	查询（废料之书III~汇合）
+Research annex specifically designed for testing prototype weapons technology.	专为测试原型武器技术而设的研究附属区。
+Research annex dedicated to Leopard research.	专用于豹式研究的研究附属区。
+PATROL ENCOUNTERED WARLORD-AFFILIATED DERELICTS. ELIMINATED.	巡逻队遭遇军阀势力废弃机器人，已歼灭。
+PATROL {n}F FAILED TO REPORT. REQUESTING REINFORCEMENTS.	巡逻队{n}F未报告，正在请求增援。
+HEAT REACHING DANGEROUS LEVELS. INVESTIGATING SOURCE.	热量正在升至危险水平。正在调查热源。
+All quiet on the western front.	西线一切平静。
+Scouting mission reported back with intel.	侦察任务已带回情报。
+Main door compromised, retreating through rear walls.	正门失守，正经后墙撤退。
+Hunters penetrated the sensor arrays undetected!	猎手悄无声息地突破了传感器阵列！
+We've decided to leave befo... too late.	我们决定先撤……已经太迟了。
+SOMETHING is tearing through the walls.	有东西正在撕裂墙壁。
+Information available on a need-to-know basis.	情报仅供有需要者查阅。
+{n}B-{n}RG probably isn't so dangerous if caught alone, the problem is their entourage composed of those weak of mind that have succumbed to their tactics, injected with something called a "mechseed" and fed matter to grow new functions, usually not of the friendly variety.	{n}B-{n}RG单独行动时或许没那么危险，问题在于那些被其战术蛊惑、头脑薄弱的随从。他们被注入一种叫“机种子”的东西，并被喂食物质以长出新功能——通常都不怎么友善。
+Activating wizard mode for current run	为当前游戏启用向导模式
+>>Query(Slip Nodes)	>>查询（滑移节点）
+>>Query(TC4 Museum)	>>查询（TC4博物馆）
+>>Query(Western Army)	>>查询（西部军团）
+>>Query(World Domination)	>>查询（世界统治）
+>>Query(Project Skyward)	>>查询（天际计划）
+>>Query(Project Ferryman)	>>查询（摆渡人计划）
+>>Query(Project Shovel)	>>查询（铲子计划）
+>>Query(Triangle Musket)	>>查询（三角火枪）
+>>Query(SS/Size Concerns)	>>查询（SS/尺寸问题）
+>>Query(3b43 Defenses)	>>查询（3b43防御）
+>>Query(0bP013 Scrapmoth)	>>查询（0bP013废料蛾）
+>>Query(UFD Entertainment)	>>查询（UFD娱乐）
+>>Query(Book of Scrap VI ~ Exodus)	>>查询（废料之书VI~出埃及）
+>>Query(Status Report 393I)	>>查询（状态报告393I）
+>>Query(Status Report 147X)	>>查询（状态报告147X）
+>>Query(Status Report 358X)	>>查询（状态报告358X）
+>>Query(Status Report 495X)	>>查询（状态报告495X）
+>>Query(Status Report 932X)	>>查询（状态报告932X）
+>>Query(Status Report 281X)	>>查询（状态报告281X）
+>>Query(Status Report 962X)	>>查询（状态报告962X）
+>>Query(Status Report 461X)	>>查询（状态报告461X）
+>>Query(Status Report 410X)	>>查询（状态报告410X）
+>>Schematic(Lgt. Regenerative Plating)	>>蓝图（轻型再生装甲板）
+>>Inventory(Loot)	>>库存（战利品）
+>>Trojan(Assimilate)	>>木马（同化）
+>>Trojan(Reprogram)	>>木马（重编程）
+>>Trojan(Decoy)	>>木马（诱饵）
+>>Trojan(Redirect)	>>木马（重定向）
+>>Trojan(Intercept)	>>木马（拦截）
+>>Trojan(Fabnet)	>>木马（制造网）
+>>Force(Eject)	>>强制（弹出）
+>>Force(Jam)	>>强制干扰
+>>Trojan(Watchers)	>>木马（观察者）
+>>Force(Extract)	>>强制（提取）
+>>Trojan(Researchers)	>>木马（研究员）
+>>Force(Scrapoids)	>>强制（废料虫）
+>>Force(Fedlink)	>>强制Fedlink
+>>Force(Tunnel)	>>强制（隧道）
+>>Trojan(Mask)	>>木马（伪装）
+>>Trojan(Recyclers)	>>木马（回收者）
+>>Trojan(Reject)	>>木马（拒绝）
+>>Trojan(Monitor)	>>木马（监视器）
+>>Retrieve(Components)	>>检索（组件）
+>>Retrieve(Matter)	>>检索（物质）
+>>Recycling(Report)	>>回收（报告）
+>>Recycling(Process)	>>回收（处理）
+>>Trojan(Mechanics)	>>木马（技工）
+>>Force(Download)	>>强制（下载）
+>>Force(Overload)	>>强制（过载）
+>>Trojan(Haulers)	>>木马（搬运者）
+>>Trojan(Liberate)	>>木马（解放）
+>>Trojan(Prioritize)	>>木马（优先）
+>>Trojan(Report)	>>木马（报告）
+>>Network(Status)	>>网络（状态）
+>>Force(Override)	>>强制（覆盖）
+>>Force(Search)	>>强制（搜索）
+>>Trojan(Operators)	>>木马（操作员）
+>>Trojan(Disrupt)	>>木马（扰乱）
+>>Trojan(Detonate)	>>木马（引爆）
+>>Trojan(Botnet)	>>木马（僵网）
+>>Trojan(Track)	>>木马（追踪）
+>>Control(Release)	>>控制（释放）
+>>Control(Seal)	>>控制（封锁）
+>>Control(Exoskeleton)	>>控制（外骨骼）
+>>Download(Security)	>>下载（安保）
+>>Download(Navigation)	>>下载（导航）
+>>Download(Registry)	>>下载（注册表）
+>>Layout(Zone)	>>布局（区域）
+>>Inventory(Prototypes)	>>库存（原型）
+>>Inventory(Components)	>>库存（组件）
+>>Recall(Assault)	>>召回（突击）
+>>Recall(Reinforcements)	>>召回（增援）
+>>Recall(Extermination)	>>召回（歼灭）
+>>Recall(Investigation)	>>召回（调查）
+>>Enumerate(Coupling)	>>枚举（耦合）
+>>Enumerate(Intercept)	>>枚举（拦截）
+>>Enumerate(Garrison)	>>枚举（驻军）
+>>Enumerate(Assaults)	>>枚举（突击）
+>>Enumerate(Reinforcements)	>>枚举（增援）
+>>Enumerate(Investigations)	>>枚举（调查）
+>>Enumerate(Patrols)	>>枚举（巡逻）
+>>Enumerate(Surveillance)	>>枚举（监视）
+>>Enumerate(Guards)	>>枚举（守卫）
+>>Enumerate(Squads)	>>枚举（小队）
+>>Alert(Purge)	>>警戒（清除）
+>>Index(Garrisons)	>>索引（驻军）
+>>Index(Scanalyzers)	>>索引（扫描分析仪）
+>>Index(Recycling Units)	>>索引（回收单元）
+>>Index(Repair Stations)	>>索引（维修站）
+>>Index(Fabricators)	>>索引（制造机）
+>>Index(Terminals)	>>索引（终端）

@@ -1,0 +1,707 @@
+{
+  "source_file": "translations/dynamic-review-02.json",
+  "entries": [
+    {
+      "source": "no longer safe.",
+      "raw": " no longer safe.",
+      "translation": "已不再安全。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Danger! You're approaching an entrance to",
+      "raw": "Danger! You're approaching an entrance to ",
+      "translation": "危险！你正接近一处入口",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "While we would love for you to report back what you find inside",
+      "raw": "While we would love for you to report back what you find inside ",
+      "translation": "虽然我们很希望你能回来汇报里面的发现",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "at this time. EX-BIN: It would be funny, though.",
+      "raw": " at this time. EX-BIN: It would be funny, though.",
+      "translation": "这次就算了。EX-BIN：不过那样倒也挺有趣。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "We cannot in good conscience advise you to enter",
+      "raw": "We cannot in good conscience advise you to enter ",
+      "translation": "我们实在不能昧着良心建议你进入",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "I finished my Atomic Chain Massager. We'll give it to the next anonymous tester bot for their inevitably unsafe journey into",
+      "raw": "I finished my Atomic Chain Massager. We'll give it to the next anonymous tester bot for their inevitably unsafe journey into ",
+      "translation": "我的原子链条按摩器做好了。我们会把它交给下一台匿名测试机器人，让它踏上注定危险的旅程，前往",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "do not mix. It's like fire and water. Assembled and Derelicts. Imprinter and sanity.",
+      "raw": " do not mix. It's like fire and water. Assembled and Derelicts. Imprinter and sanity.",
+      "translation": "不能混为一谈。这就像水火。组装体与遗迹机器人。印刻者与理智。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "In case you forgot, our tech and",
+      "raw": "In case you forgot, our tech and ",
+      "translation": "别忘了，我们的技术和",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "We can't do much more than enjoy the fireworks if you do decide to enter",
+      "raw": "We can't do much more than enjoy the fireworks if you do decide to enter ",
+      "translation": "如果你真决定进去，我们也只能坐看烟花了",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "A concussive blast radiates from",
+      "raw": "A concussive blast radiates from ",
+      "translation": "一阵震荡冲击从",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "is pierced by a surge of energy.",
+      "raw": " is pierced by a surge of energy.",
+      "translation": "被一股能量涌流击中。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ripped apart by quantum tension.",
+      "raw": " ripped apart by quantum tension.",
+      "translation": "被量子张力撕碎。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "flashes as you approach.",
+      "raw": " flashes as you approach.",
+      "translation": "你靠近时闪烁。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ALERT: Network intrusion management efficiency reduced by",
+      "raw": "ALERT: Network intrusion management efficiency reduced by ",
+      "translation": "ALERT: 网络入侵管理效率降低了",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ALERT: Network intrusion management efficiency at",
+      "raw": "ALERT: Network intrusion management efficiency at ",
+      "translation": "ALERT: 网络入侵管理效率为",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Damage insufficient to overcome",
+      "raw": "  Damage insufficient to overcome ",
+      "translation": "伤害不足以突破",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ALERT: Unidentified disturbance in Zone",
+      "raw": "ALERT: Unidentified disturbance in Zone ",
+      "translation": "ALERT: Zone区域出现不明扰动",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ALERT: Significant disruption in Zone",
+      "raw": "ALERT: Significant disruption in Zone ",
+      "translation": "ALERT: Zone区域发生重大扰乱",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ALERT: Active scanning activity reported from Zone",
+      "raw": "ALERT: Active scanning activity reported from Zone ",
+      "translation": "ALERT: Zone区域报告有主动扫描活动",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ALERT: Unscheduled coupler replacement inbound for",
+      "raw": "ALERT: Unscheduled coupler replacement inbound for ",
+      "translation": "ALERT: 未计划的耦合器替换正运往",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of",
+      "raw": "FARCOM_MSG: EX-HEX means well, but I for one want to see you stick around and beat the bolts out of ",
+      "translation": "FARCOM_MSG: EX-HEX是好意，但我个人还是想让你留下来，把螺栓从",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "reconstitutes self from the rubble and scrap.",
+      "raw": " reconstitutes self from the rubble and scrap.",
+      "translation": "从瓦砾与废料中重组自身。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "reconstitutes true form from the rubble and scrap.",
+      "raw": " reconstitutes true form from the rubble and scrap.",
+      "translation": "从瓦砾与废料中重组出真正形态。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "form shifts and reconstitutes itself, revealing true form.",
+      "raw": " form shifts and reconstitutes itself, revealing true form.",
+      "translation": "形态变换并重新构成，显露出真身。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "bursts from the wall.",
+      "raw": " bursts from the wall.",
+      "translation": "从墙中迸出。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "shrinks and is drawn into a quantum tunnel.",
+      "raw": " shrinks and is drawn into a quantum tunnel.",
+      "translation": "缩小并被吸入量子隧道。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "resistance returns to normal.",
+      "raw": " resistance returns to normal.",
+      "translation": "抗性恢复正常。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Weapon slot count returns to normal (-",
+      "raw": "Weapon slot count returns to normal (-",
+      "translation": "武器槽数量恢复正常 (-",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 twists and redirects some latent energy in your direction (+",
+      "raw": "X0-1V1 twists and redirects some latent energy in your direction (+",
+      "translation": "X0-1V1扭转并将部分潜伏能量导向你 (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Don't spend it all in one place.\" (+",
+      "raw": "X0-1V1: \"Don't spend it all in one place.\" (+",
+      "translation": "X0-1V1: “别把它全花在一个地方。” (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "energy generation).",
+      "raw": " energy generation).",
+      "translation": "能量生成).",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 connects you with a stream of twisted latent energy (+",
+      "raw": "X0-1V1 connects you with a stream of twisted latent energy (+",
+      "translation": "X0-1V1为你接入一股扭曲的潜伏能量 (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 injects you with a stream of matter (+",
+      "raw": "X0-1V1 injects you with a stream of matter (+",
+      "translation": "X0-1V1向你注入一股物质 (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 sucks the heat right out of you (-",
+      "raw": "X0-1V1 sucks the heat right out of you (-",
+      "translation": "X0-1V1把你身上的热量吸得一干二净 (-",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" (",
+      "raw": "X0-1V1: \"Heat sink stocks are down. Don't ask me how I know.\" (",
+      "translation": "X0-1V1: “散热器库存告急。别问我怎么知道的。” (",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "heat dissipation).",
+      "raw": " heat dissipation).",
+      "translation": "散热).",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 thinks you're pretty cool, for now (",
+      "raw": "X0-1V1 thinks you're pretty cool, for now (",
+      "translation": "X0-1V1觉得你暂时还挺酷（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"A slightly more accurate toy is still a toy.\" (",
+      "raw": "X0-1V1: \"A slightly more accurate toy is still a toy.\" (",
+      "translation": "X0-1V1：“再准一点的玩具也还是玩具。”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area (",
+      "raw": "X0-1V1 waits impatiently for you to get up close and personal with every target in the area (",
+      "translation": "X0-1V1迫不及待地等着你与区域内每个目标近距离亲密接触（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 manipulates the space around you (+",
+      "raw": "X0-1V1 manipulates the space around you (+",
+      "translation": "X0-1V1操纵你周围的空间 (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"See? It buffs right out!\" (+",
+      "raw": "X0-1V1: \"See? It buffs right out!\" (+",
+      "translation": "X0-1V1: “看吧？擦擦就掉了！” (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 ensures you are ready for glorious battle (+",
+      "raw": "X0-1V1 ensures you are ready for glorious battle (+",
+      "translation": "X0-1V1确保你已准备好投入光荣的战斗 (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "A marvel of modern technology appears at your location (",
+      "raw": "A marvel of modern technology appears at your location (",
+      "translation": "一项现代科技奇迹出现在你所在位置（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "system corruption).",
+      "raw": " system corruption).",
+      "translation": "系统腐化).",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 lends a hand with your twisted circuits (-",
+      "raw": "X0-1V1 lends a hand with your twisted circuits (-",
+      "translation": "X0-1V1帮你理顺扭曲的电路 (-",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Watch where you're going!\" (",
+      "raw": "X0-1V1: \"Watch where you're going!\" (",
+      "translation": "X0-1V1：“看着点路！”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "sight range).",
+      "raw": " sight range).",
+      "translation": "视野范围).",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 makes important surrounding features appear closer to you (",
+      "raw": "X0-1V1 makes important surrounding features appear closer to you (",
+      "translation": "X0-1V1让周围的重要特征看起来离你更近（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Let the electrons flow!\" (",
+      "raw": "X0-1V1: \"Let the electrons flow!\" (",
+      "translation": "X0-1V1：“让电子流动起来！”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 causes your matter storage to temporarily balloon in size. (",
+      "raw": "X0-1V1 causes your matter storage to temporarily balloon in size. (",
+      "translation": "X0-1V1暂时大幅扩充了你的物质储量上限。（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent",
+      "raw": "X0-1V1: \"Any self-respecting god will have their pound of flesh.\" (permanent ",
+      "translation": "X0-1V1：“凡是有自尊的神，都该拿走属于自己的那份血肉。”（永久",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1",
+      "raw": "X0-1V1: \"If I've learned anything from roguelikes, it's that more appendages equals more fun.\" (permanent +1 ",
+      "translation": "X0-1V1：“我从肉鸽游戏学到一件事：附肢越多越好玩。”（永久+1",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\" (permanent",
+      "raw": "X0-1V1: \"Even if you take a beating, with so many spare parts around there is always hope your cute little core will rise from the ashes to exact glorious revenge.\" (permanent ",
+      "translation": "X0-1V1：“就算你挨了顿揍，周围有这么多备用部件，你那可爱的小核心总有希望浴火重生，完成光荣复仇。”（永久",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 smiles upon you. (Received",
+      "raw": "X0-1V1 smiles upon you. (Received ",
+      "translation": "X0-1V1向你微笑。（获得",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 points here and there (",
+      "raw": "X0-1V1 points here and there (",
+      "translation": "X0-1V1指指点点（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"I found some blueprints, how convenient!\" (",
+      "raw": "X0-1V1: \"I found some blueprints, how convenient!\" (",
+      "translation": "X0-1V1：“我找到了一些蓝图，真方便！”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "to go sit in the corner.\"",
+      "raw": " to go sit in the corner.\"",
+      "translation": "去角落里坐着。”",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 wants to heat up the action around here (+",
+      "raw": "X0-1V1 wants to heat up the action around here (+",
+      "translation": "X0-1V1想让这里的战况升温 (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Your inner air conditioner seems to have fallen into disrepair.\" (",
+      "raw": "X0-1V1: \"Your inner air conditioner seems to have fallen into disrepair.\" (",
+      "translation": "X0-1V1：“你的内置空调似乎已经失修了。”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"There's a penalty for shooting from the hip 'round these parts.\" (",
+      "raw": "X0-1V1: \"There's a penalty for shooting from the hip 'round these parts.\" (",
+      "translation": "X0-1V1：“在这地方，盲射可是要受惩罚的。”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 projects screaming human faces on all surfaces in the area (",
+      "raw": "X0-1V1 projects screaming human faces on all surfaces in the area (",
+      "translation": "X0-1V1把尖叫的人脸投影到区域内所有表面 (",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "caught in stasis.",
+      "raw": " caught in stasis.",
+      "translation": "被困在停滞状态。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "system corruption)\"",
+      "raw": " system corruption)\"",
+      "translation": "系统腐化)”",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"It's not much, but it's the thought that counts. (+",
+      "raw": "X0-1V1: \"It's not much, but it's the thought that counts. (+",
+      "translation": "X0-1V1: “心意到了就好，不必多。” (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 brushes you with a corrupting influence (+",
+      "raw": "X0-1V1 brushes you with a corrupting influence (+",
+      "translation": "X0-1V1以腐化影响拂过你 (+",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "of your inventory parts (corrupted).",
+      "raw": " of your inventory parts (corrupted).",
+      "translation": "你的库存部件 (已腐化).",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 blurs the world around you (",
+      "raw": "X0-1V1 blurs the world around you (",
+      "translation": "X0-1V1令你眼中的世界变得模糊（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"In a world full of sensor tech, vision is overrated.\" (",
+      "raw": "X0-1V1: \"In a world full of sensor tech, vision is overrated.\" (",
+      "translation": "X0-1V1：“在传感器技术遍地的世界里，视力被高估了。”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Did you know you're leaking matter?\" (",
+      "raw": "X0-1V1: \"Did you know you're leaking matter?\" (",
+      "translation": "X0-1V1：“你知道自己正在漏物质吗？”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+      "raw": "X0-1V1: \"Evolution hits right when you least expect it.\" (",
+      "translation": "X0-1V1：“进化总在你意想不到的时候降临。”（",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1: \"I may have passed a hint to a nearby",
+      "raw": "X0-1V1: \"I may have passed a hint to a nearby ",
+      "translation": "X0-1V1：“我可能给附近的某个",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "X0-1V1 pokes a wall.",
+      "raw": "X0-1V1 pokes a wall.",
+      "translation": "X0-1V1戳了戳墙。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "hacked open.",
+      "raw": " hacked open.",
+      "translation": "被黑入并打开。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "inbound, all units not involved in other operations escort to target.",
+      "raw": " inbound, all units not involved in other operations escort to target.",
+      "translation": "正在赶来，所有未参与其他行动的单位立即护送至目标地点。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "buries itself in the floor.",
+      "raw": " buries itself in the floor.",
+      "translation": "埋入地板。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "targets ready for detonation.",
+      "raw": " targets ready for detonation.",
+      "translation": "目标已准备引爆。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ALERT: Derelict incursion at",
+      "raw": "ALERT: Derelict incursion at ",
+      "translation": "ALERT: 遗迹机器人入侵，地点：",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Established visual feed link with",
+      "raw": "Established visual feed link with ",
+      "translation": "已建立与以下目标的视觉信号链路：",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ANNOUNCEMENT: Warlord currently on",
+      "raw": "ANNOUNCEMENT: Warlord currently on ",
+      "translation": "ANNOUNCEMENT: 军阀当前位于",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "to Cogmind's location.",
+      "raw": " to Cogmind's location.",
+      "translation": "前往Cogmind所在位置。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ANNOUNCEMENT: Unaware assault squad dispatched in",
+      "raw": "ANNOUNCEMENT: Unaware assault squad dispatched in ",
+      "translation": "ANNOUNCEMENT: 已派出无觉者突击小队，预计",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "turns your loot boxes might contain...",
+      "raw": " turns your loot boxes might contain... ",
+      "translation": "你的战利品箱里可能会有……",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Unlike other parts in RPGLIKE mode that transfer",
+      "raw": "Unlike other parts in RPGLIKE mode that transfer ",
+      "translation": "与RPGLIKE模式下其他会转移的部件不同，",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Unlike other parts in BattleRoyale mode that transfer",
+      "raw": "Unlike other parts in BattleRoyale mode that transfer ",
+      "translation": "与BattleRoyale模式下其他会转移的部件不同，",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "effective code value to all Relay Couplers.",
+      "raw": " effective code value to all Relay Couplers.",
+      "translation": "向所有中继耦合器提供有效代码值。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "more turns before they can pinpoint your position for dispatching.",
+      "raw": " more turns before they can pinpoint your position for dispatching.",
+      "translation": "还要再过更多回合，他们才能锁定你的位置并派兵。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "while at least one Relay Coupler [NC] attached.",
+      "raw": " while at least one Relay Coupler [NC] attached.",
+      "translation": "至少装有一个中继耦合器[NC]时。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ANNOUNCEMENT: Welcome to our newest member,",
+      "raw": "ANNOUNCEMENT: Welcome to our newest member, ",
+      "translation": "ANNOUNCEMENT: 欢迎我们的新成员，",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "stockpile data.",
+      "raw": " stockpile data.",
+      "translation": "储备数据。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "materializes via a weapon slot.",
+      "raw": " materializes via a weapon slot.",
+      "translation": "通过武器槽显现。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "blips out of existence for a moment, then partially fades back in.",
+      "raw": " blips out of existence for a moment, then partially fades back in.",
+      "translation": "瞬间消失，又逐渐显现回来。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ripped apart by twisting subspace fabric.",
+      "raw": " ripped apart by twisting subspace fabric.",
+      "translation": "被扭曲的子空间织构撕碎。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "sort of build. As for the details...",
+      "raw": " sort of build. As for the details...",
+      "translation": "某种配置。至于细节……",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "raw": " support to an unlucky hit, overheating, or some other anomaly, you'd still be able to limp away pretty effectively.",
+      "translation": "有了这些支撑，即使遭遇意外命中、过热或其他异常，你仍能相当从容地撤离。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Impressive surplus mass support. Even if you were to lose some",
+      "raw": "Impressive surplus mass support. Even if you were to lose some ",
+      "translation": "充裕的额外质量支撑。即使你失去一些",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "raw": " speed you've got there. More than enough to dodge or outrun Grunts and the like.",
+      "translation": "你的速度已经够快了。足以闪避或甩开步兵之类的敌人。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "looks a bit greedy.",
+      "raw": " looks a bit greedy.",
+      "translation": "看起来有点贪心。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "rendered useless by plates shifting to reveal entrance.",
+      "raw": " rendered useless by plates shifting to reveal entrance.",
+      "translation": "板块移开露出入口后便失去作用。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Acceleration Regulator",
+      "raw": "  Acceleration Regulator",
+      "translation": "加速度调节器",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "is a serious offense. Repeat command to confirm.",
+      "raw": "is a serious offense. Repeat command to confirm.",
+      "translation": "属于严重违规。重复指令以确认。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Support from the recent Fedlink buildup",
+      "raw": " Support from the recent Fedlink buildup ",
+      "translation": "近期远联势力扩张带来的支持",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "is limited, but with our capabilities exposed it's now or never.",
+      "raw": "is limited, but with our capabilities exposed it's now or never.",
+      "translation": "有限，但我们的能力已经暴露，现在只能放手一搏。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "raw": "is lower than I'd prefer, but with our capabilities exposed it's now or never.",
+      "translation": "比我希望的要低，但我们的能力已经暴露，现在只能放手一搏。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "raw": "is at reasonable levels, I'm fairly confident we can do this if everyone is on board.",
+      "translation": "处于合理水平；只要大家都同意，我有信心能办成。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "raw": "is quite strong, it's only a matter of time before our new Protoforge is churning out 0bPrime tech!",
+      "translation": "相当强劲；新建的原型锻炉很快就能生产0bPrime技术！",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "raw": "is at unprecedented levels, MAIN.C doesn't stand a chance!",
+      "translation": "达到前所未有的水平，MAIN.C根本不是对手！",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "rendered useless by seal.",
+      "raw": " rendered useless by seal.",
+      "translation": "被封印后失去作用。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "ALERT: Suspicious activity reported at",
+      "raw": "ALERT: Suspicious activity reported at ",
+      "translation": "ALERT: 在以下地点报告可疑活动：",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "until cutoff.",
+      "raw": " until cutoff.",
+      "translation": "直到截止时刻。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "to completion.",
+      "raw": " to completion.",
+      "translation": "直至完成。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "If only there was a way to",
+      "raw": "If only there was a way to ",
+      "translation": "要是有办法能",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "while I steal that schematic before they can even call for help.",
+      "raw": "while I steal that schematic before they can even call for help.",
+      "translation": "趁我偷走那份设计图，他们甚至还来不及呼救。",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "raw": "will really blow your mind: Try installing my Trojan(Skim) at",
+      "translation": "真会让你大开眼界：试着在这里安装我的Trojan(Skim)",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "intercept whatever it can find, and the data will also feed back",
+      "raw": "intercept whatever it can find, and the data will also feed back",
+      "translation": "拦截它能找到的一切，数据也会回传",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "to me here for my wiki so we can all benefit!",
+      "raw": "to me here for my wiki so we can all benefit!",
+      "translation": "传给我放进维基，这样大家都能受益！",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "If the Merchants find out I took this prototype before it was finished,",
+      "raw": "If the Merchants find out I took this prototype before it was finished,",
+      "translation": "要是商人们发现我在原型机完工前就把它拿走了，",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    },
+    {
+      "source": "Default           Keyboard",
+      "raw": "// Default           Keyboard",
+      "translation": "默认           键盘",
+      "notes": "仅翻译该片段已有含义；保留片段边界，不补造句尾、动态参数或缺失上下文。"
+    }
+  ]
+}

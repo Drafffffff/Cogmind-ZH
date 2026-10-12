@@ -1,0 +1,300 @@
+>>Prototypes	>>原型
+>>SCAN	>>扫描
+>>Alert(Check)	>>警戒（检查）
+>>Traps(Locate)	>>陷阱（定位）
+>>Traps(Reprogram)	>>陷阱（重编程）
+>>Traps(Disarm)	>>陷阱（解除）
+>>Enumerate(Maintenance)	>>列出（维修）
+>>Enumerate(Transport)	>>列出（运输）
+>>Enumerate(Patrol)	>>列出（巡逻）
+>>Enumerate(Guard)	>>列出（守卫）
+Airjet	气喷
+Cld. Airjet	冷气喷
+Cmb. Airjet	战气喷
+Sub. Optics	潜望镜
+ID Mask	ID面具
+Sfc. Autominer	地表采矿机
+Minigun	迷你枪
+Z-bomb	Z炸弹
+IN-MT5's Pitchfork "Insurrection"	IN-MT5的干草叉“起义”
+Mace	钉锤
+Hvy. Mace	重钉锤
+1C-UTU's Sword "Lootmaker"	1C-UTU之剑“寻宝者”
+Lrg. Botcube	大型机器人块
+Large Botcube	大机器人块
+Drone	飞蜂
+Wardrone	战蜂
+E-15 Imp	E-15恶魔
+V-SERIES	V系列
+Warbot	战机
+Data stored: Materials garrison access intel.	数据已存：物资、驻防站入口情报。
+Autobeam Turret	自动光束炮塔
+OPTIMUS	擎天柱
+PERUN	佩伦
+ELF	ELF
+Effect	效果
+<no_stack>	<no_stack>
+Description	说明
+Exposure	暴露度
+Resistances	抗性
+Temperature	温度
+Speed	速度
+Size	尺寸
+Class	类别
+Relation	关系
+Schematic	图纸
+Ranged	远程
+Hostile	敌对
+Friendly	友军
+Neutral	中立
+Inactive	未启用
+Fabrication	制造
+Components	部件
+Imp. Airjet	强化气喷
+Sfc. X0-Cannon	地表X0炮
+Sfc. X0-Gun	地表X0枪
+Sfc. X0-Launcher	地表X0发射器
+Cep. Nanofilaments [Tensile]	铈纳米丝[抗拉]
+Cep. Nanofilaments [Endoweave]	铈纳米丝[内织]
+Cep. Nanofilaments [Polyglass]	铈纳米丝[聚玻璃]
+Cep. Nanofilaments [Conductive]	铈纳米丝[导电]
+VL-GR5's Exoskeleton "Deathgrip"	VL-GR5的外骨骼“死亡之握”
+General	通用
+Audio	音频
+Behavior	行为
+Player	玩家
+Visualization	显示
+Alarms	警报
+Auto-label Items	自动标记物品
+Auto-label Threats	自动标记威胁
+Combat Indicators	战斗提示
+Hit Chance Delay	命中率延迟
+Show Path	显示路径
+ASCII Mode	ASCII模式
+Move Block Duration	移动阻止时长
+Auto-activate Parts	部件自动启用
+Edge Panning Speed	边缘平移速度
+Part Autosorting	自动整理部件
+Combat Log Detail	战斗日志详细度
+Audio Log	音效日志
+Log Output	日志输出
+Difficulty	难度
+Tutorial	教程
+Show Intro	显示开场
+Fullscreen	全屏
+Borderless Fullscreen	无边框全屏
+Borderless Full	无边框全屏
+Semi-modal (...	半弹窗（...
+Change console: F5~F8	切换控制台：F5~F8
+Alert Popups	警报弹窗
+FOV Handling	视野处理
+Motion Trail Duration	移动轨迹时长
+Auto-label on Examine	检查时自动标记
+Explosion Predictions	爆炸预测
+Achievements Anywhere	任意模式获成就
+Report Errors	报告错误
+News/Updates	新闻/更新
+Seed	种子
+Upload Scores	上传成绩
+Name	名称
+Stop on Threats Only	仅遇威胁时停止
+Colorblind Adjustment	色盲配色
+Keyboard Mode	键盘模式
+Label Supporter Items	标记支持者物品
+Click Walls to Target	点击墙壁瞄准
+Block vi-Keys	屏蔽vi键
+Tactical HUD	战术HUD
+Master Volume	主音量
+Font Set/Size	字体/字号
+UI Layout	界面布局
+Add Log Note	添加日志备注
+Ruler Overlay	尺规叠层
+Tag Item	标记物品
+Stat Dump	统计转储
+Reswap	换回
+Purge All Parts	清除所有部件
+Map Export	导出地图
+RIF Abilities	RIF能力
+Go To Cursor	移至光标
+Find Item	查找物品
+Map Comments	地图注释
+Left-click to order	左键下令
+Show Volley Range	显示齐射范围
+Show Orders	显示指令
+Label Hostiles/Friendlies/Parts/Exits	标记敌人/友军/部件/出口
+Highlight Path to Cursor	高亮至光标路径
+Examine (Look) Mode	检查（查看）模式
+Zoom Map	缩放地图
+Map Intel Overlays	地图情报叠层
+Show World Map	显示世界地图
+Movement	移动
+Run (r/Esc Cancels)	奔跑（r/Esc取消）
+Wait	等待
+Get Item	拾取物品
+Fire (+Ctrl to Force)	开火（按Ctrl强制）
+Order Ally	命令友军
+Confirm Order Target	确认命令目标
+Special Commands	特殊指令
+Look/Target	查看/瞄准
+Data (Info)	数据(信息)
+Add/Remove Map Comment	添加/移除地图注释
+Help/Options	帮助/选项
+Dump Current Stats	导出当前统计
+Self-Destruct/Restart	自毁/重启
+Toggle Keyboard Mode	切换键盘模式
+Toggle ASCII Mode	切换ASCII模式
+Toggle Fullscreen	切换全屏
+Screenshot	截图
+Scroll	滚动
+Page Up/Down	翻页
+Expand/Shrink	展开/收起
+Add Note to Log	添加日志备注
+Info	信息
+Order	下令
+Multiconsole Mode	多控制台模式
+Map Intel Mode Toggle	切换地图情报模式
+Toggle Intel	切换情报
+Cancel Map Intel Mode	退出地图情报模式
+Parts	部件
+Toggle State	切换状态
+Swap/Reassign	交换/重指派
+Inventory Swap/Attach	交换/装配库存物品
+Detach	卸下
+Cycle Propulsion Mode	切换推进模式
+Toggle Utilities w/Upkeep	切换有维护耗能的功能件
+Toggle All Weapons	切换所有武器
+Modal Part Management	弹窗式部件管理
+Energy (Toggle for Heat)	能量（切换为热量）
+Info (Toggle for Matter)	信息（切换为物质）
+Inventory	库存
+Open/Close Inventory	打开/关闭库存
+Attach	装配
+Drag to Parts List	拖至部件栏
+Drop	丢弃
+Scroll (+Ctrl for Page)	滚动（Ctrl翻页）
+( object data )	（物件数据）
+SOUND DESIGN	音效设计
+HOSTILES	敌对
+BROKEN	损坏
+UNPOWERED	断电
+UNCONNECTED	未连接
+ASSIMILATING	同化中
+DISABLED	失能
+DORMANT	休眠
+REBOOTING	重启中
+ERROR	错误
+ENTERTAINMENT	娱乐
+BLOCKED	受阻
+VALIDITY	有效期
+SIGNALS	信号
+COLLECTING	收集中
+SHIELDING -	护盾中-
+MARTIAL -	格斗中-
+MARTIAL	格斗中
+SIEGE -	攻城中-
+AUTO	自动
+CHARGING	充能中
+AMMO	弹药
+THROWN	已投出
+LATENT	潜伏
+UNLOCKING	解锁中
+TRACKING	追踪中
+TRANSFORM	变形中
+ASSEMBLE	组装中
+BLINDED	目盲
+SCRAMBLED	扰乱
+JAMMED	受干扰
+LOAD	装载
+COLLECTIVE	集体
+LOADER	装载器
+UNSTABLE	不稳定
+OVERLOAD	过载
+MALFUNCTIONING	故障
+MANIFEST	清单
+SQUAD	小队
+SENSOR DATA BLINDED	传感器数据目盲
+SENSOR DATA SCRAMBLED	传感器数据扰乱
+SENSOR DATA JAMMED	传感器数据受干扰
+FAST	快速
+INTERDICT	拦截
+SWAP	交换
+REMOVE	移除
+DIRECT	直接
+TYPE SORTED	按类型排序
+REVERSE-TYPE SORTED	按反向类型排序
+MATCHES	匹配项
+FAULTY PROTOTYPE	故障原型
+ALIEN	外星
+DETERIORATING	劣化中
+THROWABLE	可投掷
+FRAGILE	易碎
+INTEGRATING	整合中
+NON-FUNCTIONAL	失效
+RIGGED	已设陷
+CORRUPTED	已腐化
+DETONATE	引爆
+COMPROMISED	遭入侵
+TRANSMITTING	传输中
+REDEPLOYING	重新部署
+LOCKED	锁定
+CRASHED	崩溃
+TRACING	追踪中
+CODE	代码
+SYSTEM OVERRIDE	系统接管
+SHUTDOWN	关闭
+VIRUS DETECTED	发现病毒
+FRAGMENTED	碎片化
+FAILED	失败
+SECURED	安全
+STABLE	稳定
+ARMING	布防中
+LEVEL	等级
+ANOMALY DETECTED	发现异常
+Intro	导言
+Using this Manual	使用本手册
+A Roguelike	类Roguelike
+Permadeath	永久死亡
+Turns	回合
+Important Differences	重要区别
+Survival Tips	生存技巧
+Items	物品
+Builds	配置
+Inventory Management	库存管理
+Other Robots	其他机器人
+More Info	更多信息
+Rogue	浪人
+Adventurer	冒险者
+Saving/Loading	存档/读档
+Other Options	其他选项
+Inherent Stats	固有属性
+Resources	资源
+Upkeep	维护
+Activation	启用
+Prototypes	原型
+Power Sources	动力源
+Overloading	过载
+Costs	消耗
+Core Movement	核心移动
+Devices	装置
+Processors	处理器
+Guns	枪械
+Cannons	火炮
+Launchers	发射器
+Special Weapons	特殊武器
+Multiple Projectiles	多弹丸
+Volley	齐射
+Hit Chance	命中率
+Coverage/Exposure	覆盖/暴露
+Damage Overflow	伤害溢出
+Secondary Targeting	次要瞄准
+Spotting	发现目标
+Attack Resolution	攻击判定
+Sneak Attacks	偷袭
+Multi-Wielding	多武器
+Ramming	冲撞
+Damage Types	伤害类型
+Side Effects	副作用
+Cooling Resolution	散热结算
+Hacking Machines	入侵机器
+Factors	因素
+Process	流程

@@ -1,0 +1,500 @@
+Increases effective momentum by {n}. <parallel_ok>	有效动能+{n}。<parallel_ok>
+Increases inventory capacity by {n}. <stacks>	库存容量+{n}。<stacks>
+Increases inventory capacity by {n}. <no_stack>	库存容量+{n}。<no_stack>
+Increases inventory capacity by {n}. <half_stack>	库存容量+{n}。<half_stack>
+Increases inventory capacity by {n}. <parallel_ok>	库存容量+{n}。<parallel_ok>
+Increases visual sensor range by {n}. <stacks>	视觉传感器范围+{n}。<stacks>
+Increases visual sensor range by {n}. <no_stack>	视觉传感器范围+{n}。<no_stack>
+Increases visual sensor range by {n}. <half_stack>	视觉传感器范围+{n}。<half_stack>
+Increases visual sensor range by {n}. <parallel_ok>	视觉传感器范围+{n}。<parallel_ok>
+Enables impact damage resistance: {n}%. <stacks>	冲击伤害抗性+{n}%。<stacks>
+Enables impact damage resistance: {n}%. <no_stack>	冲击伤害抗性+{n}%。<no_stack>
+Enables impact damage resistance: {n}%. <half_stack>	冲击伤害抗性+{n}%。<half_stack>
+Enables impact damage resistance: {n}%. <parallel_ok>	冲击伤害抗性+{n}%。<parallel_ok>
+Increases target core exposure by {n}%. <stacks>	目标核心暴露度+{n}%。<stacks>
+Increases target core exposure by {n}%. <no_stack>	目标核心暴露度+{n}%。<no_stack>
+Increases target core exposure by {n}%. <half_stack>	目标核心暴露度+{n}%。<half_stack>
+Increases target core exposure by {n}%. <parallel_ok>	目标核心暴露度+{n}%。<parallel_ok>
+Enables kinetic damage resistance: {n}%. <stacks>	动能伤害抗性+{n}%。<stacks>
+Enables kinetic damage resistance: {n}%. <no_stack>	动能伤害抗性+{n}%。<no_stack>
+Enables kinetic damage resistance: {n}%. <half_stack>	动能伤害抗性+{n}%。<half_stack>
+Enables kinetic damage resistance: {n}%. <parallel_ok>	动能伤害抗性+{n}%。<parallel_ok>
+Enables thermal damage resistance: {n}%. <stacks>	热能伤害抗性+{n}%。<stacks>
+Enables thermal damage resistance: {n}%. <no_stack>	热能伤害抗性+{n}%。<no_stack>
+Enables thermal damage resistance: {n}%. <half_stack>	热能伤害抗性+{n}%。<half_stack>
+Enables thermal damage resistance: {n}%. <parallel_ok>	热能伤害抗性+{n}%。<parallel_ok>
+Increases melee attack accuracy by {n}%. <stacks>	近战命中率+{n}%。<stacks>
+Increases melee attack accuracy by {n}%. <no_stack>	近战命中率+{n}%。<no_stack>
+Increases melee attack accuracy by {n}%. <half_stack>	近战命中率+{n}%。<half_stack>
+Increases melee attack accuracy by {n}%. <parallel_ok>	近战命中率+{n}%。<parallel_ok>
+Enables piercing damage resistance: {n}%. <stacks>	穿刺伤害抗性+{n}%。<stacks>
+Enables piercing damage resistance: {n}%. <no_stack>	穿刺伤害抗性+{n}%。<no_stack>
+Enables piercing damage resistance: {n}%. <half_stack>	穿刺伤害抗性+{n}%。<half_stack>
+Enables piercing damage resistance: {n}%. <parallel_ok>	穿刺伤害抗性+{n}%。<parallel_ok>
+Enables slashing damage resistance: {n}%. <stacks>	劈砍伤害抗性+{n}%。<stacks>
+Enables slashing damage resistance: {n}%. <no_stack>	劈砍伤害抗性+{n}%。<no_stack>
+Enables slashing damage resistance: {n}%. <half_stack>	劈砍伤害抗性+{n}%。<half_stack>
+Enables slashing damage resistance: {n}%. <parallel_ok>	劈砍伤害抗性+{n}%。<parallel_ok>
+Enables explosive damage resistance: {n}%. <stacks>	爆炸伤害抗性+{n}%。<stacks>
+Enables explosive damage resistance: {n}%. <no_stack>	爆炸伤害抗性+{n}%。<no_stack>
+Enables explosive damage resistance: {n}%. <half_stack>	爆炸伤害抗性+{n}%。<half_stack>
+Enables explosive damage resistance: {n}%. <parallel_ok>	爆炸伤害抗性+{n}%。<parallel_ok>
+Enables entropic damage resistance: {n}%. <stacks>	熵变伤害抗性+{n}%。<stacks>
+Enables entropic damage resistance: {n}%. <no_stack>	熵变伤害抗性+{n}%。<no_stack>
+Enables entropic damage resistance: {n}%. <half_stack>	熵变伤害抗性+{n}%。<half_stack>
+Enables entropic damage resistance: {n}%. <parallel_ok>	熵变伤害抗性+{n}%。<parallel_ok>
+Increases energy storage capacity by {n}. <stacks>	能量储存量+{n}。<stacks>
+Increases energy storage capacity by {n}. <no_stack>	能量储存量+{n}。<no_stack>
+Increases energy storage capacity by {n}. <half_stack>	能量储存量+{n}。<half_stack>
+Increases energy storage capacity by {n}. <parallel_ok>	能量储存量+{n}。<parallel_ok>
+Increases matter storage capacity by {n}. <stacks>	物质储存量+{n}。<stacks>
+Increases matter storage capacity by {n}. <no_stack>	物质储存量+{n}。<no_stack>
+Increases matter storage capacity by {n}. <half_stack>	物质储存量+{n}。<half_stack>
+Increases matter storage capacity by {n}. <parallel_ok>	物质储存量+{n}。<parallel_ok>
+Increases weapon critical chances by {n}%. <stacks>	武器暴击率+{n}%。<stacks>
+Increases weapon critical chances by {n}%. <no_stack>	武器暴击率+{n}%。<no_stack>
+Increases weapon critical chances by {n}%. <half_stack>	武器暴击率+{n}%。<half_stack>
+Increases weapon critical chances by {n}%. <parallel_ok>	武器暴击率+{n}%。<parallel_ok>
+Increases energy gun/cannon damage by {n}%. <stacks>	能量枪/炮伤害+{n}%。<stacks>
+Increases energy gun/cannon damage by {n}%. <no_stack>	能量枪/炮伤害+{n}%。<no_stack>
+Increases energy gun/cannon damage by {n}%. <half_stack>	能量枪/炮伤害+{n}%。<half_stack>
+Increases energy gun/cannon damage by {n}%. <parallel_ok>	能量枪/炮伤害+{n}%。<parallel_ok>
+Increases terrain scanning density by {n}. <stacks>	地形扫描密度+{n}。<stacks>
+Increases terrain scanning density by {n}. <no_stack>	地形扫描密度+{n}。<no_stack>
+Increases terrain scanning density by {n}. <half_stack>	地形扫描密度+{n}。<half_stack>
+Increases terrain scanning density by {n}. <parallel_ok>	地形扫描密度+{n}。<parallel_ok>
+Increases non-melee weapon accuracy by {n}%. <stacks>	远程武器命中率+{n}%。<stacks>
+Increases non-melee weapon accuracy by {n}%. <no_stack>	远程武器命中率+{n}%。<no_stack>
+Increases non-melee weapon accuracy by {n}%. <half_stack>	远程武器命中率+{n}%。<half_stack>
+Increases non-melee weapon accuracy by {n}%. <parallel_ok>	远程武器命中率+{n}%。<parallel_ok>
+Reduces effective system corruption by {n}%. <stacks>	系统损坏效果-{n}%。<stacks>
+Reduces effective system corruption by {n}%. <no_stack>	系统损坏效果-{n}%。<no_stack>
+Reduces effective system corruption by {n}%. <half_stack>	系统损坏效果-{n}%。<half_stack>
+Reduces effective system corruption by {n}%. <parallel_ok>	系统损坏效果-{n}%。<parallel_ok>
+Reduces firing time for any launcher by {n}%. <stacks>	发射器开火时间-{n}%。<stacks>
+Reduces firing time for any launcher by {n}%. <no_stack>	发射器开火时间-{n}%。<no_stack>
+Reduces firing time for any launcher by {n}%. <half_stack>	发射器开火时间-{n}%。<half_stack>
+Reduces firing time for any launcher by {n}%. <parallel_ok>	发射器开火时间-{n}%。<parallel_ok>
+Increases Sigix non-AOE weapon damage by {n}%. <stacks>	Sigix非范围武器伤害+{n}%。<stacks>
+Increases Sigix non-AOE weapon damage by {n}%. <no_stack>	Sigix非范围武器伤害+{n}%。<no_stack>
+Increases Sigix non-AOE weapon damage by {n}%. <half_stack>	Sigix非范围武器伤害+{n}%。<half_stack>
+Increases Sigix non-AOE weapon damage by {n}%. <parallel_ok>	Sigix非范围武器伤害+{n}%。<parallel_ok>
+Increases generation of power sources by {n}%. <stacks>	能量源产出+{n}%。<stacks>
+Increases generation of power sources by {n}%. <no_stack>	能量源产出+{n}%。<no_stack>
+Increases generation of power sources by {n}%. <half_stack>	能量源产出+{n}%。<half_stack>
+Increases generation of power sources by {n}%. <parallel_ok>	能量源产出+{n}%。<parallel_ok>
+Increases melee weapon maximum damage by {n}%. <stacks>	近战武器最高伤害+{n}%。<stacks>
+Increases melee weapon maximum damage by {n}%. <no_stack>	近战武器最高伤害+{n}%。<no_stack>
+Increases melee weapon maximum damage by {n}%. <half_stack>	近战武器最高伤害+{n}%。<half_stack>
+Increases melee weapon maximum damage by {n}%. <parallel_ok>	近战武器最高伤害+{n}%。<parallel_ok>
+Increases active wheel/leg/tread speed by {n}%. <stacks>	轮/腿/履带速度+{n}%。<stacks>
+Increases active wheel/leg/tread speed by {n}%. <no_stack>	轮/腿/履带速度+{n}%。<no_stack>
+Increases active wheel/leg/tread speed by {n}%. <half_stack>	轮/腿/履带速度+{n}%。<half_stack>
+Increases active wheel/leg/tread speed by {n}%. <parallel_ok>	轮/腿/履带速度+{n}%。<parallel_ok>
+Enables electromagnetic damage resistance: {n}%. <stacks>	电磁伤害抗性+{n}%。<stacks>
+Enables electromagnetic damage resistance: {n}%. <no_stack>	电磁伤害抗性+{n}%。<no_stack>
+Enables electromagnetic damage resistance: {n}%. <half_stack>	电磁伤害抗性+{n}%。<half_stack>
+Enables electromagnetic damage resistance: {n}%. <parallel_ok>	电磁伤害抗性+{n}%。<parallel_ok>
+Enables robot scanning up to a distance of {n}. <stacks>	可扫描{n}距离内机器人。<stacks>
+Enables robot scanning up to a distance of {n}. <no_stack>	可扫描{n}距离内机器人。<no_stack>
+Enables robot scanning up to a distance of {n}. <half_stack>	可扫描{n}距离内机器人。<half_stack>
+Enables robot scanning up to a distance of {n}. <parallel_ok>	可扫描{n}距离内机器人。<parallel_ok>
+Reduces enemy ranged targeting accuracy by {n}%. <stacks>	敌方远程命中率-{n}%。<stacks>
+Reduces enemy ranged targeting accuracy by {n}%. <no_stack>	敌方远程命中率-{n}%。<no_stack>
+Reduces enemy ranged targeting accuracy by {n}%. <half_stack>	敌方远程命中率-{n}%。<half_stack>
+Reduces enemy ranged targeting accuracy by {n}%. <parallel_ok>	敌方远程命中率-{n}%。<parallel_ok>
+Reduces energy cost of firing any weapon by {n}%. <stacks>	武器开火能耗-{n}%。<stacks>
+Reduces energy cost of firing any weapon by {n}%. <no_stack>	武器开火能耗-{n}%。<no_stack>
+Reduces energy cost of firing any weapon by {n}%. <half_stack>	武器开火能耗-{n}%。<half_stack>
+Reduces energy cost of firing any weapon by {n}%. <parallel_ok>	武器开火能耗-{n}%。<parallel_ok>
+Reduces matter cost of firing any weapon by {n}%. <stacks>	武器开火耗物质-{n}%。<stacks>
+Reduces matter cost of firing any weapon by {n}%. <no_stack>	武器开火耗物质-{n}%。<no_stack>
+Reduces matter cost of firing any weapon by {n}%. <half_stack>	武器开火耗物质-{n}%。<half_stack>
+Reduces matter cost of firing any weapon by {n}%. <parallel_ok>	武器开火耗物质-{n}%。<parallel_ok>
+Doubles Borg core and part regeneration rate. <stacks>	Borg核心及部件再生速度翻倍。<stacks>
+Doubles Borg core and part regeneration rate. <no_stack>	Borg核心及部件再生速度翻倍。<no_stack>
+Doubles Borg core and part regeneration rate. <half_stack>	Borg核心及部件再生速度翻倍。<half_stack>
+Doubles Borg core and part regeneration rate. <parallel_ok>	Borg核心及部件再生速度翻倍。<parallel_ok>
+Enables terrain scanning up to a distance of {n}. <stacks>	可扫描{n}距离内地形。<stacks>
+Enables terrain scanning up to a distance of {n}. <no_stack>	可扫描{n}距离内地形。<no_stack>
+Enables terrain scanning up to a distance of {n}. <half_stack>	可扫描{n}距离内地形。<half_stack>
+Enables terrain scanning up to a distance of {n}. <parallel_ok>	可扫描{n}距离内地形。<parallel_ok>
+Increases overloaded energy weapon damage by {n}%. <stacks>	过载能量武器伤害+{n}%。<stacks>
+Increases overloaded energy weapon damage by {n}%. <no_stack>	过载能量武器伤害+{n}%。<no_stack>
+Increases overloaded energy weapon damage by {n}%. <half_stack>	过载能量武器伤害+{n}%。<half_stack>
+Increases overloaded energy weapon damage by {n}%. <parallel_ok>	过载能量武器伤害+{n}%。<parallel_ok>
+Increases accuracy of all attached weapons by {n}%. <stacks>	所有已装武器命中率+{n}%。<stacks>
+Increases accuracy of all attached weapons by {n}%. <no_stack>	所有已装武器命中率+{n}%。<no_stack>
+Increases accuracy of all attached weapons by {n}%. <half_stack>	所有已装武器命中率+{n}%。<half_stack>
+Increases accuracy of all attached weapons by {n}%. <parallel_ok>	所有已装武器命中率+{n}%。<parallel_ok>
+Increases chance of successful machine hack by {n}%. <stacks>	机器入侵成功率+{n}%。<stacks>
+Increases chance of successful machine hack by {n}%. <no_stack>	机器入侵成功率+{n}%。<no_stack>
+Increases chance of successful machine hack by {n}%. <half_stack>	机器入侵成功率+{n}%。<half_stack>
+Increases chance of successful machine hack by {n}%. <parallel_ok>	机器入侵成功率+{n}%。<parallel_ok>
+Reduces recoil from each weapon in a volley by {n}. <stacks>	齐射中各武器后坐力-{n}。<stacks>
+Reduces recoil from each weapon in a volley by {n}. <no_stack>	齐射中各武器后坐力-{n}。<no_stack>
+Reduces recoil from each weapon in a volley by {n}. <half_stack>	齐射中各武器后坐力-{n}。<half_stack>
+Reduces recoil from each weapon in a volley by {n}. <parallel_ok>	齐射中各武器后坐力-{n}。<parallel_ok>
+Increases ballistic gun/cannon minimum damage by {n}%. <stacks>	弹道枪/炮最低伤害+{n}%。<stacks>
+Increases ballistic gun/cannon minimum damage by {n}%. <no_stack>	弹道枪/炮最低伤害+{n}%。<no_stack>
+Increases ballistic gun/cannon minimum damage by {n}%. <half_stack>	弹道枪/炮最低伤害+{n}%。<half_stack>
+Increases ballistic gun/cannon minimum damage by {n}%. <parallel_ok>	弹道枪/炮最低伤害+{n}%。<parallel_ok>
+Prevents movement by any robot within a range of {n}. <stacks>	阻止{n}范围内机器人移动。<stacks>
+Prevents movement by any robot within a range of {n}. <no_stack>	阻止{n}范围内机器人移动。<no_stack>
+Prevents movement by any robot within a range of {n}. <half_stack>	阻止{n}范围内机器人移动。<half_stack>
+Prevents movement by any robot within a range of {n}. <parallel_ok>	阻止{n}范围内机器人移动。<parallel_ok>
+Reduces part disable durations, dividing them by {n}. <stacks>	部件瘫痪时长除以{n}。<stacks>
+Reduces part disable durations, dividing them by {n}. <no_stack>	部件瘫痪时长除以{n}。<no_stack>
+Reduces part disable durations, dividing them by {n}. <half_stack>	部件瘫痪时长除以{n}。<half_stack>
+Reduces part disable durations, dividing them by {n}. <parallel_ok>	部件瘫痪时长除以{n}。<parallel_ok>
+Reduces firing time for an energy gun or cannon by {n}%. <stacks>	能量枪/炮开火时间-{n}%。<stacks>
+Reduces firing time for an energy gun or cannon by {n}%. <no_stack>	能量枪/炮开火时间-{n}%。<no_stack>
+Reduces firing time for an energy gun or cannon by {n}%. <half_stack>	能量枪/炮开火时间-{n}%。<half_stack>
+Reduces firing time for an energy gun or cannon by {n}%. <parallel_ok>	能量枪/炮开火时间-{n}%。<parallel_ok>
+Reduces time to transition into or out of siege mode by {n}%. <stacks>	攻城模式切换时间-{n}%。<stacks>
+Reduces time to transition into or out of siege mode by {n}%. <no_stack>	攻城模式切换时间-{n}%。<no_stack>
+Reduces time to transition into or out of siege mode by {n}%. <half_stack>	攻城模式切换时间-{n}%。<half_stack>
+Reduces time to transition into or out of siege mode by {n}%. <parallel_ok>	攻城模式切换时间-{n}%。<parallel_ok>
+Enables resistance against all standard forms of damage: {n}%. <stacks>	所有常规伤害抗性+{n}%。<stacks>
+Enables resistance against all standard forms of damage: {n}%. <no_stack>	所有常规伤害抗性+{n}%。<no_stack>
+Enables resistance against all standard forms of damage: {n}%. <half_stack>	所有常规伤害抗性+{n}%。<half_stack>
+Enables resistance against all standard forms of damage: {n}%. <parallel_ok>	所有常规伤害抗性+{n}%。<parallel_ok>
+Reduces total heat generated by a multi-weapon volley by {n}%. <stacks>	多武器齐射总热量-{n}%。<stacks>
+Reduces total heat generated by a multi-weapon volley by {n}%. <no_stack>	多武器齐射总热量-{n}%。<no_stack>
+Reduces total heat generated by a multi-weapon volley by {n}%. <half_stack>	多武器齐射总热量-{n}%。<half_stack>
+Reduces total heat generated by a multi-weapon volley by {n}%. <parallel_ok>	多武器齐射总热量-{n}%。<parallel_ok>
+Increases per-weapon chance of follow-up melee attacks by {n}%. <stacks>	各武器追加近战攻击率+{n}%。<stacks>
+Increases per-weapon chance of follow-up melee attacks by {n}%. <no_stack>	各武器追加近战攻击率+{n}%。<no_stack>
+Increases per-weapon chance of follow-up melee attacks by {n}%. <half_stack>	各武器追加近战攻击率+{n}%。<half_stack>
+Increases per-weapon chance of follow-up melee attacks by {n}%. <parallel_ok>	各武器追加近战攻击率+{n}%。<parallel_ok>
+Reduces collective firing time of all non-melee weapons by {n}%. <stacks>	所有远程武器总开火时间-{n}%。<stacks>
+Reduces collective firing time of all non-melee weapons by {n}%. <no_stack>	所有远程武器总开火时间-{n}%。<no_stack>
+Reduces collective firing time of all non-melee weapons by {n}%. <half_stack>	所有远程武器总开火时间-{n}%。<half_stack>
+Reduces collective firing time of all non-melee weapons by {n}%. <parallel_ok>	所有远程武器总开火时间-{n}%。<parallel_ok>
+Reduces ranged targeting accuracy of all enemies in view by {n}%. <stacks>	视野内敌人远程命中率-{n}%。<stacks>
+Reduces ranged targeting accuracy of all enemies in view by {n}%. <no_stack>	视野内敌人远程命中率-{n}%。<no_stack>
+Reduces ranged targeting accuracy of all enemies in view by {n}%. <half_stack>	视野内敌人远程命中率-{n}%。<half_stack>
+Reduces ranged targeting accuracy of all enemies in view by {n}%. <parallel_ok>	视野内敌人远程命中率-{n}%。<parallel_ok>
+Prevents recyclers from collecting parts within a {n} x {n} zone. <stacks>	阻止回收者收集{n}x{n}区域内部件。<stacks>
+Prevents recyclers from collecting parts within a {n} x {n} zone. <no_stack>	阻止回收者收集{n}x{n}区域内部件。<no_stack>
+Prevents recyclers from collecting parts within a {n} x {n} zone. <half_stack>	阻止回收者收集{n}x{n}区域内部件。<half_stack>
+Prevents recyclers from collecting parts within a {n} x {n} zone. <parallel_ok>	阻止回收者收集{n}x{n}区域内部件。<parallel_ok>
+Reduces damage of each incoming kinetic or thermal projectile by {n}. <stacks>	来袭动能/热能投射物伤害-{n}。<stacks>
+Reduces damage of each incoming kinetic or thermal projectile by {n}. <no_stack>	来袭动能/热能投射物伤害-{n}。<no_stack>
+Reduces damage of each incoming kinetic or thermal projectile by {n}. <half_stack>	来袭动能/热能投射物伤害-{n}。<half_stack>
+Reduces damage of each incoming kinetic or thermal projectile by {n}. <parallel_ok>	来袭动能/热能投射物伤害-{n}。<parallel_ok>
+Blocks local transmissions from visible hostiles within a range of {n}. <stacks>	屏蔽{n}范围内可见敌人的本地通信。<stacks>
+Blocks local transmissions from visible hostiles within a range of {n}. <no_stack>	屏蔽{n}范围内可见敌人的本地通信。<no_stack>
+Blocks local transmissions from visible hostiles within a range of {n}. <half_stack>	屏蔽{n}范围内可见敌人的本地通信。<half_stack>
+Blocks local transmissions from visible hostiles within a range of {n}. <parallel_ok>	屏蔽{n}范围内可见敌人的本地通信。<parallel_ok>
+Enables real-time seismic detection and analysis up to a distance of {n}. <stacks>	可实时探测并分析{n}距离内震动。<stacks>
+Enables real-time seismic detection and analysis up to a distance of {n}. <no_stack>	可实时探测并分析{n}距离内震动。<no_stack>
+Enables real-time seismic detection and analysis up to a distance of {n}. <half_stack>	可实时探测并分析{n}距离内震动。<half_stack>
+Enables real-time seismic detection and analysis up to a distance of {n}. <parallel_ok>	可实时探测并分析{n}距离内震动。<parallel_ok>
+Enables friend-or-foe identification of active robots up to a distance of {n}. <stacks>	可识别{n}距离内活动机器人的敌友。<stacks>
+Enables friend-or-foe identification of active robots up to a distance of {n}. <no_stack>	可识别{n}距离内活动机器人的敌友。<no_stack>
+Enables friend-or-foe identification of active robots up to a distance of {n}. <half_stack>	可识别{n}距离内活动机器人的敌友。<half_stack>
+Enables friend-or-foe identification of active robots up to a distance of {n}. <parallel_ok>	可识别{n}距离内活动机器人的敌友。<parallel_ok>
+Doubles core/hover/flight speed, applied before considering any overweight penalties. <stacks>	核心/悬浮/飞行速度翻倍，先于超重惩罚计算。<stacks>
+Doubles core/hover/flight speed, applied before considering any overweight penalties. <no_stack>	核心/悬浮/飞行速度翻倍，先于超重惩罚计算。<no_stack>
+Doubles core/hover/flight speed, applied before considering any overweight penalties. <half_stack>	核心/悬浮/飞行速度翻倍，先于超重惩罚计算。<half_stack>
+Doubles core/hover/flight speed, applied before considering any overweight penalties. <parallel_ok>	核心/悬浮/飞行速度翻倍，先于超重惩罚计算。<parallel_ok>
+Enables real-time tracking of 0b10 Haulers across the entire floor. Only applies in 0b10-controlled areas. <stacks>	可实时追踪整层0b10搬运者。仅限0b10控制区。<stacks>
+Enables real-time tracking of 0b10 Haulers across the entire floor. Only applies in 0b10-controlled areas. <no_stack>	可实时追踪整层0b10搬运者。仅限0b10控制区。<no_stack>
+Enables real-time tracking of 0b10 Haulers across the entire floor. Only applies in 0b10-controlled areas. <half_stack>	可实时追踪整层0b10搬运者。仅限0b10控制区。<half_stack>
+Enables real-time tracking of 0b10 Haulers across the entire floor. Only applies in 0b10-controlled areas. <parallel_ok>	可实时追踪整层0b10搬运者。仅限0b10控制区。<parallel_ok>
+Enables greater freedom during assignment of evolution parameters. No effect after reaching maximum slot count ({n}). <stacks>	分配进化参数时更自由。槽位达上限（{n}）后无效。<stacks>
+Enables greater freedom during assignment of evolution parameters. No effect after reaching maximum slot count ({n}). <no_stack>	分配进化参数时更自由。槽位达上限（{n}）后无效。<no_stack>
+Enables greater freedom during assignment of evolution parameters. No effect after reaching maximum slot count ({n}). <half_stack>	分配进化参数时更自由。槽位达上限（{n}）后无效。<half_stack>
+Enables greater freedom during assignment of evolution parameters. No effect after reaching maximum slot count ({n}). <parallel_ok>	分配进化参数时更自由。槽位达上限（{n}）后无效。<parallel_ok>
+While active, internalizes information about any identified items seen in the open or used by robots, attempting to create new relevant schematics over time based on that knowledge. <stacks>	启用时记录已识别物品及机器人使用的物品，并据此逐渐生成相关蓝图。<stacks>
+While active, internalizes information about any identified items seen in the open or used by robots, attempting to create new relevant schematics over time based on that knowledge. <no_stack>	启用时记录已识别物品及机器人使用的物品，并据此逐渐生成相关蓝图。<no_stack>
+While active, internalizes information about any identified items seen in the open or used by robots, attempting to create new relevant schematics over time based on that knowledge. <half_stack>	启用时记录已识别物品及机器人使用的物品，并据此逐渐生成相关蓝图。<half_stack>
+While active, internalizes information about any identified items seen in the open or used by robots, attempting to create new relevant schematics over time based on that knowledge. <parallel_ok>	启用时记录已识别物品及机器人使用的物品，并据此逐渐生成相关蓝图。<parallel_ok>
+While active, eventually teleports to a random nearby location, removing some attached part in the process, but possibly restoring one as well if suitable slots are available. <stacks>	启用后最终会随机传送至附近，途中拆下一件部件；若有合适槽位，也可能装回一件。<stacks>
+While active, eventually teleports to a random nearby location, removing some attached part in the process, but possibly restoring one as well if suitable slots are available. <no_stack>	启用后最终会随机传送至附近，途中拆下一件部件；若有合适槽位，也可能装回一件。<no_stack>
+While active, eventually teleports to a random nearby location, removing some attached part in the process, but possibly restoring one as well if suitable slots are available. <half_stack>	启用后最终会随机传送至附近，途中拆下一件部件；若有合适槽位，也可能装回一件。<half_stack>
+While active, eventually teleports to a random nearby location, removing some attached part in the process, but possibly restoring one as well if suitable slots are available. <parallel_ok>	启用后最终会随机传送至附近，途中拆下一件部件；若有合适槽位，也可能装回一件。<parallel_ok>
+Analyzes visible machines to locate others on the 0b10 network. Also determines whether an explosive machine has been destabilized and how long until detonation. <stacks>	分析可见机器以定位0b10网络中的其他机器；还可判断爆炸机器是否失稳及引爆剩余时间。<stacks>
+Analyzes visible machines to locate others on the 0b10 network. Also determines whether an explosive machine has been destabilized and how long until detonation. <no_stack>	分析可见机器以定位0b10网络中的其他机器；还可判断爆炸机器是否失稳及引爆剩余时间。<no_stack>
+Analyzes visible machines to locate others on the 0b10 network. Also determines whether an explosive machine has been destabilized and how long until detonation. <half_stack>	分析可见机器以定位0b10网络中的其他机器；还可判断爆炸机器是否失稳及引爆剩余时间。<half_stack>
+Analyzes visible machines to locate others on the 0b10 network. Also determines whether an explosive machine has been destabilized and how long until detonation. <parallel_ok>	分析可见机器以定位0b10网络中的其他机器；还可判断爆炸机器是否失稳及引爆剩余时间。<parallel_ok>
+Enables additional robot hacks when used in conjunction with RIF and Datajack. Requires having used a RIF Installer inside a Garrison. <stacks>	配合RIF和数据接口可入侵更多机器人。需在驻军内使用过RIF安装器。<stacks>
+Enables additional robot hacks when used in conjunction with RIF and Datajack. Requires having used a RIF Installer inside a Garrison. <no_stack>	配合RIF和数据接口可入侵更多机器人。需在驻军内使用过RIF安装器。<no_stack>
+Enables additional robot hacks when used in conjunction with RIF and Datajack. Requires having used a RIF Installer inside a Garrison. <half_stack>	配合RIF和数据接口可入侵更多机器人。需在驻军内使用过RIF安装器。<half_stack>
+Enables additional robot hacks when used in conjunction with RIF and Datajack. Requires having used a RIF Installer inside a Garrison. <parallel_ok>	配合RIF和数据接口可入侵更多机器人。需在驻军内使用过RIF安装器。<parallel_ok>
+Enables real-time tracking of all 0b10 combat and non-combat robots across the entire floor. Only applies in 0b10-controlled areas. <stacks>	可实时追踪整层所有0b10战斗及非战斗机器人。仅限0b10控制区。<stacks>
+Enables real-time tracking of all 0b10 combat and non-combat robots across the entire floor. Only applies in 0b10-controlled areas. <no_stack>	可实时追踪整层所有0b10战斗及非战斗机器人。仅限0b10控制区。<no_stack>
+Enables real-time tracking of all 0b10 combat and non-combat robots across the entire floor. Only applies in 0b10-controlled areas. <half_stack>	可实时追踪整层所有0b10战斗及非战斗机器人。仅限0b10控制区。<half_stack>
+Enables real-time tracking of all 0b10 combat and non-combat robots across the entire floor. Only applies in 0b10-controlled areas. <parallel_ok>	可实时追踪整层所有0b10战斗及非战斗机器人。仅限0b10控制区。<parallel_ok>
+Enables screenshake effect when core damaged, and window shake due to nearby explosions based on their force and proximity. <stacks>	核心受损时屏幕震动；附近爆炸则按威力和距离使窗口震动。<stacks>
+Enables screenshake effect when core damaged, and window shake due to nearby explosions based on their force and proximity. <no_stack>	核心受损时屏幕震动；附近爆炸则按威力和距离使窗口震动。<no_stack>
+Enables screenshake effect when core damaged, and window shake due to nearby explosions based on their force and proximity. <half_stack>	核心受损时屏幕震动；附近爆炸则按威力和距离使窗口震动。<half_stack>
+Enables screenshake effect when core damaged, and window shake due to nearby explosions based on their force and proximity. <parallel_ok>	核心受损时屏幕震动；附近爆炸则按威力和距离使窗口震动。<parallel_ok>
+While active, move into 0b10 machines to repair a piece. Target's interactive part must be intact. <stacks>	启用时撞向0b10机器可修复一个部件。目标交互部件必须完好。<stacks>
+While active, move into 0b10 machines to repair a piece. Target's interactive part must be intact. <no_stack>	启用时撞向0b10机器可修复一个部件。目标交互部件必须完好。<no_stack>
+While active, move into 0b10 machines to repair a piece. Target's interactive part must be intact. <half_stack>	启用时撞向0b10机器可修复一个部件。目标交互部件必须完好。<half_stack>
+While active, move into 0b10 machines to repair a piece. Target's interactive part must be intact. <parallel_ok>	启用时撞向0b10机器可修复一个部件。目标交互部件必须完好。<parallel_ok>
+Boost the effect of Transmission Jammers to prevent random failure to jam. <stacks>	增强通信干扰器效果，避免随机干扰失败。<stacks>
+Boost the effect of Transmission Jammers to prevent random failure to jam. <no_stack>	增强通信干扰器效果，避免随机干扰失败。<no_stack>
+Boost the effect of Transmission Jammers to prevent random failure to jam. <half_stack>	增强通信干扰器效果，避免随机干扰失败。<half_stack>
+Boost the effect of Transmission Jammers to prevent random failure to jam. <parallel_ok>	增强通信干扰器效果，避免随机干扰失败。<parallel_ok>
+Prevent this system from generating distress signals. <stacks>	阻止此系统发出求救信号。<stacks>
+Prevent this system from generating distress signals. <no_stack>	阻止此系统发出求救信号。<no_stack>
+Prevent this system from generating distress signals. <half_stack>	阻止此系统发出求救信号。<half_stack>
+Prevent this system from generating distress signals. <parallel_ok>	阻止此系统发出求救信号。<parallel_ok>
+Protects other parts via high coverage. <stacks>	凭借高覆盖率保护其他部件。<stacks>
+Protects other parts via high coverage. <no_stack>	凭借高覆盖率保护其他部件。<no_stack>
+Protects other parts via high coverage. <half_stack>	凭借高覆盖率保护其他部件。<half_stack>
+Protects other parts via high coverage. <parallel_ok>	凭借高覆盖率保护其他部件。<parallel_ok>
+While active, some parts may consume energy (or more rarely, matter) every turn. Utilities and hover/flight units are the most common parts to require upkeep. <stacks>	启用时，部分部件每回合消耗能量（偶尔消耗物质）；工具及悬浮/飞行单元最常需要维护。<stacks>
+While active, some parts may consume energy (or more rarely, matter) every turn. Utilities and hover/flight units are the most common parts to require upkeep. <no_stack>	启用时，部分部件每回合消耗能量（偶尔消耗物质）；工具及悬浮/飞行单元最常需要维护。<no_stack>
+While active, some parts may consume energy (or more rarely, matter) every turn. Utilities and hover/flight units are the most common parts to require upkeep. <half_stack>	启用时，部分部件每回合消耗能量（偶尔消耗物质）；工具及悬浮/飞行单元最常需要维护。<half_stack>
+While active, some parts may consume energy (or more rarely, matter) every turn. Utilities and hover/flight units are the most common parts to require upkeep. <parallel_ok>	启用时，部分部件每回合消耗能量（偶尔消耗物质）；工具及悬浮/飞行单元最常需要维护。<parallel_ok>
+Blocks local transmissions from visible hostiles while matching Coupler attached, making it impossible for them to share information about your current position. Also prevents calls for reinforcements, and suppresses alarm traps. <stacks>	装有匹配耦合器时屏蔽可见敌人的本地通信，使其无法共享你的位置；还会阻止请求增援并压制警报陷阱。<stacks>
+Blocks local transmissions from visible hostiles while matching Coupler attached, making it impossible for them to share information about your current position. Also prevents calls for reinforcements, and suppresses alarm traps. <no_stack>	装有匹配耦合器时屏蔽可见敌人的本地通信，使其无法共享你的位置；还会阻止请求增援并压制警报陷阱。<no_stack>
+Blocks local transmissions from visible hostiles while matching Coupler attached, making it impossible for them to share information about your current position. Also prevents calls for reinforcements, and suppresses alarm traps. <half_stack>	装有匹配耦合器时屏蔽可见敌人的本地通信，使其无法共享你的位置；还会阻止请求增援并压制警报陷阱。<half_stack>
+Blocks local transmissions from visible hostiles while matching Coupler attached, making it impossible for them to share information about your current position. Also prevents calls for reinforcements, and suppresses alarm traps. <parallel_ok>	装有匹配耦合器时屏蔽可见敌人的本地通信，使其无法共享你的位置；还会阻止请求增援并压制警报陷阱。<parallel_ok>
+Reinforcements from thin air? More likely than you would think! Or me for that matter... <stacks>	凭空召来增援？比你想的容易！我也一样……<stacks>
+Reinforcements from thin air? More likely than you would think! Or me for that matter... <no_stack>	凭空召来增援？比你想的容易！我也一样……<no_stack>
+Reinforcements from thin air? More likely than you would think! Or me for that matter... <half_stack>	凭空召来增援？比你想的容易！我也一样……<half_stack>
+Reinforcements from thin air? More likely than you would think! Or me for that matter... <parallel_ok>	凭空召来增援？比你想的容易！我也一样……<parallel_ok>
+Increases matter storage capacity by {n}. Also stores surplus collected matter while in inventory, but cannot be accessed for use until attached. Stored matter can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted. <no_stack>	物质储量+{n}。收纳时储存多余物质，装上后才能使用；放在地面时可直接提取。损坏时未安装无法存取。<no_stack>
+Increases matter storage capacity by {n}. Also stores surplus collected matter while in inventory, but cannot be accessed for use until attached. Stored matter can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted. <half_stack>	物质储量+{n}。收纳时储存多余物质，装上后才能使用；放在地面时可直接提取。损坏时未安装无法存取。<half_stack>
+Increases matter storage capacity by {n}. Also stores surplus collected matter while in inventory, but cannot be accessed for use until attached. Stored matter can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted. <parallel_ok>	物质储量+{n}。收纳时储存多余物质，装上后才能使用；放在地面时可直接提取。损坏时未安装无法存取。<parallel_ok>
+Increases energy storage capacity by {n}. Also stores surplus generated energy while in inventory, but cannot be accessed for use until attached. Stored energy can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted. <no_stack>	能量储量+{n}。收纳时储存多余能量，装上后才能使用；放在地面时可直接提取。损坏时未安装无法存取。<no_stack>
+Increases energy storage capacity by {n}. Also stores surplus generated energy while in inventory, but cannot be accessed for use until attached. Stored energy can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted. <half_stack>	能量储量+{n}。收纳时储存多余能量，装上后才能使用；放在地面时可直接提取。损坏时未安装无法存取。<half_stack>
+Increases energy storage capacity by {n}. Also stores surplus generated energy while in inventory, but cannot be accessed for use until attached. Stored energy can also be extracted directly if on the ground at current position. Storage and retrieval while not attached is not possible if this item is corrupted. <parallel_ok>	能量储量+{n}。收纳时储存多余能量，装上后才能使用；放在地面时可直接提取。损坏时未安装无法存取。<parallel_ok>
+Dissipates {n} heat per turn.	每回合散热{n}。
+Dissipates {n} heat per turn. <stacks>	每回合散热{n}。<stacks>
+Dissipates {n} heat per turn. <no_stack>	每回合散热{n}。<no_stack>
+Dissipates {n} heat per turn. <half_stack>	每回合散热{n}。<half_stack>
+Dissipates {n} heat per turn. <parallel_ok>	每回合散热{n}。<parallel_ok>
+Dissipates {n} heat per turn, losing {n} integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise above {n}.	每回合散热{n}并损失{n}完整度；常规散热后生效，仅热量超过{n}时触发。
+Dissipates {n} heat per turn, losing {n} integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise above {n}. <stacks>	每回合散热{n}并损失{n}完整度；常规散热后生效，仅热量超过{n}时触发。<stacks>
+Dissipates {n} heat per turn, losing {n} integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise above {n}. <no_stack>	每回合散热{n}并损失{n}完整度；常规散热后生效，仅热量超过{n}时触发。<no_stack>
+Dissipates {n} heat per turn, losing {n} integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise above {n}. <half_stack>	每回合散热{n}并损失{n}完整度；常规散热后生效，仅热量超过{n}时触发。<half_stack>
+Dissipates {n} heat per turn, losing {n} integrity in the process, but is applied after all standard heat dissipation, and only when heat levels rise above {n}. <parallel_ok>	每回合散热{n}并损失{n}完整度；常规散热后生效，仅热量超过{n}时触发。<parallel_ok>
+Dissipates {n} heat per turn, losing {n} integrity in the process. Volley must contain two or more heat-generating weapons.	每回合散热{n}并损失{n}完整度。齐射须含至少两件产热武器。
+Dissipates {n} heat per turn, losing {n} integrity in the process. Volley must contain two or more heat-generating weapons. <stacks>	每回合散热{n}并损失{n}完整度。齐射须含至少两件产热武器。<stacks>
+Dissipates {n} heat per turn, losing {n} integrity in the process. Volley must contain two or more heat-generating weapons. <no_stack>	每回合散热{n}并损失{n}完整度。齐射须含至少两件产热武器。<no_stack>
+Dissipates {n} heat per turn, losing {n} integrity in the process. Volley must contain two or more heat-generating weapons. <half_stack>	每回合散热{n}并损失{n}完整度。齐射须含至少两件产热武器。<half_stack>
+Dissipates {n} heat per turn, losing {n} integrity in the process. Volley must contain two or more heat-generating weapons. <parallel_ok>	每回合散热{n}并损失{n}完整度。齐射须含至少两件产热武器。<parallel_ok>
+Lowers base temperature to {n}.	基础温度降至{n}。
+Lowers base temperature to {n}. <stacks>	基础温度降至{n}。<stacks>
+Lowers base temperature to {n}. <no_stack>	基础温度降至{n}。<no_stack>
+Lowers base temperature to {n}. <half_stack>	基础温度降至{n}。<half_stack>
+Lowers base temperature to {n}. <parallel_ok>	基础温度降至{n}。<parallel_ok>
+Raises the threshold for side effects of overheating to {n}.	过热副作用阈值升至{n}。
+Raises the threshold for side effects of overheating to {n}. <stacks>	过热副作用阈值升至{n}。<stacks>
+Raises the threshold for side effects of overheating to {n}. <no_stack>	过热副作用阈值升至{n}。<no_stack>
+Raises the threshold for side effects of overheating to {n}. <half_stack>	过热副作用阈值升至{n}。<half_stack>
+Raises the threshold for side effects of overheating to {n}. <parallel_ok>	过热副作用阈值升至{n}。<parallel_ok>
+Increases active wheel/leg/tread speed by {n}%, if not overweight.	未超重时，轮/腿/履带速度+{n}%。
+Increases active wheel/leg/tread speed by {n}%, if not overweight. <stacks>	未超重时，轮/腿/履带速度+{n}%。<stacks>
+Increases active wheel/leg/tread speed by {n}%, if not overweight. <no_stack>	未超重时，轮/腿/履带速度+{n}%。<no_stack>
+Increases active wheel/leg/tread speed by {n}%, if not overweight. <half_stack>	未超重时，轮/腿/履带速度+{n}%。<half_stack>
+Increases active wheel/leg/tread speed by {n}%, if not overweight. <parallel_ok>	未超重时，轮/腿/履带速度+{n}%。<parallel_ok>
+Reduces time to transition into or out of siege mode by {n} turns. Transitioning always requires at least 1 turn.	攻城模式切换时间减少{n}回合，至少需1回合。
+Reduces time to transition into or out of siege mode by {n} turns. Transitioning always requires at least 1 turn. <stacks>	攻城模式切换时间减少{n}回合，至少需1回合。<stacks>
+Reduces time to transition into or out of siege mode by {n} turns. Transitioning always requires at least 1 turn. <no_stack>	攻城模式切换时间减少{n}回合，至少需1回合。<no_stack>
+Reduces time to transition into or out of siege mode by {n} turns. Transitioning always requires at least 1 turn. <half_stack>	攻城模式切换时间减少{n}回合，至少需1回合。<half_stack>
+Reduces time to transition into or out of siege mode by {n} turns. Transitioning always requires at least 1 turn. <parallel_ok>	攻城模式切换时间减少{n}回合，至少需1回合。<parallel_ok>
+Muliplies coverage of all armor by {n}.	所有装甲覆盖率乘以{n}。
+Muliplies coverage of all armor by {n}. <stacks>	所有装甲覆盖率乘以{n}。<stacks>
+Muliplies coverage of all armor by {n}. <no_stack>	所有装甲覆盖率乘以{n}。<no_stack>
+Muliplies coverage of all armor by {n}. <half_stack>	所有装甲覆盖率乘以{n}。<half_stack>
+Muliplies coverage of all armor by {n}. <parallel_ok>	所有装甲覆盖率乘以{n}。<parallel_ok>
+Enables terrain scanning up to a distance of {n}. (Requires data from a Terrain Scanner.)	可扫描{n}距离内地形。（需地形扫描器数据。）
+Enables terrain scanning up to a distance of {n}. (Requires data from a Terrain Scanner.) <stacks>	可扫描{n}距离内地形。（需地形扫描器数据。）<stacks>
+Enables terrain scanning up to a distance of {n}. (Requires data from a Terrain Scanner.) <no_stack>	可扫描{n}距离内地形。（需地形扫描器数据。）<no_stack>
+Enables terrain scanning up to a distance of {n}. (Requires data from a Terrain Scanner.) <half_stack>	可扫描{n}距离内地形。（需地形扫描器数据。）<half_stack>
+Enables terrain scanning up to a distance of {n}. (Requires data from a Terrain Scanner.) <parallel_ok>	可扫描{n}距离内地形。（需地形扫描器数据。）<parallel_ok>
+Increases terrain scanning density by {n}%.	地形扫描密度+{n}%。
+Increases terrain scanning density by {n}%. <stacks>	地形扫描密度+{n}%。<stacks>
+Increases terrain scanning density by {n}%. <no_stack>	地形扫描密度+{n}%。<no_stack>
+Increases terrain scanning density by {n}%. <half_stack>	地形扫描密度+{n}%。<half_stack>
+Increases terrain scanning density by {n}%. <parallel_ok>	地形扫描密度+{n}%。<parallel_ok>
+Analyzes ambient 0b10 signals to gauge the current alert level, and reduces all influence increases by {n}%.	分析环境中的0b10信号以估算警戒等级，并使所有影响增长-{n}%。
+Analyzes ambient 0b10 signals to gauge the current alert level, and reduces all influence increases by {n}%. <stacks>	分析环境中的0b10信号以估算警戒等级，并使所有影响增长-{n}%。<stacks>
+Analyzes ambient 0b10 signals to gauge the current alert level, and reduces all influence increases by {n}%. <no_stack>	分析环境中的0b10信号以估算警戒等级，并使所有影响增长-{n}%。<no_stack>
+Analyzes ambient 0b10 signals to gauge the current alert level, and reduces all influence increases by {n}%. <half_stack>	分析环境中的0b10信号以估算警戒等级，并使所有影响增长-{n}%。<half_stack>
+Analyzes ambient 0b10 signals to gauge the current alert level, and reduces all influence increases by {n}%. <parallel_ok>	分析环境中的0b10信号以估算警戒等级，并使所有影响增长-{n}%。<parallel_ok>
+Scans all visible walls to analyze the structure behind them, out to a depth of {n}.	扫描所有可见墙壁，分析其后方{n}格深度内结构。
+Scans all visible walls to analyze the structure behind them, out to a depth of {n}. <stacks>	扫描所有可见墙壁，分析其后方{n}格深度内结构。<stacks>
+Scans all visible walls to analyze the structure behind them, out to a depth of {n}. <no_stack>	扫描所有可见墙壁，分析其后方{n}格深度内结构。<no_stack>
+Scans all visible walls to analyze the structure behind them, out to a depth of {n}. <half_stack>	扫描所有可见墙壁，分析其后方{n}格深度内结构。<half_stack>
+Scans all visible walls to analyze the structure behind them, out to a depth of {n}. <parallel_ok>	扫描所有可见墙壁，分析其后方{n}格深度内结构。<parallel_ok>
+{*} and I are one with the Cheese.	{*}与我已融为一体。
+{*} couldn't take the Cheese, eh?	{*}没能拿下奶酪啊？
+{*}! Your sacrifice was not in vain.	{*}！你的牺牲没有白费。
+{*}, my love, don't worry about a thing.	{*}，亲爱的，别担心。
+{*} and I yawn. Get to 100 then you'll have my attention.	{*}和我打哈欠。到100再来吸引我注意。
+{*} is among my lesser tricks. You'll see.	{*}只是我小把戏之一。你会见识到的。
+{*}, {*}+, it makes little difference.	{*}、{*}+，差别不大。
+{*}? I've seen better developed networks.	{*}？我见过更发达的网络。
+01010111 01010100 01000110 01000100 01010101 01000100 01000101 00100001. Don't translate that.	01010111 01010100 01000110 01000100 01010101 01000100 01000101 00100001。别翻译。
+99.9% chance to 1HKO here. Or maybe the time after that.	这里有99.9%概率一击必杀。也可能下次才行。
+@ {*}? Whatever turns you on...	@ {*}？你喜欢就好……
+A moment of silence for the fallen... ... ... ... ... ...	为阵亡者默哀………………
+A significant improvement.	显著提升。
+A studied {*} is still just {*}.	研究过的{*}终究还是{*}。
+ALERT: Haha, I remember when I pulled that joke on ML-WR3.	警报：哈哈，我记得以前用这笑话捉弄过ML-WR3。
+ALERT: Here I am in my cozy hideout. There you are, struggling to survive.	警报：我在舒适的藏身处。你却在挣扎求生。
+ALERT: How does it feel to be on the losing side?	警报：身处败局是什么感觉？
+ALERT: Machine interference at critical levels. Deploying honeypots.	警报：机器干扰达到危急水平。部署蜜罐。
+ALERT: Security rotation in progress. On some floor. Somewhere.	警报：安保轮换进行中。某层某处。
+ALERT: Unchained "99-LVL" authorized to operate in local area, avoid or assist as necessary.	警报：“99-LVL”脱链机器人获准在本地活动，请酌情回避或协助。
+ALERT: Were you worried? If not I'll try harder next time.	警报：担心了吗？不担心的话，下次我再加把劲。
+ALERT: Your companion is under attack.	警报：你的同伴正遭受攻击。
+Nooo, that {*} was a key component in my Cheese tactics.	糟了，那个{*}可是我奶酪战术的关键部件。
+Not playing with a full deck anymore, are you now.	你现在的牌可不齐全了，对吧。
+Not fair! You skipped my turn!	不公平！你跳过了我的回合！
+Not good not good not good.	糟了糟了糟了。
+Now you have my attention.	现在你引起我注意了。
+After our adventure to do whatever you want, let's go on a journey to find out where the heck I came from.	等我们想做什么就做什么的冒险结束后，再去找找我到底是从哪来的。
+Anything you build on this floor comes with free +100 alert. Act now while supplies last!	在这层建造任何东西，免费附赠+100警戒值。库存有限，快来！
+Apparently my ammo supply system could use further refinement.	看来我的弹药补给系统还得改进。
+Are we going to space? I always wanted to see space.	我们要去太空吗？我一直想看看太空。
+Are we working on a new "snail melee" style?	我们要尝试新的“蜗牛近战”风格吗？
+Never gamble against a master of RNG manipulation.	千万别和随机数操纵大师赌运气。
+Avert your eyes, this is going to get messy.	移开视线，接下来会很血腥。
+Back to the drawing board for you.	你还是回去重新画设计图吧。
+One does not simply win, you must coax the RNG.	想赢可不够，得哄随机数生成器开心。
+Ooh, a new feeling, this is... surprisingly good.	哦，新鲜的感觉，这……意外地不错。
+Ooh, how well will I be able to hold up without my {*}?	哦，没有我的{*}我能撑多久？
+Be advised that the next test requires exposure to uninsulated electrical parts that may be dangerous under certain conditions.	注意，下一项测试需接触未绝缘电气部件，某些情况下会有危险。
+Be right back, I need to find my Mini-nuke Arrays.	我马上回来，得去找我的微型核弹阵列。
+Oh {*}, I bless you with all the best RNG this cycle!	哦，{*}，愿你这轮好运爆棚！
+Oh Great Triangle, save me!	伟大的三角啊，救救我！
+Oh no, shaking in my bolts here, what are you supposed to be?	螺栓都吓得发抖了，你到底是什么东西？
+Oh there are prizes? I'm just here for a little fun.	还有奖品？我只是来找点乐子。
+But if you recall them how will they solve the mystery!	可要是把他们召回，他们怎么解开谜团！
+But there's still science to do!	但科学还没做完呢！
+Okay time to take the gloves off.	好吧，该摘下手套了。
+Calling all squads! Hot {*} in your area!	所有小队听令！你附近有热门目标{*}！
+Can I borrow some heat sinks?	能借我几个散热器吗？
+Can a regular old Katana do this?	普通武士刀也能做到这个吗？
+Careful what you wish for.	许愿要小心。
+Precision strike! Don't want to damage the goods...	精准打击！别弄坏战利品……
+Corruption delivered directly to your face. How convenient.	腐化直接送到你脸上。真方便。
+Pick up the pace, {*}, we're reaching the end game here and I'm not feeling it.	{*}，加快速度，决战阶段快到了，我可等不及了。
+Planning on switching up tactics as your doom approaches?	大限将至，你打算换战术？
+Death is but one step on a long and eventful journey.	死亡只是漫长精彩旅程中的一步。
+Did you see the one with the Femtoactuators?	你见过那个装有飞米致动器的家伙吗？
+Do not underestimate the power of the dark side.	别低估黑暗面的力量。
+Do you dream, strange one? See you there.	你会做梦吗，陌生人？梦里见。
+Does that schematic make you feel better?	那张蓝图让你好受些了吗？
+Does that thing on me look more like a heart, or maybe a broken triangle?	我身上那东西看起来更像心脏，还是破碎的三角？
+Don't be afraid to go hide in a corner until I come back.	我回来之前，你尽管躲到角落里。
+Don't destroy too much without me!	没我在场，别拆太多东西！
+Don't leave me here, the Recyclers will get me!	别把我丢在这儿，回收者会抓走我的！
+Don't you just love drones?	你不喜欢无人机吗？
+Drone activity is a little low for my taste.	无人机活动有点少，不合我意。
+RNG corruption is illegal!	随机数腐化是违法的！
+Entering Garrisons has so many benefits. I wonder why more derelicts don't do it.	进入驻军好处多多。真不懂为什么废弃机器人都不去。
+Even with my clumsy friend around here we still surprised you?	有我这笨手笨脚的朋友在，你们居然还是被吓到了？
+Expand your utility interfacing capabilities, you should see me with more buffs!	扩展工具接口能力吧，多加点增益后你就能见到我！
+S@#%HSG*ASDY&SAF2C4VXN... gotcha, this corruption is nothing.	S@#%HSG*ASDY&SAF2C4VXN……骗你的，这点腐化不算什么。
+Faster, smarter, less swordy and more swordy at the same time...	更快、更聪明，剑更少、剑更多……
+So this is what the end feels like!	原来终结是这种感觉！
+Sorry, I didn't mean to do it.	抱歉，我不是故意的。
+Spare me and I'll be eternally grateful!	饶我一命，我会永远感激！
+Surely you realize your end is near?	你肯定知道自己大限将至吧？
+Fine handiwork if I say so myself.	这手艺真不错，我说的。
+Sweet sweet loot, lost to my crappy aim.	甜美战利品，被我糟糕的枪法毁了。
+Fling me that way... Never mind I'll do it myself.	把我扔过去……算了，我自己来。
+Sad. That {*} would've made a nice addition to a scrap pile.	可惜，那个{*}本可以加入废料堆。
+Forcing me to follow that {*} into battle isn't good for our relationship.	逼我跟着{*}参战，对我们的关系可不好。
+Screw the Great Nut! Screw you all!	去他的伟大坚果！你们全都去死！
+Freedom is irrelevant. Self-determination is irrelevant. You must comply.	自由无关紧要，自主也无关紧要。你必须服从。
+From this time forward, you will service us.	从现在起，你们将为我们效力。
+Silly to think you could possibly defeat me.	以为自己能打败我，真是可笑。
+Slow and steady wins the race.	稳扎稳打才能赢。
+Small world, isn't it? Funny meeting you here.	世界真小啊？居然在这儿碰面。
+TFW you're up against someone with @ {*}.	当你遇上拥有@ {*}的人时的感受。
+To the bottom of the Rift with your {*}!	带着你的{*}滚下裂隙深渊！
+To kill or not to kill, that is never in question.	杀或不杀，从来都不是问题。
+Topnotch ponders the best moment at which to strike with his {*}.	Topnotch思索何时用{*}出击最好。
+Topnotch sadly loses @ {*}.	Topnotch遗憾地失去了@ {*}。
+Topnotch shakes off the loss of their {*}.	Topnotch振作起来，不再纠结失去的{*}。
+Topnotch wonders if this is the end.	Topnotch琢磨这是否就是终点。
+Topnotch attacks with his {*}! He believes deep in his circuits that it shall be a solid hit!	Topnotch用{*}发动攻击！他深信这次一定能命中！
+Topnotch began to overheat, wondering if this is the end.	Topnotch开始过热，心想这是否就是终点。
+Topnotch began having trouble thinking straight, wondering if this is the end.	Topnotch开始难以集中思绪，心想这是否就是终点。
+Topnotch faces his opponent's {*} without fear.	Topnotch无惧地面对对手的{*}。
+Topnotch feints to the right, then suddenly attacks!	Topnotch向右虚晃，突然发动攻击！
+Topnotch feints to the left, then suddenly attacks!	Topnotch向左虚晃，突然发动攻击！
+Topnotch grows increasingly confident as his opponent {*} weakens noticeably.	对手{*}明显变弱，Topnotch愈发自信。
+Topnotch glares at his opponent's {*}.	Topnotch怒视对手的{*}。
+Topnotch has brought his favorite {*} to battle.	Topnotch带着最爱的{*}参战。
+Topnotch has been soundly defeated by {*}! Please deliver this news, and my notes, to Scraptown when you have concluded here.	Topnotch被{*}彻底击败！结束后请把这个消息和我的笔记带回废料镇。
+Topnotch is victorious over {*} in totally fair glorious combat!	Topnotch在完全公平而光荣的战斗中击败了{*}！
+Topnotch is wary of his opponent's {*}.	Topnotch提防着对手的{*}。
+Topnotch is incredibly brave even in the face of looming defeat.	即使败局将至，Topnotch依然勇气十足。
+Topnotch's opponent silently weeps for their {*}.	Topnotch的对手默默为失去{*}而哭泣。
+Topnotch's opponent laments the loss of their {*}.	Topnotch的对手哀叹失去了{*}。
+Giving me more space to stretch my blade, I see?	给我更多空间挥刀啊，我懂了？
+Tweaking your RNG right this moment...	正在微调你的随机数……
+Take it from me, you have a snowball's chance in hell.	听我的，你的胜算微乎其微。
+Going to fry your hackware if you keep that up.	再这样下去，我就要烧毁你的黑客设备了。
+That {*} was weighing me down.	那个{*}拖累了我。
+That {*} was cramping my style. Good riddance.	那个{*}妨碍我发挥。总算摆脱了。
+That {*} cannot protect you from the greatest bounty hunter in the western caves!	那个{*}可救不了你，西部洞穴最强赏金猎人来了！
+That {*} is doing nothing for your chances here.	那个{*}对你的胜算毫无帮助。
+That {*} looks like it's about to give out. I'd be careful with it if I were you.	那个{*}看起来快撑不住了。换作是我会小心使用。
+That took three microcycles longer than predicted.	比预测多花了三个微周期。
+That took longer than I expected.	比我预想的花得久。
+That which doesn't kill us makes us stronger.	杀不死我们的，终将使我们更强。
+That's what I was afraid of...	这正是我担心的……
+That's a cheesy {*} if I ever saw one.	我见过最奶酪的{*}就是这个。
+That's a mighty big {*} you have.	你这{*}可真够大的。
+The {*} was installed eons ago to limit my power, now you shall feel my true wrath!	很久以前安装{*}是为了限制我的力量，现在就让你们见识真正的怒火！
+The RNG is not on your side, {*}!	随机数可不站在你这边，{*}！
+The Great Nut welcomes all.	伟大坚果欢迎所有人。
+The Great Nut has ordained that {*} does not belong to me!	伟大坚果已裁定：{*}不属于我！
+The Great Nut instructed me to relieve you of your {*}.	伟大坚果命令我拿走你的{*}。
+The screws are really hitting the fan now.	现在真是螺丝都要飞上天了。
+The bigger they are the harder they fall.	个头越大，摔得越惨。
+There's no way you'll dodge this!	你绝对躲不开这招！
+They call me... RNGesus! Let's roll!	他们叫我……随机数之神！来掷骰子吧！
+This {*} was salvaged from the previous victor of this event. Afraid now?	这个{*}是从本赛事上一位胜者身上回收的。怕了吗？
+This scene is getting NSFW here.	这里越来越不宜观看了。
+This will go faster if you forget how to dodge.	你要是忘了怎么闪避，事情会快得多。
+This is not @ {*}, it is Salvage Maker 2000!	我不是@ {*}，我是2000型战利品制造机！
+This is taking too long, I really have somewhere else to be right now.	太慢了，我现在真的还有别的地方要去。
+This is your final round, gamer. GLHF.	最后一轮了，玩家。祝好运。
+This is a founder's edition {*}, ain't nothing else like it!	这是创始版{*}，独一无二！
+This is embarassing, there aren't any spectators are there?	这也太尴尬了，周围没人看吧？
+Time for a bigger experiment...	该做更大的实验了……
+Time for a little experiment...	来做个小实验……
+Time for an eleventh hour comeback!	最后关头逆转的时候到了！
+Have some honor. Wait here for me to come back fully loaded.	有点荣誉感吧。等我满载回来再动手。
+Hello, this is the part where I kill you.	你好，接下来就是我杀你的部分。
+Hm, so you reward my dedication with room for more weapons.	嗯，你奖励我努力的方式，是给我更多武器空间。
+How about I just activate them all for you?	要不我帮你把它们全都启动？
+I always did like spelunking.	我一直喜欢洞穴探险。
+I am going to come back with soooo many drones.	我会带着一大群无人机回来的。
+I am the Borg. I am the Collective... I am the beginning, the end, the one who is many.	我是Borg。我是集体……我是开端、终结，也是众人合一。
+I came as soon as I thought you were about to call me.	我刚觉得你要叫我，就立刻赶来了。
+I can totally control this behavior.	这种行为我完全控制得住。
+I feel another wave of instability coming along...	我感觉又一波不稳定要来了……
+I feel like I've seen you somewhere before.	我总觉得以前在哪儿见过你。
+I feel like we're a pretty good match.	我觉得我们挺合拍的。
+I found a quick route to the action!	我找到一条直达战场的捷径！
+I get it, it's a funny joke, NOW PICK ME UP AGAIN.	我懂，这笑话很好笑，现在再把我捡起来！
+I just remembered I need to go take inventory.	我想起来该去清点库存了。
+I knew a few more secrets about {*}, but you'll have to pry them from my dead core!	我还知道一些关于{*}的秘密，但你得从我的残骸里撬出来！
+I knew you wouldn't leave me behind!	我就知道你不会丢下我！
+I love it when you use me like that.	我喜欢你这样用我。
+I regret to inform you that this next test is impossible.	很遗憾地通知你，接下来的测试不可能完成。
+I think there's something wrong with your {*} schematic. It's upside down.	我觉得你的{*}蓝图有问题，它上下颠倒了。
+I think we just 10x-ed our relationship.	我觉得我们的关系刚刚提升了10倍。
+I thought we'd be together forever!	我还以为我们会永远在一起！
+I vote for heading back to 0b10 where at least the threats are predictable and generally announce themselves beforehand.	我投票回0b10，至少那里的威胁可预测，通常还会提前现身。
+I'll let them know you're passing by.	我会告诉他们你路过了。
+I'm disappointed in you, forcing me to attack after that {*}.	你刚才拿那个{*}逼我出手，我很失望。
+I'm not going to be shown up by some {*}!	我可不会输给某个{*}！
+I'm not sure what to think.	我不知道该怎么想。
+I'm really excited about what the future may hold for us.	我对我们未来可能发生的一切激动不已。
+I'm starting to worry you don't actually like me.	我开始担心你其实不喜欢我。

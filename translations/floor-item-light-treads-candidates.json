@@ -1,0 +1,42 @@
+{
+  "title": "Floor item tooltip candidates: Light Treads",
+  "status": "Candidate only; preserve native sources and integrate with the root runtime work after matching behavior/layout review.",
+  "source_evidence": "analysis/native-evidence/floor-item-light-treads-source-audit.json",
+  "candidates": [
+    {
+      "kind": "complete_sentence",
+      "source": "{n}% chance to crush robots when ramming them. Cannot crush targets of large or greater size, or those with more than {n} core integrity.",
+      "replacement": "冲撞时有{1}%几率压碎机器人。无法压碎大型及以上目标，也无法压碎核心耐久超过{2}的目标。",
+      "source_values_in_capture": [
+        "5",
+        "50"
+      ],
+      "match_notes": "Use two numeric captures. Current para 13578 is an incomplete prefix and should not be considered coverage of this full runtime source."
+    },
+    {
+      "kind": "stack_cap",
+      "source": "<stacks, capped at {n}%>",
+      "replacement": "<可叠加，最高{1}%>",
+      "source_values_in_capture": [
+        "35"
+      ],
+      "match_notes": "Keep the angle-bracket convention used by existing stack annotations while translating the full meaning and dynamic cap."
+    },
+    {
+      "kind": "complete_item_effect_line",
+      "source": "{*}: {n} recoil from each weapon, and immunity to knockback.",
+      "replacement": "{1}：每件武器后坐力{2}，并免疫击退。",
+      "source_values_in_capture": [
+        "-1"
+      ],
+      "match_notes": "Generic exact-effect template. Verified all 14 base tread display names have exact translations in zh_trans and fit the production CapXlatWide name-translation budget. Core fixture exercises all 14; {1} denotes the source name, {2} preserves the signed recoil amount (-1). Other items with this exact effect phrase are translated consistently too when their captured name is in the dictionary."
+    }
+  ],
+  "integration_cautions": [
+    "Do not call the existing para 13578 prefix a match for the full crushing sentence; it lacks the integrity threshold and sentence ending.",
+    "{*} captures and re-emits text per the matcher tests; a wildcard item-name prefix alone does not prove item names are translated.",
+    "This audit covers the evidenced Light Treads tooltip only.",
+    "The generic effect template is safe for items that have the exact same full effect suffix; captured names translate only when found in the built dictionary and within CapXlatWide’s width budget."
+  ],
+  "fixture": "analysis/native-evidence/test-cmkr-name-capture-fixture.c"
+}

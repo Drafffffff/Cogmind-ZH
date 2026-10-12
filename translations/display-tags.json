@@ -1,0 +1,19 @@
+{
+  "labels": {
+    "stacks": "可叠加",
+    "no_stack": "不叠加",
+    "half_stack": "半效叠加",
+    "parallel_ok": "可并行",
+    "resume_ok": "可续作",
+    "consumed": "消耗品",
+    "affects_seed": "影响种子",
+    "unclaimed": "未领取"
+  },
+  "evidence": {
+    "manual": "original/bazzite/manual.txt:1169-1182",
+    "scope": "Visible info-window indicators are translated in the drawing overlay after native game logic; source matching keys remain English.",
+    "half_stack": "Only best two utilities combine; second contributes 50%.",
+    "consumed": "Attaching activates and permanently consumes the utility.",
+    "additional": "affects_seed in manual challenge descriptions; unclaimed is the visible claim-state label."
+  }
+}
