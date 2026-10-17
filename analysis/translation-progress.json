@@ -1,0 +1,22 @@
+{
+  "trans": {
+    "upstream_rules": 56249,
+    "source_rules": 56399,
+    "translated_rules": 56399,
+    "manual_rules": 473,
+    "draft_batches_excluded": [],
+    "quoted_aliases_added": 0,
+    "speaker_aliases_added": 0,
+    "pending_rules": 0
+  },
+  "para": {
+    "upstream_rules": 16377,
+    "source_rules": 16757,
+    "translated_rules": 16757,
+    "manual_rules": 50,
+    "draft_batches_excluded": [],
+    "quoted_aliases_added": 2009,
+    "speaker_aliases_added": 2041,
+    "pending_rules": 0
+  }
+}

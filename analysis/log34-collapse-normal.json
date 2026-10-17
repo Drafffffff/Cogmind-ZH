@@ -1,0 +1,17 @@
+{
+  "key": "pointer",
+  "linux_codes": [],
+  "input": "ydotool kernel input",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "18e7827a9ec91bc765ab1e559cff697f89607cdd2f8a9f25d257fd5769cc42ab",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-log34-collapse-normal.mp4",
+  "game_exited": null,
+  "mp4_path": "output/cogmind-log34-collapse-normal.mp4",
+  "mp4_sha256": "626257f9f0b3b689fea6dd6ceb1264d9960ffde743d9487263fd7de0953949b8",
+  "grids.json_path": "output/cogmind-log34-collapse-normal.grids.json",
+  "grids.json_sha256": "8efb9096c3388aa78fa1b81eac9c312737c04cdb98744f011aa78f28cb3cdab0"
+}

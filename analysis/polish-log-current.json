@@ -1,0 +1,10 @@
+{
+  "capture": "output/polish-log-current.json",
+  "sha256": "9a4b8ba92cb198854b9a41b1faa0a8ba439d25621834b18e4c0aea3f62c5dfbe",
+  "dll_sha256": "66dc586fe16717ad311177c2fdc5a808766d1c9230123e8e6a069e262c69be5b",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

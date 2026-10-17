@@ -1,0 +1,20 @@
+{
+  "key": "pointer",
+  "linux_codes": [],
+  "input": "ydotool pointer with verified X11 coordinates",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "d62979d1e9f235c1904437b28c1ad10bc5c2608383ea54adffae12d8ca6a63a1",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-log-data-close-status.png",
+  "game_exited": null,
+  "point": [
+    1188,
+    2136
+  ],
+  "button": "left",
+  "drag_to": null,
+  "local_output": "output/cogmind-log-data-close-status.png"
+}

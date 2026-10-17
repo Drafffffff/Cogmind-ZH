@@ -1,0 +1,10 @@
+{
+  "capture": "output/polish-log-pickup-grid-pixel25.json",
+  "sha256": "fa76a080bdf162c252810a7affc94814fae60afa9c89e03a4838a2ffd1fe2865",
+  "dll_sha256": "42ad4b4f7ab1314564bb3bd83808aa69f171317efedd2b64fb82d6dd6379944a",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

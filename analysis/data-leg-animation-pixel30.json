@@ -1,0 +1,17 @@
+{
+  "key": "pointer",
+  "linux_codes": [],
+  "input": "ydotool kernel input",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "4b59a5bfe8c8a7c4c860d8bb379146af648269899e7b5c4d2f21a926d2f6cec9",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-data-leg-animation-pixel30.mp4",
+  "game_exited": null,
+  "mp4_path": "output/cogmind-data-leg-animation-pixel30.mp4",
+  "mp4_sha256": "dd828177e9fc696550c10f6daca18257601c4409c2d65b1ba73bd9a4b9db68e5",
+  "grids.json_path": "output/cogmind-data-leg-animation-pixel30.grids.json",
+  "grids.json_sha256": "71bf41ae682c8225f31cc6d0ea5268c8298af1471feda214b0fd2374c016da9f"
+}

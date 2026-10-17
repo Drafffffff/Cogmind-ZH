@@ -1,0 +1,10 @@
+{
+  "capture": "output/scan-zhuyin-fixed-pixel28.json",
+  "sha256": "f6e20214ee75be92a08266e75e7badcb6de32d9a6f3805384e2d2e474854f9d8",
+  "dll_sha256": "cbe908b9c8e5673cafa207032a4a2cc30501bb3ecf3f28df3acfb9ab4893aac9",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

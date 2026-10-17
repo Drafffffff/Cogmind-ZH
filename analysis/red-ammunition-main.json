@@ -1,0 +1,10 @@
+{
+  "capture": "output/red-ammunition-main.json",
+  "sha256": "1f0331b852c6c06defc1b3feada9edf53c2ed841a425d3ff91b31ac2472a6b3c",
+  "dll_sha256": "15ca27b1bf129c4203e067f5592031bb47066b7a801bfa2ec085e70385d2c3f1",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "capture": "output/terminal-user-opened.json",
+  "sha256": "31577bc3663a89a63375b8b48f91ff56201d5cebc4e5840e72d7cfe2f5ba70d4",
+  "dll_sha256": "6e7093af28804ec7bafb1cd15cfc952f21ff750d05ab2662bb00cea261914b7d",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "capture": "output/terminal-priority-current.json",
+  "sha256": "86ceb84c59869088682ea914e8db4c49cd5f75090e1906b5838789fa33336501",
+  "dll_sha256": "6e7093af28804ec7bafb1cd15cfc952f21ff750d05ab2662bb00cea261914b7d",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

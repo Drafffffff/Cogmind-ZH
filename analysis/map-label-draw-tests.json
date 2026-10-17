@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "test_result": 0,
+  "helper_sha256": "04b5c7dbb9b4396a499be871fee5252368baf9b5c2a9f94002ae383473de6184",
+  "source_fixture_sha256": "62fe58f8c0a1f0bf056cf4eaff2ef6b0522eeccc42bc990bdb4cd2366254e7d1",
+  "transition_fixture_sha256": "3f7d396fd63088e6bd93c7460166053bcbb64f2002132f50c32feb039cf6c9b0",
+  "sanitizers": [
+    "AddressSanitizer",
+    "UndefinedBehaviorSanitizer"
+  ],
+  "production_rule_validation": "Python exact full-TSV match pass plus C core against selected matching rules; the C harness does not load every production rule simultaneously.",
+  "rules_sha256": "38b222d5ad7b48e75cab2c988dda56b217cad9eee61e78ebb56ac3386f4cc871",
+  "production_dll_sha256": null,
+  "runtime_status": "not integrated or built",
+  "scope": [
+    "15 live-probed map-label source records uniquely matched against full production TSV; C matcher exercised with the selected corresponding rules",
+    "nested scale-1 map chain and cell projection",
+    "capture gating for numeric [1] rank",
+    "captured missing-root and one-sample color-lag transitions skip without retiring; default-incomplete phonetic draw and explicit-completion Chinese draw",
+    "temporary source-buffer lifetime",
+    "source immutability and per-cell background clear",
+    "invalid scale/projection/root/bounds/cycle rejection",
+    "overlapping sibling refusal",
+    "HUD-off, child glyph reuse and destructor invalidation"
+  ],
+  "limits": [
+    "Host mock validates the candidate helper only; it is not included in a production DLL.",
+    "No native completion producer is connected; entries remain in phonetic reveal mode unless an external caller explicitly sets completion. No palette/uniformity heuristic promotes them.",
+    "The committed transition fixture is sequential RPM data rather than an atomic frame capture; one-frame root/child lag is modeled explicitly.",
+    "Overlapping currently-owned projected siblings are deliberately refused.",
+    "Only the exact 4-level observed map ancestry and 50x35 scale-1 map parent are accepted."
+  ]
+}

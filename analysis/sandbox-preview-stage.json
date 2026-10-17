@@ -1,0 +1,13 @@
+{
+  "status": "sandbox_preview_staged",
+  "sandbox_path": "/var/home/bazzite/Games/Cogmind-ZH-sandbox/Cogmind-20261011T165520.803328Z",
+  "version": "v102-zh-pixel.34-log-scroll-preview",
+  "files": {
+    "WININET.dll": "18e7827a9ec91bc765ab1e559cff697f89607cdd2f8a9f25d257fd5769cc42ab",
+    "zh_trans.tsv": "38b222d5ad7b48e75cab2c988dda56b217cad9eee61e78ebb56ac3386f4cc871",
+    "zh_para.tsv": "ed5b509f0f734e4c3742f1c9c07692b767919e3bceb75fb6f932c15ddd9e81ec",
+    "FONT-LICENSE.txt": "ba5c8c77b09a01fbcc3e707b377d956980582840a7cb82de1c7639c100b670cc",
+    "manual.txt": "69eb1eea83595e9500900dcb59a32ac9cfe2444e125212e555ccf493c9448bf3"
+  },
+  "main_user_unchanged": true
+}

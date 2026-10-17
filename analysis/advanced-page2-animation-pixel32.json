@@ -1,0 +1,17 @@
+{
+  "key": "pointer",
+  "linux_codes": [],
+  "input": "ydotool kernel input",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "1ae4047e12b81191de3d0d8ed2f35a1b1b966c55c5c69640ad350345e3afb941",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-advanced-page2-animation-pixel32.mp4",
+  "game_exited": null,
+  "mp4_path": "output/cogmind-advanced-page2-animation-pixel32.mp4",
+  "mp4_sha256": "31cf9bc67c14ad62f2d63d75d85d5720a53a6b4f566a71d4636f1addf052ebad",
+  "grids.json_path": "output/cogmind-advanced-page2-animation-pixel32.grids.json",
+  "grids.json_sha256": "ee8b106a14f759d3c7600c905958e29076214e0f72fb532b95d9aad3e69c88ec"
+}

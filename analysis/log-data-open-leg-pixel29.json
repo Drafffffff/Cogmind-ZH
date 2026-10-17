@@ -1,0 +1,10 @@
+{
+  "capture": "output/log-data-open-leg-pixel29.json",
+  "sha256": "472211d0581a9ce6d960511ec7e0a9889ca795143b5023cff87ecaa08709f534",
+  "dll_sha256": "d62979d1e9f235c1904437b28c1ad10bc5c2608383ea54adffae12d8ca6a63a1",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

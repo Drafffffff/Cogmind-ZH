@@ -1,0 +1,11 @@
+{
+  "status": "prototype_not_installed_or_runtime_verified",
+  "source_sha256": "ad2724257c2b4a646eef875bc0233e70aa042dc639092784cda6923ff9b8df0f",
+  "audit_sha256": "1e481b34d859cae1636431d66822cc330191bb031637e479b6d66064554dca02",
+  "review_sha256": "3c01e2600d7400cc54baf67faded0c6b946f50c1c14deb6cca54e28cd4099816",
+  "proxy_sha256": "69eb1eea83595e9500900dcb59a32ac9cfe2444e125212e555ccf493c9448bf3",
+  "chapter_count": 26,
+  "subheading_count": 135,
+  "translated_rows": 2324,
+  "native_body_rows": 2938
+}

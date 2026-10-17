@@ -1,0 +1,17 @@
+{
+  "status": "latest_user_copied_to_sandbox",
+  "backup": "/home/bazzite/Games/Cogmind-ZH-sandbox/user-before-log-scroll-20261012T142451Z",
+  "main_user_unchanged": true,
+  "copied_hashes": {
+    "system.cfg": "09a318cd1a308701199d07e982446ae1ea11411d354ebb1827782b9bacd83264",
+    "options.cfg": "7aad12663224c1b64bafe116dcfe6625f51fcd7efe89669c3655d86ca28f5b7f",
+    "advanced.cfg": "461a4876ed740f8034f3249df70734ffa3bc55e9c4f3407785e6ae0eeaa67f59",
+    "notes.txt": "b82c1856040b2e8687734f81eaec007a25c9e12b6365e5398344691884f902cb",
+    "progress.bin": "eb9874424feb55889f8ace051dee4583e534b40d23e30ca4497de9da9d4d5345",
+    "buffer.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "buffer_robot.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tut.bin": "7d57ba7a9d940717a74bba4e26e92cbeabf3d474ead18a00f92228c976d50c84",
+    "save_v94.sav": "a93c98b8358fe0fb0d9f066d51bf45431016312c8d4f074def2420db5860927e",
+    "steam_autocloud.vdf": "09946c9a4e580aa0bcc2f92aaa1f4a60ab046d889c2064ebb6d0ceda32ec0ee1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "key": "quit",
+  "linux_codes": [
+    29,
+    42,
+    56,
+    31
+  ],
+  "input": "ydotool kernel input",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "08a0908274574130bc6d3fded553401323540e2d8f01201e728fc27d376cf5bd",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": null,
+  "game_exited": true
+}

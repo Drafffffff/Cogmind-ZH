@@ -1,0 +1,16 @@
+{
+  "key": "g",
+  "linux_codes": [
+    34
+  ],
+  "input": "ydotool kernel input",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "42ad4b4f7ab1314564bb3bd83808aa69f171317efedd2b64fb82d6dd6379944a",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-polish-log-item-pickup-pixel25.mp4",
+  "game_exited": null,
+  "local_output": "output/cogmind-polish-log-item-pickup-pixel25.mp4"
+}

@@ -1,0 +1,86 @@
+{
+  "status": "requires_runtime_verification",
+  "scope": "Eight exact HUD startup/status variants and eight observed help attribute labels. Native source/history preserved.",
+  "records": [
+    {
+      "source": "Systems online...",
+      "translation": "系统上线...",
+      "column": 1
+    },
+    {
+      "source": "Loading variables...",
+      "translation": "加载变量...",
+      "column": 1
+    },
+    {
+      "source": "CORE=STABLE",
+      "translation": "核心=稳定",
+      "column": 1
+    },
+    {
+      "source": "CORE=UNSTABLE",
+      "translation": "核心=不稳定",
+      "column": 1
+    },
+    {
+      "source": "INTEGRATION=OK",
+      "translation": "整合=正常",
+      "column": 1
+    },
+    {
+      "source": "LOCATION=UNKNOWN",
+      "translation": "位置=未知",
+      "column": 1
+    },
+    {
+      "source": "GOAL=EXPLORE",
+      "translation": "目标=探索",
+      "column": 1
+    },
+    {
+      "source": "GOAL=ESCAPE",
+      "translation": "目标=逃离",
+      "column": 1
+    },
+    {
+      "source": "( remaining core integrity )",
+      "translation": "( 核心剩余耐久 )",
+      "column": -1
+    },
+    {
+      "source": "( available energy )",
+      "translation": "( 可用能量 )",
+      "column": -1
+    },
+    {
+      "source": "( available matter )",
+      "translation": "( 可用物质 )",
+      "column": -1
+    },
+    {
+      "source": "( system corruption level )",
+      "translation": "( 系统损坏程度 )",
+      "column": -1
+    },
+    {
+      "source": "( temperature/heat level )",
+      "translation": "( 温度/热量 )",
+      "column": -1
+    },
+    {
+      "source": "( movement type and speed )",
+      "translation": "( 移动类型与速度 )",
+      "column": -1
+    },
+    {
+      "source": "( time elapsed )",
+      "translation": "( 已用时间 )",
+      "column": -1
+    },
+    {
+      "source": "( current location )",
+      "translation": "( 当前位置 )",
+      "column": -1
+    }
+  ]
+}

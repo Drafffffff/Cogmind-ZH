@@ -1,0 +1,10 @@
+{
+  "capture": "output/log34-expanded-crop-grid.json",
+  "sha256": "4b0109f8a7a56ece30d54334fd780409345d6890159c784b029c6ab6921e5672",
+  "dll_sha256": "18e7827a9ec91bc765ab1e559cff697f89607cdd2f8a9f25d257fd5769cc42ab",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

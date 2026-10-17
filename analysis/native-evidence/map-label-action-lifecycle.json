@@ -1,0 +1,87 @@
+{
+  "task": "Read-only trace of map-label fade action lifetime and manager collection",
+  "binary": {
+    "path": "original/bazzite/COGMIND.exe",
+    "sha256": "6d24c525c12de38f3fc21017b023f22ea6d3ec94e3b160d83ef0570327701666",
+    "image_base": "0x400000"
+  },
+  "supporting_evidence": {
+    "asm": {
+      "path": "analysis/native-evidence/map-label-action-lifecycle.asm",
+      "sha256": "9faf5b176d35f8103dcca141cd85f8a3e4fd2265b3c3a725b9fc980b2177362d"
+    },
+    "prior_dispatch_report": "analysis/native-evidence/map-label-palette-path.json",
+    "cell_layout": {
+      "path": "runtime/zh_child_text_draw.h",
+      "struct": "ZhChildTextCell",
+      "offsets": {
+        "fg_rgb": "cell+0x0c..0x0e",
+        "bg_rgb": "cell+0x0f..0x11"
+      }
+    }
+  },
+  "proven_native_facts": [
+    {
+      "address": "0x454c40",
+      "fact": "Initializes an action record (the caller allocates 0xb4 bytes in 0x510c40). The record initializes small dynamic containers at +0x10, +0x18, +0x20, +0x28, +0x68, +0x70 and larger containers at +0x84, +0x94, +0xa4."
+    },
+    {
+      "address": "0x510c40-0x510cd5",
+      "fact": "The console animation manager owns a pointer collection at manager+0x14. If its auxiliary collection at +0x24 is empty, it allocates/constructs an action and inserts its pointer in +0x14. If nonempty, it obtains an existing entry from +0x24 and inserts it into +0x14. The method returns an entry from +0x14."
+    },
+    {
+      "address": "0x9bb920; 0x9b8a30",
+      "fact": "The container count helper computes (end-begin)/4 from the first two dwords of the container. The index helper returns begin + 4*index. In this use, 0x510c40 and 0x5110e0 dereference that slot as an action-record pointer."
+    },
+    {
+      "address": "0x50ef00-0x50f10f",
+      "fact": "At the map-effect callsite 0x7b14ab-0x7b14ca, 0x7b1630 returns its first/out-object argument in EAX. The caller pushes that returned output pointer and the original 0x7aea40 first argument, calls manager method 0x510c40, then calls 0x50ef00 on the returned action. Constructor stores 0x50ef00 arg+0xc (the 0x7b1630 output pointer) at action+0 and arg+8 (the original source/label argument) at action+4. Therefore action+0 is not manager and action+4 is not command 0x30/0x31. The command is passed as 0x7b1630 arg+0xc at the helper call and influences its generated output descriptor. The constructor separately initializes copied two-DWORD aggregates beginning at +0x10 from its additional stack parameters."
+    },
+    {
+      "address": "0x50f980-0x5105d5",
+      "fact": "The action update first returns false if action+0x08 is zero. When the global value loaded from [0xcafdf0] reaches/passes the nonzero action+0x0c threshold, the terminal branch clears action+0x08 to zero and returns true. Other terminal/cancellation branches also return true. Thus true means the action is to be retired; zero +8 means it is inactive."
+    },
+    {
+      "address": "0x5110e0-0x511198",
+      "fact": "The manager iterates pointers in manager+0x14, calls 0x50f980 on each record, and when it returns true removes that element from +0x14 through 0x9e4150. This proves an active-entry/removal lifecycle. A broad xref scan found multiple direct callers of 0x5110e0, including UI and map-related code; the object method is therefore an actively used manager update routine."
+    },
+    {
+      "address": "0x510ce0-0x510d4d; 0x454d90-0x454dcf",
+      "fact": "The manager searches its active collection using 0x454d90. The comparator first compares action+0 with its first query key, then calls 0x409da0 with ECX=action+0x10 and a pointer to the second query key. 0x409da0 compares two DWORDs at action+0x10/+0x14 against queryPair+0/+4. This establishes an opaque compound identity key; native evidence here does not establish those words as cell x/y coordinates."
+    },
+    {
+      "address": "0x9e4150; 0x48c230; 0x454cf0",
+      "fact": "The manager removal call at 0x9e4150 performs a container erase; element ownership is released through wrapper 0x48c230, and action record destructor body 0x454cf0 cleans its nested containers. The manager uses a direct call to 0x50f980 for per-action update; this path does not require a virtual update-vtable lookup."
+    }
+  ],
+  "read_only_probe_recommendation": {
+    "manager_pointer": "For a known child console, inspect manager = *(DWORD *)(console+0x64), as used by native callers such as 0x49a660 and 0x7aea40 paths.",
+    "active_collection": "Read manager+0x14 as a three-dword vector header: begin at +0x14, end at +0x18, capacity at +0x1c (begin/end use is directly proven; capacity interpretation is conventional and not needed). Count is (end-begin)/4; each slot is a pointer to an action record.",
+    "minimal_action_fields": [
+      "action+0x00",
+      "action+0x04",
+      "action+0x08",
+      "action+0x0c",
+      "action+0x10",
+      "action+0x14",
+      "action+0x18",
+      "action+0x1c"
+    ],
+    "completion_test": "After the native manager update returns, an action record with nonzero action+0x08 remains active. Retirement is indicated by +0x08 cleared or the pointer removed from manager+0x14. To associate the observed map-label path, first look for action+0x04 equal to the label/source object passed at 0x7aea40+8; action+0x00 is the helper output pointer returned by 0x7b1630, and 0x30/0x31 are passed into that helper to derive the output descriptor. Preserve the action compound key as opaque: comparator 0x454d90 checks +0 then pair +0x10/+0x14, and the evidence does not prove that pair means cell coordinates.",
+    "sampling_timing": "Take pre/post snapshots on the same thread boundary around 0x5110e0, or on a synchronized read-only frame callback. Include manager pointer, vector begin/end/count, pointer list, and the minimal fields above for any matching entry; also include the current global value [0xcafdf0] so the threshold comparison can be audited.",
+    "limits": [
+      "Retirement can also occur on cancellation or invalidation paths; collection absence proves no matching action is active, not that the intended visual reached a specific target color through the normal path.",
+      "This is a static trace, not a live memory confirmation that a particular map-label action is present in this collection on the current build.",
+      "Do not infer that root source was unread from an empty root-row sample; child-console source and visibility remain separate observations.",
+      "The manager collection is a generic action list; the static evidence does not establish that all entries map to one label or row. Filter by the compound key for the child-local coordinate/query being tested.",
+      "The 0x454d90 compound key is not semantically named by this disassembly; do not call it x/y without further evidence. action+0 and +4 assignments at the map callsite are directly known as helper output pointer and source/label input, respectively."
+    ]
+  },
+  "corrected_palette_interpretation": {
+    "sample_path": "output/map-label-palette-samples.json",
+    "sample_sha256": "7bc11c9965d74bb41064f5b072c08bf84a391f9b046ead6cf359b93b88fc8b39",
+    "field_order": "Per runtime/zh_child_text_draw.h: fgR,fgG,fgB,bgR,bgG,bgB.",
+    "observed": "For child 0xe9bc8d8, FG stays 000000 while BG transitions ff00ff -> 000000 -> 001e00 -> 005500 -> 006b00 -> 008700 -> 008c00. Thus this scene's observed transition is in the background bytes, not foreground.",
+    "sample_discrepancy": "The supplied verbal sequence included green 120, while the raw source file records 0x6b (107) for the intermediate sample."
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "upstream_commit": "c105ef104137954887273c80e79fdb05841f681c",
+  "version": "v102-zh-pixel.34-log-scroll-preview",
+  "validation": {
+    "status": "passed",
+    "tables": {
+      "trans": {
+        "translated_rules": 56399,
+        "upstream_rules": 56249,
+        "verified_resource_rules": 150,
+        "source_rules": 56399,
+        "errors": 0,
+        "width_warnings": 0
+      },
+      "para": {
+        "translated_rules": 16757,
+        "upstream_rules": 16377,
+        "verified_resource_rules": 380,
+        "source_rules": 16757,
+        "errors": 0,
+        "width_warnings": 0
+      }
+    },
+    "total_rules": 73156,
+    "manual_required_pixel_glyphs": 1307,
+    "manual_layout": {
+      "status": "prototype_not_installed_or_runtime_verified",
+      "source_sha256": "ad2724257c2b4a646eef875bc0233e70aa042dc639092784cda6923ff9b8df0f",
+      "audit_sha256": "1e481b34d859cae1636431d66822cc330191bb031637e479b6d66064554dca02",
+      "review_sha256": "3c01e2600d7400cc54baf67faded0c6b946f50c1c14deb6cca54e28cd4099816",
+      "proxy_sha256": "69eb1eea83595e9500900dcb59a32ac9cfe2444e125212e555ccf493c9448bf3",
+      "chapter_count": 26,
+      "subheading_count": 135,
+      "translated_rows": 2324,
+      "native_body_rows": 2938
+    },
+    "animation_layout": {
+      "status_layout": "follow_translated_label_one_cell_padding_each_side",
+      "status": "prototype_requires_runtime_verification",
+      "scope": "Runtime-observed intro labels only; other animated UI paths remain to implement.",
+      "records": [
+        {
+          "source": "Grid Sage Games presents",
+          "translation": "Grid Sage Games 荣誉出品",
+          "marker": "q",
+          "center": true,
+          "status_after": -1
+        },
+        {
+          "source": "SEQUENCE INITIATED",
+          "translation": "序列已启动",
+          "marker": "z",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": "REGENERATING NEURAL FIBERS",
+          "translation": "正在再生神经纤维",
+          "marker": "x",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": "SCANNING NETWORK",
+          "translation": "正在扫描网络",
+          "marker": "j",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": " VIRUS DETECTED ",
+          "translation": "发现病毒",
+          "marker": "v",
+          "center": true,
+          "status_after": 3
+        },
+        {
+          "source": "FORMATTING NON-VITAL INORGANICS",
+          "translation": "正在格式化非必需无机物",
+          "marker": "k",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": "DOWNLOADING ORGANIC MEMORY",
+          "translation": "正在下载有机记忆",
+          "marker": "w",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": " FRAGMENTED ",
+          "translation": "碎片化",
+          "marker": "y",
+          "center": true,
+          "status_after": 6
+        },
+        {
+          "source": "INITIATING RECOVERY",
+          "translation": "正在启动恢复",
+          "marker": "f",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": " FAILED ",
+          "translation": "失败",
+          "marker": "c",
+          "center": true,
+          "status_after": 8
+        },
+        {
+          "source": "SECURING SYSTEM",
+          "translation": "正在保护系统",
+          "marker": "b",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": " SECURED ",
+          "translation": "安全",
+          "marker": "d",
+          "center": true,
+          "status_after": 10
+        },
+        {
+          "source": "EXTERNAL AUDIO ACTIVE",
+          "translation": "外部音频已启用",
+          "marker": "h",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": "ENGAGE CORE",
+          "translation": "启动核心",
+          "marker": "m",
+          "center": false,
+          "status_after": -1
+        },
+        {
+          "source": " STABLE ",
+          "translation": "稳定",
+          "marker": "n",
+          "center": true,
+          "status_after": 13
+        },
+        {
+          "source": "PREPARING CONTROL OVERLAY",
+          "translation": "正在准备控制界面",
+          "marker": "p",
+          "center": false,
+          "status_after": -1
+        }
+      ]
+    },
+    "hud_layout": {
+      "status": "requires_runtime_verification",
+      "scope": "Eight exact HUD startup/status variants and eight observed help attribute labels. Native source/history preserved.",
+      "records": [
+        {
+          "source": "Systems online...",
+          "translation": "系统上线...",
+          "column": 1
+        },
+        {
+          "source": "Loading variables...",
+          "translation": "加载变量...",
+          "column": 1
+        },
+        {
+          "source": "CORE=STABLE",
+          "translation": "核心=稳定",
+          "column": 1
+        },
+        {
+          "source": "CORE=UNSTABLE",
+          "translation": "核心=不稳定",
+          "column": 1
+        },
+        {
+          "source": "INTEGRATION=OK",
+          "translation": "整合=正常",
+          "column": 1
+        },
+        {
+          "source": "LOCATION=UNKNOWN",
+          "translation": "位置=未知",
+          "column": 1
+        },
+        {
+          "source": "GOAL=EXPLORE",
+          "translation": "目标=探索",
+          "column": 1
+        },
+        {
+          "source": "GOAL=ESCAPE",
+          "translation": "目标=逃离",
+          "column": 1
+        },
+        {
+          "source": "( remaining core integrity )",
+          "translation": "( 核心剩余耐久 )",
+          "column": -1
+        },
+        {
+          "source": "( available energy )",
+          "translation": "( 可用能量 )",
+          "column": -1
+        },
+        {
+          "source": "( available matter )",
+          "translation": "( 可用物质 )",
+          "column": -1
+        },
+        {
+          "source": "( system corruption level )",
+          "translation": "( 系统损坏程度 )",
+          "column": -1
+        },
+        {
+          "source": "( temperature/heat level )",
+          "translation": "( 温度/热量 )",
+          "column": -1
+        },
+        {
+          "source": "( movement type and speed )",
+          "translation": "( 移动类型与速度 )",
+          "column": -1
+        },
+        {
+          "source": "( time elapsed )",
+          "translation": "( 已用时间 )",
+          "column": -1
+        },
+        {
+          "source": "( current location )",
+          "translation": "( 当前位置 )",
+          "column": -1
+        }
+      ]
+    }
+  },
+  "files": {
+    "WININET.dll": "645b62b7a8af46dd55c2049b21e85769ea4edab01a6eab976be5ada8d9e70fa0",
+    "zh_trans.tsv": "38b222d5ad7b48e75cab2c988dda56b217cad9eee61e78ebb56ac3386f4cc871",
+    "zh_para.tsv": "ed5b509f0f734e4c3742f1c9c07692b767919e3bceb75fb6f932c15ddd9e81ec",
+    "FONT-LICENSE.txt": "ba5c8c77b09a01fbcc3e707b377d956980582840a7cb82de1c7639c100b670cc",
+    "manual.txt": "69eb1eea83595e9500900dcb59a32ac9cfe2444e125212e555ccf493c9448bf3"
+  }
+}

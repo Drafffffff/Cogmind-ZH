@@ -1,0 +1,10 @@
+{
+  "capture": "output/scan-zhuyin-stuck.json",
+  "sha256": "3e84ed7da0a7436c19e89c8900bc152b694ee18f92ec37d1c810d5710f978154",
+  "dll_sha256": "8c7ad478a243476fb0f2be6b5c9bab284b1eb3ccbb07a3a1ad948bb7579d00fc",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

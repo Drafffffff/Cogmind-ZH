@@ -1,0 +1,10 @@
+{
+  "capture": "output/data-panel-alignment-current.json",
+  "sha256": "dcaea0393b4652eab14d7a5f94f7b19ff4fc2367c7a9ad5a79eb707577a7abfd",
+  "dll_sha256": "cbe908b9c8e5673cafa207032a4a2cc30501bb3ecf3f28df3acfb9ab4893aac9",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

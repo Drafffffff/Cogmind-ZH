@@ -1,0 +1,10 @@
+{
+  "capture": "output/polish-log-before.json",
+  "sha256": "b678b1523d271abf46c3d0c6f88aff176922088cc469d3622e531ae0364a0443",
+  "dll_sha256": "66dc586fe16717ad311177c2fdc5a808766d1c9230123e8e6a069e262c69be5b",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

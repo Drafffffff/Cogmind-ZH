@@ -1,0 +1,17 @@
+{
+  "key": "wheel",
+  "linux_codes": [],
+  "input": "ydotool kernel input",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "18e7827a9ec91bc765ab1e559cff697f89607cdd2f8a9f25d257fd5769cc42ab",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-log34-expanded-up.mp4",
+  "game_exited": null,
+  "mp4_path": "output/cogmind-log34-expanded-up.mp4",
+  "mp4_sha256": "7afe408d6e18421a58c3ba06db19e7f29fd2b7886004470fa5fd7327d579fd55",
+  "grids.json_path": "output/cogmind-log34-expanded-up.grids.json",
+  "grids.json_sha256": "f065b0c89f0bb9666573b4e9a07f7f813dfc4d9a9e36ef4112e7efbf629e6596"
+}

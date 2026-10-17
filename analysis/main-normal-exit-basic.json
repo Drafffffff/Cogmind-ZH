@@ -1,0 +1,15 @@
+{
+  "key": "1",
+  "linux_codes": [
+    2
+  ],
+  "input": "ydotool kernel input",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 41943041",
+  "window": "41943041",
+  "display": ":1",
+  "dll_sha256": "66dc586fe16717ad311177c2fdc5a808766d1c9230123e8e6a069e262c69be5b",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-main-normal-exit-basic.png",
+  "game_exited": null
+}

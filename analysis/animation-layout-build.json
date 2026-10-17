@@ -1,0 +1,119 @@
+{
+  "status_layout": "follow_translated_label_one_cell_padding_each_side",
+  "status": "prototype_requires_runtime_verification",
+  "scope": "Runtime-observed intro labels only; other animated UI paths remain to implement.",
+  "records": [
+    {
+      "source": "Grid Sage Games presents",
+      "translation": "Grid Sage Games 荣誉出品",
+      "marker": "q",
+      "center": true,
+      "status_after": -1
+    },
+    {
+      "source": "SEQUENCE INITIATED",
+      "translation": "序列已启动",
+      "marker": "z",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": "REGENERATING NEURAL FIBERS",
+      "translation": "正在再生神经纤维",
+      "marker": "x",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": "SCANNING NETWORK",
+      "translation": "正在扫描网络",
+      "marker": "j",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": " VIRUS DETECTED ",
+      "translation": "发现病毒",
+      "marker": "v",
+      "center": true,
+      "status_after": 3
+    },
+    {
+      "source": "FORMATTING NON-VITAL INORGANICS",
+      "translation": "正在格式化非必需无机物",
+      "marker": "k",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": "DOWNLOADING ORGANIC MEMORY",
+      "translation": "正在下载有机记忆",
+      "marker": "w",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": " FRAGMENTED ",
+      "translation": "碎片化",
+      "marker": "y",
+      "center": true,
+      "status_after": 6
+    },
+    {
+      "source": "INITIATING RECOVERY",
+      "translation": "正在启动恢复",
+      "marker": "f",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": " FAILED ",
+      "translation": "失败",
+      "marker": "c",
+      "center": true,
+      "status_after": 8
+    },
+    {
+      "source": "SECURING SYSTEM",
+      "translation": "正在保护系统",
+      "marker": "b",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": " SECURED ",
+      "translation": "安全",
+      "marker": "d",
+      "center": true,
+      "status_after": 10
+    },
+    {
+      "source": "EXTERNAL AUDIO ACTIVE",
+      "translation": "外部音频已启用",
+      "marker": "h",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": "ENGAGE CORE",
+      "translation": "启动核心",
+      "marker": "m",
+      "center": false,
+      "status_after": -1
+    },
+    {
+      "source": " STABLE ",
+      "translation": "稳定",
+      "marker": "n",
+      "center": true,
+      "status_after": 13
+    },
+    {
+      "source": "PREPARING CONTROL OVERLAY",
+      "translation": "正在准备控制界面",
+      "marker": "p",
+      "center": false,
+      "status_after": -1
+    }
+  ]
+}

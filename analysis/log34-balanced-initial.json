@@ -1,0 +1,10 @@
+{
+  "capture": "output/log34-balanced-initial.json",
+  "sha256": "151ecf4f1f69878b0a78fe7f2141188a912c0896534f0426a66d84cdcbd4ef69",
+  "dll_sha256": "18e7827a9ec91bc765ab1e559cff697f89607cdd2f8a9f25d257fd5769cc42ab",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

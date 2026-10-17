@@ -1,0 +1,10 @@
+{
+  "capture": "output/log34-expanded-normal-grid.json",
+  "sha256": "031873a699965f7e78f4eccf3fb2f7fadda2b946409c1b92b11dabc6f2efb731",
+  "dll_sha256": "18e7827a9ec91bc765ab1e559cff697f89607cdd2f8a9f25d257fd5769cc42ab",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

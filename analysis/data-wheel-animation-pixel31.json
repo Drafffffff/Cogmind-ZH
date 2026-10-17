@@ -1,0 +1,17 @@
+{
+  "key": "pointer",
+  "linux_codes": [],
+  "input": "ydotool kernel input",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "6b7ec23a378ab2231755e90b239ae75516e2bf054e26388cf22886f6ce7c5352",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-data-wheel-animation-pixel31.mp4",
+  "game_exited": null,
+  "mp4_path": "output/cogmind-data-wheel-animation-pixel31.mp4",
+  "mp4_sha256": "310edd8c5af7d2c06712d33273ff6c1c101ba2e8cdc8c9754115bfe7c428ea72",
+  "grids.json_path": "output/cogmind-data-wheel-animation-pixel31.grids.json",
+  "grids.json_sha256": "c7ddab6a6c493e8764d20a965e06d9d81c9270adda3ca2e35e71cb86a7ce53ef"
+}

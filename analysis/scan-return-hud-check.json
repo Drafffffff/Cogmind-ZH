@@ -1,0 +1,10 @@
+{
+  "capture": "output/scan-return-hud-check.json",
+  "sha256": "4c404f93e3da38bf079e262613e8af944015c30eca976df9a49f4e6b5a931a40",
+  "dll_sha256": "cbe908b9c8e5673cafa207032a4a2cc30501bb3ecf3f28df3acfb9ab4893aac9",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}

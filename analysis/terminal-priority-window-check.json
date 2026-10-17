@@ -1,0 +1,8 @@
+{
+  "pid": "331416",
+  "window": "41943041",
+  "method": "read-only window recording; no game input or memory writes",
+  "local_output": "output/cogmind-terminal-priority-window-check.mp4",
+  "seconds": 4,
+  "sha256": "ab029e25db1b5cdd6bbda38537f39b61bb206a5b73fde511d585134a0cd74766"
+}

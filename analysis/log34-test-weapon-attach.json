@@ -1,0 +1,23 @@
+{
+  "key": "pointer",
+  "linux_codes": [],
+  "input": "ydotool pointer with verified X11 coordinates",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "18e7827a9ec91bc765ab1e559cff697f89607cdd2f8a9f25d257fd5769cc42ab",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-log34-test-weapon-attach.png",
+  "game_exited": null,
+  "point": [
+    1164,
+    1272
+  ],
+  "button": "left",
+  "drag_to": [
+    2700,
+    1128
+  ],
+  "local_output": "output/cogmind-log34-test-weapon-attach.png"
+}

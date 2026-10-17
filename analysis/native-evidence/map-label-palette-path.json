@@ -1,0 +1,171 @@
+{
+  "task": "Read-only native audit of map-label fade-in palette and completion state",
+  "binary": {
+    "path": "original/bazzite/COGMIND.exe",
+    "sha256": "6d24c525c12de38f3fc21017b023f22ea6d3ec94e3b160d83ef0570327701666",
+    "image_base": "0x400000"
+  },
+  "runtime_palette_evidence": {
+    "path": "output/map-label-palette-samples.json",
+    "sha256": "7bc11c9965d74bb41064f5b072c08bf84a391f9b046ead6cf359b93b88fc8b39",
+    "status": "captured_read_only",
+    "samples": 585,
+    "errors": 0,
+    "main_user_unchanged": true,
+    "sampled_label": "LGT. TREADS! [1]",
+    "same_child_identity_during_observed_fade": "0xe9bc8d8",
+    "caveat": "The JSON says reads within one sample are sequential preads, not an atomic frame snapshot. The source note itself says not to infer an unread root source from an empty root_row. Uniform line color occurs at intermediate samples as well as at final green 140, so uniformity is not a completion test.",
+    "channel_note": "Corrected using runtime/zh_child_text_draw.h ZhChildTextCell layout: six captured bytes map in order to fgR/G/B then bgR/G/B. Here FG remains black and BG changes from magenta/black to green-channel 30,85,107,135,140.",
+    "discrepancy": "Parent’s stated progression included 120; direct extracted samples for this child/source contain 107 (0x6b) between 85 and 135. This report preserves the discrepancy.",
+    "observed_fg_palette_sequence_raw_legacy_field_name": [
+      {
+        "seconds": 7.352,
+        "sampled_fg_bg_hex": "000000ff00ff",
+        "interpretation": "magenta per parent palette decoding"
+      },
+      {
+        "seconds": 7.3935,
+        "sampled_fg_bg_hex": "000000000000",
+        "interpretation": "black"
+      },
+      {
+        "seconds": 7.4142,
+        "sampled_fg_bg_hex": "000000001e00",
+        "interpretation": "raw sampled component 0x1e (30)"
+      },
+      {
+        "seconds": 7.4556,
+        "sampled_fg_bg_hex": "000000005500",
+        "interpretation": "raw sampled component 0x55 (85)"
+      },
+      {
+        "seconds": 7.4764,
+        "sampled_fg_bg_hex": "000000006b00",
+        "interpretation": "raw sampled component 0x6b (107)"
+      },
+      {
+        "seconds": 7.4973,
+        "sampled_fg_bg_hex": "000000008700",
+        "interpretation": "raw sampled component 0x87 (135)"
+      },
+      {
+        "seconds": 7.5181,
+        "sampled_fg_bg_hex": "000000008c00",
+        "interpretation": "raw sampled component 0x8c (140)"
+      }
+    ],
+    "observed_fg_bg_palette_sequence": [
+      {
+        "seconds": 7.352,
+        "fg": "000000",
+        "bg": "ff00ff",
+        "raw": "000000ff00ff"
+      },
+      {
+        "seconds": 7.3935,
+        "fg": "000000",
+        "bg": "000000",
+        "raw": "000000000000"
+      },
+      {
+        "seconds": 7.4142,
+        "fg": "000000",
+        "bg": "001e00",
+        "raw": "000000001e00"
+      },
+      {
+        "seconds": 7.4556,
+        "fg": "000000",
+        "bg": "005500",
+        "raw": "000000005500"
+      },
+      {
+        "seconds": 7.4764,
+        "fg": "000000",
+        "bg": "006b00",
+        "raw": "000000006b00"
+      },
+      {
+        "seconds": 7.4973,
+        "fg": "000000",
+        "bg": "008700",
+        "raw": "000000008700"
+      },
+      {
+        "seconds": 7.5181,
+        "fg": "000000",
+        "bg": "008c00",
+        "raw": "000000008c00"
+      }
+    ]
+  },
+  "native_facts": [
+    {
+      "address": "0x812bbe-0x812c5d (caller evidence supplied by parent; not duplicated in asm attachment)",
+      "fact": "The caller reaches this path with the line label object at [ebp-0x74]. On the animation branch it dispatches command IDs 0x31 or 0x30 to the label console via 0x7aea40; the alternate branch calls 0x48c770 with that label object."
+    },
+    {
+      "address": "0x48c770-0x48c78e",
+      "fact": "Wrapper 0x48c770 pushes three zero arguments, numeric command 0x30, and its argument, then calls 0x7aea40 with ECX=this. This wrapper does not supply a palette literal."
+    },
+    {
+      "address": "0x7aea40-0x7aea85; 0x7b1421-0x7b14d7",
+      "fact": "0x7aea40 dispatches values <=0x2f through an indexed command table; values above 0x2f branch to a common handler at 0x7b1421. Therefore caller IDs 0x30 and 0x31 share the high-code path. That path constructs coordinate/argument helper objects with 0x7b1630 and then calls the child-animation manager at 0x510c40 and action constructor at 0x50ef00."
+    },
+    {
+      "address": "0x510c40-0x510cd5; 0x50ef00-0x50f085",
+      "fact": "0x510c40 manages a collection at manager+0x14 and calls helper/accessor routines around manager+0x24. The action constructor 0x50ef00 stores several constructor arguments in its object, initializes a floating progress field at +0x34, stores the global tick pointer at +0x08, and stores an additional argument at +0x78. It derives more fields through its parent/config object's vtable and calls 0x410530."
+    },
+    {
+      "address": "0x510ce0-0x510d4d; 0x454d90-0x454dcf",
+      "fact": "The manager scans its +0x14 collection and calls 0x454d90 with coordinates; 0x454d90 compares stored fields and returns a boolean on matching identity/coordinates. This establishes coordinate-keyed lookup, not an animation-completion query."
+    },
+    {
+      "address": "0x49a660-0x49a72f",
+      "fact": "A distinct label lifecycle/update method calls 0x511020 on the console's renderer at +0x64, sends an empty string through 0x48c7a0, then replays stored entries through 0x48c7a0. Per parent clarification this is an expiry/fade-out path, not the fade-in dispatcher."
+    }
+  ],
+  "unknowns_and_inferences": [
+    {
+      "status": "not_proven",
+      "claim": "The exact semantic names for numeric commands 0x30 and 0x31. Native evidence proves both reach the common high-code handler and create/configure coordinate-keyed animation actions, but no command enum/name was found."
+    },
+    {
+      "status": "not_proven",
+      "claim": "A directly-readable final foreground/background target field, or a completion bit, on the console or animation object. Constructor/update code uses a parent/config object's vtable and stores timing/progress-related fields, but this pass did not establish which fields encode the terminal cell palette or a finished state. Do not hardcode green 140 based on the sample."
+    },
+    {
+      "status": "inference_for_followup_only",
+      "claim": "A narrow observer should be associated with the actual affected child-cell coordinate and the action created by command 0x30/0x31. The manager collection is coordinate-keyed, making that a better association than whole-line color uniformity. Before using collection absence as completion, prove where completed actions are removed; before reading target FG/BG, trace the descriptor/vtable fields used by 0x50ef00/its update callback to XCell style writes."
+    }
+  ],
+  "recommended_observation_interface": {
+    "safe_now": "Observe the same child XGrid cell(s) at the native update/render cadence, keyed by the source label and verified child coordinates. Treat palette changes as progress only; do not define completion as uniform foreground, black background, or a hardcoded green value.",
+    "to_prove_completion": "Trace the 0x50ef00 action's vtable update path until its timing/progress comparison and collection removal are identified; then expose a per-coordinate active-action predicate or a post-removal callback. No such completion predicate is established by 0x454d90, which is only used here for coordinate matching.",
+    "to_avoid_races": "Read only after the native action/update call on the same thread or from a synchronized frame callback. Runtime sample file notes each sample is not an atomic frame snapshot."
+  },
+  "evidence_attachments": [
+    {
+      "path": "analysis/native-evidence/map-label-palette-path.asm",
+      "sha256": "f93a39aac7f45e8c8271fb39720959c9e6a4c0540bda6d9300cff05cf576c116",
+      "contains": [
+        "0x48c770",
+        "0x7aea40 dispatch",
+        "0x7b1421 high-code handler",
+        "0x510c40 manager",
+        "0x50ef00 constructor",
+        "0x49a290 lifecycle",
+        "0x49a660 expiry/update"
+      ]
+    },
+    {
+      "path": "analysis/native-evidence/map-label-action-lifecycle.asm",
+      "sha256": "9faf5b176d35f8103dcca141cd85f8a3e4fd2265b3c3a725b9fc980b2177362d",
+      "contains": [
+        "manager active-action lifecycle",
+        "action update and collection removal",
+        "cell channel layout correction"
+      ]
+    }
+  ]
+}

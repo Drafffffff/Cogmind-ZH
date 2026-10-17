@@ -1,0 +1,20 @@
+{
+  "key": "pointer",
+  "linux_codes": [],
+  "input": "ydotool pointer with verified X11 coordinates",
+  "focus": "GAMESCOPE_FOCUSED_APP(CARDINAL) = 722730\nGAMESCOPE_FOCUSED_WINDOW(CARDINAL) = 12582915",
+  "window": "12582915",
+  "display": ":1",
+  "dll_sha256": "42ad4b4f7ab1314564bb3bd83808aa69f171317efedd2b64fb82d6dd6379944a",
+  "main_user_unchanged": true,
+  "main_user_changed_paths": [],
+  "remote_output": "/tmp/cogmind-polish-log-item-step-pixel25.png",
+  "game_exited": null,
+  "point": [
+    1272,
+    1320
+  ],
+  "button": "left",
+  "drag_to": null,
+  "local_output": "output/cogmind-polish-log-item-step-pixel25.png"
+}

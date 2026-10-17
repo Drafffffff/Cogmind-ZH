@@ -1,0 +1,16 @@
+{
+  "mode": "isolated_sandbox_interactive",
+  "status": "running",
+  "sandbox": "/home/bazzite/Games/Cogmind-ZH-sandbox/Cogmind-20261011T165520.803328Z",
+  "captures": [
+    {
+      "name": "manual-sandbox-00-loaded.png",
+      "remote_path": "/tmp/cogmind-manual-sandbox/manual-sandbox-00-loaded.png",
+      "sha256": "050020ed1c7b97b0f72ff054d1e3796c3d7b752c73edb4dde3ac3fd53b9de0a8",
+      "size": 111718,
+      "local_path": "/Users/drafff/Documents/ChatGPT/汉化/COGMIND/output/manual-sandbox-00-loaded.png"
+    }
+  ],
+  "actions": [],
+  "latest_progress": "保留隔离启动SSH会话并录制开场，已运行约50秒；Gamescope游戏焦点=已确认"
+}

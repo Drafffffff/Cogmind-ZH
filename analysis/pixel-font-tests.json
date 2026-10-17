@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "atlas_glyphs": 35548,
+  "required_glyphs": 2418,
+  "missing_glyphs": [],
+  "raster_test": "PASS: sorted BMP lookup, 7 raster sizes, bounds, binary pixel alpha"
+}

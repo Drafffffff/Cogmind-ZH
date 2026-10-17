@@ -1,0 +1,10 @@
+{
+  "capture": "output/polish-log-item-grid-pixel25.json",
+  "sha256": "aeddc4d052962621550b6f6393b851d09474ed5d3a2f143be44f7c5c59aba6c3",
+  "dll_sha256": "42ad4b4f7ab1314564bb3bd83808aa69f171317efedd2b64fb82d6dd6379944a",
+  "method": "read-only same-user /proc root-grid snapshot; logged root candidate validated against live header",
+  "grid": [
+    160,
+    45
+  ]
+}
